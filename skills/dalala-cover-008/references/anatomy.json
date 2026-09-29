@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-008",
+  "status": "studied",
+  "source": "../../../参考封面图/dalala-cover-ref-008.jpg",
+  "sourcePixels": {"width": 1440, "height": 1920, "ratio": "3:4"},
+  "measurement": "Normalized x/y/w/h in percent of source canvas; manually estimated outer boxes, overlapping boxes are not additive pixel areas.",
+  "firstLook": "左侧贴脸自拍、右前景斜举手机与底部两行大字同时形成亲历经验和可见证据；冷亮手机屏与蓝色错位字影呼应。",
+  "primaryFocus": ["双眼", "底部第二行结果标题", "右侧冷亮手持证据"],
+  "dominantAxis": "左上眼神 → 右中斜手机 → 底部大字；右上三行是竖向补充轴",
+  "readingPath": ["人脸眼神", "底部两行结果承诺", "右上受众与利益短语", "右前景证据物", "右中即时旁白"],
+  "elements": [
+    {"role": "portrait", "sourceContent": "左侧真人自拍头脸与肩部", "box": [0, 0, 77, 65], "innerFaceBox": [10, 18, 55, 39], "eyesYPercent": [25, 31], "layer": 2, "constraints": ["发顶与左肩出框", "双眼可见且不被文字压住", "保留自拍近景及自然光影"]},
+    {"role": "clothingAndBody", "sourceContent": "下方印花衣服", "box": [0, 48, 100, 52], "layer": 1, "constraints": ["照片纹理而非新插图", "退到主标题后面"]},
+    {"role": "heldEvidence", "sourceContent": "右侧手持行程/地图手机", "box": [63, 32, 37, 48], "handBox": [82, 69, 18, 31], "approxClockwiseRotationDegrees": [35, 45], "visibleScreenAreaPercent": [10, 16], "layer": 3, "constraints": ["真实握持与机身透视", "右边出框", "屏幕展示与标题同主题的事实"]},
+    {"role": "audienceLead", "sourceContent": "P人", "box": [78, 1, 21, 13], "lines": 1, "fontVariant": "fine", "layer": 4},
+    {"role": "benefitEmphasis", "sourceContent": "无痛", "box": [75, 11, 25, 13], "lines": 1, "fontVariant": "fine", "layer": 4, "colorRole": "coolAccent"},
+    {"role": "scenarioContinuation", "sourceContent": "出行", "box": [76, 23, 24, 12], "lines": 1, "fontVariant": "fine", "layer": 4},
+    {"role": "reactionAside", "sourceContent": "怎么hybe都有?!（原图小字按可见笔形暂录，需人工确认）", "box": [59, 55, 38, 6], "lines": 1, "fontVariant": "fine", "layer": 5, "constraints": ["短且口语化", "不与主标题同级"]},
+    {"role": "mainTitleLead", "sourceContent": "1分钟搞定", "box": [5, 66, 68, 14], "lines": 1, "fontVariant": "display", "layer": 7, "constraints": ["左起", "数字加约四个汉字的宽度", "硬色右下错位影"]},
+    {"role": "mainTitlePayoff", "sourceContent": "旅行攻略", "box": [2, 80, 97, 19], "lines": 1, "fontVariant": "display", "layer": 7, "constraints": ["比第一行高约1.25至1.45倍", "左右与下缘近出框", "硬色右下错位影"]}
+  ],
+  "contentRoles": {
+    "subject": "亲历者和情绪锚点",
+    "mainTitle": "具体效率方法与结果对象，两行一短一长",
+    "secondaryTitle": "右上三行受众/利益/场景",
+    "auxiliary": "右中一句即时反应",
+    "evidence": "本人近景手持的具体展示面",
+    "decoration": "主标题冷色右下硬错位影；无独立贴纸或箭头",
+    "background": "连续室内自拍，右上灰米干净墙面"
+  },
+  "protectedZones": ["双眼及鼻梁", "手机展示面中心", "右上三行文字所在的安静底"],
+  "density": "上左照片密、上右疏、中部人脸与手机交错、下部两行大字密",
+  "layerOrder": ["室内墙面与衣服", "人脸", "真实手和斜举证据物", "右上三行细字", "右中细字旁白", "底部冷色错位字影", "底部奶白主字"],
+  "assetGrammar": {"crop": "近脸且发顶/左肩触边", "cutout": "原图无明显抠图；素材不匹配时仅为重建同一自拍视角而用", "perspective": "右前景物件相对脸更近并顺时针斜举", "occlusion": "物件与衣服压叠；大字覆衣服和局部手机下方，眼睛与屏幕中心受保护", "repetition": "none", "foreground": "手持手机与底部主字", "midground": "人脸和肩部", "background": "室内墙面"},
+  "typography": {"fontStyleId": "dalala-cover-008-casual-hand", "fine": "细圆头自由手写，中文与拉丁混排须同手感", "display": "同家族粗圆笔展示字，不等宽而清楚", "firstLineWidthPercent": [64, 72], "secondLineWidthPercent": [94, 99], "secondToFirstGlyphHeightRatio": [1.25, 1.45], "titleRowGapCanvasHeightPercent": [2, 5], "displayTrackingGlyphWidthPercent": [0, 8], "offsetShadow": {"direction": "right-down", "xCanvasWidthPercent": [0.6, 1.2], "yCanvasHeightPercent": [0.4, 0.9], "edge": "hard", "not": ["all-around outline", "blurred shadow", "extruded 3D"]}},
+  "colorRoles": {"photoBase": "暖/中性中低饱和照片约70%至80%", "evidenceFace": "冷亮展示面约10%至16%", "highLightnessText": "奶白/浅象牙文字实际墨色约7%至12%", "coolAccent": "右上利益词与主字硬影约2%至5%", "rule": "色值可变，面积、明度层级与冷暖关系保持"},
+  "materialEffects": ["自然自拍纹理与柔光", "真实手机玻璃与边框", "细字平滑实心", "粗字平滑实心与冷色右下硬错位影"],
+  "locked": ["3:4", "左大脸与右斜举证据物的面积及透视", "右上三行细字和右中一行旁白", "底部两行一短一长且第二行近满宽", "眼睛/展示面保护区", "暖照片与冷亮证据及少量冷色字效的视觉关系"],
+  "adaptive": ["人物身份与服装", "标题具体文字", "手机或可手持证据物", "真实展示内容", "具体色值"],
+  "optional": ["右中旁白可简化为更短的自然反应，但必须保留其低层级与位置"],
+  "forbidden": ["通用AI小人", "悬浮手机贴片与伪造界面", "把主标题增成三行", "眼睛被文字遮挡", "普通圆体回退", "全周蓝描边或模糊蓝影", "无证据的抽象承诺", "未经验收变active"],
+  "fontDependencies": [
+    {"role": "audienceLead/benefitEmphasis/scenarioContinuation/reactionAside", "type": "font-style-id", "id": "dalala-cover-008-casual-hand", "variant": "fine", "required": true, "status": "testing"},
+    {"role": "mainTitleLead/mainTitlePayoff", "type": "font-style-id", "id": "dalala-cover-008-casual-hand", "variant": "display", "required": true, "status": "testing"}
+  ],
+  "analysisConfirmed": false,
+  "renderAllowed": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-042-soft-display",
+  "status": "testing",
+  "sourceCover": "dalala-cover-042",
+  "script": "Han",
+  "roles": ["upperTitle", "lowerTitle"],
+  "glyphStructure": "标准可辨汉字骨架，宽厚重心，局部圆润平切与外伸收笔，非机械等宽",
+  "stroke": "粗实心主笔，收笔略细，边缘平滑且有少量手工起伏",
+  "composition": {"lines": 2, "charactersPerLine": 2, "secondLineShiftCanvasPercent": [12, 15], "trackingGlyphWidthPercent": [0, 12], "lineGapGlyphHeightPercent": [2, 12]},
+  "effect": {"upper": "冷亮实字加向右下偏移 7–10% 字高的深灰硬影", "lower": "浅色实字加向右下偏移 5–8% 字高的冷色硬影"},
+  "output": "透明 RGBA 字面与独立阴影层；不可把原照片烘入文字层",
+  "approvedReference": null,
+  "renderAllowed": false
+}

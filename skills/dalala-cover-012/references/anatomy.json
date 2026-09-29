@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-012",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "analysisJobId": "8990cca3-c22a-4499-90bc-81c6a95f2cf4",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-012.jpg",
+    "archivedReference": "skills/dalala-cover-012/assets/reference-original.jpg",
+    "sha256": "def7ae2442a53b1dda67d98e83f6640e4e87c04c641ddd17033e7fed02a30f0b",
+    "width": 1440,
+    "height": 1920,
+    "reviewedOriginal": true,
+    "measurementMethod": "1440×1920 原图目视测绘；位置、面积和角度是复刻执行初值，待测试图校准，不是源图层测量",
+    "bboxConvention": "[x0,y0,x1,y1]，单位为画布百分比；外接框可重叠，不可直接相加为可见面积",
+    "positionTolerancePercentagePoints": 2,
+    "rotationToleranceDegrees": 2
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "productionSize": [
+      1080,
+      1440
+    ],
+    "orientation": "portrait",
+    "fullBleed": true
+  },
+  "visualConclusion": "顶部约四分之一以超大数字、中英混排主标题和青蓝斜向副标题给出数量承诺；中心真人直视并双手举出最大案例卡，六张较小卡沿左右两翼环绕，深色径向隧道收拢视线。原图标题承诺 100，画面仅展示七张代表样本。",
+  "primaryMechanism": "数量承诺 + 真人背书 + 一张大样本卡和六张外围样本卡；七张是对较大集合的代表展示，不等于标题数量的完整枚举。大小差、环绕、真实握持和径向透视组织高密度素材。",
+  "contentRoles": [
+    {
+      "role": "mainHeadlineGroup",
+      "bboxPercentXYXY": [
+        3,
+        2,
+        96,
+        18.5
+      ],
+      "meaning": "单行数量型主标题，原图由超大数字、中文价值词与短拉丁关键词组成",
+      "alignment": "optical single line, shallow rise to the right",
+      "visualPriority": 1,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "headlineNumeral",
+      "bboxPercentXYXY": [
+        3,
+        3.5,
+        37,
+        18.5
+      ],
+      "meaning": "数量承诺与首要缩略图钩子，占主标题视觉重量约 42%–48%",
+      "alignment": "left edge nearly touches safe margin",
+      "visualPriority": 1,
+      "tolerancePercentagePoints": 1.5
+    },
+    {
+      "role": "headlineChinese",
+      "bboxPercentXYXY": [
+        36,
+        4.5,
+        70,
+        16.5
+      ],
+      "meaning": "解释数字是什么，承接数量承诺",
+      "alignment": "tight to numeral and Latin word",
+      "visualPriority": 1,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "headlineLatin",
+      "bboxPercentXYXY": [
+        69,
+        3,
+        95,
+        15
+      ],
+      "meaning": "短行业关键词或内容类别，末端形成速度感",
+      "alignment": "right aligned within headline group",
+      "visualPriority": 1,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "subtitleBanner",
+      "bboxPercentXYXY": [
+        22,
+        12.5,
+        88,
+        24
+      ],
+      "meaning": "单行副标题与方法反差，置于亮色圆角斜条内",
+      "alignment": "rises 4°–6° toward the right",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "playBadge",
+      "bboxPercentXYXY": [
+        89,
+        10.5,
+        98,
+        18.5
+      ],
+      "meaning": "圆形播放/行动符号，封住标题右端并补足角部重量",
+      "alignment": "right edge satellite",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "presenter",
+      "bboxPercentXYXY": [
+        18,
+        22,
+        82,
+        100
+      ],
+      "meaning": "单人真人背书与中心尺度锚点，胸肩出画并真实双手举卡",
+      "alignment": "centered on x=50%–52%",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "face",
+      "bboxPercentXYXY": [
+        37,
+        30,
+        65,
+        53
+      ],
+      "meaning": "身份识别区，直视镜头，必须保持完整清楚",
+      "alignment": "centered below subtitle",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "heroCard",
+      "bboxPercentXYXY": [
+        30,
+        55,
+        68,
+        97
+      ],
+      "meaning": "最大可视样本卡；真实左右双手握持。可见面约为单张外围卡的 2.2–2.8 倍",
+      "alignment": "near-upright, optical center x=49%",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "heroCardLabel",
+      "bboxPercentXYXY": [
+        32,
+        88,
+        66,
+        93
+      ],
+      "meaning": "黄色圆角标签，编号加短类别名",
+      "alignment": "bottom centered on hero card",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 1.5
+    },
+    {
+      "role": "leftUpperCard",
+      "bboxPercentXYXY": [
+        2,
+        22,
+        28,
+        45
+      ],
+      "meaning": "上左分类案例，面向中心轻微内倾",
+      "alignment": "counterclockwise 5°–8°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "leftMiddleCard",
+      "bboxPercentXYXY": [
+        0,
+        45,
+        25,
+        68
+      ],
+      "meaning": "中左分类案例，允许轻微触边",
+      "alignment": "counterclockwise 2°–5°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "leftLowerCard",
+      "bboxPercentXYXY": [
+        3,
+        72,
+        29,
+        94
+      ],
+      "meaning": "下左分类案例，压住画面左下并与主卡形成前后差",
+      "alignment": "counterclockwise 3°–6°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "rightUpperCard",
+      "bboxPercentXYXY": [
+        72,
+        20,
+        98,
+        48
+      ],
+      "meaning": "上右分类案例，面向中心轻微内倾",
+      "alignment": "clockwise 5°–8°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "rightMiddleCard",
+      "bboxPercentXYXY": [
+        76,
+        48,
+        100,
+        70
+      ],
+      "meaning": "中右分类案例，允许右缘轻微出画",
+      "alignment": "clockwise 3°–6°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "rightLowerCard",
+      "bboxPercentXYXY": [
+        73,
+        73,
+        98,
+        95
+      ],
+      "meaning": "下右分类案例，压住画面右下并平衡左下卡片",
+      "alignment": "clockwise 2°–5°",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "radialTunnel",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "黑底上的金色/冷色同心弧线和径向速度线，消化拼贴缝隙并把视线导向中心",
+      "alignment": "vanishing center around x=51%, y=45%",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 5
+    },
+    {
+      "role": "microDecorations",
+      "bboxPercentXYXY": [
+        2,
+        1,
+        98,
+        75
+      ],
+      "meaning": "四角星、叉号、小圆环与点阵，只放在卡片间的黑色缝隙",
+      "alignment": "asymmetric gap filling along radial flow",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 4
+    }
+  ],
+  "absentRoles": [
+    "brandLogo",
+    "bodyCopy",
+    "footerInformationBar",
+    "regularGrid",
+    "secondPresenter",
+    "photographicEnvironment"
+  ],
+  "firstFocus": "超大数量数字与同一行的中英主标题",
+  "secondaryFocus": "正面人脸与双手举起的最大主案例卡",
+  "tertiaryFocus": "左右六张带编号分类标签的案例卡",
+  "dominantAxis": {
+    "primary": "x=50%–52% 的中心竖轴，串联副标题、人脸、主卡和底部标签",
+    "secondary": "顶部主标题与副标题整体向右上抬升 4°–6°",
+    "support": "六张外围卡沿以 x≈51%、y≈52% 为中心的左右环带展开"
+  },
+  "readingPath": [
+    "超大数字与主标题",
+    "亮色副标题带",
+    "正面人脸",
+    "手持主案例卡及其标签",
+    "左右上中下六张分类卡",
+    "播放符号与缝隙装饰"
+  ],
+  "densityMap": {
+    "top0To24Percent": "高密度文字区，约 78%–88% 横向宽度被主副标题占据",
+    "middle24To55Percent": "中高密度；人脸居中，左右上层卡围合，脸部周围仍保留黑色轮廓缝",
+    "lower55To100Percent": "最高密度；主卡、双手、躯干与四张中下层外围卡相互叠压",
+    "negativeSpace": "有效留白是卡片之间及人脸两侧约 12–18% 的深色楔形缝隙，不可填正文"
+  },
+  "protectedZones": [
+    {
+      "bboxPercentXYXY": [
+        37,
+        30,
+        65,
+        53
+      ],
+      "rule": "脸部五官不得被卡片、文字或装饰遮挡"
+    },
+    {
+      "bboxPercentXYXY": [
+        23,
+        13,
+        87,
+        24
+      ],
+      "rule": "副标题字区只允许单行，卡片和头发不得穿入"
+    },
+    {
+      "bboxPercentXYXY": [
+        31,
+        55,
+        68,
+        91
+      ],
+      "rule": "主卡有效内容区不得被外围卡或装饰覆盖"
+    }
+  ],
+  "layerOrder": [
+    "full-bleed dark background",
+    "radial arcs, tunnel rings and speed lines",
+    "micro decorations in black gaps",
+    "upper and middle peripheral cards behind presenter silhouette",
+    "presenter hair, face and torso",
+    "lower peripheral cards locally in front of torso edges but outside hands and hero card",
+    "hero card behind gripping fingers and in front of torso",
+    "left and right hands/fingers over hero-card border",
+    "main headline, subtitle banner and play badge"
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainHeadline",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "headline",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "banner",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "cardLabel",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "card-label",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "typography": {
+    "headline": {
+      "lineCount": 1,
+      "numericCharacters": [
+        2,
+        3
+      ],
+      "chineseEquivalentCharacters": [
+        2,
+        4
+      ],
+      "latinCharacters": [
+        3,
+        7
+      ],
+      "forwardSlantDegrees": [
+        8,
+        12
+      ],
+      "trackingEm": [
+        -0.06,
+        -0.02
+      ],
+      "numeralToChineseHeightRatio": [
+        1.25,
+        1.45
+      ],
+      "latinToChineseHeightRatio": [
+        0.95,
+        1.12
+      ],
+      "blockWidthPercent": [
+        90,
+        94
+      ],
+      "originalNumberToVisibleCardCount": "标题 100 对应资源总量，七卡仅为代表样本；制作时须核实总量承诺"
+    },
+    "subtitle": {
+      "lineCount": 1,
+      "chineseEquivalentCharacters": [
+        7,
+        10
+      ],
+      "bannerWidthPercent": [
+        63,
+        68
+      ],
+      "bannerHeightPercent": [
+        8,
+        10
+      ],
+      "innerPaddingPercentOfBannerHeight": [
+        16,
+        24
+      ]
+    },
+    "cardLabels": {
+      "count": 7,
+      "format": "Arabic number + full stop + 4–7 Chinese equivalent characters",
+      "lineCount": 1,
+      "labelHeightPercentOfCard": [
+        10,
+        15
+      ]
+    }
+  },
+  "colorRoles": {
+    "exactColorsLocked": false,
+    "visibleAreaBudgetPercent": {
+      "darkCanvasAndDarkAnchors": 34,
+      "presenterSkinAndClothing": 23,
+      "cardImageFields": 25,
+      "lightFramesAndLightHeadline": 8,
+      "warmHighChromaAccent": 6,
+      "coolHighChromaAccent": 3,
+      "microContrastAccents": 1
+    },
+    "tolerancePercentagePoints": 5,
+    "measurementStatus": "目测互斥面积预算，待复刻成图校准",
+    "contrastLogic": "大面积深底承托两组高明度主色；数量/关键词与卡片标签共用暖亮角色，副标题底板使用冷亮角色并承载深字，白色用于中文标题、卡框和高光分离。",
+    "requiredRelations": [
+      "headline and subtitle remain readable in grayscale",
+      "warm and cool accents are separated by role rather than scattered equally",
+      "card image palettes may vary but white frames and repeated labels unify the set",
+      "skin and product colours remain believable"
+    ]
+  },
+  "effects": {
+    "required": [
+      "black full-bleed stage",
+      "concentric arcs and radial speed lines converging behind the presenter",
+      "clean person cutout with restrained cool-white rim separation",
+      "seven rounded rectangular cards with consistent light frame",
+      "peripheral card rotations alternating inward at 2°–8°",
+      "hero card roughly 2.2–2.8 times the visible area of one peripheral card",
+      "soft short drop shadow and narrow outer glow around cards",
+      "one cool bright slanted subtitle banner",
+      "small four-point stars, one cross, rings/dots and one circular play badge",
+      "one star-like accent attached to the Latin headline word"
+    ],
+    "forbidden": [
+      "paper texture or distressed poster grain",
+      "deep bevelled 3D typography",
+      "neon glow over the entire image",
+      "equal-size grid collage",
+      "random stickers covering content",
+      "heavy white halo around the whole person",
+      "strong perspective distortion inside cards"
+    ]
+  },
+  "layoutContract": {
+    "locked": [
+      "3:4 full-bleed dark stage",
+      "top quarter single-line mixed-script quantity headline and single slanted subtitle banner",
+      "one centered front-facing presenter below the subtitle",
+      "one large near-upright hero card held by both hands in the lower center",
+      "exactly six smaller cards distributed upper/middle/lower on both sides",
+      "all seven cards use repeated rounded light frames and bottom category labels",
+      "peripheral cards face inward with controlled alternating rotation",
+      "radial tunnel and speed-line convergence behind face/hero card",
+      "headline → subtitle → face → hero card → peripheral cards reading path",
+      "face, subtitle and hero-card content remain protected",
+      "central card/hand contact and local front-back masks remain physically credible"
+    ],
+    "adaptive": [
+      "presenter identity, clothing and expression",
+      "headline, subtitle and seven category labels within fixed length contracts",
+      "hero-card and six peripheral-card content",
+      "industry-specific objects and scenes inside cards",
+      "specific colour values while preserving dark/light, warm/cool and area roles"
+    ],
+    "optional": [
+      "micro decorations may vary in exact glyph but remain 6–10 small marks in black gaps",
+      "circular action badge may use a play, arrow or approved platform-neutral action glyph",
+      "one or two peripheral cards may touch the canvas edge, but no key content may be clipped"
+    ],
+    "forbidden": [
+      "turning the seven cards into a regular grid or carousel row",
+      "changing the card count without a separately validated variant",
+      "removing the presenter or replacing the presenter with a generic AI mascot",
+      "floating the hero card without real hands/contact",
+      "covering eyes, subtitle or headline with cards",
+      "giving every card equal size and z-depth",
+      "using unrelated stock images as category proof",
+      "wrapping or shrinking the headline to fit long copy",
+      "using ordinary bold type or dalala-impact-rhythm-heiti as a silent substitute",
+      "binding the reference yellow/cyan HEX values to the template",
+      "adding brand logos, body copy or a footer information bar",
+      "marking approved or active before replication, cross-industry testing and user acceptance"
+    ]
+  },
+  "variableContract": {
+    "person": "身份、外貌、服装和表情可变；单人正面、中心位置、胸像至半身景别、双手举主卡及占比不变。",
+    "text": "文字内容可变；主标题的数字＋中文短语＋拉丁短词结构、副标题单行、七张卡的编号短标签和字块面积不变。",
+    "product": "卡内案例、产品、工具、动物、书籍、食物或场景可变；一张主案例＋六张外围案例的数量、尺寸比、旋转、层级和语义关联不变。",
+    "palette": "具体色值可变；大面积深底、暖亮主钩子、冷亮副标题带、浅色卡框、少量对比点缀的明暗与面积结构不变。"
+  },
+  "invariantContract": {
+    "presenterVisibleAreaPercent": [
+      27,
+      34
+    ],
+    "heroCardVisibleAreaPercent": [
+      15,
+      17
+    ],
+    "singlePeripheralCardVisibleAreaPercent": [
+      5.5,
+      7.5
+    ],
+    "headlineVisibleAreaPercent": [
+      10,
+      14
+    ],
+    "subtitleBannerVisibleAreaPercent": [
+      6,
+      8
+    ],
+    "darkGapVisibleAreaPercent": [
+      12,
+      18
+    ],
+    "heroToPeripheralCardAreaRatio": [
+      2.2,
+      2.8
+    ],
+    "peripheralCardCount": 6,
+    "totalCardCount": 7,
+    "microDecorationCount": [
+      6,
+      10
+    ],
+    "effects": [
+      "radial tunnel convergence",
+      "inward-tilted card orbit",
+      "repeated framed-card system",
+      "real two-hand hero-card contact",
+      "mixed-script oblique quantity headline",
+      "cool slanted subtitle banner",
+      "short card shadows and restrained edge glow"
+    ],
+    "cardNumbering": "原图为 1,2,3,4,5,7,8；编号语法固定，具体序号按真实内容体系安排，不强制连续或照搬原序号"
+  },
+  "transformationGrammar": [
+    {
+      "trigger": "原素材有清楚正面人物、完整上身和双手持板动作",
+      "level": "T1",
+      "action": "重裁为中心胸像/半身，精细抠发丝和手指，清除原背景，将主卡嵌入真实握持关系",
+      "reason": "中心真人与主卡的真实接触是高密度拼贴仍可信的前提"
+    },
+    {
+      "trigger": "人物身份正确但没有双手举持、手部被裁断或姿态无法承托主卡",
+      "level": "T3",
+      "action": "优先补拍；否则在身份约束下重建正面双手持板姿态，逐项审核手指、受力、遮挡、投影和卡片厚度",
+      "reason": "把矩形卡片直接贴在胸前会产生悬浮和假手问题"
+    },
+    {
+      "trigger": "用户只有零散案例图或案例比例不统一",
+      "level": "T2",
+      "action": "逐张裁入同一圆角卡框，保证每张有单一视觉中心、统一安全边距与标签区；不得拉伸或用无关图补数",
+      "reason": "重复卡框建立秩序，内容差异提供丰富度"
+    },
+    {
+      "trigger": "主题没有七个逻辑完整的可视案例/类别",
+      "level": "content-gate",
+      "action": "先补齐一张主案例和六张分类证据；无法补齐时拒用此模板",
+      "reason": "七张卡不是装饰数量，而是数量承诺的视觉证据"
+    },
+    {
+      "trigger": "主标题或副标题超过长度合同",
+      "level": "copy-edit",
+      "action": "改写为 2–3 位数字＋2–4 个中文等效字＋3–7 个拉丁字符，以及 7–10 个中文等效字的单行副标题；不能加行或压扁字形",
+      "reason": "顶部字块必须维持一眼读懂的数量级和速度"
+    },
+    {
+      "trigger": "行业配色与参考配色不同",
+      "level": "role-remap",
+      "action": "重新选择暖亮钩子、冷亮副标题、浅框、深底和微量对比色，保留面积和明度关系，不复制参考 HEX",
+      "reason": "模板锁定颜色职责而非固定色卡"
+    }
+  ],
+  "semanticFit": {
+    "headlineContract": {
+      "numberDigits": [
+        2,
+        3
+      ],
+      "chineseEquivalentCharacters": [
+        2,
+        4
+      ],
+      "latinKeywordCharacters": [
+        3,
+        7
+      ],
+      "unsupportedNumericClaimForbidden": true
+    },
+    "subtitleChineseEquivalentCharacters": [
+      7,
+      10
+    ],
+    "cardLabelChineseEquivalentCharactersExcludingNumber": [
+      4,
+      7
+    ],
+    "subjectCount": 1,
+    "heroCardCount": 1,
+    "peripheralCardCount": 6,
+    "fit": [
+      "资源合集、工具清单或案例库",
+      "视觉能力、作品类型或设计方法集合",
+      "产品多场景、服务多结果或课程多模块",
+      "需要真人主理人背书且能提供七个可视证据的内容",
+      "强数量承诺与高信息密度并存的短视频/图文首屏"
+    ],
+    "reject": [
+      "只有一个产品且没有六种真实场景或类别",
+      "纯观点、情绪独白或安静留白型内容",
+      "多人群像、横向空间全景或长篇条款",
+      "无法提供清楚正面人物或可信双手持物关系",
+      "数量承诺无法核实或卡片内容只是重复同一画面",
+      "标题不能压缩到单行合同"
+    ]
+  },
+  "failureModes": [
+    "主标题换行、被副标题压住或数字不再是第一视觉钩子",
+    "数字、中文和拉丁字的字骨/斜度不一致，像三套字体硬拼",
+    "副标题底板过厚、过窄或水平放置，失去斜向推进",
+    "外围卡变成规整六宫格、等大散贴或随机角度",
+    "主卡与外围卡面积差不足，所有内容同层抢焦点",
+    "人物脸被卡片/装饰遮挡，或头顶撞进副标题",
+    "手指数量、握持受力、卡片厚度、接触阴影或透视错误",
+    "七张卡内容重复、与主题无关或只是占位图",
+    "卡框、圆角、标签条的重复规则不统一",
+    "径向背景缺失，或亮线过多穿过脸和文字造成噪声",
+    "装饰符号超过 10 个、尺寸过大或进入有效内容区",
+    "卡片白边/光晕过厚，整张变成廉价贴纸墙",
+    "颜色全部高饱和且面积平均，失去深底和两级强调",
+    "360 px 下卡片标签完全不可辨、主卡内容不能识别",
+    "把原参考原文、品牌或案例照搬到新主题",
+    "未经用户确认、复刻与跨行业测试即发布为 active"
+  ],
+  "qaStatus": {
+    "referenceReviewed": true,
+    "analysisReport": "skills/dalala-cover-012/references/adaptation-rules.md",
+    "replication": "not-run",
+    "crossIndustry": "not-run",
+    "thumbnailOfGeneratedOutput": "not-run",
+    "fontDependency": "testing-not-approved",
+    "userApproval": false,
+    "sourceNumberingVerified": true,
+    "heroCardAreaRatioCorrectedFromPriorDraft": true,
+    "analysisConfirmed": false
+  },
+  "sourceCardLabels": [
+    {
+      "position": "left-upper",
+      "original": "3.产品海报"
+    },
+    {
+      "position": "left-middle",
+      "original": "4.详情页设计"
+    },
+    {
+      "position": "left-lower",
+      "original": "7.插画风格"
+    },
+    {
+      "position": "center-hero",
+      "original": "5.视觉合成"
+    },
+    {
+      "position": "right-upper",
+      "original": "8.色彩搭配"
+    },
+    {
+      "position": "right-middle",
+      "original": "2.场景插画"
+    },
+    {
+      "position": "right-lower",
+      "original": "1.旅行手账"
+    }
+  ],
+  "sourceTitle": "100个宝藏skill",
+  "sourceSubtitle": "做设计不靠提示词"
+}

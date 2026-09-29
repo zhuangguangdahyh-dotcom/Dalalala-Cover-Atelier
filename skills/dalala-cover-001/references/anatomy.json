@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-001",
+  "status": "testing",
+  "reference": "../assets/reference-original.jpg",
+  "canvas": {
+    "orientation": "portrait",
+    "nativeRatio": "1518:2022 (approximately 3:4)",
+    "targetRatio": "3:4"
+  },
+  "firstGlanceHook": "一个真实创作者被一整支高饱和角色团队包围，立即把抽象的 AI 能力变成可见规模",
+  "contentRoles": {
+    "hero": "中央年轻女性，手持相机向观众执行拍摄动作",
+    "supportingCast": "约七个具有不同工具和性格的彩色角色",
+    "brandWord": "顶部超大圆角字，位于人物和角色之后",
+    "mainTitle": "底部两行白色结论，第一行短、第二行宽",
+    "environment": "摄影棚、灯具、地面与背景纸形成真实生产现场",
+    "subtitle": "none",
+    "auxiliaryText": "none"
+  },
+  "spatialGrammar": {
+    "camera": "高机位俯拍的广角团队合影",
+    "heroZone": "x=0.30..0.68, y=0.23..0.99; face and tool protected",
+    "ensemblePath": "后排两侧站立，中景贴近人物，前景角色从左右下角压入",
+    "brandZone": "上半部背景，约占画面宽度 80%–95%",
+    "titleZone": "下部约 22%–28%，压在人物腿部与前景角色之上",
+    "readingPath": [
+      "顶部品牌色块",
+      "中央人物面孔与相机",
+      "环绕角色数量",
+      "底部结论文案"
+    ]
+  },
+  "depthMechanism": [
+    "摄影棚背景",
+    "顶部品牌字",
+    "后排角色",
+    "中央人物",
+    "前景角色",
+    "底部文字"
+  ],
+  "variableContract": {
+    "person": "人物身份、外貌、服装和具体动作内容可变，但必须处于中央英雄区并维持原景别、方向和面积",
+    "text": "文字内容可变，但顶部字区、底部两行结构、块面尺寸和层级不可变",
+    "product": "产品、工具和 supporting agents 的具体形象可变，但必须保持 U 形包围、数量密度、前中后景和面积关系",
+    "palette": {
+      "background": "中暗低彩，外露约25%–35%",
+      "primaryText": "近白级高明度，字面约7%–11%",
+      "subjectSupport": "自然肤色与服装约18%–24%",
+      "accent": "群像与顶字占余下面积，冷暖交错",
+      "secondaryText": "无",
+      "contrastCheck": "正式图上逐局部验证，建议标题对比至少4.5:1；当前未测",
+      "surfaceNotes": "面积为目测估计，待实测；不固定HEX"
+    }
+  },
+  "invariantContract": {
+    "layout": [
+      "中央英雄区",
+      "U 形包围区",
+      "顶部巨型背景字区",
+      "底部两行结论区",
+      "阅读路径",
+      "图层顺序"
+    ],
+    "areaRatios": {
+      "heroBoundingBox": "26%-31%",
+      "brandBoundingBox": "17%-21%",
+      "titleCombinedBoundingBox": "17%-21%; height about 22%",
+      "supportingContent": "7 boxes in zones, 2 rear + 2 middle + 3 front; overlapping"
+    },
+    "specialEffects": [
+      "高机位广角透视",
+      "前景夸大",
+      "实体三维角色或产品",
+      "前中后景遮挡",
+      "摄影棚环境光与落地阴影",
+      "顶部文字被角色局部遮挡"
+    ]
+  },
+  "locked": [
+    "单一中央英雄区",
+    "U 形内容包围区",
+    "顶部巨型背景字区",
+    "底部两行高明度结论区",
+    "内容面积关系",
+    "明显前中后景",
+    "标志性特殊效果"
+  ],
+  "adaptive": [
+    "人物身份",
+    "文字内容",
+    "产品或工具",
+    "角色具体形象",
+    "具体色值"
+  ],
+  "optional": [
+    "摄影灯",
+    "星芒",
+    "小型圆线装饰",
+    "角色手持道具"
+  ],
+  "forbidden": [
+    "改变固定版式迁就新内容",
+    "改变各区域面积占比",
+    "删除广角、三维、遮挡或摄影棚光影效果",
+    "普通居中肖像加贴纸",
+    "角色沿一条基线平均排列",
+    "背景纯色",
+    "所有元素等大",
+    "文字使用普通黑体",
+    "照搬参考角色造型"
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cut-block-display",
+      "required": true
+    },
+    {
+      "role": "brandWord",
+      "type": "font-style-id",
+      "id": "dalala-cover-001-rounded-backword",
+      "required": true
+    }
+  ],
+  "industryInference": {
+    "required": true,
+    "inputs": [
+      "industry",
+      "accountRole",
+      "topic",
+      "featuredObject",
+      "viewerConclusion"
+    ],
+    "output": "把 supportingContent 槽位转换为行业相关且主题一致的形象群落"
+  },
+  "zones": {
+    "brandWord": [
+      0.11,
+      0.05,
+      0.94,
+      0.26
+    ],
+    "hero": [
+      0.3,
+      0.23,
+      0.68,
+      0.99
+    ],
+    "protectedFace": [
+      0.44,
+      0.28,
+      0.59,
+      0.39
+    ],
+    "protectedTool": [
+      0.36,
+      0.39,
+      0.55,
+      0.51
+    ],
+    "rearLeft": [
+      0.23,
+      0.1,
+      0.46,
+      0.36
+    ],
+    "rearRight": [
+      0.6,
+      0.11,
+      0.8,
+      0.33
+    ],
+    "middleLeft": [
+      0.08,
+      0.32,
+      0.4,
+      0.66
+    ],
+    "middleRight": [
+      0.63,
+      0.29,
+      0.89,
+      0.58
+    ],
+    "frontLeft": [
+      0.05,
+      0.53,
+      0.4,
+      0.89
+    ],
+    "frontRightInner": [
+      0.6,
+      0.45,
+      0.89,
+      0.79
+    ],
+    "frontRightOuter": [
+      0.65,
+      0.68,
+      0.95,
+      0.96
+    ],
+    "titleLine1": [
+      0.3,
+      0.745,
+      0.7,
+      0.84
+    ],
+    "titleLine2": [
+      0.11,
+      0.87,
+      0.9,
+      0.965
+    ]
+  },
+  "analysisStatus": "studied",
+  "renderAllowed": false,
+  "version": "0.2.0",
+  "measurementPolicy": "左上原点，bbox=x0,y0,x1,y1；人工目测外接框，不是像素分割。初始容差位置 ±0.02、宽高 ±0.03，待真实复刻校准。框可重叠，不能相加为100%。",
+  "negativeSpace": [
+    "脸与手持工具识别区禁止侵入",
+    "边缘设备间缝隙与脚下地面不填标签",
+    "顶部字腔和轮廓不被装饰堵塞"
+  ],
+  "transformationGrammar": [
+    {
+      "when": "收到内容",
+      "action": "提取行业、身份、主题、对象和观众结论，先写因果叙事",
+      "reason": "统一背景、七对象和标题"
+    },
+    {
+      "when": "背景无关或无地面",
+      "action": "重构行业工作现场，保留俯拍广角、地面、侧边纵深、后方字墙和统一阴影",
+      "reason": "主题适配且保留空间身份"
+    },
+    {
+      "when": "周围对象未确定",
+      "action": "七槽逐一写对象、含义、动作道具与遮挡，只选一种语义体系",
+      "reason": "对象是标题论据，不是随机装饰"
+    },
+    {
+      "when": "半身或平拍素材",
+      "action": "评估能否保持身份和工具几何完成全身重构；不能则补充合适素材",
+      "reason": "禁止拉长身体"
+    },
+    {
+      "when": "文字超宽",
+      "action": "先改写，保留顶部单行、底部两行短上宽下与固定占比",
+      "reason": "禁止让版式迁就长文"
+    }
+  ],
+  "semanticFit": {
+    "fits": [
+      "个体与多个可解释对象",
+      "多人能力或多步骤具象化",
+      "主理人与产品/知识群落"
+    ],
+    "rejects": [
+      "单品细节大图",
+      "不能角色化的严肃纪实",
+      "不能压缩的长段文案",
+      "七对象无法解释"
+    ]
+  },
+  "failureModes": [
+    "背景与新行业无关",
+    "角色只换色无主题意义",
+    "脸或工具被遮挡",
+    "七对象排成一线",
+    "无体积/接触阴影",
+    "顶部字置于角色之前",
+    "把源图当成功复刻证明"
+  ],
+  "colorRoles": {
+    "background": "中暗低彩，外露约25%–35%",
+    "primaryText": "近白级高明度，字面约7%–11%",
+    "subjectSupport": "自然肤色与服装约18%–24%",
+    "accent": "群像与顶字占余下面积，冷暖交错",
+    "secondaryText": "无",
+    "contrastCheck": "正式图上逐局部验证，建议标题对比至少4.5:1；当前未测",
+    "surfaceNotes": "面积为目测估计，待实测；不固定HEX"
+  },
+  "sourceEvidence": {
+    "reference": "参考封面图/dalala-cover-ref-001.jpg",
+    "sha256": "d6e240b0fcec8ee9441bc760cd7520dd1875de9f53dd5f540b448e8efb4eb5e7",
+    "reviewedOriginal": true,
+    "method": "visual observation; normalized boxes estimated",
+    "width": 1518,
+    "height": 2022,
+    "dimensionMethod": "sips actual file metadata"
+  }
+}

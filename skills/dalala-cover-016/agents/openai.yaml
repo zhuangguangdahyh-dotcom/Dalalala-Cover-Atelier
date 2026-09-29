@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 016 拆解测试"
+  short_description: "深色网页、撕口肖像、四联证据与编辑选区标题"
+  default_prompt: "先读取参考 016 的原图、manifest、anatomy、adaptation-rules 与 QA；未获用户确认前只做分析，禁止正式生产或推荐。"

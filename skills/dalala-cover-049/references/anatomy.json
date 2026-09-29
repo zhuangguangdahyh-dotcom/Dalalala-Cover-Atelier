@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-049",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-049-reference.jpg",
+    "archivedReference": "skills/dalala-cover-049/assets/reference-original.jpg",
+    "sha256": "31c11848616d61e9e4405f35e1d7444cdfb7d77fdf964c543fee12b7866cfbcc",
+    "dimensions": [
+      2880,
+      3840
+    ],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视估算；百分比是复刻起点，容许测试时约 2 个百分点微调",
+    "bboxConvention": "[x0,y0,x1,y1] 为整画布百分比；前后重叠区域不累加"
+  },
+  "visualConclusion": "全幅黄昏街景将远景上海天际线、中景横桥和近景真实行人压成三层；居中浅色衬线大标题把地理身份与生活现场连在一起。",
+  "primaryMechanism": "远景高耸地标给地点识别，中段桥给横向承托和暗部文字底，下段行人及模糊车流给真实步行视角。",
+  "dominantAxis": "中心塔的竖轴与桥的横轴交叉于主标题上方；视线向下进入街头",
+  "primaryFocus": "桥线上方的白色大写衬线地名，随后是中央高塔",
+  "visualWeightCenterPercent": [
+    51,
+    53
+  ],
+  "readingPath": [
+    "中央高塔与城市轮廓",
+    "居中大写主标题",
+    "紧贴其下的行动副题",
+    "横桥",
+    "近景人群与流动模糊"
+  ],
+  "contentRoles": [
+    {
+      "role": "fullBleedPhoto",
+      "bboxPercent": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "同一真实地点的一张纵向街景",
+      "alignment": "full",
+      "z": 0
+    },
+    {
+      "role": "skyNegativeSpace",
+      "bboxPercent": [
+        2,
+        0,
+        41,
+        31
+      ],
+      "meaning": "低细节天空留白，平衡密集街景",
+      "alignment": "upper-left",
+      "z": 1
+    },
+    {
+      "role": "verticalLandmark",
+      "bboxPercent": [
+        43,
+        0,
+        54,
+        48
+      ],
+      "meaning": "高耸地标建立地点身份与纵深主轴",
+      "alignment": "near-center",
+      "z": 2
+    },
+    {
+      "role": "secondarySkyline",
+      "bboxPercent": [
+        0,
+        7,
+        100,
+        50
+      ],
+      "meaning": "左右体量不同的楼群，提供城市尺度与侧向配重",
+      "alignment": "skyline",
+      "z": 2
+    },
+    {
+      "role": "horizontalBridge",
+      "bboxPercent": [
+        0,
+        45,
+        100,
+        54
+      ],
+      "meaning": "跨幅横线承托文字并分开远景与街面",
+      "alignment": "horizontal",
+      "z": 3
+    },
+    {
+      "role": "mainTitle",
+      "bboxPercent": [
+        27,
+        43,
+        73,
+        49
+      ],
+      "meaning": "一行白色大写地点主字，第一文字焦点",
+      "alignment": "center",
+      "z": 5
+    },
+    {
+      "role": "subtitle",
+      "bboxPercent": [
+        38,
+        49,
+        62,
+        52
+      ],
+      "meaning": "一行白色无衬线行动视角",
+      "alignment": "center",
+      "z": 5
+    },
+    {
+      "role": "midgroundStreet",
+      "bboxPercent": [
+        0,
+        55,
+        100,
+        76
+      ],
+      "meaning": "桥下沿街商铺、树影与空间过渡",
+      "alignment": "full",
+      "z": 3
+    },
+    {
+      "role": "pedestrianEvidence",
+      "bboxPercent": [
+        32,
+        66,
+        100,
+        96
+      ],
+      "meaning": "真实行人和骑行活动，证明场景有生活",
+      "alignment": "lower-center-to-right",
+      "z": 4
+    },
+    {
+      "role": "motionBlurForeground",
+      "bboxPercent": [
+        0,
+        70,
+        77,
+        100
+      ],
+      "meaning": "近距离运动模糊制造步行者在场感和深度",
+      "alignment": "bottom-cropped",
+      "z": 5
+    }
+  ],
+  "absentRoles": {
+    "decorativeGraphic": "无人工贴纸、线框或图形装饰",
+    "auxiliaryInformation": "无日期、页码、品牌角标或第三行信息"
+  },
+  "protectedZones": [
+    {
+      "bboxPercent": [
+        26,
+        42,
+        74,
+        52
+      ],
+      "reason": "双行文字需压在可读的中景暗部，不被近景遮挡"
+    },
+    {
+      "bboxPercent": [
+        41,
+        0,
+        56,
+        44
+      ],
+      "reason": "地标上半部与天际线身份必须可辨"
+    }
+  ],
+  "composition": {
+    "photoToText": "照片全幅；文字可见墨色面积约 2–4%，不另占独立底板",
+    "distanceLayers": "远景天空与天际线约 y0–50%，中景横桥约 y45–54% 并过渡到 y75% 街面，近景人群及虚化约 y66–100%",
+    "negativeSpace": "左上天空约 25–32% 低细节画面；右上建筑间天空留缝，底部保持实景密度",
+    "density": "上疏、中等、下密；桥线形成视觉停顿",
+    "occlusion": "楼群遮天空；桥压住楼群下缘；人群与模糊前景遮街面。标题在最上层，但不遮地标顶部"
+  },
+  "typography": {
+    "mainTitle": {
+      "fontStyleId": "dalala-cover-049-city-roman",
+      "textInReference": "SHANGHAI",
+      "script": "Latin uppercase",
+      "lineCount": 1,
+      "bboxPercent": [
+        27,
+        43,
+        73,
+        49
+      ],
+      "relativeHeightToSubtitle": [
+        2.5,
+        3.5
+      ],
+      "effect": "干净白色实字，高反差直立罗马衬线，无描边和明显投影"
+    },
+    "subtitle": {
+      "fontStyleId": "dalala-cover-049-city-sans",
+      "textInReference": "ART OF CITYWALK",
+      "script": "Latin uppercase",
+      "lineCount": 1,
+      "bboxPercent": [
+        38,
+        49,
+        62,
+        52
+      ],
+      "trackingEm": [
+        0.02,
+        0.09
+      ],
+      "effect": "端正无衬线实字，无装饰"
+    }
+  },
+  "paletteStructure": {
+    "coolOrNeutralSkyAndBuildingsPercent": [
+      48,
+      58
+    ],
+    "darkStreetAndForegroundPercent": [
+      28,
+      38
+    ],
+    "warmNaturalLightPercent": [
+      6,
+      12
+    ],
+    "lightTextPercent": [
+      2,
+      4
+    ],
+    "rule": "色值可变，远景偏冷或中性、中下部暗、局部暖光、浅字在暗中景上清楚；画面面积为视觉估算且层间重叠"
+  },
+  "effects": [
+    "自然黄昏蓝灰环境光",
+    "建筑窗口的局部暖光",
+    "实拍景深与前景运动模糊",
+    "无人工纹理、描边、贴纸或强阴影"
+  ],
+  "layerOrder": [
+    "远景天空",
+    "远景地标与楼群",
+    "中景桥和街面",
+    "近景行人与运动模糊",
+    "透明主标题层",
+    "透明副标题层"
+  ],
+  "locked": [
+    "3:4 全幅实景",
+    "远景身份锚／中景横向连接／近景生活三层",
+    "中心竖轴与中段横轴",
+    "中段居中双行英文",
+    "上疏下密及真实空间深度"
+  ],
+  "adaptive": [
+    "行业与账号身份",
+    "地点或空间",
+    "主副标题原文",
+    "具体人物与动作",
+    "具体色值与自然光时段"
+  ],
+  "optional": [
+    "具体地标形式",
+    "真实车流或行人模糊",
+    "少量暖光点"
+  ],
+  "forbidden": [
+    "不相关照片拼贴",
+    "文字移到天空顶部",
+    "标题加第三行",
+    "厚描边和底板",
+    "近景主体遮字",
+    "照搬原图地名和副题",
+    "未测试转 active"
+  ],
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "userAcceptance": false
+  },
+  "assetTreatment": {
+    "cutout": "场景主体不抠图；仅主副标题作为独立透明文字层",
+    "crop": "维持 3:4，保护中心高塔、跨幅桥和下部人流，前景允许从底边裁出",
+    "perspective": "保留街面仰望的自然透视与可信建筑垂线",
+    "occlusion": "桥遮远楼下缘，近景遮街面，任何人物不得遮住双行字",
+    "repetition": "原图无复制重复；迁移时不重复粘贴人或楼来补密度"
+  }
+}

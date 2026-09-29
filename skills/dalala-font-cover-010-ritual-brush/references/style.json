@@ -1,0 +1,16 @@
+{
+  "id": "dalala-cover-010-ritual-brush",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-010/assets/reference-original.jpg",
+  "roles": ["mainTitle"],
+  "script": "Chinese",
+  "recommendedCharacterCount": 2,
+  "fill": "high-lightness-solid-with-intrinsic-dry-fracture",
+  "strokeGrammar": ["heavy broad masses", "sharp elongated directional terminals", "uneven dry edge gaps", "preserved standard Chinese character structure"],
+  "composition": "two oversized interlocking characters on one line; layout box controlled by Cover Skill",
+  "exactColorLocked": false,
+  "effects": {"thickOutline": false, "dropShadow": false, "extrusion": false, "uniformGrungeOverlay": false},
+  "primaryRenderer": "imagegen-transparent-title-layer"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "018 高瘦切角中英字测试"
+  short_description: "参考 018 上下两道中英展示字的透明字层"
+  default_prompt: "先看参考原图与测试态字形规则，再按准确标题生成独立透明字层并逐字检查。"

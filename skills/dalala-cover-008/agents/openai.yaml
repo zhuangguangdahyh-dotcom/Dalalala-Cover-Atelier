@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 008"
+  short_description: "待确认的贴脸自拍与手持证据封面结构"
+  default_prompt: "使用 dalala-cover-008 前先读取注册表原图、anatomy.json、adaptation-rules.md 和 manifest.json；当前仅 studied，不得正式生成或推荐。"

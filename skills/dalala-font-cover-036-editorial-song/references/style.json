@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-036-editorial-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-036/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "requiredInputs": ["text", "canvasWidth", "canvasHeight", "textBox", "accentRole"],
+  "characterConstruction": {
+    "base": "condensed-editorial-song",
+    "weight": "semibold-to-bold",
+    "verticals": "stable-medium-heavy",
+    "horizontals": "fine",
+    "terminals": "sharp-triangular-serif",
+    "widthRatioToConventionalSong": [0.72, 0.88],
+    "trackingRatioToGlyphWidth": [-0.04, 0.02],
+    "estimateOnly": true
+  },
+  "surface": {
+    "fill": "single-solid-accent-role",
+    "outline": "none",
+    "shadow": "none"
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "horizontalScalingOfConventionalFontAllowed": false,
+    "composeSeparatelyFromBackground": true,
+    "singleLineRequired": true
+  },
+  "forbidden": ["ordinary Song fallback", "mechanical horizontal scaling", "breath cuts", "italic slant", "outline", "shadow", "multi-line wrapping"],
+  "productionApproved": false
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-027",
+  "displayName": "参考 027",
+  "version": "0.3.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "a5f90128-8172-4597-96d8-8a961f656b57",
+  "analysisReport": "skills/dalala-cover-027/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-027.jpg",
+  "referenceSha256": "8be9343b05c412841f128dfd83cf6b35805448a0283b47f84479893995f5ca89",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainHan": "优先2字；3字仅限同盒实测通过",
+    "leftLatin": "短全大写词，约4–7字母",
+    "rightLatin": "短全大写词，约4–7字母"
+  },
+  "subjectTypes": [
+    "两段景别或视觉特征不同且同主题的镜头",
+    "上段有可辨主题线索，形式不限定",
+    "下段有新信息与清晰情境落点"
+  ],
+  "contentEmotions": [
+    "高识别主题发现",
+    "双镜头信息递进",
+    "真实情境与镜头差异"
+  ],
+  "firstFocus": "中央巨幅浅亮主题短词；随后辨认上下镜头各自的证据",
+  "spatialStructure": [
+    "上段约38–47%画高，内容和景别依主题",
+    "下段约55–63%画高，提供不同信息与落点",
+    "y35–50%软融合",
+    "中央单行中文与双侧同基线窄高拉丁字"
+  ],
+  "readingPath": [
+    "中央主题短词",
+    "上段主题线索",
+    "两侧短标签",
+    "下段新增情境证据与落点"
+  ],
+  "imageTextRelationship": "标题置于双镜头暗部融合带前层；不遮住任一镜头的唯一主题证据",
+  "locked": [
+    "3:4竖版",
+    "上下两段镜头具有明显景别或视觉特征差异、语义互补",
+    "上段约38–47%与下段约55–63%画高并在y35–50%软融合",
+    "中央浅亮粗重单行中文及左双圆点",
+    "左右同基线窄高拉丁短词",
+    "下段有清楚落点与情境层次",
+    "标题压融合带，保留双镜头阅读路径"
+  ],
+  "adaptive": [
+    "行业、账号身份和主题",
+    "上下镜头各自的实际内容、景别顺序及视觉焦点",
+    "上段是否有大物、其位置与是否越框",
+    "下段落点是否由人物、动作、产品或环境承担",
+    "准确中文主题词及有意义的拉丁标签",
+    "具体色值、真实材质及有理由的裁切、扩图、控光"
+  ],
+  "optional": [
+    "与当前主题真实相关的伴随角色或动作证据",
+    "场景本身提供的环境灯及高光"
+  ],
+  "forbidden": [
+    "把上段巨大物体或越框当固定要求",
+    "两张无关照片或同图轻微缩放拼接",
+    "复制原图地点、巴士、熊、建筑或商标到无关主题",
+    "上下硬切、白雾遮缝",
+    "中文换普通黑体或英文换宽无衬线",
+    "无意义英文、新增副标题或CTA",
+    "下段无落点或为凑版强塞小人物",
+    "未验收即active"
+  ],
+  "variableContract": {
+    "person": "人物身份和动作可变；上、下镜头按主题取舍，不要求原图熊或底部行人。",
+    "text": "词语可变且须准确有意义，中文单行大字、两侧拉丁短词同基线和各文字盒固定。",
+    "product": "产品可出现在任一镜头；上段有无巨大单品与越框均由主题素材决定，不能为套版凭空生成。",
+    "palette": "色值按主题重选；保持相容暗底、局部主题重点、浅亮字和下段次级落点的明度关系。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "上段约38–47%画高、下段约55–63%画高，中央重叠融合",
+      "中文字块约36–40%画宽、18–21%画高",
+      "左右拉丁字各约15–20%画宽、5–6%画高"
+    ],
+    "effects": [
+      "相关双镜头在y35–50%暗部软融合且无硬缝",
+      "两镜头有可辨的景别或视觉特征差异",
+      "中文浅亮字内矿物斑驳及短暗影",
+      "左右拉丁字轻旧印刷感",
+      "当前素材真实局部光和表面质感"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T0保真裁切；T1重新分配两镜头构图／必要扩图；T2局部抠图、融合和修复；无主题关系则退回",
+    "triggers": [
+      "镜头差异不足先换素材或改变机位，不能只缩放同图",
+      "任一镜头缺主题证据先重选素材",
+      "文字与关键证据冲突先重构镜头裁切",
+      "融合带过亮或接缝明显时局部控光与细蒙版",
+      "为填上段必须造巨大无关物品时停用模板"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitleHan",
+      "type": "font-style-id",
+      "id": "dalala-cover-027-stone-han",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "leftLatin/rightLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-027-tall-latin",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "semanticContract": {
+    "requiredChain": [
+      "主题短词",
+      "上段第一组主题证据",
+      "下段新增的第二组主题证据",
+      "两个镜头在景别或视觉特征上明显不同"
+    ],
+    "sourceSpecificContentNotLocked": [
+      "巴士",
+      "卡通熊",
+      "澳门地标",
+      "彩窗",
+      "夜游叙事",
+      "上方必有大物或越框",
+      "底部必有小人"
+    ],
+    "gate": "两镜头无信息增量、无具体主题联系，或靠无关大物填充时不可测试或渲染"
+  }
+}

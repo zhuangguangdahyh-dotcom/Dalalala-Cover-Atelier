@@ -1,0 +1,10 @@
+{
+  "id": "dalala-cover-037-editorial-sans",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-037/assets/reference-original.jpg",
+  "roles": {
+    "masthead": {"case":"uppercase", "weight":"regular-to-medium", "shape":"wide geometric sans, open counter, straight terminal", "trackingEm":[0,0.08], "fill":"solid", "layout":"one centered line"},
+    "tagline": {"case":"uppercase", "weight":"light", "shape":"same geometric family", "trackingEm":[0.25,0.45], "fill":"solid", "layout":"one centered line"}
+  },
+  "forbidden": ["serif", "italic", "outline-only", "drop-shadow", "mechanical horizontal squash", "uneven baseline", "random glyph deformation"]
+}

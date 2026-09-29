@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-019-han",
+  "version": "0.2.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-019/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "secondaryTitleHan"
+  ],
+  "scripts": [
+    "Chinese"
+  ],
+  "characterConstruction": {
+    "base": "直立方硬的现代中文展示字；粗实近等粗且守标准汉字结构",
+    "strokeWeight": "横竖近等粗且实填，不能压死黑字内部方口或山字中间开口",
+    "proportion": "参考两字位于 x59–90%、y22–35%，整体约 31% 画宽、13% 画高",
+    "terminals": "平切方硬，不沿用英文阶梯切口或斜体",
+    "spacing": "两三字紧凑但独立，视觉缝隙可从单字宽 0.08–0.18 试排",
+    "edge": "干净实心硬边，基本无边框/投影"
+  },
+  "fillRole": "相对于冷色环境显著更暖、更亮的次级文字强调色；不固定具体色值",
+  "effects": {
+    "thickOutline": false,
+    "extrusion": false,
+    "glow": false,
+    "textureOverlay": false,
+    "default": "平面实填；不足时先调背景局部明度"
+  },
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": [
+    "exactText",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox",
+    "fillRole"
+  ],
+  "productionApproved": false
+}

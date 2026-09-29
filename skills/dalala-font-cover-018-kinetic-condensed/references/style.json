@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-018-kinetic-condensed",
+  "version": "0.2.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-018/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "upperHook",
+    "bottomTopic"
+  ],
+  "scripts": [
+    "Chinese",
+    "Latin lowercase"
+  ],
+  "characterConstruction": {
+    "base": "tall narrow geometric display glyphs with a stable Chinese skeleton",
+    "strokeWeight": "medium-heavy opaque flat strokes; relatively even body with local directional cuts",
+    "proportion": "visibly taller and narrower than square Chinese sans; maintain readable internal counters",
+    "terminals": "several decisive flat or oblique cuts and sharp folded joins, never rounded bubble ends",
+    "spacing": "tight, visually tuned per glyph; Latin lowercase joins the Chinese as a continuous line",
+    "edge": "clean hard edge; no uniform distress, paper grain, brush bristles or glow"
+  },
+  "fillRole": "single high-identification bright accent color shared by both text layers; exact hue unlocked",
+  "effects": {
+    "thickOutline": false,
+    "extrusion": false,
+    "neonGlow": false,
+    "fixedShadow": false,
+    "compositeShadow": "subtle down-right separation shadow, applied by Cover Skill after transparent layer generation"
+  },
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": [
+    "exactText",
+    "role",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox",
+    "fillRole"
+  ],
+  "productionApproved": false,
+  "sourceUncertainty": "Exact typeface name unknown; dedicated testing grammar, not identified commercial font"
+}

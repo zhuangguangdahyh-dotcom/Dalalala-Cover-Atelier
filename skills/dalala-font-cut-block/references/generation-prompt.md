@@ -1,0 +1,1 @@
+逐字使用 {{text}}，画布 {{canvas}}，独立透明文字层，读取 style-rules.md 与 vitality-qa.md。近白高明度实心切块字，两行短上宽下；填充使用 {{primaryText}}。源图为未验收证据，不添字、不添背景。

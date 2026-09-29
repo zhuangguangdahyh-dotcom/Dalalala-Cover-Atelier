@@ -1,0 +1,4 @@
+interface:
+  display_name: "026 罗马衬线测试"
+  short_description: "双侧英文、期号、坐标与地点的高对比衬线；待验证。"
+  default_prompt: "按参考 026 拉丁字骨生成准确透明字层，检查符号与缩略图。"

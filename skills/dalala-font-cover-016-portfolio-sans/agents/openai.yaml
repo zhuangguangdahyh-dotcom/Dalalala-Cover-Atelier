@@ -1,0 +1,4 @@
+interface:
+  display_name: "016 作品集字形测试"
+  short_description: "网页粗几何英文和结论重黑中文"
+  default_prompt: "仅以 016 原图为字形证据，按角色加载 style.json；未有用户批准样张，不将任何字形标记为已验收。"

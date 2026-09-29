@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 022 拆解"
+  short_description: "上下粗字夹真人的流程封面；待验收"
+  default_prompt: "先查看参考原图与 anatomy、adaptation-rules、qa。此模板处于 studied 且 renderAllowed=false，仅供拆解确认与受控测试。"

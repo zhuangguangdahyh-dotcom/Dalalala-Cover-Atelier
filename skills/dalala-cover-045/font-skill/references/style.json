@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-045-folded-tape",
+  "status": "testing",
+  "version": "0.1.0",
+  "script": "Chinese-Han",
+  "structure": "清楚的标准汉字字骨，由宽扁、硬边折面带状笔画拼接",
+  "strokeWidthRelativeToGlyphHeight": "0.05–0.08",
+  "arrangement": "三段 2+2+1，第一二段近等大，末字放大约 1.3–1.5 倍",
+  "fill": "高明度暖色金属纸带角色；具体色值按作品重新选",
+  "surface": ["方向一致但非机械复制的高光", "局部折痕", "少量压褶", "窄投影"],
+  "counterRule": "字腔与照片窗口必须保持开口，不能为了放照片破坏可读字形",
+  "output": "transparent-title-layer",
+  "reference": "../../assets/reference-original.jpg"
+}

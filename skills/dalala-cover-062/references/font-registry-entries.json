@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dalala-cover-062-jagged-block",
+    "displayName": "062 不规则硬切巨字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-062/font-skills/jagged-block/SKILL.md",
+    "config": "../skills/dalala-cover-062/font-skills/jagged-block/references/style.json",
+    "humanRules": "../skills/dalala-cover-062/font-skills/jagged-block/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-062/font-skills/jagged-block/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-062/font-skills/jagged-block/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-062/font-skills/jagged-block/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-062/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-062-upright-latin-sans",
+    "displayName": "062 顶部直立粗无衬线（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "typographic-style",
+    "skill": "../skills/dalala-cover-062/font-skills/upright-latin-sans/SKILL.md",
+    "config": "../skills/dalala-cover-062/font-skills/upright-latin-sans/references/style.json",
+    "humanRules": "../skills/dalala-cover-062/font-skills/upright-latin-sans/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-062/font-skills/upright-latin-sans/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-062/font-skills/upright-latin-sans/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-062/font-skills/upright-latin-sans/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-062/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "text-layer"
+  }
+]

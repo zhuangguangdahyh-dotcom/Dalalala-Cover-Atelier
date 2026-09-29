@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-012-power-oblique",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-012/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "integration": "integration.md",
+  "requiredInputs": [
+    "text",
+    "variant",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox",
+    "colorRoles"
+  ],
+  "variants": {
+    "headline": {
+      "structure": "2-3 Arabic digits + 2-4 Chinese-equivalent characters + 3-7 Latin characters",
+      "lineCount": 1,
+      "base": "extra-black mixed-script grotesk display sans",
+      "strokeWeight": "extra-black",
+      "slantDegrees": [8, 12],
+      "trackingEm": [-0.06, -0.02],
+      "numeralToChineseHeightRatio": [1.25, 1.45],
+      "latinToChineseHeightRatio": [0.95, 1.12],
+      "numeralVisualWeightPercent": [42, 48],
+      "surface": "solid role-based fills with optional shallow dark offset",
+      "singleStarAccent": true
+    },
+    "banner": {
+      "structure": "7-10 Chinese-equivalent characters",
+      "lineCount": 1,
+      "base": "upright extra-bold square sans",
+      "strokeWeight": "black",
+      "slantDegrees": [0, 2],
+      "trackingEm": [-0.02, 0.02],
+      "surface": "single solid dark role"
+    },
+    "card-label": {
+      "structure": "Arabic number + full stop + 4-7 Chinese-equivalent characters",
+      "lineCount": 1,
+      "base": "heavy compact rounded-square sans",
+      "strokeWeight": "bold-to-black",
+      "slantDegrees": [0, 0],
+      "trackingEm": [0, 0.03],
+      "surface": "single solid dark role"
+    }
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "fixedFontFallbackAllowed": false,
+    "ordinaryWebFontFallbackAllowed": false,
+    "maximumGenerationAttempts": 3,
+    "failurePolicy": "manual-review"
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "forbidden": [
+    "dalala-impact-rhythm-heiti substitution",
+    "ordinary system bold sans",
+    "automatic browser oblique",
+    "per-character random rotation",
+    "multiple baselines",
+    "bubble lettering",
+    "brush or marker texture",
+    "outline show lettering",
+    "deep extrusion",
+    "metal gradient",
+    "multi-line wrapping",
+    "extra decoration or background"
+  ],
+  "productionApproved": false
+}

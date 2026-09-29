@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-027",
+  "analysisStatus": "studied-revised-awaiting-user-confirmation",
+  "measurementBasis": "1518x2022 原图人工目测；bboxPercentXYXY 为此张原图观察，误差约 ±3 个百分点；不可把原图大巴框当跨主题固定物品槽",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "dalala-cover-ref-027.jpg",
+    "width": 1518,
+    "height": 2022,
+    "ratio": "3:4",
+    "sha256": "8be9343b05c412841f128dfd83cf6b35805448a0283b47f84479893995f5ca89",
+    "visibleText": {
+      "mainTitle": "澳门",
+      "leftLatin": "MACAU",
+      "rightLatin": "CHINA",
+      "smallMarks": "主标题左侧上下两个圆点；装饰，不作为正文",
+      "environmentalSigns": "原图现场商铺与车身标识，不作为迁移文字"
+    }
+  },
+  "primaryMechanism": "上下两段有明确景别或视觉特征差异、语义互补的镜头在中央软融合；浅亮巨幅短词压融合带，两侧窄高标签配平，下段提供次级情境落点。原图上方大巴为实例，非固定主物。",
+  "primaryFocus": "中央浅亮主题短词；随后分别识别上下两段镜头的不同主题证据",
+  "dominantAxis": "中央短词与下段情境落点约在x50%纵轴；y约44%的两侧短标签横轴。上段可依真实素材形成偏侧视觉重量，不锁巨物或越框。",
+  "readingPath": [
+    "中央主题短词",
+    "上段镜头的主题线索",
+    "左右有意义的拉丁短标签",
+    "下段新增的情境或结果证据及落点"
+  ],
+  "composition": {
+    "ratio": "3:4",
+    "upperSceneYPercent": [
+      0,
+      43
+    ],
+    "lowerSceneYPercent": [
+      39,
+      100
+    ],
+    "blendBandYPercent": [
+      35,
+      50
+    ],
+    "firstFocusXYPercent": [
+      52,
+      43
+    ],
+    "dominantAxisXPercent": 50,
+    "textAreaPercentEstimate": [
+      10,
+      14
+    ],
+    "nearFarRelation": "原图上方较近、下方较远；迁移只锁两镜头景别或视觉特征差异及信息增量，不锁上近下远",
+    "semanticContinuity": "两镜头分别贡献同一标题的不同证据；不可机械复制澳门旅行叙事或同图微缩放",
+    "twoShotContract": {
+      "upperHeightPercentRange": [
+        38,
+        47
+      ],
+      "lowerHeightPercentRange": [
+        55,
+        63
+      ],
+      "blendBandYPercent": [
+        35,
+        50
+      ],
+      "differenceOptions": [
+        "近景与远景",
+        "整体与细节",
+        "外部与内部",
+        "行动与结果",
+        "人物与其工作情境"
+      ],
+      "required": "360px 下仍能看出两个不同镜头及其主题联系",
+      "notRequired": [
+        "上段巨大单件物体",
+        "上段越框",
+        "上近下远的固定顺序",
+        "底部小人物"
+      ]
+    }
+  },
+  "elements": [
+    {
+      "role": "upperBackground",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        43
+      ],
+      "layer": 0,
+      "visualRank": 5,
+      "alignment": "上段第一镜头；原图为暗夜语境。迁移时占约38–47%画高，并以主题证据为核心，不限物体种类或景别",
+      "semanticRole": "上段独立且有信息的主题镜头"
+    },
+    {
+      "role": "lowerEnvironment",
+      "bboxPercentXYXY": [
+        0,
+        39,
+        100,
+        100
+      ],
+      "layer": 1,
+      "visualRank": 3,
+      "alignment": "下段第二镜头，占约55–63%画高；与上段在景别或视觉特征上不同，提供新的同主题信息与落点",
+      "semanticRole": "下段补充主题证据的镜头"
+    },
+    {
+      "role": "stainedGlassCenter",
+      "bboxPercentXYXY": [
+        40,
+        62,
+        60,
+        85
+      ],
+      "layer": 2,
+      "visualRank": 3,
+      "alignment": "原图亮窗位置观察；迁移时下段需有可见落点，不要求彩窗或严格同位置",
+      "semanticRole": "下景中轴亮点",
+      "observedOnly": true
+    },
+    {
+      "role": "nightLampAndTower",
+      "bboxPercentXYXY": [
+        26,
+        0,
+        42,
+        32
+      ],
+      "layer": 2,
+      "visualRank": 5,
+      "alignment": "原图路灯与塔的环境证据；新主题按真实场景选择，不要求复制",
+      "semanticRole": "上景环境线索",
+      "observedOnly": true
+    },
+    {
+      "role": "upperHeroObject",
+      "bboxPercentXYXY": [
+        49,
+        0,
+        100,
+        43
+      ],
+      "layer": 3,
+      "visualRank": 2,
+      "alignment": "原图红车覆盖此框并越边；迁移时上段可以是场所、人物动作、产品局部、光线或多物关系，不要求大物、此面积或越框",
+      "semanticRole": "原图上段强识别线索实例",
+      "observedOnly": true,
+      "transferRole": "上段第一镜头应有一眼可辨的主题线索，形体与位置依当前镜头决定"
+    },
+    {
+      "role": "upperCharacter",
+      "bboxPercentXYXY": [
+        37,
+        18,
+        54,
+        40
+      ],
+      "layer": 4,
+      "visualRank": 4,
+      "alignment": "原图卡通熊的位置观察；迁移时只有当前主题确有相关人物／动作才加入",
+      "semanticRole": "上景关联角色或证据",
+      "observedOnly": true
+    },
+    {
+      "role": "smallHuman",
+      "bboxPercentXYXY": [
+        45,
+        78,
+        56,
+        100
+      ],
+      "layer": 4,
+      "visualRank": 4,
+      "alignment": "原图底部行人提供尺度；迁移时下段落点可由真实人物、动作、产品或场景结构承担，不强行添人",
+      "semanticRole": "原图下段尺度锚点实例",
+      "observedOnly": true
+    },
+    {
+      "role": "mainTitleHan",
+      "text": "澳门",
+      "bboxPercentXYXY": [
+        33,
+        34,
+        69,
+        54
+      ],
+      "layer": 6,
+      "visualRank": 1,
+      "alignment": "单行居中、压上下镜头融合带；文字可变，不能遮盖两段唯一证据",
+      "semanticRole": "中文主题短词"
+    },
+    {
+      "role": "titleDots",
+      "bboxPercentXYXY": [
+        31,
+        35,
+        35,
+        43
+      ],
+      "layer": 6,
+      "visualRank": 5,
+      "alignment": "两枚上下分离的同材质小圆点"
+    },
+    {
+      "role": "leftLatin",
+      "text": "MACAU",
+      "bboxPercentXYXY": [
+        12,
+        41,
+        29,
+        47
+      ],
+      "layer": 6,
+      "visualRank": 4,
+      "alignment": "与主题相关的短标签，和右侧同基线，不用无意义英文",
+      "semanticRole": "左侧拉丁标签"
+    },
+    {
+      "role": "rightLatin",
+      "text": "CHINA",
+      "bboxPercentXYXY": [
+        72,
+        41,
+        87,
+        47
+      ],
+      "layer": 6,
+      "visualRank": 4,
+      "alignment": "与主题相关的短标签，和左侧配重，不用无意义英文",
+      "semanticRole": "右侧拉丁标签"
+    }
+  ],
+  "negativeSpace": [
+    "上段按当前镜头保留一处低信息呼吸区；原图为x0–30%,y0–15%",
+    "主标题左右相对暗区仅承载短标签",
+    "下段落点及关键主题证据周围不加新文字"
+  ],
+  "imageTextRelationship": "中文压两镜头中央暗部融合带，左右英文置于相对暗区；标题避开两段各自的唯一识别证据，不要求上段出现大物",
+  "typography": {
+    "mainHan": "粗重近方展示字，紧排、直立、浅暖矿物斑驳内纹和短暗影；两个字整体宽约36–40%画宽、高约18–21%画高",
+    "latin": "窄高全大写衬线、轻旧印刷感，左右同基线；每块宽约15–20%画宽、高约5–6%画高",
+    "subtitle": "无独立副标题",
+    "lineCount": "中文1行，左右英文各1行"
+  },
+  "colorRoles": {
+    "dominant": "相容的上下相对暗场合计约60–68%视觉底盘；具体夜景、色温和色值不继承为主题内容",
+    "heroAccent": "原图右上车为约20–28%高彩形体；迁移只保留上段局部重点与暗底、亮字之间的明度层级，高彩线索可来自光、场景、人物或物品",
+    "text": "浅亮主字与两侧短词约10–14%，保持最高文字可读性",
+    "lightPoints": "下景中轴与真实环境的少量局部亮点约3–7%",
+    "policy": "保留上下相容暗场、局部主题重点、浅亮字和下段次级落点的明度关系；不锁具体色号、巴士红或大物面积"
+  },
+  "failureModes": [
+    "机械要求上段有巨大物品或越框",
+    "上下两镜头无主题关系或无信息增量",
+    "同一图略微缩放两次冒充双镜头",
+    "上下硬切、白雾遮缝或透视光影错误",
+    "下段没有可指认的情境落点",
+    "中文普通黑体或英文普通宽无衬线替代测试字体",
+    "标题遮盖两段唯一证据",
+    "复制澳门、巴士、熊、彩窗或招牌到无关主题"
+  ],
+  "semanticContract": {
+    "requiredChain": [
+      "准确的主题短词",
+      "上段镜头提供主题的第一组证据",
+      "下段镜头新增同主题的第二组证据",
+      "两镜头在景别或视觉特征上明显不同"
+    ],
+    "sourceContentNotReusableByDefault": [
+      "澳门／MACAU／CHINA",
+      "红色双层车",
+      "卡通熊",
+      "塔楼和路灯",
+      "彩窗古建筑",
+      "旅行者及现场商标"
+    ],
+    "crossIndustryPolicy": "整体替换两镜头的语义与实际素材；只继承画幅、上下面积、融合、文字、层级和对比机制",
+    "gate": "两镜头没有真实联系或新增信息、只能靠无关大物填上段时判不适配"
+  }
+}

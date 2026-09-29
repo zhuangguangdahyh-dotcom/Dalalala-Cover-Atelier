@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-hollow-show",
+  "displayName": "Dalala 镂空综艺体",
+  "version": "1.0.1",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "powerful-human-vitality",
+    "defaultIntensity": "alive3x",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "variety-show-cover-title",
+    "entertainment-reaction-title",
+    "light-comedy-title",
+    "emotion-emphasis-title"
+  ],
+  "avoidUse": [
+    "long-body-copy",
+    "formal-contract",
+    "dense-information-layout",
+    "serious-institutional-title"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "alive3x",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "preview-and-emergency-readable-draft"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "broad-hollow-handwritten-strokes",
+    "componentProportionVariation": [0.18, 0.35],
+    "strokeWidthRatioWithinStroke": [0.45, 0.75],
+    "normalAngleVariationDegrees": [3, 10],
+    "heroStrokeAngleMaxDegrees": 15,
+    "longStrokeExtension": [0.12, 0.32],
+    "shortStrokeReduction": [0.10, 0.25],
+    "postures": [
+      "forward",
+      "backward",
+      "low-sitting",
+      "springing-up",
+      "wide-stretch",
+      "vertical-compression"
+    ],
+    "gestureStarts": [
+      "heavy-press",
+      "light-touch",
+      "short-return",
+      "double-start"
+    ],
+    "gestureEndings": [
+      "flat-cut",
+      "slanted-cut",
+      "sharp-finish",
+      "quick-hook",
+      "selective-dry-split",
+      "long-drag"
+    ]
+  },
+  "outline": {
+    "color": "#111111",
+    "interior": "transparent",
+    "outerInnerParallel": false,
+    "lineWeight": "locally-variable",
+    "correctionMarksPerGlyph": [0, 3],
+    "roughnessDistribution": "selective-at-starts-turns-and-fast-endings",
+    "keepMostContourRunsClean": true,
+    "forbidUniformDistress": true,
+    "forbidBubbleRoundness": true
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 8],
+    "maximumLines": 2,
+    "heroGlyphsPerLine": [1, 2],
+    "allowLocalCollision": true,
+    "allowStrokeToEnterAdjacentSpacing": true,
+    "punctuationCanShrinkAndSink": true,
+    "keepQuietGlyphBetweenHighEnergyGlyphs": true
+  },
+  "vitalityPresets": {
+    "relaxed": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-2, 2],
+      "glyphScale": [0.96, 1.06],
+      "trackingFactor": [0.86, 1.04],
+      "heroScale": [1.08, 1.14],
+      "gestureDensity": "low"
+    },
+    "lively": {
+      "baselineShiftPercent": [-4, 4],
+      "rotationDegrees": [-4, 4],
+      "glyphScale": [0.90, 1.12],
+      "trackingFactor": [0.74, 1.00],
+      "heroScale": [1.14, 1.22],
+      "gestureDensity": "medium"
+    },
+    "alive3x": {
+      "baselineShiftPercent": [-6, 6],
+      "rotationDegrees": [-6, 6],
+      "glyphScale": [0.84, 1.20],
+      "trackingFactor": [0.66, 0.96],
+      "heroScale": [1.18, 1.30],
+      "gestureDensity": "high-selective"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "hollow-interior-open",
+      "selective-roughness",
+      "per-stroke-variation",
+      "per-glyph-posture-variation",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "at-least-three-distinct-stroke-gestures-per-hero-glyph",
+      "adjacent-glyphs-have-different-posture-or-scale",
+      "one-or-two-clear-hero-glyphs-per-line",
+      "roughness-is-selective-not-uniform",
+      "visible-speed-pressure-and-stop-start-rhythm",
+      "title-remains-immediately-readable"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "system-font-with-uniform-outline",
+    "smooth-inflated-bubble-lettering",
+    "uniform-rounded-terminals",
+    "uniformly-furry-dry-brush-edge",
+    "all-glyphs-same-size-and-angle",
+    "solid-filled-calligraphy",
+    "random-distress-filter",
+    "decorative-stars-stickers-or-explosions",
+    "shadows-or-3d-extrusion"
+  ]
+}

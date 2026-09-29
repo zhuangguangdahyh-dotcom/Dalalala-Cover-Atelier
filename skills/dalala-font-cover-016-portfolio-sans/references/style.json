@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-016-portfolio-sans",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-016/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": {
+    "heroName": {"script": "Latin", "case": "title case", "weight": "extra-bold 750–850 visual", "shape": "broad geometric sans, generously open round counters, straight baseline, solid fill", "trackingEm": [-0.045, -0.015], "layout": "one line covering roughly 93% of site panel inner width"},
+    "mainTitle": {"script": "Han mixed with optional Latin", "weight": "black 850–950 visual", "shape": "upright dense modern square-ish sans with legible interior counters", "trackingEm": [-0.03, 0.01], "layout": "one centered line, middle 2–3 Han glyphs receive a separate selection backdrop"},
+    "supportingText": {"script": "Han mixed with digits", "weight": "medium 450–600 visual", "shape": "clean sans of same modern family", "trackingEm": [0, 0.03], "layout": "one centered line, 40–48% of main-title character height"},
+    "footerWord": {"script": "Latin", "case": "uppercase", "weight": "thin 200–300 visual", "shape": "simple wide open geometric sans", "trackingEm": [0.01, 0.05], "layout": "one centered line below title"}
+  },
+  "forbidden": ["serif or brush strokes", "random rotation per glyph", "hollow hero letters", "3D bevel or long shadow", "mechanical horizontal squash", "outlined and rounded-pill selection instead of separate hard rectangle", "invented or garbled Latin/Han glyphs"]
+}

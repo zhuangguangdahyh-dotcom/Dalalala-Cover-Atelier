@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-006-monoline-tech",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-006/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "requiredInputs": ["text", "script", "role", "canvasWidth", "canvasHeight", "textBox", "primaryLineRole", "registrationRole"],
+  "characterConstruction": {
+    "base": "bilingual-geometric-monoline-display",
+    "supportedScripts": ["latin", "simplified-chinese"],
+    "strokeWeight": "hairline-to-extra-light",
+    "strokeRatioToGlyphHeight": [0.012, 0.022],
+    "latinCounters": "rounded-rectangular-open-tube",
+    "chineseConstruction": "standard readable components with near-equal monoline straight-and-soft-curve strokes",
+    "terminals": "mostly flat or softly rounded, no calligraphic modulation",
+    "trackingRatioToGlyphWidth": [0, 0.04],
+    "registrationOffsetRatioToCanvasWidth": [0.0008, 0.0018],
+    "estimateOnly": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "composeSeparatelyFromBackground": true,
+    "singleLineRequired": true,
+    "oneRolePerLayer": true
+  },
+  "forbidden": [
+    "ordinary thin web heiti",
+    "outline or hollow font",
+    "condensed grotesk",
+    "calligraphic contrast",
+    "rounded cute bubble font",
+    "neon tube glow",
+    "thick chromatic aberration",
+    "long shadow",
+    "3d extrusion",
+    "multi-line wrapping"
+  ],
+  "productionApproved": false
+}
+

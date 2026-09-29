@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-chinese-color-library",
+  "source": {
+    "repository": "https://github.com/nevertoday/zhongguo-traditional-colors",
+    "commit": "57321fc69663bc0ea0cfa3376a9eed8b576ecd98",
+    "license": "MIT",
+    "retrievedAt": "2026-09-14"
+  },
+  "assets": {
+    "masterList": "source/chinese-color-master-list.md",
+    "harmonyCsv": "source/chinese-color-harmony.csv",
+    "harmonyMarkdown": "source/chinese-color-harmony.md",
+    "colorCount": 742,
+    "harmonySetCount": 8904
+  },
+  "policy": {
+    "independentFromLayout": true,
+    "independentFromTypography": true,
+    "templateMayLockExactHex": false,
+    "referencePaletteMeaning": "contrast roles, temperature, lightness, saturation, area ratio and hierarchy evidence",
+    "requiredOutput": [
+      "background",
+      "primaryText",
+      "secondaryText",
+      "subjectSupport",
+      "accent",
+      "areaRatio",
+      "contrastCheck",
+      "surfaceNotes"
+    ]
+  },
+  "harmonyRelations": [
+    "同类色",
+    "邻近色",
+    "互补色",
+    "分裂互补",
+    "三角色",
+    "四角色",
+    "冷暖对照",
+    "明色搭配",
+    "暗色搭配",
+    "灰调搭配",
+    "中性色搭配",
+    "主色",
+    "辅色",
+    "点缀色"
+  ],
+  "surfaces": [
+    "cover",
+    "poster",
+    "advertisement",
+    "ppt",
+    "resume",
+    "long-graphic",
+    "ui",
+    "data-viz",
+    "brand",
+    "print"
+  ]
+}

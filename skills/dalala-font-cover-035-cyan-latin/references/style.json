@@ -1,0 +1,13 @@
+{
+  "id": "dalala-cover-035-cyan-latin",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-035/assets/reference-original.jpg",
+  "roles": ["leftCategory"],
+  "script": "lowercase Latin",
+  "recommendedLength": [3, 6],
+  "fill": "small cool cyan-green accent with very narrow light edge/offset",
+  "sizeRelativeToWhiteQuantity": [0.55, 0.7],
+  "exactColorLocked": false,
+  "effects": {"thickOutline": false, "hardDropShadow": false, "glow": false, "extrusion": false}
+}

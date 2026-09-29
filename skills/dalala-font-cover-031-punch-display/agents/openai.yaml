@@ -1,0 +1,4 @@
+interface:
+  display_name: "031 强冲击展示字｜测试"
+  short_description: "黄黑重字、异形拉丁重点和描边结果字的透明层"
+  default_prompt: "读取 style.json 和 generation-prompt.md；按指定角色生成准确透明字层并执行 vitality-qa.md；当前测试态。"

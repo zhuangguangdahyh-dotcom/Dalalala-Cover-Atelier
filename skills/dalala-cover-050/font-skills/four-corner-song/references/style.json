@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-050-four-corner-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "source": "skills/dalala-cover-050/assets/reference-original.jpg",
+  "usage": "four-independent-corner-han-display-glyphs",
+  "allowedLength": { "hanCharacters": 4, "glyphsPerCorner": 1 },
+  "letterform": "高反差宋骨，粗竖细横，开阔字腔，克制的锐利长锋；每字独立生成",
+  "fillRole": "单色高明度浅色，具体色值由封面分配",
+  "outline": "none",
+  "shadow": "none",
+  "texture": "none",
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "referenceGlyphs": ["何", "为", "审", "美"],
+  "forbidden": ["默认宋体直接放大", "普通黑体", "毛笔飞白", "厚描边", "投影", "渐变", "金属质感", "全局颗粒", "错误汉字结构"]
+}

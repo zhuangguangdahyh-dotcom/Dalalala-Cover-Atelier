@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-062",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "sourceDimensions": {"width": 1263, "height": 1684, "ratio": 0.75},
+  "coordinateSystem": "normalized-percent-left-top-bbox-x1-y1-x2-y2",
+  "firstImpression": "左上黑绿两行硬切巨字先喊出把城市做成游戏，右侧真人用双手展示，下方低模巴黎与前景小车立即兑现承诺",
+  "primaryFocus": "左上双行中文主标题",
+  "primaryMechanism": "左上两行超重硬切巨字提出动作与结果，右侧真人双手把视线导向左下可识别的低多边形成果世界，底部接地的交互物兑现可玩性；三者以同一主题和透视构成因果关系",
+  "dominantAxis": "左上水平双行字块与右侧人脸对衡；手臂形成右上至左下的展示斜线，最终落到塔和汽车",
+  "zones": [
+    {"role": "backgroundWhite", "bbox": [0, 0, 100, 68], "align": "full width visible behind title, face and hands", "z": 0},
+    {"role": "identityLine", "bbox": [5, 4, 67, 10], "align": "left, single line", "z": 8},
+    {"role": "mainTitleUpper", "bbox": [4, 11, 69, 24], "align": "left, densely packed", "z": 8},
+    {"role": "mainTitleLower", "bbox": [4, 25, 67, 40], "align": "left, densely packed", "z": 8},
+    {"role": "personCutout", "bbox": [30, 16, 100, 79], "align": "right bleed and bottom occluded", "z": 5},
+    {"role": "personFace", "bbox": [68, 23, 93, 39], "align": "right visual anchor", "z": 6},
+    {"role": "presentingHands", "bbox": [30, 47, 79, 75], "align": "two open hands direct attention to lower left", "z": 6},
+    {"role": "landmarkTower", "bbox": [3, 42, 35, 83], "align": "left midground, spire enters white zone", "z": 3},
+    {"role": "gameCity", "bbox": [0, 62, 100, 100], "align": "irregular skyline, full bleed bottom", "z": 2},
+    {"role": "foregroundCar", "bbox": [19, 81, 65, 99], "align": "front road, grounded", "z": 7}
+  ],
+  "visualBalance": {
+    "mainTitleAreaApproxPercent": [15, 20],
+    "whiteVisibleAreaApproxPercent": [40, 45],
+    "personVisibleAreaApproxPercent": [18, 23],
+    "gameSceneVisibleAreaApproxPercent": [27, 33],
+    "protectedSpace": [[68, 3, 99, 15], [36, 41, 62, 46]],
+    "faceTitleMinimumGapCanvasWidthPercent": [2, 4]
+  },
+  "readingPath": ["identity line", "upper black action title", "lower deep-color result title", "face", "two presenting hands", "landmark and miniature city", "foreground car"],
+  "layerOrderBackToFront": ["warm neutral white field", "distant buildings and water", "bridge and repeated trees", "landmark and green midground", "person with local forearm masks", "road and grounded vehicle", "identity line and two title layers"],
+  "imageTextRelationship": "字面结果由城市低模画面兑现；真人手势把视线从创作者送到作品，不让人物与场景成为无关拼贴",
+  "typography": {
+    "identityLine": "upright extra-bold sans, black, moderately tight tracking, one line",
+    "mainTitle": "near-square extra-heavy Han skeleton, dense small counters, individual angular cuts and limited per-glyph rotation; no stroke, shadow, glow or extrusion",
+    "upperRole": "near-black action/object",
+    "lowerRole": "deep saturated result, same glyph family",
+    "mainTitleTrackingToGlyphWidth": [-0.03, 0.01],
+    "mainLineGapCanvasHeightPercent": [1, 2],
+    "perGlyphRotationDegrees": [-4, 4]
+  },
+  "colorRoles": {
+    "background": "high-lightness neutral, around 40-45% visible field",
+    "primaryText": "near-black upper line, around 8-11% visible area",
+    "secondaryTitle": "deep color lower line, around 7-10% visible area",
+    "personSupport": "light clothing and natural skin, around 18-23% visible area",
+    "scene": "cool/warm separated low-poly world, around 27-33% visible area",
+    "accent": "small warm landmark and front object, subordinate to title",
+    "contrast": "main title must remain sharply separated from white background; lower color cannot merge with scene green"
+  },
+  "depthAndEffects": ["clean cutout person", "irregular skyline compositing", "shared low-poly perspective and light", "grounded vehicle contact shadow", "repetition decreasing into distance"],
+  "failureModes": ["ordinary bold font replacement", "face or hands covered by title", "unrelated person and miniature world", "flat sticker-like vehicle", "photo-real city mixed with low-poly tower", "busy upper background", "extra title line", "generic AI mascot"]
+}

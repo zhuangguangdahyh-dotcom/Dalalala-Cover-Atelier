@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-172",
+  "name": "放射网格",
+  "category": "字体、网格与东亚文字",
+  "subcategory": "排版系统与网格系统",
+  "learningStatus": "studied",
+  "learningMethod": "pinned-original-reference + full-size-visual-review + cross-media-distillation",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/04-type-grid-cjk/172-网格系统.png",
+    "localReference": "../references/source-thumbnails/172.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "网格系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "字体组织系统",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "用网格、对齐和文字方向建立秩序并容纳复杂中文信息",
+  "principle": {
+    "whyItWorks": "强中心作为信息源，模块沿辐射轴分布，距离、环级和轴向共同表达层级与关系。",
+    "visualMechanism": "强中心作为信息源，模块沿辐射轴分布，距离、环级和轴向共同表达层级与关系。",
+    "readingMotion": "先进入中心，再沿辐射轴向外读取分支，最后回到底部总结。",
+    "emotionalEffect": "有速度、兴奋、具有冲击",
+    "whenToUse": [
+      "一个核心概念连接多个并列分支",
+      "关系、能力、流程或生态需要围绕中心解释"
+    ],
+    "avoidWhen": [
+      "没有真实中心关系的普通清单",
+      "分支多到缩略图无法区分"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "画面正中的金色核心圆与八条放射轴"
+    },
+    "mainTitle": {
+      "role": "建立入口与核心判断",
+      "placement": "顶部居中的大标题，字面本身沿弧形形成冠部",
+      "recommendedLines": "按语义和参考轮廓决定"
+    },
+    "subtitle": {
+      "role": "补充语境",
+      "placement": "标题下方英文名与一句原理说明"
+    },
+    "supportingInfo": {
+      "role": "证据、解释或行动",
+      "placement": "轴端模块、左右解释栏、底部应用示例和设计要点"
+    },
+    "decoration": {
+      "role": "强化结构、方向或材质",
+      "placement": "同心圆、辐射线、节点、星点与底部横线"
+    },
+    "protectedWhitespace": "核心圆内、轴线之间及左右说明与主系统之间的间隔",
+    "readingPath": "先进入中心，再沿辐射轴向外读取分支，最后回到底部总结。"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "一个核心概念连接多个并列分支",
+      "关系、能力、流程或生态需要围绕中心解释"
+    ],
+    "suitableAssets": [
+      "mixed",
+      "text"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "没有真实中心关系的普通清单",
+      "分支多到缩略图无法区分"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先锁定身份或事实锚点，再按该规则主动改变景别、裁切、位置、层间关系与可见范围。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化该规则的主骨架、阅读动作或主题隐喻时使用。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "标题可拱在系统上方或沿外环排列；标题不得与中心争夺第一焦点",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "360 px 缩略图仍能识别标题、第一焦点与主阅读方向。"
+  },
+  "selectionSignals": [
+    "一个核心概念连接多个并列分支",
+    "关系、能力、流程或生态需要围绕中心解释",
+    "中心是否真能解释所有分支，且遮住标签后仍看得出由内向外的关系？"
+  ],
+  "rejectionSignals": [
+    "只画一个装饰圆盘，分支之间没有语义",
+    "中心与标题一样大导致双焦点",
+    "所有节点同权且过密"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以 system-map 作为唯一主骨架。",
+      "保持阅读动作：先进入中心，再沿辐射轴向外读取分支，最后回到底部总结。",
+      "保持参考中的主次重量、关键对齐、受保护留白和图文关系。"
+    ],
+    "adaptive": [
+      "当前标题、语义分组和信息数量",
+      "素材裁切、景别、位置、遮挡与背景",
+      "独立选择的字体风格",
+      "按当前内容重新建立的颜色角色与色值",
+      "目标媒介和画幅的独立重构"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“放射网格”？"
+  },
+  "deepStudyStatus": "deep-studied",
+  "transformationGrammar": {
+    "minimumTransformationLevel": "T2",
+    "identityAnchors": [
+      "人物脸与真实表情",
+      "产品关键结构",
+      "事实与数据证据"
+    ],
+    "compositionFreedoms": [
+      "把人物、产品、关键词或数字压缩成中心锚",
+      "将最多 4–8 个分支放到明确辐射方向",
+      "用距离和节点大小区分重要度"
+    ],
+    "imageRebuildActions": [
+      "把人物、产品、关键词或数字压缩成中心锚",
+      "将最多 4–8 个分支放到明确辐射方向",
+      "用距离和节点大小区分重要度"
+    ],
+    "titleInteraction": [
+      "标题可拱在系统上方或沿外环排列",
+      "标题不得与中心争夺第一焦点"
+    ],
+    "topicMetaphorExample": "专家 IP 可将人物头像作为中心，方法、案例、结果和信任证据沿四条主轴展开。"
+  },
+  "semanticFit": {
+    "templateFamily": "system-map",
+    "bestFor": [
+      "一个核心概念连接多个并列分支",
+      "关系、能力、流程或生态需要围绕中心解释"
+    ],
+    "avoidFor": [
+      "没有真实中心关系的普通清单",
+      "分支多到缩略图无法区分"
+    ],
+    "selectionQuestion": "中心是否真能解释所有分支，且遮住标签后仍看得出由内向外的关系？"
+  },
+  "failureModes": [
+    "只画一个装饰圆盘，分支之间没有语义",
+    "中心与标题一样大导致双焦点",
+    "所有节点同权且过密"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-024",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "1015x1353 原图目测；bboxPercentXYXY 按画宽画高归一，左上为原点，边缘误差约 ±2–3 个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "dalala-cover-ref-024.jpg",
+    "width": 1015,
+    "height": 1353,
+    "ratio": "3:4",
+    "visibleText": {
+      "mainTitle": "地理是人类命运的初稿",
+      "mainSemanticGroups": ["地理", "是", "人类", "命运", "的", "初稿"],
+      "englishLines": ["Geography is The", "First Draft of", "Human Destiny"],
+      "auxiliaryText": null
+    }
+  },
+  "primaryMechanism": "左上至左下的10 字圆厚近白字瀑布，对照右下占据大面积的深色野外动物与右中三行细衬线英文；真实草场和背上两鸟让抽象地理命题有尺度证据",
+  "primaryFocus": "圆厚白色中文主句，次为深色横向动物躯体和真实动作；鸟与英文分别提供尺度及二次阅读",
+  "dominantAxis": "中文沿 x约30–40% 自 y13% 向 y78% 下行；动物背脊在 y约52–60% 横向连到右边界，构成副轴",
+  "readingPath": ["左上地理", "内嵌的是", "中左人类", "中左命运", "动物背前的的与初稿", "右中英文", "牛背两鸟及环境"],
+  "elements": [
+    {"role": "backgroundPhoto", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "visualRank": 5, "alignment": "连续失焦灰绿草场，近底草叶和少量黄花，无色块分割"},
+    {"role": "largeDarkSubject", "bboxPercentXYXY": [17, 51, 100, 100], "layer": 0, "visualRank": 2, "alignment": "深色长毛牛科动物低头，躯体横贯下半右侧并从右与下出框；真实毛发与野外环境同空间"},
+    {"role": "headAndNeck", "bboxPercentXYXY": [17, 70, 50, 100], "layer": 0, "visualRank": 3, "alignment": "左下低头取食方向，连接躯体且从底边继续"},
+    {"role": "birdLeft", "bboxPercentXYXY": [64, 47, 75, 56], "layer": 0, "visualRank": 4, "alignment": "站于背脊左侧，朝向左下，保持接触点"},
+    {"role": "birdRight", "bboxPercentXYXY": [87, 45, 98, 55], "layer": 0, "visualRank": 4, "alignment": "站于背脊右侧，面朝左侧，形成双点尺度节奏"},
+    {"role": "mainTitle", "text": "地理是人类命运的初稿", "bboxPercentXYXY": [12, 13, 57, 78], "layer": 3, "visualRank": 1, "alignment": "左侧纵向瀑布，语义组 2／1／2／2／1／2，宽窄错落与局部上下相接，不等距居中"},
+    {"role": "titleGroupGeography", "text": "地理", "bboxPercentXYXY": [13, 13, 56, 31], "layer": 3, "visualRank": 1, "alignment": "上双字，右字向下，形成第一宽组"},
+    {"role": "titleGroupIs", "text": "是", "bboxPercentXYXY": [22, 24, 34, 34], "layer": 3, "visualRank": 1, "alignment": "夹在顶组与下组之间的小字"},
+    {"role": "titleGroupHuman", "text": "人类", "bboxPercentXYXY": [12, 30, 47, 45], "layer": 3, "visualRank": 1, "alignment": "再张开的双字错层组"},
+    {"role": "titleGroupDestiny", "text": "命运", "bboxPercentXYXY": [12, 40, 51, 62], "layer": 3, "visualRank": 1, "alignment": "中段厚重双字，向下压到动物背前"},
+    {"role": "titleGroupOf", "text": "的", "bboxPercentXYXY": [36, 58, 48, 66], "layer": 3, "visualRank": 1, "alignment": "右偏小字作为向底部宽组的转折"},
+    {"role": "titleGroupFirstDraft", "text": "初稿", "bboxPercentXYXY": [12, 65, 55, 78], "layer": 3, "visualRank": 1, "alignment": "底部双字跨草地与动物暗部，重新放宽"},
+    {"role": "englishEcho", "text": "Geography is The / First Draft of / Human Destiny", "bboxPercentXYXY": [53, 35, 88, 46], "layer": 2, "visualRank": 4, "alignment": "三行高反差细衬线字，块内居中，位于平静草场，避让两鸟"},
+    {"role": "subtitleCard", "present": false},
+    {"role": "ctaOrBadge", "present": false},
+    {"role": "signature", "present": false}
+  ],
+  "spatialWeight": {
+    "titleEnvelopePercentXYXY": [12, 13, 57, 78],
+    "englishEnvelopePercentXYXY": [53, 35, 88, 46],
+    "darkSubjectApproxAreaPercent": [25, 35],
+    "mutedEnvironmentApproxAreaPercent": [55, 65],
+    "brightChineseGlyphApproxAreaPercent": [8, 12],
+    "englishGlyphApproxAreaPercent": [0.5, 1.5],
+    "warmNaturalDetailAreaPercentMax": 3,
+    "upperQuietZonePercentXYXY": [0, 0, 100, 12],
+    "rightUpperQuietZonePercentXYXY": [58, 0, 100, 34]
+  },
+  "protectedAreas": ["上方环境空气", "右上草场留白", "英文周围的安静草场", "两只鸟头和站立接触处", "动物背脊与左下头颈可辨轮廓", "主字开放字腔"],
+  "typography": {
+    "mainTitle": "十个汉字，正确字骨，圆厚钝端的平涂手工白字，伸展横画和自然不等字宽；2／1／2／2／1／2 语义分组在左侧纵向错落",
+    "mainStrokeWidthToGlyphWidth": [0.10, 0.19],
+    "mainPairGapXPercent": [0, 4],
+    "mainGroupGapYPercent": [-2, 3],
+    "englishEcho": "三行中心对齐、高反差罗马衬线体，细发丝与中性略松字距，行高为字高 1.05–1.25 倍",
+    "englishToMainGlyphHeightRatio": [0.14, 0.20],
+    "fill": "纯实心高明度，无飞白、镂空、统一颗粒、描边和明显阴影",
+    "fontDependencies": [
+      {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-024-organic-letter", "required": true, "status": "testing"},
+      {"role": "englishEcho", "type": "font-class", "id": "high-contrast-editorial-serif", "required": true, "status": "testing"}
+    ]
+  },
+  "colorRoles": {
+    "background": "大面积低饱和中明灰绿或相同明度角色的真实环境",
+    "subjectSupport": "显著更深的自然主体，保留表面质地而非死黑剪影",
+    "primaryText": "近白高明、覆盖浅草场与暗主体仍为第一焦点",
+    "secondaryText": "近白细字，以面积与字重退后",
+    "naturalAccent": "不超过约 3% 的暖色花草或可信环境活点",
+    "exactHexLocked": false
+  },
+  "layerOrder": ["全幅连续摄影及自然景深", "必要的字后局部曝光控制", "英文透明字层", "中文主字透明字层"],
+  "assetTreatment": {
+    "cutout": "原图无独立主体抠图；摄影连续性与动物毛发边缘必须保留",
+    "crop": "维持 3:4；头颈从下边、躯体从右边自然出框；不得裁掉两鸟或主体关键形制",
+    "perspective": "真实中景或长焦压缩感，不做主体几何拉伸",
+    "occlusion": "白字是平面叠加，底组跨草地与动物；动物不抠到字前",
+    "repetition": "只有两只真实小鸟构成尺度节奏，不复制、镜像或贴纸化",
+    "textureAndLight": "失焦草场、深毛发细节、软自然光及少量黄花；字层干净实色"
+  },
+  "semanticFit": ["一句约10 字且可拆为 2／1／2／2／1／2 的明确判断", "环境与被展示主体之间有真实因果", "照片下半有深色横向重量而左侧可承字", "右中可放三行细字且小尺度参照可信"],
+  "failureModes": ["把10 字排成统一字库等宽六行", "以 017 锋利行书或普通圆体代替圆厚手作主字", "英文放大或加底条抢主焦", "主体悬浮抠图或凭空增删接触点", "把两只鸟当可任意挪动的贴纸", "大面积亮色促销装饰", "字后过亮造成缩略图难读", "改错主句或英文", "未完成测试及用户确认即 active"]
+}

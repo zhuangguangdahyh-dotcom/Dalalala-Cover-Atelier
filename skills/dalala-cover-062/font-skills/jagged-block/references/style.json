@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-062-jagged-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "script": "Han",
+  "renderer": "imagegen-transparent-title-layer",
+  "identityCore": "extra-heavy near-square Han blocks with small open counters, selective angular cut edges and subtle per-glyph imbalance",
+  "construction": {
+    "skeleton": "upright extra-heavy near-monoline square Han, natural Chinese radical construction preserved",
+    "fill": "flat solid deep tone; upper and lower lines use different semantic color roles",
+    "stroke": "none",
+    "shadow": "none",
+    "extrusion": "none",
+    "trackingToGlyphWidth": [-0.03, 0.01],
+    "rotationDegrees": [-4, 4],
+    "cutCountPerGlyph": [1, 3],
+    "cutScaleToGlyphWidth": [0.02, 0.08],
+    "lineGapCanvasHeightPercent": [1, 2],
+    "texture": "clean solid interior, no distress"
+  },
+  "rolePresets": {
+    "mainTitleUpper": {"canvasBoxPercent": [4, 11, 69, 24], "characters": [3, 5], "colorRole": "near-black action"},
+    "mainTitleLower": {"canvasBoxPercent": [4, 25, 67, 40], "characters": [3, 5], "colorRole": "deep-color result"}
+  },
+  "textAccuracy": {"verbatim": true, "standardHanStructureFirst": true, "noAddedOrMissingGlyphs": true},
+  "forbidden": ["ordinary bold sans with global rotation", "rounded bubbly skeleton", "brush stroke or ink wear", "outline and offset shadow", "neon glow", "3D extrusion", "blocked counters", "same cut repeated on every glyph"]
+}

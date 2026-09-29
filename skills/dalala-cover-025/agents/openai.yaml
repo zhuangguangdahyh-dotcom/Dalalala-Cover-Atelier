@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 025 拆解与受控测试"
+  short_description: "上弧细字、近景大眼人像、右侧感叹字和底部搜索栏；待确认。"
+  default_prompt: "读取参考 025 原图、anatomy、adaptation-rules 和 qa；拆解确认后才做受控复刻测试。"

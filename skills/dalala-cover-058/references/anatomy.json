@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-058",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "sourceDimensions": {
+    "width": 2275,
+    "height": 3033,
+    "ratio": 0.75008
+  },
+  "coordinateSystem": "normalized-percent-left-top",
+  "firstImpression": "满宽黄字主张→真人向镜头递出倾斜内容卡→底部白色粉丝数跃迁",
+  "primaryFocus": "顶部实色荧亮黄单行主标题与近景递卡手势形成双焦点",
+  "dominantAxis": "top horizontal title plus upper-left to lower-right card diagonal",
+  "zones": [
+    {
+      "role": "mainTitle",
+      "bbox": [
+        6,
+        2.5,
+        94,
+        16
+      ],
+      "text": "万赞爆款封面",
+      "visualAreaPercent": [
+        8,
+        11
+      ],
+      "align": "single-line centered optical",
+      "z": 8
+    },
+    {
+      "role": "presenter",
+      "bbox": [
+        3,
+        17,
+        56,
+        69
+      ],
+      "faceBbox": [
+        13,
+        23,
+        30,
+        37
+      ],
+      "visualAreaPercent": [
+        23,
+        29
+      ],
+      "align": "left anchored, body bleeding left and lower",
+      "z": 3
+    },
+    {
+      "role": "nearGrippingHand",
+      "bbox": [
+        40,
+        24,
+        72,
+        39
+      ],
+      "gesture": "fingers pinch front of card top edge",
+      "z": 6
+    },
+    {
+      "role": "pointingHand",
+      "bbox": [
+        4,
+        41,
+        29,
+        52
+      ],
+      "gesture": "index finger points right toward card",
+      "z": 6
+    },
+    {
+      "role": "evidenceCard",
+      "bbox": [
+        16,
+        28,
+        92,
+        89
+      ],
+      "visualAreaPercent": [
+        42,
+        48
+      ],
+      "rotationClockwiseDegrees": [
+        16,
+        22
+      ],
+      "z": 5
+    },
+    {
+      "role": "cardImage",
+      "localBbox": [
+        0,
+        0,
+        100,
+        60
+      ],
+      "background": "dark photographic case image",
+      "z": 5
+    },
+    {
+      "role": "cardInfo",
+      "localBbox": [
+        0,
+        58,
+        100,
+        100
+      ],
+      "background": "light social-card information",
+      "z": 5
+    },
+    {
+      "role": "cardTitle",
+      "localBbox": [
+        10,
+        2,
+        91,
+        16
+      ],
+      "text": "AI带货视频",
+      "z": 6
+    },
+    {
+      "role": "handwrittenCue",
+      "bbox": [
+        3,
+        66,
+        20,
+        82
+      ],
+      "text": "2分钟 get 同款 + arrow",
+      "z": 7
+    },
+    {
+      "role": "bottomBefore",
+      "bbox": [
+        7,
+        89,
+        48,
+        98
+      ],
+      "text": "3000粉",
+      "z": 9
+    },
+    {
+      "role": "bottomArrow",
+      "bbox": [
+        47,
+        91,
+        64,
+        96
+      ],
+      "z": 9
+    },
+    {
+      "role": "bottomAfter",
+      "bbox": [
+        66,
+        89,
+        94,
+        98
+      ],
+      "text": "3万粉",
+      "z": 9
+    }
+  ],
+  "visualBalance": {
+    "topTitleY": [
+      3,
+      16
+    ],
+    "middleActionY": [
+      17,
+      89
+    ],
+    "bottomResultY": [
+      89,
+      99
+    ],
+    "rightUpperNegativeSpace": [
+      73,
+      16,
+      100,
+      36
+    ],
+    "leftLowerCueSpace": [
+      0,
+      60,
+      20,
+      83
+    ]
+  },
+  "readingPath": [
+    "top full-width yellow promise",
+    "presenter face",
+    "foreshortened gripping hand",
+    "tilted evidence card and its headline",
+    "left handwritten cue",
+    "bottom before-arrow-after result"
+  ],
+  "layerOrderBackToFront": [
+    "dark soft-gradient studio background",
+    "presenter body",
+    "slight card contact shadow",
+    "perspective evidence card",
+    "front gripping and pointing fingers",
+    "handwritten cue and arrow",
+    "top title and bottom result"
+  ],
+  "imageTextRelationship": "人物持卡展示证据；顶端定义主张，卡片提供案例，底部显示结果，三段同一主题",
+  "typography": {
+    "mainTitle": "single line extra-heavy wide-flat hard-cut heiti, near-zero tracking",
+    "cardTitle": "same block family, perspective-mapped with card",
+    "bottomResults": "same heavy family in white, level baseline",
+    "handwrittenCue": "irregular quick white hand lettering",
+    "cardInfo": "legible platform-like neutral sans"
+  },
+  "colorRoles": {
+    "darkFieldPercent": [
+      48,
+      55
+    ],
+    "whiteCardAndFramePercent": [
+      19,
+      25
+    ],
+    "cardPhotoPercent": [
+      15,
+      20
+    ],
+    "accentTitlePercent": [
+      8,
+      12
+    ],
+    "smallWarmAccentPercent": [
+      0,
+      2
+    ],
+    "logic": "deep low-lightness field, single high-luminance accent, white evidence and results, warm skin"
+  },
+  "materialEffects": [
+    "soft dark studio gradient",
+    "realistic skin and hair",
+    "true perspective card with slim white rim",
+    "small contact shadow",
+    "flat solid color display letters",
+    "short white brush arrow"
+  ],
+  "failureModes": [
+    "floating card without touch",
+    "card covering face",
+    "flat rectangle screenshot",
+    "copied original card content",
+    "unrelated metrics",
+    "ordinary bold font fallback",
+    "glow or 3D type",
+    "handwritten cue made as regular font",
+    "three segments collapsed"
+  ],
+  "primaryMechanism": "单行满宽结论字 + 左侧真人近景递出透视证据卡 + 底部同指标数字跃迁"
+}

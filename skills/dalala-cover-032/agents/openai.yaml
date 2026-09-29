@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 032（拆解待确认）"
+  short_description: "三行疑问与前景证据物的 3:4 封面测试规则"
+  default_prompt: "先读取参考原图、解剖、适配规则和字体测试依赖。当前不能自动生产或上架。"

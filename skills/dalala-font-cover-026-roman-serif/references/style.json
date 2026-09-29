@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-026-roman-serif",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-026/assets/reference-original.jpg",
+  "roles": ["issue", "coordinate", "latinSubtitleLeft", "latinSubtitleRight", "destinationLatin"],
+  "script": "Latin, numeral and geographic symbols",
+  "construction": "古典高对比罗马衬线字骨，细横与发丝衬线配较强竖画；大写英文宽而平稳，地点词形以首字母大写；字母不倾斜、不几何无衬线化",
+  "variants": {
+    "issue": "左上浅暖色较大 NO.xx 编号",
+    "coordinate": "右上较小单行真实定位或等长元数据",
+    "latinSubtitleLeft": "主标题下方左段全大写短语",
+    "latinSubtitleRight": "主标题下方右段全大写短语，中间保持空隙",
+    "destinationLatin": "右侧地点中文下方首字母大写词形"
+  },
+  "requiredInputs": ["exactText", "role", "canvasWidth", "canvasHeight", "targetBox", "colorRole"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": ["拼写或坐标符号错误", "假经纬度", "几何无衬线静默替换", "单一粗细字骨", "随意倾斜或压窄", "粗描边和强影", "不透明背景"]
+}

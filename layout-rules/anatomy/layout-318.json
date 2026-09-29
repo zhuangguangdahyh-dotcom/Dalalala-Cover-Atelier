@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-318",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/318.jpg",
+  "observedTitle": "虚实相生构图",
+  "referenceContentMap": {
+    "primarySubject": "右中巨大的白色实体圆环与其内部绿色空洞",
+    "mainTitle": "左上实心加描边混排的四字标题",
+    "subtitle": "标题下方英文名与原理说明",
+    "supportingInformation": "左侧三条知识点、右侧引线说明和底部图例",
+    "decorations": "半透明矩形、模糊圆、轮廓圆、波线和橙色焦点",
+    "protectedWhitespace": "圆环内部负形、实体之间的穿插缝隙和左侧说明区"
+  },
+  "coverTranslation": {
+    "templateFamily": "layered-depth",
+    "subjectRole": "把主体轮廓切成实体、空洞或透明层",
+    "mainTitleRole": "标题可使用实心与空心字重对照，但必须保持可读",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "半透明矩形、模糊圆、轮廓圆、波线和橙色焦点"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "圆环内部负形、实体之间的穿插缝隙和左侧说明区",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "从实心标题进入，被巨大实体吸引，再穿过空洞和透明层读取焦点。",
+    "assetOperations": [
+      "把主体轮廓切成实体、空洞或透明层",
+      "用一处重叠确定前后关系",
+      "让主题焦点出现在实体与虚空的交界"
+    ]
+  }
+}

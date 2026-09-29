@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-001",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/001.jpg",
+  "observedTitle": "三分法构图",
+  "referenceContentMap": {
+    "primarySubject": "下方示意图中的红色焦点与山形主体",
+    "mainTitle": "上部左侧超大标题",
+    "subtitle": "主标题下方英文副标题与说明文字",
+    "supportingInformation": "右侧三组原理说明卡与底部关键词栏",
+    "decorations": "红色交点、虚线三分网格、短下划线和节奏线",
+    "protectedWhitespace": "主标题右侧、示意图上方及信息组之间的空白"
+  },
+  "coverTranslation": {
+    "subjectRole": "把人物、动物或产品的关键识别点放在一个三分交点；主体可以跨格，但不得回到几何中心。",
+    "mainTitleRole": "放入与主体形成平衡的对向一至两个三分格，承担第一或第二视觉层级。",
+    "subtitleRole": "紧邻主标题并依附同一对齐轴；没有有效补充信息时隐藏。",
+    "decorationZones": ["三分线附近", "主标题与主体之间的引导路径", "空白格边缘"],
+    "decorationLimits": "只强调交点、平衡或阅读方向；不得把三分网格画成满屏说明图。",
+    "protectedRegions": ["主体脸部或产品核心结构", "与主体相对的平衡留白"],
+    "defaultReadingPath": "主标题到主体焦点，再到小型辅助信息",
+    "assetOperations": ["重新裁切", "移动主体焦点", "必要时抠图或扩图制造对向三分区"]
+  }
+}

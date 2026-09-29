@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-018",
+  "source": "../assets/reference-original.jpg",
+  "sourceDimensions": {
+    "width": 1080,
+    "height": 1441,
+    "ratio": "near-3:4"
+  },
+  "coordinateSystem": "left-top origin; bboxPercentXYXY against full width/height; visual estimate tolerance ±2 percentage points",
+  "sourceText": {
+    "hook": "外网爆火",
+    "topicLine": "子弹时间trends"
+  },
+  "firstFocus": "暖黄色顶端四字巨幕，中央戴墨镜人物从其前方冲出，下方同色长条标题收口",
+  "primaryMechanism": "热度钩子的大尺度 → 近景人物的运动与反应 → 两侧现场证据 → 具体主题落点",
+  "dominantAxis": "central vertical through face x≈54%; top and bottom full-width horizontal title bars",
+  "readingPath": [
+    "upper hook",
+    "central face",
+    "bottom topic"
+  ],
+  "imageTextRelationship": "上字位于头发之后，下字位于衣服与前景之前；两道文字夹住同一幅动态摄影现场",
+  "regions": [
+    {
+      "role": "fullBleedStreet",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "meaning": "暗灰街道、模糊招牌、行人与透视纵深，须弱化可读的背景字"
+    },
+    {
+      "role": "upperHook",
+      "bboxPercentXYXY": [
+        -2,
+        1.5,
+        102,
+        27.5
+      ],
+      "layer": 1,
+      "text": "外网爆火",
+      "count": 4,
+      "meaning": "第一眼热度钩子，单行满幅出血、左右边缘局部裁字"
+    },
+    {
+      "role": "centralPerson",
+      "bboxPercentXYXY": [
+        0,
+        22,
+        90,
+        98
+      ],
+      "layer": 3,
+      "meaning": "中央前倾近景主角，左手出画，衣服延伸至下标题后方"
+    },
+    {
+      "role": "recognitionFace",
+      "bboxPercentXYXY": [
+        38,
+        27,
+        71,
+        58
+      ],
+      "layer": 3,
+      "meaning": "墨镜、表情和口部必须清楚，不许用字覆盖"
+    },
+    {
+      "role": "leftPhone",
+      "bboxPercentXYXY": [
+        2.5,
+        28.5,
+        24,
+        41.5
+      ],
+      "layer": 2,
+      "meaning": "完整入画的斜置手机；背带和包退出画面，非商品卡片",
+      "rotationDegreesEstimate": [
+        35,
+        45
+      ],
+      "clipped": false
+    },
+    {
+      "role": "rightDrink",
+      "bboxPercentXYXY": [
+        85,
+        24,
+        100,
+        47
+      ],
+      "layer": 4,
+      "meaning": "右边裁断杯体，飞溅向上延展，次级现场证据",
+      "clipped": true
+    },
+    {
+      "role": "bottomTopic",
+      "bboxPercentXYXY": [
+        3,
+        83,
+        98,
+        97
+      ],
+      "layer": 5,
+      "text": "子弹时间trends",
+      "meaning": "第二道标题，中英连写、同色、横贯下边"
+    },
+    {
+      "role": "rightSplash",
+      "bboxPercentXYXY": [
+        84,
+        11,
+        100,
+        25
+      ],
+      "layer": 4,
+      "meaning": "原主题的悬停液体细节，迁移需同事件替换"
+    },
+    {
+      "role": "rightWhiteForeground",
+      "bboxPercentXYXY": [
+        85,
+        46,
+        100,
+        100
+      ],
+      "layer": 4,
+      "meaning": "右侧白衣局部，归属未知，不直接认定为中央人物右臂"
+    }
+  ],
+  "absentRoles": [
+    "independent subtitle paragraph",
+    "byline",
+    "CTA",
+    "graphic badge",
+    "border"
+  ],
+  "protectedAreas": [
+    "面部含下巴 x38–71%,y27–58%",
+    "无新增文字动作区 y55–82%",
+    "上下标题关键字腔"
+  ],
+  "spatialWeight": {
+    "measurementType": "visual estimate, overlapping semantic categories, not pixel segmentation",
+    "centralSubjectVisibleAreaPercent": [
+      45,
+      55
+    ],
+    "topTitleBoundingAreaPercent": [
+      25,
+      27
+    ],
+    "bottomTitleBoundingAreaPercent": [
+      13,
+      15
+    ],
+    "leftPhoneBoundingAreaPercent": 2.8,
+    "leftPhoneWidthPercent": [
+      20,
+      24
+    ],
+    "rightCupWidthPercent": [
+      13,
+      17
+    ],
+    "topToBottomGlyphHeightRatio": [
+      1.8,
+      2.0
+    ]
+  },
+  "textHierarchy": {
+    "upperHook": "four oversized, narrow geometric Chinese glyphs, one horizontal line, tight spacing and deliberate edge clipping",
+    "bottomTopic": "single long Chinese plus lowercase Latin line, approximately half the upper glyph height, same family and fill role",
+    "auxiliary": "none"
+  },
+  "colorRoles": {
+    "primaryText": "one high-chroma, high-lightness warm accent in source; about 12–18% actual colored pixel coverage; exact hue unlocked",
+    "background": "low-saturation dark or mid-dark environment, about 30–40% dark visual mass",
+    "subjectSupport": "lighter skin/clothes/pavement, about 35–45% visual field",
+    "smallWarmObjects": "under 10%, subordinate to titles and face",
+    "logic": "两条标题同一强提示色，暗中性环境与较亮人物；具体色值不锁定；下字局部对比需测试",
+    "coverageStartingPoint": {
+      "neutralPhoto": [
+        78,
+        85
+      ],
+      "strongType": [
+        12,
+        18
+      ],
+      "otherChromaticDetail": [
+        3,
+        7
+      ],
+      "normalizedTotalRequired": 100,
+      "measured": false
+    }
+  },
+  "layerOrder": [
+    "原街景含行人及现场物",
+    "上标题透明字层和弱阴影",
+    "主体头发/轮廓精细遮挡蒙版",
+    "现场前景物按真实深度保留或重建",
+    "下标题透明字层和弱右下阴影"
+  ],
+  "effects": [
+    "上标题被头发局部遮挡",
+    "下标题叠在衣服和前景上",
+    "下字较软的右下偏移暗影",
+    "真实近距离透视及非对称侧物",
+    "外围和街景柔化；不虚构精确焦距"
+  ],
+  "constraints": {
+    "canvasRatio": "3:4",
+    "upperHookCharacterRange": [
+      4,
+      4
+    ],
+    "upperHookSourceCount": 4,
+    "upperHookBboxPercentXYXY": [
+      -2,
+      1.5,
+      102,
+      27.5
+    ],
+    "bottomTopicBboxPercentXYXY": [
+      3,
+      83,
+      98,
+      97
+    ],
+    "faceBboxPercentXYXY": [
+      38,
+      27,
+      71,
+      58
+    ],
+    "topTitleBehindSubject": true,
+    "bottomTitleAboveSubject": true,
+    "subtitleParagraph": false,
+    "outline": "none",
+    "dropShadow": "subtle down-right soft separation shadow; lower stronger than upper",
+    "untestedUpperCharacterRange": [
+      3,
+      5
+    ]
+  },
+  "version": "0.2.0",
+  "analysisJobId": "a408755f-3aaa-4089-b320-f5821353d123",
+  "analysisStatus": "studied-awaiting-confirmation",
+  "renderAllowed": false,
+  "secondaryReadingBranches": [
+    "left phone and bag",
+    "right cup and splash",
+    "urban depth"
+  ],
+  "sourceEvidenceNotes": [
+    "字体品牌、镜头焦距、原制作方式未知",
+    "坐标为目测±2百分点；阴影参数为制作起点而非源参数",
+    "无需为已完整在场的手机额外做画框裁切"
+  ],
+  "transformationGrammar": [
+    {
+      "trigger": "头发与上字交叠",
+      "action": "精细蒙版恢复主角轮廓至上字前",
+      "reason": "建立主体冲出字幕的关系"
+    },
+    {
+      "trigger": "静态远景照",
+      "action": "补拍近距离前倾动作，或事实锚点允许的T2重构",
+      "reason": "近景动作是结构条件，移动标题无效"
+    },
+    {
+      "trigger": "背景招牌抢读",
+      "action": "仅降低背景局部清晰度/对比",
+      "reason": "保留现场纵深并降低信息竞争"
+    },
+    {
+      "trigger": "下字压浅衣服",
+      "action": "弱偏移暗影及字后局部亮度修正",
+      "reason": "分離文字，不新增文字底板"
+    }
+  ],
+  "semanticFit": {
+    "fit": [
+      "趋势体验",
+      "现场挑战",
+      "动态演示",
+      "工具试用"
+    ],
+    "reject": [
+      "长知识清单",
+      "多人比较",
+      "静态证据",
+      "肃穆告知"
+    ],
+    "required": [
+      "一个清楚近景主角",
+      "可信动作",
+      "两侧同事件线索",
+      "短单行文案"
+    ]
+  },
+  "failureModes": [
+    "上下改两行或字号缩小",
+    "上字盖脸或字义被抹掉",
+    "下字不清楚",
+    "侧物抢主体",
+    "错误左右对称",
+    "事实与身份损坏",
+    "普通字体降级",
+    "无验证却标active"
+  ]
+}

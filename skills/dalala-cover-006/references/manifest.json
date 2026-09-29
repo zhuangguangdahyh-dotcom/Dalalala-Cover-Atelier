@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-006",
+  "displayName": "参考 006",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "0ad39149-5ae2-4d46-b83f-6f907d9fe8b3",
+  "analysisReport": "skills/dalala-cover-006/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "ratios": ["3:4"],
+  "titleLength": {
+    "identityKickerLatinCharacters": [3, 9],
+    "englishThemeLatinCharactersIncludingSpaces": [8, 16],
+    "mainTitleChineseEquivalentCharacters": [5, 7],
+    "audienceQualifierChineseEquivalentCharacters": [5, 8]
+  },
+  "subjectTypes": ["modular open display container", "personal object archive", "tool or collection cabinet"],
+  "contentEmotions": ["轻盈", "年轻", "有探索感", "个人化", "数字编辑感"],
+  "firstFocus": "横贯上半部的中文单线主标题",
+  "spatialStructure": [
+    "3:4 近白满版画布",
+    "上约 51% 四级单线文字与三处边缘云团",
+    "左上文字栈到右下容器的下降对角轴",
+    "右下开放式模块柜体和中央突出门板",
+    "左侧超大裁切线描角色",
+    "底部由稀到密的喷点纹理"
+  ],
+  "readingPath": [
+    "身份短签",
+    "英文主题",
+    "中文主标题",
+    "右侧身份副标题",
+    "开放柜体",
+    "柜内核心物件",
+    "左右辅助图形"
+  ],
+  "imageTextRelationship": "文字在上半部受保护空白中提出主题，右下开放容器用真实行业物件把主题具体化；两者空间分离但由下降对角线连续。",
+  "locked": [
+    "3:4 高明度近白画布",
+    "四级单行细线文字的块形和位置",
+    "左上到右下的下降对角轴",
+    "右下开放容器、中央门板和多层物件",
+    "左侧超大裁切线描角色",
+    "三处裁切云团",
+    "底部增密喷点场",
+    "冷色单线加微弱暖色套印偏移"
+  ],
+  "adaptive": [
+    "文字内容",
+    "容器与内部物件的行业语义",
+    "左侧线描角色形象",
+    "右侧辅助道具",
+    "具体色值"
+  ],
+  "optional": [
+    "右侧 0–2 件辅助道具",
+    "副标题无真实语义时可隐藏但不回收空间",
+    "暖色套印偏移可因工艺减弱"
+  ],
+  "forbidden": [
+    "粗黑体或多行大字报",
+    "柜体居中或满宽",
+    "平面图标网格替代容器",
+    "随机贴纸和通用 AI 小人",
+    "填满受保护留白",
+    "全画布均匀噪点",
+    "锁死参考图具体色值",
+    "未经用户确认标记 active"
+  ],
+  "variableContract": {
+    "person": "本模板默认不使用人物；如行业必须出现人物，只能作为柜内小幅事实照片，不能成为主角。",
+    "text": "四级内容可变；单行、长度、对齐、块形和面积不变。",
+    "product": "容器和内部物件可变；右下位置、开放结构、数量层级、透视和遮挡不变。",
+    "palette": "色值可变；近白主导、冷色结构、少量多彩物件和微弱暖套印的角色关系不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "monoline bilingual typography",
+      "micro registration offset",
+      "matte shallow-perspective open container",
+      "rough edge doodles",
+      "bottom density-increasing stipple"
+    ]
+  },
+  "assetTransformations": [
+    {"when": "已有开放容器", "level": "T1", "action": "抠图、透视校正并放入右下固定外接框", "reason": "保留真实结构和物件关系"},
+    {"when": "只有零散物件", "level": "T2", "action": "建立统一容器、隔层、门板、接触阴影和前后景", "reason": "形成可探索的内容系统"},
+    {"when": "主题只有抽象概念", "level": "T3", "action": "先转成行业真实物件再构建容器", "reason": "避免通用 AI 形象和无意义填充"},
+    {"when": "文字超长", "level": "copy-edit", "action": "改写到规定单行长度；做不到则换模板", "reason": "不改变四级文字骨架"}
+  ],
+  "fontDependencies": [
+    {"role": "identityKicker", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
+    {"role": "englishTheme", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
+    {"role": "audienceQualifier", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"}
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

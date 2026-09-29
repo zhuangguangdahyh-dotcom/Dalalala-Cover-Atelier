@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-021",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "原图 1082×1443 视觉估读；bboxPercentXYXY 以左上为原点，单位为画布宽高百分比，边缘允许约 2–4 个百分点观察误差",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "IMG_1947.JPG",
+    "width": 1082,
+    "height": 1443,
+    "ratio": "约 3:4",
+    "visibleText": ["镜头", "越过", "Memory"]
+  },
+  "primaryMechanism": "上下两幅同一人物的纪实景别跃迁：上方小人被树荫、墙面和暗柱包住，下方人靠近镜头并探入圆洞；左侧巨大白色中英手写标题越过水平接缝，把时间/记忆主题与两幅照片缝合",
+  "primaryFocus": "左侧白色手写标题与下方人物面部共同形成第一眼双焦点，先认大字，再被近景脸吸引",
+  "dominantAxis": "y约46%的水平分界为叙事换景轴；左侧标题沿 x约5–52%、y约41–72% 的不规则斜向笔势下行，右侧近景脸接住视线",
+  "readingPath": ["左侧大字镜头", "第二行越过与巨大的拉丁 M、缩小的 emory", "下幅右中人物面部与探身姿态", "向上回看远景行走的人", "上下照片之间的时间/距离联系"],
+  "elements": [
+    {"role": "upperScene", "bboxPercentXYXY": [0, 0, 100, 46], "visualRank": 3, "layer": 0, "alignment": "全幅横向取景，水平底边硬切；暗树冠和门框围出中央浅色墙面"},
+    {"role": "upperSmallPerson", "bboxPercentXYXY": [31, 20, 47, 43], "visualRank": 4, "layer": 1, "alignment": "偏左的侧身行走全身小像，脚贴近上幅底部，人物高度约 22–24% 全画布"},
+    {"role": "upperShadowFrame", "bboxPercentXYXY": [0, 0, 100, 46], "visualRank": 5, "layer": 1, "alignment": "顶部枝叶、左右立柱和右下暗坡构成非对称天然框景；不是新画的边框"},
+    {"role": "lowerScene", "bboxPercentXYXY": [0, 46, 100, 100], "visualRank": 2, "layer": 0, "alignment": "整幅高明度暖色实体墙；圆洞与下方地面形成第二场景"},
+    {"role": "roundOpening", "bboxPercentXYXY": [13, 58, 88, 100], "visualRank": 3, "layer": 1, "alignment": "大圆弧从标题后方延伸至人物后方与底边，直径约画宽 70–78%；下边被画幅截断"},
+    {"role": "lowerNearPerson", "bboxPercentXYXY": [28, 53, 87, 100], "visualRank": 2, "layer": 2, "alignment": "近景人从中右向左前方探身，脸在 x约54–75%、y约53–77%，身体和手臂向底边、右边出画"},
+    {"role": "mainTitleHanTop", "text": "镜头", "bboxPercentXYXY": [5, 41, 47, 59], "visualRank": 1, "layer": 4, "alignment": "左起自由手写；上缘进入上幅末段，下方跨过 y46% 接缝；高低、宽窄和长竖画不齐"},
+    {"role": "mainTitleHanBottom", "text": "越过", "bboxPercentXYXY": [4, 55, 37, 72], "visualRank": 1, "layer": 4, "alignment": "第二行在下幅左侧向右推进；与上行形成不规则阶梯，不能排成等宽居中两行"},
+    {"role": "mainTitleLatin", "text": "Memory", "bboxPercentXYXY": [31, 49, 52, 71], "visualRank": 1, "layer": 4, "alignment": "高耸 M 与中文同等级，emory 明显缩小并嵌入右侧，词尾下方一笔长划收住"},
+    {"role": "subtitle", "present": false},
+    {"role": "supportingText", "present": false},
+    {"role": "addedDecoration", "present": false}
+  ],
+  "spatialWeight": {
+    "upperPanelHeightPercent": [44, 48],
+    "lowerPanelHeightPercent": [52, 56],
+    "titleEnvelopePercentXYXY": [4, 41, 52, 72],
+    "upperPersonHeightPercent": [21, 24],
+    "lowerPersonEnvelopePercentXYXY": [28, 53, 87, 100],
+    "warmLowerPanelAreaPercent": [52, 56],
+    "darkNaturalFrameAreaApproxPercent": [25, 35],
+    "whiteLetterVisibleAreaApproxPercent": [6, 10]
+  },
+  "protectedAreas": ["上幅小人物的头、身体和步态 x31–47%,y20–43%", "水平分界在 y44–48% 保持一条清楚的切线，允许文字跨线", "下幅人物脸和头发 x53–76%,y53–78%", "右手与圆洞边缘的真实接触 x75–88%,y75–83%", "标题右缘与脸之间约 3–7% 画宽的呼吸缝"],
+  "typography": {
+    "lineStructure": "两段中文加一个拉丁词：上行约 2 汉字，下行约 2 汉字，M 巨大、emory 约为 M 高度的 35–50%；拒绝改成长句堆叠",
+    "skeleton": "非标准字体的宽窄混合手写结构；汉字横竖有随手转折和局部伸长，笔端多为平切或轻圆切，拉丁字保留窄长手写直立节奏",
+    "stroke": "实心近白色，粗细不完全均匀；以干净连续笔画为主，少量自然接笔痕，非大面积干刷飞白",
+    "spacing": "中文字距不均，局部笔势靠近但关键字腔开放；行间约 0–8% 上行字高的紧贴关系，M 与前一汉字相接近但不粘成错字",
+    "effects": "无规则描边、厚投影、发光和 3D 挤出；文字本身的长竖、长横和词尾下划线承担花字效果",
+    "fontStyleId": "dalala-cover-021-story-hand"
+  },
+  "colorRoles": {
+    "upperBackground": "上幅约 46% 为暗绿树荫、低饱和中性墙和少量暖木色，明暗起伏保留天然取景层次",
+    "lowerBackground": "下幅约 54% 为高明度、高识别度的暖色实体面，圆洞内较浅的地面/空间提供次级明度差",
+    "primaryText": "近白色实心高对比字，铺在左侧接缝与暖色墙面上",
+    "subjectSupport": "真实肤色、衣服和头发保持自然分离，不用饱和装饰色覆盖脸",
+    "accent": "暖色大面本身即强调；不另加第三个高饱和贴纸色",
+    "contrastCheck": "上幅暗框与亮墙分层，下幅墙与白字可分辨；缩至 360 px 先认标题和近景人脸，远景人仍可辨识",
+    "exactHexLocked": false
+  },
+  "layerOrder": ["上幅完整纪实远景照片", "下幅完整纪实近景照片，以硬切线并置", "仅照片自带的树叶/框柱/圆洞与人物遮挡", "分离的透明白色中英手写标题层"],
+  "assetTreatment": {
+    "cutout": "参考本体不靠人物抠图；优先保留两张完整场景照片。仅为修补边界或保真人物与圆洞接触时才局部蒙版",
+    "crop": "上幅保持远景全身与环境框景，下幅裁为探身近景并自然出画；两幅分别裁切后再以水平硬切拼接",
+    "perspective": "上幅平视、人物远；下幅近距离略低/平视，人物尺度约为上幅 3–4 倍，圆洞必须是真实有厚度的空间结构",
+    "occlusion": "顶部枝叶压住建筑，上幅暗柱遮挡场景；下幅身体遮挡圆洞的部分边界，右手与洞边有可信接触；字始终盖在照片前，不遮脸",
+    "repetition": "同一人物在两个镜头中各出现一次，是叙事重复；不克隆同一姿势或把小像直接缩小粘贴",
+    "effects": "自然阳光、斑驳树影、轻微胶片/实拍颗粒和下幅硬朗暖色；无虚构边框、贴纸、箭头、投影或霓虹"
+  },
+  "semanticFit": ["主题能够表达前后、远近、穿越或从环境到人物的关系", "同一对象可拍到远景和近景，或两张图在事实与时间上明确关联", "上幅有天然暗框与可读的小主体，下幅有明确圆形/弧形开口和能探入/接触的人物", "左侧有可承载白字的连续色面"],
+  "failureModes": ["把上下两图改为等大的普通拼贴或三宫格", "上下人物不是同一对象且缺少可解释的联系", "上下都是同景别，失去远到近的尺度跃迁", "下幅圆洞变成平面画圆、贴纸或无厚度的装饰", "标题移入一整块纯色条而不跨接缝", "用普通手写字体或油漆飞白替代中英共写的字形", "文字盖脸、遮住上幅小人物或强行增加说明/CTA", "锁死原图黄绿 HEX，或让下幅低明度失去亮暗反差", "未通过测试和验收即发布 active"]
+}

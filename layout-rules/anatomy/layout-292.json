@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-292",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/292.jpg",
+  "observedTitle": "时间线布局",
+  "referenceContentMap": {
+    "primarySubject": "画面中部由左向右连接的五个圆形节点与对应卡片",
+    "mainTitle": "左上单行超大暗红标题",
+    "subtitle": "标题下方英文名与原理说明",
+    "supportingInformation": "五个阶段卡、下方三段阶段带与底部布局要点",
+    "decorations": "连接线、箭头、节点图标、右上同心圆和浅色弧带",
+    "protectedWhitespace": "节点之间、卡片列沟以及阶段带上下的连续通道"
+  },
+  "coverTranslation": {
+    "templateFamily": "sequential-flow",
+    "subjectRole": "把 3–7 个关键节点压缩到一条主路径",
+    "mainTitleRole": "总标题在路径之外建立主题",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "连接线、箭头、节点图标、右上同心圆和浅色弧带"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "节点之间、卡片列沟以及阶段带上下的连续通道",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "从起点沿连接线依次经过节点，最后到结论或结果。",
+    "assetOperations": [
+      "把 3–7 个关键节点压缩到一条主路径",
+      "用节点大小或颜色标记真正里程碑",
+      "将图片或人物姿态朝向下一节点"
+    ]
+  }
+}

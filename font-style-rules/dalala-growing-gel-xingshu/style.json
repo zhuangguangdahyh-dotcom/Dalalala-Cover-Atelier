@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-growing-gel-xingshu",
+  "displayName": "Dalala 生长行写体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "modern-gel-pen-xingshu-with-selective-growth-and-powerful-vitality",
+    "styleSignature": "seventy-percent-natural-running-hand-thirty-percent-growth",
+    "defaultIntensity": "selective-growth",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true,
+    "rejectAllGlyphExplosion": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "approval": {
+    "scope": "visual-style-and-bilingual-handwriting",
+    "source": "output/font-concepts/dalala-gel-pen-xingshu-16-r4-balanced-growth/01-selective-growth.png",
+    "sha256": "bb7ba03c17fcf3311bca1011b1ed69690468c749e8b526d4d864e736b098b737",
+    "productionGlyphReviewRequired": true
+  },
+  "intendedUse": [
+    "high-vitality-cover-title",
+    "personal-opinion-title",
+    "lifestyle-cover-title",
+    "bilingual-cover-title",
+    "modern-emotional-emphasis"
+  ],
+  "avoidUse": [
+    "formal-institutional-copy",
+    "traditional-calligraphy-theme",
+    "dense-long-body-copy",
+    "heavy-variety-show-poster"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "selective-growth",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "text-accuracy-only"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "modern-everyday-gel-pen-semi-cursive",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "strokeModel": "round-tip-near-monoline",
+    "naturalToGrowthRatio": [0.68, 0.32],
+    "heroGlyphsPerPhrase": [1, 2],
+    "maximumExtendedStrokesPerLine": 3,
+    "postures": [
+      "natural-running",
+      "slight-forward-lean",
+      "slight-backward-resistance",
+      "tall-lift",
+      "wide-release",
+      "compact-rest",
+      "low-root"
+    ],
+    "boldMoves": [
+      "single-upward-growth-stroke",
+      "single-outward-extension",
+      "decisive-long-diagonal",
+      "deep-descending-hook",
+      "enlarged-center-shift",
+      "quick-cross-stroke-release"
+    ],
+    "quietMoves": [
+      "compact-readable-rest",
+      "short-contained-stroke",
+      "open-counter",
+      "small-upright-anchor",
+      "calm-spacing-release"
+    ],
+    "gestureStarts": [
+      "round-tip-contact",
+      "quick-oblique-entry",
+      "small-re-entry-mark",
+      "firm-short-press"
+    ],
+    "gestureEndings": [
+      "fast-lift",
+      "controlled-overshoot",
+      "short-hook-release",
+      "slight-dry-skip"
+    ],
+    "paintStates": [
+      "clean-dark-gel-ink",
+      "pause-ink-pool",
+      "fast-monoline-travel",
+      "tiny-dry-skip",
+      "localized-retrace"
+    ],
+    "requiredPaintStatesPerGlyph": 3
+  },
+  "growthControl": {
+    "mode": "selective-not-global",
+    "normalGlyphShareMinimum": 0.65,
+    "heroGlyphScale": [1.15, 1.30],
+    "quietGlyphScale": [0.84, 0.96],
+    "extendedStrokeFactor": [1.25, 1.45],
+    "baselineMovementPercent": [-10, 10],
+    "allowNearTouch": true,
+    "allowSingleLocalOverlap": false,
+    "forbidCrossingMultipleGlyphs": true,
+    "forbidPageSpanningSlash": true,
+    "forbidEveryGlyphPerforming": true,
+    "forbidLiteralBotanicalMotifs": true
+  },
+  "bilingualConstruction": {
+    "sameWriterRequired": true,
+    "chinese": "accurate-modern-semi-cursive-with-selective-stroke-carrying",
+    "englishLowercase": "mixed-print-and-cursive-with-selective-ligatures",
+    "englishUppercase": "individually-written-with-occasional-hero-capital",
+    "numerals": "handwritten-round-tip-monoline",
+    "preserveCase": true,
+    "preserveSpelling": true,
+    "preservePunctuation": true,
+    "forbidTypesetSubtitleLook": true
+  },
+  "inkSurface": {
+    "penType": "ordinary-0.5mm-black-gel-pen",
+    "lineWeight": "near-monoline",
+    "allowMinorLineWeightChange": true,
+    "allowLocalInkPooling": true,
+    "allowTinyFastSkip": true,
+    "forbidBrushPressureContrast": true,
+    "forbidFountainPenNibContrast": true,
+    "forbidInkSplash": true
+  },
+  "layout": {
+    "recommendedChineseCharactersPerLine": [4, 10],
+    "recommendedEnglishWordsPerLine": [2, 7],
+    "maximumLines": 3,
+    "rhythm": "burst-rest-burst-release",
+    "keepBreathingSpace": true,
+    "allowModerateBaselineDrift": true,
+    "allowSelectiveLigatures": true,
+    "forbidRigidGridAlignment": true,
+    "forbidChaoticTangle": true
+  },
+  "vitalityPresets": {
+    "natural": {
+      "baselineShiftPercent": [-3, 3],
+      "rotationDegrees": [-3, 3],
+      "glyphScale": [0.92, 1.10],
+      "trackingFactor": [0.86, 1.08],
+      "heroScale": [1.10, 1.18],
+      "growthDensity": "low-selective"
+    },
+    "selective-growth": {
+      "baselineShiftPercent": [-7, 7],
+      "rotationDegrees": [-6, 6],
+      "glyphScale": [0.84, 1.22],
+      "trackingFactor": [0.76, 1.12],
+      "heroScale": [1.18, 1.30],
+      "growthDensity": "medium-selective"
+    },
+    "high-growth": {
+      "baselineShiftPercent": [-10, 10],
+      "rotationDegrees": [-8, 8],
+      "glyphScale": [0.78, 1.30],
+      "trackingFactor": [0.70, 1.15],
+      "heroScale": [1.24, 1.38],
+      "growthDensity": "high-selective"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowEnglishCaseChange": false,
+    "allowSpellingChange": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-bilingual-text",
+      "standard-readable-chinese-anatomy",
+      "modern-semi-cursive-motion",
+      "ordinary-gel-pen-monoline",
+      "selective-growth-ratio",
+      "hero-and-quiet-rhythm",
+      "per-glyph-posture-variation",
+      "same-writer-bilingual-rhythm",
+      "mobile-thumbnail-readable",
+      "approved-reference-match",
+      "true-alpha"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "verbatim-text-case-spelling-and-punctuation",
+      "standard-readable-chinese-anatomy",
+      "ordinary-round-tip-gel-pen-not-brush",
+      "one-or-two-hero-glyphs-per-phrase",
+      "most-glyphs-remain-natural-and-readable",
+      "no-page-spanning-or-multi-glyph-crossing-strokes",
+      "chinese-and-english-feel-written-by-one-person",
+      "title-readable-at-360px",
+      "true-alpha-background"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "regular-hard-pen-copybook",
+    "uniform-font-skeleton",
+    "all-glyphs-same-scale-or-posture",
+    "all-glyphs-exploding",
+    "chaotic-overlap-tangle",
+    "page-spanning-slash",
+    "multi-character-crossing-stroke",
+    "traditional-brush-calligraphy",
+    "fountain-pen-script",
+    "ancient-literary-mood",
+    "literal-vines-or-branches",
+    "graffiti-marker",
+    "english-typeset-subtitle",
+    "shadow-or-3d-extrusion"
+  ]
+}

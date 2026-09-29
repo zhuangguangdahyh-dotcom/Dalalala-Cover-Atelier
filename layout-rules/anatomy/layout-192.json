@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-192",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/192.jpg",
+  "observedTitle": "模块化页面",
+  "referenceContentMap": {
+    "primarySubject": "上方标题区与右上 2×2 几何模块共同构成入口",
+    "mainTitle": "左上单行超大标题",
+    "subtitle": "标题下方英文名和短横线",
+    "supportingInformation": "中部六个原理模块、右侧三个实例卡、下方三种组合示意与应用建议",
+    "decorations": "统一圆形图标、细边框、短横线和重复网格",
+    "protectedWhitespace": "模块内部边距、列间距和上下章节分隔带"
+  },
+  "coverTranslation": {
+    "templateFamily": "modular-evidence",
+    "subjectRole": "先确定模块类型和信息上限，再填内容",
+    "mainTitleRole": "标题属于独立入口区，不能与每张卡同级",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "统一圆形图标、细边框、短横线和重复网格"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "模块内部边距、列间距和上下章节分隔带",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "标题进入，横向读取原理单元，再进入实例列和组合示意。",
+    "assetOperations": [
+      "先确定模块类型和信息上限，再填内容",
+      "用一个放大、跨格或高对比模块作为主角",
+      "重复边距和对齐，变化内容尺度"
+    ]
+  }
+}

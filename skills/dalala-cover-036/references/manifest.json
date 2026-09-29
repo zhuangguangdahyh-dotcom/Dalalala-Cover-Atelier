@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-036",
+  "displayName": "参考 036",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "ff4a4c6e-d6f1-49cd-87df-7c0234fdb956",
+  "analysisReport": "skills/dalala-cover-036/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "latinLabelCharacters": [
+      3,
+      6
+    ],
+    "mainTitleChineseEquivalentCharacters": [
+      4,
+      6
+    ],
+    "subtitleChineseEquivalentCharactersIncludingPunctuation": [
+      6,
+      9
+    ]
+  },
+  "subjectTypes": [
+    "single seated human among modular equipment"
+  ],
+  "contentEmotions": [
+    "系统感",
+    "专业",
+    "冷静",
+    "反差",
+    "可操作"
+  ],
+  "firstFocus": "顶部接近全宽的高饱和超窄双语主标题",
+  "spatialStructure": [
+    "3:4 连续高调浅背景",
+    "上约 37% 双语标题与右对齐副标题",
+    "下约 63% 单人坐姿与 6–9 个矩形模块阵列",
+    "中心竖轴串联中文命题、头部和中央座台",
+    "模块分后排、承托层和前景层并由边缘裁切",
+    "浅底/深实体、细长字/厚重设备形成形状对比"
+  ],
+  "readingPath": [
+    "拉丁短标与中文主命题",
+    "右对齐副标题",
+    "人物人脸",
+    "人物与设备阵列关系",
+    "屏幕中的参数证据"
+  ],
+  "imageTextRelationship": "顶部短命题提出方法或系统，下部人物坐在多台同类模块中并由屏幕参数提供证据；文字不压图，场景不侵占文字保护区。",
+  "locked": [
+    "3:4 高调浅背景",
+    "顶部约 37% 的超窄双语主标题和右对齐副标题",
+    "左拉丁短标、分隔缝、右中文命题的单行结构",
+    "单人居中坐姿",
+    "6–9 个矩形模块的后排/承托/前景堆叠",
+    "真实坐靠、脚踩、遮挡、透视和屏幕发光",
+    "主标题无描边无阴影的单色实心效果"
+  ],
+  "adaptive": [
+    "人物身份、服装、视线和细节姿态",
+    "行业相关模块、屏幕参数和界面内容",
+    "三段文字内容",
+    "具体色值"
+  ],
+  "optional": [
+    "少量线缆、指示灯和设备使用痕迹",
+    "非关键屏幕可留白或只显示低对比界面痕迹"
+  ],
+  "forbidden": [
+    "普通字体水平压扁冒充主标题",
+    "副标题居中、多行或扩大抢焦点",
+    "站姿、半身证件照或人物悬浮",
+    "模块少于 6 个或排成整齐九宫格",
+    "人物与设备无真实受力和接触阴影",
+    "屏幕内容平贴、写满或伪造数据",
+    "增加贴纸、箭头、边框、价格和底栏",
+    "未经用户确认标记 approved 或 active"
+  ],
+  "variableContract": {
+    "person": "身份、外貌、服装和视线可变；单人、坐姿、下部居中、受力关系和面积区间不变。",
+    "text": "内容可变；左短拉丁标、右 4–6 字中文命题、单行右对齐副标题的行数、块形和面积不变。",
+    "product": "设备可变；6–9 个矩形信息模块、三层深度、暗框/亮面、承托和边缘裁切关系不变。",
+    "palette": "色值可变；高明浅底、深中性实体、单一高纯强调和少量肤色的面积/对比结构不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "extreme condensed bilingual display lettering",
+      "flat solid title without outline or shadow",
+      "right-aligned editorial Song subtitle",
+      "high-key seamless background",
+      "stacked dark modules with luminous information faces",
+      "credible seated contact and layered occlusion"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "完整坐姿设备场景已存在",
+      "level": "T1",
+      "action": "重裁、净化标题区、控制线缆和屏幕噪声",
+      "reason": "保留真实受力和空间关系"
+    },
+    {
+      "when": "坐姿成立但阵列/信息不足",
+      "level": "T2",
+      "action": "补齐 6–9 个模块并映射 3–5 个真实参数",
+      "reason": "建立系统感和层次"
+    },
+    {
+      "when": "坐姿、承重或背景不成立",
+      "level": "T3",
+      "action": "补拍或身份锁定下重建完整场景",
+      "reason": "悬浮拼贴会破坏模板"
+    },
+    {
+      "when": "文字超长",
+      "level": "copy-edit",
+      "action": "改写至槽位长度；不能则换模板",
+      "reason": "保护单行超宽标题形状"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitleLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-condensed-cut-display",
+      "variant": "latin",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitleChinese",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-condensed-cut-display",
+      "variant": "cjk",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-editorial-song",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

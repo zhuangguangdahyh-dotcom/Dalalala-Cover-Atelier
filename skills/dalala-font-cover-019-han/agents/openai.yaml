@@ -1,0 +1,4 @@
+interface:
+  display_name: "019 厚块中文短名（测试）"
+  short_description: "右上两三字端正中文，暖亮平面字层"
+  default_prompt: "先读原图和字形规则，生成准确的透明中文字层；未验收不用于生产。"

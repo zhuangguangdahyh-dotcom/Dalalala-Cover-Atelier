@@ -1,0 +1,93 @@
+[
+  {
+    "char": "松",
+    "glyphName": "uni677E",
+    "unicode": "U+677E",
+    "advanceWidth": 1029,
+    "contourCount": 105,
+    "sourceCrop": [
+      0,
+      0,
+      443,
+      443
+    ]
+  },
+  {
+    "char": "弛",
+    "glyphName": "uni5F1B",
+    "unicode": "U+5F1B",
+    "advanceWidth": 1112,
+    "contourCount": 105,
+    "sourceCrop": [
+      443,
+      0,
+      887,
+      443
+    ]
+  },
+  {
+    "char": "感",
+    "glyphName": "uni611F",
+    "unicode": "U+611F",
+    "advanceWidth": 942,
+    "contourCount": 139,
+    "sourceCrop": [
+      887,
+      0,
+      1330,
+      443
+    ]
+  },
+  {
+    "char": "建",
+    "glyphName": "uni5EFA",
+    "unicode": "U+5EFA",
+    "advanceWidth": 972,
+    "contourCount": 122,
+    "sourceCrop": [
+      1330,
+      0,
+      1774,
+      443
+    ]
+  },
+  {
+    "char": "立",
+    "glyphName": "uni7ACB",
+    "unicode": "U+7ACB",
+    "advanceWidth": 1033,
+    "contourCount": 78,
+    "sourceCrop": [
+      0,
+      443,
+      443,
+      887
+    ]
+  },
+  {
+    "char": "信",
+    "glyphName": "uni4FE1",
+    "unicode": "U+4FE1",
+    "advanceWidth": 995,
+    "contourCount": 94,
+    "sourceCrop": [
+      443,
+      443,
+      887,
+      887
+    ]
+  },
+  {
+    "char": "任",
+    "glyphName": "uni4EFB",
+    "unicode": "U+4EFB",
+    "advanceWidth": 1088,
+    "contourCount": 74,
+    "sourceCrop": [
+      887,
+      443,
+      1330,
+      887
+    ]
+  }
+]

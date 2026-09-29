@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-039",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-039-reference.jpg",
+    "archivedReference": "skills/dalala-cover-039/assets/reference-original.jpg",
+    "sha256": "75abb175633e27f4a6b24b57140060df1e40333294eab853a13af99b98330313",
+    "dimensions": [2526, 3368],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "目视按原图归一化估计；框为初始测试区间，待复刻核验",
+    "bboxConvention": "[x0,y0,x1,y1] percent; overlapping boxes are not additive"
+  },
+  "canvas": {"sourceRatio": "3:4", "sourceSize": [2526, 3368], "requestedRatio": "3:4", "productionSize": [1080, 1440]},
+  "visualConclusion": "暗色实景上部的细说明和双色超粗收益词形成横梁；中央竖向平板是实体锚点；左入口图形经箭头指向主物，右结果图形构成能力联想。",
+  "primaryMechanism": "文字瞬时承诺＋实体产品可信度＋左右能力关系",
+  "dominantAxis": "顶部横向标题与中部纵向产品组成 T 形；左侧箭头形成次级斜向动线",
+  "primaryFocus": "一行双色厚重主标题",
+  "visualWeightCenterPercent": [52, 43],
+  "readingPath": ["顶部细字前提", "双色主标题收益", "中央实体主物", "左侧入口图形", "箭头回指中央主物", "右侧结果图形", "底部现场"],
+  "contentRoles": [
+    {"role": "background", "bboxPercent": [0, 0, 100, 100], "meaning": "暗窗帘、窗台、桌面与地面的真实空间", "alignment": "full-bleed", "z": 0},
+    {"role": "eyebrow", "bboxPercent": [13, 3, 91, 12], "meaning": "一行中英细字说明接入前提", "alignment": "near-centered-horizontal", "z": 1},
+    {"role": "mainTitle", "bboxPercent": [8, 14, 97, 27], "meaning": "一行双色收益承诺，唯一文字主焦点", "alignment": "near-full-width-single-line", "z": 2},
+    {"role": "subtitle", "bboxPercent": null, "meaning": "原图无独立副标题", "alignment": "absent", "z": null},
+    {"role": "leftInputSymbol", "bboxPercent": [4, 29, 27, 50], "meaning": "悬浮透明载体中的冷亮工具入口", "alignment": "left-middle", "z": 4},
+    {"role": "arrow", "bboxPercent": [16, 49, 32, 60], "meaning": "从入口图形指向中央主物", "alignment": "descending-right", "z": 5},
+    {"role": "coreProduct", "bboxPercent": [31, 26, 74, 79], "meaning": "竖向平板背面近景，真实承托的主体证据", "alignment": "center-slightly-right", "z": 3},
+    {"role": "rightOutputSymbol", "bboxPercent": [76, 50, 97, 68], "meaning": "高亮线形能力或结果标志", "alignment": "right-middle-lower", "z": 6},
+    {"role": "auxiliaryText", "bboxPercent": null, "meaning": "无额外辅助文字；设备印字属于真实照片", "alignment": "absent", "z": null}
+  ],
+  "protectedZones": [
+    {"bboxPercent": [8, 14, 97, 27], "reason": "大标题只许轻微与主物顶部贴近，不许被图形遮挡"},
+    {"bboxPercent": [40, 35, 68, 71], "reason": "产品真实外形、中心标识和材质锚点清楚可见"},
+    {"bboxPercent": [28, 50, 32, 68], "reason": "入口箭头与主物之间需要清楚的指向关系"},
+    {"bboxPercent": [74, 49, 77, 69], "reason": "主物与右图形之间需要暗色分离缝"}
+  ],
+  "composition": {
+    "textToScene": "上部约 27% 高为文字入口；主物约占画布宽 43%、高 53%；下部约 20% 高为低密度真实空间",
+    "leftRightWeight": "中部主物略偏右；左图形加箭头和右线形图形形成不对称平衡",
+    "density": "上密、中间有 3 个明确图像角色、下疏",
+    "negativeSpace": "顶部两文字层之间、产品两侧分离缝及底部无信息桌面",
+    "occlusion": "产品顶部贴近标题下缘；箭头停在产品左边；产品落于桌面，图形悬浮于背景"
+  },
+  "typography": {
+    "eyebrow": {"fontStyleId": "dalala-cover-039-thin-tech", "lineCount": 1, "widthPercent": [75, 80], "heightPercent": [7, 10], "weight": "light", "tracking": "loose", "fill": "high-lightness-neutral"},
+    "mainTitle": {"fontStyleId": "dalala-cover-039-cut-heavy", "lineCount": 1, "preferredHanEquivalent": 5.5, "testRangeHanEquivalent": [4, 6], "widthPercent": [86, 91], "heightPercent": [12, 14], "semanticGroups": 2, "firstGroupWidthSharePercent": [30, 40], "secondGroupWidthSharePercent": [55, 65], "trackingRelativeGlyphWidthPercent": [-5, 2], "fill": "clean-solid-two-role-color", "effect": "subtle-per-glyph-cut-and-proportion-variation-no-texture"},
+    "subtitle": null
+  },
+  "paletteStructure": {
+    "darkNeutralEnvironmentVisualAreaPercent": [60, 70],
+    "metalProductAndLightTableVisualAreaPercent": [17, 25],
+    "neutralBrightLetteringVisualAreaPercent": [5, 8],
+    "accentLetteringAndArrowVisualAreaPercent": [5, 8],
+    "coolInputVisualAreaPercent": [3, 5],
+    "brightOutputVisualAreaPercent": [1, 3],
+    "rule": "深中性场景承托主标题；单一高亮色兼任收益词与箭头；冷亮左入口，白亮右结果；色值随主题变"
+  },
+  "effects": ["真实室内浅景深与横向帘纹", "金属产品体积光和桌面接触阴影", "左图形半透明圆角载体、边缘高光和柔和内阴影", "饱满手绘粗箭头和轻暗投影", "右图形均匀厚度高亮线条", "干净实心主标题"],
+  "layerOrder": ["室内背景和承托面", "细说明字", "粗主标题", "中央产品及接触阴影", "左侧入口图形", "箭头", "右侧结果图形"],
+  "variableContract": {
+    "person": "原图无人；用人物替换主物需单独测试，且守住单一竖向主体的景别、占比和实体逻辑",
+    "text": "具体文案可变，细字一行、主标题一行两组及相对面积不变",
+    "product": "产品/主物身份可变，中央竖向近景、可信材质、下方接触点及面积不变",
+    "palette": "具体色值可变，深底、亮字、单高亮强调、冷亮入口与亮线结果的角色和面积不变"
+  },
+  "locked": ["3:4 T 形骨架", "顶部细字与一行双色超粗收益词", "中央单一真实竖向主物", "左入口经箭头指向主物、右结果图形配重", "暗上部与下部承托场景", "无副标题及底部信息卡"],
+  "adaptive": ["主物和行业身份", "左右图形的具体语义和造型", "说明字与标题文案", "现场材质与具体色值"],
+  "optional": ["产品自身真实印字", "少量真实环境反射"],
+  "forbidden": ["主标题换行或缩为中号", "主物漂浮无接触点", "原品牌标志当通用图案", "任意彩色小人或无关贴纸", "箭头离开左入口或不指向中央", "添加长副标题、价格或按钮", "静默套用不匹配字体", "未确认即 active"],
+  "renderReadiness": {"nearSourceRecreation": false, "crossIndustryTest": false, "fontQa": false, "thumbnailQa": false, "userAcceptance": false}
+}

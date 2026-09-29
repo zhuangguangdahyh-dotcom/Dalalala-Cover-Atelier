@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "fonts": [
+    {
+      "id": "dalala-songchi-paint",
+      "displayName": "Dalala 松弛油漆体",
+      "familyName": "Dalala Songchi Paint",
+      "version": "0.2.0",
+      "status": "archived-prototype",
+      "doNotUseInWorkbench": true,
+      "replacementStyleId": "dalala-living-paint",
+      "fontFile": "dalala-songchi-paint/dist/DalalaSongchiPaint-Regular-v0.2.ttf",
+      "glyphManifest": "dalala-songchi-paint/sources/glyphs/manifest-v02.json",
+      "styleSpec": "dalala-songchi-paint/STYLE_SPEC.md",
+      "coverage": ["松", "弛", "感", "建", "立", "信", "任", "选", "准", "心", "理", "咨", "询", "师", "先", "看", "这", "点", "4", "，"],
+      "openTypeFeatures": ["calt", "ss01"],
+      "missingGlyphPolicy": "route-to-replacement-style-rule",
+      "intendedUse": ["historical-comparison-only"],
+      "minimumRecommendedSizePx": 72
+    },
+    {
+      "id": "dalala-hollow-show",
+      "displayName": "Dalala 镂空综艺体",
+      "familyName": "Dalala Hollow Show",
+      "version": "0.2.0",
+      "status": "supporting-partial-font",
+      "fontFile": "dalala-hollow-show/dist/DalalaHollowShow-Regular.ttf",
+      "glyphManifest": "dalala-hollow-show/sources/glyphs/manifest.json",
+      "styleSpec": "dalala-hollow-show/STYLE_SPEC.md",
+      "primaryStyleRule": "../font-style-rules/dalala-hollow-show/style.json",
+      "coverage": ["今", "天", "有", "点", "好", "笑", "这", "也", "太", "离", "谱", "了", "吧", "的", "不", "！"],
+      "missingGlyphPolicy": "route-to-primary-style-rule",
+      "intendedUse": ["preview", "readable-draft"],
+      "minimumRecommendedSizePx": 72
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-014",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "analysisJobId": "ce1f587d-5eab-4cc1-ae70-0a8b33435644",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-014.jpg",
+    "archivedReference": "skills/dalala-cover-014/assets/reference-original.jpg",
+    "sha256": "e6d1037540d38991b1c4acb3fa94fc57253db3fb69089caa7a44457ce7b030e7",
+    "width": 1265,
+    "height": 1685,
+    "aspectRatio": 0.7507,
+    "reviewedOriginal": true,
+    "measurementMethod": "原图目视测绘，所有框和可见面积为复刻初值，待视觉测试校准",
+    "bboxConvention": "[x0,y0,x1,y1] in canvas percent; overlapping boxes are not additive area",
+    "positionTolerancePercentagePoints": 2.5
+  },
+  "canvas": {"ratio": "3:4", "productionSize": [1080, 1440], "orientation": "portrait", "fullBleed": true},
+  "visualConclusion": "暖棕细纤维纸上，上部左重右补的白色手写主题跨过一部横置手机；暗调屏幕内有动作镜头与少量暖色短词；下部用两级白字和斜线收束为结果。",
+  "primaryMechanism": "大白字与实体手机的尺度和遮挡制造首眼冲突，手机中的动作提供主题证据，下部结果词完成承诺；纸面留白让高密度字和黑屏均可读。",
+  "contentRoles": [
+    {"role": "leadPossessive", "observedText": "我的", "bboxPercentXYXY": [7, 10, 25, 21], "meaning": "第一人称入口", "alignment": "slight handmade slant at top left", "visualPriority": 4},
+    {"role": "coreTitle", "observedText": "Vlog", "bboxPercentXYXY": [16, 14, 61, 39], "meaning": "主题核心与第一视觉焦点，下伸部越过手机上边缘", "alignment": "left-heavy irregular hand lettering", "visualPriority": 1},
+    {"role": "audienceBadge", "observedText": "新手必学", "bboxPercentXYXY": [66, 14, 91, 21], "meaning": "受众或观看理由", "alignment": "right top, single line", "visualPriority": 5},
+    {"role": "rightTopic", "observedText": "剪辑", "bboxPercentXYXY": [64, 22, 92, 36], "meaning": "主标题的右侧类别", "alignment": "right-weight counterbalance", "visualPriority": 2},
+    {"role": "phoneFrame", "bboxPercentXYXY": [12, 35, 87, 63], "meaning": "横置实体物件与上下分隔", "alignment": "near-horizontal centered", "visualPriority": 2},
+    {"role": "screenAction", "bboxPercentXYXY": [17, 37, 82, 61], "meaning": "主题动作的视频证据，原图为模糊的手部/动作画面", "alignment": "horizontal video crop inside phone", "visualPriority": 3},
+    {"role": "screenCaption", "observedText": "Drinking / Vlog", "bboxPercentXYXY": [29, 46, 51, 54], "meaning": "屏内视频短词、第二层钩子", "alignment": "two-line left-of-centre", "visualPriority": 5},
+    {"role": "methodLine", "observedText": "技巧大公开", "bboxPercentXYXY": [31, 65, 70, 74], "meaning": "较小的内容承接句", "alignment": "optically centered", "visualPriority": 4},
+    {"role": "resultLine", "observedText": "创意画面", "bboxPercentXYXY": [20, 75, 80, 88], "meaning": "四字结果词、下部第一焦点", "alignment": "optically centered with flanking strokes", "visualPriority": 3},
+    {"role": "flankingStrokes", "bboxPercentXYXY": [9, 75, 91, 87], "meaning": "左右两根外张白斜线，为结果词收口", "alignment": "one on each side, paired and asymmetric in hand feel", "visualPriority": 6},
+    {"role": "paperBackground", "bboxPercentXYXY": [0, 0, 100, 100], "meaning": "细纤维的暖感中明度舞台与留白", "alignment": "full bleed", "visualPriority": 7}
+  ],
+  "absentRoles": ["brandLogo", "callToAction", "bodyParagraph", "stickerCollection", "multiPanelGrid"],
+  "firstFocus": "白色巨大核心词 Vlog 与右侧剪辑",
+  "secondaryFocus": "横置实体手机与暗调屏内动作",
+  "tertiaryFocus": "下部创意画面与两侧白斜线",
+  "dominantAxis": {"primary": "上部标题、手机、下部结果沿画布中轴垂直叠放", "secondary": "手机在约 35–63%H 形成稳定横轴", "counterbalance": "左侧巨大 Vlog 的重量由右侧剪辑和暖色标签补足，下部文字重新收中"},
+  "readingPath": ["左上我的", "左中巨大核心词", "右上受众标签及剪辑", "手机屏内动作与短词", "手机下方方法句", "斜线括住的大号结果词"],
+  "densityMap": {"top0To10Percent": "安静纸面", "upper10To36Percent": "白字与少量暖色字的高密度主题区", "phone35To63Percent": "低明度高视觉密度实体窗口", "bridge63To75Percent": "纸面呼吸及单行方法句", "result75To89Percent": "四字结果词和成对斜线", "bottom89To100Percent": "安静纸面"},
+  "protectedZones": [
+    {"bboxPercentXYXY": [0, 0, 100, 10], "rule": "保留纸面呼吸，不增文案、品牌栏或图标"},
+    {"bboxPercentXYXY": [1, 89, 99, 100], "rule": "下部结果词后保留收尾留白，不加 CTA"},
+    {"bboxPercentXYXY": [18, 38, 82, 60], "rule": "屏内动作和短字幕可辨，外部白字只允许局部合理越框"},
+    {"bboxPercentXYXY": [12, 35, 87, 63], "rule": "手机维持完整横置圆角实体外形和左右纸边"}
+  ],
+  "layerOrder": ["fibrous paper background", "dark horizontal action frame", "warm two-line caption with short red offset", "phone glass and near-black rounded physical frame", "phone contact shadow", "paper white lettering and small warm right-side label", "masked core lettering overlap across phone top edge", "bottom result lettering and paired slanted strokes"],
+  "typography": {
+    "paperHand": {"fontStyleId": "dalala-cover-014-paper-hand", "roles": ["leadPossessive", "coreTitle", "rightTopic", "methodLine", "resultLine"], "coreWordWidthPercent": [42, 47], "coreWordHeightPercent": [22, 26], "resultLineWidthPercent": [55, 62], "resultIdealChineseCharacters": 4, "methodLineAllowedChineseEquivalentCharacters": [5, 7], "shortSoftShadowOffsetPercentW": [0.5, 1.2]},
+    "screenOblique": {"fontStyleId": "dalala-cover-014-screen-oblique", "roles": ["audienceBadge", "screenCaption"], "screenCaptionLineCount": 2, "shortHardOffsetPercentW": [0.4, 0.9], "accentAreaPercent": [2, 4]}
+  },
+  "subjectTreatment": {"phoneWidthPercent": [73, 77], "phoneHeightPercent": [26, 30], "screenWidthPercent": [63, 67], "screenHeightPercent": [22, 25], "phoneOrientation": "landscape", "phonePerspective": "near frontal, small natural physical edge depth", "coreWordOverlapWithPhoneTopPercentH": [1, 2], "screenScene": "theme-relevant action, low-key, shallow depth or selective softness; identity and product facts preserved", "phoneContactShadowPercentH": [0.5, 1.2]},
+  "paletteLogic": {"areaBudgetPercent": {"midValueTexturedGround": [55, 65], "lowValuePhoneAndScreen": [20, 25], "highValueOuterTextAndLines": [12, 18], "warmAccentText": [2, 4]}, "requiredRelations": ["ground remains distinct from near-black phone", "outer main lettering is lightest text role", "warm accents are small and clustered", "phone video remains darker than paper", "specific colour values are reselected per subject"], "exactHexLocked": false},
+  "effects": {"required": ["fine localized fibrous paper grain", "near-black rounded phone frame with credible edge thickness", "restrained glass reflection and selective video blur", "short phone contact shadow", "rough hand-filled white lettering with localized short soft shadow", "two warm text accents with short harder offset shadow", "two white outward slanted strokes flanking bottom result"], "forbidden": ["flat image card instead of a physical phone", "global dirty sepia or uniform noise", "long 3D cast shadow, bevel or neon glow", "indiscriminate stickers or icons", "bright screen caption outshining main title"]},
+  "layoutContract": {
+    "locked": ["3:4 vertical canvas and upper-middle-lower stack", "asymmetric left-heavy core word and right promise", "horizontal physical phone at center with visible paper margins", "core white word descends across phone top edge", "dark theme-related action in screen with small warm two-line caption", "smaller method line above large four-character-class result line", "two outward white flanking strokes", "protected top and bottom paper breathing zones", "short localized material and text shadows"],
+    "adaptive": ["industry/account identity and coherent four-slot wording", "screen person, product, action and video content", "specific palette values while preserving value and area hierarchy", "small variations in lens softness and glass reflection"],
+    "optional": ["very slight screen reflection", "restrained video depth of field"],
+    "forbidden": ["portrait phone", "ordinary photo rectangle instead of phone", "core word entirely above phone with no overlap", "extra CTA, logo bar or explanatory paragraph", "long multi-line bottom text", "generic AI person with no subject logic", "unregistered font fallback", "marking approved or active before tests and user acceptance"]
+  },
+  "transformationGrammar": [
+    {"when": "existing horizontal action frame fits screen", "level": "T1", "action": "crop inside rounded screen, preserve identity and action, remove unrelated visual clutter", "reason": "screen must evidence the topic"},
+    {"when": "frame is too bright or wrong crop", "level": "T2", "action": "reframe or outpaint only free background, lower midtone, keep important hand/product and add restrained depth", "reason": "restore screen hierarchy without falsifying facts"},
+    {"when": "no reliable action evidence", "level": "T3-or-content-gate", "action": "prefer reshoot; otherwise reconstruct under identity/fact constraints and audit anatomy; switch template if impossible", "reason": "phone window cannot be unrelated filler"},
+    {"when": "title exceeds assigned width or changes line count", "level": "content-gate", "action": "rewrite wording before any geometry change; switch template if still unfit", "reason": "protect fixed layout and readable type"}
+  ],
+  "semanticFit": {"strong": ["video-making and vlogging instruction", "photography, editing or creative process", "food or drink preparation with real action", "hands-on product demonstration"], "conditional": ["pet care, beauty, craft, travel or design process with a genuine horizontal action frame", "commercial or expert education if playful paper/phone styling suits the account"], "reject": ["static product catalogue requiring precise detail", "long legal or medical explanation", "multi-person collage", "topics without a meaningful screen action", "luxury minimalist brands that reject casual handwriting"]},
+  "failureModes": ["phone flattened into a generic video card or turned vertical", "core word loses overlap with phone top", "all outer lettering replaced by one regular font", "top left and right groups become symmetric or equal weight", "screen caption becomes too large or bright", "phone frame crops a necessary hand, face or product feature", "bottom result expands to multiple lines", "paper becomes a dirty filter or sterile solid fill", "accent colours spread over the large title", "long heavy shadows make a cheap advertisement", "screen content has no semantic relation to upper and lower copy"],
+  "qa": {"required": ["verbatim Chinese and English lettering", "360px thumbnail preserves asymmetric title, horizontal phone and bottom result", "phone border and paper contact read as physical", "core lettering crosses phone top with plausible mask", "screen action and two-line accent are coherent and legible", "paper texture and short shadows remain local", "palette preserves role and area without exact colour lock", "font dependencies resolved without ordinary-font fallback", "cross-industry test uses a genuinely new coherent subject", "status remains non-active until user acceptance"], "passedTests": [], "thumbnailChecks": [], "userAcceptance": null}
+}

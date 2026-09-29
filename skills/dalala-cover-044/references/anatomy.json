@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-044",
+  "sourceCanvas": {"width": 1320, "height": 1760, "ratio": "3:4"},
+  "coordinateSystem": "percent of canvas, origin top-left; approximate measurements from original",
+  "primaryMechanism": "顶部双行高对比宋体形成先悬念后揭示的右扩阶梯；下方全身人物在横向展示对象前自然遮挡，街景实拍承托抽象发现",
+  "firstFocus": "second large pale-cool answer line after the white hook lead",
+  "dominantAxis": "top-left text extending right, then down to centered-left person and across the lower horizontal object",
+  "readingPath": ["top-left hook lead", "upper-center-to-right answer title", "center-left narrator face", "lower horizontal subject", "quiet road grounding"],
+  "spatialWeight": {"upperTextBandY": [4, 27], "breathingBandY": [28, 40], "figureBandY": [40, 91], "horizontalSubjectBandY": [51, 85], "quietGroundY": [90, 100]},
+  "roles": {
+    "narrator": {"content": "smiling adult woman in full-body street portrait", "box": [39, 40, 58, 91], "depth": "foreground", "visualRank": 3, "relation": "stands before and naturally occludes the car"},
+    "horizontalSubject": {"content": "white two-door car", "box": [0, 51, 98, 85], "depth": "middle ground", "visualRank": 4, "relation": "wide base behind narrator; front cropped by left canvas edge"},
+    "hookLead": {"content": "我找到了", "box": [4, 4, 59, 15], "alignment": "left", "visualRank": 2, "colorRole": "high-light neutral"},
+    "answerTitle": {"content": "“自我使用说明书”", "box": [12, 17, 97, 27], "alignment": "offset left and extending right", "visualRank": 1, "colorRole": "high-light cool accent"},
+    "subtitle": {"present": false},
+    "auxiliaryInfo": {"present": false},
+    "decoration": {"present": false, "exception": "paired quotation marks integrated into second title line"},
+    "background": {"content": "warm grey-beige city facade with windows, railings, lamps and shopfront", "box": [0, 0, 100, 100], "depth": "background", "treatment": "retain real details; darken locally behind title"}
+  },
+  "titleTypography": {"skeleton": "heavy high-contrast Chinese Song display", "stroke": "fine horizontals, heavy verticals, crisp wedge and blade terminals", "fill": "solid", "tracking": "tight but non-colliding, about -2 to +3 percent of glyph width", "lineGapCanvasPercent": [3, 4], "effect": "soft dark-grey shadow offset down-right about 3-5 percent of glyph height", "lines": 2},
+  "layerOrderBackToFront": ["full-bleed urban photo", "car or contextual horizontal subject", "full-body narrator", "local photographic grade", "soft offset title shadows", "two solid title fills"],
+  "assetTreatment": {"cutout": "not visibly used in source; only for adaptation when composite is required", "crop": "car front intentionally cropped at left; full person preserved", "perspective": "shared street-level camera and contact shadows", "repeat": false, "occlusion": "person covers central-left portion of car"},
+  "colorStructure": {"environment": "low-saturation warm mid/dark majority", "lead": "high-light neutral", "answer": "high-light cooler accent", "subject": "large high-light neutral block in lower half", "separator": "deep doors, windows, grille, tires and soft text shadow", "exactHexLocked": false},
+  "failureModes": ["second line reduced to subtitle", "third title line", "person face covered by text", "small horizontal subject", "floating cutout", "uniform bright top background", "thick outline or glow substituted for soft shadow", "copied car branding in unrelated industry"]
+}

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-042",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-042-reference.jpg",
+    "archivedReference": "skills/dalala-cover-042/assets/reference-original.jpg",
+    "sha256": "ea29a156728b2d8a04fb83bb2b7fdb0a3d4ce7b244551d6c51514bb587916359",
+    "dimensions": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视归一化估计；待复刻测试核验",
+    "bboxConvention": "[x0,y0,x1,y1] percent; boxes may overlap"
+  },
+  "visualConclusion": "左上男生近景与右下女生前景形成双人关系，右上和左下两块反向阶梯厚字给出关系与结果，中段粉色手写字连接情绪。",
+  "primaryMechanism": "错位双主角近景＋反向阶梯两块厚字＋中段手写情绪线",
+  "dominantAxis": "人物左上至右下下降对角线；文字右上至左下反向对角线",
+  "primaryFocus": "左上男生脸与右下女生脸，右上冷色厚字紧随其后",
+  "visualWeightCenterPercent": [
+    51,
+    53
+  ],
+  "readingPath": [
+    "左上男生眼神",
+    "右上两行关系标题",
+    "左中粉色手写情绪线",
+    "右下女生眼神与笑容",
+    "左下两行结果标题",
+    "小涂鸦折返"
+  ],
+  "contentRoles": [
+    {
+      "role": "background",
+      "bboxPercent": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "高明度室内墙和百叶窗，真实柔光与两处写字浅区",
+      "alignment": "full-bleed",
+      "z": 0
+    },
+    {
+      "role": "subjectA",
+      "bboxPercent": [
+        6,
+        0,
+        78,
+        67
+      ],
+      "faceBBoxPercent": [
+        6,
+        0,
+        49,
+        43
+      ],
+      "meaning": "左上男生近景，首个情绪锚点",
+      "alignment": "top-left-cropped",
+      "z": 1
+    },
+    {
+      "role": "subjectB",
+      "bboxPercent": [
+        34,
+        39,
+        100,
+        100
+      ],
+      "faceBBoxPercent": [
+        52,
+        47,
+        91,
+        83
+      ],
+      "meaning": "右下女生前景，眼神和笑容回应",
+      "alignment": "bottom-right-cropped",
+      "z": 2
+    },
+    {
+      "role": "upperTitle",
+      "bboxPercent": [
+        54,
+        5,
+        97,
+        28
+      ],
+      "meaning": "双向/暗恋，两行冷色厚字",
+      "alignment": "staggered-right",
+      "z": 4
+    },
+    {
+      "role": "emotionSubtitle",
+      "bboxPercent": [
+        4,
+        45,
+        47,
+        60
+      ],
+      "meaning": "怦然心动，粉色手写情绪桥",
+      "alignment": "left-middle",
+      "z": 5
+    },
+    {
+      "role": "episodeMark",
+      "bboxPercent": [
+        3,
+        43,
+        14,
+        47
+      ],
+      "meaning": "EP.2 连载序号",
+      "alignment": "left-above-handnote",
+      "z": 5
+    },
+    {
+      "role": "seriesMark",
+      "bboxPercent": [
+        34,
+        59,
+        44,
+        63
+      ],
+      "meaning": "系列，小型归属字",
+      "alignment": "right-below-handnote",
+      "z": 5
+    },
+    {
+      "role": "lowerTitle",
+      "bboxPercent": [
+        3,
+        73,
+        42,
+        95
+      ],
+      "meaning": "甜蜜/乌龙，两行浅色厚字",
+      "alignment": "staggered-left",
+      "z": 4
+    },
+    {
+      "role": "doodleTop",
+      "bboxPercent": [
+        43,
+        6,
+        50,
+        12
+      ],
+      "meaning": "粉色心形涂记",
+      "alignment": "upper-gap",
+      "z": 6
+    },
+    {
+      "role": "doodleRight",
+      "bboxPercent": [
+        84,
+        44,
+        94,
+        51
+      ],
+      "meaning": "粉色弯曲涂记",
+      "alignment": "right-of-female-hair",
+      "z": 6
+    }
+  ],
+  "protectedZones": [
+    {
+      "bboxPercent": [
+        9,
+        10,
+        42,
+        37
+      ],
+      "reason": "男生眼口与身份特征"
+    },
+    {
+      "bboxPercent": [
+        57,
+        51,
+        88,
+        76
+      ],
+      "reason": "女生眼口与情绪表情"
+    },
+    {
+      "bboxPercent": [
+        54,
+        5,
+        97,
+        28
+      ],
+      "reason": "右上两行标题浅底及影层"
+    },
+    {
+      "bboxPercent": [
+        3,
+        73,
+        42,
+        95
+      ],
+      "reason": "左下浅字与冷色错位影的可读性"
+    }
+  ],
+  "composition": {
+    "subjectRelation": "A 顶左较远，B 右下前景，双脸错位、不并排，发丝可压肩缘",
+    "titleRelation": "两组厚字各 2 行，每行 2 字，第二行向右错位约 12–15% 画幅",
+    "density": "四角高密，中部手写线较疏，脸周围有呼吸缝",
+    "negativeSpace": "右上浅窗约 35–40% 宽；左下浅墙/浅衣约 40% 宽；中部手写线周围保留浅色呼吸区",
+    "textImageRelationship": "右上字处于男生视线右侧，左下字与女生前景对角呼应；中段粉字跨接两人但不压脸",
+    "backgroundEvidence": "左缘约 0–7% 的墙面纸张和竖向边界是现场细节，可弱化，不属于固定装饰"
+  },
+  "typography": {
+    "upperTitle": {
+      "fontStyleId": "dalala-cover-042-soft-display",
+      "lines": 2,
+      "hanPerLine": 2,
+      "bboxPercent": [
+        54,
+        5,
+        97,
+        28
+      ],
+      "secondLineShiftCanvasPercent": [
+        12,
+        15
+      ],
+      "trackingGlyphWidthPercent": [
+        0,
+        12
+      ],
+      "lineGapGlyphHeightPercent": [
+        2,
+        12
+      ],
+      "fill": "cool-bright-solid",
+      "shadow": "dark-gray-hard-offset-right-down-7-to-10-percent-glyph-height"
+    },
+    "lowerTitle": {
+      "fontStyleId": "dalala-cover-042-soft-display",
+      "lines": 2,
+      "hanPerLine": 2,
+      "bboxPercent": [
+        3,
+        73,
+        42,
+        95
+      ],
+      "secondLineShiftCanvasPercent": [
+        12,
+        15
+      ],
+      "fill": "light-neutral-solid",
+      "shadow": "cool-hard-offset-right-down-5-to-8-percent-glyph-height"
+    },
+    "emotionSubtitle": {
+      "fontStyleId": "dalala-cover-042-heart-hand",
+      "hanPreferred": 4,
+      "bboxPercent": [
+        4,
+        45,
+        47,
+        60
+      ],
+      "fill": "warm-accent",
+      "effect": "varying-pressure-and-sparse-dry-brush"
+    },
+    "episodeMark": {
+      "fontStyleId": "dalala-cover-026-roman-serif",
+      "fontVariant": "issue",
+      "sizeRelativeEmotionPercent": [
+        20,
+        28
+      ],
+      "tracking": "slightly-loose"
+    },
+    "seriesMark": {
+      "fontStyleId": "dalala-breath-cut-song",
+      "sizeRelativeEmotionPercent": [
+        30,
+        40
+      ],
+      "observedEffect": "粉色字面，轻微冷色错影；仅作为归属信息，不抬为第三标题"
+    }
+  },
+  "paletteStructure": {
+    "brightPhotoAreaPercent": [
+      70,
+      80
+    ],
+    "darkHairShadowAreaPercent": [
+      18,
+      25
+    ],
+    "displayTitlesAndHardShadowAreaPercent": [
+      7,
+      12
+    ],
+    "warmHandnoteAndDoodleAreaPercent": [
+      2,
+      4
+    ],
+    "measurementNote": "视觉重量估计；人物、照片及字层重叠，不能相加为互斥像素比例",
+    "rule": "高明度暖中性写真承托两组冷亮/浅亮厚字；少量暖色手写与涂鸦连接人物；具体色值按内容重选"
+  },
+  "effects": [
+    "写真柔光与真实发丝皮肤",
+    "两人前后遮挡及统一景深",
+    "右上冷色实字与深灰硬边错位影",
+    "左下浅色实字与冷色硬边错位影",
+    "粉色手写局部干笔",
+    "两枚少量手绘涂记"
+  ],
+  "layerOrder": [
+    "真实浅色室内",
+    "男生中景",
+    "女生前景发丝与肩",
+    "两组标题偏移影",
+    "两组实字",
+    "情绪手写字与连载小字",
+    "小涂鸦"
+  ],
+  "locked": [
+    "双人对角近景",
+    "右上与左下各两行厚字及阶梯错位",
+    "左中手写情绪线",
+    "高明度双浅区",
+    "冷暖面积与硬边错位影"
+  ],
+  "adaptive": [
+    "两位主角身份",
+    "行业与主题文案",
+    "背景真实细节",
+    "具体冷暖色值",
+    "连载文字内容"
+  ],
+  "optional": [
+    "连载号与系列字",
+    "两枚手绘标记的具体形状"
+  ],
+  "forbidden": [
+    "两人等大并排",
+    "人脸被字盖住",
+    "四字一整行",
+    "普通字体替代花字",
+    "厚字影层消失",
+    "纯色背景丢掉生活光",
+    "无关贴纸塞满留白",
+    "无用户验收改 active"
+  ],
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "thumbnailQa": false,
+    "userAcceptance": false
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-172",
+  "displayName": "172 · 放射网格",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "172",
+    "catalogName": "放射网格",
+    "category": "字体、网格与东亚文字",
+    "subcategory": "排版系统与网格系统",
+    "originalImagePath": "v2/images/04-type-grid-cjk/172-网格系统.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/04-type-grid-cjk/172-网格系统.png",
+    "originalImageSha256": "85e9af038dba8ea31f7c7c53bbb09409c95fee73fe9e7de5998b6148560c6476",
+    "localThumbnail": "../references/source-thumbnails/172.jpg",
+    "localThumbnailSha256": "b7ce4df9c8fde4819922862ef1970da0c222857c6bd8ff172489f7f799283ce6",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "放射网格",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "网格系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "字体组织系统",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "direct",
+    "tags": [
+      "字体、网格与东亚文字",
+      "排版系统与网格系统",
+      "放射网格",
+      "网格",
+      "动势"
+    ],
+    "assetTypes": [
+      "mixed",
+      "text"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "以明确中心组织放射路径，所有方向线必须服务同一焦点或同一扩散动作。",
+    "dominantAxis": "radial",
+    "primaryFocus": "radial-centre",
+    "readingPath": "outside-in",
+    "locked": [
+      "以“放射网格”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 radial 主轴、radial-centre 焦点和 outside-in 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-172.json"
+  }
+}

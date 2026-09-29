@@ -1,0 +1,4 @@
+interface:
+  display_name: "024 圆厚手工大字测试"
+  short_description: "参考 024 中文主字的透明字层规则，尚待测试验收。"
+  default_prompt: "读取 024 字形规则与原图，按准确文字逐字生成透明字层并执行 QA。"

@@ -1,0 +1,35 @@
+{
+  "fontId": "dalala-hollow-show",
+  "familyName": "Dalala Hollow Show",
+  "displayName": "Dalala 镂空综艺体",
+  "version": "0.2.0",
+  "approvedReference": "previews/approved-style-reference.png",
+  "productionMaster": "sources/glyph-master-v02.png",
+  "coveragePolicy": "Only listed glyphs are approved. Missing Chinese characters must enter the expansion queue; do not silently mix a system font into a headline.",
+  "glyphs": [
+    {"char": "今", "unicode": "U+4ECA", "status": "master-v1"},
+    {"char": "天", "unicode": "U+5929", "status": "master-v1"},
+    {"char": "有", "unicode": "U+6709", "status": "master-v1"},
+    {"char": "点", "unicode": "U+70B9", "status": "master-v1"},
+    {"char": "好", "unicode": "U+597D", "status": "master-v1"},
+    {"char": "笑", "unicode": "U+7B11", "status": "master-v1"},
+    {"char": "这", "unicode": "U+8FD9", "status": "master-v1"},
+    {"char": "也", "unicode": "U+4E5F", "status": "master-v1"},
+    {"char": "太", "unicode": "U+592A", "status": "master-v1"},
+    {"char": "离", "unicode": "U+79BB", "status": "master-v1-review-complex"},
+    {"char": "谱", "unicode": "U+8C31", "status": "master-v1-review-complex"},
+    {"char": "了", "unicode": "U+4E86", "status": "master-v1"},
+    {"char": "吧", "unicode": "U+5427", "status": "master-v1"},
+    {"char": "的", "unicode": "U+7684", "status": "master-v1"},
+    {"char": "不", "unicode": "U+4E0D", "status": "master-v1"},
+    {"char": "！", "unicode": "U+FF01", "status": "master-v1"}
+  ],
+  "alternateTarget": 3,
+  "layoutVariation": {
+    "baselineShiftEm": [-50, 50],
+    "rotationDegrees": [-4, 4],
+    "trackingFactor": [0.62, 1.28],
+    "scaleFactor": [0.92, 1.10],
+    "deterministicSeed": "coverId + text + fontVersion"
+  }
+}

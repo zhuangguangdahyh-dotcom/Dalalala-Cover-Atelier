@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-181",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/181.jpg",
+  "observedTitle": "大标题版式",
+  "referenceContentMap": {
+    "primarySubject": "左上至中部两行超大黑色中文标题",
+    "mainTitle": "标题本身就是第一视觉主体",
+    "subtitle": "大标题下方蓝色英文标题",
+    "supportingInformation": "左下解释文字与底部四项关键词",
+    "decorations": "右中蓝圆、斜穿圆形的黑线、右下越界蓝三角和点阵",
+    "protectedWhitespace": "标题字腔、标题右侧与几何形之间的呼吸区"
+  },
+  "coverTranslation": {
+    "templateFamily": "typographic-stage",
+    "subjectRole": "按语义把标题压成 1–3 个不同宽度的大块",
+    "mainTitleRole": "标题占据最大面积并形成独立剪影",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "右中蓝圆、斜穿圆形的黑线、右下越界蓝三角和点阵"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "标题字腔、标题右侧与几何形之间的呼吸区",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "先读超大标题，再被圆与斜线带向右下配重，最后回到说明。",
+    "assetOperations": [
+      "按语义把标题压成 1–3 个不同宽度的大块",
+      "允许关键词越界、错位或与主体局部遮挡",
+      "让一组主体或几何体承担反向配重"
+    ]
+  }
+}

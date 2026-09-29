@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-013",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/013.jpg",
+  "observedTitle": "负空间构图",
+  "referenceContentMap": {
+    "primarySubject": "右侧由猫头轮廓切出的绿色形状",
+    "mainTitle": "左上大标题",
+    "subtitle": "主标题下方英文副标题",
+    "supportingInformation": "左侧中部短说明与底部四个标签",
+    "decorations": "绿色圆形、猫形负空间、水平分隔线和胶囊标签",
+    "protectedWhitespace": "画面中央至右侧主体周围的大面积米白空场"
+  },
+  "coverTranslation": {
+    "subjectRole": "主体置于画面边缘，并通过轮廓、裁切或色块与大面积空场形成清楚的正负形关系。",
+    "mainTitleRole": "放在空场的一角，只占留白的一小部分；不得用超大字填满负空间。",
+    "subtitleRole": "主标题下方的小型补充信息；没有新信息时隐藏并保留空白。",
+    "decorationZones": ["主体轮廓边缘", "标题附近的小范围", "底部低视觉等级信息带"],
+    "decorationLimits": "装饰只能强化正负形或安静氛围，禁止填满中央留白。",
+    "protectedRegions": ["主体与标题之间的中央空场", "主体轮廓形成的负形", "主体脸部或产品核心结构"],
+    "defaultReadingPath": "先看主体轮廓，再跨越空场到标题，最后读取小型辅助信息",
+    "assetOperations": ["主体抠图", "换为低干扰纯色或纹理背景", "轮廓蒙版", "必要时清除原背景杂物"]
+  }
+}

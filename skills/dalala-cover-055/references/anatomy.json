@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-055",
+  "source": "assets/reference-original.jpg",
+  "canvas": {"width": 1265, "height": 1685, "ratio": "3:4", "coordinateSystem": "percent from top-left", "measurementTolerancePercentagePoints": 3},
+  "firstGlance": "黑栏白色手写引题之后，暖亮手写主标题给出动作；四张不同案例卡呈弧形，底部真人双手托举。",
+  "primaryMechanism": "上方双层高对比标题提出四类视觉对象转为结果的承诺；四张倾斜证据卡形成展示带；正面人物以双手和表情为展示带赋予情绪与尺度。",
+  "components": [
+    {"role": "background", "content": "near-black cool navy clean field", "boxPercent": [0, 0, 100, 100], "zOrder": 0},
+    {"role": "topBar", "content": "near-black horizontal header", "boxPercent": [0, 0, 100, 12.3], "zOrder": 1},
+    {"role": "prefix", "content": "喜欢的画风", "boxPercent": [5, 3.5, 72, 12.7], "alignment": "left, single line", "zOrder": 7},
+    {"role": "mainTitle", "content": "做成skills", "boxPercent": [17, 15, 99, 26.5], "alignment": "single baseline; Chinese left and airy lowercase Latin right", "zOrder": 7},
+    {"role": "cardLabels", "content": ["喜茶风", "明信片", "复古风", "拼贴风"], "boxPercent": [6, 29, 97, 38], "centersXPercent": [12, 37, 63, 89], "alignment": "each follows its own card", "zOrder": 5},
+    {"role": "card1", "content": "bright drink/product example", "boxPercent": [0, 39, 31, 69], "rotationDegreesApprox": -12, "zOrder": 3},
+    {"role": "card2", "content": "bright scenic postcard example", "boxPercent": [26, 34, 53, 63], "rotationDegreesApprox": -5, "zOrder": 3},
+    {"role": "card3", "content": "dark retro interface/portrait example", "boxPercent": [48, 33, 77, 62], "rotationDegreesApprox": 5, "zOrder": 4},
+    {"role": "card4", "content": "bright architecture/statue collage example", "boxPercent": [72, 36, 100, 72], "rotationDegreesApprox": 10, "zOrder": 3},
+    {"role": "faintArc", "content": "very low contrast blue arc joining cards and hands", "boxPercent": [4, 29, 97, 89], "zOrder": 2},
+    {"role": "humanSubject", "content": "front-facing half-body person with open mouth and outward upturned palms", "boxPercent": [6, 60, 94, 100], "faceCenterPercent": [49, 73], "leftPalmCenterPercent": [15, 81], "rightPalmCenterPercent": [85, 81], "alignment": "centered, bottom bleed", "zOrder": 6}
+  ],
+  "primaryFocus": "warm bright hand-lettered action/result phrase, then four evidence cards",
+  "dominantAxis": "central vertical headline-to-card-to-person axis plus arched four-card horizontal band",
+  "readingPath": ["white prefix", "warm bright main title", "four card labels and cards left to right", "human face and open palms", "return to main title"],
+  "visualMass": {"upperPercent": 54, "lowerPercent": 46, "visibleDarkBackgroundPercent": [45, 55]},
+  "occlusion": ["central cards partly overlap", "person head covers 3-8% of central cards' lower height", "hands sit visually beneath outer cards", "cards do not cover face"],
+  "typography": {
+    "styleId": "dalala-cover-055-rounded-monoline",
+    "prefix": {"skeleton": "rounded hand-drawn monoline Hanzi", "fill": "solid light", "lineCount": 1, "heightCanvasPercent": [9, 11]},
+    "mainTitle": {"skeleton": "same-source rounded monoline Chinese plus airy lowercase Latin", "fill": "solid warm bright", "lineCount": 1, "chineseCharacters": [2, 3], "latinCharacters": [4, 7], "heightCanvasPercent": [10, 13]},
+    "cardLabels": {"skeleton": "thin quick handwritten monoline", "fill": "solid light", "sizeRelativeToMainPercent": [22, 30]},
+    "subtitle": null,
+    "auxiliary": null
+  },
+  "colorRoles": [
+    {"role": "deepCoolBackground", "visibleAreaPercent": [45, 55], "lightness": "very low"},
+    {"role": "nearBlackHeader", "areaPercent": [8, 12], "lightness": "lowest"},
+    {"role": "warmBrightActionText", "visibleAreaPercent": [6, 9], "lightness": "high"},
+    {"role": "lightPrefixLabelsAndCards", "lightness": "high", "distribution": "one header line plus three mostly light cards"},
+    {"role": "darkCard", "lightness": "low-medium", "distribution": "one of four cards"}
+  ],
+  "textures": ["restrained dark-blue gradient", "real photographic skin and fabric", "different genuine visual textures within each card", "short soft card shadows", "no thick outline or noisy global grain"],
+  "referenceOnlyContent": ["original person's identity", "original drink", "original mountain postcard", "original retro anime/interface", "original architecture/statue collage", "original wording"]
+}

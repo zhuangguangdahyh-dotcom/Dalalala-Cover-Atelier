@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-041-dot-matrix",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "scripts": [
+    "Latin",
+    "Han",
+    "digits",
+    "punctuation"
+  ],
+  "roles": [
+    "mainTitle",
+    "terminalPunctuation"
+  ],
+  "construction": "每个字符按可读字骨由独立近圆实点排成；英文有宽阔字腔和开放轮廓，中文遵守标准笔画关系，第三行末尾是汉字了而非数字7；不以图片半调填充普通字形",
+  "dotDiameterCanvasWidthPercent": [
+    1.1,
+    1.5
+  ],
+  "dotPitchToDiameter": [
+    1.05,
+    1.25
+  ],
+  "lineCount": 3,
+  "lineBBoxesPercent": [
+    [
+      4,
+      11,
+      54,
+      22
+    ],
+    [
+      4,
+      23,
+      61,
+      33
+    ],
+    [
+      4,
+      34,
+      81,
+      45
+    ]
+  ],
+  "colorRoles": {
+    "line1": "small-area saturated accent",
+    "line2": "near-black primary information",
+    "line3": "near-black primary information",
+    "terminalPunctuation": "same accent as line1"
+  },
+  "primaryRenderer": "transparent-lettering-layer",
+  "productionApproved": false,
+  "forbidden": [
+    "普通字体半调蒙版",
+    "连续实心黑体",
+    "空心圆点",
+    "霓虹外发光",
+    "机械完美等圆导致塑料感",
+    "点太密导致汉字糊成块",
+    "错字或漏标点"
+  ]
+}

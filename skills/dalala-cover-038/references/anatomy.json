@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-038",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-038.jpg",
+    "archivedReference": "skills/dalala-cover-038/assets/reference-original.jpg",
+    "sha256": "c5e828b56b0198403eb30205d309afb29853b429c910cecaa69508e355c4116d",
+    "dimensions": [2881, 2160],
+    "ratio": "4:3",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视估计；百分比为复刻初值，待实图测试微调",
+    "bboxConvention": "[x0,y0,x1,y1]，百分比，重叠框不可相加",
+    "sameNumberLayoutRuleUsed": false
+  },
+  "canvas": {
+    "sourceRatio": "4:3",
+    "sourceSize": [2881, 2160],
+    "studiedProductionRatio": "4:3",
+    "requestedRatio": "3:4",
+    "requestedRatioStatus": "requires-separate-variant-test"
+  },
+  "visualConclusion": "横向单排白色磨损主标题压住上部，右侧近景创作者和左侧错层软件界面形成三角配重，底部暖色 BGM 与白色 Content 分别指向流程两端。",
+  "primaryMechanism": "粗大主题字提供瞬时识别；近景真人承担信任和尺度；可视化工具界面承担操作证据；两个底部短词把主题拆成相关的内容维度。",
+  "dominantAxis": "顶部横轴为入口；左窗—右脸—底部双词组成折线阅读",
+  "primaryFocus": "顶部四字中文主标题",
+  "visualWeightCenterPercent": [58, 47],
+  "readingPath": ["顶部单行中文主标题", "右侧人物眼睛和脸", "左侧前景工具窗口", "左下暖色短词", "右下亮色短词", "后排卡片和室内背景"],
+  "contentRoles": [
+    {"role": "background", "bboxPercent": [0, 0, 100, 100], "meaning": "真实、深灰为主的虚化室内现场", "alignment": "full-bleed", "z": 0},
+    {"role": "mainTitle", "bboxPercent": [10, 3, 89, 29], "meaning": "自动剪辑，唯一主命题", "alignment": "single-row-near-full-width", "z": 1},
+    {"role": "subtitle", "bboxPercent": null, "meaning": "原图不存在独立副标题", "alignment": "absent", "z": null},
+    {"role": "rearToolCards", "bboxPercent": [12, 30, 38, 49], "meaning": "2–3 张错层软件/媒体卡片，露出上沿建立深度", "alignment": "staggered-above-main-window", "z": 2},
+    {"role": "mainToolWindow", "bboxPercent": [4, 43, 45, 74], "meaning": "最大、最清楚的可视化操作证据", "alignment": "left-middle-lower", "z": 3},
+    {"role": "person", "bboxPercent": [43, 20, 100, 100], "meaning": "近景单人讲述者，脸为第二视觉焦点", "alignment": "right-edge-cropped", "z": 4},
+    {"role": "face", "bboxPercent": [54, 20, 84, 76], "meaning": "身份、眼神与可信现场", "alignment": "right-center", "z": 4},
+    {"role": "leftKeyword", "bboxPercent": [20, 80, 39, 91], "meaning": "BGM，暖色短标签，连接左侧工作流", "alignment": "lower-left", "z": 5},
+    {"role": "rightKeyword", "bboxPercent": [55, 86, 94, 100], "meaning": "Content，白色短标签，压在人物下部", "alignment": "lower-right-bottom-cropped", "z": 5}
+  ],
+  "protectedZones": [
+    {"bboxPercent": [56, 30, 85, 76], "reason": "脸和五官不得被说明字或窗口覆盖"},
+    {"bboxPercent": [44, 31, 55, 67], "reason": "左右主体之间需要少量暗色分离带"},
+    {"bboxPercent": [10, 3, 89, 29], "reason": "主标题仅可被头发局部遮挡，不可压入杂乱界面"}
+  ],
+  "composition": {
+    "textToScene": "顶部约 26% 高度为文字入口；中下部人物和窗口分左右占位，均延伸到底边附近",
+    "leftRightWeight": "右侧人物较重；左侧大窗口加错层卡片对冲，约 45:55",
+    "density": "上部单一粗字；中部照片和界面双主体；底部只有两组短词",
+    "negativeSpace": "标题下缘至主体中部的暗灰空带及脸周围虚化背景，不可塞成说明区",
+    "occlusion": "右侧头发局部压主标题；前景窗口压后卡片；底部右词压人物手胸区域"
+  },
+  "typography": {
+    "mainTitle": {"fontStyleId": "dalala-cover-038-distressed-han", "script": "Han", "lineCount": 1, "preferredCharacters": 4, "testRangeCharacters": [3, 5], "widthPercent": [76, 82], "heightPercent": [24, 27], "trackingRelativeToGlyphWidthPercent": [0, 3], "fill": "高明度实心", "effect": "局部稀疏刮痕与极浅暗边", "noSubtitle": true},
+    "leftKeyword": {"fontStyleId": "dalala-cover-038-clean-latin", "variant": "shortAccent", "lineCount": 1, "preferredLength": [3, 5], "widthPercent": [17, 21], "heightPercent": [10, 12]},
+    "rightKeyword": {"fontStyleId": "dalala-cover-038-clean-latin", "variant": "wideKeyword", "lineCount": 1, "preferredLength": [5, 8], "widthPercent": [36, 42], "heightPercent": [11, 15]}
+  },
+  "paletteStructure": {
+    "darkNeutralBackgroundAndClothingPercent": [55, 65],
+    "skinAndSoftLightBackgroundPercent": [18, 25],
+    "highLightnessTitleAndInterfaceEdgesPercent": [12, 18],
+    "warmAccentAndSmallScreenColorsPercent": [5, 8],
+    "rule": "暗中性为大底，亮色标题主对比，脸保自然中高明度，冷亮工具轮廓辅助，小面积暖强调落左下；不锁具体色值"
+  },
+  "effects": ["中文笔画内局部掉墨", "中文浅暗边", "真实室内浅景深", "工具窗口冷亮细边与柔影", "后排卡片小角度错层", "人物发丝遮挡标题"],
+  "layerOrder": ["虚化室内背景", "中文主标题", "后排软件/媒体卡片", "前景操作窗口及亮边", "人物与细发丝", "底部左右两组独立透明词层"],
+  "variableContract": {
+    "person": "身份、服装、动作内容可变；右侧近景、脸部面积和局部越界不变",
+    "text": "语义可变；主标题单行粗白磨损，底部两短词的行数、左右角色和相对面积不变",
+    "product": "可视化工具/产品证据可变；左侧 2–4 层矩形错位、前大后小、清晰度递减不变",
+    "palette": "色值可变；暗底、亮主字、冷亮工具、单处暖强调和肤色的明度/面积关系不变"
+  },
+  "locked": ["4:3 原图骨架", "单行近全宽主标题", "左界面右近景人物的三角配重", "标题被发丝局部遮挡", "左侧 2–4 层工具证据", "底部左右短词", "暗底/亮字/暖小强调结构"],
+  "adaptive": ["人物身份与手势", "具体工具或产品界面", "文字内容", "具体色值", "背景室内行业场景"],
+  "optional": ["小范围真实屏幕反光", "软件界面中的低对比小信息"],
+  "forbidden": ["将横版直接裁成 3:4 并称完成", "把底部关键词误作副标题", "加入无关贴纸箭头和价格", "复制原软件商标或假造界面事实", "把人物缩成小头像", "窗口与脸互相遮挡", "用全局噪声模拟中文字破损", "未确认即转 active"],
+  "renderReadiness": {"nearSourceRecreation": false, "crossIndustryTest": false, "portraitVariantTest": false, "fontQa": false, "userAcceptance": false}
+}

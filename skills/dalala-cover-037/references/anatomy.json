@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-037",
+  "sourceReference": "../assets/reference-original.jpg",
+  "sourceDimensions": {"width": 2880, "height": 3839, "ratio": "3:4"},
+  "measurementNote": "所有 box 为 0–100 画布百分比的目测复刻区间，不代表像素分割真值。",
+  "firstFocus": "跨越横带的中央人物脸部与被她遮住的极细超大白色中文",
+  "mechanism": "同一身份的五段状态影像构成叙事拼贴，人物前景穿出分区，抽象的身份转变标题由具体场景佐证。",
+  "dominantAxis": "x 48–52% 的垂直人物轴，辅以三道硬水平照片分界",
+  "readingPath": ["顶部英文短标", "顶部英文引子", "上层黑白肖像和雾中钢琴", "中文第一段", "中央人脸和中文第二段", "左下暖光动作", "右下暗色结果场景"],
+  "bands": [
+    {"id":"header", "box":[0,0,100,11.5], "role":"灰雾呼吸区和英文幕题"},
+    {"id":"upperMontage", "box":[0,11.5,100,35], "role":"非对称的档案肖像与处境远景"},
+    {"id":"centralScene", "box":[0,35,100,67.5], "role":"满宽冷色室内和主体近景"},
+    {"id":"lowerMontage", "box":[0,67.5,100,96], "role":"左暖动作与右暗结果双图"},
+    {"id":"bottomFade", "box":[0,96,100,100], "role":"深色收边"}
+  ],
+  "elements": [
+    {"id":"latinMasthead", "box":[32,1,70,7.5], "content":"KALEO", "role":"身份或章节短标", "layer":6, "alignment":"center", "fontStyleId":"dalala-cover-037-editorial-sans", "variant":"masthead"},
+    {"id":"latinTagline", "box":[32,9.5,70,11.7], "content":"WAY DOWN WE GO", "role":"低权重情绪引子", "layer":6, "alignment":"center", "fontStyleId":"dalala-cover-037-editorial-sans", "variant":"tagline"},
+    {"id":"archivePortrait", "box":[2.5,11.5,36,35], "role":"黑白正面半身档案照", "layer":3, "areaPercentApprox":8},
+    {"id":"fogScene", "box":[36,11.5,100,35], "role":"低反差环境中的人物与主题道具", "layer":2, "areaPercentApprox":15},
+    {"id":"smallAccent", "box":[14,31,24,35], "role":"可选小面积亮色标记", "layer":5, "areaPercentApprox":0.4},
+    {"id":"hanLead", "box":[59,29,96,38], "content":"当我变成", "role":"条件或前半命题", "layer":7, "alignment":"right", "fontStyleId":"dalala-cover-037-hairline-han"},
+    {"id":"room", "box":[0,35,100,67.5], "role":"冷色真实室内主背景", "layer":2, "areaPercentApprox":32},
+    {"id":"hanPayoff", "box":[0,39,100,64], "content":"另一个人", "role":"超宽变化结果或身份命题", "layer":7, "alignment":"center-outbleed", "fontStyleId":"dalala-cover-037-hairline-han"},
+    {"id":"foregroundPerson", "box":[26,28,73,67.5], "role":"跨横带的中央近景主体", "layer":8, "areaPercentApproxRange":[22,27], "protectedZones":["face","hands","heldObject"]},
+    {"id":"fireAction", "box":[0,67.5,52,96], "role":"暖色高能量动作剪影", "layer":2},
+    {"id":"darkOutcome", "box":[52,67.5,100,96], "role":"暗色人物与横向环境或物件", "layer":2}
+  ],
+  "textSystem": {
+    "leadChineseCharacters": [3,5],
+    "payoffChineseCharacters": [3,5],
+    "totalChineseCharacters": [6,9],
+    "hanLines": 2,
+    "latinMastheadCharacters": [3,7],
+    "latinTaglineWords": [3,5],
+    "hanStrokeToGlyphHeight": [0.01,0.025],
+    "hanTrackingEm": [0,0.04],
+    "latinTaglineTrackingEm": [0.25,0.45],
+    "fill": "solid high-lightness neutral; no prominent stroke, shadow or glow"
+  },
+  "negativeSpace": [
+    {"box":[0,0,32,11.5],"policy":"不放新说明"},
+    {"box":[70,0,100,11.5],"policy":"不放新说明"},
+    {"box":[65,12,100,29],"policy":"保留雾景低信息密度"},
+    {"box":[43,34,61,48],"policy":"脸部识别与抠图安全区"}
+  ],
+  "paletteStructure": {
+    "upperMutedGrayAndMonochromePercent":[20,25],
+    "upperDarkGrayGreenPercentApprox":15,
+    "middleCoolDarkPercent":[30,35],
+    "lowerWarmHighlightPercent":[9,14],
+    "lowerDarkAndBottomPercent":[18,23],
+    "whiteLetteringPercent":[8,12],
+    "rule":"具体色值可变，保留灰静、冷静、暖爆发、暗收束的次序与白字对比"
+  },
+  "layerOrderBackToFront": ["灰雾底", "上下场景照片", "中段室内", "档案纸框及小标记", "英文与中文独立透明文字层", "中央人物精抠前景", "轻颗粒和局部调色"],
+  "locked": ["3:4 纵向五带", "上非对称双图、中满宽、下双图", "中央主体跨 y≈35% 边界并在中文第二段之前", "两段一行中文的悬殊大小与遮挡", "顶部双层英文、底部不加文字", "灰/冷/暖/暗的面积和对比关系", "不同景别、动作与状态的叙事关联"],
+  "adaptive": ["人物身份和服装", "主题物件与环境", "有真实关联的四至五种状态影像", "文字具体内容", "符合角色的具体色值"],
+  "optional": ["档案框细小磨损", "小面积亮色块", "极轻颗粒与暗角"],
+  "failureModes": ["无共同主题的随机拼贴", "中心人物不跨界或悬浮", "人脸被字遮挡", "中文第二段缩小或换行", "全图同景别或同色", "全部照片排成四宫格", "文字使用空心描边、厚阴影或普通促销字体", "顶部英文借用原参考但无语义", "360×480 缩略图失去主轴"]
+}

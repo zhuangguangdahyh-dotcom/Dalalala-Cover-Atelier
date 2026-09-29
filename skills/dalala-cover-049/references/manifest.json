@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-049",
+  "displayName": "参考封面 049",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceReference": "参考封面图/dalala-cover-049-reference.jpg",
+  "archivedReference": "skills/dalala-cover-049/assets/reference-original.jpg",
+  "annotatedReference": null,
+  "analysisReport": "skills/dalala-cover-049/references/adaptation-rules.md",
+  "anatomy": "skills/dalala-cover-049/references/anatomy.json",
+  "adaptationRules": "skills/dalala-cover-049/references/adaptation-rules.md",
+  "qa": "skills/dalala-cover-049/references/qa.md",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedRatios": [
+    "3:4"
+  ],
+  "canvas": {
+    "sourceWidth": 2880,
+    "sourceHeight": 3840,
+    "defaultWidth": 1080,
+    "defaultHeight": 1440
+  },
+  "titleLength": {
+    "mainLatinLetters": [
+      6,
+      12
+    ],
+    "mainLineCount": 1,
+    "subtitleLatinCharactersIncludingSpaces": [
+      10,
+      20
+    ],
+    "subtitleLineCount": 1,
+    "fallback": "先改写语义，不能加行、压窄字体或扩张文字区"
+  },
+  "subjectTypes": [
+    "真实城市与街区",
+    "有入口和人流的商业空间",
+    "有身份锚与现场活动的酒店或餐饮空间",
+    "其他具有远中近层次的真实场景"
+  ],
+  "contentMood": [
+    "城市漫步",
+    "抵达",
+    "空间与人的关系",
+    "真实经营现场",
+    "纪实而克制"
+  ],
+  "firstVisualFocus": "横桥上方一行居中的浅色高反差罗马衬线地名",
+  "spatialSkeleton": "上部留白天空与竖向身份锚，中段横向连接物承托双行文字，下部真实人流和前景运动模糊",
+  "readingPath": [
+    "中央竖向地标",
+    "主标题",
+    "副标题",
+    "桥",
+    "真实活动"
+  ],
+  "imageTextRelationship": "文字浮于同一张实拍的中景暗部，桥的横线托住文字；照片不是装饰底纹而是地点与行动的证据",
+  "locked": [
+    "3:4 全幅真实场景",
+    "远中近三层与上疏下密",
+    "竖向身份锚和中部横向连接物",
+    "居中一行衬线主字加一行无衬线副字",
+    "字压桥线附近但不遮高处地标"
+  ],
+  "adaptive": [
+    "行业、账号与主题",
+    "真实地点和人物",
+    "标题原文",
+    "建筑或空间对象",
+    "具体配色与自然时段"
+  ],
+  "optional": [
+    "少量自然运动模糊",
+    "局部暖灯",
+    "地标的具体高度和形式"
+  ],
+  "forbidden": [
+    "将三层照片改成拼贴或纯色海报",
+    "第三行标题",
+    "近景人像遮住文字",
+    "厚描边、霓虹、底板",
+    "复制原图城市和文字",
+    "未经测试与确认标为 active"
+  ],
+  "variableContract": {
+    "person": "身份和动作可换，必须留在下部近景、作为真实现场证据且不盖住双行标题",
+    "text": "原文可换，一行主标题加一行副标题、中心轴、字框和尺寸比不变；过长先改写",
+    "product": "可换成建筑、空间或产品识别物，但需承担上部身份锚并与中下部活动属于同一场景",
+    "palette": "色值可变，偏冷或中性的远景、暗中景、局部暖光与高明度文字的角色和面积关系不变"
+  },
+  "invariantContract": {
+    "layout": "主体竖轴约 x43–54%；桥/等效横线 y45–54%；主字 x27–73%, y43–49%；副字 x38–62%, y49–52%",
+    "area": "全幅照片 100%；远景视觉重量约 48–58%，暗街和前景 28–38%，局部暖光 6–12%，浅字可见墨色约 2–4%；重叠不累加",
+    "specialEffects": "实拍自然景深、合理前景运动模糊、建筑局部暖光和无底板文字叠加；禁止改为人工纹理和厚影"
+  },
+  "assetTransformation": {
+    "minimum": "T1",
+    "levels": {
+      "T0": "核实地点与现场事实",
+      "T1": "重裁扶正并保护标题暗部",
+      "T2": "局部修复、扩图与自然光比调整",
+      "T3": "缺三层关系时换片或补拍，同场景才可重建"
+    },
+    "trigger": "缺中部暗面或横向连接时先换机位／换片；无法形成同场景远中近时不得硬套"
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-049-city-roman",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-049-city-sans",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "fontRegistryEntries": "skills/dalala-cover-049/references/font-registry-entries.json",
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "userAcceptance": false
+  }
+}

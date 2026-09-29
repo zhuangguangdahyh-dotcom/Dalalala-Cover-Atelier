@@ -1,0 +1,105 @@
+{
+  "system": {
+    "name": "Dalala Visual Foundation",
+    "version": "1.0.0",
+    "source_panel_range": "001-100",
+    "layout_source": {
+      "repository": "https://github.com/nevertoday/100-layout-compositions",
+      "commit": "deea732fb0834c12a8c638e169ed0604a87f9b21",
+      "license": "CC BY 4.0"
+    }
+  },
+  "invariants": [
+    "content_before_style",
+    "preserve_recognition_anchors",
+    "one_dominant_proposition",
+    "active_whitespace",
+    "colour_roles_not_swatch_collection",
+    "credible_material_behaviour",
+    "typography_participates_in_composition",
+    "one_primary_style_family",
+    "one_primary_layout_family",
+    "format_specific_recomposition",
+    "user_aesthetic_feedback_overrides_internal_score"
+  ],
+  "style_families": [
+    {"id": "F01", "name": "quiet_handdrawn_editorial"},
+    {"id": "F02", "name": "naive_folk_narrative"},
+    {"id": "F03", "name": "printmaking_spot_colour"},
+    {"id": "F04", "name": "conceptual_minimal_poetic"},
+    {"id": "F05", "name": "modernist_geometric_brand"},
+    {"id": "F06", "name": "diagrammatic_relationship_mapping"},
+    {"id": "F07", "name": "paper_craft_material_object"},
+    {"id": "F08", "name": "miniature_spatial_architecture"},
+    {"id": "F09", "name": "place_travel_field_editorial"},
+    {"id": "F10", "name": "typography_as_visual_structure"},
+    {"id": "F11", "name": "reality_window_art_intervention"}
+  ],
+  "layout_families": [
+    {"id": "L01", "name": "division_and_proportion"},
+    {"id": "L02", "name": "symmetry_balance_and_weight"},
+    {"id": "L03", "name": "open_closed_and_boundary"},
+    {"id": "L04", "name": "density_and_whitespace"},
+    {"id": "L05", "name": "points_and_nodes"},
+    {"id": "L06", "name": "letterform_and_geometric_container"},
+    {"id": "L07", "name": "layering_steps_and_sequence"},
+    {"id": "L08", "name": "grid_module_and_editorial_system"},
+    {"id": "L09", "name": "axis_line_and_visual_path"},
+    {"id": "L10", "name": "perspective_depth_and_spatial_hierarchy"},
+    {"id": "L11", "name": "hierarchy_and_perceptual_contrast"},
+    {"id": "L12", "name": "narrative_montage_and_echo"}
+  ],
+  "transformation_engines": [
+    "draw",
+    "print",
+    "cut",
+    "fold",
+    "carve",
+    "emboss",
+    "map",
+    "stage",
+    "construct",
+    "isolate",
+    "dissolve",
+    "typographize"
+  ],
+  "visual_axes": {
+    "representation": ["faithful", "selective", "symbolic", "abstract"],
+    "dimensionality": ["flat", "layered", "object", "spatial"],
+    "mark_making": ["precise", "controlled_imperfect", "naive", "expressive"],
+    "density": ["sparse", "balanced", "dense_island", "full_bleed"],
+    "palette": ["monochrome", "duotone", "limited", "vivid_limited"],
+    "materiality": ["clean", "paper", "ink", "dry_media", "paint", "craft", "matte_3d"],
+    "narrative": ["descriptive", "editorial", "metaphorical", "conceptual"],
+    "typography": ["absent", "annotation", "evidence", "path", "primary_visual"],
+    "energy": ["still", "restrained", "playful", "dynamic"]
+  },
+  "colour_roles": [
+    "ground",
+    "structure",
+    "narrative",
+    "accent"
+  ],
+  "recipe_constraints": {
+    "primary_style_families": 1,
+    "supporting_style_families_max": 1,
+    "primary_layout_families": 1,
+    "accent_techniques_max": 1,
+    "recognition_anchors_min": 1,
+    "recognition_anchors_max": 3,
+    "dominant_visual_centres": 1,
+    "primary_materials": 1,
+    "supporting_materials_max": 1
+  },
+  "fatal_failures": [
+    "identity_or_relationship_drift",
+    "business_identity_erased_for_premium_look",
+    "exact_panel_used_without_original_skill",
+    "generic_template_or_ui_cards",
+    "ai_plastic_material",
+    "illegible_or_wrong_text",
+    "mechanical_cross_ratio_crop",
+    "license_or_attribution_ignored",
+    "user_rejects_aesthetic"
+  ]
+}

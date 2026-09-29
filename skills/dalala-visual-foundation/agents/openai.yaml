@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dalala 跨媒介视觉基础"
+  short_description: "将 350 份设计参考用于封面、海报、广告、PPT 与简历"
+  brand_color: "#1F6B5C"
+  default_prompt: "Use $dalala-visual-foundation to diagnose the content, visual protagonist, spatial grammar, source transformation, typography and reading path, then create or revise the actual artifact."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,3512 @@
+{
+  "schemaVersion": 1,
+  "total": 350,
+  "counts": {
+    "verified": 3,
+    "pending": 338,
+    "deep-studied": 9
+  },
+  "policy": "Only verified deep studies may be automatically selected or rendered.",
+  "rules": [
+    {
+      "id": "layout-001",
+      "displayName": "001 · 三分法构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "verified",
+      "autoSelectable": true,
+      "renderReady": true
+    },
+    {
+      "id": "layout-002",
+      "displayName": "002 · 黄金比例构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-003",
+      "displayName": "003 · 黄金螺旋构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-004",
+      "displayName": "004 · 黄金三角构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-005",
+      "displayName": "005 · 对角线法",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "verified",
+      "autoSelectable": true,
+      "renderReady": true
+    },
+    {
+      "id": "layout-006",
+      "displayName": "006 · 矩形折入法",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-007",
+      "displayName": "007 · 奇数法则",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-008",
+      "displayName": "008 · 空间法则",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-009",
+      "displayName": "009 · 视线空间",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-010",
+      "displayName": "010 · 运动空间",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-011",
+      "displayName": "011 · 头部空间构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-012",
+      "displayName": "012 · 填满画面构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-013",
+      "displayName": "013 · 负空间构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "verified",
+      "autoSelectable": true,
+      "renderReady": true
+    },
+    {
+      "id": "layout-014",
+      "displayName": "014 · 框中框构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-015",
+      "displayName": "015 · 引导线构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-016",
+      "displayName": "016 · 居中构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-017",
+      "displayName": "017 · 偏心构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-018",
+      "displayName": "018 · 对称构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-019",
+      "displayName": "019 · 非对称构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-020",
+      "displayName": "020 · 镜像构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-021",
+      "displayName": "021 · 放射平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-022",
+      "displayName": "022 · 晶体式平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-023",
+      "displayName": "023 · 静态构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-024",
+      "displayName": "024 · 动态构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-025",
+      "displayName": "025 · 开放式构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-026",
+      "displayName": "026 · 封闭式构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-027",
+      "displayName": "027 · 单一焦点构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-028",
+      "displayName": "028 · 多重焦点构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-029",
+      "displayName": "029 · 视觉层级",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-030",
+      "displayName": "030 · 主次关系",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-031",
+      "displayName": "031 · 平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-032",
+      "displayName": "032 · 比例",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-033",
+      "displayName": "033 · 尺度对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-034",
+      "displayName": "034 · 明暗对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-035",
+      "displayName": "035 · 色彩对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-036",
+      "displayName": "036 · 形状对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-037",
+      "displayName": "037 · 质感对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-038",
+      "displayName": "038 · 动静对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-039",
+      "displayName": "039 · 并置",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-040",
+      "displayName": "040 · 隔离构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-041",
+      "displayName": "041 · 重复原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-042",
+      "displayName": "042 · 图案组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-043",
+      "displayName": "043 · 节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-044",
+      "displayName": "044 · 渐变组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-045",
+      "displayName": "045 · 交替节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-046",
+      "displayName": "046 · 渐进节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-047",
+      "displayName": "047 · 流动节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-048",
+      "displayName": "048 · 随机节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-049",
+      "displayName": "049 · 相似性原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-050",
+      "displayName": "050 · 邻近性原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-051",
+      "displayName": "051 · 水平构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-052",
+      "displayName": "052 · 垂直构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-053",
+      "displayName": "053 · 对角线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-054",
+      "displayName": "054 · 平行线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-055",
+      "displayName": "055 · 汇聚线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-056",
+      "displayName": "056 · 交叉线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-057",
+      "displayName": "057 · 中轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-058",
+      "displayName": "058 · 偏轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-059",
+      "displayName": "059 · 双轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-060",
+      "displayName": "060 · 十字构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-061",
+      "displayName": "061 · X 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-062",
+      "displayName": "062 · T 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-063",
+      "displayName": "063 · L 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-064",
+      "displayName": "064 · V 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-065",
+      "displayName": "065 · Z 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-066",
+      "displayName": "066 · C 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-067",
+      "displayName": "067 · S 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-068",
+      "displayName": "068 · 曲线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-069",
+      "displayName": "069 · 波浪形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-070",
+      "displayName": "070 · 锯齿形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-071",
+      "displayName": "071 · 三角构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-072",
+      "displayName": "072 · 金字塔构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-073",
+      "displayName": "073 · 倒三角构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-074",
+      "displayName": "074 · 菱形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-075",
+      "displayName": "075 · 方形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-076",
+      "displayName": "076 · 矩形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-077",
+      "displayName": "077 · 圆形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-078",
+      "displayName": "078 · 椭圆构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-079",
+      "displayName": "079 · 弧形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-080",
+      "displayName": "080 · 环形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-081",
+      "displayName": "081 · 螺旋构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-082",
+      "displayName": "082 · 放射式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-083",
+      "displayName": "083 · 向心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-084",
+      "displayName": "084 · 离心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-085",
+      "displayName": "085 · 同心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-086",
+      "displayName": "086 · 四象限构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-087",
+      "displayName": "087 · 棋盘构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-088",
+      "displayName": "088 · 阶梯构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-089",
+      "displayName": "089 · 层叠构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-090",
+      "displayName": "090 · 级联构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-091",
+      "displayName": "091 · 聚类构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-092",
+      "displayName": "092 · 分散构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-093",
+      "displayName": "093 · 尺度递减构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-094",
+      "displayName": "094 · 前景框架构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-095",
+      "displayName": "095 · 一点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-096",
+      "displayName": "096 · 重叠空间构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-097",
+      "displayName": "097 · 前景框架构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-098",
+      "displayName": "098 · 线性透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-099",
+      "displayName": "099 · 网络构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-100",
+      "displayName": "100 · 前中后景构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-101",
+      "displayName": "101 · 两点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-102",
+      "displayName": "102 · 三点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-103",
+      "displayName": "103 · 平行透视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-104",
+      "displayName": "104 · 斜投影构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-105",
+      "displayName": "105 · 等距构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-106",
+      "displayName": "106 · 轴测构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-107",
+      "displayName": "107 · 鸟瞰构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-108",
+      "displayName": "108 · 虫视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-109",
+      "displayName": "109 · 顶视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-110",
+      "displayName": "110 · 平视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-111",
+      "displayName": "111 · 竖排文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-112",
+      "displayName": "112 · 横排文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-113",
+      "displayName": "113 · 手稿网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-114",
+      "displayName": "114 · 分栏网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-115",
+      "displayName": "115 · 模块化网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-116",
+      "displayName": "116 · 层级网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-117",
+      "displayName": "117 · 基线网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-118",
+      "displayName": "118 · 复合网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-119",
+      "displayName": "119 · 非对称网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-120",
+      "displayName": "120 · 方格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-121",
+      "displayName": "121 · 轮廓绕排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-122",
+      "displayName": "122 · 矩形绕排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-123",
+      "displayName": "123 · 跨栏标题",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-124",
+      "displayName": "124 · 悬挂缩进",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-125",
+      "displayName": "125 · 首行缩进",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-126",
+      "displayName": "126 · 凸排标点",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-127",
+      "displayName": "127 · 基线对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-128",
+      "displayName": "128 · 形状文字",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-129",
+      "displayName": "129 · 图形诗排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-130",
+      "displayName": "130 · 路径文字",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-131",
+      "displayName": "131 · 强制透视构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-132",
+      "displayName": "132 · 空气透视构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-133",
+      "displayName": "133 · 浅景深构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-134",
+      "displayName": "134 · 深焦构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-135",
+      "displayName": "135 · 平面化构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-136",
+      "displayName": "136 · 深空间构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-137",
+      "displayName": "137 · 轴线系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-138",
+      "displayName": "138 · 放射系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-139",
+      "displayName": "139 · 扩张系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-140",
+      "displayName": "140 · 随机系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-141",
+      "displayName": "141 · 网格系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-142",
+      "displayName": "142 · 模块系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-143",
+      "displayName": "143 · 过渡系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-144",
+      "displayName": "144 · 双边系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-145",
+      "displayName": "145 · 左对齐右参差",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-146",
+      "displayName": "146 · 右对齐左参差",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-147",
+      "displayName": "147 · 居中排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-148",
+      "displayName": "148 · 两端对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-149",
+      "displayName": "149 · 强制两端对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-150",
+      "displayName": "150 · 非对称字体排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-151",
+      "displayName": "151 · 单栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-152",
+      "displayName": "152 · 对称跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-153",
+      "displayName": "153 · 通版跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-154",
+      "displayName": "154 · 双栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-155",
+      "displayName": "155 · 图片主导版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-156",
+      "displayName": "156 · 无出血版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-157",
+      "displayName": "157 · 非对称跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-158",
+      "displayName": "158 · 文字主导版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-159",
+      "displayName": "159 · 满出血版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-160",
+      "displayName": "160 · 多栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-161",
+      "displayName": "161 · 方格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-162",
+      "displayName": "162 · 模块化网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-163",
+      "displayName": "163 · 非对称网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-164",
+      "displayName": "164 · 手稿网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-165",
+      "displayName": "165 · 层级网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-166",
+      "displayName": "166 · 分栏网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-167",
+      "displayName": "167 · 基线网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-168",
+      "displayName": "168 · 水平文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-169",
+      "displayName": "169 · 复合网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-170",
+      "displayName": "170 · 垂直文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-171",
+      "displayName": "171 · 等距网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-172",
+      "displayName": "172 · 放射网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-173",
+      "displayName": "173 · 极坐标网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-174",
+      "displayName": "174 · 嵌套网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-175",
+      "displayName": "175 · 子网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-176",
+      "displayName": "176 · 固定网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-177",
+      "displayName": "177 · 流体网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-178",
+      "displayName": "178 · 响应式网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-179",
+      "displayName": "179 · 破格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-180",
+      "displayName": "180 · 解构网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-181",
+      "displayName": "181 · 大标题版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-182",
+      "displayName": "182 · 图片窗口版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-183",
+      "displayName": "183 · 框架版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-184",
+      "displayName": "184 · 多面板版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-185",
+      "displayName": "185 · 蒙德里安版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-186",
+      "displayName": "186 · 马戏团版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-187",
+      "displayName": "187 · 剪影版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-188",
+      "displayName": "188 · 字母造型版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-189",
+      "displayName": "189 · 图文谜语版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-190",
+      "displayName": "190 · 拼贴版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-191",
+      "displayName": "191 · 蒙太奇版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-192",
+      "displayName": "192 · 模块化页面",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-193",
+      "displayName": "193 · 区块式版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-194",
+      "displayName": "194 · 插页式版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-195",
+      "displayName": "195 · 侧栏版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-196",
+      "displayName": "196 · 边注版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-197",
+      "displayName": "197 · 环绕图版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-198",
+      "displayName": "198 · 浮动块版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-199",
+      "displayName": "199 · 封面版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-200",
+      "displayName": "200 · 章节扉页",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-201",
+      "displayName": "201 · 弹性盒布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-202",
+      "displayName": "202 · 网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-203",
+      "displayName": "203 · 子网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-204",
+      "displayName": "204 · 多栏布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-205",
+      "displayName": "205 · 表格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-206",
+      "displayName": "206 · 浮动布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-207",
+      "displayName": "207 · 相对定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-208",
+      "displayName": "208 · 绝对定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-209",
+      "displayName": "209 · 固定定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-210",
+      "displayName": "210 · 粘性定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-211",
+      "displayName": "211 · 瀑布流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-212",
+      "displayName": "212 · 覆盖层布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-213",
+      "displayName": "213 · 固定宽度布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-214",
+      "displayName": "214 · 流体布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-215",
+      "displayName": "215 · 响应式布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-216",
+      "displayName": "216 · 自适应布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-217",
+      "displayName": "217 · 容器查询布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-218",
+      "displayName": "218 · 堆栈",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-219",
+      "displayName": "219 · 盒子",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-220",
+      "displayName": "220 · 居中器",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-221",
+      "displayName": "221 · 簇群",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-222",
+      "displayName": "222 · 侧栏原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-223",
+      "displayName": "223 · 切换器",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-224",
+      "displayName": "224 · 封面原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-225",
+      "displayName": "225 · 自适应网格原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-226",
+      "displayName": "226 · 比例框",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-227",
+      "displayName": "227 · 水平滚轴",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-228",
+      "displayName": "228 · 悬浮层",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-229",
+      "displayName": "229 · 图标文字组合",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-230",
+      "displayName": "230 · 单列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-231",
+      "displayName": "231 · 双列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-232",
+      "displayName": "232 · 三列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-233",
+      "displayName": "233 · 侧边栏页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-234",
+      "displayName": "234 · 分屏布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-235",
+      "displayName": "235 · 圣杯布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-236",
+      "displayName": "236 · 页眉—主体—页脚",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-237",
+      "displayName": "237 · 顶部导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-238",
+      "displayName": "238 · 导航抽屉布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-239",
+      "displayName": "239 · 底部导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-240",
+      "displayName": "240 · 标签页布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-241",
+      "displayName": "241 · 栏目开启页",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-242",
+      "displayName": "242 · 特写跨页",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-243",
+      "displayName": "243 · 目录版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-244",
+      "displayName": "244 · 索引版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-245",
+      "displayName": "245 · 图录版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-246",
+      "displayName": "246 · 引语版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-247",
+      "displayName": "247 · 普通流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-248",
+      "displayName": "248 · 块级布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-249",
+      "displayName": "249 · 行内布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-250",
+      "displayName": "250 · 流根布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-251",
+      "displayName": "251 · 手风琴布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-252",
+      "displayName": "252 · 列表—详情布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-253",
+      "displayName": "253 · 辅助窗格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-254",
+      "displayName": "254 · 信息流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-255",
+      "displayName": "255 · 卡片网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-256",
+      "displayName": "256 · 瀑布流页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-257",
+      "displayName": "257 · 便当盒布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-258",
+      "displayName": "258 · 仪表盘布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-259",
+      "displayName": "259 · 数据表格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-260",
+      "displayName": "260 · 画廊布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-261",
+      "displayName": "261 · 搜索结果布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-262",
+      "displayName": "262 · 设置页面布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-263",
+      "displayName": "263 · 媒体对象布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-264",
+      "displayName": "264 · Hero 主视觉布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-265",
+      "displayName": "265 · 分层导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-266",
+      "displayName": "266 · 宏观流动模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-267",
+      "displayName": "267 · 列下落模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-268",
+      "displayName": "268 · 布局切换模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-269",
+      "displayName": "269 · 微调模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-270",
+      "displayName": "270 · 画布外模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-271",
+      "displayName": "271 · 单人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-272",
+      "displayName": "272 · 双人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-273",
+      "displayName": "273 · 三人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-274",
+      "displayName": "274 · 群像构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-275",
+      "displayName": "275 · 过肩构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-276",
+      "displayName": "276 · 主观视角构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-277",
+      "displayName": "277 · 客观视角构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-278",
+      "displayName": "278 · 干净单人镜头",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-279",
+      "displayName": "279 · 脏单人镜头",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-280",
+      "displayName": "280 · 深度调度",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-281",
+      "displayName": "281 · 堆叠重排",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-282",
+      "displayName": "282 · 顺序重排",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-283",
+      "displayName": "283 · 折叠双窗格",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-284",
+      "displayName": "284 · 自适应网格",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-285",
+      "displayName": "285 · 组件级响应布局",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-286",
+      "displayName": "286 · F 型扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-287",
+      "displayName": "287 · Z 型扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-288",
+      "displayName": "288 · 古腾堡图式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-289",
+      "displayName": "289 · 层蛋糕扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-290",
+      "displayName": "290 · 斑点扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-291",
+      "displayName": "291 · 轮播布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-292",
+      "displayName": "292 · 时间线布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-293",
+      "displayName": "293 · 看板布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-294",
+      "displayName": "294 · 日历布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-295",
+      "displayName": "295 · 树形浏览布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-296",
+      "displayName": "296 · 对话布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-297",
+      "displayName": "297 · 地图主导布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-298",
+      "displayName": "298 · 画布工作区布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-299",
+      "displayName": "299 · 表单布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-300",
+      "displayName": "300 · 分步表单",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-301",
+      "displayName": "301 · 平面调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-302",
+      "displayName": "302 · 三角调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-303",
+      "displayName": "303 · 横向调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-304",
+      "displayName": "304 · 多层前景调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-305",
+      "displayName": "305 · 高远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-306",
+      "displayName": "306 · 深远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-307",
+      "displayName": "307 · 平远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-308",
+      "displayName": "308 · 三远综合构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-309",
+      "displayName": "309 · 散点透视",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-310",
+      "displayName": "310 · 游观式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-311",
+      "displayName": "311 · 全景式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-312",
+      "displayName": "312 · 河两岸式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-313",
+      "displayName": "313 · 边角式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-314",
+      "displayName": "314 · 截景式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-315",
+      "displayName": "315 · 折枝式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-316",
+      "displayName": "316 · 留白构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-317",
+      "displayName": "317 · 计白当黑构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-318",
+      "displayName": "318 · 虚实相生构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "verified",
+      "deepStudyStatus": "deep-studied",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-319",
+      "displayName": "319 · 疏密相间构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-320",
+      "displayName": "320 · 主宾关系构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-321",
+      "displayName": "321 · 竖排中西文转向",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-322",
+      "displayName": "322 · 直排中西文直立",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-323",
+      "displayName": "323 · 双向文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-324",
+      "displayName": "324 · 旁注（Ruby）排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-325",
+      "displayName": "325 · 标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-326",
+      "displayName": "326 · 标题和内容幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-327",
+      "displayName": "327 · 节标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-328",
+      "displayName": "328 · 两项内容幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-329",
+      "displayName": "329 · 比较幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-330",
+      "displayName": "330 · 仅标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-331",
+      "displayName": "331 · 空白幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-332",
+      "displayName": "332 · 内容与标题说明幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-333",
+      "displayName": "333 · 图片与标题说明幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-334",
+      "displayName": "334 · 大数字页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-335",
+      "displayName": "335 · 引语页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-336",
+      "displayName": "336 · 时间线页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-337",
+      "displayName": "337 · 流程幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-338",
+      "displayName": "338 · 矩阵页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-339",
+      "displayName": "339 · 数据图表页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-340",
+      "displayName": "340 · 全图页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-341",
+      "displayName": "341 · 开合构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-342",
+      "displayName": "342 · 起承转合构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-343",
+      "displayName": "343 · 藏露关系构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-344",
+      "displayName": "344 · 欹正关系构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-345",
+      "displayName": "345 · 横排左起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-346",
+      "displayName": "346 · 横排右起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-347",
+      "displayName": "347 · 直排右起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-348",
+      "displayName": "348 · 直排左起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-349",
+      "displayName": "349 · 横直混排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    },
+    {
+      "id": "layout-350",
+      "displayName": "350 · 纵中横排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "anatomyStatus": "pending",
+      "deepStudyStatus": "pending",
+      "autoSelectable": false,
+      "renderReady": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 035"
+  short_description: "高机位近脸自拍与两侧手写字的待确认封面规则"
+  default_prompt: "按 dalala-cover-035 的参考原图、anatomy 和适配规则审查输入；当前只可拆解与准备测试，不可标记为已上架模板。"

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-292",
+  "displayName": "292 · 时间线布局",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "292",
+    "catalogName": "时间线布局",
+    "category": "网页与 UI",
+    "subcategory": "阅读模式与产品页面",
+    "originalImagePath": "v2/images/05-web-ui/292-列下落模式.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/05-web-ui/292-列下落模式.png",
+    "originalImageSha256": "a7241e0697b2dffb4e3d01f5a1a488045dec7a6627e7d196b07961439f2ff102",
+    "localThumbnail": "../references/source-thumbnails/292.jpg",
+    "localThumbnailSha256": "a328e0982bd636df8fa8c3fbfc03babf7b24bd034f131832699d5b01bd5b64b9",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "时间线布局",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "列下落模式",
+      "category": "网页与 UI",
+      "subcategory": "响应式重排模式",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "adaptable",
+    "tags": [
+      "网页与 UI",
+      "阅读模式与产品页面",
+      "时间线布局",
+      "流程"
+    ],
+    "assetTypes": [
+      "mixed",
+      "data",
+      "diagram"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "用节点和连接关系规定阅读顺序，标题作为入口，路径不能交叉到不可辨认。",
+    "dominantAxis": "connected-path",
+    "primaryFocus": "start-node",
+    "readingPath": "node-sequence",
+    "locked": [
+      "以“时间线布局”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 connected-path 主轴、start-node 焦点和 node-sequence 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-292.json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-027-tall-latin",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-027/assets/reference-original.jpg",
+  "roles": ["leftLatin", "rightLatin"],
+  "script": "Latin-uppercase",
+  "construction": "高字面、窄比例的全大写展示衬线字，长直立主笔、尖或楔形收笔、受控粗细对比，带少量旧印刷缺墨但不破坏字母",
+  "variants": {"leftLatin": "x12–29%、y41–47% 单行左侧词", "rightLatin": "x72–87%、y41–47% 单行右侧词；与左侧同基线、同视觉重量"},
+  "requiredInputs": ["exactText", "role", "canvasWidth", "canvasHeight", "targetBox", "colorRole"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": ["拼写错误", "普通几何无衬线", "人为横向压缩普通字体", "粗重块状英文超过中文", "两行排版", "大面积缺墨", "不透明照片背景"]
+}

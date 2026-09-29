@@ -1,0 +1,178 @@
+[
+  {
+    "char": "今",
+    "glyphName": "uni4ECA",
+    "unicode": "U+4ECA",
+    "advanceWidth": 1020,
+    "contourCount": 16,
+    "sourceCell": [
+      0,
+      0
+    ]
+  },
+  {
+    "char": "天",
+    "glyphName": "uni5929",
+    "unicode": "U+5929",
+    "advanceWidth": 988,
+    "contourCount": 11,
+    "sourceCell": [
+      0,
+      1
+    ]
+  },
+  {
+    "char": "有",
+    "glyphName": "uni6709",
+    "unicode": "U+6709",
+    "advanceWidth": 899,
+    "contourCount": 14,
+    "sourceCell": [
+      0,
+      2
+    ]
+  },
+  {
+    "char": "点",
+    "glyphName": "uni70B9",
+    "unicode": "U+70B9",
+    "advanceWidth": 940,
+    "contourCount": 11,
+    "sourceCell": [
+      0,
+      3
+    ]
+  },
+  {
+    "char": "好",
+    "glyphName": "uni597D",
+    "unicode": "U+597D",
+    "advanceWidth": 1020,
+    "contourCount": 9,
+    "sourceCell": [
+      1,
+      0
+    ]
+  },
+  {
+    "char": "笑",
+    "glyphName": "uni7B11",
+    "unicode": "U+7B11",
+    "advanceWidth": 1020,
+    "contourCount": 9,
+    "sourceCell": [
+      1,
+      1
+    ]
+  },
+  {
+    "char": "这",
+    "glyphName": "uni8FD9",
+    "unicode": "U+8FD9",
+    "advanceWidth": 1020,
+    "contourCount": 13,
+    "sourceCell": [
+      1,
+      2
+    ]
+  },
+  {
+    "char": "也",
+    "glyphName": "uni4E5F",
+    "unicode": "U+4E5F",
+    "advanceWidth": 1020,
+    "contourCount": 12,
+    "sourceCell": [
+      1,
+      3
+    ]
+  },
+  {
+    "char": "太",
+    "glyphName": "uni592A",
+    "unicode": "U+592A",
+    "advanceWidth": 968,
+    "contourCount": 5,
+    "sourceCell": [
+      2,
+      0
+    ]
+  },
+  {
+    "char": "离",
+    "glyphName": "uni79BB",
+    "unicode": "U+79BB",
+    "advanceWidth": 832,
+    "contourCount": 4,
+    "sourceCell": [
+      2,
+      1
+    ]
+  },
+  {
+    "char": "谱",
+    "glyphName": "uni8C31",
+    "unicode": "U+8C31",
+    "advanceWidth": 913,
+    "contourCount": 12,
+    "sourceCell": [
+      2,
+      2
+    ]
+  },
+  {
+    "char": "了",
+    "glyphName": "uni4E86",
+    "unicode": "U+4E86",
+    "advanceWidth": 811,
+    "contourCount": 2,
+    "sourceCell": [
+      2,
+      3
+    ]
+  },
+  {
+    "char": "吧",
+    "glyphName": "uni5427",
+    "unicode": "U+5427",
+    "advanceWidth": 1020,
+    "contourCount": 6,
+    "sourceCell": [
+      3,
+      0
+    ]
+  },
+  {
+    "char": "的",
+    "glyphName": "uni7684",
+    "unicode": "U+7684",
+    "advanceWidth": 955,
+    "contourCount": 9,
+    "sourceCell": [
+      3,
+      1
+    ]
+  },
+  {
+    "char": "不",
+    "glyphName": "uni4E0D",
+    "unicode": "U+4E0D",
+    "advanceWidth": 1020,
+    "contourCount": 14,
+    "sourceCell": [
+      3,
+      2
+    ]
+  },
+  {
+    "char": "！",
+    "glyphName": "uniFF01",
+    "unicode": "U+FF01",
+    "advanceWidth": 760,
+    "contourCount": 7,
+    "sourceCell": [
+      3,
+      3
+    ]
+  }
+]

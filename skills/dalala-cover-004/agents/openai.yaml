@@ -1,0 +1,6 @@
+interface:
+  display_name: "参考 004（待确认）"
+  short_description: "仅用于参考 004 拆解审阅和测试准备"
+  default_prompt: "读取参考 004 的原图与规则，先核验最新拆解确认状态，再按当前授权阶段执行。"
+policy:
+  allow_implicit_invocation: false

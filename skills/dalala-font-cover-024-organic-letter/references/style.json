@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-024-organic-letter",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-024/assets/reference-original.jpg",
+  "roles": ["mainTitle"],
+  "script": "Han",
+  "construction": "correct Han skeleton with organic round blunt terminals, varied wide and narrow glyphs, smooth solid heavy strokes and open counters",
+  "strokeWidthRatioToGlyphWidth": [0.10, 0.19],
+  "fill": "solid role-based near-white",
+  "surface": "clean flat fill; no distressed grain or dry-brush gaps",
+  "requiredInputs": ["exactText", "canvasWidth", "canvasHeight", "glyphBoxes", "textColor"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "shadowBakedIntoGlyph": false,
+  "productionApproved": false,
+  "forbidden": ["regular rounded font substitution", "cover-017 brush substitution", "uniform grid baseline", "dry brush", "hollow letters", "all-around outline", "thick shadow", "random speckle", "wrong Han character"]
+}

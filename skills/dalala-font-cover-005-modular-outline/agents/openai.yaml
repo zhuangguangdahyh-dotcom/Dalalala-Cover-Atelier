@@ -1,0 +1,6 @@
+interface:
+  display_name: "005 模块描边主标题（测试态）"
+  short_description: "矩形字腔、机械断笔和双尖括号的透明短标题层"
+policy:
+  allow_automatic_invocation: false
+  status: testing

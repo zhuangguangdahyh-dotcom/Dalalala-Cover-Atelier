@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-055",
+  "displayName": "参考封面 055（待确认）",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "references/analysis.md",
+  "anatomy": "references/anatomy.json",
+  "adaptationRules": "references/adaptation-rules.md",
+  "sourceSha256": "6ab32b7f0aab49c4ae6665a8c9df31036675652b5ef44062b81dd6fe1483fc3a",
+  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
+  "supportedAspectRatios": ["3:4"],
+  "titleLength": {"prefixChineseCharacters": [5, 7], "mainChineseCharacters": [2, 3], "mainLatinOrDigitCharacters": [4, 7], "prefixLines": 1, "mainLines": 1},
+  "subjectTypes": ["front-facing real person with open upward palms", "identity-consistent person presenting four examples"],
+  "contentMoods": ["playful reveal", "creative teaching", "four-example capability demonstration", "style conversion"],
+  "firstVisualFocus": "warm bright single-line action/result title against dark field",
+  "spatialSkeleton": "near-black white-lettered header; warm bright title; arched row of four separate tilted cards; centered lower person with palms under outer cards",
+  "readingPath": ["white prefix", "warm bright main title", "four labels and cards left to right", "presenting person's face and hands", "main title again"],
+  "imageTextRelationship": "two headline tiers state the transformation; four labeled cards prove the variety; the person presents the group with outward palms",
+  "locked": ["3:4 vertical structure", "black header and deep cool main field", "one-line white prefix and one-line warm bright main title", "four labeled tilted cards in arched horizontal band", "one lower centered presenter with both palms open upward", "person in front of central card lower edges", "bright-bright-dark-bright card rhythm"],
+  "adaptive": ["presenter identity, clothing and expression within pose constraint", "four industry-specific card contents and corresponding labels", "headline wording within line and width limits", "exact palette values preserving luminance hierarchy"],
+  "optional": ["very faint blue arc behind cards and hands", "minor card-specific internal texture"],
+  "forbidden": ["flat four-grid", "fewer or more than four cards", "cards covering face", "hands pointing down or hidden", "generic AI mascot by default", "second title line", "ordinary system font fallback", "glowing neon ring", "copying original person or card contents into another industry"],
+  "variableContract": {
+    "person": "identity and clothing may change; centered chest-waist crop, bottom bleed, open palms under outer cards and roughly x6-94%, y60-100% remain",
+    "text": "content may change; prefix and main headline remain single lines with original relative height, hand-drawn family and card labels stay one-to-one",
+    "product": "four evidence cards may show other products or outcomes; count, alternating lightness, mild rotation, arched band and partial human overlap remain",
+    "color": "exact hues may change; maintain deep cool low-lightness field, darkest header, high-lightness warm action text, pale supporting type, three light cards and one dark card"
+  },
+  "invariantContract": {
+    "layout": "header y0-12%; prefix x5-72% y3-13%; main title x17-99% y15-27%; four cards x0-100% y33-72%; person x6-94% y60-100%",
+    "visualMass": "upper visual weight about 54%, lower about 46%; visible dark field 45-55%; main title bright area 6-9%",
+    "specialEffects": "precise real-person cutout; outer cards tilted outward and central pair mildly counter-tilted; short soft card shadows; person overlaps central card lower 3-8% of card height; restrained faint arc"
+  },
+  "materialTransformation": [
+    {"level": "required", "action": "precise person cutout and bottom chest-waist crop", "trigger": "every new person"},
+    {"level": "required", "action": "four content-specific card crops, labels, angles and soft shadows", "trigger": "every new four-example topic"},
+    {"level": "conditional", "action": "identity-preserving pose reconstruction or reshoot", "trigger": "input person lacks two visible open upward palms"},
+    {"level": "conditional", "action": "card internal crop/extension", "trigger": "source aspect ratio hides the evidence object"}
+  ],
+  "fontDependencies": [
+    {"role": "prefix", "type": "font-style-id", "id": "dalala-cover-055-rounded-monoline", "required": true, "status": "testing"},
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-055-rounded-monoline", "required": true, "status": "testing"},
+    {"role": "cardLabels", "type": "font-style-id", "id": "dalala-cover-055-rounded-monoline", "required": true, "status": "testing"}
+  ],
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

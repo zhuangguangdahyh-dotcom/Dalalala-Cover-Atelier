@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-004-smooth-hand",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-004/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "glyphBoxes",
+    "primaryText"
+  ],
+  "characterConstruction": {
+    "base": "smooth-solid-natural-handwriting",
+    "strokeWidthRatioToGlyphWidth": [
+      0.06,
+      0.12
+    ],
+    "estimateOnly": true,
+    "fill": "solid",
+    "counter": "open",
+    "texture": "none"
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "composeSeparatelyFromBackground": true
+  },
+  "forbidden": [
+    "dry brush",
+    "hollow fill",
+    "outline",
+    "shadow",
+    "regular black font substitution"
+  ],
+  "productionApproved": false
+}

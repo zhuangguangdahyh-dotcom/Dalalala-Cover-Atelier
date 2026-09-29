@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-060",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "sourceDimensions": {"width": 2880, "height": 3840, "ratio": "3:4"},
+  "coordinateSystem": "normalized-percent-left-top; bbox=[left,top,right,bottom]",
+  "firstImpression": "上半纸面粗蜡笔邀请字，右真人与左大头玩偶并肩，底部纸上再次画出同一玩偶",
+  "primaryMechanism": "同一主题物在左上手绘预告、左下实体、右下纸页画稿三次出现，真人提供现实入口",
+  "primaryFocus": "上半不规则黑色手绘主标题，其次是真人脸与玩偶大脸",
+  "dominantAxis": "左上小画到上方标题再折向右真人、左下主题物、右下纸页的松散Z形",
+  "zones": [
+    {"role":"warmPaperBackground","bbox":[0,0,100,82],"visualAreaPercent":[47,55],"z":0},
+    {"role":"miniDrawing","bbox":[6,9,34,29],"align":"upper-left; depicts same hero object","z":1},
+    {"role":"mainTitle","bbox":[7,6,96,48],"sourceText":"一起来画画","visualAreaPercent":[10,15],"lines":2,"align":"loose staggered hand arrangement","z":2},
+    {"role":"presenter","bbox":[48,35,99,83],"faceBbox":[52,36,82,69],"align":"right anchored; face toward upper left","z":3},
+    {"role":"heroObject","bbox":[0,36,63,88],"recognitionBbox":[14,56,53,78],"align":"left foreground, bleed left and bottom","z":4},
+    {"role":"worktable","bbox":[0,81,100,100],"align":"horizontal dark grounding plane","z":5},
+    {"role":"presenterHand","bbox":[88,72,100,84],"align":"touching front table edge","z":6},
+    {"role":"openSketchbook","bbox":[45,83,95,100],"align":"diagonal open paper, cut by lower edge","z":7},
+    {"role":"paperDrawing","bbox":[56,87,74,96],"align":"recognizable sketch of hero object","z":8}
+  ],
+  "absentRoles": ["subtitle", "badge", "brandSignature", "callToAction", "price"],
+  "negativeSpace": ["top y0-7%", "upper-right x62-100% y0-20%", "between glyphs; do not fill with microcopy"],
+  "readingPath": ["irregular hand-drawn title", "right presenter face", "left large hero object", "bottom open sketchbook and matching drawing"],
+  "layerOrderBackToFront": ["warm paper texture", "miniature drawing and wax lettering", "presenter", "large foreground hero object", "dark table masking lower bodies", "presenter hand", "angled open sketchbook and drawing"],
+  "typography": {"mainTitle":"two-level loose hand-lettered thick black wax-crayon Chinese; blunt broken ends, dry paper skips, irregular baseline and tracking; no outline, shadow or 3D", "fontStyleId":"dalala-cover-060-wax-crayon-hand", "characterCount":[5,7]},
+  "colorRoles": {"background":"warm high-lightness low-chroma paper; 47-55%", "primaryText":"near-black matte crayon high contrast; included in dark 32-40%", "subjectSupport":"natural warm skin and brown object face 9-14%", "accent":"one stronger garment hue 5-9%", "darkGround":"near-black or deep brown table and object outline; included in dark 32-40%", "paper":"light sketchbook on dark table", "contrastCheck":"main letters readable at 360 px without outline; book separated from table"},
+  "materialEffects": ["dry wax-crayon grain inside letter strokes", "warm mottled paper or plaster backdrop", "natural soft front light on real person", "real object surface texture", "matte rough table", "light contact shadows at paper and hand"],
+  "locked": ["3:4 vertical", "two-level upper wax title", "small drawing and large foreground object depict same subject", "right real presenter", "bottom dark table with open thematic sketchbook", "loose Z reading path"],
+  "adaptive": ["person identity and clothing", "industry-specific theme object and sketch", "title words within fixed block", "exact hues preserving area/lightness relationships"],
+  "optional": ["one relevant creation tool behind the object", "subtle paper imperfections"],
+  "failureModes": ["generic font with noise overlay", "unrelated cartoon sticker", "plain blank sketchbook", "floating hero object", "equal-size posed two-person photo", "title covers eyes", "table hides critical face", "too much decorative microcopy", "over-saturated palette"]
+}

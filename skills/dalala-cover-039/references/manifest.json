@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-039",
+  "displayName": "参考 039",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "f8923f20-0828-4a91-b2e3-25d063fb2490",
+  "analysisReport": "skills/dalala-cover-039/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "sourceRatio": "3:4",
+  "verifiedRatios": [],
+  "titleLength": {"mainHanEquivalentPreferred": 5.5, "mainHanEquivalentTestRange": [4, 6], "eyebrowCharacterGuidance": [7, 12]},
+  "subjectTypes": ["一件可作竖向近景的真实设备或产品", "具有可信承托环境的单一核心工具"],
+  "contentEmotions": ["效率突破", "产品能力", "现代工具", "可信实操"],
+  "firstFocus": "顶部近满宽的一行双色实心粗标题",
+  "spatialStructure": ["3:4 暗色实景", "顶部细字加粗标题横梁", "中部单一竖向实体主物", "左入口和箭头", "右侧结果线形图", "低信息量真实桌面"],
+  "readingPath": ["细字前提", "双色标题承诺", "中央主物", "左入口及指向箭头", "右结果", "现场"],
+  "imageTextRelationship": "粗标题在暗背景上提出结果，实体主物从其下缘向下建立尺度；左右图形以入口与结果关系解释产品能力。",
+  "locked": ["上方一细一粗单行文字", "主标题两段色彩角色与厚字面积", "中央主物景别和真实接触点", "左入口—箭头—主物—右结果关系", "暗上部、亮字和下部真实空间"],
+  "adaptive": ["具体文案", "主物身份", "左右图形语义", "环境素材与具体配色"],
+  "optional": ["设备自身真实信息", "环境反光"],
+  "forbidden": ["将品牌标志当万能装饰", "主题缺入口或结果却硬套", "主标题换行", "虚构产品信息", "底部添加大量信息", "未验收标 active"],
+  "variableContract": {
+    "person": "非原生槽位；如以人物替代主物须单独测试，不自动放行",
+    "text": "文案可换，一行细说明和一行双色粗标题的形态、面积及层级不变",
+    "product": "身份可换，单件竖向近景、中心面积和承托关系不变",
+    "palette": "具体色值可换，深底/亮中性字/单高亮强调/冷亮入口/亮线结果的明度和面积关系不变"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": ["产品真实体积和接触阴影", "左侧半透明立体入口图形", "左指向中部的饱满箭头", "右侧高亮线形结果图", "干净实心轻切角粗标题"]
+  },
+  "assetTransformations": [
+    {"when": "已有可信竖向产品近景且暗背景可用", "level": "T1", "action": "重裁、净场、调整主体位置与桌面明暗"},
+    {"when": "产品景别或承托关系不足", "level": "T2", "action": "补拍或重构近景、透视和真实接触阴影，守住事实锚点"},
+    {"when": "行业主题需要重新解释左右能力", "level": "T3", "action": "按入口—主物—结果重设计图形和现场，不复制原品牌标志"}
+  ],
+  "fontDependencies": [
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-039-cut-heavy", "required": true, "status": "testing"},
+    {"role": "eyebrow", "type": "font-style-id", "id": "dalala-cover-039-thin-tech", "required": true, "status": "testing"}
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

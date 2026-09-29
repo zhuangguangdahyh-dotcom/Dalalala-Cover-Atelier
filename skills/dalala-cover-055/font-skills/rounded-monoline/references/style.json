@@ -1,0 +1,15 @@
+{
+  "id": "dalala-cover-055-rounded-monoline",
+  "version": "0.1.0",
+  "status": "testing",
+  "family": "hand-drawn rounded monoline Hanzi and lowercase Latin",
+  "variants": {
+    "prefix": {"fillRole": "high-lightness neutral", "relativeStroke": 1, "letterSpacingCanvasWidthPercent": [0.5, 2]},
+    "mainTitle": {"fillRole": "warm bright accent", "relativeStroke": [1.1, 1.4], "latinTracking": "airy, visibly open"},
+    "cardLabels": {"fillRole": "high-lightness neutral", "relativeStroke": [0.35, 0.55], "rotation": "follow card orientation"}
+  },
+  "terminal": "rounded with subtle hand stop",
+  "texture": "solid clean ink; no grain or hollow center",
+  "layout": "one-line prefix, one-line Chinese plus Latin main phrase, four individually angled card labels",
+  "forbidden": ["regular round sans", "brush calligraphy", "paint splatter", "outline fill", "uniform glyph copies", "script-style Latin disconnected from Hanzi"]
+}

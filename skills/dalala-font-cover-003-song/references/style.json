@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-003-slanted-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "role": "底部倾斜宋体",
+  "rules": "宋体衬线骨架，横细竖粗，三角收笔与锐利长撇捺；字面向右倾约8–12度起试，基线近水平，不逐字跳动。中粗至粗展示字重，字腔保持可辨；字间0.06–0.16em；清晰实心，紧实右下暗投影，无外发光、描边贴纸或故障切口。",
+  "sourceReference": "../assets/source-reference.jpg",
+  "approvedReference": null,
+  "exactFontIdentification": "unknown",
+  "measurement": "原图目测复建起点，待测试",
+  "colorPolicy": "具体色值由封面角色决定，不绑定HEX",
+  "qaThreshold": 85,
+  "automaticProductionAllowed": false
+}

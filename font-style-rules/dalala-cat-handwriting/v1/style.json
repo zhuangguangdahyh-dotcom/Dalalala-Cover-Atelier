@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cat-handwriting-v1",
+  "familyId": "dalala-cat-handwriting",
+  "variantId": "v1",
+  "displayName": "Dalala 猫咪手写体 V1｜耳朵肉垫款",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "living-handwriting-with-integrated-cat-elements",
+    "defaultIntensity": "lively",
+    "allowAutomaticDowngrade": false
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "approval": {
+    "scope": "visual-style",
+    "source": "output/font-concepts/dalala-cat-handwriting-14/01-ears-paws-tails.png",
+    "sha256": "fdabe45fc2ae12ea8c410dbdc15c0ee69a8ddb61df370fa072f62c4d205de5ef",
+    "productionGlyphReviewRequired": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review"
+  },
+  "characterConstruction": {
+    "base": "lively-cat-handwriting",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "postures": [
+      "stretch",
+      "curl",
+      "lean",
+      "compact",
+      "lift"
+    ],
+    "boldMoves": [
+      "tail-terminal",
+      "cat-motif-integration",
+      "elastic-stroke"
+    ],
+    "quietMoves": [
+      "open-counter",
+      "short-rest"
+    ],
+    "gestureStarts": [
+      "soft-press",
+      "angled-entry"
+    ],
+    "gestureEndings": [
+      "tail-curl",
+      "short-lift"
+    ],
+    "paintStates": [
+      "solid-ink",
+      "local-pressure"
+    ],
+    "requiredPaintStatesPerGlyph": 2
+  },
+  "motifs": "猫耳、肉垫、爪印、条纹尾巴；猫耳顺着上端笔画生长，尾巴延续收笔，肉垫作为点画或笔画内的小细节。",
+  "vitalityPresets": {
+    "lively": {
+      "baselineShiftPercent": [
+        -5,
+        5
+      ],
+      "rotationDegrees": [
+        -6,
+        6
+      ],
+      "glyphScale": [
+        0.85,
+        1.18
+      ],
+      "trackingFactor": [
+        0.8,
+        1.1
+      ]
+    }
+  },
+  "qa": {
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "living-handwriting",
+      "selected-variant-match",
+      "true-alpha"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  }
+}

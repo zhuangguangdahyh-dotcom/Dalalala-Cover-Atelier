@@ -1,0 +1,4 @@
+interface:
+  display_name: "008 随手圆笔字（测试）"
+  short_description: "细手写与粗展示字的透明文字层"
+  default_prompt: "按参考 008 字体测试规则生成透明文字层，先查证汉字和混排文本，未经 QA 不得合成。"

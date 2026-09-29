@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-022",
+  "analysisStatus": "studied-awaiting-user-confirmation-revised",
+  "measurementBasis": "1440x1920 原图目测，bboxPercentXYXY 以左上为原点，分别按画宽和画高计，约 ±2–3 个百分点误差",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "IMG_1948.JPG",
+    "width": 1440,
+    "height": 1920,
+    "ratio": "3:4",
+    "visibleText": [
+      "Vlog 剪辑",
+      "从拍到剪！全方位！",
+      "全流程！"
+    ]
+  },
+  "primaryMechanism": "全幅灰暗室内真人中近景；两条几乎铺满画宽的厚重手工字横梁分别给出主题与结果，人物眼神和两只展示手势接起中间的流程承诺",
+  "primaryFocus": "上白字、人物面部和下暖亮字组成三点顺序焦点；360px 下上下字先于小字识别",
+  "dominantAxis": "人脸与身体沿 x43–48% 竖轴；主字在 y3–22% 和 y73–94% 形成上下水平轴；手势向画面左右扩展",
+  "readingPath": [
+    "Vlog",
+    "剪辑",
+    "右上从拍到剪／全方位",
+    "人物眼神及向两侧展示的手",
+    "底部全流程！"
+  ],
+  "elements": [
+    {
+      "role": "backgroundRoom",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 4,
+      "alignment": "全幅室内照片，灰暗墙顶、左侧深门洞、右侧床和墙面保留但降对比"
+    },
+    {
+      "role": "person",
+      "bboxPercentXYXY": [
+        13,
+        21,
+        100,
+        100
+      ],
+      "layer": 1,
+      "visualRank": 2,
+      "alignment": "面部偏左正视；肩身扩展并从底边出画，右侧外伸手接近右边但不截指"
+    },
+    {
+      "role": "face",
+      "bboxPercentXYXY": [
+        26,
+        32,
+        58,
+        54
+      ],
+      "layer": 1,
+      "visualRank": 1,
+      "alignment": "双眼与嘴清楚；字形和手势不遮眼睛"
+    },
+    {
+      "role": "upperHand",
+      "bboxPercentXYXY": [
+        73,
+        47,
+        99,
+        66
+      ],
+      "layer": 1,
+      "visualRank": 3,
+      "alignment": "右画面伸展手呈自然展示姿态，实际左右手以画面位置为准"
+    },
+    {
+      "role": "lowerHand",
+      "bboxPercentXYXY": [
+        52,
+        65,
+        85,
+        75
+      ],
+      "layer": 1,
+      "visualRank": 3,
+      "alignment": "横置掌心把视线引向底部承诺字"
+    },
+    {
+      "role": "topTitleLatin",
+      "text": "Vlog",
+      "bboxPercentXYXY": [
+        2,
+        4,
+        47,
+        22
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "左上单行；字宽和落点略不齐，g 下伸靠近头顶；白字在人物上层但空间上避开脸，仅贴近发顶"
+    },
+    {
+      "role": "topTitleHan",
+      "text": "剪辑",
+      "bboxPercentXYXY": [
+        50,
+        3,
+        96,
+        21
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "右上与 Vlog 并列，保留中间约 2–5% 画宽暗缝；白字在人物上层但空间上避开脸，仅贴近发顶"
+    },
+    {
+      "role": "subtitle",
+      "text": "从拍到剪！全方位！",
+      "bboxPercentXYXY": [
+        55,
+        22,
+        94,
+        27
+      ],
+      "layer": 5,
+      "visualRank": 5,
+      "alignment": "右上单行轻斜手写，位于头发右侧暗背景；小字与影不穿过脸"
+    },
+    {
+      "role": "bottomPayoff",
+      "text": "全流程！",
+      "bboxPercentXYXY": [
+        3,
+        73,
+        97,
+        94
+      ],
+      "layer": 7,
+      "visualRank": 1,
+      "alignment": "最终前景，盖下段袖子、前臂、胸腹和沙发；两掌心主体保持在其上沿前，感叹号在最右"
+    },
+    {
+      "role": "addedDecoration",
+      "present": false
+    },
+    {
+      "role": "logoOrCTA",
+      "present": false
+    }
+  ],
+  "spatialWeight": {
+    "topTitleEnvelopePercentXYXY": [
+      2,
+      3,
+      96,
+      22
+    ],
+    "bottomTitleEnvelopePercentXYXY": [
+      3,
+      73,
+      97,
+      94
+    ],
+    "middlePersonBandYPercent": [
+      27,
+      72
+    ],
+    "faceAreaApproxPercent": [
+      12,
+      16
+    ],
+    "darkNeutralPhotoAreaApproxPercent": [
+      65,
+      75
+    ],
+    "naturalPersonLightAreaApproxPercent": [
+      15,
+      25
+    ],
+    "bottomPhotoTailPercent": [
+      6,
+      7
+    ]
+  },
+  "protectedAreas": [
+    "面部眼睛与嘴 x26–58%,y32–54%",
+    "上方两组主字之间 x47–50% 的暗缝",
+    "两手的手指、手掌和自然透视",
+    "中部 y27–72% 不新增大段文字",
+    "底部 y94–100% 的照片余量",
+    "底字 y73–94% 为最终前景；掌心主体在其上沿之前，字只覆盖人物下段"
+  ],
+  "typography": {
+    "topAndBottom": "同一手工切边实心超粗字骨，中英字宽与倾角轻微不齐；完整字腔，单行横向铺满；白顶字与暖亮底字分角色",
+    "subtitle": "细至中细、轻右倾的随手写字，单行，字高约主字 25–35%",
+    "tracking": "主字约 0–8% 单字宽的可变间距，局部靠近但不粘；副标题适度疏开",
+    "lineStructure": "顶部拉丁词加 2 汉字并列一行，底部 3 汉字加独立感叹号一行；小字一行",
+    "effects": "实心填充、轻微不平切边和向右下的软暗影，无镂空、外描、飞白或挤出",
+    "fontStyleIds": {
+      "topAndBottom": "dalala-cover-022-cut-display",
+      "subtitle": "dalala-cover-022-casual-note"
+    }
+  },
+  "colorRoles": {
+    "environment": "约 65–75% 低饱和中低明度暗中性色实拍背景",
+    "person": "自然肤色及浅衣服；比背景亮、低于大字的视觉冲击",
+    "topText": "高明度近白，和暗背景强对比",
+    "bottomText": "高明度暖亮强调色，和暗背景强对比、与上字区分",
+    "subtitle": "近白细字，暗软影保证辨识，视觉等级低于两组大字",
+    "exactHexLocked": false
+  },
+  "layerOrder": [
+    "0 全幅灰暗室内照片",
+    "1 同场景人物与自然阴影；必要时人物柔亮轮廓",
+    "2 顶部主字软暗影",
+    "3 顶部白色实体主字；贴近发顶、不盖眼额",
+    "4 右上副标题轻暗影",
+    "5 右上副标题实体；占头发右侧暗背景，不穿越脸",
+    "6 底部暖亮结果字软暗影",
+    "7 底部暖亮实体字；最终前景，盖下段袖子、前臂、胸腹和沙发，掌心主体留在字框上方"
+  ],
+  "assetTreatment": {
+    "cutout": "不认定原图完全换背景；仅在主体与暗背景粘连时做精确局部蒙版和约 0.5–1.5% 画宽柔亮轮廓",
+    "crop": "3:4 中近景；头顶近 y21%，身体从底边出画，两手完整且不截指",
+    "perspective": "正视近乎平视，前伸手略大但比例自然，无夸张广角",
+    "occlusion": {
+      "topTitle": "g 下伸与发顶只相邻或极轻触，不跨眉眼和额头；不可把人头整体抠到白字之上造成断字",
+      "subtitle": "放在头发右侧暗背景；细字及其暗影不穿过脸和眼镜",
+      "bottomPayoff": "实体字和软影都在人物下部之前，压下段袖子、前臂、胸腹、沙发；两只掌心及手指主体位于字框上方，不抽取手部蒙版盖住底字",
+      "shadow": "每组软影位于对应实体字之下、照片和人物之上；柔亮人物边仍属人物层，不盖实体字",
+      "collisionResolution": "先改取景或手势，使手掌与字框回到参考的相邻位置；不翻转层级、不移动底字到独立横条"
+    },
+    "repetition": "无人像复制或分屏重复",
+    "textureAndLight": "室内实拍纹理、低饱和背景，人物边缘柔光；主字轻软暗影，禁止硬白描边与塑料磨皮"
+  },
+  "semanticFit": [
+    "真人教程或完整流程主题",
+    "主讲人能正视镜头并用两手自然展示",
+    "顶端有暗色空间承载白字",
+    "上下各有短而准确的主题与结果承诺",
+    "行业、人物、手势和场景在内容上相互证明"
+  ],
+  "failureModes": [
+    "把上下重字改细或改成长句",
+    "人物缩为全身或只剩脸",
+    "底字放在人物后面或挪到独立条幅",
+    "小字放大成第二主标题",
+    "顶字遮眼或背景过亮导致读不清",
+    "手被截断或多指、软边光变硬描边",
+    "把同一灰黄 HEX 当作固定色值",
+    "加贴纸 CTA 或悬浮道具",
+    "尚未测试验收却标为 active",
+    "把手掌蒙版置于底字之上导致黄字断裂",
+    "将所有文字合并为一层而无法分别控制字影及遮挡",
+    "顶字或副标题错误覆盖眼睛和头发"
+  ],
+  "revision": {
+    "jobId": "1a41af25-0260-48ce-a261-91efb253f276",
+    "previousJobId": "0d6fe0b6-bb35-4a5d-88e6-6488e915a08c",
+    "feedback": "注意文字的图层顺序",
+    "summary": "按文字块记录软影与实体字层；底字盖下段衣袖、前臂、胸腹及沙发，两只掌心主要处于字框上方；顶字及副标题避开面部和发缘。"
+  },
+  "occlusionContract": {
+    "topTitle": "g 下伸与发顶只相邻或极轻触，不跨眉眼和额头；不可把人头整体抠到白字之上造成断字",
+    "subtitle": "放在头发右侧暗背景；细字及其暗影不穿过脸和眼镜",
+    "bottomPayoff": "实体字和软影都在人物下部之前，压下段袖子、前臂、胸腹、沙发；两只掌心及手指主体位于字框上方，不抽取手部蒙版盖住底字",
+    "shadow": "每组软影位于对应实体字之下、照片和人物之上；柔亮人物边仍属人物层，不盖实体字",
+    "collisionResolution": "先改取景或手势，使手掌与字框回到参考的相邻位置；不翻转层级、不移动底字到独立横条"
+  }
+}

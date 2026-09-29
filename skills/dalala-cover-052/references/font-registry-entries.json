@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dalala-cover-052-rough-white",
+    "displayName": "052 粗白手绘展示字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-052/font-skills/rough-white/SKILL.md",
+    "config": "../skills/dalala-cover-052/font-skills/rough-white/references/style.json",
+    "humanRules": "../skills/dalala-cover-052/font-skills/rough-white/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-052/font-skills/rough-white/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-052/font-skills/rough-white/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-052/font-skills/rough-white/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-052/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-052-thin-black",
+    "displayName": "052 细黑随写字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-052/font-skills/thin-black/SKILL.md",
+    "config": "../skills/dalala-cover-052/font-skills/thin-black/references/style.json",
+    "humanRules": "../skills/dalala-cover-052/font-skills/thin-black/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-052/font-skills/thin-black/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-052/font-skills/thin-black/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-052/font-skills/thin-black/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-052/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "dalala-cover-039-cut-heavy",
+    "displayName": "039 单行双色切角厚字测试依赖",
+    "aliases": ["039 主标题厚字"],
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-039/font-skill/main/SKILL.md",
+    "config": "../skills/dalala-cover-039/font-skill/main/references/style.json",
+    "humanRules": "../skills/dalala-cover-039/font-skill/main/references/style-rules.md",
+    "vitalityQA": "../skills/dalala-cover-039/font-skill/main/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-039/font-skill/main/references/integration.md",
+    "promptTemplate": "../skills/dalala-cover-039/font-skill/main/references/generation-prompt.md",
+    "approvedReference": null,
+    "sourceReference": "../skills/dalala-cover-039/assets/reference-original.jpg",
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-039-thin-tech",
+    "displayName": "039 顶部中英细等线测试依赖",
+    "aliases": ["039 顶部细字"],
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "typography-style",
+    "skill": "../skills/dalala-cover-039/font-skill/eyebrow/SKILL.md",
+    "config": "../skills/dalala-cover-039/font-skill/eyebrow/references/style.json",
+    "humanRules": "../skills/dalala-cover-039/font-skill/eyebrow/references/style-rules.md",
+    "vitalityQA": "../skills/dalala-cover-039/font-skill/eyebrow/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-039/font-skill/eyebrow/references/integration.md",
+    "promptTemplate": "../skills/dalala-cover-039/font-skill/eyebrow/references/generation-prompt.md",
+    "approvedReference": null,
+    "sourceReference": "../skills/dalala-cover-039/assets/reference-original.jpg",
+    "primaryRenderer": "transparent-text-layer"
+  }
+]

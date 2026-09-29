@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-051-mint-freehand",
+  "version": "0.1.0",
+  "status": "testing",
+  "source": "skills/dalala-cover-051/assets/reference-original.jpg",
+  "usage": "双语上下分离的透明展示字层",
+  "roles": {
+    "latinDisplayTitle": {
+      "lineCount": 1,
+      "preferredCharacters": [
+        7,
+        10
+      ],
+      "canvasBoxPercent": [
+        10,
+        2,
+        89,
+        39
+      ],
+      "form": "oversized looping initial plus connected cursive midsection and long exit stroke"
+    },
+    "chineseDisplayTitle": {
+      "lineCount": 1,
+      "preferredCharacters": [
+        4,
+        6
+      ],
+      "canvasBoxPercent": [
+        5,
+        64,
+        97,
+        86
+      ],
+      "form": "loose near-monoline Chinese handwriting with varied glyph width, height, tilt and selected long extensions"
+    }
+  },
+  "sharedStroke": "高亮单色、不透明近实心、近等粗而有速度变化，边缘轻微手作不齐",
+  "outline": "none",
+  "shadow": "none",
+  "background": "transparent",
+  "forbidden": [
+    "规则印刷体",
+    "普通签名字体机械连写",
+    "油漆飞溅",
+    "毛笔重提按",
+    "霓虹外发光",
+    "厚描边",
+    "两组字不同色",
+    "增行以适配长文本"
+  ]
+}

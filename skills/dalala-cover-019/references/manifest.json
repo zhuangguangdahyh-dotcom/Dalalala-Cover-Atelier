@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-019",
+  "displayName": "参考 019",
+  "version": "0.2.0",
+  "status": "testing",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "9962c1b1-fa37-49c2-8dab-e53b592db827",
+  "analysisReport": "skills/dalala-cover-019/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-019.jpg",
+  "referenceSha256": "633cc23889064eec09b5ebeed8f87aceba65ac32e57c1d1172d0449d392ce459",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "latinLettersRecommended": [
+      7,
+      12
+    ],
+    "latinSourceCount": 10,
+    "hanCharactersRecommended": [
+      2,
+      3
+    ],
+    "hanSourceCount": 2
+  },
+  "subjectTypes": [
+    "可辨认的真实场景或对象群",
+    "符合上部承字和中下密疏骨架的行业主体"
+  ],
+  "contentEmotions": [
+    "清晰命名",
+    "开阔探索",
+    "可信现场感"
+  ],
+  "firstFocus": "上端横贯的高瘦前倾拉丁主字，随后是右上厚块中文",
+  "spatialStructure": [
+    "3:4 全幅主题场景",
+    "上方低纹理承字面",
+    "英文横贯上端、中文独立右上",
+    "中下方一侧是可辨主题证据、另一侧是连续开放面",
+    "真实边界/透视线将目光带向下方"
+  ],
+  "readingPath": [
+    "拉丁主标题",
+    "右上中文短标题",
+    "中下部可识别主题主体",
+    "场景细节和方向线",
+    "连续低细节展开面"
+  ],
+  "imageTextRelationship": "两道独立字层平面叠于主题场景上；需按当前内容选择图片和承字面，不固定使用海湾照片",
+  "locked": [
+    "3:4 全幅",
+    "英文一行约 x10–93%、y6–19%",
+    "中文一行约 x59–90%、y22–35%",
+    "上方承字面与中下密疏关系",
+    "真实方向线及先英文后中文再主体的路径",
+    "两种不同字骨及低强度字效"
+  ],
+  "adaptive": [
+    "行业身份、当前主题与展示对象",
+    "有主题证据的照片/场景类型、具体机位和事实细节",
+    "准确双语短词",
+    "依据素材选择的具体色值和材质"
+  ],
+  "optional": [
+    "现场自然细节，如云、人群、器物、植物等"
+  ],
+  "forbidden": [
+    "同一海湾底图跨行业只换字",
+    "强加钟楼红瓦海水",
+    "无依据的英文装饰词",
+    "长副标题/CTA 填空",
+    "普通字体静默替代",
+    "英文分行或中文挪中",
+    "拼造真实身份/地标",
+    "未验收发布 active"
+  ],
+  "variableContract": {
+    "person": "可按主题更换身份和姿态；若出现人物，须作为场景证据进入中下主体区，不能变成无关大头贴。",
+    "text": "准确短词可变；英文、中文各一行且维持面积、位置和阅读顺序。",
+    "product": "可换行业产品/工具/书籍/食物，但要与场景和主题形成可辨证据，不悬空贴图。",
+    "palette": "具体色值可变；大面积安静环境、相对更密/有色温的主体、近白主字与小面积暖向中字的关系不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "英文 x10–93%,y6–19%",
+      "中文 x59–90%,y22–35%",
+      "中下主体约在一侧 0–62% 区域，另一侧 y40–85% 连续开放面约 35–50% 带宽"
+    ],
+    "effects": [
+      "高瘦前倾切口英文",
+      "直立方硬中文",
+      "英文轻微暗分离、中文干净实填",
+      "两道标题均在场景前"
+    ]
+  },
+  "assetTransformation": {
+    "level": "按素材在 T0–T2 间选；本阶段不执行",
+    "triggers": [
+      "缺乏上部承字面时换图或受控扩图",
+      "主体太小/右侧空间过窄时重新裁切或换图",
+      "文字与承接面撞明度时局部调光",
+      "真实身份或事实会被破坏时拒绝处理"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitleLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-019-latin",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "secondaryTitleHan",
+      "type": "font-style-id",
+      "id": "dalala-cover-019-han",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null
+}

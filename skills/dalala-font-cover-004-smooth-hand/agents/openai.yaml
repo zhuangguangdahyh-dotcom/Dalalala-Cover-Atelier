@@ -1,0 +1,5 @@
+interface:
+  display_name: "004 字体测试依赖"
+  short_description: "平滑实心手写字透明层，待测试"
+policy:
+  allow_implicit_invocation: false

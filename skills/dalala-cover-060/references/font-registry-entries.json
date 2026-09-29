@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-060-wax-crayon-hand",
+    "displayName": "060 粗蜡笔手绘字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/SKILL.md",
+    "config": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/references/style.json",
+    "humanRules": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-060/font-skills/wax-crayon-hand/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-060/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-047-spatial-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "kind": "generative-lettering-style",
+  "sourceReference": "../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "mainTitle"
+  ],
+  "skeleton": "high-contrast Chinese Song/Ming display with clear standard glyph structure",
+  "strokeContrast": "strong verticals and thin but thumbnail-safe horizontals",
+  "terminals": "sharp triangular wedges and a few long directional finishes, one dominant accent per glyph",
+  "posture": "four independent glyphs with distinct slight lean and optical center; not a common baseline",
+  "fill": "solid opaque high-value neutral; cover decides exact hue",
+  "edge": "clean cut, no brush grain or glow",
+  "spacing": "not set by font; each glyph is a separate cover layer",
+  "effect": {
+    "outline": false,
+    "glow": false,
+    "shadow": "separate hard-edged neutral gray offset behind each glyph, down-right about 4%–7% of glyph height"
+  },
+  "layoutAuthority": "cover-skill",
+  "exactColorLocked": false,
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowGlyphSubstitution": false,
+    "allowExtraText": false
+  },
+  "qaThumbnailWidthPx": 360,
+  "vitalityQA": "references/vitality-qa.md"
+}

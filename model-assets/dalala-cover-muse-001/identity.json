@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "modelId": "dalala-cover-muse-001",
+  "displayName": "Dalala 御用模特 01",
+  "status": "approved",
+  "approvedAt": "2026-09-14",
+  "approvedUse": [
+    "封面模板测试",
+    "封面构图规则验证",
+    "工作台人物素材演示"
+  ],
+  "subject": {
+    "personCount": 1,
+    "adultAge": 20,
+    "appearance": "东亚年轻女性",
+    "presentation": "自然、亲和、真实、轻松",
+    "baseHair": "深色及肩自然直发",
+    "baseSkin": "自然暖中性色调，保留真实皮肤纹理"
+  },
+  "identityLock": {
+    "locked": [
+      "同一人物的脸型与头脸比例",
+      "眼睛、鼻子、嘴唇之间的相对位置与形态",
+      "约 20 岁的成年人年龄感",
+      "自然东亚面部特征",
+      "基础肤色与深色发色"
+    ],
+    "adaptive": [
+      "表情",
+      "视线",
+      "头部与身体角度",
+      "发型整理方式",
+      "服装",
+      "姿态与手势",
+      "景别",
+      "灯光",
+      "背景与场景"
+    ],
+    "forbidden": [
+      "仅凭文字描述重新生成而不使用身份参考图",
+      "改变为未成年人外观",
+      "明显改变脸型、五官关系、肤色或发色",
+      "过度磨皮、塑料皮肤或网红脸重塑",
+      "用其他相似女性替代并仍标记为本人物"
+    ]
+  },
+  "primaryReference": {
+    "path": "reference/neutral-front-3x4-1080x1440.png",
+    "width": 1080,
+    "height": 1440,
+    "aspectRatio": "3:4",
+    "sha256": "18c8e74e4a93acf09e40687d3067cce7258df04ea3b4c6fe48cb69f1f7ae817b",
+    "role": "人物身份母图与默认模板测试图"
+  },
+  "approvedReferences": [
+    "reference/neutral-front-3x4-1080x1440.png"
+  ],
+  "defaultGenerationPolicy": {
+    "referenceRequired": true,
+    "identityPriority": "high",
+    "defaultCanvas": "1080x1440",
+    "defaultAspectRatio": "3:4",
+    "keepNaturalSkinTexture": true,
+    "leaveLayoutReconstructionToSelectedRule": true
+  }
+}

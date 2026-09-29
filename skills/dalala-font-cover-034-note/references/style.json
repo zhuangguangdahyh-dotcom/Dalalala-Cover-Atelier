@@ -1,0 +1,11 @@
+{
+  "id": "dalala-cover-034-fine-note",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-034/assets/reference-original.jpg",
+  "roles": ["latinNote"],
+  "script": "Latin lowercase",
+  "fill": "thin-single-stroke",
+  "exactColorLocked": false,
+  "effects": {"outline": false, "dropShadow": false, "glow": false}
+}

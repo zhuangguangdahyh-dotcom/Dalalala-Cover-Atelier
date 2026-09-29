@@ -1,0 +1,157 @@
+{
+  "coverSkillId": "dalala-cover-001",
+  "version": "0.2.0",
+  "status": "testing",
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cut-block-display",
+      "required": true
+    },
+    {
+      "role": "brandWord",
+      "type": "font-style-id",
+      "id": "dalala-cover-001-rounded-backword",
+      "required": true
+    }
+  ],
+  "locked": [
+    "单一中央英雄区",
+    "U 形内容包围区",
+    "顶部巨型背景字区",
+    "底部两行高明度结论区",
+    "内容面积关系",
+    "明显前中后景",
+    "标志性特殊效果"
+  ],
+  "adaptive": [
+    "人物身份",
+    "文字内容",
+    "产品或工具",
+    "角色具体形象",
+    "具体色值"
+  ],
+  "optional": [
+    "摄影灯",
+    "星芒",
+    "小型圆线装饰",
+    "角色手持道具"
+  ],
+  "forbidden": [
+    "改变固定版式迁就新内容",
+    "改变各区域面积占比",
+    "删除广角、三维、遮挡或摄影棚光影效果",
+    "普通居中肖像加贴纸",
+    "角色沿一条基线平均排列",
+    "背景纯色",
+    "所有元素等大",
+    "文字使用普通黑体",
+    "照搬参考角色造型"
+  ],
+  "variableContract": {
+    "person": "人物身份、外貌、服装和具体动作内容可变，但必须处于中央英雄区并维持原景别、方向和面积",
+    "text": "文字内容可变，但顶部字区、底部两行结构、块面尺寸和层级不可变",
+    "product": "产品、工具和 supporting agents 的具体形象可变，但必须保持 U 形包围、数量密度、前中后景和面积关系",
+    "palette": {
+      "background": "中暗低彩，外露约25%–35%",
+      "primaryText": "近白级高明度，字面约7%–11%",
+      "subjectSupport": "自然肤色与服装约18%–24%",
+      "accent": "群像与顶字占余下面积，冷暖交错",
+      "secondaryText": "无",
+      "contrastCheck": "正式图上逐局部验证，建议标题对比至少4.5:1；当前未测",
+      "surfaceNotes": "面积为目测估计，待实测；不固定HEX"
+    }
+  },
+  "invariantContract": {
+    "layout": [
+      "中央英雄区",
+      "U 形包围区",
+      "顶部巨型背景字区",
+      "底部两行结论区",
+      "阅读路径",
+      "图层顺序"
+    ],
+    "areaRatios": {
+      "heroBoundingBox": "26%-31%",
+      "brandBoundingBox": "17%-21%",
+      "titleCombinedBoundingBox": "17%-21%; height about 22%",
+      "supportingContent": "7 boxes in zones, 2 rear + 2 middle + 3 front; overlapping"
+    },
+    "specialEffects": [
+      "高机位广角透视",
+      "前景夸大",
+      "实体三维角色或产品",
+      "前中后景遮挡",
+      "摄影棚环境光与落地阴影",
+      "顶部文字被角色局部遮挡"
+    ]
+  },
+  "spatialGrammar": {
+    "camera": "高机位俯拍的广角团队合影",
+    "heroZone": "x=0.30..0.68, y=0.23..0.99; face and tool protected",
+    "ensemblePath": "后排两侧站立，中景贴近人物，前景角色从左右下角压入",
+    "brandZone": "上半部背景，约占画面宽度 80%–95%",
+    "titleZone": "下部约 22%–28%，压在人物腿部与前景角色之上",
+    "readingPath": [
+      "顶部品牌色块",
+      "中央人物面孔与相机",
+      "环绕角色数量",
+      "底部结论文案"
+    ]
+  },
+  "transformationGrammar": [
+    {
+      "when": "收到内容",
+      "action": "提取行业、身份、主题、对象和观众结论，先写因果叙事",
+      "reason": "统一背景、七对象和标题"
+    },
+    {
+      "when": "背景无关或无地面",
+      "action": "重构行业工作现场，保留俯拍广角、地面、侧边纵深、后方字墙和统一阴影",
+      "reason": "主题适配且保留空间身份"
+    },
+    {
+      "when": "周围对象未确定",
+      "action": "七槽逐一写对象、含义、动作道具与遮挡，只选一种语义体系",
+      "reason": "对象是标题论据，不是随机装饰"
+    },
+    {
+      "when": "半身或平拍素材",
+      "action": "评估能否保持身份和工具几何完成全身重构；不能则补充合适素材",
+      "reason": "禁止拉长身体"
+    },
+    {
+      "when": "文字超宽",
+      "action": "先改写，保留顶部单行、底部两行短上宽下与固定占比",
+      "reason": "禁止让版式迁就长文"
+    }
+  ],
+  "displayName": "001",
+  "reference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "ratios": [
+    "3:4"
+  ],
+  "platforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "titleLength": {
+    "line1": "2-4",
+    "line2": "6-8 equivalent characters"
+  },
+  "subjectTypes": [
+    "person with seven industry objects"
+  ],
+  "emotions": [
+    "scale",
+    "contrast"
+  ],
+  "firstFocus": "一个真实创作者被一整支高饱和角色团队包围，立即把抽象的 AI 能力变成可见规模",
+  "passedTests": [],
+  "thumbnailCheck": "pending",
+  "userApproval": null,
+  "renderAllowed": false
+}

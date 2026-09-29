@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考封面 053（待测试）"
+  short_description: "六格实拍、斜向撕纸主景与右侧人物拼贴"
+  default_prompt: "先看本 Skill 原图并读取 anatomy、adaptation-rules、manifest、qa 和对应 analysis；保持 studied 状态，拆解获确认后才进行跨主题复刻测试。"

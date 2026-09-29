@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-061",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "sourceDimensions": {
+    "width": 2526,
+    "height": 3368,
+    "ratio": 0.75
+  },
+  "coordinateSystem": "normalized-percent-left-top",
+  "firstImpression": "两行白色硬块巨字跨旧纸招牌和黑白行业旧照；高反差衬线英文与底部观点句形成年代碰撞",
+  "primaryFocus": "上短下长的两行白色中文主标题",
+  "dominantAxis": "上方横向招牌与下方横向旧照在 y53% 硬切；标题呈上行右置、下行满宽的阶梯",
+  "zones": [
+    {
+      "role": "archivalPaper",
+      "bbox": [
+        0,
+        0,
+        100,
+        53
+      ],
+      "visualAreaPercent": [
+        47,
+        53
+      ],
+      "align": "full bleed",
+      "z": 1
+    },
+    {
+      "role": "doubleBorder",
+      "bbox": [
+        4,
+        2,
+        97,
+        54
+      ],
+      "lineCount": 2,
+      "align": "paper inset frame",
+      "z": 3
+    },
+    {
+      "role": "topEditorialTheme",
+      "bbox": [
+        6,
+        5,
+        95,
+        16
+      ],
+      "align": "upper horizontal, near full width",
+      "z": 2
+    },
+    {
+      "role": "leftClassification",
+      "bbox": [
+        7,
+        18,
+        45,
+        31
+      ],
+      "lineCount": 3,
+      "align": "left, each line bounded by short marks",
+      "z": 2
+    },
+    {
+      "role": "rightDarkSilhouette",
+      "bbox": [
+        58,
+        17,
+        97,
+        54
+      ],
+      "align": "right and bottom anchored to paper/photo seam",
+      "z": 4
+    },
+    {
+      "role": "documentaryPhoto",
+      "bbox": [
+        0,
+        53,
+        100,
+        100
+      ],
+      "visualAreaPercent": [
+        45,
+        49
+      ],
+      "align": "full bleed, foreground work action retained",
+      "z": 5
+    },
+    {
+      "role": "mainTitleLine1",
+      "bbox": [
+        27,
+        35,
+        95,
+        52
+      ],
+      "align": "short line, right weighted, overlaps dark silhouette",
+      "z": 7
+    },
+    {
+      "role": "mainTitleLine2",
+      "bbox": [
+        6,
+        55,
+        95,
+        72
+      ],
+      "align": "long near full-width line over photograph",
+      "z": 7
+    },
+    {
+      "role": "bottomVerdict",
+      "bbox": [
+        7,
+        80,
+        97,
+        88
+      ],
+      "align": "single horizontal line over photo",
+      "z": 8
+    }
+  ],
+  "visualBalance": {
+    "paperPhotoSplitYPercent": [
+      51,
+      55
+    ],
+    "upperLeftTextVsRightMass": "3 smaller classification lines balance one large silhouette",
+    "topLineCenterApprox": [
+      61,
+      43
+    ],
+    "bottomLineCenterApprox": [
+      50,
+      64
+    ],
+    "protectedSpace": [
+      8,
+      31,
+      55,
+      35
+    ]
+  },
+  "readingPath": [
+    "two-line Chinese main title from upper short to lower long",
+    "English masthead and left category lines",
+    "dark silhouette and monochrome work scene",
+    "bottom verdict"
+  ],
+  "layerOrderBackToFront": [
+    "archival paper",
+    "English editorial text",
+    "double black border",
+    "right dark silhouette",
+    "black-and-white documentary photo",
+    "main title short shadow and thin outline",
+    "bottom verdict"
+  ],
+  "imageTextRelationship": "主标题横跨旧纸与旧照，旧纸提供权威档案感，照片提供职业现场证据，底句把观点落回行业",
+  "typography": {
+    "mainTitle": "clean solid white extra-heavy hard-cut Han, near-monoline, thin black keyline, short dark offset shadow, small individual rotation",
+    "topEditorialTheme": "uppercase high-contrast Roman serif, tight tracking",
+    "leftClassification": "same editorial serif at smaller scale, three rows",
+    "bottomVerdict": "heavy regularized Han sans, pale warm high-lightness fill, thin dark edge"
+  },
+  "colorRoles": {
+    "archivalPaperPercent": [
+      47,
+      53
+    ],
+    "darkPhotoAndSilhouettePercent": [
+      28,
+      35
+    ],
+    "photoMidlightPercent": [
+      12,
+      18
+    ],
+    "whiteTitlePercent": [
+      10,
+      14
+    ],
+    "smallWarmVerdictPercent": [
+      3,
+      5
+    ],
+    "logic": "medium-light textured paper above low-lightness monochrome photo, high-lightness clean white headline, small warm secondary accent; exact hues adaptive"
+  },
+  "materialEffects": [
+    "fine paper fibre and oxidation",
+    "slightly irregular old ink on English and border",
+    "hard monochrome photo with midtone detail",
+    "subtle photo grain",
+    "white clean glyph fill with thin black outline and close down-right shadow"
+  ],
+  "primaryMechanism": "旧纸印刷招牌 + 下半黑白行业现场 + 两行上短下长白色巨字跨介质覆盖 + 底部口语化行业断语",
+  "transformationGrammar": [
+    "preserve 3:4 top 53% paper/bottom 47% documentary photo",
+    "replace black architectural silhouette with industry-specific dark shape while keeping right-lower mass",
+    "crop photo for identifiable work action and environment",
+    "rewrite title to two short semantic lines without changing their unequal widths",
+    "rewrite bottom statement as one concrete industry judgment"
+  ],
+  "semanticFit": [
+    "industry history",
+    "work and craft",
+    "professional stereotypes",
+    "old-versus-new judgment",
+    "design or architectural context"
+  ],
+  "failureModes": [
+    "paper/photo split lost",
+    "plain large font without custom edges",
+    "two lines become equal-width centered",
+    "photo has no recognizable work relation",
+    "right dark mass absent",
+    "English becomes gibberish",
+    "white title contaminated by paper texture",
+    "bottom line unreadable at phone size"
+  ],
+  "revision": "核对原图：下段为多人围绕绘图桌工作的建筑行业档案照；人物保持照片内景深和透视，不单独抠出。三类文字分属独立字体依赖。",
+  "assetTreatment": {
+    "crop": "下段照片横向填满 x0–100%、y53–100%；保留前景伏案人物、桌面绘图动作及至少一位后景人物",
+    "perspective": "照片人物与桌面保留同一纪实相机视角；右侧上段黑色建筑轮廓为平面剪影，不与照片伪造透视连接",
+    "cutout": "人物不单独抠图；只为纸面右侧行业轮廓制作深色剪影",
+    "occlusion": "上行白字盖过右侧剪影，下行白字盖过照片上沿，底句盖过照片中下部但应避开主要动作",
+    "repetition": "无主体重复；双框和三行分类构成有秩序的重复",
+    "depth": "后景旧纸印刷及照片环境；中景剪影与照片人物；前景两行白字及底句"
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitleLine1/mainTitleLine2",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-outlined-poster-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "topEditorialTheme/leftClassification",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-archive-roman",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomVerdict",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-verdict-han",
+      "required": true,
+      "status": "testing"
+    }
+  ]
+}

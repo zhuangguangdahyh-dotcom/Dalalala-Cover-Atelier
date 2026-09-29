@@ -1,0 +1,4 @@
+interface:
+  display_name: "019 前倾英文大字（测试）"
+  short_description: "高瘦前倾、强水平地名字层"
+  default_prompt: "先读字形规则与原图，再生成逐字准确的透明大写英文层；未验证不得上架。"

@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-036",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-036.jpg",
+    "archivedReference": "skills/dalala-cover-036/assets/reference-original.jpg",
+    "sha256": "706197a595a5d9e54426c1ce374c4813f9cadc88e852202b70b705fc680a6441",
+    "dimensions": [2274, 3032],
+    "visuallyReviewed": true,
+    "measurementMethod": "2274×3032 原图目视解剖；红色文字边界辅以 569×758 降采样颜色掩膜测量；人物与设备边界为目测初值",
+    "bboxConvention": "[x0,y0,x1,y1] in percent; overlapping boxes are not summed areas",
+    "sameNumberLayoutRuleUsed": false
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "productionSize": [1080, 1440],
+    "fullBleed": true
+  },
+  "visualConclusion": "顶部约 37% 用超高、超窄、同色的双语标题建立压倒性信息入口；下部约 63% 用黑衣人物坐在多台发光矩形设备之间形成真实证明。高明度背景、红色细长字形和黑色厚重设备构成轻/重、细/厚、平面/实体三重对比。",
+  "primaryMechanism": "以接近全宽的纵向拉长文字压住上部，以居中的人物和多台深色矩形设备堆叠压住下部；设备屏幕把抽象参数变成可见证据，人物坐姿把重复模块组织成一个场景而非产品拼贴。",
+  "contentRoles": [
+    {
+      "role": "highKeyBackground",
+      "bboxPercent": [0, 0, 100, 100],
+      "meaning": "连续的浅灰白无缝背景，同时承接标题、人物轮廓和设备外形",
+      "alignment": "full-canvas",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitleLatin",
+      "bboxPercent": [2.6, 6.6, 31.1, 28.5],
+      "meaning": "短品牌、工具或方法标识；与中文主命题共同构成第一层标题",
+      "alignment": "left-anchored-within-title-row",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitleChinese",
+      "bboxPercent": [38.1, 3.3, 96.8, 30.9],
+      "meaning": "4–6 字核心命题；全图第一信息焦点",
+      "alignment": "right-anchored-single-row",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitleGap",
+      "bboxPercent": [31.1, 3.3, 38.1, 30.9],
+      "meaning": "分隔拉丁短标与中文命题的窄竖向呼吸缝",
+      "alignment": "protected-gap",
+      "tolerancePercentagePoints": 1.5
+    },
+    {
+      "role": "subtitle",
+      "bboxPercent": [55.0, 32.5, 97.4, 37.2],
+      "meaning": "6–9 个中文等效字的单行追问或判断；补足使用情境",
+      "alignment": "right-aligned-under-chinese-title",
+      "tolerancePercentagePoints": 1.5
+    },
+    {
+      "role": "personOverall",
+      "bboxPercent": [25, 38, 72, 89],
+      "meaning": "单人坐姿，承担身份、尺度、情绪和模块阵列的组织中心",
+      "alignment": "lower-center",
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "faceIdentityZone",
+      "bboxPercent": [45, 40, 59, 52],
+      "meaning": "完整可识别的人脸与低头/侧下视线，不被文字和屏幕遮挡",
+      "alignment": "near-center",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "deviceArray",
+      "bboxPercent": [0, 52, 100, 100],
+      "meaning": "6–9 台深色方形或近方形模块，形成座台、左右配重与前景裁切",
+      "alignment": "bottom-full-width-staggered-grid",
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "leftTallDevice",
+      "bboxPercent": [0, 53, 32, 73],
+      "meaning": "左侧较高模块，抬高左下视觉重量并进入边缘裁切",
+      "alignment": "left-edge-touching",
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "rightTallDevice",
+      "bboxPercent": [66, 58, 95, 78],
+      "meaning": "右侧较高模块，与左侧形成非完全对称的围合",
+      "alignment": "right-middle",
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "foregroundDevices",
+      "bboxPercent": [0, 72, 100, 100],
+      "meaning": "被四边裁切的近景设备，压住人物脚部和画面底边，建立深度",
+      "alignment": "bottom-and-side-cropped",
+      "tolerancePercentagePoints": 5
+    },
+    {
+      "role": "diegeticScreenInfo",
+      "bboxPercent": [2, 56, 96, 96],
+      "meaning": "分散在不同屏幕中的参数、步骤或结果；是场景内证据，不是额外海报文案",
+      "alignment": "inside-selected-screens",
+      "tolerancePercentagePoints": 5
+    }
+  ],
+  "absentRoles": [
+    "logoBadge",
+    "sticker",
+    "arrow",
+    "priceTag",
+    "bottomCaptionBar",
+    "border",
+    "secondPerson",
+    "decorativeTextureOverlay"
+  ],
+  "firstFocus": "顶部接近全宽的红色双语主标题",
+  "secondaryFocus": "居中黑衣人物与由多台发光矩形设备构成的坐姿场景",
+  "tertiaryFocus": "右对齐副标题与各屏幕中的主题参数证据",
+  "dominantAxis": "中心竖轴串联中文主标题、人物头部和中央座台；主标题的横向伸展与设备阵列的底部横向铺陈形成上下呼应",
+  "readingPath": [
+    "mainTitleLatin + mainTitleChinese",
+    "subtitle",
+    "faceIdentityZone",
+    "personOverall + deviceArray",
+    "diegeticScreenInfo"
+  ],
+  "densityMap": {
+    "top0To31Percent": "高文字密度但形体细长；一条标题占满横向，背景保持纯净",
+    "transition31To38Percent": "低密度；仅保留右侧副标题，左中部浅底为空",
+    "middle38To55Percent": "中低密度；人物头肩居中，左右大面积浅底保护轮廓",
+    "bottom55To100Percent": "高实体密度；人物、设备、屏幕、线缆和裁切建立重量与层次"
+  },
+  "negativeSpace": [
+    "主标题两块之间约 7%W 的竖向分隔缝",
+    "副标题左侧约 50%W 的浅色空场",
+    "人物头肩两侧从约 38%H 到 55%H 的浅背景轮廓区",
+    "各设备屏幕内部除关键参数外保留高明度空白，禁止写满"
+  ],
+  "layerOrder": [
+    "continuous high-key neutral background",
+    "rear-row dark devices and illuminated screens",
+    "central support devices and seat contact shadows",
+    "seated person body, face and limbs",
+    "foreground devices, cables and foot/device overlaps",
+    "diegetic screen information inside device perspective",
+    "main title Latin and Chinese transparent lettering layers",
+    "subtitle transparent lettering layer"
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitleLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-condensed-cut-display",
+      "variant": "latin",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitleChinese",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-condensed-cut-display",
+      "variant": "cjk",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-036-editorial-song",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "colorRoles": {
+    "exactColorsLocked": false,
+    "visibleAreaBudgetPercent": {
+      "highKeyNeutralBackgroundAndScreens": 52,
+      "deepNeutralPersonAndDeviceHousing": 34,
+      "singleSaturatedAccentForTitlesAndSelectedScreenValues": 9,
+      "skinAndMidtoneDetails": 5
+    },
+    "tolerancePercentagePoints": 5,
+    "measurementStatus": "visual-estimate-not-pixel-segmentation",
+    "contrastLogic": "浅底与深色场景形成最大明度反差；高饱和标题在浅底上形成色相/饱和度入口；屏幕强调色复用标题色但总面积必须显著更小。",
+    "temperature": "背景与屏幕近中性偏冷，皮肤自然，深色设备保持中性；强调色可变但必须保持单一、纯度高且不铺满。"
+  },
+  "effects": {
+    "required": [
+      "extreme condensed bilingual display lettering with intact glyph skeletons",
+      "flat solid accent fill without outline or shadow",
+      "single-line right-aligned editorial Song subtitle",
+      "high-key seamless studio background",
+      "dark stacked rectangular device mass with luminous screen faces",
+      "realistic sitting, foot support, equipment contact shadows and occlusion",
+      "screen information transformed with each screen's perspective and slight CRT softness"
+    ],
+    "absent": [
+      "title outline",
+      "drop shadow",
+      "3d extrusion",
+      "neon glow around title",
+      "paper or film texture overlay",
+      "cutout halo",
+      "decorative sticker set",
+      "gradient poster background"
+    ]
+  },
+  "transformationGrammar": [
+    {
+      "when": "原素材已有单人坐在 6–9 个可承重矩形设备/模块之间，且上方有连续浅色空间",
+      "level": "T1",
+      "action": "重裁为 3:4，清理上部背景，压低无关线缆与品牌噪声，保留真实坐靠、脚踩、遮挡和接触阴影",
+      "reason": "原生的受力与空间关系是模板可信度核心"
+    },
+    {
+      "when": "人物坐姿成立，但设备数量、屏幕信息或上下层次不足",
+      "level": "T2",
+      "action": "补齐至 6–9 个模块，按后排、承托层、前景层组织；只在部分屏幕加入与主题有关的参数，并统一透视、反射、景深和光色",
+      "reason": "重复模块需要形成系统感，不是随意拼贴"
+    },
+    {
+      "when": "人物未坐在模块上、脚部无支撑、设备不可承重或原背景无法提供标题区",
+      "level": "T3",
+      "action": "优先补拍；否则在锁定人物身份和产品结构后受约束重建完整场景，逐项校验坐面受压、肢体接触、设备尺度、屏幕透视和投影",
+      "reason": "悬浮人物和纸片设备会直接破坏设计机制"
+    },
+    {
+      "when": "拉丁短标超过 6 字符、中文主命题超过 6 字或副标题超过 9 个中文等效字",
+      "level": "copy-edit",
+      "action": "先改写为原槽位长度；不得缩成细小字、增加第二行、侵占中间分隔缝或扩张标题区",
+      "reason": "顶部的超宽单行形状是固定身份"
+    }
+  ],
+  "semanticFit": {
+    "idealThemes": [
+      "摄影、视频、声音、显示、灯光等参数教学",
+      "工具设置、系统配置、软件方法或设备工作流",
+      "需要把多个设置项放入同一系统场景的知识封面"
+    ],
+    "requiredContentLogic": "一个可信人物掌控一组可重复模块；每个模块承载同一主题的不同参数或步骤，顶部标题对这套系统提出一个短命题和追问。",
+    "unsuitedThemes": [
+      "长清单、多人故事、情绪自拍、单一产品特写",
+      "无法合理出现 6–9 个模块或屏幕的行业",
+      "必须完整展示真实空间且不能搭建白底场景的案例",
+      "设备不可承重却要求人物坐踩其上的产品"
+    ]
+  },
+  "failureModes": [
+    "主标题退化为普通窄黑体或被机械水平压缩，汉字部件变形",
+    "拉丁短标和中文命题高度、颜色或基线关系失衡",
+    "副标题改为居中、多行或比主标题更粗更抢眼",
+    "人物变成站姿、半身证件照或漂浮抠图",
+    "设备少于 6 个、全部同尺寸同排，失去前中后景和堆叠节奏",
+    "设备与人物无坐靠、踩踏、遮挡和接触阴影",
+    "屏幕内容像平面贴纸，未服从透视、曲面、发光和边缘软化",
+    "每块屏幕都写满大字，形成多个副标题争抢焦点",
+    "增加贴纸、箭头、边框、底栏或促销信息填满白场",
+    "用固定红黑白色值冒充模板，忽略可变色彩合同",
+    "360 px 下标题字腔糊死、人物脸不可辨或模块阵列只剩黑块"
+  ],
+  "qaStatus": {
+    "referenceReviewed": true,
+    "replication": "not-run",
+    "crossIndustry": "not-run",
+    "thumbnailOfGeneratedOutput": "not-run",
+    "fontDependencies": "testing-not-approved",
+    "userApproval": false
+  }
+}

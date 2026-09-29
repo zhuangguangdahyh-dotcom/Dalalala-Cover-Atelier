@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 010｜研究态"
+  short_description: "双字飞白、背向人物与真实风景的 3:4 封面结构"
+  default_prompt: "先读取参考原图、anatomy.json、adaptation-rules.md、manifest.json 和 qa.md；仅进行受控研究与测试，不自动发布。"

@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-002",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "assets/reference-original.jpg",
+    "width": 1536,
+    "height": 2048,
+    "sha256": "af50f59f49bc036c1bf320deb9f65f1dea4a84f63317205a888aaa61690c1be4",
+    "method": "direct visual inspection",
+    "bounds": "estimated percent; not source-layer measurements",
+    "reviewJobId": "f5037251-f847-48d6-8697-dbf1978d62c0",
+    "measurementStatus": "目测比例与测试初值；未经源图层或像素分割测量"
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440
+  },
+  "contentRoles": [
+    {
+      "role": "masthead",
+      "bboxPercentXYXY": [
+        1,
+        1,
+        99,
+        19.5
+      ],
+      "visualPriority": 1,
+      "relationship": "刊头在头发前，单行近满宽"
+    },
+    {
+      "role": "topImprint",
+      "bboxPercentXYXY": [
+        59.5,
+        1.3,
+        71.5,
+        4
+      ],
+      "visualPriority": 3,
+      "relationship": "短小衬线标识"
+    },
+    {
+      "role": "sideEdition",
+      "bboxPercentXYXY": [
+        1,
+        1.5,
+        3.5,
+        8
+      ],
+      "visualPriority": 3,
+      "relationship": "左竖标"
+    },
+    {
+      "role": "issueLine",
+      "bboxPercentXYXY": [
+        1,
+        19.8,
+        19,
+        21
+      ],
+      "visualPriority": 3,
+      "relationship": "左对齐单行"
+    },
+    {
+      "role": "subject",
+      "bboxPercentXYXY": [
+        0,
+        5,
+        100,
+        100
+      ],
+      "visualPriority": 1,
+      "relationship": "单主体近景边缘裁切"
+    },
+    {
+      "role": "face",
+      "bboxPercentXYXY": [
+        30,
+        17,
+        71,
+        57
+      ],
+      "visualPriority": 1,
+      "relationship": "眼睛为识别锚点"
+    },
+    {
+      "role": "foregroundGesture",
+      "bboxPercentXYXY": [
+        39,
+        44,
+        69,
+        84
+      ],
+      "visualPriority": 2,
+      "relationship": "触唇/前景接触动作"
+    },
+    {
+      "role": "fullForegroundArm",
+      "bboxPercentXYXY": [
+        26,
+        44,
+        69,
+        100
+      ],
+      "visualPriority": 2,
+      "relationship": "手部局部框之外，前臂向左下延伸并出画"
+    },
+    {
+      "role": "background",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "visualPriority": 4,
+      "relationship": "浅无纹底，主体外顶部及两侧露出"
+    },
+    {
+      "role": "stylingAccents",
+      "bboxPercentXYXY": [
+        29,
+        8,
+        69,
+        19
+      ],
+      "visualPriority": 3,
+      "relationship": "发箍属于照片造型，非叠加装饰"
+    }
+  ],
+  "absentRoles": [
+    "subtitle",
+    "productGallery",
+    "stickers",
+    "footer"
+  ],
+  "primaryMechanism": "Overscale thin-serif masthead overlays full-bleed close portrait; gaze and foreground contact hold attention",
+  "dominantAxis": {
+    "xPercent": [
+      50,
+      52
+    ],
+    "horizontalAxisYPercent": 19
+  },
+  "readingPath": [
+    "masthead / eyes",
+    "eyes",
+    "mouth and fingertip",
+    "small editorial labels"
+  ],
+  "protectedZones": [
+    {
+      "bboxPercentXYXY": [
+        31,
+        24,
+        70,
+        56
+      ],
+      "rule": "no text"
+    },
+    {
+      "bboxPercentXYXY": [
+        0,
+        21,
+        100,
+        100
+      ],
+      "rule": "不添加文字，保留照片观看空间"
+    }
+  ],
+  "layerOrder": [
+    "background",
+    "portrait with natural internal occlusion",
+    "masthead",
+    "small labels"
+  ],
+  "layoutContract": {
+    "locked": [
+      "3:4 full bleed",
+      "one line masthead x1–99 y1–19.5",
+      "masthead overlays hair",
+      "single close-up subject",
+      "eyes around y30–32",
+      "no lower-half text",
+      "light field dark side masses",
+      "foreground contact gesture"
+    ],
+    "adaptive": [
+      "identity",
+      "short brand words",
+      "industry object mapped to same role",
+      "specific palette values"
+    ],
+    "optional": [
+      "small-label wording may be shortened without reclaiming space"
+    ],
+    "forbidden": [
+      "head in front of masthead",
+      "multiple subjects",
+      "second large title",
+      "heavy outline or shadow",
+      "unverified Chinese fallback",
+      "generic AI figures",
+      "stretching image",
+      "invented publication endorsement"
+    ]
+  },
+  "invariantContract": {
+    "subjectVisibleAreaPercent": [
+      70,
+      78
+    ],
+    "mastheadHeightPercent": [
+      17,
+      19
+    ],
+    "mastheadWidthPercent": [
+      96,
+      98
+    ],
+    "textBelowYPercent": 21,
+    "effects": [
+      "flat type over hair",
+      "natural close-up texture",
+      "foreground gesture occlusion"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "topImprint",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "sideEdition",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "issueLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    }
+  ],
+  "colorRoles": {
+    "background": 25,
+    "darkHair": 30,
+    "skin": 24,
+    "lightClothing": 17,
+    "type": 4,
+    "unit": "estimated visible area percent",
+    "exactColorsLocked": false,
+    "tolerancePercentagePoints": 3,
+    "typeAreaRangePercent": [
+      3,
+      5
+    ],
+    "contrastStatus": "原图白字在浅背景上局部对比弱，生产需测量，当前未宣称达标"
+  },
+  "transformationGrammar": [
+    {
+      "if": "background cluttered",
+      "then": "hair-aware matte and pale studio background",
+      "reason": "preserve outline and masthead field"
+    },
+    {
+      "if": "source too wide",
+      "then": "crop to close-up only if face detail remains adequate, otherwise new source",
+      "reason": "preserve spatial weight"
+    },
+    {
+      "if": "title too long",
+      "then": "rewrite short name; never add line",
+      "reason": "preserve masthead block"
+    },
+    {
+      "if": "new industry",
+      "then": "map primary identity and foreground contact to real subject; reject incompatible role mapping",
+      "reason": "maintain semantic coherence"
+    }
+  ],
+  "semanticFit": {
+    "preferred": [
+      "portrait feature",
+      "expert interview",
+      "beauty portrait"
+    ],
+    "conditionalUntested": [
+      "pet portrait",
+      "held upright product"
+    ],
+    "reject": [
+      "long tutorial",
+      "multi-product comparison",
+      "wide interior"
+    ]
+  },
+  "failureModes": [
+    "head in front of masthead",
+    "multiple subjects",
+    "second large title",
+    "heavy outline or shadow",
+    "unverified Chinese fallback",
+    "generic AI figures",
+    "stretching image",
+    "invented publication endorsement"
+  ],
+  "tests": [],
+  "userApproval": null,
+  "analysisReport": "../../../skills/dalala-cover-002/references/adaptation-rules.md",
+  "negativeSpace": {
+    "type": "光学留白与无文字区，不是外白边",
+    "textFreeYPercent": [
+      21,
+      100
+    ],
+    "background": "主体两侧低细节浅面",
+    "masthead": "大字字腔与细线间隙"
+  },
+  "lightingAndMaterial": {
+    "observed": [
+      "柔和前向光观感",
+      "自然皮肤",
+      "唇部与指甲小高光",
+      "真实发丝与织物"
+    ],
+    "notProven": [
+      "具体焦距",
+      "灯位与灯数",
+      "原图是否抠图"
+    ],
+    "forbidden": [
+      "全图旧纸",
+      "塑料磨皮",
+      "硬描边",
+      "字投影",
+      "3D字"
+    ]
+  },
+  "variableContract": {
+    "people": "更换身份造型但保持近景、眼线、主角重量及前景动作",
+    "text": "同一行数与文字块；长标题改写",
+    "products": "仅实验性单主角与自然握持映射，结构不可变形",
+    "palette": "具体色值可变，相对冷暖、明暗和面积关系保留"
+  },
+  "measurementPolicy": {
+    "bbox": "各框可重叠，不求和",
+    "visibleArea": "粗略预算，非分割结果",
+    "positionalCorrectionPercent": 1
+  }
+}

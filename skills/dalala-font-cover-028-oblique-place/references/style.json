@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-028-oblique-place",
+  "status": "testing",
+  "role": "照片中央地点／事件主标题",
+  "sourceReference": "../../dalala-cover-028/assets/reference-original.jpg",
+  "approvedReference": null,
+  "characterRules": {
+    "script": "Han",
+    "skeleton": "wide angular block display",
+    "weight": "heavy",
+    "spacing": "tight",
+    "slantDegrees": [
+      10,
+      15
+    ],
+    "effect": "white face, short down-right grey side 4–8 px at 756 px reference width",
+    "lineCount": 1
+  },
+  "renderer": "imagegen-transparent-title-layer"
+}

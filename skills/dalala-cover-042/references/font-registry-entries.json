@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dalala-cover-042-soft-display",
+    "displayName": "042 柔势错影厚字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-042/font-skills/display/SKILL.md",
+    "config": "../skills/dalala-cover-042/font-skills/display/references/style.json",
+    "humanRules": "../skills/dalala-cover-042/font-skills/display/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-042/font-skills/display/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-042/font-skills/display/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-042/font-skills/display/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-042/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-042-heart-hand",
+    "displayName": "042 心动速写手字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-042/font-skills/handnote/SKILL.md",
+    "config": "../skills/dalala-cover-042/font-skills/handnote/references/style.json",
+    "humanRules": "../skills/dalala-cover-042/font-skills/handnote/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-042/font-skills/handnote/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-042/font-skills/handnote/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-042/font-skills/handnote/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-042/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

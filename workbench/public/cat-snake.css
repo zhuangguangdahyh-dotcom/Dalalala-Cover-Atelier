@@ -1,0 +1,35 @@
+:root{--night:#514d72;--violet:#7770a3;--lilac:#b9addb;--mist:#efedf7;--paper:#fbfaff;--ink:#343247;--pink:#ef9bac;--line:#ddd8e9;--white:#fff}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#e9e6f1;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif}
+button{font:inherit;cursor:pointer;touch-action:manipulation}
+button:focus-visible,canvas:focus-visible{outline:3px solid #cfb9ff;outline-offset:3px}
+.game-page{min-height:100svh;display:grid;place-items:center;padding:18px;background:radial-gradient(circle at 50% 0,#f9f7ff 0,#efecf7 38%,#ddd8e9 100%)}
+.game-card{width:min(920px,100%);padding:20px 22px 24px;border:1px solid rgba(255,255,255,.85);border-radius:28px;background:rgba(251,250,255,.9);box-shadow:0 24px 70px rgba(62,55,91,.18);backdrop-filter:blur(16px)}
+.game-header,.scorebar{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.game-header{margin-bottom:16px}
+.game-brand{display:flex;align-items:center;gap:12px}.game-brand img{width:46px;height:46px;object-fit:cover;border-radius:15px;border:1px solid var(--line)}
+.game-brand span{display:block;margin-bottom:3px;color:#928aa6;font-size:11px;letter-spacing:2px}.game-brand h1{margin:0;font:600 22px/1.2 "Songti SC","Noto Serif SC",serif}
+.icon-button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--white);color:var(--violet);font-size:20px}.icon-button.muted{color:#aaa4b4;text-decoration:line-through}
+.scorebar{padding:11px 14px;margin-bottom:14px;border:1px solid var(--line);border-radius:16px;background:var(--white)}
+.scorebar>div{display:flex;align-items:baseline;gap:7px;min-width:0}.scorebar span,.scorebar small{color:#918b9c;font-size:12px}.scorebar strong{color:var(--night);font:600 22px/1 Georgia,serif}
+.pause-button{min-height:38px;padding:8px 15px;border:1px solid #d9d3e7;border-radius:19px;background:#f3f0fa;color:#6f6788;font-size:13px}
+.board-shell{position:relative;width:min(100%,720px);margin:auto;overflow:hidden;border:1px solid #d8d2e5;border-radius:22px;background:#d9d4e7;box-shadow:inset 0 0 0 7px rgba(255,255,255,.35),0 12px 32px rgba(71,64,99,.12)}
+canvas{display:block;width:100%;height:auto;aspect-ratio:1;touch-action:none}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;padding:20px;background:rgba(71,66,98,.28);backdrop-filter:blur(4px);opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s ease}
+.overlay.visible{opacity:1;visibility:visible}.overlay-card{position:relative;width:min(410px,92%);padding:34px 28px;text-align:center;border:1px solid rgba(255,255,255,.82);border-radius:24px;background:rgba(251,250,255,.94);box-shadow:0 20px 54px rgba(48,43,70,.25)}
+.overlay-card.compact{padding:28px}.overlay-card h2{margin:8px 0 10px;font:600 27px/1.35 "Songti SC","Noto Serif SC",serif}.overlay-card p{margin:0 0 23px;color:#7f798c;font-size:15px;line-height:1.75}.overlay-card small{display:block;margin-top:14px;color:#9993a2;font-size:12px}
+.cat-orbit{display:grid;place-items:center;width:54px;height:54px;margin:auto;border-radius:50%;background:#eeeafa;font-size:25px;animation:bob 1.6s ease-in-out infinite}.death-cat{display:block;width:66px;height:66px;margin:0 auto 8px;border:1px solid var(--line);border-radius:21px;object-fit:cover;object-position:center 43%}.sleeping{display:block;margin-bottom:22px;color:#706786;font:500 21px "Songti SC",serif}
+.primary,.secondary{min-height:46px;padding:11px 20px;border-radius:23px}.primary{border:1px solid var(--violet);background:var(--violet);color:#fff}.secondary{border:1px solid #d8d2e6;background:#fff;color:#716985}.end-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.hint{margin:13px 0 0;text-align:center;color:#8f8999;font-size:13px;line-height:1.7}
+.controls{display:none;margin-top:14px;text-align:center}.controls button{width:58px;height:48px;border:1px solid #d8d2e6;border-radius:15px;background:#fff;color:#675f7d;font-size:22px;box-shadow:0 4px 10px rgba(65,58,92,.08)}.controls>div{display:flex;justify-content:center;gap:8px;margin-top:7px}
+@keyframes bob{50%{transform:translateY(-5px) rotate(-4deg)}}
+@media(max-width:740px){.game-page{padding:0;background:var(--paper)}.game-card{min-height:100svh;padding:14px 12px 18px;border:0;border-radius:0;box-shadow:none}.game-header{margin-bottom:11px}.game-brand img{width:40px;height:40px;border-radius:12px}.game-brand h1{font-size:19px}.scorebar{gap:8px;padding:9px 10px}.scorebar>div{display:grid;gap:1px}.scorebar small{display:none}.scorebar strong{font-size:19px}.scorebar span{font-size:11px}.pause-button{padding:7px 11px;font-size:12px}.board-shell{border-radius:18px}.controls{display:block}.hint{font-size:12px}.overlay-card{padding:27px 20px}.overlay-card h2{font-size:24px}}
+@media(max-height:760px) and (max-width:740px){.game-brand span{display:none}.game-card{padding-top:9px}.game-header{margin-bottom:7px}.scorebar{margin-bottom:8px}.hint{display:none}.controls{margin-top:8px}.controls button{height:42px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+body.embedded{min-height:0;background:transparent}
+body.embedded .game-page{display:block;min-height:0;padding:0;background:transparent}
+body.embedded .game-card{width:100%;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none}
+body.embedded .game-header{display:none}
+body.embedded .scorebar{margin:0 auto 12px}
+body.embedded .board-shell{width:min(100%,720px)}
+body.embedded .hint{margin-bottom:0}

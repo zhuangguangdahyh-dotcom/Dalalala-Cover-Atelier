@@ -1,0 +1,190 @@
+{
+  "coverSkillId": "dalala-cover-033",
+  "displayName": "参考 033",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "../analysis.md",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "emphasis": 2,
+    "continuation": 6,
+    "terminalPunctuation": 1
+  },
+  "subjectTypes": [
+    "可形成持握与承托动作的单人及行业长轴物"
+  ],
+  "contentEmotions": [
+    "专注",
+    "新奇"
+  ],
+  "primaryFocus": "左上白色两字与超尺度道具形成并行钩子",
+  "spatialSkeleton": "文字横块与右侧竖列，大物约 35 度右下斜轴",
+  "readingPath": [
+    "强调段",
+    "右侧续句",
+    "道具与人物",
+    "前景本子"
+  ],
+  "imageTextRelationship": "抽象命题通过人物承托巨大复合物实体化",
+  "locked": [
+    "两字横块与六字单竖列及尾标点的主标题结构",
+    "单人下左、单复合长物从左上斜向右下、单前景小物",
+    "灯泡发光与超尺度杆体的复合隐喻",
+    "写实承重、局部遮罩和粗粝文字效果",
+    "角色区域按 boxPercent，边界容差约 2 个百分点"
+  ],
+  "adaptive": {
+    "person": "身份服装可变，承托动作与区域不变",
+    "text": "主题文字可变，2字横块＋6字竖列＋尾标点合同不变",
+    "product": "行业长轴对象可变，复合发光端与承重机制不变，不适合则拒选",
+    "color": "色值可变，暖底冷续句、最亮关键词、深前景关系不变"
+  },
+  "optional": [
+    "不新增元素；只可弱化背景细节"
+  ],
+  "forbidden": [
+    "添加副标题品牌卡片",
+    "套用普通字体或全局颗粒",
+    "删掉大物灯泡或改为散落小图标",
+    "长题加行破坏字块",
+    "身份或商品结构失真",
+    "未确认即测试或上架"
+  ],
+  "variableContract": {
+    "person": "身份服装可变，承托动作与区域不变",
+    "text": "主题文字可变，2字横块＋6字竖列＋尾标点合同不变",
+    "product": "行业长轴对象可变，复合发光端与承重机制不变，不适合则拒选",
+    "color": "色值可变，暖底冷续句、最亮关键词、深前景关系不变"
+  },
+  "invariantContract": {
+    "regions": [
+      {
+        "role": "mainTitle",
+        "boxPercent": [
+          7,
+          1,
+          65,
+          32
+        ],
+        "zRelationship": "前景文字"
+      },
+      {
+        "role": "titleContinuation",
+        "boxPercent": [
+          67,
+          2,
+          99,
+          83
+        ],
+        "zRelationship": "交叉处局部在道具后"
+      },
+      {
+        "role": "person",
+        "boxPercent": [
+          12,
+          36,
+          74,
+          100
+        ],
+        "zRelationship": "头发在后杆前，躯干在前杆后"
+      },
+      {
+        "role": "hybridProp",
+        "boxPercent": [
+          1,
+          31,
+          98,
+          87
+        ],
+        "zRelationship": "跨肩，握持手指在其前"
+      },
+      {
+        "role": "notebook",
+        "boxPercent": [
+          7,
+          74,
+          49,
+          90
+        ],
+        "zRelationship": "躯干前，持本手指后"
+      },
+      {
+        "role": "background",
+        "boxPercent": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "zRelationship": "最底层"
+      }
+    ],
+    "subjectVisibleAreaPercent": [
+      25,
+      31
+    ],
+    "propVisibleAreaPercent": [
+      12,
+      16
+    ],
+    "textVisibleAreaPercent": [
+      18,
+      23
+    ],
+    "propAngleDegrees": [
+      33,
+      37
+    ],
+    "effects": [
+      "灯泡发光与超尺度杆体的复合隐喻",
+      "写实承重、局部遮罩和粗粝文字效果"
+    ]
+  },
+  "assetTransformation": [
+    {
+      "trigger": "普通人像姿态不合",
+      "action": "重建承托及阅读动作",
+      "reason": "实现搬运语义与真实接触"
+    },
+    {
+      "trigger": "背景杂乱",
+      "action": "抠图换成低反光纹理墙面",
+      "reason": "保护字块与剪影"
+    },
+    {
+      "trigger": "行业对象替换",
+      "action": "保持长轴、发光端、棱面与手肩遮罩",
+      "reason": "保留超尺度实体机制"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-033-rough-hand",
+      "variant": "emphasis",
+      "required": true
+    },
+    {
+      "role": "titleContinuation",
+      "type": "font-style-id",
+      "id": "dalala-cover-033-rough-hand",
+      "variant": "continuation",
+      "required": true
+    }
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "analysisConfirmed": false,
+  "renderAllowed": false
+}

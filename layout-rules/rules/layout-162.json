@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-162",
+  "displayName": "162 · 模块化网格",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "162",
+    "catalogName": "模块化网格",
+    "category": "字体、网格与东亚文字",
+    "subcategory": "排版系统与网格系统",
+    "originalImagePath": "v2/images/03-editorial-advertising/162-栏目开启页.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/03-editorial-advertising/162-栏目开启页.png",
+    "originalImageSha256": "93a7c823dff384e88d05ebea5f542e5a1cc174efae6dd5084446a3ad9b0aeddb",
+    "localThumbnail": "../references/source-thumbnails/162.jpg",
+    "localThumbnailSha256": "0429a555abd71bc2f362908b9660962b16e4a0ecce806f1093ed64a197980e60",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "模块化网格",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "栏目开启页",
+      "category": "平面、出版与广告",
+      "subcategory": "出版功能页面",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "direct",
+    "tags": [
+      "字体、网格与东亚文字",
+      "排版系统与网格系统",
+      "模块化网格",
+      "网格"
+    ],
+    "assetTypes": [
+      "mixed",
+      "text"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "先锁定可见网格和模块跨度，再用跨格、留空或尺度差建立主次。",
+    "dominantAxis": "modular-grid",
+    "primaryFocus": "cell-hierarchy",
+    "readingPath": "ordered-cells",
+    "locked": [
+      "以“模块化网格”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 modular-grid 主轴、cell-hierarchy 焦点和 ordered-cells 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-162.json"
+  }
+}

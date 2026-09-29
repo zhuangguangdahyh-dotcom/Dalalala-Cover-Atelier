@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-005",
+  "displayName": "参考 005",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "d1908766-5d27-4bfe-9e10-f61b87551a50",
+  "analysisReport": "skills/dalala-cover-005/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "ratios": ["3:4"],
+  "titleLength": {
+    "hookLineChineseEquivalentCharacters": [9, 13],
+    "mainTitleChineseEquivalentCharacters": [2, 4],
+    "methodLineLatinCharactersIncludingSpaces": [8, 22]
+  },
+  "subjectTypes": ["single human demonstration portrait"],
+  "contentEmotions": ["可信", "好奇", "教程感", "可复现"],
+  "firstFocus": "对称双尖括号内的模块主标题",
+  "spatialStructure": [
+    "3:4 连续满版室内照片",
+    "上约 39% 三级居中文字栈",
+    "下约 61% 单人正面演示区",
+    "中心竖轴贯穿钩子、主标题、方法行和人脸",
+    "眼线水平对象横向切开中心轴",
+    "右侧举手触边，胸肩压住底部",
+    "人物后保留受控行业证据墙"
+  ],
+  "readingPath": [
+    "模块主标题",
+    "人脸与眼线持物",
+    "顶部钩子句",
+    "英文方法标签",
+    "背景行业证据"
+  ],
+  "imageTextRelationship": "文字在上方干净墙面形成承诺，人物、持物和证据墙在下方提供真实证明；两区属于同一连续照片且不互相遮字。",
+  "locked": [
+    "3:4 连续满版室内照片",
+    "上 39% 三级居中文字栈，下 61% 人物演示",
+    "钩子—双尖括号模块标题—窄体方法行",
+    "单人正面直视、头部居中、眼线水平持物",
+    "右手从右侧举起并触边",
+    "人物后方行业证据墙",
+    "人物不遮挡上部文字"
+  ],
+  "adaptive": [
+    "人物身份、服装和具体持物",
+    "行业相关环境证据",
+    "三层文字内容",
+    "具体色值"
+  ],
+  "optional": [
+    "方法行可在无真实方法名时隐藏但空间保留",
+    "环境证据可在 3–5 组调整"
+  ],
+  "forbidden": [
+    "证件照叠浮空产品",
+    "标题改成多行、左对齐或多列",
+    "取消双尖括号",
+    "人物遮挡上部文字",
+    "普通黑体替换测试态字体",
+    "纯色背景消除行业证据",
+    "新增贴纸、徽章、底栏或广告信息",
+    "未经用户确认标记 active"
+  ],
+  "variableContract": {
+    "person": "身份、外貌和服装可变；单人正面、头部位置、眼神和举持动作不变。",
+    "text": "内容可变；钩子单行、2–4 字主标题、方法标签层级和面积不变。",
+    "product": "对象可变；单件、水平、眼线位置、真实握持和尺度不变。",
+    "palette": "色值可变；中明度低饱和背景、高明文字、暗锚点和少量证据色的结构不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "hook shallow offset depth",
+      "modular light-fill dark-outline title",
+      "mirrored double-chevron brackets",
+      "condensed uppercase method line",
+      "continuous indoor photographic depth",
+      "eye-line held-object proof"
+    ]
+  },
+  "assetTransformations": [
+    {"when": "原照动作和背景齐全", "level": "T1", "action": "重裁、清理字区、控制背景证据", "reason": "保留真实握持和同一室内景深"},
+    {"when": "动作齐全但环境无证据", "level": "T2", "action": "补 3–5 组行业证据并统一光色透视", "reason": "让人物有资格讲主题"},
+    {"when": "没有眼线持物或握持失真", "level": "T3", "action": "补拍或受约束重建", "reason": "二维贴片不能建立可信动作"},
+    {"when": "文字超长", "level": "copy-edit", "action": "改写到既定长度；做不到则换模板", "reason": "不改变三级文字栈"}
+  ],
+  "fontDependencies": [
+    {"role": "hookLine", "type": "font-style-id", "id": "dalala-cover-005-hook-block", "required": true, "status": "testing"},
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-005-modular-outline", "required": true, "status": "testing"},
+    {"role": "methodLine", "type": "font-class", "id": "condensed-uppercase-sans", "required": true, "registrationRequired": false}
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

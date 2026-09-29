@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-living-paint",
+  "displayName": "Dalala 生命油漆字",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "powerful-human-vitality",
+    "defaultIntensity": "alive-max",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true,
+    "renderAsFixedFont": false
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.jpg",
+    "energyReference": "references/energy-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "xiaohongshu-cover-title",
+    "douyin-cover-title",
+    "bilibili-cover-title",
+    "short-emphasis-lettering"
+  ],
+  "avoidUse": [
+    "body-copy",
+    "long-paragraph",
+    "contract",
+    "small-ui-text"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen-per-occurrence-glyph",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "alive-max",
+    "fixedFontFallbackAllowed": false,
+    "maxGenerationAttemptsPerGlyph": 3,
+    "failurePolicy": "regenerate-failed-glyph-then-manual-review",
+    "sameCoverRegenerationPolicy": "reuse-approved-title-layer-unless-relettering-requested"
+  },
+  "requiredInputs": ["text", "canvasWidth", "canvasHeight", "coverId"],
+  "characterConstruction": {
+    "base": "filled-broad-flat-brush-handwriting",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "componentProportionVariation": [0.15, 0.35],
+    "strokeWidthRatioWithinStroke": [0.42, 0.78],
+    "normalAngleVariationDegrees": [3, 12],
+    "heroStrokeAngleMaxDegrees": 17,
+    "longStrokeExtension": [0.12, 0.38],
+    "shortStrokeReduction": [0.10, 0.30],
+    "postures": [
+      "forward-rush",
+      "backward-lean",
+      "low-sitting",
+      "springing-up",
+      "wide-stretch",
+      "vertical-compression",
+      "left-heavy-right-light",
+      "small-top-wide-bottom"
+    ],
+    "boldMoves": [
+      "one-long-overshoot",
+      "one-abrupt-short-stroke",
+      "off-centre-component",
+      "pressure-surge",
+      "fast-diagonal-deviation",
+      "local-double-paint",
+      "bristle-split-drag",
+      "uneven-component-scale"
+    ],
+    "quietMoves": [
+      "clean-short-rest",
+      "light-touch-stroke",
+      "compact-inner-space",
+      "steady-vertical-anchor",
+      "small-soft-ending"
+    ],
+    "gestureStarts": [
+      "dense-paint-deposit",
+      "light-touch",
+      "double-landing",
+      "hesitant-entry"
+    ],
+    "gestureEndings": [
+      "abrupt-cut",
+      "long-drag",
+      "split-bristle",
+      "tapered-disappear"
+    ],
+    "requiredPaintStatesPerGlyph": 3,
+    "paintStates": [
+      "wet-solid",
+      "normal-loaded",
+      "dry-split",
+      "missed-paint-gap"
+    ]
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 8],
+    "recommendedLines": [1, 3],
+    "heroGlyphsPerLine": [1, 2],
+    "allowLocalCollision": true,
+    "allowStrokeToEnterAdjacentSpacing": true,
+    "punctuationCanShrinkAndSink": true,
+    "requireEnergyContrast": true
+  },
+  "vitalityPresets": {
+    "relaxed": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-2, 2],
+      "glyphScale": [0.94, 1.08],
+      "trackingFactor": [0.86, 1.02],
+      "heroScale": [1.08, 1.16],
+      "paintGapDensity": [0.05, 0.14]
+    },
+    "lively": {
+      "baselineShiftPercent": [-5, 5],
+      "rotationDegrees": [-5, 5],
+      "glyphScale": [0.88, 1.16],
+      "trackingFactor": [0.72, 0.98],
+      "heroScale": [1.14, 1.24],
+      "paintGapDensity": [0.08, 0.21]
+    },
+    "alive-max": {
+      "baselineShiftPercent": [-7, 7],
+      "rotationDegrees": [-7, 7],
+      "glyphScale": [0.82, 1.24],
+      "trackingFactor": [0.60, 0.96],
+      "heroScale": [1.18, 1.34],
+      "paintGapDensity": [0.10, 0.28]
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "standardChineseSkeletonBeforeStylization": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false,
+    "wrongCharacterIsHardFailure": true
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "each-occurrence-independently-drawn",
+      "per-stroke-width-length-angle-variation",
+      "three-local-paint-states-per-glyph",
+      "selective-directional-paint-gaps",
+      "bold-and-quiet-move-per-glyph",
+      "phrase-energy-contrast",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 88,
+    "vitalityHardGates": [
+      "exact-standard-character-structure",
+      "repeated-characters-are-not-copies",
+      "stroke-variation-exists-inside-each-glyph",
+      "paint-gaps-follow-brush-direction",
+      "one-bold-and-one-quiet-move-per-glyph",
+      "title-remains-immediately-readable"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "fixed-font-primary-rendering",
+    "reused-glyph-outline",
+    "system-font-plus-distress-filter",
+    "uniform-stroke-width",
+    "uniform-character-proportions",
+    "uniform-baseline-and-angle",
+    "all-over-random-paint-holes",
+    "furry-outline",
+    "ear-bump-or-tumour-decoration",
+    "semantic-icon-inside-character",
+    "wrong-or-nonstandard-character-structure",
+    "extra-decorative-text"
+  ]
+}

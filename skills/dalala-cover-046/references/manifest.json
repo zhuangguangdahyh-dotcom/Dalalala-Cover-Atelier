@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-046",
+  "displayName": "参考封面 046",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedRatios": [
+    "3:4"
+  ],
+  "headlineLength": "两行；首行约 10–16 个拉丁字符加 2–4 个汉字或等宽短语；第二行约 5–8 个汉字并嵌入 2–4 位数字及量词",
+  "subjectTypes": [
+    "可辨认真人或拟人主角",
+    "与主角有接触的大型设备/工作台",
+    "两份不同且可见的成果物"
+  ],
+  "contentMood": [
+    "惊讶",
+    "高产出",
+    "现场感",
+    "真实操作"
+  ],
+  "firstVisualFocus": "第二行中段亮色数字框，再到右侧人物大头表情",
+  "spatialSkeleton": "上方约 30% 双行满宽标题；下方左侧横向生产装置、右侧夸张表情人物、底部两件透视结果物",
+  "readingPath": [
+    "第一行工具/方法名",
+    "第二行亮框数量与结果",
+    "右侧人物表情",
+    "手与印刷机的接触",
+    "两张产出画页"
+  ],
+  "imageTextRelationship": "白色标题压在暗车间背景，数字量词嵌进第二行亮框；人物上视回应数量，工具和画页解释数量来源",
+  "locked": [
+    "3:4 竖版",
+    "上部约 30% 双行巨字、首行两组词间粗长横线、下部约 70% 现场",
+    "第二行中段约 35%–39% 行宽的亮色数字框",
+    "右侧高情绪大头、左侧横向机器、底部双成果",
+    "人物手—工具—成果的因果接触",
+    "暗环境/亮主字/单一强调框明度结构"
+  ],
+  "adaptive": [
+    "人物身份与服装",
+    "行业工具与成果类型",
+    "标题内容与可核验数字",
+    "场景材质",
+    "具体色值"
+  ],
+  "optional": [
+    "后景行业证据物，可弱化或省略",
+    "少量纸屑或台面细节"
+  ],
+  "forbidden": [
+    "虚构数量承诺",
+    "数字框漂成角标",
+    "标题缩成普通小字或扩成第三行",
+    "人物与工具无接触",
+    "额外肢体或失真大头",
+    "两件成果重复同一内容",
+    "新增抢眼贴纸、副标题或第二亮框",
+    "固定照搬参考色值或原图内容"
+  ],
+  "variableContract": {
+    "people": "身份与表情内容可换；右侧大头、上视情绪、脸部完整和接触动作必须保留",
+    "text": "字词与数字可改；双行、亮框位于第二行中段及字块占比固定；过长先改写",
+    "products": "按行业替换左侧装置和底部两份成果；数量、位置、透视与因果关系不变",
+    "color": "按内容重选色值，保留暗底亮字、单一高亮框及中明度现场的面积与对比"
+  },
+  "invariantContract": {
+    "layout": "标题 y≈3%–31%；场景 y≈25%–100%；人物右侧、机器左侧、成果在底部两侧",
+    "area": "暗环境约 55%–65%；亮字/肤色/纸约 28%–38%；唯一强调框约 5%–8%",
+    "specialEffects": "头部呈明显的大头小身视觉夸张，优先以脸部约画布宽 33%、人物整体约画布宽 57% 控制，不凭单一头身宽比硬拉伸；发梢局部前压第二行白字下缘约 1%–2% 画布高；手与机器及纸张接触阴影；纸张卷边与透视；短深字影"
+  },
+  "assetTransformation": {
+    "defaultLevel": "T2",
+    "triggers": [
+      "原素材没有右人左工具关系时需抠图和换景",
+      "人物无上视表情需重拍或重绘表情",
+      "设备与纸缺少接触和产出路径时需重构场景",
+      "暗底不足以承托白字时需重构顶部背景"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-046-industrial-headline",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "numberEmphasis",
+      "type": "font-style-id",
+      "id": "dalala-cover-046-industrial-headline",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testCasesPassed": [],
+  "thumbnailCheck": {
+    "status": "pending",
+    "size": 360
+  },
+  "userAcceptance": {
+    "status": "pending"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "styleId": "dalala-cover-040-blade-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "script": "Han",
+  "role": "mainTitle",
+  "sourceReference": "../../assets/reference-original.jpg",
+  "skeleton": "high-contrast angular display Song with standard Chinese character recognition",
+  "fill": "single solid high-chroma color on true transparency",
+  "strokeContrast": "thick vertical or main mass against narrow blade-like horizontal and diagonal strokes",
+  "terminal": "one or two unusually extended arrow-like or wedge-like tips per glyph",
+  "composition": "independently drawn glyphs, upper two dominant, remaining glyphs scattered around center card",
+  "forbidden": ["ordinary Song font with rotation", "brush dry texture", "outlined characters", "uniform glyph scale", "illegible radical substitutions", "whole-sentence baseline typesetting"],
+  "approvedReference": null
+}

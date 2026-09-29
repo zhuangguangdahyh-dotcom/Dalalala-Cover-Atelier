@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-058-dense-cut-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "identityCore": "very-heavy-wide-flat-cut-heiti-with-tight-single-line-packing",
+  "roles": ["mainTitle", "cardTitle", "bottomResults"],
+  "construction": {
+    "skeleton": "square heavy Chinese heiti and wide heavy sans numerals",
+    "fill": "solid flat color; no gradient or glow",
+    "strokeToGlyphWidthRatio": [0.2, 0.31],
+    "widthToHeightRatioHan": [0.86, 1.12],
+    "counters": "compact rectangular openings, still distinct at thumbnail size",
+    "terminal": "square flat cuts with sparse short hard notches",
+    "baseline": "single straight visual baseline",
+    "rotationDegrees": [-1, 1],
+    "trackingToGlyphWidthRatio": [0, 0.025],
+    "wordShape": "dense broad horizontal slab with slight optical width variation"
+  },
+  "rolePresets": {
+    "mainTitle": {"lines": 1, "canvasWidthRatio": [0.86, 0.9], "canvasHeightRatio": [0.12, 0.14], "colorRole": "high-luminance-accent"},
+    "cardTitle": {"lines": 1, "cardWidthRatio": [0.75, 0.84], "colorRole": "high-luminance-accent", "perspectiveAfterGeneration": true},
+    "bottomResults": {"lines": 1, "canvasWidthRatioIncludingArrow": [0.85, 0.9], "canvasHeightRatio": [0.08, 0.1], "colorRole": "high-luminance-white"}
+  },
+  "textAccuracy": {"verbatim": true, "noAddedOrMissingGlyphs": true},
+  "forbidden": ["ordinary bold font fallback", "rounded bubble forms", "uniform stencil gaps", "brush texture over characters", "thick outline", "3d extrusion", "neon glow", "large bouncing baselines", "illegible collapsed counters"]
+}

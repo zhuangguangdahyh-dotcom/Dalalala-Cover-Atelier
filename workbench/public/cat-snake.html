@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#7770a3">
+  <title>猫咪版贪吃蛇 · Dalala</title>
+  <link rel="icon" type="image/png" href="/assets/brand/dalala-three-eye-cat-workbench-icon.png?v=1">
+  <link rel="stylesheet" href="/cat-snake.css?v=7">
+</head>
+<body>
+  <main class="game-page">
+    <section class="game-card" aria-labelledby="game-title">
+      <header class="game-header">
+        <div class="game-brand">
+          <img src="/assets/brand/dalala-three-eye-cat-workbench-icon.png?v=1" alt="Dalala 三眼猫图标">
+          <div><span>WAITING GAME</span><h1 id="game-title">初一找鸡胸肉</h1></div>
+        </div>
+        <button class="icon-button" id="sound" type="button" aria-label="关闭声音" aria-pressed="true">♪</button>
+      </header>
+
+      <div class="scorebar" aria-live="polite">
+        <div><span>吃到</span><strong id="score">0</strong><small>块鸡胸肉</small></div>
+        <div><span>最高</span><strong id="best">0</strong><small>本机纪录</small></div>
+        <div><span>速度</span><strong id="speed">1</strong><small>越来越馋</small></div>
+        <button class="pause-button" id="pause" type="button">暂停 Ⅱ</button>
+      </div>
+
+      <div class="board-shell">
+        <canvas id="board" width="720" height="720" tabindex="0" aria-label="猫咪版贪吃蛇游戏区域。使用方向键、WASD、滑动或屏幕按钮控制。"></canvas>
+        <div class="overlay visible" id="start-screen">
+          <div class="overlay-card">
+            <span class="cat-orbit">🐾</span>
+            <h2>初一闻到香味了</h2>
+            <p>带它吃鸡胸肉，别撞到墙和自己的尾巴。</p>
+            <button class="primary" id="start" type="button">开始觅食 →</button>
+            <small>方向键 / WASD / 滑动均可操作</small>
+          </div>
+        </div>
+        <div class="overlay" id="pause-screen">
+          <div class="overlay-card compact"><span class="sleeping">猫猫歇一下…</span><button class="primary" id="resume" type="button">继续觅食 →</button></div>
+        </div>
+        <div class="overlay" id="death-screen">
+          <div class="overlay-card">
+            <img class="death-cat" src="/cat-snake-character.jpeg?v=2" alt="初一">
+            <h2>撞到啦</h2>
+            <p id="result">这次吃到了 0 块鸡胸肉</p>
+            <div class="end-actions">
+              <button class="primary" id="restart" type="button">重新开始 ↻</button>
+              <button class="secondary" id="end" type="button">结束游戏</button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="ended-screen">
+          <div class="overlay-card">
+            <img class="death-cat" src="/cat-snake-character.jpeg?v=2" alt="初一">
+            <h2>这轮先玩到这里</h2>
+            <p id="ended-result">猫咪已经吃饱了。</p>
+            <button class="primary" id="play-again" type="button">再玩一轮 →</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="hint" id="hint">吃到鸡胸肉只会长肚肚，初一的尾巴始终保持固定长度。</p>
+      <div class="controls" aria-label="游戏方向控制">
+        <button data-direction="up" aria-label="向上">↑</button>
+        <div><button data-direction="left" aria-label="向左">←</button><button data-direction="down" aria-label="向下">↓</button><button data-direction="right" aria-label="向右">→</button></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/cat-snake.js?v=23"></script>
+</body>
+</html>

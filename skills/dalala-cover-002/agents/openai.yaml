@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 002"
+  short_description: "参考 002 拆解与复刻测试"
+  default_prompt: "读取参考 002 的原图与规则，核对拆解确认状态后执行测试。"

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-034-news-badge",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "canvasRatio": "3:4",
+  "badgeBoundsPercent": [3.8, 2.8, 16.8, 12.3],
+  "badgeAspect": "nearly square",
+  "cornerRadiusPercentOfBadgeWidth": [12, 15],
+  "textGrid": {"rows": 2, "columns": 2, "horizontalGapPercentOfGlyphWidth": [0, 5], "verticalGapPercentOfGlyphHeight": [2, 6], "glyphWidthFillPercent": [70, 76], "glyphHeightFillPercent": [72, 80]},
+  "glyphSkeleton": "square heavy sans Chinese, full counters, short firm terminals, upright centers",
+  "colorRoles": {"field": "deep blue", "row1": ["white", "white"], "row2": ["warm yellow", "white"]},
+  "effects": {"texture": "none", "gradient": false, "outline": false, "shadow": false, "glow": false},
+  "approvedReference": null,
+  "primaryRenderer": "vector-or-imagegen-transparent-badge-layer"
+}

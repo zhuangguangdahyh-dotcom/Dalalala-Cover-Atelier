@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-025",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "1800x2401 原图人工目测；bboxPercentXYXY 按画宽画高归一，左上为原点，误差约 ±2–3 个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "dalala-cover-ref-025.jpg",
+    "width": 1800,
+    "height": 2401,
+    "ratio": "3:4",
+    "sha256": "cb0444cc2b042ea5ccc2d94ea5b0f13f98a905024ebad13f42482d2c61907711",
+    "visibleText": {
+      "arcTitle": "可辨为“刷小红书…”相关问句，局部字形无法无歧义转录，生产须核对准确字稿",
+      "hatText": "不急",
+      "rightReaction": "啊。",
+      "searchLead": "Search",
+      "searchTopic": "广告人正当防卫手册",
+      "searchTail": "原图尾部小型涂鸦符号，不作为未经核对的正文"
+    }
+  },
+  "primaryMechanism": "冷暗蓝颗粒底上的暖红近脸越框；镜片内两枚蓝白夸张眼构成第一钩子，弧形细字从帽顶绕过，右侧巨大的啊和黄色点急停，底部搜索栏解释话题",
+  "primaryFocus": "双眼与暖色人脸，次为右侧大啊和弧形话题字",
+  "dominantAxis": "上弧 x7–73% 环绕帽顶；双眼水平轴连向右侧啊；人物与搜索栏形成纵向落点",
+  "readingPath": [
+    "弧形话题引子",
+    "帽面不急",
+    "镜内双眼与人脸",
+    "右侧啊和黄色点",
+    "底部搜索词"
+  ],
+  "elements": [
+    {
+      "role": "background",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 5,
+      "alignment": "连续深冷蓝细颗粒，顶部和右中留空"
+    },
+    {
+      "role": "portrait",
+      "bboxPercentXYXY": [
+        0,
+        23,
+        100,
+        100
+      ],
+      "layer": 1,
+      "visualRank": 1,
+      "alignment": "红帽暖脸白衣正面近景，帽檐出左边，双肩和衣服出侧边与底边"
+    },
+    {
+      "role": "cap",
+      "bboxPercentXYXY": [
+        0,
+        23,
+        69,
+        61
+      ],
+      "layer": 2,
+      "visualRank": 2,
+      "alignment": "大面积红帽，顶部呼应弧形字"
+    },
+    {
+      "role": "fabricLettering",
+      "text": "不急",
+      "bboxPercentXYXY": [
+        28,
+        24,
+        45,
+        39
+      ],
+      "layer": 3,
+      "visualRank": 4,
+      "alignment": "随帽子织物曲面贴附，不悬浮"
+    },
+    {
+      "role": "graphicEyes",
+      "bboxPercentXYXY": [
+        15,
+        49,
+        53,
+        61
+      ],
+      "layer": 4,
+      "visualRank": 1,
+      "alignment": "两个白底蓝瞳图形眼分别落在透明镜片内，镜框和高光局部在前"
+    },
+    {
+      "role": "arcTitle",
+      "bboxPercentXYXY": [
+        7,
+        13,
+        73,
+        46
+      ],
+      "layer": 5,
+      "visualRank": 3,
+      "alignment": "白色高反差细宋展示字沿帽顶外弧逐字转角，非机械圆环"
+    },
+    {
+      "role": "reactionGlyph",
+      "text": "啊",
+      "bboxPercentXYXY": [
+        70,
+        42,
+        90,
+        61
+      ],
+      "layer": 5,
+      "visualRank": 2,
+      "alignment": "右侧高窄单字，和弧字同字骨不同尺度"
+    },
+    {
+      "role": "reactionDot",
+      "bboxPercentXYXY": [
+        90,
+        56,
+        96,
+        61
+      ],
+      "layer": 5,
+      "visualRank": 3,
+      "alignment": "独立高彩实心圆，不依赖字体句号"
+    },
+    {
+      "role": "searchPill",
+      "bboxPercentXYXY": [
+        16,
+        91,
+        83,
+        97
+      ],
+      "layer": 6,
+      "visualRank": 4,
+      "alignment": "近白长胶囊，压在衣服下缘前面"
+    },
+    {
+      "role": "searchIconAndHint",
+      "text": "Search",
+      "bboxPercentXYXY": [
+        18,
+        92,
+        35,
+        96
+      ],
+      "layer": 7,
+      "visualRank": 6,
+      "alignment": "灰色放大镜与英文弱提示"
+    },
+    {
+      "role": "searchTopic",
+      "bboxPercentXYXY": [
+        35,
+        92,
+        80,
+        96
+      ],
+      "layer": 7,
+      "visualRank": 4,
+      "alignment": "书本图符加一行黑色粗无衬线中文及小尾部涂鸦"
+    }
+  ],
+  "spatialWeight": {
+    "portraitVisibleAreaPercent": [
+      55,
+      65
+    ],
+    "backgroundVisibleAreaPercent": [
+      30,
+      40
+    ],
+    "whiteTextAndPillVisibleAreaPercent": [
+      8,
+      13
+    ],
+    "highChromaAccentEachPercentMax": 2,
+    "topQuietZonePercentXYXY": [
+      0,
+      0,
+      100,
+      13
+    ],
+    "rightQuietZonePercentXYXY": [
+      69,
+      24,
+      100,
+      42
+    ],
+    "hatCorePercentXYXY": [
+      0,
+      23,
+      69,
+      61
+    ],
+    "searchPillPercentXYXY": [
+      16,
+      91,
+      83,
+      97
+    ]
+  },
+  "protectedAreas": [
+    "双眼和镜框交叠处",
+    "人物鼻口与脸型",
+    "帽顶与弧字之间蓝底间隙",
+    "上方 y0–13% 的蓝色空气",
+    "右侧大字周围蓝底通道",
+    "搜索框内图标与文字的单行可读性"
+  ],
+  "typography": {
+    "arcTitle": "高反差尖锋现代宋展示字骨，逐字随弧切线转角，约 10–14 字",
+    "arcGlyphHeightPercentOfCanvas": [
+      6,
+      10
+    ],
+    "arcInterGlyphGapToGlyphWidth": [
+      0,
+      0.12
+    ],
+    "reactionGlyph": "同字骨高窄单字，高约画高 17–20%，独立高彩圆点",
+    "hatLettering": "暖浅色快速笔写，随织物透视和纹理贴附",
+    "searchTopic": "黑色粗中性无衬线一行，Search 用灰色常规无衬线",
+    "fontDependencies": [
+      {
+        "role": "arcTitle/reactionGlyph",
+        "type": "font-style-id",
+        "id": "dalala-cover-025-arc-song",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "fabricLettering",
+        "type": "font-style-id",
+        "id": "dalala-cover-025-fabric-brush",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "searchTopic",
+        "type": "font-class",
+        "id": "heavy-neutral-sans",
+        "required": true
+      },
+      {
+        "role": "searchHint",
+        "type": "font-class",
+        "id": "neutral-ui-sans",
+        "required": true
+      }
+    ]
+  },
+  "colorRoles": {
+    "background": "大面积低明度冷色，原图深蓝只作角色证据",
+    "subject": "暖亮高明度人像，帽为高彩暖色，衣服暖浅色",
+    "primaryText": "高明近白，弧字和单字清楚",
+    "searchSurface": "近白胶囊",
+    "searchTopic": "仅限搜索栏的深墨色",
+    "accent": "独立高彩句点和两个镜内蓝瞳，均小面积",
+    "exactHexLocked": false
+  },
+  "layerOrder": [
+    "连续冷暗细颗粒背景",
+    "越框暖色人像与衣服",
+    "帽面贴附字与材质",
+    "镜片图形眼",
+    "镜框和局部高光",
+    "弧字与右侧大字及独立句点",
+    "底部搜索胶囊与内容"
+  ],
+  "assetTreatment": {
+    "cutout": "人物与背景分离但保留帽檐、耳朵、头发、衣服不规则边缘；不做厚贴纸描边",
+    "crop": "近脸与衣服越框，眼镜鼻口完整",
+    "perspective": "正面略俯头，保持真实头脸比例；帽字跟随帽面透视",
+    "occlusion": "图形眼在镜内，镜框在其前；帽字吃入布纹；底栏在衣服上",
+    "repetition": "两眼相似但独立绘制，不镜像复制人物",
+    "textureAndLight": "分层复古印刷颗粒、橙红暖光、图形化深阴影、白字干净实色"
+  },
+  "semanticFit": [
+    "可表达惊讶、顿悟、吐槽、反转的主题",
+    "正面近景且脸型眼位可保留的真人或可信角色",
+    "有眼镜或可合理承载双枚图形眼的眼区",
+    "有帽或等效承载表面短字的头部物件",
+    "底部能写成具体真实搜索词"
+  ],
+  "failureModes": [
+    "脸缩成普通半身照",
+    "眼睛漂浮在镜框外或机械镜像",
+    "帽字悬浮不贴布",
+    "弧形字改直线或机械圆环",
+    "右侧单字改多字长句",
+    "搜索栏升格为 CTA 或两行",
+    "统一噪声盖全画",
+    "厚白描边和强投影",
+    "未验证就 active"
+  ]
+}

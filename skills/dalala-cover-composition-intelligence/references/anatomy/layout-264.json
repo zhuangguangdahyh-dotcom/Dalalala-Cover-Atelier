@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-264",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/264.jpg",
+  "observedTitle": "Hero 主视觉布局",
+  "referenceContentMap": {
+    "primarySubject": "右中占据大半画面的蓝色闪电与黄色圆形主视觉",
+    "mainTitle": "左上超大蓝色中英文标题",
+    "subtitle": "左中一句主张与右下行动引导",
+    "supportingInformation": "三处引线说明、底部 H/M/A 解释与结论带",
+    "decorations": "引线、短横线、箭头和底部蓝色横带",
+    "protectedWhitespace": "主视觉轮廓外的浅色区、标题下方和行动入口周围"
+  },
+  "coverTranslation": {
+    "templateFamily": "monumental-symbol",
+    "subjectRole": "把关键主体或符号放大至越界",
+    "mainTitleRole": "标题与主视觉组成一个首屏句子",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "引线、短横线、箭头和底部蓝色横带"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "主视觉轮廓外的浅色区、标题下方和行动入口周围",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "先看主视觉，再读价值主张，最后到行动或结论。",
+    "assetOperations": [
+      "把关键主体或符号放大至越界",
+      "让文字和主体产生穿插、切入或指向",
+      "弱化所有非核心信息"
+    ]
+  }
+}

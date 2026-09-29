@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-004",
+  "displayName": "参考 004",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "8f7d9567-7a41-4904-9b62-5c514c5a627d",
+  "analysisReport": "skills/dalala-cover-004/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "min": 2,
+    "max": 2,
+    "unit": "Chinese characters"
+  },
+  "subjectTypes": [
+    "single human action portrait"
+  ],
+  "contentEmotions": [
+    "临场",
+    "好奇",
+    "挑战",
+    "主动接近"
+  ],
+  "firstFocus": "近镜头手与直视镜头的脸",
+  "spatialStructure": [
+    "3:4 满版照片",
+    "单一动作主体、偏左脸、右侧近镜动作、左下辅助接触",
+    "双字标题两个节点、左高右低、字后人前",
+    "低机位广角近大远小",
+    "下部桌面和近物失焦",
+    "无副标题标签装饰",
+    "右字与近手触边"
+  ],
+  "readingPath": [
+    "手/双眼",
+    "左上字",
+    "右侧字",
+    "下部近物"
+  ],
+  "imageTextRelationship": "巨字位于人物后，头发和肩手遮挡，左右错位",
+  "locked": [
+    "3:4 满版照片",
+    "单一动作主体、偏左脸、右侧近镜动作、左下辅助接触",
+    "双字标题两个节点、左高右低、字后人前",
+    "低机位广角近大远小",
+    "下部桌面和近物失焦",
+    "无副标题标签装饰",
+    "右字与近手触边"
+  ],
+  "adaptive": [
+    "身份和服装",
+    "主题准确的双字",
+    "符合深度的实际动作道具",
+    "具体配色"
+  ],
+  "optional": [
+    "非焦点室内细节可以清除，不能增加信息槽"
+  ],
+  "forbidden": [
+    "平视人像贴巨手",
+    "标题增字增行",
+    "标题覆盖眼睛",
+    "将字替换为普通黑体或油漆飞白",
+    "文字描边投影",
+    "填满底部低密度区",
+    "通用 AI 小人",
+    "未经用户确认标记 active"
+  ],
+  "variableContract": {
+    "person": "身份服装可变，动作方向和体量不变",
+    "text": "两个正确汉字替换，框和错位不变",
+    "product": "近物可换，景深和层级不变",
+    "palette": "色值可换，明暗冷暖角色和面积关系不变"
+  },
+  "invariantContract": {
+    "roles": [
+      {
+        "role": "titleLeft",
+        "bboxPercent": [
+          2,
+          4,
+          38,
+          26
+        ],
+        "meaning": "冒，左高字，头发在前",
+        "tolerancePercentagePoints": 2
+      },
+      {
+        "role": "titleRight",
+        "bboxPercent": [
+          60,
+          14,
+          100,
+          37
+        ],
+        "meaning": "险，右低字，外笔画触边",
+        "tolerancePercentagePoints": 2
+      },
+      {
+        "role": "head",
+        "bboxPercent": [
+          13,
+          8,
+          52,
+          46
+        ],
+        "meaning": "身份暗重心",
+        "tolerancePercentagePoints": 3
+      },
+      {
+        "role": "face",
+        "bboxPercent": [
+          22,
+          23,
+          50,
+          47
+        ],
+        "meaning": "眼神识别区",
+        "tolerancePercentagePoints": 3
+      },
+      {
+        "role": "torso",
+        "bboxPercent": [
+          11,
+          27,
+          72,
+          63
+        ],
+        "meaning": "俯身连接动作",
+        "tolerancePercentagePoints": 3
+      },
+      {
+        "role": "reachingHand",
+        "bboxPercent": [
+          28,
+          27,
+          100,
+          66
+        ],
+        "meaning": "近镜头动作焦点",
+        "tolerancePercentagePoints": 3
+      },
+      {
+        "role": "supportHand",
+        "bboxPercent": [
+          0,
+          59,
+          33,
+          73
+        ],
+        "meaning": "桌面支撑",
+        "tolerancePercentagePoints": 3
+      },
+      {
+        "role": "foregroundObject",
+        "bboxPercent": [
+          29,
+          61,
+          53,
+          100
+        ],
+        "meaning": "失焦事件线索",
+        "tolerancePercentagePoints": 3
+      }
+    ],
+    "effects": [
+      "low-angle wide perspective",
+      "near-hand enlargement",
+      "subject-over-title masking",
+      "right glyph edge crop",
+      "foreground defocus"
+    ],
+    "absentRoles": [
+      "subtitle",
+      "auxiliaryCopy",
+      "brand",
+      "stickers",
+      "border"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "原照已具低机位近手关系",
+      "level": "T1",
+      "action": "保留完整照片，以精细蒙版让头发肩手覆盖两字",
+      "reason": "建立人前字后且不损失身体连续性"
+    },
+    {
+      "when": "原照平视、没有前伸动作",
+      "level": "T3",
+      "action": "补拍或受身份约束重建动作，重新审查肢体与透视",
+      "reason": "二维移动无法生成真实距离"
+    },
+    {
+      "when": "字区背景太亮或碎",
+      "level": "T1",
+      "action": "局部曝光压暗/弱化杂物，保持室内空间",
+      "reason": "保障文字对比而不增加描边"
+    },
+    {
+      "when": "标题超过两个汉字",
+      "level": "copy-edit",
+      "action": "准确改写为双字主题，做不到则拒用此模板",
+      "reason": "保护双节点版式"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-004-smooth-hand",
+      "required": true
+    }
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

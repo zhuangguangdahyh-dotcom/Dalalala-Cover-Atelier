@@ -1,0 +1,12 @@
+{
+  "id": "dalala-cover-037-hairline-han",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-037/assets/reference-original.jpg",
+  "skeleton": "modern geometric Chinese sans, ultra-light near-monoline solid strokes",
+  "strokeToGlyphHeight": [0.01,0.025],
+  "trackingEm": [0,0.04],
+  "terminal": "flat, restrained optical correction",
+  "fill": "solid high-lightness neutral, not outline-only",
+  "layout": "two separately generated single-line phrases; lead 3–5 glyphs smaller at upper right, payoff 3–5 glyphs huge and nearly full width",
+  "forbidden": ["Song serif", "brush", "chalk", "hollow outline", "heavy shadow", "thick stroke", "compressed or stretched base font", "uniform rectangle around glyphs"]
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 3,
+  "coverSkillId": "dalala-cover-034",
+  "displayName": "参考 034",
+  "version": "0.4.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "41ed2cf7-708a-4793-88a7-983c315e1eb0",
+  "previousJobId": "c0c1050a-a526-4944-b1c5-2b9771a5287b",
+  "analysisReport": "skills/dalala-cover-034/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "line1": "5-7汉字，参考6字",
+    "line2": "4-6汉字，参考5字",
+    "lineCount": 2,
+    "overflow": "改写而不增加第三行或缩小字区"
+  },
+  "subjectTypes": [
+    "单个正面或近正面行动人物及职业物件",
+    "可在同样位置和景别呈现的单个行动主体"
+  ],
+  "contentEmotions": [
+    "纪实",
+    "具体人物与意外结果之间的张力"
+  ],
+  "firstFocus": "上部两行巨大实心干刷白字",
+  "spatialStructure": [
+    "3:4满幅连续现场",
+    "上部双行标题及行间细手注",
+    "中偏右单行动主体连到下边",
+    "左下低密度环境留白",
+    "左上约1.3%面积来源方标"
+  ],
+  "readingPath": [
+    "双行白字",
+    "行间短手注",
+    "人物和身份物件",
+    "下方实体与环境",
+    "来源方标"
+  ],
+  "imageTextRelationship": "白色透明标题盖连续现场；青绿细线位于白字前，在行间少量穿插；方标整体最前；人物脸不被盖",
+  "locked": [
+    "3:4满幅连续影像",
+    "上部约y=7%-40%双行粗白干刷标题",
+    "行间约x=28%-75%、y=19%-27%细线短手注",
+    "中偏右x=41%-84%、y=33%-100%单行动主体",
+    "左下约x=0%-42%、y=65%-100%低密度留白",
+    "左上x=3.8%-16.8%、y=2.8%-12.3%近方形2x2来源标",
+    "照片→白字→细线手注→方标的图层顺序",
+    "白字不遮眼鼻口与职业证据"
+  ],
+  "adaptive": [
+    "人物与行业、动作和真实道具",
+    "标题的具体汉字及真实署名",
+    "场景、天气与身份物件",
+    "具体色值与主题强调色",
+    "按事实修整局部明度和扩景"
+  ],
+  "optional": [
+    "现场自然水迹或雨雾，只有当前主题支持时采用",
+    "不会影响读序的极少量背景微细节"
+  ],
+  "forbidden": [
+    "只保留角标而改动版式骨架",
+    "冒用央视新闻或原人物奖项",
+    "把手注放在白字后导致断字",
+    "把人物抠到标题前切断笔画",
+    "白字压住眼鼻口",
+    "大标题变普通黑体或三行",
+    "底部加入CTA占掉留白",
+    "人、道具与场景没有真实动作关系"
+  ],
+  "variableContract": {
+    "person": "身份、外貌、服装、动作可变，须进入中偏右近正面行动区并有事实道具",
+    "text": "标题、署名与来源内容可变，保留两行大字、行间细线和小方标的形状面积与叠层",
+    "product": "可用行业工具/载具替换，须在中下部与人有真实接触及透视",
+    "palette": "具体色值可变，上部低细节、亮字对比、深实体及小面积双强调关系不变"
+  },
+  "invariantContract": {
+    "layout": "上部两行大字+行间手注，中偏右人/物到下沿，左下透气，左上小标",
+    "area": "标题y约7%-40%，主体x约41%-84%且y约33%-100%，方标约画布1.2%-1.4%",
+    "effects": [
+      "实心干刷字局部飞白及外甩拖锋",
+      "细线手注在白字前少量穿插",
+      "连续纪实现场的真实透视",
+      "清洁平涂来源标"
+    ],
+    "layerOrder": [
+      "连续照片与主体",
+      "局部对比修整",
+      "透明白色干刷标题",
+      "透明细线手注",
+      "方标蓝底",
+      "方标白黄字"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "level": "T0",
+      "when": "已有合适近正面现场",
+      "action": "裁切调色并留上方字区与左下留白"
+    },
+    {
+      "level": "T1",
+      "when": "顶部细节过多或背景不足",
+      "action": "受控扩上方、清杂物、局部调整明度"
+    },
+    {
+      "level": "T2",
+      "when": "主体与道具关系不成立",
+      "action": "补拍或受约束重构现场，不伪造事实"
+    },
+    {
+      "level": "T3",
+      "when": "无可用现场",
+      "action": "按当前主题重新制作连续纪实场景并复核身份锚点"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-034-dry-brush",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "latinNote",
+      "type": "font-style-id",
+      "id": "dalala-cover-034-fine-note",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "badge",
+      "type": "font-style-id",
+      "id": "dalala-cover-034-news-badge",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "fontRegistryEntries": "font-registry-entries.json",
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "failureModes": [
+    "只保留角标而自由重排整幅",
+    "误读第二行文字",
+    "白字被人像遮断",
+    "手注在白字后被切断",
+    "脸被白字遮挡",
+    "普通黑体代替干刷字",
+    "主体无真实动作接触",
+    "冒用原媒体标识",
+    "左下留白被CTA填满"
+  ],
+  "layerOrder": [
+    {
+      "z": 0,
+      "role": "continuousSceneAndSubject",
+      "rule": "人车与道路先合为连续现场"
+    },
+    {
+      "z": 10,
+      "role": "localContrast",
+      "rule": "仅局部明度修整，不加可见底条"
+    },
+    {
+      "z": 20,
+      "role": "whiteBrushTitle",
+      "rule": "透明字层；飞白透出照片；不得遮眼鼻口"
+    },
+    {
+      "z": 30,
+      "role": "fineLatinNote",
+      "rule": "透明细线在白字前，行间穿过；少量交叠处笔画连续"
+    },
+    {
+      "z": 40,
+      "role": "sourceBadge",
+      "rule": "整体最前；内部蓝底后、白黄字前"
+    }
+  ],
+  "textOcclusionContract": {
+    "titleVsFace": "可擦头盔外缘，不遮眼鼻口",
+    "noteVsTitle": "仅在行间和少量交点细线盖白字，不能做不透明色条",
+    "badgeVsAll": "预留安全区，其他信息不能被角标盖掉；蓝底托白黄字"
+  }
+}

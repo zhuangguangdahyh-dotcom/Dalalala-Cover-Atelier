@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-181",
+  "displayName": "181 · 大标题版式",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "181",
+    "catalogName": "大标题版式",
+    "category": "平面、出版与广告",
+    "subcategory": "表现型版式与出版功能页",
+    "originalImagePath": "v2/images/04-type-grid-cjk/181-非对称字体排版.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/04-type-grid-cjk/181-非对称字体排版.png",
+    "originalImageSha256": "dfc731dee551623d965f5a3a7c1abe0d0d4f7ed3870743d8997d6f810341c49f",
+    "localThumbnail": "../references/source-thumbnails/181.jpg",
+    "localThumbnailSha256": "de46062bf0eeb2f068e4f0b099a10531804e33fbb5ebe126daebe41d85dfb8db",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "大标题版式",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "非对称字体排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "对齐、缩进与文字造型",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "direct",
+    "tags": [
+      "平面、出版与广告",
+      "表现型版式与出版功能页",
+      "大标题版式",
+      "文字"
+    ],
+    "assetTypes": [
+      "mixed",
+      "text"
+    ],
+    "titleLengths": [
+      "short"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "让标题成为最大视觉主体，图片只承担语境或纹理，不能与标题争夺第一眼。",
+    "dominantAxis": "type-dominant",
+    "primaryFocus": "headline",
+    "readingPath": "headline-first",
+    "locked": [
+      "以“大标题版式”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 type-dominant 主轴、headline 焦点和 headline-first 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-181.json"
+  }
+}

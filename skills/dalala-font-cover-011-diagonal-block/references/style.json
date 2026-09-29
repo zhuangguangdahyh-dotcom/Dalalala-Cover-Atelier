@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-011-diagonal-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-011/assets/reference-original.jpg",
+  "requiredInputs": ["text", "role", "canvasWidth", "canvasHeight", "textBox", "colorRoles"],
+  "roles": {
+    "upperTitle": {"script": "short uppercase Latin", "length": "2-4 letters", "weight": "ultra-black solid", "trackingEm": [-0.06, -0.01], "blockDirectionDegrees": [20, 30], "shape": "staggered rising capitals; broad squared terminals; deliberately open counters"},
+    "lowerTitle": {"script": "short Latin and optional Han mix", "length": "3-5 visual units", "weight": "ultra-black solid", "trackingEm": [-0.05, 0.01], "blockDirectionDegrees": [20, 30], "shape": "same hard display skeleton; smaller rising block with optical spacing around mixed scripts"}
+  },
+  "rendering": {"output": "transparent text layer only", "oneSolidAccentRole": true, "stroke": "none", "shadow": "none", "texture": "none", "ordinaryFontFallbackAllowed": false},
+  "textAccuracy": {"mustMatchVerbatim": true, "allowSubstitution": false},
+  "productionApproved": false
+}

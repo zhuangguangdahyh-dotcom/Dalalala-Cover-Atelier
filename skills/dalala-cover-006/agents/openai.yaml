@@ -1,0 +1,7 @@
+interface:
+  display_name: "参考 006（拆解测试态）"
+  short_description: "大留白细线标题与右下开放物件柜结构"
+policy:
+  allow_automatic_invocation: false
+  status: studied
+

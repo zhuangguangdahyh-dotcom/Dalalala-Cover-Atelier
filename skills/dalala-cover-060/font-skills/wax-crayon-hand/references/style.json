@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-060-wax-crayon-hand",
+  "status": "testing",
+  "kind": "generative-lettering-style",
+  "scripts": ["Han"],
+  "defaultVariant": "thick-dry-crayon",
+  "strokeWidthToGlyphHeight": [0.06, 0.10],
+  "structure": "recognizable standard Chinese character skeleton with childlike imperfect hand pressure",
+  "edges": "blunt, broken wax deposition; irregular paper skip inside strokes",
+  "layout": "two loose staggered tiers, variable spacing and slight independent rotation",
+  "fill": "near-black matte wax; no uniform distress mask",
+  "forbidden": ["ordinary blackface with grain", "thin pencil", "wet brush ink", "smooth marker", "outlined hollow letters", "global shadow", "3D extrusion", "illegible invented radicals"],
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null
+}

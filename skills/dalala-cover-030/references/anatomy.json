@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-030",
+  "status": "studied-awaiting-user-confirmation",
+  "measurementBasis": "1011x1348 原图目测；bboxPercentXYXY 左上为原点，以画宽画高归一；容差约正负3个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "registryPath": "参考封面图/dalala-cover-ref-030.jpg",
+    "width": 1011,
+    "height": 1348,
+    "ratio": "3:4",
+    "sha256": "5db3fedcdf32beafa4f8dc91bee1b7f5d6b629055ba5964c37a5d49400957c63",
+    "visibleTextRoles": {
+      "mainTitle": "中央单行极窄重黑英文单词",
+      "identity": "左上 FEATURING / DJ PHANTOM 类两级署名",
+      "auxiliary": "主标题上方细横线与小型英文字带",
+      "footnote": "底边中央一行极小英文",
+      "independentSubtitle": false,
+      "environmentalType": "沿顶面侧墙地面透视的巨型浅灰英文字母"
+    }
+  },
+  "primaryMechanism": "极窄重黑英文横墙压上半幅，低机位坐姿人物和冲向镜头的巨鞋占下半幅；浅灰巨字构成向心三维空间，左右近景鞋局部从边缘挤入",
+  "firstFocus": "x17-84 y29-47 的单行黑标题",
+  "secondFocus": "x13-57 y68-97 的近镜头白鞋和中央人脸",
+  "dominantAxis": "x约50%的标题-人脸-前景鞋纵轴；四周灰字和两侧鞋向x约50% y约69%汇聚",
+  "readingPath": ["中央大黑标题", "坐姿人物的脸和仰视方向", "画面下方巨大前景鞋", "左右运动近景及灰字空间", "顶部身份信息和底部脚注"],
+  "composition": {
+    "ratio": "3:4",
+    "titleZoneXYXY": [17, 29, 84, 47],
+    "characterZoneXYXY": [26, 45, 86, 86],
+    "frontObjectZoneXYXY": [13, 68, 57, 97],
+    "backgroundVanishingPointXYPercent": [50, 69],
+    "topBottomWeight": [45, 55],
+    "frontObjectToFaceWidthRatio": [2.5, 3.5],
+    "sideEchoOpacityOrContrast": "低于中央人物和主鞋；允许轻运动模糊",
+    "negativeSpace": ["人脸两侧各约5-9%画宽的浅灰间隙", "主标题与细横向字带之间约1-3%画高", "中央背景保持近白低密度，不增加大段说明"]
+  },
+  "elements": [
+    {"role": "lightSpatialBase", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "visualRank": 6, "relation": "中央近白，四边灰字更重"},
+    {"role": "perspectiveTypeEnvironment", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 1, "visualRank": 3, "relation": "巨型浅灰字分布顶面、侧墙、地面并向中央下方收束；非可读正文"},
+    {"role": "leftMotionEcho", "bboxPercentXYXY": [0, 35, 22, 61], "layer": 2, "visualRank": 5, "relation": "同主题鞋/身体局部由左外侧插入，边缘裁切与轻模糊"},
+    {"role": "rightMotionEcho", "bboxPercentXYXY": [78, 40, 100, 64], "layer": 2, "visualRank": 5, "relation": "同主题局部由右外侧插入，向中心压迫"},
+    {"role": "upperRightCrop", "bboxPercentXYXY": [87, 0, 100, 23], "layer": 2, "visualRank": 6, "relation": "暗灰近景局部，从右上越框；可随素材保持低权重"},
+    {"role": "seatedCharacter", "bboxPercentXYXY": [26, 45, 86, 86], "layer": 3, "visualRank": 2, "relation": "真实低机位坐姿，头在中轴附近，腿向两侧展开"},
+    {"role": "frontHeroShoe", "bboxPercentXYXY": [13, 68, 57, 97], "layer": 4, "visualRank": 2, "relation": "与身体相连的白鞋向镜头冲出，近大远小，鞋底和接地暗部可辨"},
+    {"role": "topCornerMicrocopy", "bboxPercentXYXY": [2, 6, 23, 8], "layer": 5, "visualRank": 7, "relation": "左上极小栏目信息"},
+    {"role": "identityKicker", "bboxPercentXYXY": [17, 12, 49, 19], "layer": 5, "visualRank": 4, "relation": "两行内左对齐，上细下粗，人物/栏目署名"},
+    {"role": "horizontalInfoRail", "bboxPercentXYXY": [18, 25, 82, 28], "layer": 5, "visualRank": 5, "relation": "两端细线和小字夹住中央身份字组"},
+    {"role": "mainTitle", "bboxPercentXYXY": [17, 29, 84, 47], "layer": 6, "visualRank": 1, "relation": "单行居中黑色窄高英文；底边在人物头顶附近，不能压脸"},
+    {"role": "bottomFootnote", "bboxPercentXYXY": [35, 96, 69, 99], "layer": 6, "visualRank": 7, "relation": "底边中间极小英文说明"}
+  ],
+  "typography": {
+    "mainTitle": "全大写、极窄、极粗、直立、平切，单行；整体宽约67%画宽、高约18%画高；字距约单字宽0-2%；黑实心内轻微灰影像纹理",
+    "identity": "窄重黑无衬线署名，高约主标题字高25-30%，上方小字更细更疏",
+    "infoRail": "小型窄无衬线、松字距、水平细线辅助",
+    "environmental": "同系粗窄字骨经顶墙地透视，浅灰印刷网点/条纹，不与主标题争读",
+    "lineCount": {"mainTitle": 1, "identity": 2, "footnote": 1}
+  },
+  "colorRoles": {
+    "brightBackgroundAreaPercent": [62, 72],
+    "mediumGraySpatialTypeAndTextureAreaPercent": [15, 22],
+    "darkTitleAndClothingAreaPercent": [13, 20],
+    "accentMaximumAreaPercent": 8,
+    "lightnessLogic": "亮背景、暗实心主标题、低对比灰色空间、主体与底色可分离；具体色值不锁定"
+  },
+  "materialAndEffects": ["背景印刷网点与细条纹", "主标题内极轻灰影像/磨损", "鞋面与人物真实照片纹理", "两侧轻微径向运动模糊", "广角近景放大", "鞋底及人物接地阴影"],
+  "fontDependencies": [{"role": "mainTitle/identityKicker/perspectiveTypeEnvironment", "type": "font-style-id", "id": "dalala-cover-030-condensed-display", "required": true, "status": "testing"}],
+  "failureModes": ["主标题变宽黑体或两行", "灰字空间退化为平面纹样", "前景产品过小或与身体连接错误", "左右回声变多余手脚或无关人物", "标题盖住人脸", "亮鞋与亮底缺少暗边和接地影", "彩色装饰及副标题抢主焦点"]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cat-handwriting-v2",
+  "familyId": "dalala-cat-handwriting",
+  "variantId": "v2",
+  "displayName": "Dalala 猫咪手写体 V2｜玩具零食款",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "living-handwriting-with-integrated-cat-elements",
+    "defaultIntensity": "lively",
+    "allowAutomaticDowngrade": false
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "approval": {
+    "scope": "visual-style",
+    "source": "output/font-concepts/dalala-cat-handwriting-14/03-toys-treats.png",
+    "sha256": "612c12759aad3084356f5655ec203de8617887fe62df5b6105f6bd73d6ee58d6",
+    "productionGlyphReviewRequired": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review"
+  },
+  "characterConstruction": {
+    "base": "lively-cat-handwriting",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "postures": [
+      "stretch",
+      "curl",
+      "lean",
+      "compact",
+      "lift"
+    ],
+    "boldMoves": [
+      "tail-terminal",
+      "cat-motif-integration",
+      "elastic-stroke"
+    ],
+    "quietMoves": [
+      "open-counter",
+      "short-rest"
+    ],
+    "gestureStarts": [
+      "soft-press",
+      "angled-entry"
+    ],
+    "gestureEndings": [
+      "tail-curl",
+      "short-lift"
+    ],
+    "paintStates": [
+      "solid-ink",
+      "local-pressure"
+    ],
+    "requiredPaintStatesPerGlyph": 2
+  },
+  "motifs": "逗猫棒、羽毛、毛线球、小鱼零食，辅以猫耳、尾巴、爪子；玩具沿笔画路径与字互动。",
+  "vitalityPresets": {
+    "lively": {
+      "baselineShiftPercent": [
+        -5,
+        5
+      ],
+      "rotationDegrees": [
+        -6,
+        6
+      ],
+      "glyphScale": [
+        0.85,
+        1.18
+      ],
+      "trackingFactor": [
+        0.8,
+        1.1
+      ]
+    }
+  },
+  "qa": {
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "living-handwriting",
+      "selected-variant-match",
+      "true-alpha"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-026",
+  "displayName": "参考 026",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "063a177c-0bea-4347-ab61-8a77c211bd49",
+  "analysisReport": "skills/dalala-cover-026/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-026.jpg",
+  "referenceSha256": "bb29bcc75012ca13fe9b3221774148fc93e311f4e0ad6270a122af99cd0fc324",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainHan": "固定八字「打开书本里的世界」，单行",
+    "destinationHan": "2–5 字",
+    "chapterHeads": "三组，每组约 4–7 字",
+    "chapterBody": "每组 1–2 行"
+  },
+  "subjectTypes": [
+    "任意人数的真实行动者：读者、向导、被访者或书中世界参与者",
+    "与书籍／阅读主题对应的可辨真实世界现场"
+  ],
+  "contentEmotions": [
+    "探索",
+    "同行",
+    "现场发现",
+    "人文记录"
+  ],
+  "firstFocus": "固定八字大标题与书中世界里的主行动并列；原图三人仅作事实参照",
+  "spatialStructure": [
+    "四边连续暖色宽框",
+    "框内单张书中世界现场照",
+    "上部固定八字主标题和左右英文",
+    "中下任意人数的主行动，总体面积约 25–35%",
+    "右侧世界页签",
+    "左下三章目录与右下署名"
+  ],
+  "readingPath": [
+    "真实期号与元数据建立书页记录感",
+    "固定单行主标题「打开书本里的世界」",
+    "左右英文连接阅读与见世界",
+    "行动者带观众进入有证据的现场",
+    "右侧本页世界标签",
+    "左下三个具体章节目录",
+    "右下授权署名"
+  ],
+  "imageTextRelationship": "主标题是阅读入口，现场是书里打开的一页，人物是代入者，右侧标签是页签，左下三章是目录；人数可变但保持上方标题与中下行动的重量关系",
+  "locked": [
+    "「打开书本里的世界」主题和八字单行主标题",
+    "3:4、连续暖框、单张书中世界现场",
+    "左右英文、右侧世界页签与左下三章目录",
+    "上方开阔文字区、中下主行动总面积与左右世界证据",
+    "各区对齐、层级和阅读路径"
+  ],
+  "adaptive": [
+    "书籍／阅读主题及对应的本页世界",
+    "人物身份、人数、动作、服装和同场前后关系",
+    "真实地点、章节文字与元数据",
+    "具体色值、授权署名",
+    "不破坏事实的裁切、扩天空或局部清理"
+  ],
+  "optional": [
+    "真实期号／日期／坐标的等量索引选择",
+    "极轻短影",
+    "局部文字背景对比修复"
+  ],
+  "forbidden": [
+    "无阅读来源的普通探访",
+    "固定复刻原图三人或强制举手",
+    "编造经纬度或真实事件",
+    "复制原图 PAGE STUDIO",
+    "通用 AI 小人与贴纸式人物",
+    "双行标题或满宽英文副题",
+    "删除宽框或改卡片拼贴",
+    "左下目录不可读",
+    "未验收即 active"
+  ],
+  "variableContract": {
+    "person": "人数、身份和动作可变；一人／两人／多人均可。主行动位于中下部、可见面积约 25–35%，与书中世界有真实关系；原图三人仅是事实参照。",
+    "text": "系列总题固定「打开书本里的世界」单行；具体世界、三个章节、真实索引和客户署名可变，仍各守位置、级差与语义。",
+    "product": "建筑、器物、动植物、交通工具或产品按本期书中世界替换，作为真实可辨的左右现场证据。",
+    "palette": "具体色值可变，暖色高彩宽框／冷色中高明天空／近白字／较深多色主体的面积与对比关系固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "照片矩形面积约 86–88%",
+      "宽框约 12–14%",
+      "天空或等效简净区可见约 35–42%",
+      "任意人数的主行动轮廓约 25–35%",
+      "主标题包围盒约 7–9%"
+    ],
+    "effects": [
+      "连续平涂暖色宽框",
+      "真实照片层级",
+      "高对比展示宋体透明字层",
+      "左下三级信息直接叠照片",
+      "极轻短影仅用于可读性"
+    ]
+  },
+  "assetTransformation": {
+    "level": "优先 T0 真实照片裁切；天空或文字区不足用 T1 同视角扩图／清理；T2 仅限局部遮挡修复",
+    "triggers": [
+      "无明确书本来源先停用",
+      "天空不足先扩图／换素材而不移标题",
+      "人脸／动作被遮则重裁",
+      "背景无世界证据则换素材",
+      "章节过长先改写"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle/destinationHan/chapterHead/body",
+      "type": "font-style-id",
+      "id": "dalala-cover-026-editorial-song",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "issue/coordinate/latinSubtitle/destinationLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-026-roman-serif",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null
+}

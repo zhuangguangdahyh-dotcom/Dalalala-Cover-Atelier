@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-052",
+  "source": "assets/reference-original.jpg",
+  "canvas": {"width": 1080, "height": 1440, "ratio": "3:4", "coordinateSystem": "percent from top-left", "measurementTolerancePercentagePoints": 3},
+  "firstGlance": "中央蓝色毛绒帽人物与黄描边先抓眼，左右分裂的白色大字让读者绕主体拼合标题，上方双界面卡提供生成结果证据。",
+  "primaryMechanism": "指向上方双结果卡的中央人物，被高纯手工描边与半调网点托起；左右高低错位的巨型手写字使读者绕人物拼合短标题。",
+  "components": [
+    {"role": "mainSubject", "content": "戴蓝色毛绒帽和黑墨镜的单人正面坐姿，双食指向上，怀抱毛绒玩偶", "boxPercent": [14, 30, 100, 100], "faceCenterPercent": [51, 50], "headCenterPercent": [51, 47], "align": "central and bottom bleed", "zOrder": 7, "visualWeight": "highest"},
+    {"role": "evidenceCardLeft", "content": "浅色圆角单对象界面", "boxPercent": [2, 12, 43, 47], "rotationDegrees": -33, "align": "upper-left falling diagonally toward head", "zOrder": 2},
+    {"role": "evidenceCardRear", "content": "深色界面内的浅色三维对象/生成结果", "boxPercent": [34, 8, 67, 34], "rotationDegrees": 0, "align": "upper center, mostly upright", "zOrder": 1},
+    {"role": "mainTitleRight", "content": "动画", "boxPercent": [70, 13, 98, 45], "align": "two stacked large glyphs, irregular hand-lettering", "zOrder": 5},
+    {"role": "mainTitleLeft", "content": "白模", "boxPercent": [1, 41, 27, 79], "align": "two stacked large glyphs, lower than right title", "zOrder": 5},
+    {"role": "prefixLeft", "content": "一句话", "boxPercent": [7, 6, 24, 16], "rotationDegrees": -25, "align": "loose diagonal handwriting", "zOrder": 5},
+    {"role": "prefixTop", "content": "生成", "boxPercent": [36, 2, 49, 7], "align": "loose horizontal handwriting", "zOrder": 5},
+    {"role": "halftone", "content": "white irregular halftone field behind person", "boxPercent": [24, 28, 95, 100], "align": "densest around upper body, fades outward", "zOrder": 3},
+    {"role": "subjectOutline", "content": "hand-drawn high-chroma yellow thick silhouette", "boxPercent": [13, 29, 100, 100], "thicknessCanvasWidthPercent": [1.5, 2.5], "zOrder": 6},
+    {"role": "background", "content": "warm mid-tone orange-brown paper-like field with sparse distressed marks", "boxPercent": [0, 0, 100, 100], "zOrder": 0},
+    {"role": "minorMarks", "content": "small upper-right black mark and two white doodle stars", "boxPercent": [78, 4, 96, 10], "zOrder": 8, "optional": true},
+    {"role": "cornerProp", "content": "cropped light paper with green grid at bottom right", "boxPercent": [86, 73, 100, 100], "zOrder": 2, "optional": true}
+  ],
+  "primaryFocus": "person's blue hat, black sunglasses and yellow outline",
+  "dominantAxis": "upper-center evidence cards down to central head; side titles form opposing weights",
+  "readingPath": ["central person", "right large title", "left large title", "top handwritten prefix", "two evidence cards", "minor marks"],
+  "visualMass": {"upperPercent": 35, "lowerPercent": 65, "clearBackgroundApproxPercent": [20, 25]},
+  "occlusion": ["left light card overlaps rear dark card", "subject hat and outline cover lower card edges", "subject remains in front of halftone", "right-bottom paper corner stays behind subject"],
+  "typography": {
+    "mainTitle": {"styleId": "dalala-cover-052-rough-white", "skeleton": "wide, blunt, imperfect hand-painted Hanzi", "fill": "solid high-lightness", "strokeWidthPerGlyphHeightPercent": [10, 17], "glyphAspectRatio": [0.9, 1.2], "columnCount": 2, "glyphsPerColumn": [2, 3], "shadow": "none or minimal"},
+    "prefix": {"styleId": "dalala-cover-052-thin-black", "skeleton": "loose fine-line handwritten Hanzi", "relativeStrokeWidthToMain": [0.125, 0.2], "orientation": "left phrase diagonal and upper phrase nearly horizontal"},
+    "subtitle": null,
+    "auxiliary": "minor brand mark only; no paragraph"
+  },
+  "colorRoles": [
+    {"role": "warmMidBackground", "visibleAreaPercent": [45, 55], "lightness": "medium"},
+    {"role": "darkAnchor", "visibleAreaPercent": [20, 25], "lightness": "low"},
+    {"role": "whiteTypeCardsDots", "visibleAreaPercent": [18, 23], "lightness": "high"},
+    {"role": "coldBrightHeadAccent", "visibleAreaPercent": [5, 8], "lightness": "medium-high"},
+    {"role": "highChromaOutline", "visibleAreaPercent": [2, 4], "lightness": "high"}
+  ],
+  "textures": ["light paper wear on background", "irregular white halftone screen", "rough opaque hand-lettering", "uneven paint-marker outline", "photographic skin/fur/fabric retained"],
+  "referenceOnlyContent": ["original person's identity", "original interface screenshots", "original upper-right mark", "original plush toy and paper graphic"]
+}

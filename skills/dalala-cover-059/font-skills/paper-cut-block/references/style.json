@@ -1,0 +1,17 @@
+{
+  "id": "dalala-cover-059-paper-cut-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "family": "irregular broad hand-cut paper block Hanzi",
+  "renderer": "imagegen-transparent-title-layer",
+  "roles": ["mainTitleLine1", "mainTitleLine2", "questionMark"],
+  "skeleton": "heavy mostly square Hanzi with uneven hand-cut terminals and irregular counters",
+  "fillRole": "high-lightness neutral solid paper",
+  "edge": "slight short-range fiber and imperfect scissor cuts, no global grunge overlay",
+  "strokeWeight": "broad and mildly variable between glyphs and within strokes",
+  "letterSpacingCanvasWidthPercent": [0, 1.5],
+  "lineGapCanvasHeightPercent": [1, 3],
+  "glyphBehavior": "per-occurrence construction; mild independent tilt, cut angle and baseline jitter; standard Hanzi legibility preserved",
+  "punctuation": "question mark shares broad hand-cut body and is slightly enlarged at right end",
+  "forbidden": ["regular bold sans", "chunky marker rounded ends", "brush dry streaks", "hollow outlines", "plastic bevel", "large torn-paper drop shadows", "identical glyph copies", "wrong or missing strokes"]
+}

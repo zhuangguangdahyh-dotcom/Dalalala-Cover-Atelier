@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-015",
+  "sourceReference": "../assets/reference-original.jpg",
+  "sourceDimensions": {"width": 2526, "height": 3368, "ratio": "3:4"},
+  "coordinateSystem": "x/y 为左上起点的画布百分比；box 为 [x0,y0,x1,y1]，均为目测工作区间而非像素分割真值",
+  "observedText": {"topEnglish": "THE AMERICAN WEST", "mainChinese": "探索无边界", "bottomMark": "RED DEAD / REDEMPTION II"},
+  "firstFocus": "天空中占近全宽的红色五字主标题；随后视线沿宽阔场域落到小骑手，最后被深色岩壁上的白色双行标识截住",
+  "mechanism": "巨大的宣言式标题与极小的现场行动主体形成尺度反差；荒漠景深证明主题的广阔，底部暗岩壁承担第二块高对比信息",
+  "dominantAxis": "上方水平标题轴与画面中心偏右的纵深行动轴；岩台形成下方横向稳定轴",
+  "readingPath": ["上端白色英文引题", "红色超宽中文主标题", "标题下方大片开放天空与远山", "中心偏右小骑手及其所在岩台", "底部白色双行标识与红色末端符号"],
+  "zones": [
+    {"id": "titleSky", "box": [0,0,100,24], "role": "平整明亮天空与双级标题"},
+    {"id": "openDistance", "box": [0,23,100,57], "role": "保留深度和尺度感的蓝天、云与远处地貌"},
+    {"id": "actionZone", "box": [0,55,100,77], "role": "小人物/马与岩台、地平线"},
+    {"id": "darkBase", "box": [0,75,100,100], "role": "深色实景前景，承托底部字块并压住构图"}
+  ],
+  "elements": [
+    {"id": "topEnglish", "box": [16,2,81,6], "role": "主题引题或真实章节短语", "layer": 6, "alignment": "center; loose single arched/irregular line", "fontStyleId": "dalala-cover-015-latin", "variant": "skyKicker", "areaPercentApprox": 2},
+    {"id": "mainChinese", "box": [5,6,95,23], "role": "第一眼主题承诺", "layer": 7, "alignment": "center; one wide line", "fontStyleId": "dalala-cover-015-han", "areaPercentApprox": 13},
+    {"id": "rightMesa", "box": [71,19,100,62], "role": "近中景大体块与右侧重量", "layer": 2},
+    {"id": "leftMesa", "box": [0,33,34,57], "role": "左侧次级框景", "layer": 2},
+    {"id": "centralButte", "box": [43,38,65,57], "role": "中距方向锚点，强化层层退远", "layer": 2},
+    {"id": "smallClouds", "box": [0,27,78,43], "role": "小面积真实云层和天空尺度线索", "layer": 2},
+    {"id": "riderHorse", "box": [42,58,59,72], "role": "极小但可辨的行动证据；骑手朝左", "layer": 4, "areaPercentApprox": 1.5, "protectedZones": ["头/身份特征", "身体与坐骑完整接触", "落脚/马蹄与岩面"]},
+    {"id": "foregroundLedge", "box": [7,70,100,100], "role": "横向岩台，实体承托主体并在下部形成深色字底", "layer": 3},
+    {"id": "bottomLogoWords", "box": [28,83,64,94], "role": "下方身份/系列标识的两行压实字块", "layer": 7, "alignment": "left; two tightly stacked lines", "fontStyleId": "dalala-cover-015-latin", "variant": "rockLogo"},
+    {"id": "bottomLogoAccent", "box": [63,83,73,94], "role": "与双行标识同高的单枚强色符号", "layer": 7, "fontStyleId": "dalala-cover-015-latin", "variant": "rockLogo"}
+  ],
+  "textSystem": {
+    "mainChineseCharactersIdeal": [4,6],
+    "mainChineseLines": 1,
+    "mainChineseBlockWidthPercent": [86,92],
+    "mainChineseBlockHeightPercent": [15,18],
+    "mainChineseTrackingEm": [-0.05,0.02],
+    "topEnglishWords": [2,4],
+    "topEnglishWidthPercent": [60,67],
+    "bottomLogoLines": 2,
+    "bottomLogoTextWidthPercent": [34,39],
+    "bottomAccentWidthPercent": [7,10],
+    "bottomInterlineGapEm": [0,0.08]
+  },
+  "negativeSpace": [
+    {"box": [4,23,68,38], "policy": "标题下保留天空，不塞说明或标签"},
+    {"box": [27,40,70,58], "policy": "保留远近景纵深和小主体上方空气"},
+    {"box": [0,56,40,71], "policy": "不加独立卖点卡，避免与小主体争抢"}
+  ],
+  "paletteStructure": {
+    "lightOpenSkyPercent": [38,48],
+    "warmMidgroundAndLedgePercent": [38,48],
+    "darkForegroundPercent": [15,22],
+    "highChromaTitleAndAccentPercent": [12,16],
+    "highLightnessLetteringPercent": [5,8],
+    "rule": "色值可变；上部明亮平整、地貌中明度有暖冷反差、下部近黑承托、主字强色、英文高明度的角色不可互换"
+  },
+  "layerOrderBackToFront": ["天空与云", "远景地貌", "中近景大地形", "前景岩台", "小骑手与接触阴影", "局部明暗修复", "顶部英文", "红色中文主字", "底部双行标识与单枚强调符号"],
+  "locked": ["3:4 敞亮大场域＋下部深色实体基座", "顶部小英文引题＋一行近全宽强色中文", "主体极小且落在中心附近可识别的实体边缘", "景物从两侧框出中间纵深", "底部两行紧叠浅色标识＋右侧同高强色符号", "上大下小的尺度对比和天空到岩壁的文字承托关系"],
+  "adaptive": ["行业场域", "人物、产品、动物或行动对象的身份", "有语义的文案", "实际地貌/空间/产品材质", "具体色值和光线时间"],
+  "optional": ["少量真实云或空气透视", "字体内部轻微磨损", "不抢字的局部光影"],
+  "failureModes": ["把远景换成平面渐变，失去尺度证据", "主体放大成为肖像或没有接触支撑", "标题拆两行或缩成普通横幅", "中文主字只加噪点却失去宽硬字骨", "右侧大体块或中景纵深被裁没", "底部亮到白字不清", "底部标识变成营销正文/CTA", "滥用原图游戏文案或标识", "加贴纸、按钮和多余说明填满留白", "360×480 缩略图只见红字而找不到小主体"]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-072",
+  "displayName": "072 · 金字塔构图",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "072",
+    "catalogName": "金字塔构图",
+    "category": "构图逻辑",
+    "subcategory": "轴线、几何、空间与透视",
+    "originalImagePath": "v2/images/01-composition-logic/072-三点透视.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/01-composition-logic/072-三点透视.png",
+    "originalImageSha256": "69c0c2500a6db48f5ff7245dc5e40936a896c98d7a22cf23c8807a7334526107",
+    "localThumbnail": "../references/source-thumbnails/072.jpg",
+    "localThumbnailSha256": "7f90e722c56fbeaf5bb1af6610b95581f60d386b5d0154aa182461cad40d6bed",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "金字塔构图",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "三点透视",
+      "category": "构图逻辑",
+      "subcategory": "空间层次与投影",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "direct",
+    "tags": [
+      "构图逻辑",
+      "轴线、几何、空间与透视",
+      "金字塔构图"
+    ],
+    "assetTypes": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "锁定中央轴与稳定重心，标题、主体和辅助信息围绕中心建立秩序。",
+    "dominantAxis": "central",
+    "primaryFocus": "canvas-centre",
+    "readingPath": "centre-out",
+    "locked": [
+      "以“金字塔构图”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 central 主轴、canvas-centre 焦点和 centre-out 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-072.json"
+  }
+}

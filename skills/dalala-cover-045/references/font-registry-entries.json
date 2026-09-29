@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dalala-cover-045-folded-tape",
+    "displayName": "045 折面带状开窗标题字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-045/font-skill/SKILL.md",
+    "config": "../skills/dalala-cover-045/font-skill/references/style.json",
+    "humanRules": "../skills/dalala-cover-045/font-skill/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-045/font-skill/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-045/font-skill/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-045/font-skill/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-045/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-045-neutral-caption",
+    "displayName": "045 纪实解释字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "typography-style",
+    "skill": "../skills/dalala-cover-045/font-skill/support/SKILL.md",
+    "config": "../skills/dalala-cover-045/font-skill/support/references/style.json",
+    "humanRules": "../skills/dalala-cover-045/font-skill/support/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-045/font-skill/support/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-045/font-skill/support/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-045/font-skill/support/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-045/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "typeset-transparent-text-layer"
+  }
+]

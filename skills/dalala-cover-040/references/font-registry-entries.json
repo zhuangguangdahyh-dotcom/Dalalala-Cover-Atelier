@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-040-blade-song",
+    "displayName": "040 刀锋变形宋骨字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-040/font-skill/SKILL.md",
+    "config": "../skills/dalala-cover-040/font-skill/references/style.json",
+    "humanRules": "../skills/dalala-cover-040/font-skill/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-040/font-skill/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-040/font-skill/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-040/font-skill/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-040/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

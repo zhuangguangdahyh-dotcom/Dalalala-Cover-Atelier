@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-051-mint-freehand",
+    "displayName": "051 双语鲜亮自由手写测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-051/font-skills/mint-freehand/SKILL.md",
+    "config": "../skills/dalala-cover-051/font-skills/mint-freehand/references/style.json",
+    "humanRules": "../skills/dalala-cover-051/font-skills/mint-freehand/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-051/font-skills/mint-freehand/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-051/font-skills/mint-freehand/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-051/font-skills/mint-freehand/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-051/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

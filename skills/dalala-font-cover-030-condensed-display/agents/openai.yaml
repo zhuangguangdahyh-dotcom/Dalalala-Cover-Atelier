@@ -1,0 +1,4 @@
+interface:
+  display_name: "030 极窄工业展示字｜测试"
+  short_description: "单行重黑英文和低对比透视环境字"
+  default_prompt: "读取 style.json 和 generation-prompt.md，生成准确透明字层并执行 vitality-qa.md；当前测试态。"

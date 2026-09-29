@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-148",
+  "name": "两端对齐",
+  "category": "字体、网格与东亚文字",
+  "subcategory": "排版系统与网格系统",
+  "learningStatus": "provisional",
+  "learningMethod": "pinned-original-reference + visual-contact-sheet-review + composition-theory-model",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/03-editorial-advertising/148-剪影版式.png",
+    "localReference": "../references/source-thumbnails/148.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "剪影版式",
+      "category": "平面、出版与广告",
+      "subcategory": "图文主导与表现型版式",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "用网格、对齐和文字方向建立秩序并容纳复杂中文信息",
+  "principle": {
+    "whyItWorks": "“两端对齐”通过可识别的 column-grid 骨架，把分散元素收束到 lead-column，让用户在缩略图里迅速找到主次。",
+    "visualMechanism": "以 column-grid 为主骨架，以 lead-column 为第一焦点；其他元素必须承担引导、配重或说明功能。",
+    "readingMotion": "主标题先被看见，再由主体或连接线把视线带向副信息。",
+    "emotionalEffect": "清楚、稳定、有控制力",
+    "whenToUse": [
+      "主题只有一个核心判断",
+      "主体与标题可以形成明确空间关系"
+    ],
+    "avoidWhen": [
+      "所有信息都要求同等突出",
+      "素材无法为主标题让出可读区域"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "占据 lead-column，并服从 column-grid 主轴"
+    },
+    "mainTitle": {
+      "role": "把主题压缩成第一眼可读的判断",
+      "placement": "与主体错位布置，在主阅读路径的入口或第二停顿点",
+      "recommendedLines": "1–3 行，按语义断句"
+    },
+    "subtitle": {
+      "role": "补充对象、条件或结果，不重复主标题",
+      "placement": "靠近主标题形成同组，字号和对比不得超过主标题的 45%"
+    },
+    "supportingInfo": {
+      "role": "栏目、数字、署名、提示或证据",
+      "placement": "只进入第三级信息区，数量受构图剩余空间限制"
+    },
+    "decoration": {
+      "role": "强化方向、情绪或分组",
+      "placement": "只放在阅读路径的转折、端点或视觉失衡处"
+    },
+    "protectedWhitespace": "保护主体轮廓外侧与主标题周围至少一处完整空场",
+    "readingPath": "column-flow"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "文字主导、系列化、需要稳定复用的封面"
+    ],
+    "suitableAssets": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "信息层级无法排序的主题",
+      "没有可识别主体且标题也不明确的素材"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先按构图焦点重新裁切，再按平台比例重建周围空间；禁止整图等比缩小后只把字贴上去。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化规则主轴、焦点、深度或主题情绪时才加光影、速度线、重复影像或手绘装饰。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "文字组合服从 column-grid 主轴，以语义分组形成一个整体，不把每个字平均铺开。",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "缩到 360 px 宽时，标题语义、第一焦点和主体身份仍可辨认。"
+  },
+  "selectionSignals": [
+    "素材天然存在或可以重构出 column-grid 方向",
+    "主题需要把第一眼落在 lead-column",
+    "标题与主体能共同呈现“两端对齐”的构图身份"
+  ],
+  "rejectionSignals": [
+    "套用后只能看出文字换了位置，看不出构图骨架变化",
+    "主体关键结构被遮挡、切断或失去识别性",
+    "标题、主体和装饰形成三个同等焦点",
+    "为了填空加入与主题无关的贴纸或小图标"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以“两端对齐”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 column-grid 主轴、lead-column 焦点和 column-flow 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“两端对齐”？"
+  },
+  "deepStudyStatus": "pending"
+}

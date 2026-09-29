@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-182",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/182.jpg",
+  "observedTitle": "图片窗口版式",
+  "referenceContentMap": {
+    "primarySubject": "右侧四个不同比例和圆角的图片窗口",
+    "mainTitle": "左上两行超大黑色标题",
+    "subtitle": "标题下方青色英文名与短横线",
+    "supportingInformation": "左中说明、左下图标关键词和底部提示框",
+    "decorations": "圆角边界、圆点、短横线和窗口间的对齐间隔",
+    "protectedWhitespace": "左侧标题与说明之间、窗口外侧以及各窗口之间的白边"
+  },
+  "coverTranslation": {
+    "templateFamily": "framed-window",
+    "subjectRole": "把同一素材拆成全貌、细节和动作三个景别",
+    "mainTitleRole": "标题与窗口形成左右或上下两大块",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "圆角边界、圆点、短横线和窗口间的对齐间隔"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "左侧标题与说明之间、窗口外侧以及各窗口之间的白边",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "标题进入，先看最大窗口，再按窗口尺度下降浏览局部。",
+    "assetOperations": [
+      "把同一素材拆成全貌、细节和动作三个景别",
+      "用窗口形状主动裁掉无关背景",
+      "最大窗口承载唯一主视觉"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dalala-cover-033-rough-hand",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-033/assets/reference-original.jpg",
+  "roles": [
+    "emphasis",
+    "continuation"
+  ],
+  "fill": "solid",
+  "edge": "irregular-fine-rough",
+  "effects": {
+    "outline": false,
+    "shadow": false
+  },
+  "exactColorLocked": false
+}

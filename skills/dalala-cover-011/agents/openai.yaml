@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 011（研究态）"
+  short_description: "拉链开口、近景人物与双组斜排重字的独立封面规则"
+  default_prompt: "读取本 Skill、anatomy、adaptation-rules 与字体依赖；先判定行业开口动作是否真实成立，再按研究态约束规划，不得直接宣称已验收。"

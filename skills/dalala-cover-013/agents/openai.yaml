@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 013"
+  short_description: "逐字撕纸标题与城市失重叙事拼贴的受控复刻"
+  default_prompt: "Use $dalala-cover-013 to prepare a structure-locked replication plan for a narrative collage cover."

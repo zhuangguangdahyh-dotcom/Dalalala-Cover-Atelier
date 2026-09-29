@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-020",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "原图视觉估读；bboxPercentXYXY 以左上为原点，按画布宽高百分比给出，并非像素级边缘标注",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "IMG_1946.JPG",
+    "width": 2275,
+    "height": 3033,
+    "ratio": "3:4",
+    "visibleText": [
+      "世界另一页",
+      "淘金矿工",
+      "Gold",
+      "Miners"
+    ]
+  },
+  "primaryMechanism": "上方四字大—小—大—小粗刷横带，下方主题相关的直视人物与左侧小物证；连续暗环境串联主题、人物、解释性道具",
+  "dominantAxis": "x约51–53%人物竖轴，跨幅标题横带；大字长锋下探，左侧手物平衡偏右头部",
+  "primaryFocus": "上方白色粗刷中文主标题",
+  "readingPath": [
+    "四字粗刷主题",
+    "下部头部与双眼",
+    "左侧手持小物证",
+    "两行英文短释",
+    "顶部系列微文"
+  ],
+  "elements": [
+    {
+      "role": "mainTitleHan",
+      "text": "淘金矿工",
+      "bboxPercentXYXY": [
+        3,
+        3,
+        96,
+        35
+      ],
+      "visualRank": 1,
+      "layer": 2,
+      "alignment": "四字单横带，大—小—大—小，长锋下探；非等宽字格"
+    },
+    {
+      "role": "seriesMicrocopy",
+      "text": "世界另一页",
+      "bboxPercentXYXY": [
+        8,
+        3,
+        92,
+        6
+      ],
+      "visualRank": 5,
+      "layer": 4,
+      "alignment": "五个小字沿顶部疏朗分散，不是紧凑成词的横排",
+      "centersXPercent": [
+        10,
+        30,
+        50,
+        70,
+        90
+      ]
+    },
+    {
+      "role": "subtitleLatin",
+      "text": "Gold / Miners",
+      "bboxPercentXYXY": [
+        34,
+        26,
+        51,
+        32
+      ],
+      "visualRank": 4,
+      "layer": 3,
+      "alignment": "两行右端约齐于x50–51%，上短下长，嵌入主字下缘暗缝"
+    },
+    {
+      "role": "portrait",
+      "bboxPercentXYXY": [
+        34,
+        36,
+        77,
+        100
+      ],
+      "visualRank": 2,
+      "layer": 1,
+      "meaning": "原图矿工为内容实例；调用时使用当前主题相关人物，居中正视近景，可完整露面，不要求蒙脸"
+    },
+    {
+      "role": "bodyShoulders",
+      "bboxPercentXYXY": [
+        0,
+        80,
+        100,
+        100
+      ],
+      "visualRank": 4,
+      "layer": 1,
+      "meaning": "肩和胸口向左右及底边自然出画，不把人物缩成孤立小半身贴图"
+    },
+    {
+      "role": "sourceHeadLamp",
+      "bboxPercentXYXY": [
+        40,
+        36,
+        62,
+        57
+      ],
+      "visualRank": 3,
+      "layer": 1,
+      "meaning": "仅原图职业工具实例，不是跨行业必需元素",
+      "requiredInAdaptation": false
+    },
+    {
+      "role": "eyes",
+      "bboxPercentXYXY": [
+        40,
+        65,
+        68,
+        70
+      ],
+      "visualRank": 2,
+      "layer": 1,
+      "meaning": "双眼清楚正视；完整露面与主题合理遮挡均可"
+    },
+    {
+      "role": "holdingHand",
+      "bboxPercentXYXY": [
+        0,
+        62,
+        26,
+        80
+      ],
+      "visualRank": 3,
+      "layer": 1,
+      "meaning": "从左边界伸入的真实夹持手势"
+    },
+    {
+      "role": "evidenceObject",
+      "bboxPercentXYXY": [
+        19,
+        65,
+        25,
+        76
+      ],
+      "visualRank": 3,
+      "layer": 1,
+      "meaning": "原图金属物是内容实例；换为主题相关小型可辨物件，真实夹持，不强制金色"
+    },
+    {
+      "role": "darkEnvironment",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "visualRank": 5,
+      "layer": 0,
+      "meaning": "连续暗蓝灰低细节纪实背景，局部自然失焦、暗角和颗粒"
+    },
+    {
+      "role": "mainTitleCharacter",
+      "text": "淘",
+      "bboxPercentXYXY": [
+        4,
+        3,
+        40,
+        28
+      ],
+      "scaleRole": "large",
+      "layer": 2
+    },
+    {
+      "role": "mainTitleCharacter",
+      "text": "金",
+      "bboxPercentXYXY": [
+        35,
+        12,
+        52,
+        26
+      ],
+      "scaleRole": "small",
+      "layer": 2
+    },
+    {
+      "role": "mainTitleCharacter",
+      "text": "矿",
+      "bboxPercentXYXY": [
+        51,
+        3,
+        82,
+        35
+      ],
+      "scaleRole": "large-long-descender",
+      "layer": 2
+    },
+    {
+      "role": "mainTitleCharacter",
+      "text": "工",
+      "bboxPercentXYXY": [
+        77,
+        13,
+        95,
+        24
+      ],
+      "scaleRole": "small",
+      "layer": 2
+    },
+    {
+      "role": "headTransition",
+      "bboxPercentXYXY": [
+        34,
+        36,
+        77,
+        60
+      ],
+      "layer": 1,
+      "meaning": "维持人物上沿与标题接力，可由自然头部、发型、真实服饰及背景光影承担，不添加无关职业装备"
+    }
+  ],
+  "absentRoles": [
+    "独立贴纸",
+    "CTA",
+    "边框",
+    "额外价格文字",
+    "重复人物或物件",
+    "三维挤出文字"
+  ],
+  "protectedAreas": [
+    "英文x34–51%,y26–32%暗缝",
+    "标题尾端至人物上沿局部约1–2%H空气",
+    "双眼x40–68%,y65–70%",
+    "左手物件接触x19–25%,y65–76%"
+  ],
+  "spatialWeight": {
+    "mainTitleBoxPercentXYXY": [
+      3,
+      3,
+      96,
+      35
+    ],
+    "portraitBoxPercentXYXY": [
+      34,
+      36,
+      77,
+      100
+    ],
+    "backgroundVisibleAreaApproxPercent": [
+      55,
+      65
+    ],
+    "mainTitleVisibleAreaApproxPercent": [
+      12,
+      18
+    ],
+    "warmAccentVisibleAreaApproxPercent": [
+      3,
+      6
+    ]
+  },
+  "typography": {
+    "mainHan": "四字大—小—大—小的宽展干刷字；字形语言由独立Font Skill执行",
+    "latin": "两行细粗对比衬线、右齐、上短下长",
+    "microHan": "顶部稀疏分布的细笔宋体／明朝体小字",
+    "lineCount": {
+      "mainHan": 1,
+      "latin": 2,
+      "microHan": 1
+    },
+    "characterCount": 4,
+    "scaleRhythm": [
+      "large",
+      "small",
+      "large",
+      "small"
+    ],
+    "smallToLargeBodyHeightRatio": [
+      0.5,
+      0.65
+    ]
+  },
+  "colorRoles": {
+    "background": "大面积低饱和、较暗冷色，具体色值可变",
+    "primaryText": "高明度近白、面积大的识别带",
+    "secondaryText": "小面积暖亮，与道具和工具呼应",
+    "subjectSupport": "当前主题人物真实肤色与服饰，物件材质真实；不继承矿工黑巾与头灯",
+    "accent": "手中证据物与装备上的小面积暖亮",
+    "areaRatio": "背景环境估55–65%，白字实墨12–18%，暖亮点3–6%，余为人物支持；视觉估读非分割，各范围不可相加上限",
+    "contrastCheck": "360 px 仍先识白字、再认眼睛和小道具；具体色值不锁定",
+    "exactHexLocked": false
+  },
+  "layerOrder": [
+    "全幅纪实照片与必要的局部影调",
+    "主标题透明粗刷字层",
+    "两行英文透明字层",
+    "顶部小字透明字层"
+  ],
+  "assetTreatment": {
+    "defaultCutout": "不抠；原图为统一透视的完整照片。仅素材不足且可保真时允许局部合成",
+    "crop": "3:4正视胸肩近景；眼线约65–70%H，顶部约35%H低细节暗场，左侧真实手物",
+    "perspective": "近距离正视人物，肩膀与手自然出画；小物件与手指同透视",
+    "occlusion": "原图黑巾遮脸是内容性遮挡；适配可完整露面，手指接触物证真实；无人物穿字",
+    "repetition": "无重复人物、道具或金块",
+    "effects": "统一摄影光影、颗粒与景深；刷字固有效果；工具反光只在真实存在时保留，无硬添加装备"
+  },
+  "semanticFit": [
+    "人物身份、服饰与当前主题匹配",
+    "单人正视、双眼可读、近景",
+    "左侧主题相关小型可辨物件与真实手物关系",
+    "顶部低细节暗场"
+  ],
+  "failureModes": [
+    "主题无关仍出矿工",
+    "强制头灯或蒙脸",
+    "三字标题或四格等大",
+    "英文居中或移底",
+    "普通字体加统一噪声",
+    "眼睛或手物关系错误",
+    "物证变产品主图",
+    "亮背景吞字或锁死蓝金色值",
+    "未经测试确认发布active"
+  ],
+  "version": "0.2.0",
+  "analysisJobId": "b82ef0bf-9792-430d-aca5-6fb3658f73a6",
+  "previousJobId": "087c3bb3-a2fd-43e8-a8cf-a3d4d283984a",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "semanticMapping": {
+    "requiredInputs": [
+      "industry",
+      "accountIdentity",
+      "topic",
+      "subjectRole",
+      "evidenceRole"
+    ],
+    "sourceOnly": [
+      "矿工",
+      "矿灯",
+      "金块",
+      "黑头巾",
+      "遮鼻口"
+    ],
+    "forbiddenDefaults": [
+      "复用矿工表现不相关主题",
+      "给新行业硬戴头灯或蒙脸",
+      "只换文案不换主题人物"
+    ],
+    "examples": [
+      {
+        "industry": "宠物护理",
+        "subject": "真实照护者",
+        "evidence": "相关小护理工具"
+      },
+      {
+        "industry": "空间设计",
+        "subject": "设计师",
+        "evidence": "材料样板"
+      },
+      {
+        "industry": "餐饮",
+        "subject": "厨师",
+        "evidence": "关键小食材"
+      },
+      {
+        "industry": "摄影",
+        "subject": "摄影者",
+        "evidence": "小滤镜或配件"
+      }
+    ]
+  },
+  "transformationGrammar": {
+    "locked": [
+      "四字大小交替横带",
+      "两行右齐小衬线",
+      "顶部五槽微文",
+      "居中正视近景与左侧小物",
+      "连续暗摄影与高明度字"
+    ],
+    "adaptive": [
+      "人物身份面貌服饰及完整露面",
+      "语义自洽文案",
+      "主题相关真实物件",
+      "具体环境与色值"
+    ],
+    "triggers": [
+      "无顶部字面时扩背景或换素材",
+      "非正视近景时重拍或在身份锚点外重构",
+      "缺少相关小物时换素材，不使用金块凑位"
+    ],
+    "tolerancePercentXY": 2,
+    "levels": [
+      "T0裁切影调",
+      "T1空间重排与必要抠图",
+      "T2有理由的局部重构，保护身份和真实物件"
+    ]
+  }
+}

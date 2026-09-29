@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-292",
+  "name": "时间线布局",
+  "category": "网页与 UI",
+  "subcategory": "阅读模式与产品页面",
+  "learningStatus": "studied",
+  "learningMethod": "pinned-original-reference + full-size-visual-review + cross-media-distillation",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/05-web-ui/292-列下落模式.png",
+    "localReference": "../references/source-thumbnails/292.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "列下落模式",
+      "category": "网页与 UI",
+      "subcategory": "响应式重排模式",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "借用界面模块、卡片和导航关系表达步骤、系统或选择",
+  "principle": {
+    "whyItWorks": "用有方向的连续线与里程碑节点编码先后关系，节点、阶段和结果形成三层时间尺度。",
+    "visualMechanism": "用有方向的连续线与里程碑节点编码先后关系，节点、阶段和结果形成三层时间尺度。",
+    "readingMotion": "从起点沿连接线依次经过节点，最后到结论或结果。",
+    "emotionalEffect": "有推进、可执行、信息明确",
+    "whenToUse": [
+      "过程、成长、项目履历、事件回顾、方法步骤",
+      "顺序变化会改变意义"
+    ],
+    "avoidWhen": [
+      "项目之间没有先后或因果",
+      "节点过多导致移动端不可读"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "画面中部由左向右连接的五个圆形节点与对应卡片"
+    },
+    "mainTitle": {
+      "role": "建立入口与核心判断",
+      "placement": "左上单行超大暗红标题",
+      "recommendedLines": "按语义和参考轮廓决定"
+    },
+    "subtitle": {
+      "role": "补充语境",
+      "placement": "标题下方英文名与原理说明"
+    },
+    "supportingInfo": {
+      "role": "证据、解释或行动",
+      "placement": "五个阶段卡、下方三段阶段带与底部布局要点"
+    },
+    "decoration": {
+      "role": "强化结构、方向或材质",
+      "placement": "连接线、箭头、节点图标、右上同心圆和浅色弧带"
+    },
+    "protectedWhitespace": "节点之间、卡片列沟以及阶段带上下的连续通道",
+    "readingPath": "从起点沿连接线依次经过节点，最后到结论或结果。"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "过程、成长、项目履历、事件回顾、方法步骤",
+      "顺序变化会改变意义"
+    ],
+    "suitableAssets": [
+      "mixed",
+      "data",
+      "diagram"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "项目之间没有先后或因果",
+      "节点过多导致移动端不可读"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先锁定身份或事实锚点，再按该规则主动改变景别、裁切、位置、层间关系与可见范围。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化该规则的主骨架、阅读动作或主题隐喻时使用。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "总标题在路径之外建立主题；节点标题使用短动词或结果词，不能塞成长句",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "360 px 缩略图仍能识别标题、第一焦点与主阅读方向。"
+  },
+  "selectionSignals": [
+    "过程、成长、项目履历、事件回顾、方法步骤",
+    "顺序变化会改变意义",
+    "如果删除编号，连接关系本身是否仍能表达正确顺序？"
+  ],
+  "rejectionSignals": [
+    "把普通卡片排成一行后加箭头",
+    "节点过多且同权",
+    "路径方向与阅读方向冲突"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以 sequential-flow 作为唯一主骨架。",
+      "保持阅读动作：从起点沿连接线依次经过节点，最后到结论或结果。",
+      "保持参考中的主次重量、关键对齐、受保护留白和图文关系。"
+    ],
+    "adaptive": [
+      "当前标题、语义分组和信息数量",
+      "素材裁切、景别、位置、遮挡与背景",
+      "独立选择的字体风格",
+      "按当前内容重新建立的颜色角色与色值",
+      "目标媒介和画幅的独立重构"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“时间线布局”？"
+  },
+  "deepStudyStatus": "deep-studied",
+  "transformationGrammar": {
+    "minimumTransformationLevel": "T2",
+    "identityAnchors": [
+      "人物脸与真实表情",
+      "产品关键结构",
+      "事实与数据证据"
+    ],
+    "compositionFreedoms": [
+      "把 3–7 个关键节点压缩到一条主路径",
+      "用节点大小或颜色标记真正里程碑",
+      "将图片或人物姿态朝向下一节点"
+    ],
+    "imageRebuildActions": [
+      "把 3–7 个关键节点压缩到一条主路径",
+      "用节点大小或颜色标记真正里程碑",
+      "将图片或人物姿态朝向下一节点"
+    ],
+    "titleInteraction": [
+      "总标题在路径之外建立主题",
+      "节点标题使用短动词或结果词，不能塞成长句"
+    ],
+    "topicMetaphorExample": "职业履历可用三段路径连接关键成果，人物照片只在转折节点出现。"
+  },
+  "semanticFit": {
+    "templateFamily": "sequential-flow",
+    "bestFor": [
+      "过程、成长、项目履历、事件回顾、方法步骤",
+      "顺序变化会改变意义"
+    ],
+    "avoidFor": [
+      "项目之间没有先后或因果",
+      "节点过多导致移动端不可读"
+    ],
+    "selectionQuestion": "如果删除编号，连接关系本身是否仍能表达正确顺序？"
+  },
+  "failureModes": [
+    "把普通卡片排成一行后加箭头",
+    "节点过多且同权",
+    "路径方向与阅读方向冲突"
+  ]
+}

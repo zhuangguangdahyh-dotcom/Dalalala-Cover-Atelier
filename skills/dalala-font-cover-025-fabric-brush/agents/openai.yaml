@@ -1,0 +1,4 @@
+interface:
+  display_name: "025 帽面织物笔写测试依赖"
+  short_description: "参考 025 测试态字体，未获用户验收。"
+  default_prompt: "读取 dalala-cover-025-fabric-brush 的独立规则与原图，仅生成逐字准确的透明字层。"

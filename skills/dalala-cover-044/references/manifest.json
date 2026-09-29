@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-044",
+  "displayName": "参考封面 044",
+  "version": "0.1.0",
+  "status": "studied",
+  "sourceReference": "../assets/reference-original.jpg",
+  "sourceRegistryReference": "../../../参考封面图/dalala-cover-044-reference.jpg",
+  "annotatedReference": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedRatios": ["3:4"],
+  "headlineLength": {"hookLeadCharacters": [3, 5], "answerCharactersExcludingQuotes": [6, 8], "lineCount": 2},
+  "subjectTypes": ["full-body narrator", "wide contextual product or scene"],
+  "contentMood": ["personal discovery", "confident realization", "lifestyle credibility"],
+  "firstVisualFocus": "large two-stage display headline",
+  "spatialSkeleton": "large right-expanding title in upper 27 percent; full-body person center-left in front of near-full-width object across lower half",
+  "readingPath": ["hookLead", "answerTitle", "narrator face", "horizontalSubject"],
+  "imageTextRelation": "solid high-light lettering overlays darkened real architecture; photo narrative remains visible below",
+  "locked": ["two-line title staircase", "upper dense and middle breathing bands", "full-body center-left narrator", "wide lower contextual subject", "realistic narrator-before-subject occlusion", "solid high-contrast Song lettering with soft offset shadow"],
+  "adaptive": ["person identity and clothing", "topic and exact words", "industry-specific horizontal subject", "location", "specific color values within assigned roles", "camera-compatible lighting"],
+  "optional": ["paired quotation marks only if the answer phrase reads naturally with them"],
+  "forbidden": ["third title line", "unrelated luxury car by default", "promotional stickers", "tiny subject", "floating person cutout", "ordinary stock Song substitution", "thick outline or glow", "user-facing template title before final acceptance"],
+  "variableContract": {"person": "replace identity while retaining full-body scale, center-left position and front occlusion", "text": "rewrite to two-stage lead and answer without changing title block", "product": "replace with industry-relevant wide object or scene, preserving perspective and area", "color": "change hues while retaining warm muted background, two high-light text roles and bright lower subject"},
+  "invariantContract": {"layout": "hook x4-59 y4-15; answer x12-97 y17-27; figure x39-58 y40-91; horizontal subject x0-98 y51-85, with small tolerance", "area": "title dominant upper band; figure about 18-22 percent canvas width; contextual object 90-100 percent canvas width", "specialEffects": "natural foreground occlusion, photographic contact shadows, darkened detailed background, soft down-right lettering shadow"},
+  "assetTransformation": {"level": "T1-T2 depending on source", "triggers": ["rebuild complete person when source is cropped", "compose wide subject when missing", "match perspective and contact shadows when combining sources", "locally darken visually busy background under text"]},
+  "fontDependencies": [
+    {"role": "hookLead", "type": "font-style-id", "id": "dalala-cover-044-blade-song", "required": true},
+    {"role": "answerTitle", "type": "font-style-id", "id": "dalala-cover-044-blade-song", "required": true}
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-relaxed-pencil",
+  "displayName": "Dalala 松弛速写铅笔体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "clean-relaxed-pencil-with-powerful-human-vitality",
+    "styleSignature": "quick-hb-graphite-bilingual-handwriting",
+    "defaultIntensity": "alive-clean",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "approval": {
+    "scope": "visual-style-and-bilingual-handwriting",
+    "source": "output/font-concepts/dalala-pencil-handwriting-15/02-relaxed-sketch-bilingual.png",
+    "sha256": "a4c083c9c2e5b4a40faae2038287eea56ea165eb4525001fc8c4f1c35065d70c",
+    "productionGlyphReviewRequired": true
+  },
+  "intendedUse": [
+    "lifestyle-cover-title",
+    "personal-observation-title",
+    "light-emotion-title",
+    "bilingual-cover-title",
+    "clean-note-style-emphasis"
+  ],
+  "avoidUse": [
+    "formal-institutional-title",
+    "heavy-variety-show-title",
+    "long-body-copy",
+    "luxury-serif-editorial-title"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "alive-clean",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "text-accuracy-only"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "relaxed-quick-sketch-hb-pencil-handwriting",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "fill": "graphite-gray-with-pressure-variation",
+    "postures": [
+      "slight-forward-lean",
+      "slight-backward-lean",
+      "tall-loose",
+      "wide-relaxed",
+      "compact-rest",
+      "low-center-of-gravity"
+    ],
+    "boldMoves": [
+      "long-confident-entry",
+      "extended-cross-stroke",
+      "deep-descending-stroke",
+      "selective-double-trace",
+      "fast-diagonal-overshoot",
+      "pressure-accent-at-turn"
+    ],
+    "quietMoves": [
+      "light-short-rest",
+      "open-counter",
+      "small-contained-component",
+      "soft-lift",
+      "faint-construction-echo"
+    ],
+    "gestureStarts": [
+      "angled-pencil-contact",
+      "light-searching-entry",
+      "firm-graphite-press",
+      "tiny-restart"
+    ],
+    "gestureEndings": [
+      "quick-tapered-exit",
+      "dry-graphite-lift",
+      "short-pressure-release",
+      "slight-overshoot"
+    ],
+    "paintStates": [
+      "light-fast-graphite",
+      "mid-pressure-grain",
+      "dark-pressure-anchor",
+      "localized-double-trace",
+      "dry-paper-tooth-edge"
+    ],
+    "requiredPaintStatesPerGlyph": 3
+  },
+  "bilingualConstruction": {
+    "sameWriterRequired": true,
+    "chinese": "standard-readable-anatomy-with-independent-handwritten-proportions",
+    "englishLowercase": "relaxed-mixed-print-and-cursive-with-selective-connections",
+    "englishUppercase": "individually-drawn-irregular-capitals",
+    "numerals": "hand-drawn-and-pressure-matched",
+    "preserveCase": true,
+    "preserveSpelling": true,
+    "preservePunctuation": true,
+    "forbidTypesetSubtitleLook": true
+  },
+  "graphiteSurface": {
+    "leadCharacter": "clean-hb-to-light-2b",
+    "pressureContrast": "clearly-visible-but-controlled",
+    "allowLocalPaperTooth": true,
+    "allowSelectiveConstructionEcho": true,
+    "allowSelectiveRetrace": true,
+    "forbidGlobalGrainOverlay": true,
+    "forbidAllOverSmudging": true,
+    "forbidDirtyPaper": true,
+    "forbidCharcoalMass": true
+  },
+  "layout": {
+    "recommendedChineseCharactersPerLine": [4, 10],
+    "recommendedEnglishWordsPerLine": [2, 7],
+    "maximumLines": 3,
+    "keepBreathingSpace": true,
+    "allowNaturalBaselineDrift": true,
+    "allowSelectiveLigatures": true,
+    "allowLongStrokeIntoSpacing": true,
+    "forbidRigidGridAlignment": true
+  },
+  "vitalityPresets": {
+    "clean": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-2, 2],
+      "glyphScale": [0.94, 1.07],
+      "trackingFactor": [0.90, 1.08],
+      "pressureContrast": "medium",
+      "gestureDensity": "low-selective"
+    },
+    "alive-clean": {
+      "baselineShiftPercent": [-4, 4],
+      "rotationDegrees": [-5, 5],
+      "glyphScale": [0.86, 1.16],
+      "trackingFactor": [0.78, 1.12],
+      "pressureContrast": "medium-high",
+      "gestureDensity": "medium-high-selective"
+    },
+    "freehand-max": {
+      "baselineShiftPercent": [-6, 6],
+      "rotationDegrees": [-7, 7],
+      "glyphScale": [0.80, 1.22],
+      "trackingFactor": [0.70, 1.16],
+      "pressureContrast": "high",
+      "gestureDensity": "high-selective"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowEnglishCaseChange": false,
+    "allowSpellingChange": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-bilingual-text",
+      "standard-chinese-anatomy",
+      "exact-english-case-spelling-and-punctuation",
+      "same-writer-bilingual-rhythm",
+      "visible-graphite-pressure",
+      "per-glyph-proportion-posture-variation",
+      "selective-retrace-and-construction-echo",
+      "clean-uncluttered-surface",
+      "mobile-thumbnail-readable",
+      "approved-reference-match",
+      "true-alpha"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "verbatim-text-and-punctuation",
+      "standard-readable-chinese-anatomy",
+      "english-is-handwritten-and-not-typeset",
+      "chinese-and-english-feel-written-by-one-person",
+      "real-pressure-change-and-pencil-tooth-are-visible",
+      "adjacent-glyphs-differ-in-posture-or-proportion",
+      "paper-remains-clean-without-global-distress",
+      "title-remains-readable-at-360px",
+      "true-alpha-background"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "gray-font-plus-grain-overlay",
+    "uniform-font-skeleton",
+    "fully-consistent-baseline",
+    "identical-glyph-proportions",
+    "digital-outline",
+    "all-over-smudging",
+    "dirty-paper-texture",
+    "charcoal-black-mass",
+    "brush-calligraphy",
+    "childish-doodle-lettering",
+    "rounded-bubble-lettering",
+    "english-typeset-as-subtitle",
+    "uniform-cursive-script-font",
+    "decorative-pencils-or-stationery",
+    "shadow-or-3d-extrusion"
+  ]
+}

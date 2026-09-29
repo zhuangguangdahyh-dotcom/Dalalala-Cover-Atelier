@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-009-puffy-pop",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-009/assets/reference-original.jpg",
+  "roles": ["mainTitle", "cornerExclamation", "arcContext"],
+  "variants": {
+    "solid-display": {"script": ["Han", "Latin punctuation", "Arabic numerals"], "construction": "irregular wide soft-round hand-built display skeleton; visible open counters; varied terminal turns and glyph heights", "fill": "solid high-lightness", "strokeWidthToGlyphWidth": [0.14,0.24], "baselineVarianceGlyphHeightPercent": [3,8], "texture": "clean", "outlineBakedIntoGlyph": false},
+    "arc-outline": {"script": ["uppercase Latin"], "construction": "soft-round puffy outlined uppercase, individually rotated along shallow arch", "fill": "transparent", "outline": "clean high-lightness", "strokeWidthToGlyphWidth": [0.04,0.08], "arcSpanDegrees": [35,60], "trackingGlyphWidthPercent": [2,10]}
+  },
+  "requiredInputs": ["text", "variant", "canvasWidth", "canvasHeight", "glyphBoxes", "textColor"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": ["regular rounded font substitution", "uniform baseline", "closed counters", "brush grain", "blurred shadow", "all-around thick shadow", "wrong Chinese character", "flat Latin subtitle instead of arc"]
+}

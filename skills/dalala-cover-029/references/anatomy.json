@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-029",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "2274x3033 原图目测，bboxPercentXYXY 左上为原点；边缘估计误差约 ±2 个百分点，曲线以外接框和锚点描述",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "registryPath": "参考封面图/dalala-cover-ref-029.jpg",
+    "width": 2274,
+    "height": 3033,
+    "ratio": "2274:3033，近似3:4",
+    "sha256": "5d3224f059602458a0bc106d8e91e77c7b29137d5ca40be243ff975730e8b23e",
+    "visibleText": {
+      "mainTitle": "转场教程",
+      "subtitle": null,
+      "auxiliary": null
+    }
+  },
+  "primaryMechanism": "满版暗场真人实拍、顶部近满宽白色手作巨字、中央脸—手—小物动作链；两段分离的开放粗手绘动线在人物两侧形成运动环绕。原图曲线形状仅为证据，迁移时按新主体重绘，不逐点复制。",
+  "firstFocus": "白色主标题的巨大亮面；随后为中央脸部和表情",
+  "dominantAxis": "x约48%的标题—面部—小物纵轴，左下至右上的双开放弧为副轴",
+  "readingPath": [
+    "顶部白色四字",
+    "人物眼睛与笑容",
+    "中央手中道具",
+    "左下蓝线和浅色四角星",
+    "右中蓝线回环与浅色圆点",
+    "回到人物"
+  ],
+  "composition": {
+    "canvasRatio": "3:4",
+    "fullBleedPhotoPercent": [
+      0,
+      0,
+      100,
+      100
+    ],
+    "titleBandPercentY": [
+      7,
+      33
+    ],
+    "personFaceCenterPercent": [
+      48,
+      43
+    ],
+    "eyeLinePercentY": [
+      38,
+      40
+    ],
+    "personBodyApproxPercentXYXY": [
+      22,
+      27,
+      76,
+      100
+    ],
+    "orbitOuterBoundsPercentXYXY": [
+      4,
+      42,
+      95,
+      75
+    ],
+    "densityMap": "顶部高密度高对比；中上人物脸中密度；两侧暗背景低密度；下半身大暗面与一条蓝线中密度",
+    "protectedNegativeSpace": [
+      "顶部白字笔画之间的深色缝隙",
+      "脸两侧的暗背景",
+      "右下和左下未加字的暗场"
+    ],
+    "visualBalance": "上方白字重量最大；中央亮脸和浅衣承接；蓝弧将下半部及右侧重新拉住，浅圆点与四角星分置左右"
+  },
+  "elements": [
+    {
+      "role": "photoBackground",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 4,
+      "notes": "单幅连续室内生活实拍，全幅暗化；背景物件保留空间真实性但低对比"
+    },
+    {
+      "role": "darkGrade",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 1,
+      "visualRank": 7,
+      "notes": "上缘棕黑、下缘近黑，中部脸和浅衣保留细节；柔和局部压暗，不是硬黑色信息牌"
+    },
+    {
+      "role": "person",
+      "bboxPercentXYXY": [
+        22,
+        27,
+        76,
+        100
+      ],
+      "layer": 2,
+      "visualRank": 2,
+      "notes": "腰部以上中景，帽顶y27%，脸x37–59%/y34–51%，底部裤腿被裁断；非大头近景"
+    },
+    {
+      "role": "heldObject",
+      "bboxPercentXYXY": [
+        44,
+        48,
+        52,
+        57
+      ],
+      "layer": 3,
+      "visualRank": 3,
+      "notes": "有卡通图案的小型手持物，品类无法可靠确定；与握持手构成真实动作证据"
+    },
+    {
+      "role": "mainTitle",
+      "bboxPercentXYXY": [
+        4,
+        7,
+        96,
+        33
+      ],
+      "layer": 4,
+      "visualRank": 1,
+      "notes": "转场教程，四字单行；独立真透明前景字层，压在场景照片、人物、帽顶和局部修复之上；下缘与帽顶少量交叠但不遮眉眼"
+    },
+    {
+      "role": "warmCircle",
+      "bboxPercentXYXY": [
+        74,
+        39,
+        83,
+        46
+      ],
+      "layer": 5,
+      "visualRank": 5,
+      "notes": "原图右中浅色实心点被蓝弧压住下部；迁移时可在右侧负空间小幅移动，交叠不必机械复制。"
+    },
+    {
+      "role": "warmSpark",
+      "bboxPercentXYXY": [
+        32,
+        63,
+        42,
+        74
+      ],
+      "layer": 5,
+      "visualRank": 6,
+      "notes": "手绘空心四角星，竖向拉长；在衣服前，处于双弧断口附近"
+    },
+    {
+      "role": "openArcs",
+      "bboxPercentXYXY": [
+        4,
+        42,
+        95,
+        73
+      ],
+      "layer": 6,
+      "visualRank": 3,
+      "notes": "原图是两段分离的开放蓝色粗弧；此包围框仅为原图观察值。新内容保留双段开放、收尖、围拢人物的视觉功能，但曲率和端点必须重画。"
+    }
+  ],
+  "absentRoles": {
+    "subtitle": "无",
+    "auxiliaryText": "无",
+    "brand": "无独立字标",
+    "cta": "无"
+  },
+  "depthAndTransformation": {
+    "foreground": "白色标题完整覆盖照片与帽顶；两段平面曲线在人物衣服和两侧暗场前，但避开标题、脸与道具；点缀随新曲线路径自然决定局部遮挡",
+    "midground": "腰部以上真人与手持小物，握持手及交叉手臂",
+    "background": "真实室内环境与暗部渐层",
+    "crop": "3:4 满版；人物下身出底边，左右暗场仍保留；不使用分割拼贴",
+    "cutout": "原图无明显整人抠图边缘；主体与场景连续，仅可能局部光比控制",
+    "perspective": "平视或轻微低视角真人中近景，背景遵守同一实拍透视；图形为平面叠加",
+    "repeat": "无人物或产品重复；两段同色开放弧；一枚圆点、一枚空心四角星"
+  },
+  "typography": {
+    "mainTitle": "四字单行，厚重实心手工块字，近等粗但每字笔画宽窄和端点不齐；笔画有轻微圆钝／平切混合，字面白色近无纹理、无显著描边或投影；字距紧而不碰笔，字符视觉高低和转角略不一致",
+    "titleBlock": "四字单行x4–96/y7–33；整行外接框26%画高，每字18–24%画高，宽18–26%画宽；字间0.5–2%画宽；高度起伏10–25%相对差异，无跨行行距",
+    "subtitle": null,
+    "auxiliary": null
+  },
+  "colorRoles": {
+    "areaBasis": "互斥着色面积复刻估值，非实测分割；外接框不能与像素面积混加",
+    "targetAreaPercent": {
+      "darkBackgroundAndClothes": [
+        60,
+        68
+      ],
+      "subjectMidLight": [
+        17,
+        24
+      ],
+      "titleInk": [
+        11,
+        15
+      ],
+      "openArcInk": [
+        2,
+        4
+      ],
+      "accentInk": [
+        0.5,
+        1.5
+      ]
+    },
+    "adjustment": "各范围为非独立选择的视觉估值，制作时按实际互斥着色面积归一化到100%。",
+    "lightnessOrder": "背景暗；人物中亮；标题最亮；线中饱和偏冷；点缀浅暖但小",
+    "palettePolicy": "不固定HEX，保持冷暖相对关系、明暗结构、面积与对比；面部肤色不漂移",
+    "contrastQA": "后续在成图逐字检测标题对暗底，建议至少4.5:1，当前未测试"
+  },
+  "materialsAndEffects": [
+    "连续暗场实拍，保留皮肤、衣褶和器物透视",
+    "柔边局部控光，不能把背景压成纯黑",
+    "干净实心手作标题，无显著描边阴影或飞白",
+    "两段宽度起伏和两端收尖的平面粗弧；具体路径随新主体重画",
+    "一枚不规则实心圆点、一个厚线空心四角星，无三维投影"
+  ],
+  "semanticFit": [
+    "有真人账号身份或鲜明人物",
+    "能够用短句形成一个清楚的观点或情绪承诺",
+    "有主题相关的小物件／手势和可信环境",
+    "适合人物口播、体验记录、轻情绪表达"
+  ],
+  "failureModes": [
+    "主标题缩小、双行或换普通黑体",
+    "标题遮住眼鼻口",
+    "换成纯色背景或多图拼贴",
+    "人物太小／多人并列",
+    "点缀大量增加或变主角",
+    "长副标题／CTA侵占下方暗场",
+    "道具与行业主题不相干",
+    "人物出现手部或产品结构错误",
+    "只替换文字未跨主题验证即上架",
+    "人物抠图、帽子或修复层在白字之上造成笔画缺损",
+    "蓝弧穿过标题或误将圆点压在蓝弧上方",
+    "两段曲线逐点照描原图，未随新主体重画",
+    "两段曲线闭合为规整椭圆或随意加第三段",
+    "为了模仿原图而强造圆点与曲线交叉"
+  ],
+  "analysisJobId": "2670eb00-c7b7-4142-974c-c6d0f9669b19",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "openArcGeometry": {
+    "sourceObservationOnly": true,
+    "sourceOuterBoundsPercentXYXY": [
+      4,
+      42,
+      95,
+      73
+    ],
+    "sourceLeftBoundsPercentXYXY": [
+      4,
+      50,
+      29,
+      73
+    ],
+    "sourceRightBoundsPercentXYXY": [
+      45,
+      42,
+      95,
+      70
+    ],
+    "productionRule": "保留两段同色、开放、宽笔触及收尖；在左右中下负空间围拢人物，随新人物、动作、道具重新设曲率与起止点。不得按原图锚点描摹。",
+    "productionZonePercentXYXY": [
+      3,
+      42,
+      97,
+      75
+    ],
+    "strokeWidthPercentW": [
+      1.2,
+      2.2
+    ],
+    "gapPercentW": [
+      10,
+      22
+    ],
+    "protect": [
+      "mainTitle",
+      "eyesNoseMouth",
+      "heldObject"
+    ],
+    "dotOcclusion": "若曲线经过实心点，按新路径保持一致的前后关系；不强制复制原图圆点被压位置"
+  },
+  "transformationGrammar": [
+    {
+      "when": "裁切后帽顶与眼线不在既定区域",
+      "action": "先重裁切或选择适合的腰部以上实拍",
+      "reason": "保持人物识别链和标题暗区"
+    },
+    {
+      "when": "上方没有足够场所空间",
+      "action": "同透视向上扩图，失败换素材",
+      "reason": "不缩标题迁就底图"
+    },
+    {
+      "when": "背景亮点争夺标题和脸",
+      "action": "柔边蒙版压暗和降局部对比，保护脸与物",
+      "reason": "建立最亮标题、次亮人物"
+    },
+    {
+      "when": "跨行业换小物",
+      "action": "保留真实握持及物体几何，限制x44–52/y48–57附近的小道具重量",
+      "reason": "小物作证据而非第二主角"
+    },
+    {
+      "when": "增加运动装饰",
+      "action": "先圈定标题、脸、道具保护区，再在人物左右负空间新绘两段开放收尖曲线；维持色彩和层级，改变原图曲率和端点",
+      "reason": "保留线条的视觉作用，同时避免机械描摹原图"
+    }
+  ],
+  "revision": {
+    "jobId": "2670eb00-c7b7-4142-974c-c6d0f9669b19",
+    "brief": "不要完全抄画面的线条，但是可以保留样式、色彩风格等",
+    "focus": "保留双段开放手绘动线的功能、粗细、前景层级和色彩角色，取消逐点复刻的路径约束；曲率、端点和与点缀的局部遮挡随主题重画。",
+    "previousJobId": null
+  },
+  "layerOrderBackToFront": [
+    "continuousPhotoIncludingPersonHatHeldObject",
+    "photoGradingAndRepairs",
+    "warmCircleAndSpark",
+    "mainTitleTransparentLayer",
+    "twoOpenBlueArcs"
+  ],
+  "occlusionRules": {
+    "mainTitleVsPerson": "主标题在整张实拍和帽顶之上；字下缘与帽顶小范围交叠，帽子或头发修复层不得反盖或切断白字",
+    "mainTitleVsFace": "标题不进入眉眼鼻口识别区",
+    "mainTitleVsArcs": "蓝弧合成层在字层之上，但原参考空间无相交；不得让弧线穿字",
+    "rightArcVsCircle": "原图右弧压圆点下部；迁移时是否交叠由新动线决定，不为复制原图硬造交叉。",
+    "sparkVsArc": "星形与曲线按新动线保持呼应，毋须复制原图相对坐标或强行相交。",
+    "arcsVsSubject": "两段曲线可局部压衣服或手臂边缘，绕开脸和主题小物；实际交叠随人物姿势重定。"
+  }
+}

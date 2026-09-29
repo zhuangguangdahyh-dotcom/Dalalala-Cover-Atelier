@@ -1,0 +1,23 @@
+{
+  "id": "dalala-cover-002-editorial-serif",
+  "status": "testing",
+  "version": "0.1.0",
+  "sourceReference": "../../dalala-cover-002/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "mainTitle",
+    "topImprint",
+    "sideEdition",
+    "issueLine"
+  ],
+  "rules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "chineseStatus": "untested",
+  "fill": "solid",
+  "strokeContrastRatio": [
+    12,
+    25
+  ],
+  "effects": []
+}

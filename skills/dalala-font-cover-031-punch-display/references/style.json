@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-031-punch-display",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-031/assets/reference-original.jpg",
+  "approvedReference": null,
+  "renderer": "imagegen-transparent-title-layer",
+  "scripts": ["han-simplified", "latin-mixed-case", "arabic-numerals"],
+  "characterRules": {
+    "skeleton": "large-square-grotesk-display-with-controlled-hand-cut-latin-accent",
+    "weight": "ultra-black",
+    "hanTerminals": "mostly-flat-and-square, no-rounded-pill-counters",
+    "counter": "small-but-open-at-360px",
+    "topHanTrackingAsGlyphWidthPercent": [-2, 1],
+    "topHanLineCount": 1,
+    "topHanFill": "solid bright high-chroma color, no gradient",
+    "topLatinHeightToHanRatio": [1.2, 1.45],
+    "topLatinConstruction": "asymmetric hand-cut heavy A and i, legible exact letters, not a tiny caption",
+    "lowerLeadScaleToTopHan": [0.55, 0.65],
+    "lowerNumeralHeightToNeighborHan": [1.15, 1.3],
+    "lowerPayoffLineCount": 1,
+    "lowerPayoffContour": "heavy dark outline around bright solid fill with restrained baseline bounce"
+  },
+  "variants": {
+    "top-han": "single-row near-full-width ultra-heavy square Han glyphs; bright solid face, separate hard dark offset shadow",
+    "top-latin": "short emphasized Ai-like Latin term visibly taller and less regular than Han; exact letter case and shape",
+    "lower-lead": "compact one-row heavy glyphs; selected numeral or short anchor may be white and 15-30% taller; separate dark hard shadow",
+    "lower-payoff": "heavy bright-filled dark-outlined glyphs on a separate white rectangular band; small local slant/bounce, not scattered stickers"
+  },
+  "effectMetrics": {
+    "topHardShadowOffsetCanvasWidthPercent": [1, 2],
+    "topHardShadowOffsetCanvasHeightPercent": [0.6, 1.2],
+    "lowerPayoffOutlineCanvasWidthPercent": [0.3, 0.6],
+    "softGlowAllowed": false
+  },
+  "textAccuracy": {"mustMatchVerbatim": true, "allowExtraText": false, "allowPseudoGlyphs": false},
+  "thumbnailWidthPx": 360,
+  "failurePolicy": "manual-review"
+}

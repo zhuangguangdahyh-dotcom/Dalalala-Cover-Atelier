@@ -1,0 +1,6 @@
+interface:
+  display_name: "Dalala 350 排版规则"
+  short_description: "按内容与素材调用或选择项目内的 350 套独立封面排版规则"
+  default_prompt: "Use $dalala-layout-rule-engine to select and lock one project-local layout rule for this cover."
+policy:
+  allow_implicit_invocation: true

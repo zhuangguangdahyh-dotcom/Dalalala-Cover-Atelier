@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-231",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/231.jpg",
+  "observedTitle": "双列页面",
+  "referenceContentMap": {
+    "primarySubject": "右半部两列平行案例，左列中文自然生活，右列英文 Design for Life",
+    "mainTitle": "左上三行超大标题",
+    "subtitle": "标题下方英文名与左中说明",
+    "supportingInformation": "右侧两列标题、图像和要点，左下设计要点与底部线框示意",
+    "decorations": "中央分隔线、列内短横线、圆点和统一底部基线",
+    "protectedWhitespace": "两列之间的分隔沟、列内标题与图像之间的空隙"
+  },
+  "coverTranslation": {
+    "templateFamily": "split-comparison",
+    "subjectRole": "把两侧主体裁成相近视觉重量",
+    "mainTitleRole": "总标题位于双列之外或跨越两列",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "中央分隔线、列内短横线、圆点和统一底部基线"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "两列之间的分隔沟、列内标题与图像之间的空隙",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "先识别双列关系，再左右对照同层信息，最后读取共同结论。",
+    "assetOperations": [
+      "把两侧主体裁成相近视觉重量",
+      "锁定共同顶部、图像线与结论线",
+      "允许一侧用更强对比表示结论，但结构仍对齐"
+    ]
+  }
+}

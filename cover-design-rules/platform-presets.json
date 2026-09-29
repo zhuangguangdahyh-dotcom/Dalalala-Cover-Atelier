@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "defaultWhenPlatformUnspecified": {
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "orientation": "portrait"
+  },
+  "platforms": {
+    "xiaohongshu": {
+      "displayName": "小红书",
+      "aliases": ["小红书", "xhs"],
+      "defaultRatio": "3:4",
+      "allowedRatios": {
+        "3:4": {"width": 1080, "height": 1440, "orientation": "portrait"}
+      }
+    },
+    "douyin": {
+      "displayName": "抖音",
+      "aliases": ["抖音", "douyin"],
+      "defaultRatio": "3:4",
+      "allowedRatios": {
+        "3:4": {"width": 1080, "height": 1440, "orientation": "portrait"},
+        "4:3": {"width": 1440, "height": 1080, "orientation": "landscape"}
+      }
+    },
+    "bilibili": {
+      "displayName": "Bilibili",
+      "aliases": ["Bilibili", "bilibili", "B站", "哔哩哔哩"],
+      "defaultRatio": "4:3",
+      "allowedRatios": {
+        "4:3": {"width": 1440, "height": 1080, "orientation": "landscape"},
+        "16:9": {"width": 1920, "height": 1080, "orientation": "landscape"}
+      }
+    },
+    "wechat-channels": {
+      "displayName": "视频号",
+      "aliases": ["视频号", "微信视频号", "wechat channels"],
+      "defaultRatio": "3:4",
+      "allowedRatios": {
+        "3:4": {"width": 1080, "height": 1440, "orientation": "portrait"}
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dalala-cover-056-street-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "scripts": ["Han"],
+  "skeleton": "high-contrast modern Song with thick verticals, thin horizontals, crisp triangular serifs and stable standard Han structure",
+  "variants": {
+    "hero": {"lineCount": 1, "characters": [4, 6], "trackingGlyphWidthPercent": [0, 3], "relativeCharacterHeight": 1},
+    "support": {"lineCount": 1, "characters": [5, 7], "trackingGlyphWidthPercent": [2, 5], "relativeCharacterHeight": [0.42, 0.48]}
+  },
+  "colorApplication": "two neighboring pale colors split at semantic phrase boundary, not random per character",
+  "effect": "short soft lower-right gray shadow, offset about 0.3–0.6% of full canvas width",
+  "background": "transparent",
+  "forbidden": ["brush texture", "coarse distress", "rounded terminals", "heavy black outline", "3D extrusion", "rotated individual glyphs", "generic Song fallback"]
+}

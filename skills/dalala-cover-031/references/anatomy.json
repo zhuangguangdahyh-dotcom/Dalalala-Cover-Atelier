@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-031",
+  "status": "studied-awaiting-user-confirmation",
+  "measurementBasis": "1086x1448 原图目测；bboxPercentXYXY 从左上角归一；视觉边界容差约正负2-3个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "registryPath": "参考封面图/dalala-cover-ref-031.jpg",
+    "width": 1086,
+    "height": 1448,
+    "ratio": "3:4",
+    "sha256": "cf257cc0cae99a5bdd785df83d6058b4f1402bd845979647ddc7b2ce065d6297",
+    "visibleText": {
+      "mainTitle": "别搭 Ai 工作流",
+      "lowerLead": "普通人的 4 种",
+      "lowerPayoff": "｜生活化用法｜",
+      "independentBrandOrCTA": false
+    }
+  },
+  "primaryMechanism": "顶部近满宽高饱和黄字与黑硬影给出反常识命令；右侧大近景人物扶头思考，真实工作桌与围绕其头部的工具卡片提供情境；左下两级文字给出可落地答案",
+  "firstFocus": "x3-98/y4-18 单行黄黑主标题，其中 Ai 明显加大",
+  "secondFocus": "x56-91/y34-59 的人物脸和扶头动作",
+  "dominantAxis": "顶端横向扫读，向右侧人物脸下落，再折回左下结果条；右下人物重量由左下文字和桌面平衡",
+  "visualCenterXYPercent": [64, 46],
+  "readingPath": ["顶部否定式主标题", "右侧真人眼神与双手", "周围工具/内容卡片", "左下人群与数量", "白色底条中的结果类别"],
+  "composition": {
+    "ratio": "3:4",
+    "topTitleZoneXYXY": [3, 4, 98, 18],
+    "personZoneXYXY": [35, 25, 100, 100],
+    "faceSafeZoneXYXY": [56, 34, 91, 59],
+    "floatingCardsOverallXYXY": [7, 1, 99, 55],
+    "lowerLeadXYXY": [5, 60, 48, 68],
+    "lowerPayoffBandXYXY": [5, 69, 48, 76],
+    "topTitleWidthPercent": [92, 96],
+    "personVisualAreaPercent": [43, 50],
+    "floatingCardsCount": [4, 8],
+    "floatingCardsVisualAreaPercent": [10, 16],
+    "negativeSpace": ["主标题局部背景低对比", "人物眼镜/眼睛/嘴周围不压字和卡片", "左下文字下方保留桌面与衣服延伸"]
+  },
+  "elements": [
+    {"role": "realRoomDeskBackground", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "visualRank": 5, "relation": "室内横梁、窗侧光、桌面、电脑和设备形成真实生活工作现场"},
+    {"role": "deskToyAndEquipment", "bboxPercentXYXY": [0, 20, 50, 100], "layer": 1, "visualRank": 6, "relation": "左侧生活尺度陪衬，桌面透视向画面下方延伸；人偶约x7-27/y35-54"},
+    {"role": "floatingToolCards", "bboxPercentXYXY": [7, 1, 99, 55], "layer": 2, "visualRank": 4, "relation": "不同尺寸、方向、深度的有主题依据卡片，围绕头部，部分被主标题压住"},
+    {"role": "humanPresenter", "bboxPercentXYXY": [35, 25, 100, 100], "layer": 3, "visualRank": 2, "relation": "右侧近景真人，双手扶头，右/下越框，脸部清晰并位于卡片群前"},
+    {"role": "mainTitle", "bboxPercentXYXY": [3, 4, 98, 18], "layer": 5, "visualRank": 1, "relation": "单行近满宽；超重黄色汉字和特大 Ai；黑色硬影向右下；压住远层卡片"},
+    {"role": "lowerLead", "bboxPercentXYXY": [5, 60, 48, 68], "layer": 5, "visualRank": 3, "relation": "左下紧凑一行，人群词+白色数量锚点+单位；黑影保读"},
+    {"role": "lowerPayoff", "bboxPercentXYXY": [5, 69, 48, 76], "layer": 6, "visualRank": 3, "relation": "白色实体横条中的黄字黑描边；以竖线夹住结果词"}
+  ],
+  "typography": {
+    "topHan": "方角超黑展示字，近等粗大字面，字距约-2%至+1%字宽，单行，亮色实填与右下黑硬影",
+    "topLatin": "Ai 为高出汉字约1.2-1.45倍的手切异形重字，保持英文准确可读，不是小号副标题",
+    "lowerLead": "字高约顶部汉字0.55-0.65倍；数字4为白色且比邻字高1.15-1.3倍；黄字和白字同用黑影",
+    "lowerPayoff": "白底条高约6.5-7.5%画高，字黄填黑描边约0.3-0.6%画宽，微小高低/倾斜变化，整体仍紧凑一行",
+    "lineCount": {"mainTitle": 1, "lowerLead": 1, "lowerPayoff": 1}
+  },
+  "colorRoles": {
+    "photoAndNeutralVisibleAreaPercent": [75, 85],
+    "highChromaTitleAreaPercent": [8, 14],
+    "darkShadowAndEquipmentVisualWeightPercent": [8, 15],
+    "whitePayoffBandAreaPercent": [3, 5],
+    "logic": "明亮高纯度主字、深色硬影、低饱和实景、白色结果条；具体色值不锁定"
+  },
+  "materialAndEffects": ["真实肤色、布料、桌面与设备反光", "漂浮UI卡圆角、轻透视、柔影、少量景深和运动模糊", "顶部字右下黑硬影", "左下字影和白底描边结果条", "局部背景降对比但不整体糊成纯色"],
+  "fontDependencies": [
+    {"role": "topHan/topLatin/lowerLead/lowerPayoff", "type": "font-style-id", "id": "dalala-cover-031-punch-display", "required": true, "status": "testing"}
+  ],
+  "failureModes": ["真人太小或居中", "脸、眼睛或嘴被标题/卡片盖住", "卡片成为整齐网格或随机logo雨", "顶部字变两行或普通粗黑体", "Ai误读", "底部结果条变大CTA按钮", "人物肢体或工具UI失真", "高饱和卡片超过主标题", "只移动文字不重建人物与工作桌空间"]
+}

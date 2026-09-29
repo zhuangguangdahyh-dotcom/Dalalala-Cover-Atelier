@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-042",
+  "displayName": "参考封面 042",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "7be5a3c1-02bd-4248-bea1-e6a0a0aafae9",
+  "analysisReport": "skills/dalala-cover-042/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "sourceRatio": "3:4",
+  "verifiedRatios": [],
+  "plannedRatioVariants": [],
+  "titleLength": {
+    "upperTitlePreferredHan": 4,
+    "upperTitleLines": 2,
+    "upperTitleHanPerLine": 2,
+    "lowerTitlePreferredHan": 4,
+    "lowerTitleLines": 2,
+    "lowerTitleHanPerLine": 2,
+    "emotionHandnotePreferredHan": 4
+  },
+  "subjectTypes": [
+    "同场景或共光双人近景",
+    "有表情关系的人与宠物",
+    "经真实测试后可辨关系的双产品角色"
+  ],
+  "contentEmotions": [
+    "轻喜",
+    "亲密",
+    "关系反转",
+    "温柔悬念",
+    "双主角故事"
+  ],
+  "firstFocus": "左上大脸和右下前景脸构成双主角情绪对角；右上冷色厚字给出关系钩子",
+  "spatialStructure": [
+    "3:4 明亮室内写真通幅",
+    "左上近景 A 与右下前景 B",
+    "右上和左下两处浅色写字区",
+    "两组各 2+2 字同向阶梯厚字，分占右上与左下",
+    "左中暖色手写情绪桥"
+  ],
+  "readingPath": [
+    "左上主体眼神",
+    "右上关系标题",
+    "中部情绪手写线",
+    "右下主体表情",
+    "左下结果标题"
+  ],
+  "imageTextRelationship": "两块厚字占据双人对角的空白角，手写情绪线在中部桥接双人；文字避开脸部身份与表情锚点。",
+  "locked": [
+    "双人对角近景及前后遮挡",
+    "右上与左下各两行厚字及阶梯错位",
+    "左中手写情绪线",
+    "两处浅色写字区",
+    "冷暖面积与两组相反字面/影层关系"
+  ],
+  "adaptive": [
+    "两位主角身份和服装",
+    "行业与完整主题文案",
+    "产品或道具原型",
+    "真实室内细节与具体色值",
+    "连载号内容",
+    "左缘墙面纸张等不承担语义的现场细节可弱化"
+  ],
+  "optional": [
+    "连载号与系列字",
+    "两枚粉色类手绘标记的具体形状"
+  ],
+  "forbidden": [
+    "两人等大并排",
+    "人脸被标题压住",
+    "主标题改为一整行或三行",
+    "普通黑体或毛笔字体静默替代",
+    "用原图恋爱词做跨行业测试",
+    "未验收标记 active"
+  ],
+  "variableContract": {
+    "person": "人物身份、服装、表情可变，但左上 A 脸 x6–49%/y0–43%、右下 B 前景 x34–100%/y39–100% 和错位关系需保持",
+    "text": "词句可变；上右和下左各 2+2 字阶梯块及中段四字左右手写线不变，过长先改写",
+    "product": "可替换为双产品或人宠关系，但必须有前后景、体量差和可理解的关系，不允许两个等大孤立图标",
+    "palette": "具体色值可变；高明度照片、冷色厚字与暖色少量手写、深发配重及两组字面/硬影倒置关系保持"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "layout": "3:4；A 左上近景、B 右下前景；上字 x54–97%/y5–28%，中线 x4–47%/y45–60%，下字 x3–42%/y73–95%；两块标题的第二行均向右移约画幅宽 12–15%",
+    "contentArea": "高明度照片可见背景与肤色约70–80%，深发及阴影约18–25%，两组厚字及硬影约7–12%，暖色手写及标记约2–4%；各角色与照片重叠，按视觉重量核对，非互斥像素占比",
+    "effects": [
+      "统一写真柔光与发丝细节",
+      "人物肩发前后遮挡",
+      "上组冷实字/深灰硬影",
+      "下组浅实字/冷色硬影",
+      "自由手写情绪线与少量涂记"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "已有同框双人、光向与空白符合",
+      "level": "T1",
+      "action": "重裁近景，保眼口，扩展浅窗和左下浅区"
+    },
+    {
+      "when": "分别提供双人素材",
+      "level": "T2",
+      "action": "保身份后组合双人前后景，统一镜头高度、色温、景深和接触阴影"
+    },
+    {
+      "when": "无可信双主角或浅色写字区",
+      "level": "stop",
+      "action": "补充素材或另选模板，不以镜像单人或无关图标代替"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "upperTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-042-soft-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "lowerTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-042-soft-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "emotionSubtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-042-heart-hand",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "episodeMark",
+      "type": "font-style-id",
+      "id": "dalala-cover-026-roman-serif",
+      "variant": "issue",
+      "required": false,
+      "status": "testing"
+    },
+    {
+      "role": "seriesMark",
+      "type": "font-style-id",
+      "id": "dalala-breath-cut-song",
+      "required": false,
+      "status": "active"
+    }
+  ],
+  "fontRegistryEntries": "font-registry-entries.json",
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

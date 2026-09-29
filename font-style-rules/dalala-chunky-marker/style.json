@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-chunky-marker",
+  "displayName": "Dalala 粗记号趣味体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "powerful-human-vitality",
+    "styleSignature": "chunky-marker-playful-vitality",
+    "defaultIntensity": "playful",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "playful-cover-title",
+    "light-entertainment-title",
+    "casual-reaction-title",
+    "lifestyle-emphasis-title"
+  ],
+  "avoidUse": [
+    "long-body-copy",
+    "formal-institutional-title",
+    "luxury-editorial-title",
+    "dense-information-layout"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "playful",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "none"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "solid-chunky-chisel-marker-handwriting",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "fill": "solid-near-black",
+    "componentProportionVariation": [0.15, 0.32],
+    "strokeWidthRatioWithinStroke": [0.58, 0.88],
+    "normalAngleVariationDegrees": [2, 9],
+    "heroStrokeAngleMaxDegrees": 13,
+    "longStrokeExtension": [0.10, 0.28],
+    "shortStrokeReduction": [0.08, 0.22],
+    "postures": [
+      "squat",
+      "tall",
+      "forward-lean",
+      "backward-lean",
+      "wide-stretch",
+      "compressed-components"
+    ],
+    "markerStarts": [
+      "flat-chisel-press",
+      "blunt-block-start",
+      "angled-nib-start",
+      "local-double-press"
+    ],
+    "markerEndings": [
+      "flat-cut",
+      "fast-taper",
+      "short-drag",
+      "rounded-pressure-release",
+      "angled-chisel-stop"
+    ],
+    "boldMoves": [
+      "long-chisel-overshoot",
+      "oversized-marker-dot",
+      "heavy-overlap-turn",
+      "deep-descending-stroke",
+      "wide-component-stretch",
+      "abrupt-short-counterstroke"
+    ],
+    "quietMoves": [
+      "clean-short-rest",
+      "compact-counter",
+      "steady-anchor-stroke",
+      "light-pressure-release",
+      "small-contained-component"
+    ],
+    "gestureStarts": [
+      "flat-chisel-press",
+      "blunt-block-start",
+      "angled-nib-start",
+      "local-double-press"
+    ],
+    "gestureEndings": [
+      "flat-cut",
+      "fast-taper",
+      "short-drag",
+      "rounded-pressure-release",
+      "angled-chisel-stop"
+    ],
+    "requiredPaintStatesPerGlyph": 3,
+    "paintStates": [
+      "dense-solid-ink",
+      "overlap-darkening",
+      "fast-directional-streak",
+      "local-fibre-feathering"
+    ]
+  },
+  "markerSurface": {
+    "inkDensity": "rich-solid-black",
+    "allowLocalInkPooling": true,
+    "allowStrokeOverlap": true,
+    "allowTinyFastStrokeStreak": true,
+    "allowLocalFibreFeathering": true,
+    "forbidAllOverTexture": true,
+    "forbidPaintbrushBristles": true,
+    "forbidHollowOutline": true
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 8],
+    "maximumLines": 2,
+    "heroGlyphsPerLine": [1, 2],
+    "allowLocalCollision": true,
+    "allowLongStrokeIntoAdjacentSpacing": true,
+    "punctuationCanEnlargeOrSink": true,
+    "keepQuietGlyphBetweenHeroGlyphs": true
+  },
+  "vitalityPresets": {
+    "casual": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-2, 2],
+      "glyphScale": [0.95, 1.07],
+      "trackingFactor": [0.86, 1.04],
+      "heroScale": [1.08, 1.14],
+      "gestureDensity": "low"
+    },
+    "playful": {
+      "baselineShiftPercent": [-4, 4],
+      "rotationDegrees": [-4, 4],
+      "glyphScale": [0.88, 1.16],
+      "trackingFactor": [0.74, 1.00],
+      "heroScale": [1.14, 1.24],
+      "gestureDensity": "medium-high"
+    },
+    "wild": {
+      "baselineShiftPercent": [-6, 6],
+      "rotationDegrees": [-6, 6],
+      "glyphScale": [0.82, 1.22],
+      "trackingFactor": [0.66, 0.96],
+      "heroScale": [1.20, 1.32],
+      "gestureDensity": "high-selective"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "solid-marker-fill",
+      "visible-chisel-nib-direction",
+      "per-stroke-length-angle-variation",
+      "per-glyph-proportion-and-posture-variation",
+      "selective-marker-texture",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "solid-marker-not-hollow-outline",
+      "one-or-two-clear-hero-glyphs-per-line",
+      "adjacent-glyphs-have-different-proportion-or-posture",
+      "marker-pressure-and-nib-direction-are-visible",
+      "texture-is-local-not-uniform",
+      "title-remains-immediately-readable"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "hollow-outline-lettering",
+    "double-contour",
+    "paintbrush-dry-bristles",
+    "smooth-bubble-font",
+    "uniform-rounded-terminals",
+    "standard-bold-font-with-distortion",
+    "all-glyphs-same-proportion",
+    "all-over-paper-or-ink-texture",
+    "calligraphy-splashes",
+    "decorative-stickers-or-faces",
+    "shadows-or-3d-extrusion"
+  ]
+}

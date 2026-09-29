@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-043-editorial-serif",
+  "version": "0.1.0",
+  "status": "testing",
+  "kind": "generative-lettering-style",
+  "source": "skills/dalala-cover-043/assets/reference-original.jpg",
+  "scripts": ["Latin"],
+  "roles": ["mainTitle", "topEyebrow", "bottomMicroMark"],
+  "variants": {
+    "display-roman": "高对比但柔和过渡的实色罗马衬线，标题三行",
+    "delicate-italic": "同一衬线体系的小号轻斜体，仅顶底微字"
+  },
+  "renderer": "imagegen-transparent-title-layer",
+  "approvedReference": null,
+  "qa": "vitality-qa.md"
+}

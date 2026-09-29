@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-037",
+  "displayName": "参考 037",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "1655f55b-a1b0-469d-8008-6634c56c308f",
+  "analysisReport": "skills/dalala-cover-037/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "ratios": ["3:4"],
+  "titleLength": {"leadChineseCharacters":[3,5], "payoffChineseCharacters":[3,5], "totalChineseCharacters":[6,9], "latinMastheadCharacters":[3,7], "latinTaglineWords":[3,5]},
+  "subjectTypes": ["同一人物的多状态叙事", "有可抠出前景和多阶段证据的动物、产品或空间"],
+  "contentEmotions": ["身份转变", "回望", "冲突", "克制", "电影感"],
+  "firstFocus": "中央人脸与被其遮住的超宽白色细线中文",
+  "spatialStructure": ["上灰幕", "上非对称双图", "中满宽冷暗主场", "下暖左暗右双图", "中央主体跨带并压字"],
+  "readingPath": ["顶部英文", "上层过去与处境", "中文前段", "中央脸和中文后段", "下层冲突与结果"],
+  "imageTextRelationship": "中文命题横穿中段并由中央人物自然遮挡，五段不同状态影像提供命题证据。",
+  "locked": ["3:4 五带纵向节奏", "上非对称双图和下双图", "中央前景跨带并压第二段字", "中文两段一行且前小后大", "英文两级幕题", "上灰/中冷/下左暖/下右暗的面积与对比关系"],
+  "adaptive": ["人物或行业对象", "五段具体叙事素材", "文字内容", "场景物件", "具体色值"],
+  "optional": ["档案框局部纸张磨损", "左上小亮色标记", "极轻颗粒"],
+  "forbidden": ["随机图片拼贴", "中央主体不跨带", "中心脸被字盖住", "后段中文缩小换行", "规整四宫格", "全图同色同景别", "促销贴纸和 CTA", "无语义借用原图英文", "未经确认标记 active"],
+  "variableContract": {
+    "person": "身份、服装、表情和具体动作可变；中央近景前置、跨带面积与遮挡关系固定。",
+    "text": "字句可变；两段一行中文的大小、位置、遮挡和顶部两级英文结构固定。",
+    "product": "道具或行业对象可变；中央可握持对象与五段证据的角色关系固定。",
+    "palette": "具体色值可变；上灰、中冷、左下暖峰值、右下深暗和白字对比固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": ["中央人物精抠跨横带", "中文主句被人物遮挡", "档案黑白与雾景/冷室内/暖火光/暗结果的分段电影剧照语言"]
+  },
+  "fontDependencies": [
+    {"role":"latinMasthead", "type":"font-style-id", "id":"dalala-cover-037-editorial-sans", "variant":"masthead", "required":true},
+    {"role":"latinTagline", "type":"font-style-id", "id":"dalala-cover-037-editorial-sans", "variant":"tagline", "required":true},
+    {"role":"hanLead", "type":"font-style-id", "id":"dalala-cover-037-hairline-han", "required":true},
+    {"role":"hanPayoff", "type":"font-style-id", "id":"dalala-cover-037-hairline-han", "required":true}
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null
+}

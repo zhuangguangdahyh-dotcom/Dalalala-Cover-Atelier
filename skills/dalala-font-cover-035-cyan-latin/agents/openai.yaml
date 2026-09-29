@@ -1,0 +1,4 @@
+interface:
+  display_name: "035 青色小写拉丁测试字体"
+  short_description: "参考 035 左下拉丁类别词，测试态"
+  default_prompt: "读取本字体规则与参考 035 原图，生成逐字准确的透明小写拉丁字层；保持测试态，不宣称已验收。"

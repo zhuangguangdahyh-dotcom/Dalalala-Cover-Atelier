@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-050",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "../assets/reference-original.jpg",
+    "width": 960,
+    "height": 1280,
+    "ratio": "3:4",
+    "sha256": "95a85be25f5ae1b6b39171336209ec4ce35159ae354d56520718635d786e9b72",
+    "reviewedOriginal": true,
+    "measurementMethod": "目测原图外接框和视觉面积估计，非像素分割",
+    "tolerancePercentagePoints": 3
+  },
+  "canvas": { "sourceWidth": 960, "sourceHeight": 1280, "ratio": "3:4", "targetWidth": 1080, "targetHeight": 1440 },
+  "coordinateSystem": "boxPercent=[left,top,right,bottom], 0-100",
+  "contentRoles": [
+    { "role": "mainTitleTopLeft", "sourceContent": "何", "boxPercent": [2, 1, 25, 23], "visualWeight": "very-high", "zRelationship": "前景，背景上方" },
+    { "role": "mainTitleTopRight", "sourceContent": "为", "boxPercent": [76, 1, 99, 23], "visualWeight": "very-high", "zRelationship": "前景，背景上方" },
+    { "role": "mainTitleBottomLeft", "sourceContent": "审", "boxPercent": [1, 77, 25, 100], "visualWeight": "very-high", "zRelationship": "前景，局部跨手臂与座椅" },
+    { "role": "mainTitleBottomRight", "sourceContent": "美", "boxPercent": [75, 77, 99, 100], "visualWeight": "very-high", "zRelationship": "前景，局部跨手臂与座椅" },
+    { "role": "personHeadHair", "boxPercent": [29, 10, 72, 46], "visualWeight": "high", "zRelationship": "标题后、背景前" },
+    { "role": "personFace", "boxPercent": [40, 29, 66, 47], "visualWeight": "highest-subject", "zRelationship": "无遮挡" },
+    { "role": "personShouldersTorsoArms", "boxPercent": [6, 45, 91, 100], "visualWeight": "high", "zRelationship": "标题后、座椅前" },
+    { "role": "smallAccessory", "sourceContent": "金色扇形胸针", "boxPercent": [58, 65, 68, 80], "visualWeight": "low", "zRelationship": "衣服前" },
+    { "role": "bottomSignature", "sourceContent": "细线拉丁连写标记，拼写不作语义判断", "boxPercent": [38, 93, 59, 99], "visualWeight": "low", "zRelationship": "衣服前，可选且必须替换为自有标记" },
+    { "role": "background", "boxPercent": [0, 0, 100, 100], "visualWeight": "low-detail", "zRelationship": "最底层" }
+  ],
+  "absentRoles": ["subtitle", "bodyCopy", "badge", "productShowcase", "decorativeSticker", "border"],
+  "firstVisualFocus": "四角超大浅色汉字与中心脸同时形成问题和发言者",
+  "primaryMechanism": "四个独立超尺度浅色汉字占据画面四角，围出中心单人暖光肖像；下排字贴底并局部压在人物和座椅前，让四字命题与发言者在一张图内同时成立",
+  "dominantAxis": "中心人物竖轴；四字沿外缘的左上→右上→左下→右下折线",
+  "visualCenterPercent": [50, 42],
+  "readingPath": ["左上单字", "右上单字", "左下单字", "右下单字", "中心脸与眼神", "底部低权重署名"],
+  "imageTextRelationship": "四角单字围住而不遮挡面部，下排文字以近边裁切进入人物/座椅前景",
+  "negativeSpace": ["上排两字之间约半幅的中央头部通道", "脸周低细节暖暗空隙", "文字与眼鼻口之间的无遮挡区"],
+  "layerOrder": ["暖暗室内背景", "座椅及布料", "人物身体与发丝", "胸针", "四角标题", "底部账号标记"],
+  "layoutContract": {
+    "locked": ["3:4 四角各一巨字", "中心单人近中景与面部无遮挡", "下排文字抵边并在人物/座椅前", "暖暗大底与明亮无描边字", "四字阅读顺序与中心肖像配重"],
+    "adaptive": ["人物身份和衣着", "具体四字命题", "低权重胸前行业线索", "具体色值与真实背景"],
+    "optional": ["自有底部账号标记", "小面积真实首饰或行业物"],
+    "forbidden": ["长标题加行", "上排改成横排标题", "人物远景或遮脸", "普通宋体静默代替", "复制原题/原署名/原人物", "高饱和装饰和厚描边", "未验收上架"]
+  },
+  "variableContract": {
+    "person": "身份与服装可变；中心近中景、脸部 x40–66/y29–47 附近的体量和右向/侧向轻微视线关系不变",
+    "text": "文案可变；严格四个汉字、每角一个、两上两下及独立字框不变",
+    "product": "胸针等微型行业物可变；无独立产品展示区，不得抢占人物和角字",
+    "color": "具体色值可变；暖暗大底、深衣、可辨肤色、最高明度主字的角色与面积结构不变"
+  },
+  "invariantContract": {
+    "titleGlyphBoxWidthPercent": [22, 26],
+    "titleGlyphBoxHeightPercent": [22, 25],
+    "subjectHeadBoxPercent": [29, 10, 72, 46],
+    "subjectUpperBodyBoxPercent": [6, 45, 91, 100],
+    "faceClearance": "眼鼻口零遮挡；上字与头发主要外轮廓至少约 3% 画宽间隙",
+    "effects": ["四角超尺度单字", "下排贴底轻裁", "四角字前景压住下部人物/座椅", "暖光真实肖像与低细节背景", "单色无阴影高反差宋骨字"]
+  },
+  "transformationGrammar": [
+    { "trigger": "人像景别太远或人物偏边", "level": "T1", "action": "按头部和肩胸框重裁", "reason": "恢复中心发言者与字框的配重" },
+    { "trigger": "原图四角背景不足或太杂", "level": "T2", "action": "保脸与发丝身份锚点，扩背景、净场，必要时精细分层", "reason": "让四角大字可读但不损人物" },
+    { "trigger": "多人、遮脸或强烈变形", "level": "T3", "action": "补拍或锁定身份重建肖像", "reason": "保护可信的人物与表情" },
+    { "trigger": "需显示行业物", "level": "T1/T2", "action": "缩为胸前或手边低权重真实线索", "reason": "保留观点肖像，不争主标题" }
+  ],
+  "semanticFit": {
+    "preferred": ["单人观点", "审美与价值判断", "专家解释", "主理人态度", "四字疑问或概念"],
+    "reject": ["长句标题", "步骤清单", "价格参数", "多产品对比", "必须放截图证据的主题"]
+  },
+  "palette": {
+    "exactColorsLocked": false,
+    "backgroundRole": "暖暗低细节，占可见环境约 55–70%",
+    "clothingRole": "近黑或深色，占下部重量约 20–35%",
+    "skinRole": "中高明度暖肤，占约 10–18%",
+    "titleRole": "浅亮高明度，可见笔画约 8–13%",
+    "accentRole": "胸针/座椅微高光约 1–3%",
+    "areaCaveat": "角色有遮挡且为目测，不作相加的像素分割"
+  },
+  "failureModes": ["四角变整齐两行大字报", "下字离底过远或重要笔画裁没", "脸过小或被字盖", "高亮背景吞掉浅字", "普通字库/毛笔字错误替代", "装饰抢焦点", "照抄原题或署名", "未测试即 active"],
+  "fontDependencies": [
+    { "role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-050-four-corner-song", "required": true, "status": "testing" }
+  ],
+  "tests": [],
+  "userApproved": false
+}

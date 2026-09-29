@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 024 拆解与受控测试"
+  short_description: "圆厚白字瀑布与野外深色主体的 3:4 封面规则；待确认。"
+  default_prompt: "读取 dalala-cover-024 的原图、anatomy、adaptation-rules 和 qa；仅在拆解确认后按固定结构做受控复刻测试。"

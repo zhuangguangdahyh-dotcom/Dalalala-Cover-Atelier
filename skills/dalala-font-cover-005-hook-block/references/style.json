@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-005-hook-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-005/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "requiredInputs": ["text", "canvasWidth", "canvasHeight", "textBox", "primaryText", "outlineRole", "shadowRole"],
+  "characterConstruction": {
+    "base": "square-heavy-display-heiti",
+    "strokeWeight": "black",
+    "width": "wide",
+    "terminals": "flat-with-selective-small-cuts",
+    "fill": "solid-light-role",
+    "outlineRatioToGlyphHeight": [0.012, 0.022],
+    "offsetDepthRatioToCanvasWidth": [0.0025, 0.0045],
+    "trackingRatioToGlyphWidth": [0.02, 0.05],
+    "estimateOnly": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "composeSeparatelyFromBackground": true,
+    "singleLineRequired": true
+  },
+  "forbidden": ["ordinary web heiti", "rounded cute font", "long shadow", "3d metal", "texture distress", "hollow fill", "multi-line wrapping"],
+  "productionApproved": false
+}

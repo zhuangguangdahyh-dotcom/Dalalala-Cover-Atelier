@@ -1,0 +1,1 @@
+`dalala-cover-015` 的 `topEnglish` 调 `skyKicker`，放在 x≈16–81%、y≈2–6%；`bottomLogoWords` 与 `bottomLogoAccent` 调 `rockLogo`，放在 x≈28–73%、y≈83–94%。上层白字须在天空可辨，下层白字必须落在深色实景上。符号单独分层并从当次调色获得强色。字体规则不得重排 Cover Skill 的空间骨架。

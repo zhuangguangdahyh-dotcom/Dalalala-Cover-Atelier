@@ -1,0 +1,13 @@
+{
+  "id": "dalala-cover-035-white-hand",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-035/assets/reference-original.jpg",
+  "roles": ["leftQuantity", "rightContinuation"],
+  "script": "Han and Arabic digit",
+  "fill": "solid high-lightness white handwriting",
+  "strokeWidthCanvasPercent": [0.5, 0.9],
+  "baseline": "nonuniform and handwritten; vertical right column character centers separated by about 9-11 percent canvas height",
+  "exactColorLocked": false,
+  "effects": {"thickOutline": false, "dryBrushHoles": false, "dropShadow": false, "glow": false}
+}

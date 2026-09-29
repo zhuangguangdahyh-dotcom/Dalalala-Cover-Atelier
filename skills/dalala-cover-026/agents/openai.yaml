@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 026 拆解与受控测试"
+  short_description: "打开书本里的世界：现场、行动者、目的地页签与三章目录；待确认。"
+  default_prompt: "先读参考 026 原图及最新 analysis、anatomy、adaptation-rules 与 qa；主题固定为打开书本里的世界，人物人数可变。拆解确认后才做受控复刻测试。"

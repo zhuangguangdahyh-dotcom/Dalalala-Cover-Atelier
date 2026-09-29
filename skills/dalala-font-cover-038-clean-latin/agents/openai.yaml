@@ -1,0 +1,4 @@
+interface:
+  display_name: "038 底部粗体拉丁词｜测试"
+  short_description: "左短暖强调与右宽亮色词的透明层"
+  default_prompt: "选择 shortAccent 或 wideKeyword，读取 style.json 和 generation-prompt.md，生成准确透明词层并执行 vitality-qa.md。"

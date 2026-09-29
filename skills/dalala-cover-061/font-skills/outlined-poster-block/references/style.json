@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-061-outlined-poster-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "script": "Han",
+  "renderer": "imagegen-transparent-title-layer",
+  "identityCore": "huge-clean-white-hard-block-han-with-thin-black-keyline-and-short-offset-shadow",
+  "construction": {
+    "skeleton": "extra-heavy near-monoline square Han with small individual hard cuts",
+    "fill": "solid high-luminance white role",
+    "outlineAt1080Px": [
+      1,
+      2
+    ],
+    "shadowOffsetCanvasWidth": [
+      0.005,
+      0.01
+    ],
+    "rotationDegrees": [
+      -8,
+      8
+    ],
+    "trackingToGlyphWidth": [
+      -0.03,
+      0.02
+    ],
+    "lineGapToGlyphHeight": [
+      0.1,
+      0.2
+    ],
+    "texture": "none inside glyphs"
+  },
+  "rolePresets": {
+    "mainTitleLine1": {
+      "canvasBoxPercent": [
+        27,
+        35,
+        95,
+        52
+      ],
+      "shorterThanLine2": true
+    },
+    "mainTitleLine2": {
+      "canvasBoxPercent": [
+        6,
+        55,
+        95,
+        72
+      ],
+      "nearFullWidth": true
+    }
+  },
+  "textAccuracy": {
+    "verbatim": true,
+    "noAddedOrMissingGlyphs": true
+  },
+  "forbidden": [
+    "ordinary bold sans fallback",
+    "rounded bubble shape",
+    "brush distress",
+    "thick outline",
+    "neon glow",
+    "large 3D extrusion",
+    "uniform per-glyph rotation"
+  ]
+}

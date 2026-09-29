@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-035",
+  "sourceReference": "../assets/reference-original.jpg",
+  "sourceSize": {"width": 1320, "height": 1760, "ratio": "3:4"},
+  "coordinateSystem": "percent of source canvas, [x1,y1,x2,y2], origin top-left; visually estimated, test overlay required",
+  "observedText": {"leftQuantity": "5个", "leftCategory": "vlog", "rightContinuation": "创意视角", "subtitlePresent": false, "auxiliaryPresent": false},
+  "firstFocus": "large, smiling, direct-gaze face shot from a close high selfie angle",
+  "visualHook": "a concrete five-item promise beside a first-person selfie; freehand words bracket the face",
+  "regions": {
+    "fullPhoto": {"bounds": [0,0,100,100], "role": "single continuous full-bleed photograph", "depth": "back and middle"},
+    "subject": {"bounds": [22,2,82,98], "role": "single person with connected hands/selfie grip", "visualAreaPercent": [42,50], "depth": "middle"},
+    "faceAndHair": {"bounds": [31,3,74,51], "faceCenter": [52,35], "faceWidthPercent": [32,37], "role": "primary expression and identity anchor", "protected": true},
+    "leftQuantity": {"bounds": [3,27,30,41], "role": "numeric hook", "script": "Han and digit", "depth": "front"},
+    "leftCategory": {"bounds": [9,40,29,50], "role": "small topical category", "script": "lowercase Latin", "depth": "front"},
+    "rightContinuation": {"bounds": [76,35,96,75], "role": "four-character vertical main-title continuation", "characters": 4, "direction": "top-to-bottom", "depth": "front"},
+    "upperEnvironment": {"bounds": [0,0,100,43], "role": "blue-green door, window, plants and site context", "depth": "back"},
+    "lowerEnvironment": {"bounds": [0,40,100,100], "role": "gray stone paving, texture and perspective", "depth": "back"},
+    "lowerAction": {"bounds": [40,78,62,98], "role": "joined hands and filming grip, must retain physical connection", "depth": "middle"},
+    "subtitle": {"present": false},
+    "ornament": {"present": false, "role": "letterforms themselves provide ornament"}
+  },
+  "visualCenter": {"xPercentRange": [50,57], "yPercentRange": [32,42]},
+  "dominantAxis": "top-center head through face, torso and joined hands toward lower center",
+  "supportingAxes": ["left two-tier lettering along the face edge", "right top-to-bottom handwritten narrow column"],
+  "readingPath": ["face and eye contact", "left numeric promise", "small cyan Latin topic", "right four-character vertical continuation", "hands and site"],
+  "negativeSpace": ["2-5% width gap between left text and face", "2-3% width gap between right text and shoulder/hair", "face rectangle x35-72 y15-50 protected", "lower y75-100 reserved for action and ground"],
+  "imageTextRelationship": "two asymmetric text brackets around an uncropped expressive face; white handwritten main title and small cyan Latin note overlay site texture without a text panel",
+  "occlusion": ["no lettering across eyes, nose or mouth", "text sits over environmental pixels", "person remains integrated in one photograph, no sticker outline"],
+  "depthOrder": ["site and paving", "person, clothes and connected filming object", "local tonal correction", "white quantity and cyan category", "white vertical continuation"],
+  "text": {
+    "whiteHand": {"fontStyleId": "dalala-cover-035-white-hand", "roles": ["leftQuantity", "rightContinuation"], "weight": "light to medium monoline with natural variation", "fill": "high-lightness solid", "outline": false, "dropShadow": false},
+    "cyanLatin": {"fontStyleId": "dalala-cover-035-cyan-latin", "roles": ["leftCategory"], "sizeRelativeToQuantity": [0.55,0.7], "fill": "small cool accent with very narrow light edge", "heavyOutline": false},
+    "rightCharacterCentersVerticalGapPercent": [9,11]
+  },
+  "colorRoles": {
+    "coolEnvironmentVisibleAreaPercent": [25,35],
+    "neutralPavingVisibleAreaPercent": [35,45],
+    "personAndClothingVisibleAreaPercent": [25,35],
+    "highLightnessMainText": "small, high contrast white lettering",
+    "coolAccentLetteringAreaPercent": [1,2],
+    "warmSiteAccentAreaPercentMax": 3,
+    "exactHexLocked": false
+  },
+  "effects": ["true close high-angle selfie perspective", "real skin, hair and paving texture", "freehand character-by-character letter shapes", "minimal light edge on cyan lowercase word", "no cutout, glow or hard shadow"],
+  "locked": ["3:4 full-bleed single photograph", "one large central direct-gaze face at high selfie angle", "left quantity above small lowercase topic", "right four-character vertical continuation", "two lettering brackets leave face unoccluded", "connected lower filming action and site texture"],
+  "adaptive": ["person and industry", "truthful tool and scene", "semantically matching short text", "exact color values within area and lightness roles"],
+  "optional": ["small real-world warm prop accent when present in source"],
+  "forbidden": ["front-facing eye-level ID portrait", "symmetric poster typography", "horizontal right continuation", "extra subtitle or CTA", "plain solid backdrop", "thick neon Latin word", "face occlusion", "floating cutout", "disconnected hands or device", "generic AI mascots"],
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false
+}

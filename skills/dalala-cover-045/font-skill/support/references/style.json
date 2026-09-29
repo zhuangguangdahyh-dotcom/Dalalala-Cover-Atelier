@@ -1,0 +1,13 @@
+{
+  "id": "dalala-cover-045-neutral-caption",
+  "status": "testing",
+  "version": "0.1.0",
+  "script": "Chinese-Han",
+  "skeleton": "端正、清晰、中性无衬线汉字；不加花字动作",
+  "weight": "中部解释句为常规至中等字重；底部短句略轻",
+  "arrangement": "中部两行，以视觉中心对齐；底部一行，避开右下前景实物",
+  "lineSpacing": "中部两行基线距约字高 1.3–1.5 倍",
+  "fill": "接近白色的浅色角色，按背景明度重新选择具体色值",
+  "output": "transparent-text-layer",
+  "reference": "../../../assets/reference-original.jpg"
+}

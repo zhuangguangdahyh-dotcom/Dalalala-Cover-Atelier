@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-020-miner-brush",
+  "version": "0.2.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-020/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "mainTitleHan"
+  ],
+  "scripts": [
+    "Chinese"
+  ],
+  "recommendedCharacterCount": 4,
+  "characterConstruction": {
+    "base": "标准汉字结构上的宽展书写字；粗实笔与少量窄裂口并存，不是几何黑体",
+    "strokeWeight": "主体笔画沉重，局部有明显粗细突变；每字重心和字宽不机械统一",
+    "terminals": "长横、撇捺或甩出的笔端有方向，部分尖锋下探；避免固定模板化的同角度收笔",
+    "edge": "不均匀干刷毛边与笔画内部局部露底，缺口服务笔势，不能用统一颗粒蒙版",
+    "composition": "四字宽展单横带，大—小—大—小，笔端与内部飞白逐字不同；具体坐标由Cover Skill决定"
+  },
+  "fillRole": "高明度近白角色；具体色值依背景重新选定",
+  "effects": {
+    "thickOutline": false,
+    "dropShadow": false,
+    "extrusion": false,
+    "glow": false,
+    "uniformGrungeOverlay": false
+  },
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": [
+    "exactText",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox",
+    "fillRole"
+  ],
+  "productionApproved": false,
+  "scaleRhythm": [
+    "large",
+    "small",
+    "large",
+    "small"
+  ],
+  "semanticRestriction": null
+}

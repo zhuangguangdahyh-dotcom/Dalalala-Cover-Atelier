@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-011",
+  "displayName": "参考 011",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "f97c599f-e147-4d93-baf0-f36b17115b24",
+  "analysisReport": "skills/dalala-cover-011/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "topLatinLetters": [
+      2,
+      4
+    ],
+    "lowerVisualUnits": [
+      3,
+      5
+    ],
+    "auxLines": [
+      1,
+      2
+    ]
+  },
+  "subjectTypes": [
+    "one real near-camera person leaning through a physical opening and interacting with its edge"
+  ],
+  "contentEmotions": [
+    "突然出现",
+    "揭示",
+    "近距离参与",
+    "有记忆点的人物出场"
+  ],
+  "firstFocus": "blue furry headwear/face and huge red rising title jointly pull attention; reaching hands prove physical opening",
+  "spatialStructure": [
+    "dark irregular foreground aperture",
+    "bright quiet interior",
+    "two diagonal headline groups at upper-left and left-middle",
+    "person leaning from right-middle into lower center",
+    "two near hands at lower sides",
+    "tiny right editorial note"
+  ],
+  "readingPath": [
+    "headwear/face and upper red title as dual entry",
+    "lower red title",
+    "hands and zipper interaction",
+    "right tiny PROMPT note"
+  ],
+  "imageTextRelationship": "two left red blocks climb along opening; blue fur lightly occludes upper block; right micro-note reaches canvas edge",
+  "locked": [
+    "near 3:4",
+    "irregular dark aperture with visible continuous edge detail",
+    "close leaning person and two enlarged near hands touching edge",
+    "bright low-detail inner field",
+    "two diagonal heavy headline groups on left",
+    "tiny two-level right note with intact label and expendable edge overflow",
+    "dark frame / bright field / two saturated accents and their approximate area relationship"
+  ],
+  "adaptive": [
+    "person identity and thematic headwear",
+    "industry-related opening material subject to test",
+    "short title wording",
+    "note wording",
+    "exact palette values",
+    "clothing and inner environment"
+  ],
+  "optional": [
+    "mixed Latin/Han composition in lower title if theme supports it"
+  ],
+  "forbidden": [
+    "regular diamond sticker frame",
+    "unconnected or broken zipper/edge",
+    "invented extra fingers",
+    "small portrait pasted on flat background",
+    "ordinary heiti rotation",
+    "third large title line",
+    "title covering face",
+    "price or CTA sticker",
+    "generic unrelated character",
+    "automatic active publication",
+    "cropping critical right-side text"
+  ],
+  "variableContract": {
+    "person": "identity and styling may change; close leaning pose, right-middle head zone, two hand-to-edge contacts and relative scale remain",
+    "text": "wording may change; two short heavy diagonal left groups and one tiny two-level right note remain",
+    "product": "true industry prop may replace costume accessory; its protagonist role, size and relation to the opening remain; product-only variant requires separate test",
+    "palette": "exact colours may change; low-value frame, high-value interior, mid-dark person and two controlled saturated foci remain"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "fabric-and-edge foreground aperture",
+      "physically connected near-hand perspective",
+      "natural hair/fur cutout edge",
+      "transparent ultra-heavy solid diagonal display type",
+      "realistic shared lighting and contact shadows"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "near-camera opening and hands already exist",
+      "level": "T0",
+      "action": "3:4 crop, local contrast and cleanup"
+    },
+    {
+      "when": "same scene needs quiet title space",
+      "level": "T1",
+      "action": "constrained extension and mild reposition without breaking contacts"
+    },
+    {
+      "when": "real action exists but camera or size differs",
+      "level": "T2",
+      "action": "layered aperture and subject reconstruction with finger and edge verification"
+    },
+    {
+      "when": "industry opening material differs",
+      "level": "T3-testing-only",
+      "action": "reconstruct an equivalent real opening with visible continuous edge and causally connected hands"
+    },
+    {
+      "when": "no credible opening/interaction",
+      "level": "reject",
+      "action": "reshoot or choose another template"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-011-diagonal-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "rightAuxiliary",
+      "type": "font-style-id",
+      "id": "dalala-cover-011-editorial-condensed",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

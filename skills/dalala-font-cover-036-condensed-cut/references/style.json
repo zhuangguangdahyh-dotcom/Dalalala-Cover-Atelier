@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-036-condensed-cut-display",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-036/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "variants": {
+    "latin": {
+      "characterCount": [3, 6],
+      "heightToAverageGlyphWidthRatio": [2.2, 4.0],
+      "trackingRatioToGlyphWidth": [0.05, 0.14],
+      "construction": "very-tall-soft-flared-display",
+      "estimateOnly": true
+    },
+    "cjk": {
+      "characterCount": [4, 6],
+      "heightToAverageGlyphWidthRatio": [2.2, 3.2],
+      "trackingRatioToGlyphWidth": [0.02, 0.08],
+      "construction": "extreme-condensed-cut-cjk-display",
+      "estimateOnly": true
+    }
+  },
+  "surface": {
+    "fill": "single-solid-accent-role",
+    "outline": "none",
+    "shadow": "none",
+    "texture": "none"
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "horizontalScalingOfConventionalFontAllowed": false,
+    "composeSeparatelyFromBackground": true,
+    "singleLineRequired": true
+  },
+  "forbidden": [
+    "ordinary condensed sans",
+    "mechanically horizontal-scaled font",
+    "damaged CJK radicals",
+    "uniform stroke width",
+    "outline",
+    "shadow",
+    "gradient",
+    "3d extrusion",
+    "multi-line wrapping"
+  ],
+  "productionApproved": false
+}

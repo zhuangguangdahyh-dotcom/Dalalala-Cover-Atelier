@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-041-editorial-support",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "productionApproved": false,
+  "roles": {
+    "subtitle": {
+      "script": "Han with short Latin acronym allowed",
+      "skeleton": "modern neutral sans, clean and upright",
+      "weight": "medium",
+      "trackingEm": [0.08, 0.18],
+      "lineCount": 1,
+      "bboxPercent": [4, 47, 50, 51],
+      "fill": "dark solid, no outline or shadow"
+    },
+    "editorialText": {
+      "script": "Latin uppercase and numerals",
+      "skeleton": "narrow to neutral sans, straight terminals",
+      "weight": "regular",
+      "trackingEm": [0.12, 0.25],
+      "zonesPercent": [[4, 3, 20, 8], [86, 3, 96, 8], [69, 11, 75, 19], [4, 55, 17, 62]],
+      "fill": "dark or soft gray according to hierarchy"
+    }
+  },
+  "primaryRenderer": "transparent-text-layer",
+  "forbidden": ["serif", "display-font deformation", "bold block caption", "wide editorial copy", "outline", "heavy shadow", "blur", "incorrect text"]
+}

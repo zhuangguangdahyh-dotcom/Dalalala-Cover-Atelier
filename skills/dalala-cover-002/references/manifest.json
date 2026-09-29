@@ -1,0 +1,159 @@
+{
+  "coverSkillId": "dalala-cover-002",
+  "displayName": "参考 002",
+  "version": "0.2.0",
+  "status": "studied",
+  "reference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "analysisReport": "../../../skills/dalala-cover-002/references/adaptation-rules.md",
+  "platforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "latin": [
+      5,
+      7
+    ],
+    "chineseUntested": [
+      4,
+      6
+    ]
+  },
+  "subjectTypes": [
+    "single close portrait"
+  ],
+  "mood": [
+    "restrained",
+    "intimate",
+    "editorial"
+  ],
+  "primaryFocus": "eyes and overscale masthead",
+  "spatialSkeleton": {
+    "xPercent": [
+      50,
+      52
+    ],
+    "horizontalAxisYPercent": 19
+  },
+  "readingPath": [
+    "masthead / eyes",
+    "eyes",
+    "mouth and fingertip",
+    "small editorial labels"
+  ],
+  "imageTextRelation": "masthead in front of hair; face protected",
+  "locked": [
+    "3:4 full bleed",
+    "one line masthead x1–99 y1–19.5",
+    "masthead overlays hair",
+    "single close-up subject",
+    "eyes around y30–32",
+    "no lower-half text",
+    "light field dark side masses",
+    "foreground contact gesture"
+  ],
+  "adaptive": [
+    "identity",
+    "short brand words",
+    "industry object mapped to same role",
+    "specific palette values"
+  ],
+  "optional": [
+    "small-label wording may be shortened without reclaiming space"
+  ],
+  "forbidden": [
+    "head in front of masthead",
+    "multiple subjects",
+    "second large title",
+    "heavy outline or shadow",
+    "unverified Chinese fallback",
+    "generic AI figures",
+    "stretching image",
+    "invented publication endorsement"
+  ],
+  "variableContract": {
+    "people": "更换身份造型但保持近景、眼线、主角重量及前景动作",
+    "text": "同一行数与文字块；长标题改写",
+    "products": "仅实验性单主角与自然握持映射，结构不可变形",
+    "palette": "具体色值可变，相对冷暖、明暗和面积关系保留"
+  },
+  "invariantContract": {
+    "subjectVisibleAreaPercent": [
+      70,
+      78
+    ],
+    "mastheadHeightPercent": [
+      17,
+      19
+    ],
+    "mastheadWidthPercent": [
+      96,
+      98
+    ],
+    "textBelowYPercent": 21,
+    "effects": [
+      "flat type over hair",
+      "natural close-up texture",
+      "foreground gesture occlusion"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "if": "background cluttered",
+      "then": "hair-aware matte and pale studio background",
+      "reason": "preserve outline and masthead field"
+    },
+    {
+      "if": "source too wide",
+      "then": "crop to close-up only if face detail remains adequate, otherwise new source",
+      "reason": "preserve spatial weight"
+    },
+    {
+      "if": "title too long",
+      "then": "rewrite short name; never add line",
+      "reason": "preserve masthead block"
+    },
+    {
+      "if": "new industry",
+      "then": "map primary identity and foreground contact to real subject; reject incompatible role mapping",
+      "reason": "maintain semantic coherence"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "topImprint",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "sideEdition",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    },
+    {
+      "role": "issueLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-002-editorial-serif",
+      "required": true
+    }
+  ],
+  "passedTests": [],
+  "thumbnailCheck": null,
+  "userApproval": null,
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "f5037251-f847-48d6-8697-dbf1978d62c0"
+}

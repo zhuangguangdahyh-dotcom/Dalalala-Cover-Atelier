@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-051",
+  "displayName": "参考封面 051",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "52ff648b-48b8-4f30-92bd-4bf120136136",
+  "analysisReport": "skills/dalala-cover-051/references/adaptation-rules.md",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "sourceRatio": "3:4",
+  "verifiedRatios": [],
+  "headlineLength": "上部单个英文词约 7–10 字母；下部中文一行约 4–6 字，过长先改写",
+  "subjectTypes": [
+    "真实人物专注动作",
+    "有明确视线和手部对象的主理人记录",
+    "真实生活方式或工作片刻"
+  ],
+  "contentMoods": [
+    "私密",
+    "专注",
+    "明亮",
+    "轻松记录"
+  ],
+  "firstVisualFocus": "上部大幅鲜亮英文手写字与中央黑发人物",
+  "spatialSkeleton": "单张满幅照片；中央偏左人物看右下对象；上英文宽带、下中文宽带，中部脸与动作安静区",
+  "readingPath": [
+    "上英文",
+    "人物侧脸",
+    "手与纸张",
+    "下中文",
+    "回到人物"
+  ],
+  "imageTextRelationship": "两组同色透明笔迹直接横跨摄影前景，人物和对象是中间的叙事连接",
+  "locked": [
+    "3:4 满幅连续摄影",
+    "中央偏左人物与右下视线对象",
+    "上英文下中文两条宽幅同色自由字带",
+    "中部安静区",
+    "无底板描边贴纸"
+  ],
+  "adaptive": [
+    "人物身份和服装",
+    "行业动作对象",
+    "真实环境",
+    "双语标题内容",
+    "具体高亮冷色值"
+  ],
+  "optional": [
+    "有证据的少量发丝与字局部穿插"
+  ],
+  "forbidden": [
+    "多宫格或棚拍贴纸人像",
+    "正视镜头使动作关系消失",
+    "字缩为普通页眉或规则印刷体",
+    "中文压眼口",
+    "为了长字增行或扩区",
+    "两组字分色",
+    "厚描边、霓虹、色块底板",
+    "无真实接触的纸张或多手指",
+    "未验收 active"
+  ],
+  "variableContract": {
+    "people": "人物身份可换；保持中下部大体量、头部中央偏左、视线朝右下对象",
+    "text": "英文单词与中文短语可换；保持上下各一行、原有笔势跨度和边界，过长改写",
+    "products": "纸张可换为行业真实对象；维持手部接触、右下视线目标和面积/透视关系",
+    "color": "具体色值可变；两组字共享鲜亮偏冷强调角色，照片中低明度与局部自然高光、暖/中性人物保持面积关系"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "layout": "人物约 x4–91/y11–100；英文约 x10–89/y2–39；中文约 x5–97/y64–86；y40–64 为脸和动作安静区",
+    "contentArea": "连续照片全幅；人物宽约70–85%、高约82–95%；两组字可见像素约4–8%但跨度约80–92%画幅宽",
+    "specialEffects": [
+      "英文首字母大回环、连写和长尾",
+      "中文自由大小与长笔",
+      "无描边底板的同色透明文字叠层",
+      "自然光和前后景空间深度"
+    ]
+  },
+  "assetTransformation": {
+    "defaultLevel": "T0/T1",
+    "triggers": [
+      "原片动作完整时 T0",
+      "背景亮斑压字或需要局部裁切时 T1",
+      "对象/环境需扩展且能维持真实透视与接触时 T2",
+      "无清晰脸、手、对象或无法建立对比时停止"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "latinDisplayTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-051-mint-freehand",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "chineseDisplayTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-051-mint-freehand",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "fontRegistryEntries": "font-registry-entries.json",
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

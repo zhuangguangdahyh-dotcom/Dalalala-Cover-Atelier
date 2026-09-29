@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-011-editorial-condensed",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-011/assets/reference-original.jpg",
+  "requiredInputs": ["text", "role", "canvasWidth", "canvasHeight", "textBox", "colorRoles"],
+  "roles": {
+    "sectionLabel": {"example": "PROMPT", "script": "uppercase Latin", "skeleton": "narrow upright sans", "weight": "regular-to-medium", "trackingEm": [-0.02, 0.02], "lineCount": 1},
+    "microNote": {"script": "Latin sentence case", "skeleton": "clean narrow sans", "weight": "light-to-regular", "trackingEm": [0, 0.03], "lineCount": [1, 2], "tiltDegrees": [8, 15]}
+  },
+  "rendering": {"output": "transparent text layer only", "fill": "dark neutral ink role", "stroke": "none", "shadow": "none", "ordinaryFontFallbackAllowed": false},
+  "textAccuracy": {"mustMatchVerbatim": true, "criticalTextMustRemainVisible": true},
+  "productionApproved": false
+}

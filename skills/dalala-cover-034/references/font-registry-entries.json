@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-034-news-badge",
+    "displayName": "034 左上新闻式方标字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-034/fonts/news-badge/SKILL.md",
+    "config": "../skills/dalala-cover-034/fonts/news-badge/references/style.json",
+    "humanRules": "../skills/dalala-cover-034/fonts/news-badge/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-034/fonts/news-badge/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-034/fonts/news-badge/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-034/fonts/news-badge/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-034/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "vector-or-imagegen-transparent-badge-layer"
+  }
+]

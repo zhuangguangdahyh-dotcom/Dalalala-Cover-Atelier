@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-028-ticket-masthead",
+  "status": "testing",
+  "role": "顶部中英混排题头",
+  "sourceReference": "../../dalala-cover-028/assets/reference-original.jpg",
+  "approvedReference": null,
+  "characterRules": {
+    "script": "mixed-han-latin",
+    "skeleton": "square heavy geometric Han plus heavy geometric lowercase Latin",
+    "weight": "extra-black",
+    "spacing": "0–3% character width",
+    "slantDegrees": 0,
+    "effect": "solid ink, no extrusion",
+    "lineCount": 1
+  },
+  "renderer": "imagegen-transparent-title-layer"
+}

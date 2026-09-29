@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-breath-cut-song",
+  "displayName": "Dalala 呼吸切锋宋体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "premium-modern-song-restraint",
+    "styleSignature": "breathing-cuts-offset-joins-blade-terminals",
+    "defaultIntensity": "editorial",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true,
+    "classicToInterventionRatio": [0.80, 0.20]
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "premium-cover-title",
+    "editorial-opinion-title",
+    "expert-ip-title",
+    "commercial-insight-title",
+    "refined-personal-brand-title"
+  ],
+  "avoidUse": [
+    "long-body-copy",
+    "childlike-entertainment-title",
+    "graffiti-title",
+    "dense-small-ui-text"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "editorial",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "none"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "modern-chinese-song-ming-display",
+    "instancePolicy": "redesign-every-character-occurrence-with-shared-song-system",
+    "horizontalStrokeWeight": "fine",
+    "verticalStrokeWeight": "strong",
+    "serifShape": "crisp-triangular-wedge",
+    "counterPolicy": "open-and-breathing",
+    "componentProportionVariation": [0.06, 0.16],
+    "normalAngleVariationDegrees": [0, 1.2],
+    "heroStrokeAngleMaxDegrees": 3,
+    "longStrokeExtension": [0.06, 0.22],
+    "maximumInterventionsPerGlyph": 2,
+    "minimumCalmStructureRatio": 0.80,
+    "postures": [
+      "upright-classic",
+      "slightly-narrow",
+      "slightly-wide",
+      "high-centre",
+      "low-set-counter",
+      "single-elongated-terminal"
+    ],
+    "boldMoves": [
+      "directional-breathing-cut",
+      "subtle-offset-join",
+      "long-blade-terminal",
+      "folded-paper-edge-terminal",
+      "controlled-width-contrast"
+    ],
+    "quietMoves": [
+      "untouched-classic-song-skeleton",
+      "clean-hairline-horizontal",
+      "stable-strong-vertical",
+      "open-counter",
+      "restrained-triangular-serif"
+    ],
+    "gestureStarts": [
+      "fine-hairline-entry",
+      "triangular-wedge-entry",
+      "clean-vertical-entry"
+    ],
+    "gestureEndings": [
+      "sharp-blade-finish",
+      "restrained-serif-stop",
+      "extended-hairline",
+      "folded-edge-cut"
+    ],
+    "requiredPaintStatesPerGlyph": 2,
+    "paintStates": [
+      "clean-near-black-fill",
+      "directional-negative-space-cut",
+      "precise-offset-join",
+      "calm-unmodified-song-stroke"
+    ]
+  },
+  "interventionRules": {
+    "allowed": [
+      "short-directional-negative-space-cut",
+      "tiny-deliberate-offset-at-join",
+      "single-elongated-blade-terminal",
+      "slight-character-width-change",
+      "folded-paper-edge-ending"
+    ],
+    "maximumPerGlyph": 2,
+    "heroGlyphsPerLine": [1, 2],
+    "maximumStronglyModifiedGlyphRatio": 0.35,
+    "mustFollowOriginalStrokeDirection": true,
+    "mustPreserveStandardChineseAnatomy": true
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 9],
+    "maximumLines": 2,
+    "heroGlyphsPerLine": [1, 2],
+    "allowLocalCollision": false,
+    "allowLongStrokeIntoAdjacentSpacing": true,
+    "preserveGenerousWhitespace": true,
+    "keepCalmGlyphBetweenHeroGlyphs": true,
+    "alignmentMood": "quiet-editorial"
+  },
+  "vitalityPresets": {
+    "quiet": {
+      "baselineShiftPercent": [-0.5, 0.5],
+      "rotationDegrees": [-0.3, 0.3],
+      "glyphScale": [0.98, 1.03],
+      "trackingFactor": [0.98, 1.08],
+      "heroScale": [1.03, 1.07],
+      "interventionDensity": "low"
+    },
+    "editorial": {
+      "baselineShiftPercent": [-1.2, 1.2],
+      "rotationDegrees": [-0.7, 0.7],
+      "glyphScale": [0.95, 1.07],
+      "trackingFactor": [0.92, 1.08],
+      "heroScale": [1.06, 1.12],
+      "interventionDensity": "restrained-medium"
+    },
+    "statement": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-1.2, 1.2],
+      "glyphScale": [0.92, 1.10],
+      "trackingFactor": [0.88, 1.06],
+      "heroScale": [1.10, 1.18],
+      "interventionDensity": "selective-high"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "modern-song-skeleton",
+      "thick-thin-contrast",
+      "crisp-serif-structure",
+      "maximum-two-interventions-per-glyph",
+      "eighty-percent-calm-structure",
+      "cuts-follow-stroke-direction",
+      "premium-editorial-restraint",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "modern-song-skeleton-remains-dominant",
+      "special-interventions-do-not-exceed-two-per-glyph",
+      "strongly-modified-glyphs-do-not-exceed-thirty-five-percent",
+      "no-random-or-glitch-like-breaks",
+      "premium-minimalism-remains-visible",
+      "title-remains-immediately-readable"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "ordinary-stock-song-typesetting",
+    "random-glitch-cuts",
+    "too-many-broken-strokes",
+    "cyberpunk-effects",
+    "brush-calligraphy",
+    "rough-ink-texture",
+    "handwritten-wobble",
+    "rounded-cartoon-shapes",
+    "hollow-variety-lettering",
+    "decorative-icons-seals-or-flowers",
+    "shadows-gradients-or-3d"
+  ]
+}
+

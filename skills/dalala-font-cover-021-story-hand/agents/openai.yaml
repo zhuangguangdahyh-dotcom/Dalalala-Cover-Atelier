@@ -1,0 +1,4 @@
+interface:
+  display_name: "021 中英叙事手写字"
+  short_description: "测试态透明字层；大 M、小写词与长划"
+  default_prompt: "读取 021 字体参考和规则，逐字校验输入后生成透明字层；当前仅用于受控测试。"

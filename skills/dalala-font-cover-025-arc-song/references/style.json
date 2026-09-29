@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-025-arc-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-025/assets/reference-original.jpg",
+  "roles": [
+    "arcTitle/reactionGlyph"
+  ],
+  "script": "Han",
+  "construction": "Han high-contrast pointed contemporary Song display skeleton; precise Han structure, thin horizontal and expressive sharp terminals; per-glyph tangent rotation on cover arc",
+  "requiredInputs": [
+    "exactText",
+    "canvasWidth",
+    "canvasHeight",
+    "glyphBoxes",
+    "colorRole"
+  ],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": [
+    "wrong Han character",
+    "ordinary font substitution",
+    "opaque photo background",
+    "global distressed noise",
+    "thick outline",
+    "generic drop shadow"
+  ]
+}

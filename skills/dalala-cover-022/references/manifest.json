@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-022",
+  "displayName": "参考 022",
+  "version": "0.1.1",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "1a41af25-0260-48ce-a261-91efb253f276",
+  "analysisReport": "skills/dalala-cover-022/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-022.jpg",
+  "referenceSha256": "14d7f14e5da814d353525d0cb4051bd325a97e0d18357113c88091b94c11ad8e",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "topLatinOrEquivalent": "约 4–5 个拉丁字符或等视觉宽度短系列标识",
+    "topHan": "2 汉字",
+    "bottomHan": "建议 3 汉字加 1 个感叹号",
+    "subtitle": "约 9–11 个汉字含标点，单行"
+  },
+  "subjectTypes": [
+    "单人正视镜头的中近景",
+    "自然向两侧展开的双手",
+    "可承载大字的暗中性真实场景"
+  ],
+  "contentEmotions": [
+    "真人讲解",
+    "覆盖全程",
+    "直接有力的教程承诺"
+  ],
+  "firstFocus": "上白色重字、人物脸和下暖亮重字",
+  "spatialStructure": [
+    "上重字横轴 x2–96%,y3–22%",
+    "中段人物与双手 y27–72%",
+    "下重字横轴 x3–97%,y73–94%",
+    "右上细注释 x55–94%,y22–27%"
+  ],
+  "readingPath": [
+    "上方左侧系列词",
+    "上方右侧中文主题",
+    "右上轻说明",
+    "人脸与双手",
+    "底部结果承诺"
+  ],
+  "imageTextRelationship": "全幅照片承字；顶字贴近发顶而不压脸，副标题在发缘右侧暗区，底字是人物下段衣袖、前臂、胸腹和沙发之前的最终前景；双掌主体仍在字框上方。各组软影在实体字下、照片和人物上。",
+  "locked": [
+    "3:4 竖幅",
+    "上下近全宽单行粗字夹人物",
+    "中间偏左正视人脸与两手展示",
+    "右上单行轻注释",
+    "底部字压人物",
+    "暗中性实景、上近白下暖亮的面积和明度关系",
+    "同字骨手工切边主字和细斜副标题",
+    "各文字角色分层：字影低于本组实体字；底字在人物下段前，掌心主体在底字上缘之前"
+  ],
+  "adaptive": [
+    "人物身份、服装、真实行业场景",
+    "准确标题和流程说明",
+    "具体色值",
+    "与行业相关且真实出现的工具"
+  ],
+  "optional": [
+    "局部柔亮人物边缘，仅当背景分离不足",
+    "背景局部压暗程度",
+    "实拍纹理细节"
+  ],
+  "forbidden": [
+    "普通字体静默替换",
+    "下字挪到人物下的独立条幅",
+    "硬白描边或塑料抠图",
+    "遮眼、截指或新增贴纸 CTA",
+    "长句挤压既定字框",
+    "未测试验收即 active",
+    "把手掌抠到黄字上方造成断字",
+    "让上字或小字压住脸与眼镜",
+    "所有文字与阴影合成一层导致遮挡不可控"
+  ],
+  "variableContract": {
+    "person": "身份与服装可变，仍须正视中近景、脸偏左、双手向画面两侧展示且身体从底边出画。",
+    "text": "内容可变，必须是上方左右短词并列、右上轻说明、下方三字左右结果词的单行结构。",
+    "product": "行业工具可替换，但只在真实动作和场景中出现，不新增悬浮商品展示区。",
+    "palette": "具体色值可变，暗中性背景、近白上字、暖亮下字、自然人物的明度及面积关系锁定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "顶字 x2–96%,y3–22%",
+      "副标题 x55–94%,y22–27%",
+      "脸 x26–58%,y32–54%",
+      "底字 x3–97%,y73–94%",
+      "照片尾部约 6% 高"
+    ],
+    "effects": [
+      "同字骨的实心手工切边中英大字",
+      "轻软暗影",
+      "需要时仅局部柔亮人物轮廓",
+      "底部文字压在人物前",
+      "底字仅压人物下部，掌心主体保持可见",
+      "每组软影低于实体字、位于人物照片之上"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T0 原片裁切/调光优先；T1 真实背景合理扩图可用；局部 T2 蒙版边光须保真；拒绝伪造职业事实的 T3",
+    "triggers": [
+      "头顶和双手不在安全区时重新取景",
+      "顶字背景太亮时局部压暗",
+      "人物与背景粘连时精确局部蒙版",
+      "手部或职业物件不真时换素材"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "topTitleLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-022-cut-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "topTitleHan",
+      "type": "font-style-id",
+      "id": "dalala-cover-022-cut-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomPayoff",
+      "type": "font-style-id",
+      "id": "dalala-cover-022-cut-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-022-casual-note",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "previousAnalysisJobId": "0d6fe0b6-bb35-4a5d-88e6-6488e915a08c",
+  "revisionNote": "按用户反馈修订文字层级：分别渲染字影与实体字；底字为人物下部前景，掌心主体留在字框上方，顶字和副标题避开脸。",
+  "layerOrder": [
+    "0 全幅灰暗室内照片",
+    "1 同场景人物与自然阴影；必要时人物柔亮轮廓",
+    "2 顶部主字软暗影",
+    "3 顶部白色实体主字；贴近发顶、不盖眼额",
+    "4 右上副标题轻暗影",
+    "5 右上副标题实体；占头发右侧暗背景，不穿越脸",
+    "6 底部暖亮结果字软暗影",
+    "7 底部暖亮实体字；最终前景，盖下段袖子、前臂、胸腹和沙发，掌心主体留在字框上方"
+  ],
+  "occlusionContract": {
+    "topTitle": "g 下伸与发顶只相邻或极轻触，不跨眉眼和额头；不可把人头整体抠到白字之上造成断字",
+    "subtitle": "放在头发右侧暗背景；细字及其暗影不穿过脸和眼镜",
+    "bottomPayoff": "实体字和软影都在人物下部之前，压下段袖子、前臂、胸腹、沙发；两只掌心及手指主体位于字框上方，不抽取手部蒙版盖住底字",
+    "shadow": "每组软影位于对应实体字之下、照片和人物之上；柔亮人物边仍属人物层，不盖实体字",
+    "collisionResolution": "先改取景或手势，使手掌与字框回到参考的相邻位置；不翻转层级、不移动底字到独立横条"
+  }
+}

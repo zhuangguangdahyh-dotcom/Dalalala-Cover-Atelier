@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-057",
+  "sourceImage": "../assets/reference-original.jpg",
+  "sourceSize": {"width": 2336, "height": 3116, "aspectRatio": "3:4"},
+  "coordinateSystem": "top-left origin; x and y are percent of canvas; regions estimated by visual inspection",
+  "firstVisualFocus": "upper-left two-line black headline, followed by the large white line-drawn guide pointing to the real person's small object",
+  "primaryMechanism": "photo and white-filled hand drawing interact across the frame; pointing hand links the held evidence object to a lower line-drawn scenario",
+  "dominantAxis": "headline horizontal; guide's gaze and finger diagonal to the real person's hand and lower scenario",
+  "primaryFocus": "large two-line headline and the contrast between the real person and drawn guide",
+  "readingPath": ["upper-left headline", "upper-right drawn guide's face", "guide's pointing hand", "real person's held object and face", "lower drawn house and real trees"],
+  "regions": {
+    "headline": {"bboxPercent": [1, 6, 44, 24], "lines": 2, "lineOneCharacters": 4, "lineTwoCharacters": 4, "alignment": "left", "role": "main title", "layer": 6},
+    "realPerson": {"bboxPercent": [0, 34, 54, 84], "faceBboxPercent": [18, 34, 47, 58], "role": "real world learner/presenter", "gaze": "right", "layer": 2},
+    "heldObject": {"bboxPercent": [51, 50, 66, 72], "role": "small concrete evidence and interaction target", "layer": 2},
+    "drawnGuide": {"bboxPercent": [55, 7, 100, 84], "headBboxPercent": [62, 7, 89, 30], "fingerBboxPercent": [55, 41, 72, 51], "role": "large teaching character", "style": "white filled, uneven near-black outline", "layer": 3},
+    "foregroundScenario": {"bboxPercent": [14, 69, 60, 89], "role": "line-drawn house and courtyard that grounds the topic", "style": "white filled, near-black perspective linework", "layer": 4},
+    "realScenarioDetails": {"bboxPercent": [41, 72, 63, 82], "role": "real trees crossing drawing edges", "layer": 5},
+    "background": {"leftUpper": "light neutral photo wall and protected text field", "rightMiddle": "warm medium-dark door/backboard", "bottom": "light tabletop with 9-12% quiet zone", "layer": 1},
+    "subtitle": {"present": false},
+    "auxiliaryInformation": {"present": false},
+    "ornament": {"present": false}
+  },
+  "visualMass": {"rightGuide": "largest single white form, roughly 35-45% width and 75% height", "leftPerson": "roughly 30-38% perceived canvas weight", "headline": "roughly 13-17% visible area", "bottomQuietZonePercentHeight": [9, 12]},
+  "paletteRoles": {"lightNeutralPhotoFieldPercent": [30, 38], "warmMidDarkPhotoFieldPercent": [32, 40], "whiteDrawingFillPercent": [18, 25], "darkTitleAndLinesPercent": [5, 9], "accent": "small real skin, clothing and foliage areas; exact hues adaptive"},
+  "layerOrder": ["photographic room and table", "real person and held object", "white-filled drawn guide", "white-filled foreground scenario", "real details interlacing foreground scenario", "separate transparent title"],
+  "material": {"photo": "soft natural indoor light, true skin and room texture", "drawing": "slight hand-line wobble, variable dark ink width and solid off-white fill", "title": "thin sharp Chinese strokes, solid dark fill, no shadow"},
+  "protectedAreas": ["title's light wall field", "real face", "guide face and fingertip", "held evidence object"],
+  "failureModes": ["drawn guide shrunk into a sticker", "guide does not point at held object", "real and drawn subjects have no relationship", "foreground scenario floats above table", "generic type replaces thin angular title", "added subtitle fills protected wall", "whole photo turned into a cartoon"]
+}

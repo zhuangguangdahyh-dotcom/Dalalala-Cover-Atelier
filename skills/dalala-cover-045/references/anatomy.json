@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-045",
+  "source": {
+    "path": "../assets/reference-original.jpg",
+    "width": 900,
+    "height": 1200,
+    "ratio": "3:4"
+  },
+  "coordinateSystem": "画布左上为原点，以下 bbox 为百分比 [x,y,w,h]，人工读图估算，允许约 2% 误差",
+  "firstImpression": "深棕市井底上，巨型金色折面汉字与五处实拍窗口交错；最先读大字，再看到被带入字里的真实生活。",
+  "primaryFocus": "中央金色巨字及下部横向共食照片",
+  "dominantAxis": "中轴纵向三段堆叠，局部照片形成左右交替的扫描节奏",
+  "readingPath": [
+    "上方金色第一组字",
+    "第二组字与四张小型照片",
+    "中间两行白色说明",
+    "下方巨字和共食横图",
+    "右下实物包装",
+    "底部白色收束句"
+  ],
+  "layersBackToFront": [
+    "深色城市/街头纪实照片底",
+    "棕黑网点与暗化层",
+    "五张裁切的清晰彩色纪实照片",
+    "金色折面胶带字的主体和投影",
+    "小型白色说明、左上品牌、右上 REC",
+    "右下前景产品包装与局部金色压边"
+  ],
+  "regions": [
+    {
+      "role": "background",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "content": "去饱和、压暗的城市街头/店面和人群纹理",
+      "z": 0
+    },
+    {
+      "role": "brand",
+      "bbox": [
+        4,
+        3,
+        20,
+        6
+      ],
+      "content": "角色图标与品牌字标",
+      "z": 5
+    },
+    {
+      "role": "recordingCue",
+      "bbox": [
+        82,
+        3,
+        14,
+        7
+      ],
+      "content": "红点 REC 和金色画框角",
+      "z": 5
+    },
+    {
+      "role": "mainTitleUpper",
+      "bbox": [
+        19,
+        12,
+        63,
+        22
+      ],
+      "content": "主标题上部两字，折面金带，照片开窗",
+      "z": 3
+    },
+    {
+      "role": "mainTitleMiddle",
+      "bbox": [
+        18,
+        34,
+        64,
+        23
+      ],
+      "content": "主标题中部两字，折面金带，照片开窗",
+      "z": 3
+    },
+    {
+      "role": "photoUpperLeft",
+      "bbox": [
+        24,
+        17,
+        18,
+        15
+      ],
+      "content": "两人交流的实拍片段",
+      "z": 2
+    },
+    {
+      "role": "photoUpperRight",
+      "bbox": [
+        63,
+        14,
+        17,
+        16
+      ],
+      "content": "路边坐姿人物及环境",
+      "z": 2
+    },
+    {
+      "role": "photoMiddleLeft",
+      "bbox": [
+        32,
+        41,
+        15,
+        15
+      ],
+      "content": "提袋行走者及城市地标",
+      "z": 2
+    },
+    {
+      "role": "photoMiddleRight",
+      "bbox": [
+        58,
+        41,
+        20,
+        13
+      ],
+      "content": "摊位交易/食物细节",
+      "z": 2
+    },
+    {
+      "role": "supportText",
+      "bbox": [
+        35,
+        58,
+        38,
+        6
+      ],
+      "content": "两行白色小字，连接礼物与烟火气",
+      "z": 5
+    },
+    {
+      "role": "mainTitleLower",
+      "bbox": [
+        17,
+        57,
+        66,
+        32
+      ],
+      "content": "末字放大收束，内嵌横向人群场景",
+      "z": 3
+    },
+    {
+      "role": "photoLower",
+      "bbox": [
+        30,
+        66,
+        46,
+        19
+      ],
+      "content": "多人共食横向场景，底部情绪证据",
+      "z": 2
+    },
+    {
+      "role": "foregroundProduct",
+      "bbox": [
+        65,
+        81,
+        25,
+        15
+      ],
+      "content": "右下实体包装叠压字与照片",
+      "z": 6
+    },
+    {
+      "role": "bottomText",
+      "bbox": [
+        39,
+        89,
+        27,
+        3
+      ],
+      "content": "一行白色收束句",
+      "z": 5
+    }
+  ],
+  "negativeSpace": "暗底在大字内外仍露出，四角和左右边缘不填说明；文字及照片开窗之间保留至少约 2%–4% 暗色分隔。",
+  "typography": {
+    "main": "自定义宽扁折面金带汉字，横竖笔画近似纸带拼接；字内开窗，笔画宽约字高 5%–8%，字间距紧而不并字",
+    "support": "白色中性无衬线中等字重，两行，紧凑行距",
+    "bottom": "白色中性无衬线短句，低于主标题 1 个层级"
+  },
+  "colorRoles": {
+    "background": "低明度暖棕黑，占主面积",
+    "primaryText": "高明度暖金折面，占第二视觉面积",
+    "photo": "较高饱和的实拍局部色彩",
+    "secondaryText": "接近白色的小字",
+    "accent": "红色 REC 点和局部产品品牌色；面积极小"
+  },
+  "effects": [
+    "暗底网点/丝网印刷颗粒",
+    "金带局部亮面、折痕和细投影",
+    "照片硬边裁切并由笔画局部覆盖",
+    "右下产品立体包装前景"
+  ],
+  "confidenceNote": "标题已对原图逐字核读为“武汉带得走”；比例和窗口边界仍为人工读图估算，正式复刻须以原图再次检查遮挡和字腔。",
+  "primaryMechanism": "五字主标题按 2+2+1 纵向放大，以真实折面金色纸带构成可辨汉字；四小一大五处纪实照片嵌入字腔或笔画间，并由金带局部压边；暗化街景退后，右下实物把现场体验收束为可带走对象。",
+  "titleTranscription": {
+    "upper": "武汉",
+    "middle": "带得",
+    "lower": "走",
+    "full": "武汉带得走"
+  }
+}

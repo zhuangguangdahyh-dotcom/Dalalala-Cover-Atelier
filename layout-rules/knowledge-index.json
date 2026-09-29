@@ -1,0 +1,4557 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+  "count": 350,
+  "items": [
+    {
+      "id": "layout-001",
+      "name": "三分法构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-001.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 thirds-grid 方向",
+        "主题需要把第一眼落在 thirds-intersection",
+        "标题与主体能共同呈现“三分法构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-002",
+      "name": "黄金比例构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-002.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 golden-ratio 方向",
+        "主题需要把第一眼落在 golden-intersection",
+        "标题与主体能共同呈现“黄金比例构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-003",
+      "name": "黄金螺旋构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-003.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 spiral 方向",
+        "主题需要把第一眼落在 spiral-eye",
+        "标题与主体能共同呈现“黄金螺旋构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-004",
+      "name": "黄金三角构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-004.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 triangular 方向",
+        "主题需要把第一眼落在 triangle-tip-or-centre",
+        "标题与主体能共同呈现“黄金三角构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-005",
+      "name": "对角线法",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-005.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 diagonal 方向",
+        "主题需要把第一眼落在 axis-end-or-crossing",
+        "标题与主体能共同呈现“对角线法”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-006",
+      "name": "矩形折入法",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-006.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“矩形折入法”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-007",
+      "name": "奇数法则",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-007.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“奇数法则”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-008",
+      "name": "空间法则",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-008.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 negative-space 方向",
+        "主题需要把第一眼落在 subject-edge",
+        "标题与主体能共同呈现“空间法则”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-009",
+      "name": "视线空间",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-009.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“视线空间”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-010",
+      "name": "运动空间",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-010.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“运动空间”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-011",
+      "name": "头部空间构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-011.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“头部空间构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-012",
+      "name": "填满画面构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-012.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 full-bleed 方向",
+        "主题需要把第一眼落在 dominant-field",
+        "标题与主体能共同呈现“填满画面构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-013",
+      "name": "负空间构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-013.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 negative-space 方向",
+        "主题需要把第一眼落在 subject-edge",
+        "标题与主体能共同呈现“负空间构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-014",
+      "name": "框中框构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-014.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“框中框构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-015",
+      "name": "引导线构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-015.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“引导线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-016",
+      "name": "居中构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-016.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“居中构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-017",
+      "name": "偏心构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-017.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“偏心构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-018",
+      "name": "对称构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-018.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“对称构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-019",
+      "name": "非对称构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-019.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“非对称构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-020",
+      "name": "镜像构图",
+      "category": "构图逻辑",
+      "subcategory": "经典法则与空间留白",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-020.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“镜像构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-021",
+      "name": "放射平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-021.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“放射平衡”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-022",
+      "name": "晶体式平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-022.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“晶体式平衡”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-023",
+      "name": "静态构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-023.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“静态构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-024",
+      "name": "动态构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-024.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“动态构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-025",
+      "name": "开放式构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-025.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“开放式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-026",
+      "name": "封闭式构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-026.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“封闭式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-027",
+      "name": "单一焦点构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-027.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“单一焦点构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-028",
+      "name": "多重焦点构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-028.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“多重焦点构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-029",
+      "name": "视觉层级",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-029.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“视觉层级”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-030",
+      "name": "主次关系",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-030.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“主次关系”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-031",
+      "name": "平衡",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-031.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“平衡”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-032",
+      "name": "比例",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-032.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“比例”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-033",
+      "name": "尺度对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-033.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“尺度对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-034",
+      "name": "明暗对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-034.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“明暗对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-035",
+      "name": "色彩对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-035.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“色彩对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-036",
+      "name": "形状对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-036.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“形状对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-037",
+      "name": "质感对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-037.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“质感对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-038",
+      "name": "动静对比",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-038.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“动静对比”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-039",
+      "name": "并置",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-039.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“并置”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-040",
+      "name": "隔离构图",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-040.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“隔离构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-041",
+      "name": "重复原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-041.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“重复原则”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-042",
+      "name": "图案组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-042.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“图案组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-043",
+      "name": "节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-043.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“节奏组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-044",
+      "name": "渐变组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-044.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“渐变组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-045",
+      "name": "交替节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-045.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“交替节奏组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-046",
+      "name": "渐进节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-046.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“渐进节奏组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-047",
+      "name": "流动节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-047.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“流动节奏组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-048",
+      "name": "随机节奏组织",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-048.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“随机节奏组织”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-049",
+      "name": "相似性原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-049.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 grouped 方向",
+        "主题需要把第一眼落在 dominant-cluster",
+        "标题与主体能共同呈现“相似性原则”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-050",
+      "name": "邻近性原则",
+      "category": "视觉原则与阅读模式",
+      "subcategory": "平衡、层级、对比与节奏",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-050.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 grouped 方向",
+        "主题需要把第一眼落在 dominant-cluster",
+        "标题与主体能共同呈现“邻近性原则”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-051",
+      "name": "水平构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-051.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“水平构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-052",
+      "name": "垂直构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-052.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“垂直构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-053",
+      "name": "对角线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-053.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 diagonal 方向",
+        "主题需要把第一眼落在 axis-end-or-crossing",
+        "标题与主体能共同呈现“对角线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-054",
+      "name": "平行线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-054.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“平行线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-055",
+      "name": "汇聚线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-055.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“汇聚线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-056",
+      "name": "交叉线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-056.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 crossed 方向",
+        "主题需要把第一眼落在 axis-crossing",
+        "标题与主体能共同呈现“交叉线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-057",
+      "name": "中轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-057.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“中轴构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-058",
+      "name": "偏轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-058.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“偏轴构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-059",
+      "name": "双轴构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-059.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“双轴构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-060",
+      "name": "十字构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-060.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 crossed 方向",
+        "主题需要把第一眼落在 axis-crossing",
+        "标题与主体能共同呈现“十字构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-061",
+      "name": "X 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-061.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 crossed 方向",
+        "主题需要把第一眼落在 axis-crossing",
+        "标题与主体能共同呈现“X 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-062",
+      "name": "T 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-062.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 t-axis 方向",
+        "主题需要把第一眼落在 top-centre",
+        "标题与主体能共同呈现“T 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-063",
+      "name": "L 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-063.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 l-axis 方向",
+        "主题需要把第一眼落在 corner-junction",
+        "标题与主体能共同呈现“L 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-064",
+      "name": "V 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-064.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 triangular 方向",
+        "主题需要把第一眼落在 triangle-tip-or-centre",
+        "标题与主体能共同呈现“V 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-065",
+      "name": "Z 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-065.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 z-path 方向",
+        "主题需要把第一眼落在 terminal-emphasis",
+        "标题与主体能共同呈现“Z 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-066",
+      "name": "C 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-066.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 curved 方向",
+        "主题需要把第一眼落在 curve-enclosed-focus",
+        "标题与主体能共同呈现“C 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-067",
+      "name": "S 形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-067.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“S 形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-068",
+      "name": "曲线构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-068.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“曲线构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-069",
+      "name": "波浪形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-069.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“波浪形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-070",
+      "name": "锯齿形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-070.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“锯齿形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-071",
+      "name": "三角构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-071.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 triangular 方向",
+        "主题需要把第一眼落在 triangle-tip-or-centre",
+        "标题与主体能共同呈现“三角构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-072",
+      "name": "金字塔构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-072.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“金字塔构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-073",
+      "name": "倒三角构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-073.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 triangular 方向",
+        "主题需要把第一眼落在 triangle-tip-or-centre",
+        "标题与主体能共同呈现“倒三角构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-074",
+      "name": "菱形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-074.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“菱形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-075",
+      "name": "方形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-075.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“方形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-076",
+      "name": "矩形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-076.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“矩形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-077",
+      "name": "圆形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-077.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 curved 方向",
+        "主题需要把第一眼落在 curve-enclosed-focus",
+        "标题与主体能共同呈现“圆形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-078",
+      "name": "椭圆构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-078.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 curved 方向",
+        "主题需要把第一眼落在 curve-enclosed-focus",
+        "标题与主体能共同呈现“椭圆构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-079",
+      "name": "弧形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-079.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 curved 方向",
+        "主题需要把第一眼落在 curve-enclosed-focus",
+        "标题与主体能共同呈现“弧形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-080",
+      "name": "环形构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-080.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 curved 方向",
+        "主题需要把第一眼落在 curve-enclosed-focus",
+        "标题与主体能共同呈现“环形构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-081",
+      "name": "螺旋构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-081.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 spiral 方向",
+        "主题需要把第一眼落在 spiral-eye",
+        "标题与主体能共同呈现“螺旋构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-082",
+      "name": "放射式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-082.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“放射式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-083",
+      "name": "向心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-083.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“向心式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-084",
+      "name": "离心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-084.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“离心式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-085",
+      "name": "同心式构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-085.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“同心式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-086",
+      "name": "四象限构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-086.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“四象限构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-087",
+      "name": "棋盘构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-087.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“棋盘构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-088",
+      "name": "阶梯构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-088.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“阶梯构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-089",
+      "name": "层叠构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-089.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“层叠构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-090",
+      "name": "级联构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-090.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“级联构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-091",
+      "name": "聚类构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-091.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 grouped 方向",
+        "主题需要把第一眼落在 dominant-cluster",
+        "标题与主体能共同呈现“聚类构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-092",
+      "name": "分散构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-092.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“分散构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-093",
+      "name": "尺度递减构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-093.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“尺度递减构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-094",
+      "name": "前景框架构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-094.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“前景框架构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-095",
+      "name": "一点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-095.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“一点透视”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-096",
+      "name": "重叠空间构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-096.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“重叠空间构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-097",
+      "name": "前景框架构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-097.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“前景框架构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-098",
+      "name": "线性透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-098.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“线性透视”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-099",
+      "name": "网络构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-099.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 connected-path 方向",
+        "主题需要把第一眼落在 start-node",
+        "标题与主体能共同呈现“网络构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-100",
+      "name": "前中后景构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-100.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“前中后景构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-101",
+      "name": "两点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-101.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“两点透视”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-102",
+      "name": "三点透视",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-102.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“三点透视”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-103",
+      "name": "平行透视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-103.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“平行透视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-104",
+      "name": "斜投影构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-104.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 diagonal 方向",
+        "主题需要把第一眼落在 axis-end-or-crossing",
+        "标题与主体能共同呈现“斜投影构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-105",
+      "name": "等距构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-105.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“等距构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-106",
+      "name": "轴测构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-106.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“轴测构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-107",
+      "name": "鸟瞰构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-107.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“鸟瞰构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-108",
+      "name": "虫视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-108.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“虫视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-109",
+      "name": "顶视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-109.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“顶视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-110",
+      "name": "平视构图",
+      "category": "构图逻辑",
+      "subcategory": "轴线、几何、空间与透视",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-110.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“平视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-111",
+      "name": "竖排文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-111.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“竖排文字排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-112",
+      "name": "横排文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-112.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“横排文字排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-113",
+      "name": "手稿网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-113.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“手稿网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-114",
+      "name": "分栏网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-114.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“分栏网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-115",
+      "name": "模块化网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-115.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“模块化网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-116",
+      "name": "层级网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-116.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“层级网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-117",
+      "name": "基线网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-117.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“基线网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-118",
+      "name": "复合网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-118.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“复合网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-119",
+      "name": "非对称网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-119.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“非对称网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-120",
+      "name": "方格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-120.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“方格网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-121",
+      "name": "轮廓绕排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-121.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“轮廓绕排”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-122",
+      "name": "矩形绕排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-122.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“矩形绕排”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-123",
+      "name": "跨栏标题",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-123.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“跨栏标题”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-124",
+      "name": "悬挂缩进",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-124.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“悬挂缩进”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-125",
+      "name": "首行缩进",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-125.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“首行缩进”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-126",
+      "name": "凸排标点",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-126.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“凸排标点”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-127",
+      "name": "基线对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-127.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“基线对齐”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-128",
+      "name": "形状文字",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-128.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“形状文字”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-129",
+      "name": "图形诗排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-129.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“图形诗排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-130",
+      "name": "路径文字",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "文字造型、绕排与对齐",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-130.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“路径文字”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-131",
+      "name": "强制透视构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-131.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“强制透视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-132",
+      "name": "空气透视构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-132.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“空气透视构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-133",
+      "name": "浅景深构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-133.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“浅景深构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-134",
+      "name": "深焦构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-134.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“深焦构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-135",
+      "name": "平面化构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-135.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“平面化构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-136",
+      "name": "深空间构图",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-136.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“深空间构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-137",
+      "name": "轴线系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-137.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“轴线系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-138",
+      "name": "放射系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-138.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“放射系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-139",
+      "name": "扩张系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-139.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“扩张系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-140",
+      "name": "随机系统",
+      "category": "构图逻辑",
+      "subcategory": "视点、景深与空间系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-140.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 rhythmic-series 方向",
+        "主题需要把第一眼落在 pattern-break",
+        "标题与主体能共同呈现“随机系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-141",
+      "name": "网格系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-141.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“网格系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-142",
+      "name": "模块系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-142.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“模块系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-143",
+      "name": "过渡系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-143.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“过渡系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-144",
+      "name": "双边系统",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-144.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“双边系统”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-145",
+      "name": "左对齐右参差",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-145.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“左对齐右参差”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-146",
+      "name": "右对齐左参差",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-146.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“右对齐左参差”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-147",
+      "name": "居中排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-147.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“居中排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-148",
+      "name": "两端对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-148.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“两端对齐”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-149",
+      "name": "强制两端对齐",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-149.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“强制两端对齐”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-150",
+      "name": "非对称字体排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-150.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“非对称字体排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-151",
+      "name": "单栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-151.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“单栏版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-152",
+      "name": "对称跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-152.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“对称跨页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-153",
+      "name": "通版跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-153.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“通版跨页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-154",
+      "name": "双栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-154.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“双栏版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-155",
+      "name": "图片主导版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-155.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 image-dominant 方向",
+        "主题需要把第一眼落在 image-subject",
+        "标题与主体能共同呈现“图片主导版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-156",
+      "name": "无出血版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-156.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“无出血版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-157",
+      "name": "非对称跨页",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-157.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“非对称跨页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-158",
+      "name": "文字主导版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-158.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 type-dominant 方向",
+        "主题需要把第一眼落在 headline",
+        "标题与主体能共同呈现“文字主导版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-159",
+      "name": "满出血版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-159.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 full-bleed 方向",
+        "主题需要把第一眼落在 dominant-field",
+        "标题与主体能共同呈现“满出血版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-160",
+      "name": "多栏版式",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-160.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“多栏版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-161",
+      "name": "方格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-161.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“方格网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-162",
+      "name": "模块化网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-162.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“模块化网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-163",
+      "name": "非对称网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-163.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“非对称网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-164",
+      "name": "手稿网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-164.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“手稿网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-165",
+      "name": "层级网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-165.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“层级网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-166",
+      "name": "分栏网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-166.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“分栏网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-167",
+      "name": "基线网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-167.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“基线网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-168",
+      "name": "水平文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-168.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“水平文字排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-169",
+      "name": "复合网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-169.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“复合网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-170",
+      "name": "垂直文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-170.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“垂直文字排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-171",
+      "name": "等距网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-171.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“等距网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-172",
+      "name": "放射网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-172.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 radial 方向",
+        "主题需要把第一眼落在 radial-centre",
+        "标题与主体能共同呈现“放射网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-173",
+      "name": "极坐标网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-173.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“极坐标网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-174",
+      "name": "嵌套网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-174.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“嵌套网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-175",
+      "name": "子网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-175.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“子网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-176",
+      "name": "固定网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-176.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“固定网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-177",
+      "name": "流体网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-177.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“流体网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-178",
+      "name": "响应式网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-178.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“响应式网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-179",
+      "name": "破格网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-179.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“破格网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-180",
+      "name": "解构网格",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "排版系统与网格系统",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-180.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“解构网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-181",
+      "name": "大标题版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-181.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 type-dominant 方向",
+        "主题需要把第一眼落在 headline",
+        "标题与主体能共同呈现“大标题版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-182",
+      "name": "图片窗口版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-182.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“图片窗口版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-183",
+      "name": "框架版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-183.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“框架版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-184",
+      "name": "多面板版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-184.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“多面板版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-185",
+      "name": "蒙德里安版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-185.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“蒙德里安版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-186",
+      "name": "马戏团版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-186.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“马戏团版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-187",
+      "name": "剪影版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-187.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 crop-driven 方向",
+        "主题需要把第一眼落在 recognisable-fragment",
+        "标题与主体能共同呈现“剪影版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-188",
+      "name": "字母造型版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-188.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“字母造型版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-189",
+      "name": "图文谜语版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-189.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“图文谜语版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-190",
+      "name": "拼贴版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-190.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“拼贴版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-191",
+      "name": "蒙太奇版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-191.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“蒙太奇版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-192",
+      "name": "模块化页面",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-192.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“模块化页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-193",
+      "name": "区块式版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-193.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“区块式版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-194",
+      "name": "插页式版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-194.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“插页式版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-195",
+      "name": "侧栏版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-195.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 l-axis 方向",
+        "主题需要把第一眼落在 corner-junction",
+        "标题与主体能共同呈现“侧栏版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-196",
+      "name": "边注版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-196.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 l-axis 方向",
+        "主题需要把第一眼落在 corner-junction",
+        "标题与主体能共同呈现“边注版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-197",
+      "name": "环绕图版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-197.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“环绕图版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-198",
+      "name": "浮动块版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-198.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“浮动块版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-199",
+      "name": "封面版式",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-199.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“封面版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-200",
+      "name": "章节扉页",
+      "category": "平面、出版与广告",
+      "subcategory": "表现型版式与出版功能页",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-200.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“章节扉页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-201",
+      "name": "弹性盒布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-201.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“弹性盒布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-202",
+      "name": "网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-202.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“网格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-203",
+      "name": "子网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-203.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“子网格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-204",
+      "name": "多栏布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-204.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 column-grid 方向",
+        "主题需要把第一眼落在 lead-column",
+        "标题与主体能共同呈现“多栏布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-205",
+      "name": "表格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-205.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“表格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-206",
+      "name": "浮动布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-206.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“浮动布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-207",
+      "name": "相对定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-207.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“相对定位布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-208",
+      "name": "绝对定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-208.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“绝对定位布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-209",
+      "name": "固定定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-209.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“固定定位布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-210",
+      "name": "粘性定位布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-210.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“粘性定位布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-211",
+      "name": "瀑布流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-211.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“瀑布流布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-212",
+      "name": "覆盖层布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-212.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“覆盖层布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-213",
+      "name": "固定宽度布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-213.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“固定宽度布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-214",
+      "name": "流体布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-214.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“流体布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-215",
+      "name": "响应式布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-215.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“响应式布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-216",
+      "name": "自适应布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-216.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“自适应布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-217",
+      "name": "容器查询布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-217.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“容器查询布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-218",
+      "name": "堆栈",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-218.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“堆栈”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-219",
+      "name": "盒子",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-219.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“盒子”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-220",
+      "name": "居中器",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-220.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 central 方向",
+        "主题需要把第一眼落在 canvas-centre",
+        "标题与主体能共同呈现“居中器”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-221",
+      "name": "簇群",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-221.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 grouped 方向",
+        "主题需要把第一眼落在 dominant-cluster",
+        "标题与主体能共同呈现“簇群”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-222",
+      "name": "侧栏原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-222.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 l-axis 方向",
+        "主题需要把第一眼落在 corner-junction",
+        "标题与主体能共同呈现“侧栏原语”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-223",
+      "name": "切换器",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-223.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“切换器”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-224",
+      "name": "封面原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-224.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“封面原语”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-225",
+      "name": "自适应网格原语",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-225.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“自适应网格原语”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-226",
+      "name": "比例框",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-226.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“比例框”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-227",
+      "name": "水平滚轴",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-227.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“水平滚轴”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-228",
+      "name": "悬浮层",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-228.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“悬浮层”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-229",
+      "name": "图标文字组合",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-229.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“图标文字组合”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-230",
+      "name": "单列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-230.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“单列页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-231",
+      "name": "双列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-231.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“双列页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-232",
+      "name": "三列页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-232.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“三列页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-233",
+      "name": "侧边栏页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-233.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“侧边栏页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-234",
+      "name": "分屏布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-234.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“分屏布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-235",
+      "name": "圣杯布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-235.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“圣杯布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-236",
+      "name": "页眉—主体—页脚",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-236.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“页眉—主体—页脚”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-237",
+      "name": "顶部导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-237.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“顶部导航布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-238",
+      "name": "导航抽屉布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-238.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“导航抽屉布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-239",
+      "name": "底部导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-239.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“底部导航布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-240",
+      "name": "标签页布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-240.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“标签页布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-241",
+      "name": "栏目开启页",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-241.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“栏目开启页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-242",
+      "name": "特写跨页",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-242.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“特写跨页”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-243",
+      "name": "目录版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-243.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“目录版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-244",
+      "name": "索引版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-244.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“索引版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-245",
+      "name": "图录版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-245.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“图录版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-246",
+      "name": "引语版式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-246.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 type-dominant 方向",
+        "主题需要把第一眼落在 headline",
+        "标题与主体能共同呈现“引语版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-247",
+      "name": "普通流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-247.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“普通流布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-248",
+      "name": "块级布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-248.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“块级布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-249",
+      "name": "行内布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-249.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“行内布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-250",
+      "name": "流根布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-250.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“流根布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-251",
+      "name": "手风琴布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-251.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“手风琴布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-252",
+      "name": "列表—详情布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-252.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“列表—详情布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-253",
+      "name": "辅助窗格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-253.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“辅助窗格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-254",
+      "name": "信息流布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-254.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“信息流布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-255",
+      "name": "卡片网格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-255.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“卡片网格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-256",
+      "name": "瀑布流页面",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-256.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“瀑布流页面”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-257",
+      "name": "便当盒布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-257.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“便当盒布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-258",
+      "name": "仪表盘布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-258.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“仪表盘布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-259",
+      "name": "数据表格布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-259.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“数据表格布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-260",
+      "name": "画廊布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-260.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 image-dominant 方向",
+        "主题需要把第一眼落在 image-subject",
+        "标题与主体能共同呈现“画廊布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-261",
+      "name": "搜索结果布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-261.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“搜索结果布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-262",
+      "name": "设置页面布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-262.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“设置页面布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-263",
+      "name": "媒体对象布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-263.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“媒体对象布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-264",
+      "name": "Hero 主视觉布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-264.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 image-dominant 方向",
+        "主题需要把第一眼落在 image-subject",
+        "标题与主体能共同呈现“Hero 主视觉布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-265",
+      "name": "分层导航布局",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-265.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“分层导航布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-266",
+      "name": "宏观流动模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-266.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“宏观流动模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-267",
+      "name": "列下落模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-267.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“列下落模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-268",
+      "name": "布局切换模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-268.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“布局切换模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-269",
+      "name": "微调模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-269.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“微调模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-270",
+      "name": "画布外模式",
+      "category": "网页与 UI",
+      "subcategory": "布局原语、页面模式与响应重排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-270.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“画布外模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-271",
+      "name": "单人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-271.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“单人物构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-272",
+      "name": "双人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-272.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“双人物构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-273",
+      "name": "三人物构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-273.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“三人物构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-274",
+      "name": "群像构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-274.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“群像构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-275",
+      "name": "过肩构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-275.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“过肩构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-276",
+      "name": "主观视角构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-276.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“主观视角构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-277",
+      "name": "客观视角构图",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-277.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“客观视角构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-278",
+      "name": "干净单人镜头",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-278.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“干净单人镜头”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-279",
+      "name": "脏单人镜头",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-279.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“脏单人镜头”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-280",
+      "name": "深度调度",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-280.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“深度调度”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-281",
+      "name": "堆叠重排",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-281.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“堆叠重排”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-282",
+      "name": "顺序重排",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-282.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“顺序重排”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-283",
+      "name": "折叠双窗格",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-283.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“折叠双窗格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-284",
+      "name": "自适应网格",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-284.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“自适应网格”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-285",
+      "name": "组件级响应布局",
+      "category": "影视画面构图",
+      "subcategory": "人物、镜头与场面调度",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-285.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“组件级响应布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-286",
+      "name": "F 型扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-286.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“F 型扫描模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-287",
+      "name": "Z 型扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-287.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 z-path 方向",
+        "主题需要把第一眼落在 terminal-emphasis",
+        "标题与主体能共同呈现“Z 型扫描模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-288",
+      "name": "古腾堡图式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-288.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 z-path 方向",
+        "主题需要把第一眼落在 terminal-emphasis",
+        "标题与主体能共同呈现“古腾堡图式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-289",
+      "name": "层蛋糕扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-289.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“层蛋糕扫描模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-290",
+      "name": "斑点扫描模式",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-290.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“斑点扫描模式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-291",
+      "name": "轮播布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-291.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 image-dominant 方向",
+        "主题需要把第一眼落在 image-subject",
+        "标题与主体能共同呈现“轮播布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-292",
+      "name": "时间线布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-292.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 connected-path 方向",
+        "主题需要把第一眼落在 start-node",
+        "标题与主体能共同呈现“时间线布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-293",
+      "name": "看板布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-293.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 panel-system 方向",
+        "主题需要把第一眼落在 dominant-panel",
+        "标题与主体能共同呈现“看板布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-294",
+      "name": "日历布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-294.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“日历布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-295",
+      "name": "树形浏览布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-295.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 connected-path 方向",
+        "主题需要把第一眼落在 start-node",
+        "标题与主体能共同呈现“树形浏览布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-296",
+      "name": "对话布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-296.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“对话布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-297",
+      "name": "地图主导布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-297.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“地图主导布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-298",
+      "name": "画布工作区布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-298.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“画布工作区布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-299",
+      "name": "表单布局",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-299.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“表单布局”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-300",
+      "name": "分步表单",
+      "category": "网页与 UI",
+      "subcategory": "阅读模式与产品页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-300.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“分步表单”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-301",
+      "name": "平面调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-301.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“平面调度”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-302",
+      "name": "三角调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-302.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 triangular 方向",
+        "主题需要把第一眼落在 triangle-tip-or-centre",
+        "标题与主体能共同呈现“三角调度”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-303",
+      "name": "横向调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-303.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“横向调度”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-304",
+      "name": "多层前景调度",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-304.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 depth-layers 方向",
+        "主题需要把第一眼落在 foreground-or-middle",
+        "标题与主体能共同呈现“多层前景调度”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-305",
+      "name": "高远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-305.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“高远法”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-306",
+      "name": "深远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-306.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“深远法”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-307",
+      "name": "平远法",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-307.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“平远法”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-308",
+      "name": "三远综合构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-308.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“三远综合构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-309",
+      "name": "散点透视",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-309.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 perspective 方向",
+        "主题需要把第一眼落在 vanishing-region",
+        "标题与主体能共同呈现“散点透视”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-310",
+      "name": "游观式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-310.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 flowing-curve 方向",
+        "主题需要把第一眼落在 multiple-along-path",
+        "标题与主体能共同呈现“游观式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-311",
+      "name": "全景式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-311.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“全景式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-312",
+      "name": "河两岸式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-312.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“河两岸式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-313",
+      "name": "边角式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-313.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 off-centre 方向",
+        "主题需要把第一眼落在 off-centre-anchor",
+        "标题与主体能共同呈现“边角式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-314",
+      "name": "截景式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-314.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“截景式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-315",
+      "name": "折枝式构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-315.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 crop-driven 方向",
+        "主题需要把第一眼落在 recognisable-fragment",
+        "标题与主体能共同呈现“折枝式构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-316",
+      "name": "留白构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-316.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 negative-space 方向",
+        "主题需要把第一眼落在 subject-edge",
+        "标题与主体能共同呈现“留白构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-317",
+      "name": "计白当黑构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-317.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 negative-space 方向",
+        "主题需要把第一眼落在 subject-edge",
+        "标题与主体能共同呈现“计白当黑构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-318",
+      "name": "虚实相生构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-318.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“虚实相生构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-319",
+      "name": "疏密相间构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-319.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“疏密相间构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-320",
+      "name": "主宾关系构图",
+      "category": "中国传统构图",
+      "subcategory": "三远、游观、取景与章法",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-320.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“主宾关系构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-321",
+      "name": "竖排中西文转向",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-321.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“竖排中西文转向”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-322",
+      "name": "直排中西文直立",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-322.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“直排中西文直立”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-323",
+      "name": "双向文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-323.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“双向文字排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-324",
+      "name": "旁注（Ruby）排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-324.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“旁注（Ruby）排版”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-325",
+      "name": "标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-325.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“标题幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-326",
+      "name": "标题和内容幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-326.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“标题和内容幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-327",
+      "name": "节标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-327.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“节标题幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-328",
+      "name": "两项内容幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-328.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“两项内容幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-329",
+      "name": "比较幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-329.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 split 方向",
+        "主题需要把第一眼落在 paired-focus",
+        "标题与主体能共同呈现“比较幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-330",
+      "name": "仅标题幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-330.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 type-dominant 方向",
+        "主题需要把第一眼落在 headline",
+        "标题与主体能共同呈现“仅标题幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-331",
+      "name": "空白幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-331.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“空白幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-332",
+      "name": "内容与标题说明幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-332.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“内容与标题说明幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-333",
+      "name": "图片与标题说明幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-333.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“图片与标题说明幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-334",
+      "name": "大数字页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-334.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“大数字页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-335",
+      "name": "引语页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-335.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 type-dominant 方向",
+        "主题需要把第一眼落在 headline",
+        "标题与主体能共同呈现“引语页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-336",
+      "name": "时间线页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-336.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 connected-path 方向",
+        "主题需要把第一眼落在 start-node",
+        "标题与主体能共同呈现“时间线页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-337",
+      "name": "流程幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-337.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 connected-path 方向",
+        "主题需要把第一眼落在 start-node",
+        "标题与主体能共同呈现“流程幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-338",
+      "name": "矩阵页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-338.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 modular-grid 方向",
+        "主题需要把第一眼落在 cell-hierarchy",
+        "标题与主体能共同呈现“矩阵页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-339",
+      "name": "数据图表页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-339.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“数据图表页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-340",
+      "name": "全图页幻灯片版式",
+      "category": "演示文稿页面",
+      "subcategory": "基础、叙事与数据页面",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-340.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 image-dominant 方向",
+        "主题需要把第一眼落在 image-subject",
+        "标题与主体能共同呈现“全图页幻灯片版式”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-341",
+      "name": "开合构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-341.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“开合构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-342",
+      "name": "起承转合构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-342.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“起承转合构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-343",
+      "name": "藏露关系构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-343.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 framed 方向",
+        "主题需要把第一眼落在 inside-frame",
+        "标题与主体能共同呈现“藏露关系构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-344",
+      "name": "欹正关系构图",
+      "category": "中国传统构图",
+      "subcategory": "开合、起承转合、藏露与欹正",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-344.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 diagonal 方向",
+        "主题需要把第一眼落在 axis-end-or-crossing",
+        "标题与主体能共同呈现“欹正关系构图”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-345",
+      "name": "横排左起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-345.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“横排左起”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-346",
+      "name": "横排右起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-346.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 horizontal 方向",
+        "主题需要把第一眼落在 left-or-centre",
+        "标题与主体能共同呈现“横排右起”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-347",
+      "name": "直排右起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-347.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“直排右起”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-348",
+      "name": "直排左起",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-348.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“直排左起”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-349",
+      "name": "横直混排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-349.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 adaptive 方向",
+        "主题需要把第一眼落在 single-primary",
+        "标题与主体能共同呈现“横直混排”的构图身份"
+      ]
+    },
+    {
+      "id": "layout-350",
+      "name": "纵中横排",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "东亚文字方向与混排",
+      "learningStatus": "studied",
+      "path": "knowledge/layout-350.json",
+      "selectionSignals": [
+        "素材天然存在或可以重构出 vertical 方向",
+        "主题需要把第一眼落在 upper-or-centre",
+        "标题与主体能共同呈现“纵中横排”的构图身份"
+      ]
+    }
+  ]
+}

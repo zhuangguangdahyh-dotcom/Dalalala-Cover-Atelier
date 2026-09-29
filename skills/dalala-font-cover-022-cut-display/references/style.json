@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-022-cut-display",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-022/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": ["topTitleLatin", "topTitleHan", "bottomPayoff"],
+  "scripts": ["Latin", "Han", "punctuation"],
+  "construction": "实心超粗、手工切边感展示字；逐字宽窄和倾角略不同，平钝端点、局部不平边、完整字腔",
+  "variants": {
+    "topWhite": "拉丁词和两字中文并列，近白色高明度填充；横向合计约 94% 画宽",
+    "bottomWarm": "三字中文加独立感叹号，暖亮填充；横向约 94% 画宽"
+  },
+  "strokeRatioToGlyphHeight": [0.14, 0.23],
+  "trackingRatioToGlyphWidth": [0, 0.08],
+  "edge": "微不规则切边而非统一破损蒙版，局部缺角不能破坏标准字形",
+  "shadow": "合成阶段添加向右下的柔暗影，位移约字高 2–5%；不烘入透明字形层",
+  "requiredInputs": ["exactText", "variant", "canvasWidth", "canvasHeight", "textBox", "colorRole"],
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "productionApproved": false,
+  "forbidden": ["普通规整黑体替换", "撕纸片或独立色块承字", "大面积飞白或均匀颗粒", "镂空、描边、泡泡字或 3D 挤出", "错误汉字、伪英文、粘连字腔"]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "参考 036（拆解测试态）"
+  short_description: "极窄双语标题与坐姿人物设备阵列"
+policy:
+  allow_automatic_invocation: false
+  status: studied

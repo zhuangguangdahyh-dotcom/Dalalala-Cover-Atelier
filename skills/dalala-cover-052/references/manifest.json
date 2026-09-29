@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-052",
+  "displayName": "参考封面 052（待确认）",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "references/analysis.md",
+  "anatomy": "references/anatomy.json",
+  "adaptationRules": "references/adaptation-rules.md",
+  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
+  "supportedAspectRatios": ["3:4"],
+  "titleLength": {"prefixCharacters": [2, 4], "mainCharactersTotal": [4, 6], "mainColumns": 2, "charactersPerColumn": [2, 3]},
+  "subjectTypes": ["single human with upward-pointing gesture", "person with a pet or product and upward visual/action cue", "recognizable anthropomorphic subject with upward visual/action cue"],
+  "contentMoods": ["energetic", "playful", "hands-on creator demonstration", "before-to-after explanation"],
+  "firstVisualFocus": "central person's colorful head, dark eyewear, and high-chroma outline",
+  "spatialSkeleton": "upper-left slanted light evidence card plus upper-center dark evidence card; central bottom-bleeding person; high right and low left oversized hand-lettered title",
+  "readingPath": ["central person", "right title", "left title", "thin handwritten prefix", "two evidence cards", "small marks"],
+  "imageTextRelationship": "the person points toward two result cards while split large words surround the silhouette and force the eye across the subject",
+  "locked": ["3:4 vertical skeleton", "center subject bleeding from bottom", "two overlapping cards with contrasting angle and lightness", "high-right/low-left title columns", "thin handwritten prefix above cards", "irregular bright outline around subject", "white halftone behind subject", "card edges partially hidden by subject"],
+  "adaptive": ["subject identity, clothes and pose content while keeping upward cue", "content of the two evidence cards", "title wording within fixed blocks", "brand and color values under fixed color roles", "minor prop identity"],
+  "optional": ["two white doodle stars", "small upper-right mark", "bottom-right paper corner", "small object in subject's lap"],
+  "forbidden": ["single horizontal headline", "equal flat screenshot pair", "text across face", "generic AI mascot as default", "uniform computer glow replacing hand-drawn outline", "all-over halftone wallpaper", "copying original identity or interface for another industry", "silent font substitution"],
+  "variableContract": {
+    "person": "identity and clothing may change; new subject returns to central near-half-body scale, bottom bleed, and upward gesture/attention cue",
+    "text": "copy may change; prefix remains small and light, main words remain two large opposing vertical blocks with 2-3 glyphs each",
+    "product": "two evidence cards may show other products, steps, or outcomes; their count, angle contrast, overlap, and subject occlusion remain",
+    "color": "exact colors may change; keep warm mid-tone base, dark anchor, high-lightness lettering/dots, cool or contrasting bright focus, and narrow high-chroma outline"
+  },
+  "invariantContract": {
+    "layout": "subject x14-100%, y30-100%, head center x45-58% y42-51%; light card x2-43% y12-47% at about -30 to -35 degrees; dark card x34-67% y8-34%; right title x70-98% y13-45%; left title x1-27% y41-79%",
+    "visualMass": "upper about 35%, lower about 65%; visible warm base about 45-55%, dark anchor 20-25%, white/light elements 18-23%, cool bright focus 5-8%, high-chroma outline 2-4%",
+    "specialEffects": "fine subject cutout, hand-uneven outline thickness 1.5-2.5% of canvas width, irregular white halftone denser next to subject, mild card perspective and shadow, restrained distressed paper background"
+  },
+  "materialTransformation": [
+    {"level": "required", "action": "cutout and edge repair", "trigger": "every real-person or pet input"},
+    {"level": "required", "action": "crop, rotate and perspective on two evidence cards", "trigger": "every two-card input"},
+    {"level": "conditional", "action": "pose or view reconstruction", "trigger": "subject lacks upward action cue"},
+    {"level": "conditional", "action": "background extension or replacement", "trigger": "source photo cannot support central bottom bleed"}
+  ],
+  "fontDependencies": [
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-052-rough-white", "required": true, "status": "testing"},
+    {"role": "prefix", "type": "font-style-id", "id": "dalala-cover-052-thin-black", "required": true, "status": "testing"}
+  ],
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

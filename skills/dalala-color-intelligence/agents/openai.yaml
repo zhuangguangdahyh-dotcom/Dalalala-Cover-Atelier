@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dalala 长期配色智能"
+  short_description: "用 742 个传统色与角色化规则完成跨媒介配色"
+  brand_color: "#C04851"
+  default_prompt: "Use $dalala-color-intelligence to build and apply a role-based palette for this design."
+policy:
+  allow_implicit_invocation: true

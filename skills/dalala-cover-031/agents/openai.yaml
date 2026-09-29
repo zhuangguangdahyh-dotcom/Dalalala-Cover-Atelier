@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 031｜待确认"
+  short_description: "顶部重字、右侧真人与漂浮卡片的测试态封面规则"
+  default_prompt: "先读取原图、anatomy、adaptation-rules 和 manifest；当前只用于拆解确认，禁止自动生产。"

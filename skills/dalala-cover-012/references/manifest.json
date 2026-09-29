@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-012",
+  "displayName": "参考 012",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "8990cca3-c22a-4499-90bc-81c6a95f2cf4",
+  "analysisReport": "../../../skills/dalala-cover-012/references/adaptation-rules.md",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "headlineNumberDigits": [
+      2,
+      3
+    ],
+    "headlineChineseEquivalentCharacters": [
+      2,
+      4
+    ],
+    "headlineLatinCharacters": [
+      3,
+      7
+    ],
+    "subtitleChineseEquivalentCharacters": [
+      7,
+      10
+    ],
+    "cardLabelChineseEquivalentCharactersExcludingNumber": [
+      4,
+      7
+    ]
+  },
+  "subjectTypes": [
+    "single centered human presenter holding a hero card"
+  ],
+  "contentEmotions": [
+    "高能",
+    "丰富",
+    "可信",
+    "可获得",
+    "工具感"
+  ],
+  "firstFocus": "超大数量数字与同一行中英主标题",
+  "spatialStructure": [
+    "顶部约 24% 的主标题与斜向副标题",
+    "中心真人直视并双手举主卡",
+    "左右各三张外围卡形成上中下环绕",
+    "黑底径向隧道收束到人脸与主卡",
+    "下部主卡最大、外围卡次级、装饰最小"
+  ],
+  "readingPath": [
+    "数量主标题",
+    "副标题",
+    "人脸",
+    "手持主卡",
+    "六张外围卡",
+    "小装饰"
+  ],
+  "imageTextRelationship": "顶部以数量和反差承诺吸引点击；中心人物提供可信身份；主卡与六张外围卡把抽象数量承诺变成可见证据。",
+  "locked": [
+    "3:4 深色满版舞台",
+    "单行数字＋中文＋拉丁主标题和单行斜向副标题",
+    "中心单人正面、双手举主卡",
+    "一张主卡＋左右六张外围卡",
+    "统一卡框/标签系统与受控旋转",
+    "径向隧道、中心消失点和真实局部遮挡"
+  ],
+  "adaptive": [
+    "人物身份、服装和表情",
+    "主副标题与七个标签的文字内容",
+    "七张卡的行业案例/产品/场景内容",
+    "具体色值"
+  ],
+  "optional": [
+    "6–10 个落在黑色缝隙中的小装饰",
+    "右上行动徽章的中性符号",
+    "一至两张外围卡轻微触边"
+  ],
+  "forbidden": [
+    "改为规则宫格或等大散贴",
+    "删除人物、主卡、外围卡或径向隧道",
+    "无真实双手接触的悬浮主卡",
+    "长标题换行或缩字迁就",
+    "普通粗黑体或爆点节奏黑体静默替换",
+    "固定参考黄蓝色值",
+    "未经确认标记 approved 或 active"
+  ],
+  "variableContract": {
+    "person": "身份外貌服装可变；单人正面、中心景别、双手持卡及占比不变。",
+    "text": "内容可变；数字＋中文＋拉丁单行结构、副标题单行、七个编号标签不变。",
+    "product": "卡内对象可变；一主六辅、尺寸比、旋转、层级和语义关联不变。",
+    "palette": "色值可变；深底、暖亮钩子、冷亮副标题、浅框和少量点缀的角色关系不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "peripheralCardCount": 6,
+    "totalCardCount": 7,
+    "heroToPeripheralCardAreaRatio": [
+      2.2,
+      2.8
+    ],
+    "effects": [
+      "radial tunnel convergence",
+      "inward-tilted card orbit",
+      "repeated framed-card system",
+      "real two-hand hero-card contact",
+      "mixed-script oblique quantity headline",
+      "cool slanted subtitle banner"
+    ],
+    "numbering": "每卡保留编号加短标签；序号按真实内容体系安排，原图 1,2,3,4,5,7,8 非连续"
+  },
+  "assetTransformations": [
+    {
+      "when": "人物已有合格持卡动作",
+      "level": "T1",
+      "action": "重裁并精细抠图，嵌入黑色径向舞台",
+      "reason": "保留身份和真实手卡关系"
+    },
+    {
+      "when": "案例素材比例不一",
+      "level": "T2",
+      "action": "逐张重裁/扩图到统一卡框并预留标签区",
+      "reason": "用重复框架组织多样内容"
+    },
+    {
+      "when": "人物无完整双手持卡动作",
+      "level": "T3",
+      "action": "补拍或受身份约束重建动作与局部遮罩",
+      "reason": "避免悬浮卡片和假手"
+    },
+    {
+      "when": "内容不足七槽或标题超长",
+      "level": "content-gate",
+      "action": "补齐证据或改写；仍不适配则换模板",
+      "reason": "不破坏模板证据数量和顶部字块"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainHeadline",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "headline",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "banner",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "cardLabel",
+      "type": "font-style-id",
+      "id": "dalala-cover-012-power-oblique",
+      "variant": "card-label",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

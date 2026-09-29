@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-192",
+  "name": "模块化页面",
+  "category": "平面、出版与广告",
+  "subcategory": "表现型版式与出版功能页",
+  "learningStatus": "studied",
+  "learningMethod": "pinned-original-reference + full-size-visual-review + cross-media-distillation",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/04-type-grid-cjk/192-垂直文字排版.png",
+    "localReference": "../references/source-thumbnails/192.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "垂直文字排版",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "对齐、缩进与文字造型",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "把标题、图片、说明和品牌信息组织成稳定的编辑版面",
+  "principle": {
+    "whyItWorks": "把不同内容压缩成可复用单元，用统一网格、边距和样式建立秩序，再用一个例外模块制造重点。",
+    "visualMechanism": "把不同内容压缩成可复用单元，用统一网格、边距和样式建立秩序，再用一个例外模块制造重点。",
+    "readingMotion": "标题进入，横向读取原理单元，再进入实例列和组合示意。",
+    "emotionalEffect": "理性、清晰、系统化",
+    "whenToUse": [
+      "卖点、证据、功能、作品、履历或数据需要分组展示",
+      "PPT、简历、长图和说明型广告"
+    ],
+    "avoidWhen": [
+      "只有一个核心判断却硬拆成很多卡片",
+      "模块内容长度差异过大无法压缩"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "上方标题区与右上 2×2 几何模块共同构成入口"
+    },
+    "mainTitle": {
+      "role": "建立入口与核心判断",
+      "placement": "左上单行超大标题",
+      "recommendedLines": "按语义和参考轮廓决定"
+    },
+    "subtitle": {
+      "role": "补充语境",
+      "placement": "标题下方英文名和短横线"
+    },
+    "supportingInfo": {
+      "role": "证据、解释或行动",
+      "placement": "中部六个原理模块、右侧三个实例卡、下方三种组合示意与应用建议"
+    },
+    "decoration": {
+      "role": "强化结构、方向或材质",
+      "placement": "统一圆形图标、细边框、短横线和重复网格"
+    },
+    "protectedWhitespace": "模块内部边距、列间距和上下章节分隔带",
+    "readingPath": "标题进入，横向读取原理单元，再进入实例列和组合示意。"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "卖点、证据、功能、作品、履历或数据需要分组展示",
+      "PPT、简历、长图和说明型广告"
+    ],
+    "suitableAssets": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "只有一个核心判断却硬拆成很多卡片",
+      "模块内容长度差异过大无法压缩"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先锁定身份或事实锚点，再按该规则主动改变景别、裁切、位置、层间关系与可见范围。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化该规则的主骨架、阅读动作或主题隐喻时使用。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "标题属于独立入口区，不能与每张卡同级；卡片标题短且一致，正文密度受控",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "360 px 缩略图仍能识别标题、第一焦点与主阅读方向。"
+  },
+  "selectionSignals": [
+    "卖点、证据、功能、作品、履历或数据需要分组展示",
+    "PPT、简历、长图和说明型广告",
+    "模块是否对应真实内容类型，且存在清楚的优先级例外？"
+  ],
+  "rejectionSignals": [
+    "为了填满网格制造无用卡片",
+    "所有模块同权",
+    "每张卡内部使用不同边距和字体逻辑"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以 modular-evidence 作为唯一主骨架。",
+      "保持阅读动作：标题进入，横向读取原理单元，再进入实例列和组合示意。",
+      "保持参考中的主次重量、关键对齐、受保护留白和图文关系。"
+    ],
+    "adaptive": [
+      "当前标题、语义分组和信息数量",
+      "素材裁切、景别、位置、遮挡与背景",
+      "独立选择的字体风格",
+      "按当前内容重新建立的颜色角色与色值",
+      "目标媒介和画幅的独立重构"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“模块化页面”？"
+  },
+  "deepStudyStatus": "deep-studied",
+  "transformationGrammar": {
+    "minimumTransformationLevel": "T2",
+    "identityAnchors": [
+      "人物脸与真实表情",
+      "产品关键结构",
+      "事实与数据证据"
+    ],
+    "compositionFreedoms": [
+      "先确定模块类型和信息上限，再填内容",
+      "用一个放大、跨格或高对比模块作为主角",
+      "重复边距和对齐，变化内容尺度"
+    ],
+    "imageRebuildActions": [
+      "先确定模块类型和信息上限，再填内容",
+      "用一个放大、跨格或高对比模块作为主角",
+      "重复边距和对齐，变化内容尺度"
+    ],
+    "titleInteraction": [
+      "标题属于独立入口区，不能与每张卡同级",
+      "卡片标题短且一致，正文密度受控"
+    ],
+    "topicMetaphorExample": "四点、五步、案例清单可变成统一卡片系统，并用一张跨格主卡承载最关键判断。"
+  },
+  "semanticFit": {
+    "templateFamily": "modular-evidence",
+    "bestFor": [
+      "卖点、证据、功能、作品、履历或数据需要分组展示",
+      "PPT、简历、长图和说明型广告"
+    ],
+    "avoidFor": [
+      "只有一个核心判断却硬拆成很多卡片",
+      "模块内容长度差异过大无法压缩"
+    ],
+    "selectionQuestion": "模块是否对应真实内容类型，且存在清楚的优先级例外？"
+  },
+  "failureModes": [
+    "为了填满网格制造无用卡片",
+    "所有模块同权",
+    "每张卡内部使用不同边距和字体逻辑"
+  ]
+}

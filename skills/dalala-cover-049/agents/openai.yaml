@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考封面 049（拆解待确认）"
+  short_description: "全幅城市纪实照片、远中近景与居中双行英文标题的测试态封面规则"
+  default_prompt: "按本 Skill 的 anatomy、adaptation-rules 与 manifest 先分析当前主题和素材，保持 3:4 全幅实景与双行标题结构；当前只生成供验收的测试方案。"

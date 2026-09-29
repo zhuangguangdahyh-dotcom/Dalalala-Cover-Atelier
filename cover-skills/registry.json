@@ -1,0 +1,1800 @@
+{
+  "schemaVersion": 1,
+  "description": "用户逐张确认的爆款封面 Skill 注册表。未通过真实内容复刻与用户验收的参考不得注册为 active。",
+  "skills": [
+    {
+      "id": "dalala-cover-001",
+      "displayName": "爆款封面 001",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-001.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cut-block-display",
+          "required": true
+        },
+        {
+          "role": "brandWord",
+          "type": "font-style-id",
+          "id": "dalala-cover-001-rounded-backword",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-001/SKILL.md",
+      "anatomy": "../skills/dalala-cover-001/references/anatomy.json"
+    },
+    {
+      "id": "dalala-cover-002",
+      "displayName": "爆款封面 002",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-002.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-002-editorial-serif",
+          "required": true
+        },
+        {
+          "role": "topImprint",
+          "type": "font-style-id",
+          "id": "dalala-cover-002-editorial-serif",
+          "required": true
+        },
+        {
+          "role": "sideEdition",
+          "type": "font-style-id",
+          "id": "dalala-cover-002-editorial-serif",
+          "required": true
+        },
+        {
+          "role": "issueLine",
+          "type": "font-style-id",
+          "id": "dalala-cover-002-editorial-serif",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-002/SKILL.md",
+      "anatomy": "../skills/dalala-cover-002/references/anatomy.json"
+    },
+    {
+      "id": "dalala-cover-003",
+      "displayName": "爆款封面 003",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-003.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-003-spatial-display",
+          "required": true
+        },
+        {
+          "role": "hookLead",
+          "type": "font-style-id",
+          "id": "dalala-cover-003-slanted-song",
+          "required": true
+        },
+        {
+          "role": "hookPayoff",
+          "type": "font-style-id",
+          "id": "dalala-cover-003-slanted-song",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-003/SKILL.md",
+      "anatomy": "../skills/dalala-cover-003/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-003/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "a2b8d6e4-8a12-40cc-b432-a19fb759fa6e"
+    },
+    {
+      "id": "dalala-cover-004",
+      "displayName": "爆款封面 004",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-004.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-004-smooth-hand",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-004/SKILL.md",
+      "anatomy": "../skills/dalala-cover-004/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-004/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "8f7d9567-7a41-4904-9b62-5c514c5a627d"
+    },
+    {
+      "id": "dalala-cover-005",
+      "displayName": "爆款封面 005",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-005.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "hookLine",
+          "type": "font-style-id",
+          "id": "dalala-cover-005-hook-block",
+          "required": true
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-005-modular-outline",
+          "required": true
+        },
+        {
+          "role": "methodLine",
+          "type": "font-class",
+          "id": "condensed-uppercase-sans",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-005/SKILL.md",
+      "anatomy": "../skills/dalala-cover-005/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-005/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "d1908766-5d27-4bfe-9e10-f61b87551a50"
+    },
+    {
+      "id": "dalala-cover-006",
+      "displayName": "爆款封面 006",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-006.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "identityKicker",
+          "type": "font-style-id",
+          "id": "dalala-cover-006-monoline-tech",
+          "required": true
+        },
+        {
+          "role": "englishTheme",
+          "type": "font-style-id",
+          "id": "dalala-cover-006-monoline-tech",
+          "required": true
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-006-monoline-tech",
+          "required": true
+        },
+        {
+          "role": "audienceQualifier",
+          "type": "font-style-id",
+          "id": "dalala-cover-006-monoline-tech",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-006/SKILL.md",
+      "anatomy": "../skills/dalala-cover-006/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-006/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "0ad39149-5ae2-4d46-b83f-6f907d9fe8b3"
+    },
+    {
+      "id": "dalala-cover-007",
+      "displayName": "爆款封面 007",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-007.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "hookLead",
+          "type": "font-style-id",
+          "id": "dalala-cover-007-punch-block",
+          "variant": "hook",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-007-punch-block",
+          "variant": "main",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-007/SKILL.md",
+      "anatomy": "../skills/dalala-cover-007/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-007/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "c68ef243-ceb7-4845-95bc-b8da6e76df92"
+    },
+    {
+      "id": "dalala-cover-008",
+      "displayName": "爆款封面 008",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-008.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "topHook/reactionAside",
+          "type": "font-style-id",
+          "id": "dalala-cover-008-casual-hand",
+          "variant": "fine",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-008-casual-hand",
+          "variant": "display",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-008/SKILL.md",
+      "anatomy": "../skills/dalala-cover-008/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-008/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "a1300c72-e589-45f7-96db-5fef556046f4"
+    },
+    {
+      "id": "dalala-cover-009",
+      "displayName": "爆款封面 009",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-009.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle/cornerExclamation",
+          "type": "font-style-id",
+          "id": "dalala-cover-009-puffy-pop",
+          "variant": "solid-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "arcContext",
+          "type": "font-style-id",
+          "id": "dalala-cover-009-puffy-pop",
+          "variant": "arc-outline",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-009/SKILL.md",
+      "anatomy": "../skills/dalala-cover-009/references/anatomy.json"
+    },
+    {
+      "id": "dalala-cover-010",
+      "displayName": "爆款封面 010",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-010.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-010-ritual-brush",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "latinNote",
+          "type": "font-style-id",
+          "id": "dalala-cover-010-italic-note",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-010/SKILL.md",
+      "anatomy": "../skills/dalala-cover-010/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-010/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "fb1f3ff1-b039-41cb-937e-5f0d7cb7b592"
+    },
+    {
+      "id": "dalala-cover-011",
+      "displayName": "爆款封面 011",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-011.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-011-diagonal-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "rightAuxiliary",
+          "type": "font-style-id",
+          "id": "dalala-cover-011-editorial-condensed",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-011/SKILL.md",
+      "anatomy": "../skills/dalala-cover-011/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-011/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "f97c599f-e147-4d93-baf0-f36b17115b24"
+    },
+    {
+      "id": "dalala-cover-012",
+      "displayName": "爆款封面 012",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-012.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainHeadline",
+          "type": "font-style-id",
+          "id": "dalala-cover-012-power-oblique",
+          "variant": "headline",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-012-power-oblique",
+          "variant": "banner",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "cardLabel",
+          "type": "font-style-id",
+          "id": "dalala-cover-012-power-oblique",
+          "variant": "card-label",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-012/SKILL.md",
+      "anatomy": "../skills/dalala-cover-012/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-012/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "8990cca3-c22a-4499-90bc-81c6a95f2cf4"
+    },
+    {
+      "id": "dalala-cover-013",
+      "displayName": "爆款封面 013",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-013.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-013-torn-poster-block",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-013/SKILL.md",
+      "anatomy": "../skills/dalala-cover-013/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-013/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "615a12e4-40d5-44e3-9e04-26a7ff2197e0"
+    },
+    {
+      "id": "dalala-cover-014",
+      "displayName": "爆款封面 014",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-014.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "paperTitleAndResult",
+          "type": "font-style-id",
+          "id": "dalala-cover-014-paper-hand",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "warmBadgeAndScreenCaption",
+          "type": "font-style-id",
+          "id": "dalala-cover-014-screen-oblique",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-014/SKILL.md",
+      "anatomy": "../skills/dalala-cover-014/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-014/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "ce1f587d-5eab-4cc1-ae70-0a8b33435644"
+    },
+    {
+      "id": "dalala-cover-015",
+      "displayName": "爆款封面 015",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-015.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "topEnglish",
+          "type": "font-style-id",
+          "id": "dalala-cover-015-latin",
+          "variant": "skyKicker",
+          "required": true
+        },
+        {
+          "role": "mainChinese",
+          "type": "font-style-id",
+          "id": "dalala-cover-015-han",
+          "required": true
+        },
+        {
+          "role": "bottomLogo",
+          "type": "font-style-id",
+          "id": "dalala-cover-015-latin",
+          "variant": "rockLogo",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-015/SKILL.md",
+      "anatomy": "../skills/dalala-cover-015/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-015/references/manifest.json",
+      "analysisJobId": "ae4fb929-8269-4d71-9ea6-43f433351de8",
+      "analysisConfirmed": false,
+      "renderAllowed": false
+    },
+    {
+      "id": "dalala-cover-016",
+      "displayName": "爆款封面 016",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-016.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "heroName",
+          "type": "font-style-id",
+          "id": "dalala-cover-016-portfolio-sans",
+          "variant": "heroName",
+          "required": true
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-016-portfolio-sans",
+          "variant": "mainTitle",
+          "required": true
+        },
+        {
+          "role": "supportingText",
+          "type": "font-style-id",
+          "id": "dalala-cover-016-portfolio-sans",
+          "variant": "supportingText",
+          "required": true
+        },
+        {
+          "role": "footerWord",
+          "type": "font-style-id",
+          "id": "dalala-cover-016-portfolio-sans",
+          "variant": "footerWord",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-016/SKILL.md",
+      "anatomy": "../skills/dalala-cover-016/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-016/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "12c0fa02-14d9-4463-a3d8-485a97425b21"
+    },
+    {
+      "id": "dalala-cover-017",
+      "displayName": "爆款封面 017",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-017.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-017-journey-brush",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "verticalProse/footerPlace",
+          "type": "font-class",
+          "id": "literary-song-serif",
+          "required": true
+        },
+        {
+          "role": "englishEcho",
+          "type": "font-class",
+          "id": "old-style-uppercase-serif",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-017/SKILL.md",
+      "anatomy": "../skills/dalala-cover-017/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-017/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "4f6ad68b-5cef-4e4c-aef2-f64cc5976147"
+    },
+    {
+      "id": "dalala-cover-018",
+      "displayName": "爆款封面 018",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-018.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "upperHook",
+          "type": "font-style-id",
+          "id": "dalala-cover-018-kinetic-condensed",
+          "required": true
+        },
+        {
+          "role": "bottomTopic",
+          "type": "font-style-id",
+          "id": "dalala-cover-018-kinetic-condensed",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-018/SKILL.md",
+      "anatomy": "../skills/dalala-cover-018/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-018/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "a408755f-3aaa-4089-b320-f5821353d123"
+    },
+    {
+      "id": "dalala-cover-019",
+      "displayName": "爆款封面 019",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-019.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitleLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-019-latin",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "secondaryTitleHan",
+          "type": "font-style-id",
+          "id": "dalala-cover-019-han",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-019/SKILL.md",
+      "anatomy": "../skills/dalala-cover-019/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-019/references/manifest.json",
+      "analysisConfirmed": false,
+      "analysisJobId": "9962c1b1-fa37-49c2-8dab-e53b592db827",
+      "renderAllowed": false,
+      "analysisReport": "../cover-skills/PACKAGING_STANDARD.md"
+    },
+    {
+      "id": "dalala-cover-020",
+      "displayName": "爆款封面 020",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-020.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitleHan",
+          "type": "font-style-id",
+          "id": "dalala-cover-020-miner-brush",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "seriesMicrocopy",
+          "type": "font-class",
+          "id": "fine-song-serif-chinese",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitleLatin",
+          "type": "font-class",
+          "id": "old-style-contrast-serif-latin",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-020/SKILL.md",
+      "anatomy": "../skills/dalala-cover-020/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-020/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "b82ef0bf-9792-430d-aca5-6fb3658f73a6"
+    },
+    {
+      "id": "dalala-cover-021",
+      "displayName": "爆款封面 021",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-021.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitleHan",
+          "type": "font-style-id",
+          "id": "dalala-cover-021-story-hand",
+          "variant": "han",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitleLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-021-story-hand",
+          "variant": "latin",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-021/SKILL.md",
+      "anatomy": "../skills/dalala-cover-021/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-021/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "d670dafb-772b-4472-8034-4ed38b955d2b"
+    },
+    {
+      "id": "dalala-cover-022",
+      "displayName": "爆款封面 022",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-022.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "topTitleLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-022-cut-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "topTitleHan",
+          "type": "font-style-id",
+          "id": "dalala-cover-022-cut-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "bottomPayoff",
+          "type": "font-style-id",
+          "id": "dalala-cover-022-cut-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-022-casual-note",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-022/SKILL.md",
+      "anatomy": "../skills/dalala-cover-022/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-022/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "0d6fe0b6-bb35-4a5d-88e6-6488e915a08c"
+    },
+    {
+      "id": "dalala-cover-023",
+      "displayName": "爆款封面 023",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-023.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-017-journey-brush",
+          "required": true,
+          "status": "testing",
+          "reuseRequiresVisualProof": true
+        },
+        {
+          "role": "verticalProse",
+          "type": "font-style-id",
+          "id": "dalala-cover-023-editorial-support",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "englishEcho",
+          "type": "font-style-id",
+          "id": "dalala-cover-023-editorial-support",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "footerSignature",
+          "type": "font-style-id",
+          "id": "dalala-cover-023-editorial-support",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-023/SKILL.md",
+      "anatomy": "../skills/dalala-cover-023/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-023/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "f528f45b-0a70-4a40-bc06-6b98f6eb81df"
+    },
+    {
+      "id": "dalala-cover-024",
+      "displayName": "爆款封面 024",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-024.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-024-organic-letter",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "englishEcho",
+          "type": "font-class",
+          "id": "high-contrast-editorial-serif",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-024/SKILL.md",
+      "anatomy": "../skills/dalala-cover-024/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-024/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "26d6eb20-743c-4345-a0ad-1874dfc54ecd"
+    },
+    {
+      "id": "dalala-cover-025",
+      "displayName": "爆款封面 025",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-025.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "arcTitle/reactionGlyph",
+          "type": "font-style-id",
+          "id": "dalala-cover-025-arc-song",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "fabricLettering",
+          "type": "font-style-id",
+          "id": "dalala-cover-025-fabric-brush",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "searchTopic",
+          "type": "font-class",
+          "id": "heavy-neutral-sans",
+          "required": true
+        },
+        {
+          "role": "searchHint",
+          "type": "font-class",
+          "id": "neutral-ui-sans",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-025/SKILL.md",
+      "anatomy": "../skills/dalala-cover-025/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-025/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "78ec9df7-804f-43e0-b75c-362e8bd9c691"
+    },
+    {
+      "id": "dalala-cover-026",
+      "displayName": "参考 026",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-026.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle/destinationHan/chapterHead/body",
+          "type": "font-style-id",
+          "id": "dalala-cover-026-editorial-song",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "issue/coordinate/latinSubtitle/destinationLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-026-roman-serif",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-026/SKILL.md",
+      "anatomy": "../skills/dalala-cover-026/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-026/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "063a177c-0bea-4347-ab61-8a77c211bd49",
+      "analysisReport": "../cover-skills/PACKAGING_STANDARD.md"
+    },
+    {
+      "id": "dalala-cover-027",
+      "displayName": "爆款封面 027",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-027.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitleHan",
+          "type": "font-style-id",
+          "id": "dalala-cover-027-stone-han",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "leftLatin/rightLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-027-tall-latin",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-027/SKILL.md",
+      "anatomy": "../skills/dalala-cover-027/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-027/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "a5f90128-8172-4597-96d8-8a961f656b57",
+      "analysisReport": "../cover-skills/PACKAGING_STANDARD.md"
+    },
+    {
+      "id": "dalala-cover-028",
+      "displayName": "爆款封面 028",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-028.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mastheadHanLatin",
+          "type": "font-style-id",
+          "id": "dalala-cover-028-ticket-masthead",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-028-oblique-place",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-028-fine-caption",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-028/SKILL.md",
+      "anatomy": "../skills/dalala-cover-028/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-028/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "ad78c86e-b5e1-4c16-8497-548089ba7aa4"
+    },
+    {
+      "id": "dalala-cover-029",
+      "displayName": "爆款封面 029",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-029.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-029-handcut-white",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-029/SKILL.md",
+      "manifest": "../skills/dalala-cover-029/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "1b5b448e-b59a-44ec-a475-d897d7e88208",
+      "analysisReport": "../cover-skills/PACKAGING_STANDARD.md"
+    },
+    {
+      "id": "dalala-cover-030",
+      "displayName": "爆款封面 030",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-030.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle/identityKicker/perspectiveTypeEnvironment",
+          "type": "font-style-id",
+          "id": "dalala-cover-030-condensed-display",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-030/SKILL.md",
+      "anatomy": "../skills/dalala-cover-030/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-030/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "6f026120-003f-4add-93a1-2f9a1d760cf9"
+    },
+    {
+      "id": "dalala-cover-031",
+      "displayName": "爆款封面 031",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-031.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "topHan/topLatin/lowerLead/lowerPayoff",
+          "type": "font-style-id",
+          "id": "dalala-cover-031-punch-display",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-031/SKILL.md",
+      "anatomy": "../skills/dalala-cover-031/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-031/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "f0537c50-bd48-4134-8c35-74f734b3f972"
+    },
+    {
+      "id": "dalala-cover-032",
+      "displayName": "爆款封面 032",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-032.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "questionLead",
+          "type": "font-style-id",
+          "id": "dalala-cover-032-ice-block",
+          "variant": "questionLead",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "icyPayoff",
+          "type": "font-style-id",
+          "id": "dalala-cover-032-ice-block",
+          "variant": "icyPayoff",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-032/SKILL.md",
+      "anatomy": "../skills/dalala-cover-032/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-032/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "f08c5a97-6d75-452e-a552-5a4082d7cd1d"
+    },
+    {
+      "id": "dalala-cover-033",
+      "displayName": "爆款封面 033",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-033.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-033-rough-hand",
+          "variant": "emphasis",
+          "required": true
+        },
+        {
+          "role": "titleContinuation",
+          "type": "font-style-id",
+          "id": "dalala-cover-033-rough-hand",
+          "variant": "continuation",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-033/SKILL.md",
+      "manifest": "../skills/dalala-cover-033/references/manifest.json",
+      "analysisConfirmed": false
+    },
+    {
+      "id": "dalala-cover-034",
+      "displayName": "爆款封面 034",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-034.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        "dalala-cover-034-dry-brush",
+        "dalala-cover-034-fine-note"
+      ],
+      "skill": "../skills/dalala-cover-034/SKILL.md",
+      "manifest": "../skills/dalala-cover-034/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false
+    },
+    {
+      "id": "dalala-cover-035",
+      "displayName": "爆款封面 035",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-035.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "leftQuantity/rightContinuation",
+          "type": "font-style-id",
+          "id": "dalala-cover-035-white-hand",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "leftCategory",
+          "type": "font-style-id",
+          "id": "dalala-cover-035-cyan-latin",
+          "required": true,
+          "status": "testing"
+        }
+      ],
+      "skill": "../skills/dalala-cover-035/SKILL.md",
+      "anatomy": "../skills/dalala-cover-035/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-035/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "a7eb4455-a137-474c-9814-1a3c55bd8127"
+    },
+    {
+      "id": "dalala-cover-036",
+      "displayName": "爆款封面 036",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-036.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "skill": "../skills/dalala-cover-036/SKILL.md",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "fontDependencies": [
+        "dalala-cover-036-condensed-cut-display",
+        "dalala-cover-036-editorial-song"
+      ]
+    },
+    {
+      "id": "dalala-cover-037",
+      "displayName": "参考 037",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-037.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "latinMasthead",
+          "type": "font-style-id",
+          "id": "dalala-cover-037-editorial-sans",
+          "variant": "masthead",
+          "required": true
+        },
+        {
+          "role": "latinTagline",
+          "type": "font-style-id",
+          "id": "dalala-cover-037-editorial-sans",
+          "variant": "tagline",
+          "required": true
+        },
+        {
+          "role": "hanLead",
+          "type": "font-style-id",
+          "id": "dalala-cover-037-hairline-han",
+          "required": true
+        },
+        {
+          "role": "hanPayoff",
+          "type": "font-style-id",
+          "id": "dalala-cover-037-hairline-han",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-037/SKILL.md",
+      "anatomy": "../skills/dalala-cover-037/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-037/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "1655f55b-a1b0-469d-8008-6634c56c308f"
+    },
+    {
+      "id": "dalala-cover-038",
+      "displayName": "爆款封面 038",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-ref-038.jpg",
+      "sourceManifest": "../参考封面图/reference-manifest.json",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-038-distressed-han",
+          "required": true
+        },
+        {
+          "role": "leftKeyword",
+          "type": "font-style-id",
+          "id": "dalala-cover-038-clean-latin",
+          "variant": "shortAccent",
+          "required": true
+        },
+        {
+          "role": "rightKeyword",
+          "type": "font-style-id",
+          "id": "dalala-cover-038-clean-latin",
+          "variant": "wideKeyword",
+          "required": true
+        }
+      ],
+      "skill": "../skills/dalala-cover-038/SKILL.md",
+      "anatomy": "../skills/dalala-cover-038/references/anatomy.json",
+      "manifest": "../skills/dalala-cover-038/references/manifest.json",
+      "analysisConfirmed": false,
+      "renderAllowed": false,
+      "analysisJobId": "20bcb27a-e30e-434e-87e1-f0031d58b24f"
+    },
+    {
+      "id": "dalala-cover-039",
+      "displayName": "参考封面 039",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-039-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-039-cut-heavy",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "eyebrow",
+          "type": "font-style-id",
+          "id": "dalala-cover-039-thin-tech",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-040",
+      "displayName": "参考封面 040",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-040-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-040-blade-song",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "centralCardText",
+          "type": "font-style-id",
+          "id": "dalala-breath-cut-song",
+          "required": true,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-041",
+      "displayName": "参考封面 041",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-041-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-041-dot-matrix",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "terminalPunctuation",
+          "type": "font-style-id",
+          "id": "dalala-cover-041-dot-matrix",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-041-editorial-support",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "editorialText",
+          "type": "font-style-id",
+          "id": "dalala-cover-041-editorial-support",
+          "required": false,
+          "status": "testing"
+        },
+        {
+          "role": "handNote",
+          "type": "font-style-id",
+          "id": "dalala-cover-022-casual-note",
+          "required": false,
+          "status": "testing-candidate"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-042",
+      "displayName": "参考封面 042",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-042-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "upperTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-042-soft-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "lowerTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-042-soft-display",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "emotionSubtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-042-heart-hand",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "episodeMark",
+          "type": "font-style-id",
+          "id": "dalala-cover-026-roman-serif",
+          "variant": "issue",
+          "required": false,
+          "status": "testing"
+        },
+        {
+          "role": "seriesMark",
+          "type": "font-style-id",
+          "id": "dalala-breath-cut-song",
+          "required": false,
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-043",
+      "displayName": "参考封面 043",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-043-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-043-editorial-serif",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "topEyebrow",
+          "type": "font-style-id",
+          "id": "dalala-cover-043-editorial-serif",
+          "variant": "delicate-italic",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "bottomMicroMark",
+          "type": "font-style-id",
+          "id": "dalala-cover-043-editorial-serif",
+          "variant": "delicate-italic",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-044",
+      "displayName": "参考封面 044",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-044-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "hookLead",
+          "type": "font-style-id",
+          "id": "dalala-cover-044-blade-song",
+          "required": true
+        },
+        {
+          "role": "answerTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-044-blade-song",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-045",
+      "displayName": "参考封面 045",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-045-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-045-folded-tape",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "supportText",
+          "type": "font-style-id",
+          "id": "dalala-cover-045-neutral-caption",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "bottomText",
+          "type": "font-style-id",
+          "id": "dalala-cover-045-neutral-caption",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-046",
+      "displayName": "参考封面 046",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-046-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-046-industrial-headline",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "numberEmphasis",
+          "type": "font-style-id",
+          "id": "dalala-cover-046-industrial-headline",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-047",
+      "displayName": "参考封面 047",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-047-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-047-spatial-song",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-048",
+      "displayName": "参考封面 048",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-048-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-048-vlog-outline",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-049",
+      "displayName": "参考封面 049",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-049-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-049-city-roman",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-049-city-sans",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-050",
+      "displayName": "参考封面 050",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-050-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-050-four-corner-song",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-051",
+      "displayName": "参考封面 051",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-051-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "latinDisplayTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-051-mint-freehand",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "chineseDisplayTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-051-mint-freehand",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-052",
+      "displayName": "参考封面 052",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-052-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-052-rough-white",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "prefix",
+          "type": "font-style-id",
+          "id": "dalala-cover-052-thin-black",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-053",
+      "displayName": "参考封面 053",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-053-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-026-roman-serif",
+          "variant": "destinationLatin",
+          "required": true,
+          "status": "testing",
+          "scope": "Latin place word only"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-054",
+      "displayName": "参考封面 054",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-054-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-054-editorial-didone",
+          "variant": "mainTitle",
+          "required": true,
+          "status": "testing",
+          "script": "Latin"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-054-editorial-didone",
+          "variant": "supportingSerif",
+          "required": true,
+          "status": "testing",
+          "script": "Latin"
+        },
+        {
+          "role": "footerBrand",
+          "type": "font-style-id",
+          "id": "dalala-cover-054-editorial-didone",
+          "variant": "footerDisplay",
+          "required": true,
+          "status": "testing",
+          "script": "Latin"
+        },
+        {
+          "role": "headerSerif",
+          "type": "font-style-id",
+          "id": "dalala-cover-054-editorial-didone",
+          "variant": "supportingSerif",
+          "required": false,
+          "status": "testing",
+          "script": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-055",
+      "displayName": "参考封面 055",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-055-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "prefix",
+          "type": "font-style-id",
+          "id": "dalala-cover-055-rounded-monoline",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-055-rounded-monoline",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "cardLabels",
+          "type": "font-style-id",
+          "id": "dalala-cover-055-rounded-monoline",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-056",
+      "displayName": "参考封面 056",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-056-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-056-street-song",
+          "variant": "hero",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "subtitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-056-street-song",
+          "variant": "support",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-057",
+      "displayName": "参考封面 057",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-057-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-057-fine-angular-han",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-058",
+      "displayName": "参考封面 058",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-058-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-058-dense-cut-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "cardTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-058-dense-cut-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "bottomResults",
+          "type": "font-style-id",
+          "id": "dalala-cover-058-dense-cut-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "handwrittenCue",
+          "type": "font-style-id",
+          "id": "dalala-cover-033-rough-hand",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-059",
+      "displayName": "参考封面 059",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-059-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitleLine1",
+          "type": "font-style-id",
+          "id": "dalala-cover-059-paper-cut-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitleLine2",
+          "type": "font-style-id",
+          "id": "dalala-cover-059-paper-cut-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "questionMark",
+          "type": "font-style-id",
+          "id": "dalala-cover-059-paper-cut-block",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-060",
+      "displayName": "参考封面 060",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-060-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-060-wax-crayon-hand",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-061",
+      "displayName": "参考封面 061",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-061-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitleLine1/mainTitleLine2",
+          "type": "font-style-id",
+          "id": "dalala-cover-061-outlined-poster-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "topEditorialTheme/leftClassification",
+          "type": "font-style-id",
+          "id": "dalala-cover-061-archive-roman",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "bottomVerdict",
+          "type": "font-style-id",
+          "id": "dalala-cover-061-verdict-han",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-062",
+      "displayName": "参考封面 062",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-062-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "mainTitleUpper/mainTitleLower",
+          "type": "font-style-id",
+          "id": "dalala-cover-062-jagged-block",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "identityLine",
+          "type": "font-style-id",
+          "id": "dalala-cover-062-upright-latin-sans",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    },
+    {
+      "id": "dalala-cover-063",
+      "displayName": "参考封面 063",
+      "status": "active",
+      "reference": "../参考封面图/dalala-cover-063-reference.jpg",
+      "fontDependencies": [
+        {
+          "role": "topic",
+          "type": "font-style-id",
+          "id": "dalala-cover-063-deco-cut-song",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "mainTitle",
+          "type": "font-style-id",
+          "id": "dalala-cover-063-deco-cut-song",
+          "required": true,
+          "status": "testing"
+        },
+        {
+          "role": "sourceLine",
+          "type": "font-style-id",
+          "id": "dalala-cover-063-deco-cut-song",
+          "required": true,
+          "status": "testing"
+        }
+      ]
+    }
+  ]
+}

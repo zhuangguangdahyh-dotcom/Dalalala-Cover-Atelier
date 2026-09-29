@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-184",
+  "displayName": "184 · 多面板版式",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "184",
+    "catalogName": "多面板版式",
+    "category": "平面、出版与广告",
+    "subcategory": "表现型版式与出版功能页",
+    "originalImagePath": "v2/images/04-type-grid-cjk/184-跨栏标题.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/04-type-grid-cjk/184-跨栏标题.png",
+    "originalImageSha256": "099bfa05a3dc4326d1f31b1c5fa86445cf73db5ce4d615c56c5ef8c87e09f187",
+    "localThumbnail": "../references/source-thumbnails/184.jpg",
+    "localThumbnailSha256": "3e7d012c8e9444dd6a55254c7df569b6490c2ca021697959d350c7d1220f24f1",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "多面板版式",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "跨栏标题",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "对齐、缩进与文字造型",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "direct",
+    "tags": [
+      "平面、出版与广告",
+      "表现型版式与出版功能页",
+      "多面板版式"
+    ],
+    "assetTypes": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "以卡片或面板组织信息，必须有一个显著主面板，不能平均分配视觉重量。",
+    "dominantAxis": "panel-system",
+    "primaryFocus": "dominant-panel",
+    "readingPath": "panel-hierarchy",
+    "locked": [
+      "以“多面板版式”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 panel-system 主轴、dominant-panel 焦点和 panel-hierarchy 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-184.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-007",
+  "status": "studied",
+  "sourceReference": "../assets/reference-original.jpg",
+  "canvas": {"width": 1263, "height": 1684, "ratio": "3:4", "coordinateSystem": "top-left-percent", "boxMeaning": "estimated outer bounds, overlapping boxes do not sum to coverage"},
+  "firstVisualConclusion": "暗色实拍场景上，双行厚重标题先提出异常；右中惊讶人物、左前景倾倒和右下越界圆形特写组成可见证据链。",
+  "contentRoles": {
+    "hookLead": "奇怪的；上行悬念，不独立解释现象",
+    "conceptMark": "蓝色螺旋；将旋转概念图形化",
+    "mainTitle": "牛奶螺旋；命名现象，是第一信息焦点",
+    "reactionSubject": "右中单人面孔和惊讶表情",
+    "actionObject": "左前景手持纸盒并倾倒白色液体",
+    "detailEvidence": "右下圆内白色物质旋转/拉伸的近景",
+    "directionMark": "白色弯折箭头从动作指向证据",
+    "subtitle": null,
+    "auxiliaryCopy": null,
+    "background": "暗化但仍有摄影纵深的室内环境"
+  },
+  "geometry": [
+    {"role": "hookLead", "bboxPercent": [0, 0, 44, 14], "tolerancePoints": 2, "alignment": "left edge touching canvas; slightly irregular baseline", "z": 70},
+    {"role": "conceptMark", "bboxPercent": [44, 0, 14, 11], "tolerancePoints": 2, "alignment": "one-glyph-size continuation at upper row end", "z": 71},
+    {"role": "mainTitle", "bboxPercent": [0, 11, 75, 19], "tolerancePoints": 2, "alignment": "left edge touching canvas; dense single row", "z": 72},
+    {"role": "reactionFace", "bboxPercent": [59, 12, 41, 44], "tolerancePoints": 4, "alignment": "right-heavy, eye and mouth readable", "z": 25},
+    {"role": "torsoAndArm", "bboxPercent": [0, 39, 100, 46], "tolerancePoints": 5, "alignment": "bridges left action to right reaction", "z": 20},
+    {"role": "foregroundHandAndCarton", "bboxPercent": [0, 39, 38, 38], "tolerancePoints": 4, "alignment": "left and lower edges cropped, pour aimed down", "z": 35},
+    {"role": "pourStreamAndVessel", "bboxPercent": [0, 52, 48, 41], "tolerancePoints": 5, "alignment": "physically continuous vertical stream", "z": 37},
+    {"role": "directionArrow", "bboxPercent": [39, 59, 28, 10], "tolerancePoints": 3, "alignment": "left-to-right toward circular evidence", "z": 60},
+    {"role": "circularDetail", "bboxPercent": [46, 53, 57, 48], "tolerancePoints": 4, "alignment": "right and bottom cropped; thin white ring", "z": 50}
+  ],
+  "spatialWeights": {"title": "top ~30%H, high brightness", "reaction": "right-middle face", "action": "left-middle and lower foreground", "evidence": "right-bottom large cropped circle", "protectedDarkPassage": "approximately y=30–53%, around face/arm; preserve local contrast"},
+  "dominantAxis": "upper-left hook and title -> right-middle reaction -> left-front action -> lower-right close-up",
+  "readingPath": ["bright main title and hook", "reaction face", "pouring action", "white arrow", "circular phenomenon detail"],
+  "layerOrderBackToFront": ["dark photographic environment", "person torso and face", "near-camera hand and carton, continuous stream and vessel", "circular cropped detail and white ring", "direction arrow", "two title rows and separate spiral mark"],
+  "typography": {"dependency": "dalala-cover-007-punch-block", "lineCount": 2, "hookChineseEquivalent": [3, 4], "mainChineseEquivalent": [4, 5], "mainToHookGlyphHeightRatio": [1.25, 1.5], "relativeLineGapToMainGlyphHeight": [0.02, 0.07], "tracking": "tight; no collisions obscuring character identity", "form": "heavy wide irregular block, solid fill, charcoal outline, short gray soft halo", "subtitleAllowed": false},
+  "colorRoles": {"background": "low-light photographic neutral dominant", "hook": "high-light neutral", "mainTitle": "single high-light warm accent", "conceptMark": "small saturated cool accent", "subjectAndEvidence": "skin and product tones with brighter evidence highlights", "separator": "dark charcoal outlines", "exactHexLocked": false},
+  "effects": {"title": "thick dark perimeter with short neutral halo, no long cast shadow", "circle": "thin bright outline about 0.2–0.45%W; hard circular crop", "arrow": "hand-drawn bright line with dark separator", "photo": "real near-camera perspective and credible liquid continuity"},
+  "imageTextRelationship": "标题命名异常；人物和左侧动作建立事件；圆形特写解释异常细节，箭头连接动作与证据。",
+  "failureModes": ["unrelated inset image", "action and close-up not from same phenomenon", "ordinary regular heiti substitution", "small uncropped props", "circle centered and fully contained", "extra copy in dark passage", "physically impossible stream", "title covering eyes or evidence"],
+  "measurementStatus": "visual estimate from 1263x1684 source; pending user confirmation and reproduction test"
+}

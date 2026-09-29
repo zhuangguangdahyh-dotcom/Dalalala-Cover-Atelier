@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-hard-fold-heiti",
+  "displayName": "Dalala 硬折人文黑体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "heavy-square-cut-trustworthy-humanity",
+    "styleSignature": "grounded-heavy-heiti-with-hard-folded-human-corrections",
+    "defaultIntensity": "grounded",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "expert-ip-cover-title",
+    "founder-opinion-title",
+    "professional-service-title",
+    "trustworthy-explainer-title"
+  ],
+  "avoidUse": [
+    "variety-show-punchline",
+    "childlike-playful-title",
+    "quiet-luxury-title",
+    "long-body-copy"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "grounded",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "anatomy-check-only"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "extra-bold-square-cut-humanist-chinese-heiti",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "fill": "solid-near-black",
+    "strokeWeight": "heavy-mostly-even",
+    "cornerSystem": "square-sharp-or-restrained-chamfer-never-round",
+    "componentProportionVariation": [0.06, 0.16],
+    "strokeWidthRatioWithinStroke": [0.88, 1.03],
+    "normalAngleVariationDegrees": [0, 2],
+    "heroStrokeAngleMaxDegrees": 5,
+    "longStrokeExtension": [0.04, 0.12],
+    "shortStrokeReduction": [0.03, 0.09],
+    "postures": [
+      "stable-wide",
+      "slightly-narrow",
+      "low-centre-grounded",
+      "upper-open",
+      "lower-heavy",
+      "optically-left-weighted",
+      "optically-right-weighted"
+    ],
+    "boldMoves": [
+      "short-diagonal-terminal-cut",
+      "small-angular-inner-notch",
+      "slightly-extended-horizontal",
+      "heavier-lower-component",
+      "offset-rectangular-counter",
+      "unequal-shoulder-width",
+      "firm-flat-foot"
+    ],
+    "quietMoves": [
+      "stable-square-frame",
+      "clean-flat-terminal",
+      "open-rectangular-counter",
+      "steady-vertical-anchor",
+      "balanced-heavy-mass"
+    ],
+    "gestureStarts": [
+      "flat-square-entry",
+      "short-diagonal-cut-entry",
+      "hard-fold-entry",
+      "compact-block-entry"
+    ],
+    "gestureEndings": [
+      "flat-cut-stop",
+      "restrained-chamfer-stop",
+      "short-side-extension",
+      "firm-square-foot"
+    ],
+    "requiredPaintStatesPerGlyph": 2,
+    "paintStates": [
+      "clean-solid-mass",
+      "subtle-hand-cut-edge",
+      "dense-even-black"
+    ]
+  },
+  "formalBalance": {
+    "baseline": "mostly-stable",
+    "rotation": "minimal",
+    "spacing": "calm-with-optical-human-adjustments",
+    "counterShape": "rectangular-or-trapezoidal-never-pill-shaped",
+    "documentFormalityMaximum": "professional-cover-not-official-document",
+    "humanVariationMustBeVisibleOnSecondLook": true
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 10],
+    "maximumLines": 3,
+    "heroGlyphsPerLine": [1, 2],
+    "allowLocalCollision": false,
+    "allowLongStrokeIntoAdjacentSpacing": false,
+    "allowSubtleWidthContrast": true,
+    "punctuationCanShiftSlightly": true,
+    "keepOpticalSpacingCalm": true
+  },
+  "vitalityPresets": {
+    "calm": {
+      "baselineShiftPercent": [-1, 1],
+      "rotationDegrees": [-0.8, 0.8],
+      "glyphScale": [0.96, 1.04],
+      "trackingFactor": [0.92, 1.04],
+      "heroScale": [1.03, 1.07],
+      "gestureDensity": "low"
+    },
+    "grounded": {
+      "baselineShiftPercent": [-2, 2],
+      "rotationDegrees": [-1.5, 1.5],
+      "glyphScale": [0.92, 1.08],
+      "trackingFactor": [0.86, 1.02],
+      "heroScale": [1.06, 1.12],
+      "gestureDensity": "restrained-medium"
+    },
+    "firm": {
+      "baselineShiftPercent": [-2.5, 2.5],
+      "rotationDegrees": [-2, 2],
+      "glyphScale": [0.9, 1.1],
+      "trackingFactor": [0.82, 1.0],
+      "heroScale": [1.08, 1.14],
+      "gestureDensity": "medium-selective"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "heavy-heiti-foundation",
+      "square-sharp-corner-system",
+      "grounded-low-centre",
+      "restrained-human-width-and-counter-variation",
+      "professional-but-not-document-like",
+      "clean-solid-surface",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "first-impression-is-heavy-heiti",
+      "terminals-are-flat-or-diagonal-cut",
+      "no-rounded-corners-or-pill-counters",
+      "baseline-is-stable-without-mechanical-uniformity",
+      "human-adjustments-are-visible-without-bounce",
+      "does-not-look-like-official-document-typography",
+      "title-remains-immediately-readable-at-360px",
+      "approved-reference-is-the-only-positive-reference"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "rounded-terminal",
+    "pill-shaped-counter",
+    "soft-inflated-corner",
+    "bubble-lettering",
+    "official-document-uniformity",
+    "government-or-institutional-signage",
+    "corporate-powerpoint-blandness",
+    "variety-show-bounce",
+    "exaggerated-scale-jump",
+    "marker-or-brush-texture",
+    "kai-or-song-skeleton",
+    "outline-shadow-gradient-or-3d",
+    "extra-background-copy"
+  ]
+}

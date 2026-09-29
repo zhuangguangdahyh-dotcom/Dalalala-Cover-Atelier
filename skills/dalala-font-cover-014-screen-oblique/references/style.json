@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-014-screen-oblique",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-014/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "integration": "integration.md",
+  "requiredInputs": ["text", "variant", "canvasWidth", "canvasHeight", "textBox", "colorRoles"],
+  "variants": {
+    "badge": {"roles": ["audienceBadge"], "script": "Chinese", "bone": "clean upright human-set simple strokes", "weight": "regular-to-medium", "lineCount": 1},
+    "screen": {"roles": ["screenCaption"], "script": "Latin or short theme words", "bone": "compact heavy oblique sans with sturdy round counters", "weight": "extra-bold", "lineCount": 2}
+  },
+  "surface": "warm high-chroma fill over dark image or paper, short harder red offset added during composition",
+  "runtime": {"primaryRenderer": "imagegen-transparent-title-layer", "composeSeparatelyFromBackground": true, "ordinaryWebFontFallbackAllowed": false, "maximumGenerationAttempts": 3, "failurePolicy": "manual-review"},
+  "textAccuracy": {"mustMatchVerbatim": true, "allowCharacterSubstitution": false, "allowExtraText": false},
+  "forbidden": ["badge made as oversized display title", "screen caption in thin italic serif", "large 3D extrusion or bevel", "neon outer glow", "uniformly skewing Chinese badge", "screen frame or video baked into type layer"],
+  "productionApproved": false
+}

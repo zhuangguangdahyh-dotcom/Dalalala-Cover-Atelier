@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 019 封面测试规则"
+  short_description: "双语巨字与可换主题场景的受控拆解"
+  default_prompt: "先看原图和 anatomy.json，按内容重新选图并调用两种测试态字体；拆解确认前不要正式生产或上架。"

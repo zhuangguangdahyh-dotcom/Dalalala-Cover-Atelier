@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-038-clean-latin",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-038/assets/reference-original.jpg",
+  "script": "Latin",
+  "roles": {
+    "shortAccent": {"sourceText": "BGM", "preferredCharacters": [3, 5], "case": "uppercase when semantically appropriate", "bboxPercent": [20, 80, 39, 91], "weight": "extra-bold", "colorRole": "single small high-chroma accent"},
+    "wideKeyword": {"sourceText": "Content", "preferredCharacters": [5, 8], "case": "title case when semantically appropriate", "bboxPercent": [55, 86, 94, 100], "weight": "bold to extra-bold", "colorRole": "high-lightness secondary title"}
+  },
+  "skeleton": "clean, broad geometric sans with open counters and neutral stroke endings",
+  "texture": "none",
+  "forbidden": ["中文主标题的刮痕迁移到拉丁字", "普通细正文", "圆泡泡字", "重描边或发光", "伪英文填槽", "挤字覆盖脸部", "机械横向拉伸"]
+}

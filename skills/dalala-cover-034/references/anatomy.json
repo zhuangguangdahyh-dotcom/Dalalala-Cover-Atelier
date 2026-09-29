@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 4,
+  "coverSkillId": "dalala-cover-034",
+  "status": "studied",
+  "renderAllowed": false,
+  "source": {
+    "path": "../../参考封面图/dalala-cover-ref-034.jpg",
+    "width": 758,
+    "height": 1011,
+    "ratio": "3:4",
+    "measure": "x/y percent from upper-left; visual estimate"
+  },
+  "sourceText": {
+    "mainTitle": [
+      "一个外卖员的",
+      "鲁迅文学奖"
+    ],
+    "lineCharacters": [
+      6,
+      5
+    ],
+    "latinNote": "wang ji bing",
+    "badge": [
+      "央视",
+      "新闻"
+    ],
+    "subtitle": null
+  },
+  "firstFocus": "上部两行巨大白色干刷标题；随后是中偏右正面骑行者与车",
+  "regions": {
+    "badge": {
+      "bounds": [
+        3.8,
+        2.8,
+        16.8,
+        12.3
+      ],
+      "areaPercent": [
+        1.2,
+        1.4
+      ],
+      "grid": "2x2",
+      "position": "left-top",
+      "role": "real source/column mark",
+      "fontStyleId": "dalala-cover-034-news-badge"
+    },
+    "titleLine1": {
+      "bounds": [
+        10,
+        7,
+        90,
+        22
+      ],
+      "role": "命题起句",
+      "characters": 6,
+      "fontStyleId": "dalala-cover-034-dry-brush"
+    },
+    "titleLine2": {
+      "bounds": [
+        10,
+        20,
+        94,
+        40
+      ],
+      "tailExtentY": 45,
+      "role": "意外结果",
+      "characters": 5,
+      "fontStyleId": "dalala-cover-034-dry-brush"
+    },
+    "latinNote": {
+      "bounds": [
+        28,
+        19,
+        75,
+        27
+      ],
+      "role": "真实人物细线署名",
+      "fontStyleId": "dalala-cover-034-fine-note"
+    },
+    "actionSubject": {
+      "bounds": [
+        41,
+        33,
+        84,
+        100
+      ],
+      "faceBounds": [
+        55,
+        37,
+        69,
+        46
+      ],
+      "role": "一个工作中的人及载具，身份和行动事实锚点"
+    },
+    "breathingZone": {
+      "bounds": [
+        0,
+        65,
+        42,
+        100
+      ],
+      "role": "左下湿路低密度留白"
+    },
+    "background": {
+      "bounds": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "role": "连续纪实现场，顶部低细节，下方有道路纵深"
+    }
+  },
+  "visualCenter": {
+    "x": [
+      55,
+      62
+    ],
+    "y": [
+      40,
+      55
+    ]
+  },
+  "dominantAxis": "双行标题中心 → 脸 → 车头 → 前轮",
+  "readingPath": [
+    "白色双行命题",
+    "行间细线手注",
+    "人物面部和身份物件",
+    "车轮与环境",
+    "左上来源确认"
+  ],
+  "density": "上部字密但底图低细节；中右人车实，左下路面疏",
+  "photoGrammar": {
+    "camera": "近正面、略低机位",
+    "perspective": "车头较近且大，两侧道路与栏杆指向主体",
+    "cutout": "原图无明显人物独立抠贴",
+    "repetition": "无",
+    "contact": "双手/车把、人/车、轮胎/湿路连续接触",
+    "foreground": "车头和前轮",
+    "middleGround": "骑手、配送箱、栏杆",
+    "background": "雾中城市和道路"
+  },
+  "textLayerOrder": [
+    {
+      "z": 0,
+      "role": "continuousSceneAndSubject",
+      "rule": "人车与道路先合为连续现场"
+    },
+    {
+      "z": 10,
+      "role": "localContrast",
+      "rule": "仅局部明度修整，不加可见底条"
+    },
+    {
+      "z": 20,
+      "role": "whiteBrushTitle",
+      "rule": "透明字层；飞白透出照片；不得遮眼鼻口"
+    },
+    {
+      "z": 30,
+      "role": "fineLatinNote",
+      "rule": "透明细线在白字前，行间穿过；少量交叠处笔画连续"
+    },
+    {
+      "z": 40,
+      "role": "sourceBadge",
+      "rule": "整体最前；内部蓝底后、白黄字前"
+    }
+  ],
+  "occlusion": {
+    "titleVsFace": "可擦头盔外缘，不遮眼鼻口",
+    "noteVsTitle": "仅在行间和少量交点细线盖白字，不能做不透明色条",
+    "badgeVsAll": "预留安全区，其他信息不能被角标盖掉；蓝底托白黄字"
+  },
+  "typography": {
+    "title": "实心白色干刷行草，局部飞白和长拖锋，字距约字宽0%-12%，两行视觉间距约字高0%-8%",
+    "note": "细线、轻微基线跳动的小写拉丁手写",
+    "badge": "方正饱满粗无衬线，2x2字块，字距0%-5%字宽，行距2%-6%字高"
+  },
+  "colorRoles": {
+    "background": "大面积低饱和明暖雾与灰冷湿路",
+    "mainTitle": "高明度白色约画布10%-15%可见墨迹",
+    "deepMass": "黑灰车和阴影约底图15%-25%",
+    "subjectAccent": "职业识别色约5%-8%",
+    "note": "小面积清亮色",
+    "badge": "深底、两种高明度字色，下行首字暖强调；具体HEX可变"
+  },
+  "signatureEffects": [
+    "真实现场雨雾与湿路反射",
+    "干刷字内部飞白和长拖锋",
+    "细线字覆盖粗白字的行间穿插",
+    "清洁平涂来源方标"
+  ],
+  "transferSemantics": {
+    "subject": "当前行业中单个有事实身份与动作的对象",
+    "title": "短命题+意外结果的双行结构",
+    "note": "真实短署名或真实短标",
+    "badge": "真实来源身份"
+  },
+  "failureModes": [
+    "只保留角标而自由重排整幅",
+    "误读第二行文字",
+    "白字被人像遮断",
+    "手注在白字后被切断",
+    "脸被白字遮挡",
+    "普通黑体代替干刷字",
+    "主体无真实动作接触",
+    "冒用原媒体标识",
+    "左下留白被CTA填满"
+  ]
+}

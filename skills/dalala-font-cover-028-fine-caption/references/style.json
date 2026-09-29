@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-028-fine-caption",
+  "status": "testing",
+  "role": "照片内单行事实说明",
+  "sourceReference": "../../dalala-cover-028/assets/reference-original.jpg",
+  "approvedReference": null,
+  "characterRules": {
+    "script": "Han",
+    "skeleton": "fine high-contrast editorial Song",
+    "weight": "light",
+    "spacing": "8–15% character width",
+    "slantDegrees": 0,
+    "effect": "clean white face, no prominent shadow",
+    "lineCount": 1
+  },
+  "renderer": "imagegen-transparent-title-layer"
+}

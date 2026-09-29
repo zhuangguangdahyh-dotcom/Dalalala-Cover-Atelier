@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-019-latin",
+  "version": "0.2.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-019/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": [
+    "mainTitleLatin"
+  ],
+  "scripts": [
+    "Latin uppercase"
+  ],
+  "characterConstruction": {
+    "base": "高瘦极粗、单字右倾的竞技展示字；不是整行旋转或普通体横向压扁",
+    "strokeWeight": "结实且清楚的实心笔画，字腔狭长可辨",
+    "proportion": "十字母在参考中占画宽约 83%、画高约 13%；实际横向宽度以整体一行为准",
+    "terminals": "斜切/楔形端口与少量结构性的阶梯切口；不可每字复制相同缺角",
+    "spacing": "逐字光学紧排但不粘连，整行维持水平基线",
+    "edge": "干净硬边，微弱暗分离只在与浅云冲突处使用"
+  },
+  "fillRole": "高明度近白中性色，具体色值随素材而变",
+  "effects": {
+    "microShadow": "偏移约字高 1–2%、模糊约字高 1–3%、不透明度先试 10–25%；以实图缩略图调校",
+    "thickOutline": false,
+    "extrusion": false,
+    "textureOverlay": false
+  },
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": [
+    "exactText",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox",
+    "fillRole"
+  ],
+  "productionApproved": false
+}

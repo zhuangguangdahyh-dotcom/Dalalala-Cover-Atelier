@@ -1,0 +1,13 @@
+{
+  "id": "dalala-cover-052-thin-black",
+  "status": "testing",
+  "version": "0.1.0",
+  "kind": "generative-lettering-style",
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "fontRole": "prefix",
+  "glyphSkeleton": "fine casual handwritten Chinese with uneven size and loose spacing",
+  "lineWeight": "about one-fifth to one-eighth of main display lettering",
+  "fill": "dark neutral ink",
+  "layout": "short phrase on a diagonal at upper left plus short near-horizontal phrase at upper center",
+  "forbidden": ["regular pen font baseline", "thick calligraphy brush", "uniform italic transformation", "decorative serif", "illegible shorthand"]
+}

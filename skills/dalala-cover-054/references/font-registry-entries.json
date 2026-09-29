@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-054-editorial-didone",
+    "displayName": "054 高对比衬线组测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-054/font-skills/editorial-didone/SKILL.md",
+    "config": "../skills/dalala-cover-054/font-skills/editorial-didone/references/style.json",
+    "humanRules": "../skills/dalala-cover-054/font-skills/editorial-didone/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-054/font-skills/editorial-didone/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-054/font-skills/editorial-didone/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-054/font-skills/editorial-didone/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-054/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

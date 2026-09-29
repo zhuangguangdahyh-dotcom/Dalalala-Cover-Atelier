@@ -1,0 +1,4 @@
+interface:
+  display_name: "007 厚块标题字测试"
+  short_description: "参考 007 的不规则极粗中文标题透明字层"
+  default_prompt: "先读本字体 Skill 的 style.json、style-rules.md 与 generation-prompt.md，只输出逐字正确的单行透明文字层并按 vitality-qa.md 检查。"

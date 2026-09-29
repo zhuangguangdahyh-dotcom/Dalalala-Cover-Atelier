@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-023-editorial-support",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-023/assets/reference-original.jpg",
+  "approvedReference": null,
+  "productionApproved": false,
+  "roles": {
+    "verticalProse": {
+      "skeleton": "细至中细中文宋体，横细竖稍重，清晰衬线",
+      "layout": "三列竖排，各列不等长，标点随列"
+    },
+    "englishEcho": {
+      "skeleton": "旧式罗马大写衬线，规则字腔",
+      "layout": "四行短语左齐"
+    },
+    "footerSignature": {
+      "skeleton": "小型中粗中文行写署名，非宋体",
+      "layout": "右下短横线旁"
+    }
+  },
+  "exactColorLocked": false,
+  "requiredInputs": [
+    "role",
+    "exactText",
+    "canvasWidth",
+    "canvasHeight",
+    "textBox"
+  ],
+  "effects": {
+    "outline": false,
+    "hardShadow": false,
+    "extrusion": false
+  },
+  "primaryRenderer": "imagegen-transparent-text-layer"
+}

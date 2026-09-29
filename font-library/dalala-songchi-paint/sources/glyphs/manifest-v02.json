@@ -1,0 +1,338 @@
+[
+  {
+    "char": "松",
+    "glyphName": "uni677E",
+    "unicode": "U+677E",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      0,
+      0,
+      443,
+      443
+    ],
+    "advanceWidth": 1024,
+    "leftSideBearing": 72,
+    "contourCount": 105
+  },
+  {
+    "char": "弛",
+    "glyphName": "uni5F1B",
+    "unicode": "U+5F1B",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      443,
+      0,
+      887,
+      443
+    ],
+    "advanceWidth": 1097,
+    "leftSideBearing": 72,
+    "contourCount": 101
+  },
+  {
+    "char": "感",
+    "glyphName": "uni611F",
+    "unicode": "U+611F",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      887,
+      0,
+      1330,
+      443
+    ],
+    "advanceWidth": 939,
+    "leftSideBearing": 72,
+    "contourCount": 140
+  },
+  {
+    "char": "建",
+    "glyphName": "uni5EFA",
+    "unicode": "U+5EFA",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      1330,
+      0,
+      1774,
+      443
+    ],
+    "advanceWidth": 960,
+    "leftSideBearing": 72,
+    "contourCount": 127
+  },
+  {
+    "char": "立",
+    "glyphName": "uni7ACB",
+    "unicode": "U+7ACB",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      0,
+      443,
+      443,
+      887
+    ],
+    "advanceWidth": 1028,
+    "leftSideBearing": 72,
+    "contourCount": 78
+  },
+  {
+    "char": "信",
+    "glyphName": "uni4FE1",
+    "unicode": "U+4FE1",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      443,
+      443,
+      887,
+      887
+    ],
+    "advanceWidth": 990,
+    "leftSideBearing": 72,
+    "contourCount": 94
+  },
+  {
+    "char": "任",
+    "glyphName": "uni4EFB",
+    "unicode": "U+4EFB",
+    "alternateOf": null,
+    "source": "glyph-master-v01.png",
+    "sourceCrop": [
+      887,
+      443,
+      1330,
+      887
+    ],
+    "advanceWidth": 1079,
+    "leftSideBearing": 72,
+    "contourCount": 74
+  },
+  {
+    "char": "选",
+    "glyphName": "uni9009",
+    "unicode": "U+9009",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      0,
+      0,
+      443,
+      443
+    ],
+    "advanceWidth": 1056,
+    "leftSideBearing": 72,
+    "contourCount": 69
+  },
+  {
+    "char": "准",
+    "glyphName": "uni51C6",
+    "unicode": "U+51C6",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      443,
+      0,
+      887,
+      443
+    ],
+    "advanceWidth": 1018,
+    "leftSideBearing": 72,
+    "contourCount": 65
+  },
+  {
+    "char": "心",
+    "glyphName": "uni5FC3",
+    "unicode": "U+5FC3",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      887,
+      0,
+      1330,
+      443
+    ],
+    "advanceWidth": 1120,
+    "leftSideBearing": -128,
+    "contourCount": 36
+  },
+  {
+    "char": "理",
+    "glyphName": "uni7406",
+    "unicode": "U+7406",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      1330,
+      0,
+      1774,
+      443
+    ],
+    "advanceWidth": 999,
+    "leftSideBearing": 72,
+    "contourCount": 103
+  },
+  {
+    "char": "咨",
+    "glyphName": "uni54A8",
+    "unicode": "U+54A8",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      0,
+      443,
+      443,
+      887
+    ],
+    "advanceWidth": 962,
+    "leftSideBearing": 72,
+    "contourCount": 47
+  },
+  {
+    "char": "询",
+    "glyphName": "uni8BE2",
+    "unicode": "U+8BE2",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      443,
+      443,
+      887,
+      887
+    ],
+    "advanceWidth": 915,
+    "leftSideBearing": 72,
+    "contourCount": 56
+  },
+  {
+    "char": "师",
+    "glyphName": "uni5E08",
+    "unicode": "U+5E08",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      887,
+      443,
+      1330,
+      887
+    ],
+    "advanceWidth": 929,
+    "leftSideBearing": 72,
+    "contourCount": 73
+  },
+  {
+    "char": "先",
+    "glyphName": "uni5148",
+    "unicode": "U+5148",
+    "alternateOf": null,
+    "source": "glyph-master-v02a.png",
+    "sourceCrop": [
+      1330,
+      443,
+      1774,
+      887
+    ],
+    "advanceWidth": 1013,
+    "leftSideBearing": 72,
+    "contourCount": 51
+  },
+  {
+    "char": "看",
+    "glyphName": "uni770B",
+    "unicode": "U+770B",
+    "alternateOf": null,
+    "source": "glyph-master-kan-v03.png",
+    "sourceCrop": [
+      0,
+      0,
+      887,
+      887
+    ],
+    "advanceWidth": 1039,
+    "leftSideBearing": 72,
+    "contourCount": 278
+  },
+  {
+    "char": "看",
+    "glyphName": "uni770B.alt1",
+    "unicode": null,
+    "alternateOf": "uni770B",
+    "source": "glyph-master-kan-v03.png",
+    "sourceCrop": [
+      887,
+      0,
+      1774,
+      887
+    ],
+    "advanceWidth": 880,
+    "leftSideBearing": 147,
+    "contourCount": 196
+  },
+  {
+    "char": "这",
+    "glyphName": "uni8FD9",
+    "unicode": "U+8FD9",
+    "alternateOf": null,
+    "source": "glyph-master-v02b.png",
+    "sourceCrop": [
+      887,
+      0,
+      1330,
+      443
+    ],
+    "advanceWidth": 1120,
+    "leftSideBearing": 62,
+    "contourCount": 69
+  },
+  {
+    "char": "点",
+    "glyphName": "uni70B9",
+    "unicode": "U+70B9",
+    "alternateOf": null,
+    "source": "glyph-master-v02b.png",
+    "sourceCrop": [
+      1330,
+      0,
+      1774,
+      443
+    ],
+    "advanceWidth": 1042,
+    "leftSideBearing": 72,
+    "contourCount": 44
+  },
+  {
+    "char": "4",
+    "glyphName": "four",
+    "unicode": "U+0034",
+    "alternateOf": null,
+    "source": "glyph-master-v02b.png",
+    "sourceCrop": [
+      0,
+      443,
+      443,
+      887
+    ],
+    "advanceWidth": 911,
+    "leftSideBearing": 72,
+    "contourCount": 86
+  },
+  {
+    "char": "，",
+    "glyphName": "uniFF0C",
+    "unicode": "U+FF0C",
+    "alternateOf": null,
+    "source": "glyph-master-v02b.png",
+    "sourceCrop": [
+      443,
+      443,
+      887,
+      887
+    ],
+    "advanceWidth": 1000,
+    "leftSideBearing": 235,
+    "contourCount": 11
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-047-spatial-song",
+    "displayName": "047 四点空间宋字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-047/font-skill/SKILL.md",
+    "config": "../skills/dalala-cover-047/font-skill/references/style.json",
+    "humanRules": "../skills/dalala-cover-047/font-skill/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-047/font-skill/references/generation-prompt.md",
+    "integration": "../skills/dalala-cover-047/font-skill/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-047/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-single-glyph-layer",
+    "vitalityQA": "../skills/dalala-cover-047/font-skill/references/vitality-qa.md"
+  }
+]

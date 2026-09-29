@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-063",
+  "sourceSize": {"width": 1024, "height": 1366, "aspectRatio": "3:4 approximate"},
+  "coordinateSystem": "percent of full canvas; visual estimates pending test",
+  "firstVisualFocus": "large light high-contrast Chinese topic and two-line question in upper-left",
+  "primaryMechanism": "abstract provocative question becomes a concrete upward desire/action scene, then expands into a lower collective scene",
+  "dominantAxis": "upper-left text to upper-right hand/object and tilted face, then downward to horizontal lower ensemble",
+  "visualCenter": {"x": 55, "y": 43},
+  "readingPath": ["large topic x3-69 y3-19", "two-line question x4-62 y21-39", "hand and falling object x71-100 y2-27", "tilted face x66-98 y26-47", "small source line x4-31 y45-50", "lower ensemble y64-100"],
+  "elements": [
+    {"role": "topic", "sourceContent": "《色情》：", "boundsPct": [3, 3, 69, 19], "align": "left", "layer": 8, "treatment": "large cream filled deco cut Song; bracket as paired thin diagonal strokes, colon as large dots"},
+    {"role": "mainTitle", "sourceContent": "为什么人类 / 需要浪费？", "boundsPct": [4, 21, 62, 39], "align": "left with staggered right edge", "layer": 8, "treatment": "two tight rows of high-contrast display Song, no third row"},
+    {"role": "sourceLine", "sourceContent": "作者：巴塔耶", "boundsPct": [4, 45, 31, 50], "align": "left", "layer": 8, "treatment": "small Song with short hairline above"},
+    {"role": "mainSubject", "boundsPct": [44, 2, 100, 79], "layer": 6, "treatment": "right-bleeding illustrated upward-facing person; black hair and clothing frame warm face"},
+    {"role": "gestureObject", "boundsPct": [71, 2, 100, 27], "layer": 7, "treatment": "hand holds dark fruit cluster, one falling item links to mouth"},
+    {"role": "lowerEnsemble", "boundsPct": [0, 64, 100, 100], "layer": 5, "treatment": "3-5 seated figures/object clusters, shared table and foreground props, bottom bleed"},
+    {"role": "lightDisk", "boundsPct": [27, 50, 57, 77], "layer": 2, "treatment": "muted textured cream circle behind silhouettes"},
+    {"role": "environment", "boundsPct": [0, 35, 100, 86], "layer": 3, "treatment": "dark trees and edge architecture create depth without crowding title"},
+    {"role": "background", "boundsPct": [0, 0, 100, 100], "layer": 1, "treatment": "textured saturated middle-dark warm field"}
+  ],
+  "negativeSpace": [{"boundsPct": [4, 50, 43, 65], "purpose": "separate author line and lower scene"}, {"boundsPct": [61, 16, 72, 29], "purpose": "separate punctuation from object"}],
+  "approxColorAreaPct": {"middleDarkGround": [45,55], "nearBlack": [25,35], "highLight": [15,20], "middleAccent": [5,10]},
+  "fontDecision": "requires template-specific testing font skill dalala-cover-063-deco-cut-song; existing blade Song has different long-point and shadow behavior",
+  "failureModes": ["plain Song or extra title row", "front-facing main subject", "object unrelated to face or topic", "disconnected lower thumbnails", "copying recognizable animation characters", "photoreal face on flat cartoon scene", "texture obscuring glyphs", "bright even background losing contrast"]
+}

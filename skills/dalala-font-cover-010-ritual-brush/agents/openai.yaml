@@ -1,0 +1,4 @@
+interface:
+  display_name: "010 双字锋利飞白｜测试态"
+  short_description: "两字巨幅中文标题的独立透明字层"
+  default_prompt: "读取原参考图和 style rules，按准确中文逐字生成透明标题层，并执行 vitality QA；当前无批准样张。"

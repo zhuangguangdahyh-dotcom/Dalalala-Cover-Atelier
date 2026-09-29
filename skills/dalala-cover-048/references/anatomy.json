@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-048",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-048-reference.jpg",
+    "archivedReference": "skills/dalala-cover-048/assets/reference-original.jpg",
+    "sha256": "daeae497faf1c6dee74116933eba46e586f69a48aa7c009ebd3e83bd443d86f7",
+    "dimensions": [2880, 3839],
+    "ratio": "approximately 3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视归一化估计；待复刻验证",
+    "bboxConvention": "[x0,y0,x1,y1] percent; intentional overlaps"
+  },
+  "visualConclusion": "真实旅行经历的非均分拼贴；右侧巨大张口笑脸与食物先抓眼，左中白字黑厚边 VLOG 把多张照片串成一段记录。",
+  "primaryMechanism": "右侧大近景情绪主角、左侧上下多时刻照片和中部跨拼接线类型词的尺度反差",
+  "dominantAxis": "x≈50% 直边拼接主轴，左上行动至右下大脸为动态斜轴",
+  "primaryFocus": "右侧近景人物脸与餐盘，其次左中 VLOG",
+  "visualWeightCenterPercent": [64, 59],
+  "readingPath": ["右侧主角的张口笑脸和食物", "左中巨大 VLOG", "左上室内飞行动作", "上中海水与右上举帽小人", "左下船上海景人像", "折回大主角"],
+  "contentRoles": [
+    {"role": "actionPhoto", "bboxPercent": [0, 0, 50, 50], "meaning": "室内飞行的真实动作和场所", "z": 0},
+    {"role": "environmentPhoto", "bboxPercent": [50, 0, 75, 35], "meaning": "水面地点和流动纹理", "z": 0},
+    {"role": "smallScenePhoto", "bboxPercent": [75, 0, 100, 35], "meaning": "举帽小人物及深蓝墙；与大近景形成景别对照", "z": 0},
+    {"role": "lowerLeftPhoto", "bboxPercent": [0, 50, 50, 100], "meaning": "船帽人物、海平线和旅途另一时刻", "z": 0},
+    {"role": "foregroundSubject", "bboxPercent": [39, 32, 100, 100], "faceBBoxPercent": [58, 42, 87, 63], "meaning": "大近景表情、食物与餐盘；第一焦点", "z": 2},
+    {"role": "mainTitle", "bboxPercent": [5, 41, 52, 52], "meaning": "VLOG 一行类型词，跨左侧换景线", "z": 5},
+    {"role": "titleIcon", "bboxPercent": [34, 39, 40, 43], "meaning": "一枚旅行小船图形，可随主题变更", "z": 6},
+    {"role": "radiatingMarks", "bboxPercent": [45, 31, 100, 96], "meaning": "围绕大主角轮廓的 8–16 段白色兴奋线", "z": 4}
+  ],
+  "absentRoles": ["subtitle", "date", "accountName", "bodyCopy"],
+  "protectedZones": [
+    {"bboxPercent": [56, 42, 89, 64], "reason": "大主角眼、口、面部轮廓"},
+    {"bboxPercent": [51, 71, 100, 88], "reason": "餐盘与食物关系"},
+    {"bboxPercent": [5, 41, 52, 52], "reason": "一行标题的完整轮廓"},
+    {"bboxPercent": [7, 56, 39, 74], "reason": "左下人像身份与眼神"}
+  ],
+  "composition": {
+    "subjectRelation": "右侧大主角胸上近景比左下人像体量约 1.7–2.2 倍；右上另有小景别人物",
+    "seams": "x≈50% 竖向直边拼接、左半 y≈50% 横向换景；大主角盖过下半拼接秩序",
+    "titleRelation": "单行标题跨越左半上下照片分界，略越过 x50% 中线，但不压右侧脸",
+    "density": "高密度事件拼贴；脸周 3–5% 幅宽无字安全带；亮白船舱和天空是局部喘息",
+    "textImageRelationship": "白字黑轮廓跨明暗照片，黑边负责可读性，类型词把不同事件归为同一记录"
+  },
+  "typography": {
+    "mainTitle": {"fontStyleId": "dalala-cover-048-vlog-outline", "lines": 1, "preferredLatinCaps": [3, 6], "bboxPercent": [5, 41, 52, 52], "glyphHeightCanvasPercent": [11, 13], "widthCanvasPercent": [45, 49], "tracking": "紧排但 O 与 G 内腔清楚", "fill": "高明度白实心", "outline": "黑色硬边，约字高 5–7%", "offset": "右下硬边可约字高 1–2%"},
+    "subtitle": null
+  },
+  "paletteStructure": {"coolOrLowSaturationPhotoAreaPercent": [55, 70], "brightPhotoAreaPercent": [15, 25], "warmSkinAndPropsAreaPercent": [8, 15], "whiteLetteringMarksAndDarkOutlineAreaPercent": [5, 9], "rule": "冷色场景整合多图；暖肤色和食物形成小焦点；白字黑边跨明暗仍可读，具体色值随主题重选"},
+  "effects": ["直边多场景照片拼接", "干净近景抠图和自然发丝", "真实摄影纹理和各场景透视", "厚黑硬边包裹白色实字", "8–16 段不规则白色放射短线", "小图标贴标题上缘"],
+  "layerOrder": ["四处真实场景照片", "右侧主角与蓝色背景衔接", "食物和餐盘前景", "白色放射短线", "标题黑轮廓/硬边", "标题白实字", "一枚小图标"],
+  "locked": ["3:4 非均分多场景拼贴", "左上行动/左下较小人物或成果/上部地点/右上小场景", "右侧巨大近景表情主角", "一行粗白字黑厚边横跨左侧换景线", "少量白色放射短线", "真实同主题多时刻证据"],
+  "adaptive": ["人物与行业", "行动、地点、食物或成果的内容", "标题词", "具体色值", "小图标语义"],
+  "optional": ["一枚贴标题的小图标"],
+  "forbidden": ["平均四宫格", "重复同一张照片充当多时刻", "人物和照片讲不同主题", "大人物降成远景", "标题移至顶部或扩成多行", "白线遮眼口或食物", "抠图白边和不合光向", "未验收标记 active"],
+  "renderReadiness": {"nearSourceRecreation": false, "crossIndustryTest": false, "fontQa": false, "thumbnailQa": false, "userAcceptance": false}
+}

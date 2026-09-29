@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-023",
+  "displayName": "参考 023",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "f528f45b-0a70-4a40-bc06-6b98f6eb81df",
+  "analysisReport": "skills/dalala-cover-023/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-023.jpg",
+  "referenceSha256": "f65eef092d866a7a4a677245a6fcf0eaaf54fff730bbe9be428b26bc4f58249b",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainHan": "8 字，五组 2-1-2-1-2",
+    "verticalProse": "三列约20–30字，总长度按不等长列调整；每列上限约16字",
+    "englishEcho": "约四行短大写英文"
+  },
+  "subjectTypes": [
+    "真实的手与被阅读的斜向实物",
+    "可承载高明白字的暗调连续照片"
+  ],
+  "contentEmotions": [
+    "阅读现场",
+    "文学式判断",
+    "沉静且有书写力度"
+  ],
+  "firstFocus": "中央五组近白宽笔主句",
+  "spatialStructure": [
+    "标题x30–68%,y15–85%",
+    "左竖文x6–18%,y5–41%",
+    "英文x36–50%,y30–38%",
+    "可选标记x56–64%,y65–71%，可缺省",
+    "右下署名x82–94%,y94–98%"
+  ],
+  "readingPath": [
+    "语言",
+    "是",
+    "磨损",
+    "的",
+    "诗歌",
+    "回读竖文和英文",
+    "右下署名"
+  ],
+  "imageTextRelationship": "连续暗调手持斜书页与中央五组错落宽笔亮字交叉；左竖文、英文和右下署名提供次级阅读，小标记可有可无",
+  "locked": [
+    "3:4连续暗调摄影",
+    "手与斜向阅读物件真实接触",
+    "中央五组2-1-2-1-2宽笔错位标题",
+    "左上竖文、中左四行英文、右下署名短线",
+    "暗底／中明纸面／高明文字的重量",
+    "文字透明叠加与自然笔触"
+  ],
+  "adaptive": [
+    "真实人物之手与衣物",
+    "书或可阅读的行业物件",
+    "准确的主句、引文、英文和署名",
+    "符合主题的具体色值与摄影光线",
+    "小标记内容、形状与颜色（若启用）"
+  ],
+  "optional": [
+    "小标记或印章可替换可省略，缺省不回收空间",
+    "背景轻压暗",
+    "次要印刷字弱化",
+    "极轻软暗影"
+  ],
+  "forbidden": [
+    "统一居中五行",
+    "普通字体替代宽笔行写",
+    "书页悬浮或拉平",
+    "手与书接触错误",
+    "辅助字抢主标题",
+    "强制原章文字、红色或章式",
+    "删章后扩字或填CTA",
+    "错字或虚假署名",
+    "未经测试验收标active"
+  ],
+  "variableContract": {
+    "person": "手的身份、肤色和衣物可变，仍保持左中自然托页与真实接触阴影。",
+    "text": "内容可变，主句必须五组 2-1-2-1-2 的大字骨架，竖文／英文／署名保持原视觉等级。",
+    "product": "书可换为行业相关的可阅读物件，仍须形成斜向大面、手持尺度和中心文字底。",
+    "palette": "具体色值可变，暗照片、中明纸面、高明字的等级不变；强调色可无",
+    "decoration": "印章不是固定内容，可替换、省略，不回收空档"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "标题包络x30–68%,y15–85%",
+      "双字宽34–38%W，单字11–19%W",
+      "亮字实际像素预算7–11%，未分割测量",
+      "可选标记包络不超过0.6%，像素0–0.5%，允许0"
+    ],
+    "effects": [
+      "连续真实摄影透视",
+      "透明宽笔字层叠加",
+      "克制暗部和软光"
+    ],
+    "optionalMarkNotInvariant": true
+  },
+  "assetTransformation": {
+    "level": "T0 真实原片裁切／调光优先；T1 合理扩暗环境；T2 仅局部修复与印刷字弱化；不伪造事实性 T3",
+    "triggers": [
+      "手或书页离开指定区域时重取景",
+      "字后太亮时局部压暗",
+      "纸面干扰时弱化次要印刷字",
+      "实物与主题不相干时换素材"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-017-journey-brush",
+      "required": true,
+      "status": "testing",
+      "reuseRequiresVisualProof": true
+    },
+    {
+      "role": "verticalProse",
+      "type": "font-style-id",
+      "id": "dalala-cover-023-editorial-support",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "englishEcho",
+      "type": "font-style-id",
+      "id": "dalala-cover-023-editorial-support",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "footerSignature",
+      "type": "font-style-id",
+      "id": "dalala-cover-023-editorial-support",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "revision": {
+    "version": "0.2.0",
+    "jobId": "f528f45b-0a70-4a40-bc06-6b98f6eb81df",
+    "previousJobId": "4a19c4b4-a883-4325-aa7f-322b5c1defa3",
+    "feedback": "小红印章不是固定的内容",
+    "changes": [
+      "印章可替换可省略，不锁内容、颜色或形状；省略不回收空间",
+      "主句末两字纠正为诗歌",
+      "补充底部托书手与逐字错落",
+      "落实辅助字体测试态依赖"
+    ]
+  }
+}

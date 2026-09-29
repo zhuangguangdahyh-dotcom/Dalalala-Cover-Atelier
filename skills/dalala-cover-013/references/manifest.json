@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-013",
+  "displayName": "参考 013",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "615a12e4-40d5-44e3-9e04-26a7ff2197e0",
+  "analysisReport": "../../../skills/dalala-cover-013/references/adaptation-rules.md",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "ratios": ["3:4"],
+  "titleLength": {"chineseEquivalentCharacters": [5, 7], "lineCount": 1},
+  "subjectTypes": ["one dynamic person or semantically equivalent single hero with complete diagonal motion"],
+  "contentEmotions": ["探索", "穿越", "迁移", "冒险", "怀旧"],
+  "firstFocus": "顶部逐字撕纸标题，人物对角姿态形成同屏第二钩子",
+  "spatialStructure": ["顶部约 4–23%H 的单行逐字纸片", "中部不等高档案天际线与横向结构", "超大主角从左下指向右上", "约 70–84%H 的满宽道路", "约 83–99%H 的底部撕裂档案"],
+  "readingPath": ["标题", "档案天际线", "主角手与脸", "主角躯干及左侧鞋", "满宽道路", "底部报纸与回看场景"],
+  "imageTextRelationship": "标题给出时空承诺；对角失重主角把承诺变成事件；城市场景、道路和档案构成地点、过程与时代证据。",
+  "locked": ["3:4 近黑满版舞台", "单行逐字撕纸标题及连续局部强调", "中部 3–5 个不等高证据剪影和连接结构", "左下至右上的超大动态主角及暖白厚边", "满宽道路或等价实体路径与底部撕裂档案", "四条横带、一条对角主轴、局部纸影与印刷纹理"],
+  "adaptive": ["标题措辞", "主角身份、服装与行业相关动作", "3–5 个场景证据与侧翼档案内容", "具体色值及纸张内容"],
+  "optional": ["右侧出边档案纸", "一个小型过程道具", "依附纸片的少量墨点"],
+  "forbidden": ["一整块矩形标题", "副标题、Logo、CTA 或正文信息栏", "缩小主角或旋转站姿伪造运动", "随机旧素材贴纸墙", "删去道路或底报纸", "锁死参考的具体红黑蓝色值", "未经测试和用户确认标记 active"],
+  "variableContract": {
+    "person": "身份、外貌、服装可变；单个主角、动态方向、景别、面积及遮挡关系不变。",
+    "text": "内容可变；单行 5–7 字、一字一纸、连续强调段和相同字区不变。",
+    "product": "可替换为行业展示对象；其事实结构与场景证据关系必须真实，不能破坏主角与道路位置。",
+    "palette": "具体色值可变；深底、亮纸、中灰档案、有限暖强调及微量冷平衡不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "titleBoxPercentXYXY": [5, 4, 97, 23],
+    "heroBoxPercentXYXY": [7, 30, 96, 75],
+    "roadBoxPercentXYXY": [0, 70, 100, 84],
+    "archiveBaseBoxPercentXYXY": [0, 83, 100, 99],
+    "effects": ["one torn-paper tile per glyph", "analogue cutout halo and short contact shadow", "layered archive skyline", "full-width marked road", "bottom torn newsprint"]
+  },
+  "assetTransformations": [
+    {"when": "主角身份与动作素材均完整", "level": "T2", "action": "锁身份后抠图、材质统一、暖白剪纸边与短影", "reason": "建立实体拼贴主角"},
+    {"when": "只有站姿或动作缺失", "level": "T3", "action": "优先补拍，否则受身份约束重建完整四肢与悬浮姿态", "reason": "保留模板对角动作"},
+    {"when": "场景证据光线与风格不一", "level": "T2", "action": "分别裁切、去背、低饱和统一和纸边化", "reason": "组成同一档案世界"},
+    {"when": "标题或证据不能满足槽位", "level": "content-gate", "action": "改写或补齐；仍不成立则换模板", "reason": "不松动固定骨架"}
+  ],
+  "fontDependencies": [{"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-013-torn-poster-block", "required": true, "status": "testing"}],
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-044-blade-song",
+  "status": "testing",
+  "kind": "generative-lettering-style",
+  "sourceReference": "../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": ["hookLead", "answerTitle"],
+  "skeleton": "heavy high-contrast Chinese Song/Ming display",
+  "strokeContrast": "very thin horizontal against heavy vertical, but hairlines must survive 360 px preview",
+  "terminals": "sharp triangular wedge and selectively extended blade-like ends",
+  "posture": "stable baseline with slight right-upward directional energy",
+  "fill": "solid opaque",
+  "edge": "clean with controlled sharp cuts; no brush dry texture",
+  "spacing": "tight non-colliding, -2 to +3 percent of glyph width",
+  "effect": {"outline": false, "glow": false, "shadow": "soft dark neutral, down-right 3-5 percent of glyph height, modest opacity"},
+  "linePolicy": "two separate transparent line layers; cover layout controls position and color",
+  "exactColorLocked": false,
+  "textAccuracy": {"mustMatchVerbatim": true, "preservePairedQuotes": true, "allowGlyphSubstitution": false},
+  "qaThumbnailWidthPx": 360
+}

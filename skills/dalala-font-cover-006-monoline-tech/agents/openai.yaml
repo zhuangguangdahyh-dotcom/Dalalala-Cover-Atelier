@@ -1,0 +1,7 @@
+interface:
+  display_name: "006 双语几何单线字（测试态）"
+  short_description: "超细连续中英字骨与微弱双色套印"
+policy:
+  allow_automatic_invocation: false
+  status: testing
+

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-005-modular-outline",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-005/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "requiredInputs": ["text", "canvasWidth", "canvasHeight", "textBox", "primaryText", "outlineRole", "includeMirroredChevrons"],
+  "characterConstruction": {
+    "base": "ultra-heavy-geometric-modular-display",
+    "strokeWeight": "ultra-black",
+    "fill": "solid-light-role",
+    "corners": "square-with-small-controlled-rounding",
+    "counters": "rectangular-or-slot-like",
+    "breaks": "selective-mechanical-gaps-and-steps",
+    "outlineRatioToGlyphHeight": [0.03, 0.05],
+    "trackingRatioToGlyphWidth": [-0.03, 0.01],
+    "chevronHeightRatioToGlyphHeight": [0.85, 0.95],
+    "estimateOnly": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "fixedFontFallbackAllowed": false,
+    "composeSeparatelyFromBackground": true,
+    "includeMirroredChevrons": true
+  },
+  "forbidden": ["ordinary round font plus outline", "regular heiti substitution", "brush texture", "hollow fill", "long shadow", "gradient fill", "asymmetric brackets", "extra characters"],
+  "productionApproved": false
+}

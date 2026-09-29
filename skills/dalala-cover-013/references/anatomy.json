@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-013",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "analysisJobId": "615a12e4-40d5-44e3-9e04-26a7ff2197e0",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-013.jpg",
+    "archivedReference": "skills/dalala-cover-013/assets/reference-original.jpg",
+    "sha256": "b3fde49ccb9bf0d172dd7691e78c38f7b303c7a5d9d0bea8ee7971c0c5897044",
+    "width": 1011,
+    "height": 1348,
+    "aspectRatio": 0.75,
+    "reviewedOriginal": true,
+    "measurementMethod": "1011×1348 原图逐区目视测绘；位置、面积与色彩预算为执行初值，不是源文件图层或像素分割结果",
+    "bboxConvention": "[x0,y0,x1,y1]，单位为画布百分比；外接框可重叠，不可直接相加为可见面积",
+    "positionTolerancePercentagePoints": 2.5,
+    "rotationToleranceDegrees": 2
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "productionSize": [
+      1080,
+      1440
+    ],
+    "orientation": "portrait",
+    "fullBleed": true
+  },
+  "visualConclusion": "黑色舞台上，顶部六字逐字撕纸标题先给出强语义钩子；中部以城市地标、桥梁、地图和报纸建立时空档案；超大女性角色以左下到右上的失重姿态穿越其间；道路和底部撕裂报纸把悬浮叙事压回实体拼贴基座。",
+  "primaryMechanism": "以逐字撕纸大标题提供即时承诺，以超大对角动态主角制造情绪和停留，再用远中近三层城市档案、横向道路和纸张材质把抽象的穿越/迁移/探索变成可读叙事。",
+  "contentRoles": [
+    {
+      "role": "mainTitleGroup",
+      "bboxPercentXYXY": [
+        4.5,
+        4,
+        96.5,
+        22.5
+      ],
+      "meaning": "唯一文字信息；逐字贴在独立撕边纸片上的单行主标题，是第一语义焦点",
+      "alignment": "optical horizontal row with controlled overlap, micro rotation and vertical stagger",
+      "visualPriority": 1,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "titleBackingScrap",
+      "bboxPercentXYXY": [
+        19,
+        18.5,
+        55,
+        25
+      ],
+      "meaning": "标题后方横向报纸碎片，连接字体贴片与下部档案世界，不承载新文字",
+      "alignment": "left-middle under title",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "archiveSkyline",
+      "bboxPercentXYXY": [
+        3,
+        22,
+        98,
+        50.5
+      ],
+      "meaning": "3–5 个建筑、设备、场景或证据剪纸形成的远景天际线，建立地点与时代语境",
+      "alignment": "uneven horizontal skyline with central gaps and asymmetric heights",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "midgroundStructure",
+      "bboxPercentXYXY": [
+        0,
+        39,
+        100,
+        65
+      ],
+      "meaning": "桥梁、轨道、工作台或等价的大型横向结构，串联远景并托住主角",
+      "alignment": "shallow diagonal inside a primarily horizontal band",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "heroSubject",
+      "bboxPercentXYXY": [
+        7.5,
+        29.5,
+        96,
+        75
+      ],
+      "meaning": "超大主角，以双腿伸向左侧、头和双臂伸向右上方的失重/跃迁动作穿过画面",
+      "alignment": "dominant diagonal from lower-left to upper-right, approximately 20–28 degrees",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "heroFace",
+      "bboxPercentXYXY": [
+        77,
+        41,
+        91,
+        54
+      ],
+      "meaning": "人物身份与情绪锚点；朝上或朝运动方向，保持五官完整",
+      "alignment": "upper-right endpoint of hero diagonal",
+      "visualPriority": 2,
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "motionLimbs",
+      "bboxPercentXYXY": [
+        43,
+        29.5,
+        81,
+        55
+      ],
+      "meaning": "两臂形成向右上的二次方向线，强化被吸入、坠落或穿越的动作",
+      "alignment": "parallel or slightly diverging from hero diagonal",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "sideArchiveFragment",
+      "bboxPercentXYXY": [
+        89,
+        49,
+        100,
+        70
+      ],
+      "meaning": "地图、票据、流程图或等价侧翼档案；补充语境并封住右边缘",
+      "alignment": "partially cropped at right edge",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "smallJourneyProp",
+      "bboxPercentXYXY": [
+        62,
+        64,
+        91,
+        75
+      ],
+      "meaning": "自行车、交通工具、工作过程或其他小型叙事道具，提供尺度反差与故事细节",
+      "alignment": "behind or beneath hero subject",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "roadBand",
+      "bboxPercentXYXY": [
+        0,
+        69.5,
+        100,
+        84.5
+      ],
+      "meaning": "满宽横向道路/路径带，以车道线和斑马线提供稳定基线、现实尺度与运动方向",
+      "alignment": "full-width horizontal, near-zero rotation",
+      "visualPriority": 3,
+      "tolerancePercentagePoints": 2.5
+    },
+    {
+      "role": "bottomArchiveBase",
+      "bboxPercentXYXY": [
+        0,
+        83,
+        100,
+        98.5
+      ],
+      "meaning": "报纸、旧文档、地图或同类档案撕纸基座；上缘被道路压住，下缘保持明显手撕轮廓",
+      "alignment": "full-width torn strip with uneven lower edge",
+      "visualPriority": 4,
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "blackStage",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "所有纸层之间露出的深色负空间与高对比舞台",
+      "alignment": "full bleed",
+      "visualPriority": 5,
+      "tolerancePercentagePoints": 0
+    }
+  ],
+  "absentRoles": [
+    "subtitle",
+    "auxiliaryCopy",
+    "brandLogo",
+    "callToAction",
+    "footerInformationBar",
+    "regularPhotoGrid"
+  ],
+  "firstFocus": "顶部逐字撕纸主标题；人物动作是同屏第一视觉动势，二者形成语义与情绪双钩子",
+  "secondaryFocus": "中部超大失重主角及右上脸部/双臂",
+  "tertiaryFocus": "城市档案天际线、横向道路和底部撕裂报纸",
+  "dominantAxis": {
+    "primary": "从左下靴尖经躯干、脸部到右上手臂的 20°–28° 上升对角线",
+    "secondary": "顶部标题、城市天际线、道路和底部档案组成的四条横向层带",
+    "counterbalance": "左侧较重的双腿与建筑群，由右上脸部、双臂、钟楼和侧翼地图平衡"
+  },
+  "readingPath": [
+    "主标题从左到右",
+    "标题下方城市天际线",
+    "右上抬起的双手与脸部",
+    "沿躯干对角线回到左下双腿",
+    "横向道路",
+    "底部报纸/档案基座",
+    "回看地标、地图与小型交通道具"
+  ],
+  "densityMap": {
+    "top0To3Percent": "纯黑呼吸边，不放任何信息",
+    "title4To23Percent": "高密度大字与独立纸片，但纸片之间仍露黑缝",
+    "transition23To31Percent": "中低密度黑色天空与少量报纸碎片，分隔标题和场景",
+    "narrative31To69Percent": "全画最高密度；建筑、桥梁、地图、人物和白边多层叠压",
+    "road70To85Percent": "中密度横向稳定带；重复车道线和斑马线形成节奏",
+    "archive85To99Percent": "高纹理、低信息的档案基座",
+    "visibleNegativeSpacePercent": [
+      20,
+      28
+    ]
+  },
+  "protectedZones": [
+    {
+      "bboxPercentXYXY": [
+        3,
+        1,
+        97,
+        24
+      ],
+      "rule": "只允许主标题、标题纸片及其少量背衬碎纸；人物、建筑和额外文案不得进入标题有效字面"
+    },
+    {
+      "bboxPercentXYXY": [
+        76,
+        39,
+        93,
+        56
+      ],
+      "rule": "人物五官、发际线和朝向必须完整可辨，不得被地图、建筑或道路遮挡"
+    },
+    {
+      "bboxPercentXYXY": [
+        2,
+        23,
+        98,
+        32
+      ],
+      "rule": "保留不规则黑色天空缝隙，不能用贴纸或说明文字填满"
+    },
+    {
+      "bboxPercentXYXY": [
+        0,
+        70,
+        100,
+        84
+      ],
+      "rule": "道路连续满宽；主角可跨越，但新增物件不得破坏主要车道线和斑马线识别"
+    }
+  ],
+  "layerOrder": [
+    "full-bleed black stage",
+    "rear newspaper scraps and paper shadows",
+    "far archive skyline and torn horizon backing",
+    "midground bridge or equivalent structural connector",
+    "right-side map or archive fragment",
+    "small journey/process prop",
+    "bottom archive base",
+    "full-width road band above the archive base",
+    "hero subject with inner ink contour and thick warm-white cut-paper halo",
+    "top title backing scrap",
+    "individual torn title tiles and printed glyphs"
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-013-torn-poster-block",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "typography": {
+    "mainTitle": {
+      "lineCount": 1,
+      "idealChineseCharacters": 6,
+      "allowedChineseEquivalentCharacters": [
+        5,
+        7
+      ],
+      "groupWidthPercent": [
+        89,
+        93
+      ],
+      "groupHeightPercent": [
+        17,
+        20
+      ],
+      "tileCountMatchesGlyphCount": true,
+      "tileWidthPercent": [
+        12.5,
+        18.5
+      ],
+      "tileHeightPercent": [
+        13,
+        18
+      ],
+      "glyphFillOfTilePercent": [
+        68,
+        84
+      ],
+      "tileOverlapPercentOfCanvasWidth": [
+        0.4,
+        2.2
+      ],
+      "tileRotationDegrees": [
+        -4,
+        4
+      ],
+      "tileVerticalStaggerPercentOfCanvasHeight": [
+        -1.2,
+        1.5
+      ],
+      "accentSegmentGlyphCount": [
+        1,
+        2
+      ],
+      "accentSegmentAreaShareOfTitlePercent": [
+        25,
+        38
+      ],
+      "subtitleAllowed": false,
+      "auxiliaryCopyAllowed": false
+    }
+  },
+  "subjectTreatment": {
+    "heroVisibleAreaPercent": [
+      30,
+      40
+    ],
+    "heroDiagonalDegrees": [
+      20,
+      28
+    ],
+    "heroCutoutHaloWidthPercentOfCanvas": [
+      1.2,
+      2.4
+    ],
+    "heroShadowOffsetPercentOfCanvasWidth": [
+      0.4,
+      1.0
+    ],
+    "heroStyle": "watercolour-and-ink editorial illustration or materially equivalent analogue cutout",
+    "landmarkCount": [
+      3,
+      5
+    ],
+    "landmarkVisibleAreaPercent": [
+      16,
+      23
+    ],
+    "landmarkHaloWidthPercentOfCanvas": [
+      0.7,
+      1.5
+    ]
+  },
+  "colorRoles": {
+    "exactColorsLocked": false,
+    "visibleAreaBudgetPercent": {
+      "deepStageAndDarkInk": 27,
+      "warmPaperAndLightClothing": 31,
+      "neutralArchitectureRoadAndNewsprint": 27,
+      "warmSkinBrickAndTitleAccent": 10,
+      "coolGarmentOrObjectAccent": 4,
+      "microArchiveColours": 1
+    },
+    "tolerancePercentagePoints": 5,
+    "measurementStatus": "目测互斥面积预算，待复刻成图校准",
+    "contrastLogic": "极深舞台与暖白纸层形成最高一级明度反差；黑字和暖色强调字均印在浅纸上；城市与道路保持中灰，主角皮肤/强调色与少量冷色从灰阶档案中跳出。",
+    "requiredRelations": [
+      "title remains readable in grayscale even when one semantic segment uses an accent colour",
+      "paper is lighter than architecture and road but warmer than pure digital white",
+      "accent colour occupies a minority area and groups meaning instead of scattering evenly",
+      "hero face and hands remain warmer or more chromatic than the archive background",
+      "specific colour values are reselected for each topic"
+    ]
+  },
+  "effects": {
+    "required": [
+      "full-bleed near-black stage",
+      "one torn paper tile per title glyph",
+      "coarse screenprint or letterpress fill inside glyphs",
+      "irregular fibrous torn edges and small paper shadows",
+      "warm-white cut-paper halo around hero and major evidence cutouts",
+      "analogue watercolour-and-ink hero rendering",
+      "grayscale archive skyline with selective warm roofs or details",
+      "full-width road with repeated lane markings and one zebra-crossing rhythm",
+      "bottom torn newspaper or document strip",
+      "visible but controlled paper/newsprint grain"
+    ],
+    "forbidden": [
+      "clean vector poster with no physical paper depth",
+      "single rectangular title banner",
+      "uniform tile shapes or identical rotations",
+      "photoreal subject pasted over cartoon scenery",
+      "random sticker wall with no foreground-middle-background order",
+      "global sepia filter that muddies the title",
+      "heavy outer glow, neon, bevel, glossy 3d or long digital shadow",
+      "uniform noise over the black negative space"
+    ]
+  },
+  "layoutContract": {
+    "locked": [
+      "3:4 full-bleed black stage",
+      "single-line top title built from one irregular torn tile per glyph",
+      "title group occupies about 89%–93%W and 17%–20%H",
+      "one contiguous 1–2 glyph accent segment against a dark-ink majority",
+      "archive skyline and structural connector across the middle",
+      "one oversized hero in a lower-left to upper-right suspended-motion diagonal",
+      "thick light cut-paper halo around hero and evidence cutouts",
+      "one full-width road/path band and one bottom torn archive strip",
+      "title → skyline → hero diagonal → road → archive reading path",
+      "analogue paper, newsprint and print texture with real layer shadows"
+    ],
+    "adaptive": [
+      "title wording within the fixed single-line length contract",
+      "hero identity, clothing, expression and industry-specific motion while preserving the diagonal suspended pose",
+      "3–5 skyline/evidence cutouts and one small journey/process prop",
+      "newspaper, map, ticket, manual, drawing or document content that genuinely supports the topic",
+      "specific colour values while preserving role, lightness, temperature and area hierarchy"
+    ],
+    "optional": [
+      "one partially cropped side archive fragment",
+      "two to four restrained ink spatters attached to title paper or archive scraps",
+      "one small transport/process prop under or behind the hero",
+      "a semantic equivalent of a road only if it remains a physical full-width path with repeated directional markings"
+    ],
+    "forbidden": [
+      "adding subtitle, brand bar, CTA or body copy",
+      "turning the layout into a regular scrapbook grid",
+      "shrinking the hero to a corner sticker",
+      "removing the road or bottom archive base without a separately tested variant",
+      "using generic AI people or unrelated landmark cutouts",
+      "locking the reference red, blue or paper hue as universal colours",
+      "ordinary bold type, hard-fold-heiti or a clean rectangle silently replacing the registered title dependency",
+      "marking the template approved or active before tests and user acceptance"
+    ]
+  },
+  "transformationGrammar": [
+    {
+      "when": "已有身份清楚、四肢完整且方向合适的动态人物/动物素材",
+      "level": "T2",
+      "action": "保留身份和动作锚点，抠图后转成水彩墨线或等价模拟印刷插画，并增加暖白剪纸边、短纸影和受控裂纹",
+      "reason": "统一主角与档案拼贴材质，同时保持事实和身份"
+    },
+    {
+      "when": "主角素材只有站姿、证件照或动作方向相反",
+      "level": "T3",
+      "action": "优先补拍；否则受身份约束重建为左下到右上的悬浮/跃迁姿态，并逐项审核脸、手、腿、鞋和服装连续性",
+      "reason": "对角失重动作是模板身份，不可用平移或旋转站姿伪造"
+    },
+    {
+      "when": "场景证据来自照片且色彩/光线互不一致",
+      "level": "T2",
+      "action": "分别抠图、简化为灰阶或低饱和档案层，统一纸边、颗粒、光向、尺度和前后景，再构成不等高天际线",
+      "reason": "把多源素材组织成同一物理拼贴世界"
+    },
+    {
+      "when": "行业没有城市道路",
+      "level": "semantic-remap",
+      "action": "把道路映射为真实可穿行的行业路径，如生产线、时间轴平台、工作台或书页通道；保留满宽横带、重复方向标记与底部档案基座",
+      "reason": "迁移语义而不丢失横向稳定结构"
+    },
+    {
+      "when": "标题不足 5 字、超过 7 字或需要副标题",
+      "level": "content-gate",
+      "action": "先改写到 5–7 个中文等效字并保持单行；仍不成立则换模板",
+      "reason": "不扩张标题区、不缩成失读小字、不新增第二行"
+    }
+  ],
+  "semanticFit": {
+    "strong": [
+      "城市旅行与地域文化",
+      "历史记忆与时代穿梭",
+      "迁移、成长、冒险和人生转场",
+      "可由多个地点/阶段/证据串成故事的教程或知识主题",
+      "具备动态主角与档案素材的品牌叙事"
+    ],
+    "conditional": [
+      "宠物、产品、读书、AI 或专家内容，前提是能自然提供动态主角、3–5 个证据场景和路径隐喻",
+      "商业主题，前提是手工档案感符合品牌而且不依赖精确产品摄影"
+    ],
+    "reject": [
+      "高端极简、奢侈品静物和必须干净展示产品细节的内容",
+      "严肃风险告知、医疗法律结论和需要大量正文的信息",
+      "多人群像、清单型信息图、单一产品白底电商图",
+      "只有静态证件照且不允许动作重建的内容"
+    ]
+  },
+  "failureModes": [
+    "标题变成一整块海报底或普通粗黑字，逐字贴片身份消失",
+    "纸片随机旋转过度、字距断裂或标题超过一行，缩略图无法连续阅读",
+    "主角只是站姿素材旋转后悬浮，四肢受力、头发和服装重力不成立",
+    "建筑、地图、道路和报纸彼此无主题关系，沦为随机复古素材堆砌",
+    "主角过小或被档案层吞没，失去对角动作焦点",
+    "全画统一泛黄、颗粒过重或裂纹覆盖五官，画面脏而不旧",
+    "道路、桥梁和底部报纸压成同一平面，没有前中后景",
+    "白边忽粗忽细、数字投影过长或图层交叠没有接触阴影，像廉价贴纸",
+    "配色把红黑蓝锁死，无法适配新主题",
+    "新增副标题、Logo、CTA 或标签填满黑色呼吸缝"
+  ],
+  "qa": {
+    "required": [
+      "3:4 full-bleed black stage preserved",
+      "main title is verbatim, single-line and one tile per glyph",
+      "title remains readable at 360px",
+      "hero identity and all limbs are coherent",
+      "hero diagonal, skyline, road and archive base are all recognisable",
+      "3–5 evidence cutouts are semantically related",
+      "foreground-middle-background masking and contact shadows are credible",
+      "paper, ink and newsprint textures are local and controlled",
+      "colour roles adapt without locking exact values",
+      "no unregistered font fallback, subtitle, CTA or active status"
+    ],
+    "passedTests": [],
+    "thumbnailChecks": [],
+    "userAcceptance": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-059",
+  "source": "assets/reference-original.jpg",
+  "canvas": {"width": 1772, "height": 2362, "ratio": "3:4", "coordinateSystem": "percent from top-left", "measurementTolerancePercentagePoints": 3},
+  "firstGlance": "两行巨幅白色手裁字先提出问题，红色纸片导向，下方橙色宽檐帽与背影接住抽象话题。",
+  "primaryMechanism": "极暗平面承托高密度双行问题字块；字块与下方具象背影以黑色呼吸带隔开；极少量暖色纸片构成入场、转场与句末节拍。",
+  "components": [
+    {"role": "background", "content": "near-black clean field", "boxPercent": [0, 0, 100, 100], "zOrder": 0},
+    {"role": "mainTitleLine1", "content": "纪录片字体设计", "boxPercent": [4, 9, 96, 28], "alignment": "near-centered, broad horizontal span", "zOrder": 4},
+    {"role": "mainTitleLine2", "content": "应该怎么做？", "boxPercent": [7, 27, 91, 44], "alignment": "near-centered, slightly shorter than first line", "zOrder": 4},
+    {"role": "upperLeftAccent", "content": "two red tapered paper wedges", "boxPercent": [6, 3, 18, 12], "zOrder": 3},
+    {"role": "upperRightAccent", "content": "one rough red oblique strip", "boxPercent": [70, 6, 89, 12], "zOrder": 3},
+    {"role": "underTitleAccent", "content": "one rough red strip below second line", "boxPercent": [32, 40, 61, 46], "zOrder": 3},
+    {"role": "questionAccent", "content": "two tapered red wedges outside question mark", "boxPercent": [87, 33, 95, 42], "zOrder": 3},
+    {"role": "darkBreathingBand", "content": "unoccupied near-black gap", "boxPercent": [22, 44, 77, 51], "zOrder": 1},
+    {"role": "subjectHat", "content": "wide warm-bright western hat, rear view", "boxPercent": [19, 51, 85, 80], "zOrder": 2},
+    {"role": "subjectBack", "content": "rear-view person's shoulders and torso bleeding through bottom", "boxPercent": [5, 79, 93, 100], "zOrder": 2}
+  ],
+  "subtitle": null,
+  "auxiliaryInformation": null,
+  "primaryFocus": "white two-line title",
+  "secondaryFocus": "warm bright hat silhouette above a back-facing person",
+  "dominantAxis": "top-to-bottom central axis; left-to-right two-line reading with accents around entry and question ending",
+  "readingPath": ["upper-left red cue", "title line one left to right", "title line two left to question mark", "underline strip", "wide hat silhouette", "person's back and garment texture"],
+  "visualMass": {"upperTextAndAccentsPercent": [55, 60], "lowerSubjectPercent": [40, 45], "visibleDarkBackgroundPercent": [55, 65]},
+  "negativeSpace": ["around title outer edges 4-7% horizontal", "black transition band y44-51%", "black wedges beside hat and shoulders"],
+  "imageTextRelationship": "title asks one concrete how-to question; rear-view subject supplies a recognizable visual anchor without covering any glyph",
+  "occlusion": ["subject bleeds beyond bottom edge", "hat overlaps head and hides face", "no text-subject overlap", "red accents stay outside readable glyphs"],
+  "typography": {
+    "styleId": "dalala-cover-059-paper-cut-block",
+    "mainTitle": {"lineCount": 2, "skeleton": "broad irregular hand-cut block Hanzi", "fill": "solid high-lightness neutral", "edge": "small paper-cut fray and uneven cut terminals", "lineHeightCanvasPercent": [14, 17], "lineGapCanvasPercent": [1, 3], "glyphTrackingCanvasWidthPercent": [0, 1.5], "overallBoxPercent": [4, 9, 96, 44]},
+    "questionMark": {"skeleton": "same hand-cut family, slightly enlarged punctuation", "position": "right end of line two"},
+    "subtitle": null,
+    "auxiliary": null
+  },
+  "colorRoles": [
+    {"role": "background", "lightness": "very low", "visibleAreaPercent": [55, 65]},
+    {"role": "mainText", "lightness": "very high", "visibleAreaPercent": [18, 23]},
+    {"role": "subjectAnchor", "lightness": "medium-high warm", "distribution": "one broad object inside lower subject"},
+    {"role": "accent", "lightness": "medium-high", "saturation": "high relative to field", "visibleAreaPercent": [3, 5]},
+    {"role": "subjectBody", "lightness": "mixed low to medium", "distribution": "textured rear shoulders and torso"}
+  ],
+  "textureAndLight": ["slight fiber and irregularity on paper-cut glyphs and accents", "photographic texture on hat and garment", "shadows in lower subject", "no glow, bevel, thick outline or global grain"],
+  "referenceOnlyContent": ["original question wording", "western hat as cowboy identity", "CINCH garment lettering", "original person's identity", "exact red/orange/white values"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "dalala-cover-015-latin",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-015/assets/reference-original.jpg",
+  "script": "Latin",
+  "roles": {
+    "skyKicker": {"case": "uppercase", "skeleton": "old western slab/serif display, broad caps, sturdy wedge or slab terminals", "weight": "heavy but with visible internal air", "trackingEm": [0.08,0.18], "lineCount": 1, "baseline": "shallow broad arch with slight irregular per-word rotation", "texture": "sparse chipped ink", "shadow": "small muted offset to lower right, not a large 3D extrusion"},
+    "rockLogo": {"case": "uppercase", "skeleton": "extra-heavy condensed western cut display with square slabs and irregular cut edges", "weight": "black", "trackingEm": [-0.04,0.02], "lineCount": 2, "lineGapEm": [0,0.08], "texture": "sparse uneven white voids inside letters", "accent": "single tall glyph or symbol at right, strong accent colour but independently editable"}
+  },
+  "fillRoles": {"skyKicker": "high-lightness secondary text", "rockLogo": "high-lightness base text", "rockLogoAccent": "same strong accent role as main title"},
+  "forbidden": ["clean geometric sans", "thin fashion serif", "outline-only", "large black drop shadow", "same width/weight for both roles", "mechanical horizontal compression", "copying source game title or trademark into unrelated content", "misspelled letters"]
+}

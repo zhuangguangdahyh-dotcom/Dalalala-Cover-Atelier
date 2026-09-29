@@ -1,0 +1,19 @@
+{
+  "id": "dalala-cover-038-distressed-han",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-038/assets/reference-original.jpg",
+  "script": "Han",
+  "role": "mainTitle",
+  "skeleton": "超粗近方黑体展示骨架，平切端、硬转角，字腔保持开放",
+  "lineCount": 1,
+  "preferredCharacters": 4,
+  "testRangeCharacters": [3, 5],
+  "widthPercentOfCanvas": [76, 82],
+  "heightPercentOfCanvas": [24, 27],
+  "trackingPercentOfGlyphWidth": [0, 3],
+  "fillRole": "高明度主文字，具体色值随主题",
+  "texture": "每字局部、不均匀的细刮痕和稀疏缺墨；笔画主体保持完整",
+  "edge": "极浅暗描边或硬影，只用于照片分离",
+  "forbidden": ["普通粗黑体统一撒点", "全画幅噪声", "毛笔飞白", "圆头泡泡字", "镂空字", "机械压扁", "断笔造成错字", "多行重排"]
+}

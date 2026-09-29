@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "defaultModelId": "dalala-cover-muse-007",
+  "models": [
+    {
+      "modelId": "dalala-cover-muse-001",
+      "displayName": "Dalala 御用模特 01",
+      "aliases": [
+        "01号模特"
+      ],
+      "status": "approved",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-001/identity.json",
+      "primaryReference": "dalala-cover-muse-001/reference/neutral-front-3x4-1080x1440.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-002",
+      "displayName": "Dalala 角色候选 02",
+      "aliases": [
+        "02号角色",
+        "候选模特 02"
+      ],
+      "status": "rejected",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-002/identity.json",
+      "primaryReference": "dalala-cover-muse-002/reference/casual-blue-tee-candidate.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-003",
+      "displayName": "Dalala 角色候选 03",
+      "aliases": [
+        "03号角色",
+        "候选模特 03"
+      ],
+      "status": "candidate",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-003/identity.json",
+      "primaryReference": "dalala-cover-muse-003/reference/bookstore-candid-candidate.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-004",
+      "displayName": "Dalala 角色候选 04",
+      "aliases": [
+        "04号角色",
+        "候选模特 04"
+      ],
+      "status": "candidate",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-004/identity.json",
+      "primaryReference": "dalala-cover-muse-004/reference/cool-gray-wall-candidate.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-005",
+      "displayName": "Dalala 角色候选 05",
+      "aliases": [
+        "05号角色",
+        "候选模特 05"
+      ],
+      "status": "candidate",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-005/identity.json",
+      "primaryReference": "dalala-cover-muse-005/reference/cool-gray-wall-retry-candidate.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-006",
+      "displayName": "Dalala 角色候选 06",
+      "aliases": [
+        "06号角色",
+        "候选模特 06"
+      ],
+      "status": "candidate",
+      "defaultForTemplateTesting": false,
+      "identityConfig": "dalala-cover-muse-006/identity.json",
+      "primaryReference": "dalala-cover-muse-006/reference/original-prompt-wall-candidate.png"
+    },
+    {
+      "modelId": "dalala-cover-muse-007",
+      "displayName": "Dalala 御用模特 02",
+      "aliases": [
+        "御用模特",
+        "封面御用模特",
+        "默认模特",
+        "02号模特"
+      ],
+      "status": "approved",
+      "defaultForTemplateTesting": true,
+      "identityConfig": "dalala-cover-muse-007/identity.json",
+      "primaryReference": "dalala-cover-muse-007/reference/white-top-wall-master.png"
+    }
+  ]
+}

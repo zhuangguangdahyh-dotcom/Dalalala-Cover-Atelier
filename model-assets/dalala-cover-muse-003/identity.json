@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "modelId": "dalala-cover-muse-003",
+  "displayName": "Dalala 角色候选 03",
+  "status": "candidate",
+  "createdAt": "2026-09-29",
+  "subject": {
+    "personCount": 1,
+    "adultAge": 20,
+    "appearance": "中国年轻女性，略窄鹅蛋脸、灵动杏眼、及肩深色短发",
+    "presentation": "自然抓拍、轻盈灵动、有真实生活瞬间",
+    "baseSkin": "自然半哑光，保留轻微真实皮肤纹理"
+  },
+  "identityLock": {
+    "locked": [
+      "参考图中的脸型、五官组合和发际线",
+      "约 20 岁的成年人年龄感",
+      "基础肤色和深色发色"
+    ],
+    "adaptive": [
+      "表情、动作与视线",
+      "服装、发型整理、场景与机位",
+      "封面比例、裁切和布局"
+    ],
+    "forbidden": [
+      "沿用已弃用的 02 号角色面容",
+      "过度磨皮或塑料皮肤",
+      "把标准站姿人像冒充抓拍"
+    ]
+  },
+  "primaryReference": {
+    "path": "reference/bookstore-candid-candidate.png",
+    "width": 1086,
+    "height": 1448,
+    "aspectRatio": "3:4",
+    "sha256": "78e238437a905529b6ff06cbb78d7744b2ca05be4fc0cadd246e80000c67ac35",
+    "role": "待用户确认的人物身份及抓拍风格参考"
+  },
+  "approvedReferences": [],
+  "defaultGenerationPolicy": {
+    "referenceRequired": true,
+    "identityPriority": "high",
+    "defaultAspectRatio": "3:4",
+    "keepNaturalSkinTexture": true
+  }
+}

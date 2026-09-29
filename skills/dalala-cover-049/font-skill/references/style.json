@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "status": "testing",
+  "productionApproved": false,
+  "sourceReference": "../../assets/reference-original.jpg",
+  "styles": [
+    {"id": "dalala-cover-049-city-roman", "role": "mainTitle", "script": "Latin uppercase", "construction": "upright wide high-contrast Roman serif; sturdy thick stems, thin crossbars and sharp hairline serifs", "weight": "display regular", "targetWidthPercent": [43, 52], "targetHeightPercent": [5, 7], "trackingEm": [-0.02, 0.04], "lineCount": 1, "fill": "solid light neutral", "effects": []},
+    {"id": "dalala-cover-049-city-sans", "role": "subtitle", "script": "Latin uppercase", "construction": "upright neutral sans with stable baseline and open counters", "weight": "regular-to-medium", "targetWidthPercent": [21, 28], "targetHeightPercent": [1.7, 2.3], "trackingEm": [0.02, 0.09], "lineCount": 1, "fill": "solid light neutral", "effects": []}
+  ],
+  "renderer": "separate-transparent-text-layer",
+  "fixedFontFallbackAllowed": false,
+  "approvedReference": null,
+  "forbidden": ["wrong lettering", "two-line title", "mechanical horizontal stretch", "thick outline", "glow", "opaque background", "untested Chinese substitution"]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-040",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-040-reference.jpg",
+    "archivedReference": "skills/dalala-cover-040/assets/reference-original.jpg",
+    "sha256": "3d03dbb1f0e405e857103714f49a11507f44a7967f1ad7a3152af09866408491",
+    "dimensions": [1974, 2632],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视测量；坐标为复刻初值，待真实试作微调",
+    "bboxConvention": "[x0,y0,x1,y1] 均为画布百分比，层间重叠框不能相加"
+  },
+  "canvas": {"sourceRatio": "3:4", "sourceSize": [1974, 2632], "requestedRatio": "3:4", "verifiedRatios": []},
+  "visualConclusion": "不规则黑色取景框围住白亮舞台，蓝色刀锋汉字从左右与下方环抱中央黄卡；人物只露上半张脸从底部抬眼，将阅读方向推向上方两枚斜置相纸。",
+  "primaryMechanism": "黑白大反差先切出舞台，非连续排版的高纯色巨字给出第一眼钩子；中央亮卡放第二层承诺；底部极近景上视人像制造视线回流；相纸与两侧小产品把抽象观点变为可展示线索。",
+  "dominantAxis": "人物两眼与中央黄卡的竖向中轴，左右大字和两件产品构成不完全对称的侧向张力",
+  "primaryFocus": "白场里的高纯色巨型分散主标题，随后是中央黄卡与人物眼神",
+  "visualWeightCenterPercent": [51, 52],
+  "readingPath": ["左上巨型主字", "右上巨型主字", "下方散排主字", "中央黄卡两行短句", "人物向上看的眼睛", "顶部两枚相纸", "左右小产品或工具"],
+  "contentRoles": [
+    {"role": "outerFrame", "bboxPercent": [0, 0, 100, 100], "meaning": "黑暗取景框，制造被观看的现场与中央亮场", "alignment": "full-bleed", "z": 0},
+    {"role": "innerStage", "bboxPercent": [9, 6, 91, 94], "meaning": "大面积白亮负空间，托住字和悬浮物", "alignment": "centered-irregular-rectangle", "z": 1},
+    {"role": "topLeftCard", "bboxPercent": [24, 9, 42, 23], "meaning": "一号线索相纸，左倾", "alignment": "upper-left-tilted", "z": 2},
+    {"role": "topRightCard", "bboxPercent": [59, 5, 77, 20], "meaning": "二号线索相纸，右侧斜置", "alignment": "upper-right-tilted", "z": 2},
+    {"role": "centralCard", "bboxPercent": [39, 31, 61, 56], "meaning": "黄亮实体卡，承载两行观点或行动短句", "alignment": "central-axis", "z": 3},
+    {"role": "centralCardText", "bboxPercent": [44, 36, 57, 45], "meaning": "二级短句，白色现代切锋宋体", "alignment": "two-lines-centered", "z": 4},
+    {"role": "leftMainGlyph", "bboxPercent": [14, 22, 37, 45], "meaning": "主标题的左侧最大字", "alignment": "left-tilted", "z": 5},
+    {"role": "rightMainGlyph", "bboxPercent": [66, 25, 91, 45], "meaning": "主标题的右侧最大字", "alignment": "right-extended", "z": 5},
+    {"role": "lowerMainGlyphs", "bboxPercent": [14, 49, 86, 66], "meaning": "主标题余字逐字散排，环绕中央卡与人像顶部", "alignment": "staggered-across-width", "z": 5},
+    {"role": "leftProduct", "bboxPercent": [14, 63, 28, 76], "meaning": "左侧小型实物证据", "alignment": "diagonal-inward", "z": 6},
+    {"role": "rightProduct", "bboxPercent": [70, 62, 85, 75], "meaning": "右侧小型实物证据", "alignment": "diagonal-inward", "z": 6},
+    {"role": "personHead", "bboxPercent": [19, 58, 82, 100], "meaning": "仅从底边进入的极近景头脸，双眼上视", "alignment": "bottom-cropped-center", "z": 7},
+    {"role": "eyes", "bboxPercent": [35, 81, 65, 88], "meaning": "情绪与方向锚点，视线向上", "alignment": "lower-center", "z": 8}
+  ],
+  "protectedZones": [
+    {"bboxPercent": [34, 80, 67, 89], "reason": "双眼及视线方向不得被文字、产品和卡片遮挡"},
+    {"bboxPercent": [42, 35, 59, 46], "reason": "中央卡短句保持整洁、逐字可读"},
+    {"bboxPercent": [43, 20, 58, 31], "reason": "两枚上方相纸之间与黄卡上方维持白场呼吸"}
+  ],
+  "composition": {
+    "textToScene": "黑框约占可见面积 15–22%；白场约占 70–78%；高纯主字约占 12–18%；中央卡约占 5–7%；人物头部约占 20–26%。这些为可见投影面积估计，存在遮挡不相加。",
+    "leftRightWeight": "左上巨字与左下散字略重，右上长锋字与右下散字平衡；中央黄卡和底部头部收束到 x≈50%",
+    "density": "上部两张轻卡，中部字形与中心卡，中下部散字、两小物和人物；密度向下递增但眼周清空",
+    "negativeSpace": "白场在上方双卡之间、主字与黄卡之间、人物两侧保留可见呼吸；不是把元素平均铺满",
+    "occlusion": "底部人物头发压住下方白场和少量下沿字；字与中央卡相邻但不覆盖卡面短句；产品悬浮在人像两侧前景"
+  },
+  "typography": {
+    "mainTitle": {"fontStyleId": "dalala-cover-040-blade-song", "script": "Han", "preferredCharacters": [4, 6], "lineCount": "非连续散排，视觉上上部两大字加下部多个单字", "upperGlyphHeightPercent": [18, 24], "lowerGlyphHeightPercent": [10, 17], "effect": "高反差刀锋宋骨、局部长撇捺与横画、错位重心；纯色实填，无规则描边或阴影"},
+    "centralText": {"fontStyleId": "dalala-breath-cut-song", "script": "Han", "lineCount": 2, "preferredCharactersPerLine": [3, 5], "widthPercent": [12, 16], "heightPercent": [8, 11], "effect": "高明度细竖粗横对比、少量切锋，不与主字争抢"},
+    "auxiliaryText": {"present": false, "rule": "参考无独立品牌栏、角标、页码或额外说明"}
+  },
+  "paletteStructure": {"brightStagePercent": [70, 78], "darkFramePercent": [15, 22], "highChromaMainTypePercent": [12, 18], "brightWarmCardPercent": [5, 7], "rule": "具体色值可变；高明白场、深暗边框、高纯色巨字、与主字分离的亮暖信息卡、自然肤色与小物真实色为角色关系。面积重叠不相加。"},
+  "effects": ["黑色柔糊不规则取景框与四角暗角", "白亮内场微弱纸面或投影质感", "两枚斜置相纸白边和柔影", "中央卡实体浅灰边与下方厚度", "主字刀锋长笔画及错位单字", "两侧小产品斜向悬浮", "人物从底边强裁切并上视"],
+  "layerOrder": ["黑暗外框", "白亮内场", "两枚上方相纸及其阴影", "中央卡实体与卡面文字", "蓝色主标题逐字透明层", "两侧小产品与柔影", "底部人物头脸与精细发丝", "外框前景柔糊暗角收边"],
+  "variableContract": {"person": "身份可变，底部极近景与上视眼神不变", "text": "文字内容可变，主标题分字环绕与中心两行短句不变", "product": "行业物件可变，上方两卡和两侧小物的数量、尺度与斜向关系不变", "palette": "具体色值可变，明暗及颜色面积角色不变"},
+  "locked": ["3:4 黑框白场", "底部极近景上视人像", "蓝色角色主字分散环绕中央卡", "上方两斜置相纸与两侧小物", "中心黄亮卡两行短句", "从字到卡再由眼神回到上方的阅读回路"],
+  "adaptive": ["人物身份", "主标题和中心短句", "两枚相纸的主题内容", "两侧实物种类", "具体色值与肤色/产品真实色"],
+  "optional": ["轻微投影颗粒", "相纸细微透视", "真实物体软影"],
+  "forbidden": ["普通整行标题", "人物半身完整入画", "中央卡放大成横幅", "无意义顶部纯色卡", "产品抢夺主焦点", "品牌原话照搬", "未测试转 active"],
+  "renderReadiness": {"nearSourceRecreation": false, "crossIndustryTest": false, "fontQa": false, "userAcceptance": false}
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 003（待确认）"
+  short_description: "单张参考的现场叙事封面拆解与管理员复刻测试"
+  default_prompt: "使用 dalala-cover-003，先检查最新拆解确认和测试状态，再按原图与规则处理素材。"

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-017-journey-brush",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-017/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": ["mainTitle"],
+  "script": "Chinese",
+  "characterCountRecommended": [7, 9],
+  "semanticGroups": 5,
+  "sourceGroupShape": "2-1-2-1-2",
+  "characterConstruction": {
+    "base": "legible modern running script / semi-cursive brush hand",
+    "strokeWeight": "variable, broad opaque strokes with thin transitions",
+    "terminals": "directional, occasionally long, never mechanically identical",
+    "counters": "open and legible at thumbnail size",
+    "texture": "intrinsic slight dry edge only; no uniform grain mask",
+    "baseline": "five staggered group placements controlled by Cover Skill"
+  },
+  "fillRole": "high-lightness neutral, exact color unlocked",
+  "effects": {"outline": false, "dropShadow": false, "extrusion": false, "uniformDistress": false},
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": ["exactText", "semanticGroups", "canvasWidth", "canvasHeight", "textBoxes", "fillRole"],
+  "productionApproved": false
+}

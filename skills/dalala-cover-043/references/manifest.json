@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-043",
+  "displayName": "参考封面 043",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "analysisJobId": "19cddb6d-5b95-4ab5-b517-1638529735d7",
+  "analysisReport": "skills/dalala-cover-043/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "video_account"],
+  "sourceRatio": "3:4",
+  "verifiedRatios": [],
+  "plannedRatioVariants": [],
+  "titleLength": {"mainLatinLine1Chars":[8,12],"mainLatinLine2Words":1,"mainLatinLine3Chars":[9,13],"mainLines":3,"note":"仅为首轮参考范围，以实际字宽为准；中文需另测"},
+  "subjectTypes": ["真实地点现场", "有近远尺度的自然活动人物或物件"],
+  "contentEmotions": ["私人偏爱", "城市观察", "日常流动", "地点记忆", "克制的温暖"],
+  "firstFocus": "暗街景中部的浅暖三行高对比衬线标题",
+  "spatialStructure": ["3:4 满版深色现场照片", "上部稳定建筑或环境", "中部暗场宽窄宽三行标题", "下部近远活动与路面", "顶底极小文字回声"],
+  "readingPath": ["主标题第一行", "第二行", "第三行", "建筑场景", "左下近景活动", "右中景活动", "顶部微字", "底标"],
+  "imageTextRelationship": "标题直接叠在连续纪实照片的天然暗场上，静态字块与下方现场动势形成张力。",
+  "locked": ["3:4 满版真实场景", "上静下动的景别结构", "中央宽窄宽三行大衬线标题", "浅字深景与少量暖点的明度/面积关系", "顶底微字的低权重", "自然透视、裁切与运动模糊"],
+  "adaptive": ["人物与活动", "地点与行业环境", "标题和微字内容", "现场产品或工具", "具体色相"],
+  "optional": ["克制的局部暗化", "真实摄影颗粒", "现场既有暖色光点"],
+  "forbidden": ["纯黑渐变替代真实场景", "无关主体抠图贴合", "三行等宽或第四行", "普通黑体静默替代字体依赖", "厚描边或发光字", "直接复用参考原文与街景作迁移测试", "未经测试和验收转 active"],
+  "variableContract": {
+    "person": "身份、服装、动作可变；近景越界裁切和远景尺度差、真实现场关系不变",
+    "text": "文案可变；中部三行宽窄宽、顶底两处微字、相对层级不变；过长先改写",
+    "product": "无独立商品槽；需要的实物只作为现场活动物件，保持自然尺度和透视",
+    "palette": "具体色值可变；深场景大面积、浅标题最高明度、暖色极小点缀不变"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "layout": "3:4；标题 x25–76%/y37–64%，第一/三行宽约 48–55%，中行宽约 22–31%；顶微字 y2–5%，底标 y95–98%",
+    "contentArea": "建筑/环境约上 65%，道路或活动区约下 35%；近景人车可见投影约 18–25%，标题字面约 9–13%；区间有重叠不相加",
+    "effects": ["低照度真实摄影", "天然建筑暗场", "近远景尺度与前景越界", "真实运动模糊", "浅暖实色高对比衬线", "无显著描边阴影"]
+  },
+  "assetTransformations": [
+    {"when":"已有合适现场、暗中景和下部活动","level":"T0","action":"裁切、局部曝光和调色"},
+    {"when":"现场真实但边界空间不足","level":"T1","action":"有限扩图并守住建筑透视和人体连续性"},
+    {"when":"中央过亮、前景过满或活动不相关","level":"T2","action":"补拍或换同主题机位，必要时局部重建"},
+    {"when":"只有棚拍物或需要清单/参数展示","level":"T3","action":"判定不适配并换模板"}
+  ],
+  "fontDependencies": [
+    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-043-editorial-serif","required":true,"status":"testing"},
+    {"role":"topEyebrow","type":"font-style-id","id":"dalala-cover-043-editorial-serif","variant":"delicate-italic","required":true,"status":"testing"},
+    {"role":"bottomMicroMark","type":"font-style-id","id":"dalala-cover-043-editorial-serif","variant":"delicate-italic","required":true,"status":"testing"}
+  ],
+  "fontRegistryEntries": "font-registry-entries.json",
+  "passedTests": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

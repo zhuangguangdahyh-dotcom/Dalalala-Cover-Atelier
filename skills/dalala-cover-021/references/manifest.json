@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-021",
+  "displayName": "参考 021",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "d670dafb-772b-4472-8034-4ed38b955d2b",
+  "analysisReport": "skills/dalala-cover-021/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-021.jpg",
+  "referenceSha256": "ae36775485d8f9e5e72ca09d267ea24c60c1503f91fa2a81ba296ccf6d69402f",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "ratios": ["3:4"],
+  "titleLength": {"upperChineseRecommended": "2–3 字", "lowerChineseRecommended": "2–3 字", "latinRecommended": "5–7 字母；有实际主题含义"},
+  "subjectTypes": ["同一人/对象的远景与近景", "有真实厚度的圆形或弧形开口"],
+  "contentEmotions": ["街头纪实", "回忆", "发现", "从远到近的行动"],
+  "firstFocus": "左侧跨界白色中英手写标题与下幅近景面部",
+  "spatialStructure": ["上幅 44–48% 暗框远景", "下幅 52–56% 高明度暖色墙和圆洞近景", "左侧跨接缝不规则两行主字", "右侧近景人物面部"],
+  "readingPath": ["左侧上行主字", "左侧下行及拉丁词", "下幅人物面部和圆洞动作", "上幅远景人"],
+  "imageTextRelationship": "上、下照片水平硬切；标题为独立透明前景字层，跨切线并借下幅纯色墙留白，不遮人脸",
+  "locked": ["3:4 竖幅", "y44–48% 水平硬切", "上远下近同一对象", "下幅真实圆弧开口与探身动作", "左侧跨线主标题 x约4–52%,y约41–72%", "中英大小级差和词尾下划线", "上暗框下亮大面的面积与对比结构"],
+  "adaptive": ["人物/对象身份、服装和地点", "确切中文与有意义拉丁词", "实体墙的具体颜色与自然环境颜色", "与主题相关的真实圆形/弧形空间"],
+  "optional": ["树影或背景自然纹理的具体形状", "自然胶片颗粒强弱"],
+  "forbidden": ["无关双图或同景别双图", "平面假圆和无物理接触", "标题不跨线或遮挡人脸", "普通字体回退、均匀做旧、加促销元素", "未经确认测试发布 active"],
+  "variableContract": {
+    "person": "身份与服装可变，但上幅小全身、下幅探身近景、两处为同一对象且身份连续。",
+    "text": "内容可变，保留上短中文、下短中文加高 M 低小写的双语层级及左侧跨接缝占比。",
+    "product": "可换为行业相关的人/宠物/产品；若不能自然完成远近双镜头和圆洞空间关系则拒绝适配。",
+    "palette": "具体色值可变；上幅暗框/中性受光层、下幅大面积明亮色面、近白字的面积与明度关系锁定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": ["上幅 44–48% 与下幅 52–56%", "上幅人物画高 21–24%", "下幅近景人物 x28–87%,y53–100%", "主标题 x4–52%,y41–72%", "圆洞直径约画宽 70–78%"],
+    "effects": ["双场景清楚硬切", "远近尺度跃迁与真实遮挡接触", "干净不规则实心手写字与拉丁词尾长划", "自然光影和轻微实拍纹理"]
+  },
+  "assetTransformation": {"level": "T0–T1 优先；局部 T2 须保持真实；不接受捏造事实的 T3", "triggers": ["上幅缺远景或暗框时换机位", "下幅无圆洞或接触点时换照片/补拍", "左侧底色不足时合理扩展照片的实体墙"]},
+  "fontDependencies": [
+    {"role": "mainTitleHan", "type": "font-style-id", "id": "dalala-cover-021-story-hand", "variant": "han", "required": true, "status": "testing"},
+    {"role": "mainTitleLatin", "type": "font-style-id", "id": "dalala-cover-021-story-hand", "variant": "latin", "required": true, "status": "testing"}
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null
+}

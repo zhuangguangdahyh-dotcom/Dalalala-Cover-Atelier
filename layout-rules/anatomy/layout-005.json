@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-005",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/005.jpg",
+  "observedTitle": "对角线法",
+  "referenceContentMap": {
+    "primarySubject": "由左下向右上推进的黄色箭头式几何主体",
+    "mainTitle": "左上大标题，与斜向主体分区而不争夺终点",
+    "subtitle": "主标题下的英文副标题与短说明",
+    "supportingInformation": "左侧小段原理文字",
+    "decorations": "短黄色横线、箭头尖端和沿轴线的几何切片",
+    "protectedWhitespace": "箭头两侧的深绿色场与右上运动终点周围"
+  },
+  "coverTranslation": {
+    "subjectRole": "主体、主体动作或图片区边界必须建立清楚的左下到右上或左上到右下斜向推进。",
+    "mainTitleRole": "优先放在斜轴起点一侧的稳定区域；也可沿轴排列，但不能与主体同时抢占斜轴终点。",
+    "subtitleRole": "置于主标题下方或斜轴起点附近，保持低于主标题的对比度。",
+    "decorationZones": ["斜轴起点", "斜轴经过的空白段", "斜轴终点外沿"],
+    "decorationLimits": "箭头、速度线和几何切片必须与主斜轴同向，最多形成一个运动终点。",
+    "protectedRegions": ["斜轴终点", "主体关键识别区", "主标题稳定阅读区"],
+    "defaultReadingPath": "从标题进入斜轴，沿主体动势扫向终点",
+    "assetOperations": ["斜向裁切", "抠图后旋转或错位", "重建背景色块", "按动作方向添加局部速度特效"]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-172",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/172.jpg",
+  "observedTitle": "放射网格",
+  "referenceContentMap": {
+    "primarySubject": "画面正中的金色核心圆与八条放射轴",
+    "mainTitle": "顶部居中的大标题，字面本身沿弧形形成冠部",
+    "subtitle": "标题下方英文名与一句原理说明",
+    "supportingInformation": "轴端模块、左右解释栏、底部应用示例和设计要点",
+    "decorations": "同心圆、辐射线、节点、星点与底部横线",
+    "protectedWhitespace": "核心圆内、轴线之间及左右说明与主系统之间的间隔"
+  },
+  "coverTranslation": {
+    "templateFamily": "system-map",
+    "subjectRole": "把人物、产品、关键词或数字压缩成中心锚",
+    "mainTitleRole": "标题可拱在系统上方或沿外环排列",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "同心圆、辐射线、节点、星点与底部横线"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "核心圆内、轴线之间及左右说明与主系统之间的间隔",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "先进入中心，再沿辐射轴向外读取分支，最后回到底部总结。",
+    "assetOperations": [
+      "把人物、产品、关键词或数字压缩成中心锚",
+      "将最多 4–8 个分支放到明确辐射方向",
+      "用距离和节点大小区分重要度"
+    ]
+  }
+}

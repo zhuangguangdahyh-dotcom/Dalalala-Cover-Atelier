@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-061",
+  "displayName": "参考封面 061（待确认）",
+  "version": "0.2.0",
+  "status": "studied",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "references/analysis.md",
+  "anatomy": "references/anatomy.json",
+  "adaptationRules": "references/adaptation-rules.md",
+  "sourceSha256": "60584a5f8a34e51fa470eef96b519512a1941ba5f68ec43b2b980c97cc216519",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "upperLineChineseCharacters": [
+      3,
+      5
+    ],
+    "lowerLineChineseCharacters": [
+      4,
+      6
+    ],
+    "mainLines": 2,
+    "bottomVerdictChineseCharacters": [
+      12,
+      18
+    ],
+    "bottomLines": 1
+  },
+  "subjectTypes": [
+    "documentary architects or industry workers in a recognizable professional action",
+    "architecture or industry-specific right-side silhouette",
+    "archival printed paper"
+  ],
+  "contentMoods": [
+    "archival authority",
+    "industry judgment",
+    "old versus new tension",
+    "craft and labour"
+  ],
+  "firstVisualFocus": "two extra-large clean white hard-block Chinese title lines spanning paper and photograph",
+  "spatialSkeleton": "upper 53% framed archival paper with English masthead and right black silhouette; lower 47% monochrome work photo; asymmetric two-line white title and bottom verdict",
+  "readingPath": [
+    "white upper short title",
+    "white lower full-width title",
+    "upper English editorial theme and left categories",
+    "dark silhouette and documentary work scene",
+    "bottom verdict"
+  ],
+  "imageTextRelationship": "标题跨纸与照片，旧纸承担历史权威，照片承担职业证据，底句提供观点收束",
+  "locked": [
+    "3:4 paper/photo split around y53%",
+    "two-layer black frame in upper paper",
+    "upper English masthead plus three left classification rows",
+    "large dark right-lower silhouette",
+    "two main title lines, upper shorter and right-weighted, lower near full width",
+    "white solid main title with thin black outline and short shadow",
+    "single bottom verdict line",
+    "monochrome documentary photo with identifiable work relation"
+  ],
+  "adaptive": [
+    "industry-specific people, scene, tools and silhouette",
+    "exact title, English classifications and verdict wording within fixed boxes",
+    "actual paper hue and verdict accent hue while preserving contrast roles",
+    "photo crop and paper texture detail"
+  ],
+  "optional": [
+    "minor archival edge remnant that reads as authentic printing",
+    "small irregular ink wear on non-title print"
+  ],
+  "forbidden": [
+    "active publication before tests and user acceptance",
+    "ordinary bold font fallback for main title",
+    "three-line headline",
+    "equal-width centered headline rows",
+    "generic AI mascot without workplace evidence",
+    "gibberish English",
+    "color portrait replacing documentary monochrome",
+    "thick glow or 3D extrusion",
+    "complete paper texture over white glyphs"
+  ],
+  "variableContract": {
+    "person": "workers may change but lower photo must retain recognizable professional action and scale",
+    "text": "wording may change within two unequal main lines, three upper classifications and one bottom verdict",
+    "product": "industry tools/objects may change but dark right silhouette and lower photographic evidence roles remain",
+    "color": "specific hue may change; medium-light textured paper, dark monochrome lower field, high-white title and small high-lightness verdict retain roles"
+  },
+  "invariantContract": {
+    "layout": "upper paper y0-53%, lower photo y53-100%; upper short title x27-95 y35-52; lower long title x6-95 y55-72; verdict x7-97 y80-88",
+    "visualMass": "旧纸约47–53%画布、下段照片约45–49%画布；剪影、文字叠在两块底区上，其像素面积不与底区相加。两行白字保持最大注意力权重，底句明显次级。",
+    "specialEffects": "双层黑色旧印刷边框、行业相关右侧黑剪影、旧纸和黑白照片颗粒、干净白字黑细描边与贴近右下短影"
+  },
+  "materialTransformation": [
+    {
+      "level": "required",
+      "action": "build archival-paper upper half and monochrome work-photo lower half with hard seam",
+      "trigger": "every new theme"
+    },
+    {
+      "level": "required",
+      "action": "replace right dark silhouette with an industry-specific recognizable contour",
+      "trigger": "industry changes"
+    },
+    {
+      "level": "required",
+      "action": "crop/repair photo preserving occupational action and perspective",
+      "trigger": "every new source photo"
+    },
+    {
+      "level": "conditional",
+      "action": "rewrite two title lines or bottom verdict without changing boxes",
+      "trigger": "text overflows or phone-scale unreadable"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitleLine1/mainTitleLine2",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-outlined-poster-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "topEditorialTheme/leftClassification",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-archive-roman",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomVerdict",
+      "type": "font-style-id",
+      "id": "dalala-cover-061-verdict-han",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "fontRegistryEntries": "references/font-registry-entries.json",
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

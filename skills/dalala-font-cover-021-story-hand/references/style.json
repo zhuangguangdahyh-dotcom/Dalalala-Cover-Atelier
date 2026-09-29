@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-021-story-hand",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-021/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": ["mainTitleHan", "mainTitleLatin"],
+  "scripts": ["Chinese", "Latin"],
+  "variants": {
+    "han": "宽窄不均的实心白色手写汉字；长竖、长横与轻微斜势分配在少数字上，标准字骨不变",
+    "latin": "高耸的大写首字母与缩入右侧的窄长小写；词尾按真实写势延长一笔下划线"
+  },
+  "recommendedLength": {"han": "两段各 2–3 字", "latin": "5–7 拉丁字母"},
+  "characterConstruction": {
+    "base": "同一书写者的随手粗笔字，不是标准几何字、规整书法或油漆干刷",
+    "strokeWeight": "单字主笔约字高 5–10%，粗细有局部变化，仍以干净连续实心笔为主",
+    "terminals": "平切、轻圆切和少量方向性的拖长；不得全部统一成同角度",
+    "edge": "轻微自然手写不齐，基本无大面积飞白、喷点或全局磨损",
+    "composition": "与单张封面坐标解耦；保留中文短行、大写拉丁首字母与小写词的字形级差"
+  },
+  "fillRole": "高明度近白角色；实际色值由当次底图对比决定",
+  "effects": {"thickOutline": false, "dropShadow": false, "extrusion": false, "glow": false, "uniformGrungeOverlay": false},
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "requiredInputs": ["exactChinese", "exactLatin", "canvasWidth", "canvasHeight", "textBox", "fillRole"],
+  "productionApproved": false
+}

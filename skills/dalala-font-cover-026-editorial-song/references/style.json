@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-026-editorial-song",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-026/assets/reference-original.jpg",
+  "roles": ["mainTitle", "destinationHan", "chapterHead", "body"],
+  "script": "Han",
+  "construction": "端正宽展的现代高对比宋体骨架：强竖细横、清楚字腔、克制尖三角收笔；不做人为切口、逐字旋转或手写笔触",
+  "variants": {
+    "mainTitle": "一行重展示、近紧排，目标宽约画布 82–86%、高约 7–9%",
+    "destinationHan": "同字骨较大地点字，右中约 x70–91%、y24–30%",
+    "chapterHead": "同字骨较轻，字高为主标题约 25–35%，三组左对齐",
+    "body": "可读小字号，字高为章节题约 45–60%；笔画不可糊"
+  },
+  "requiredInputs": ["exactText", "role", "canvasWidth", "canvasHeight", "targetBox", "colorRole"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": ["错误汉字", "普通宋体静默替换", "字形横向拉伸", "任意呼吸切口", "手写化", "厚描边、挤出或强投影", "不透明照片背景"]
+}

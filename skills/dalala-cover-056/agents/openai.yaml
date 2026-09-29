@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考封面 056（待确认）"
+  short_description: "街拍人物与双半透明横带的测试态封面规则"
+  default_prompt: "读取本 Skill 的原图、anatomy、manifest 与 adaptation-rules；仅在复刻测试中按固定骨架适配真实主题，用户确认前保持 studied。"

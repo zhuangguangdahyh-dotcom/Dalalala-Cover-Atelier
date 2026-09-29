@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "modelId": "dalala-cover-muse-002",
+  "displayName": "Dalala 角色候选 02",
+  "status": "rejected",
+  "createdAt": "2026-09-29",
+  "subject": {
+    "personCount": 1,
+    "adultAge": 20,
+    "appearance": "中国年轻女性",
+    "presentation": "自然、明朗、亲和、有活力",
+    "baseHair": "近黑色长发，松散半束发与自然散落的鬓发",
+    "baseSkin": "自然中性色调，保留真实皮肤纹理"
+  },
+  "identityLock": {
+    "locked": [
+      "同一人物的椭圆脸型和头脸比例",
+      "眼睛、鼻子和嘴唇之间的相对位置与形态",
+      "约 20 岁的成年人年龄感",
+      "自然中国女性面部特征",
+      "基础肤色、深色发色与发际线"
+    ],
+    "adaptive": [
+      "表情和视线",
+      "姿态、动作和手势",
+      "发型整理方式",
+      "服装",
+      "景别和构图",
+      "灯光和场景"
+    ],
+    "forbidden": [
+      "仅凭文字描述重新生成而不使用身份母图",
+      "改变为未成年人外观",
+      "明显改变脸型、五官关系、肤色或发色",
+      "过度磨皮、塑料皮肤或网红脸重塑",
+      "把其他相似人物标记为本角色"
+    ]
+  },
+  "primaryReference": {
+    "path": "reference/casual-blue-tee-candidate.png",
+    "width": 1086,
+    "height": 1448,
+    "aspectRatio": "3:4",
+    "sha256": "78f1d65eb2e5c2f24a6ded0c8db459cedceb86aad0f1b21c15b554b68d6891f3",
+    "role": "用户否定的人物候选，禁止作为身份母图"
+  },
+  "rejectedReferences": [
+    {
+      "path": "reference/neutral-front-candidate.png",
+      "reason": "用户反馈人物太成熟、太职场；不得作为后续生成的身份母图"
+    },
+    {
+      "path": "reference/casual-blue-tee-candidate.png",
+      "reason": "用户明确表示人物长相不是喜欢的类型；不得沿用该人物身份"
+    },
+    {
+      "path": "reference/casual-blue-tee-photo-master-candidate.png",
+      "reason": "用户否定摆拍感，并明确否定人物长相；不得沿用该人物身份"
+    }
+  ],
+  "approvedReferences": [],
+  "defaultGenerationPolicy": {
+    "referenceRequired": true,
+    "identityPriority": "high",
+    "defaultAspectRatio": "3:4",
+    "keepNaturalSkinTexture": true,
+    "leaveLayoutReconstructionToSelectedRule": true
+  }
+}

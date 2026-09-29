@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考封面 051（待测试）"
+  short_description: "自然光人物照片与上下双语自由手写字"
+  default_prompt: "先读本 Skill 的 anatomy、adaptation-rules、manifest 和本次 analysis；保持 studied 状态，按固定构图完成参考复刻与跨主题测试。"

@@ -1,0 +1,1 @@
+逐字生成 {{text}}，{{canvas}} 透明 RGBA 单行字层。遵循 style-rules.md，使用 {{frontPalette}} 和 {{sidePalette}}。参考原图的圆角斜体厚块结构，不复制原品牌词。无人物、无场景、无额外文字。

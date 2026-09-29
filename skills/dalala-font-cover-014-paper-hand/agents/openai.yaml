@@ -1,0 +1,4 @@
+interface:
+  display_name: "014 纸面手写字测试"
+  short_description: "纸面白色手写主字的透明文字层"
+  default_prompt: "Use $dalala-font-cover-014-paper-hand for the paper lettering roles in reference 014."

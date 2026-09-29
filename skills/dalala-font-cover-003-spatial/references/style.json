@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-003-spatial-display",
+  "version": "0.1.0",
+  "status": "testing",
+  "role": "顶部空间字",
+  "rules": "高大直立、紧凑的粗黑体展示骨架，数字0偏窄长；单行稳定，不随机旋转跳动。中文横竖粗重但字腔清晰，撇捺有方向。字面上实下虚，保留字骨；暗色厚度投向右下。不是镂空字、油漆笔触或普通统一白字。",
+  "sourceReference": "../assets/source-reference.jpg",
+  "approvedReference": null,
+  "exactFontIdentification": "unknown",
+  "measurement": "原图目测复建起点，待测试",
+  "colorPolicy": "具体色值由封面角色决定，不绑定HEX",
+  "qaThreshold": 85,
+  "automaticProductionAllowed": false
+}

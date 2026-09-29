@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "styleId": "dalala-cover-057-fine-angular-han",
+  "status": "testing",
+  "script": "Han",
+  "role": "two-line-main-title",
+  "stroke": {"base": "thin geometric black", "accent": "occasional wedge thickening on sweeping strokes", "edge": "sharp tapered endpoints with sparse broken joins"},
+  "layout": {"lines": 2, "charactersPerLine": [3, 5], "preferredCharactersPerLine": 4, "alignment": "left", "secondLineHeightRatio": [1.08, 1.18], "trackingEm": [0, 0.05], "lineGapFirstLineHeight": [0.2, 0.3]},
+  "effects": {"fill": "solid dark", "outline": false, "shadow": false, "glow": false, "backgroundPlate": false},
+  "source": "../../../assets/reference-original.jpg",
+  "approvedReference": null
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-058",
+  "displayName": "参考封面 058（待确认）",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "references/analysis.md",
+  "anatomy": "references/anatomy.json",
+  "adaptationRules": "references/adaptation-rules.md",
+  "sourceSha256": "09bc199e352ba6c508c86d2be5d8c6bf460456abe6e5fd2ce62d0357c9a9e059",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainChineseCharacters": [
+      6,
+      8
+    ],
+    "mainLines": 1,
+    "bottomPerSideCharacters": [
+      3,
+      6
+    ],
+    "bottomLines": 1
+  },
+  "subjectTypes": [
+    "single real presenter with visible face and two functional hands",
+    "one perspective case or social content card"
+  ],
+  "contentMoods": [
+    "confident case reveal",
+    "creator growth evidence",
+    "practical before-after proof"
+  ],
+  "firstVisualFocus": "full-width high-luminance yellow heavy title, then foreshortened presenter-card contact",
+  "spatialSkeleton": "top single-line promise, left presenter plus diagonal card in middle, bottom before-arrow-after result",
+  "readingPath": [
+    "top full-width yellow promise",
+    "presenter face",
+    "foreshortened gripping hand",
+    "tilted evidence card and its headline",
+    "left handwritten cue",
+    "bottom before-arrow-after result"
+  ],
+  "imageTextRelationship": "人物持卡展示证据；顶端定义主张，卡片提供案例，底部显示结果，三段同一主题",
+  "locked": [
+    "3:4 vertical three-band structure",
+    "one line near full-width block title",
+    "left presenter with near-camera gripping hand and other hand pointing",
+    "single large card angled downward right with dark image above white information",
+    "physical finger-over-card occlusion",
+    "left-lower handwritten cue",
+    "bottom horizontal before-arrow-after result"
+  ],
+  "adaptive": [
+    "presenter identity and wardrobe with same gesture",
+    "case image and card contents",
+    "headline and result wording within length limits",
+    "actual accent hue and skin/background values while preserving luminance roles"
+  ],
+  "optional": [
+    "minor real platform response details on evidence card",
+    "subtle card contact shadow"
+  ],
+  "forbidden": [
+    "active publication before approval",
+    "fake or copied source metrics",
+    "floating card",
+    "card covers face",
+    "multiple cards",
+    "generic AI mascot",
+    "two-line main title",
+    "ordinary bold font fallback",
+    "neon glow or 3D title",
+    "numbers unrelated to card evidence"
+  ],
+  "variableContract": {
+    "person": "identity, appearance and clothes may change; left x3-56%, face x13-30%, right hand grips card front and left hand points",
+    "text": "content may change but main title stays 6-8 Hanzi on one line, handwritten cue remains lower left, bottom two compact result groups",
+    "product": "one industry-specific evidence card replaces original card; same card visual mass, dark-photo/white-info structure, tilt and hand contact",
+    "color": "exact hue may change; low-lightness field, one high-luminance accent, white card and result, tiny warm response accent remain"
+  },
+  "invariantContract": {
+    "layout": "title y3-16%; person x3-56% y17-69%; card x16-92% y28-89% clockwise 16-22 degrees; result y89-99%",
+    "visualMass": "dark background and black clothing 48-55%, card white 19-25%, card photo 15-20%, bright title 8-12%",
+    "specialEffects": "near-camera gripping hand 1.3-1.7 face widths, card perspective coherent with internal content, fingers foregrounded over rim, mild localized contact shadow"
+  },
+  "materialTransformation": [
+    {
+      "level": "required",
+      "action": "preserve or reconstruct two-hand presenting pose and isolate human",
+      "trigger": "each new presenter"
+    },
+    {
+      "level": "required",
+      "action": "build one industry-specific case card with synchronized perspective and two content tiers",
+      "trigger": "each new case"
+    },
+    {
+      "level": "conditional",
+      "action": "reshoot or identity-constrained gesture reconstruction",
+      "trigger": "hands do not naturally contact the card"
+    },
+    {
+      "level": "conditional",
+      "action": "rewrite headline or metric statement",
+      "trigger": "text overflows fixed areas or evidence does not support metric"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-058-dense-cut-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "cardTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-058-dense-cut-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomResults",
+      "type": "font-style-id",
+      "id": "dalala-cover-058-dense-cut-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "handwrittenCue",
+      "type": "font-style-id",
+      "id": "dalala-cover-033-rough-hand",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "fontRegistryEntries": "references/font-registry-entries.json",
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

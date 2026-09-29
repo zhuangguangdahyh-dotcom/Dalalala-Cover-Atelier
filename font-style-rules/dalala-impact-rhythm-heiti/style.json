@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-impact-rhythm-heiti",
+  "displayName": "Dalala 爆点节奏黑体",
+  "version": "1.0.0",
+  "status": "active",
+  "identityCore": {
+    "nonNegotiable": "bold-heiti-variety-rhythm-vitality",
+    "styleSignature": "explosive-scale-contrast-and-comic-impact-rhythm",
+    "defaultIntensity": "impact-max",
+    "allowAutomaticDowngrade": false,
+    "rejectRegularizedOutput": true
+  },
+  "sourceOfTruth": {
+    "approvedReference": "references/approved-reference.png",
+    "humanRules": "STYLE_RULES.md",
+    "promptTemplate": "prompts/imagegen-title-layer.md"
+  },
+  "intendedUse": [
+    "variety-show-cover-title",
+    "reaction-and-punchline-title",
+    "creator-personality-cover",
+    "high-energy-lifestyle-title"
+  ],
+  "avoidUse": [
+    "long-body-copy",
+    "formal-institutional-title",
+    "quiet-luxury-editorial-title",
+    "dense-small-type-layout"
+  ],
+  "runtime": {
+    "primaryRenderer": "imagegen",
+    "outputAsset": "transparent-png-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "defaultVitality": "impact-max",
+    "maxGenerationAttempts": 3,
+    "failurePolicy": "manual-review",
+    "missingGlyphPolicy": "generate-by-rule-and-review",
+    "supportingFontRole": "anatomy-check-only"
+  },
+  "requiredInputs": [
+    "text",
+    "canvasWidth",
+    "canvasHeight",
+    "vitality"
+  ],
+  "characterConstruction": {
+    "base": "extra-bold-hand-built-chinese-heiti",
+    "instancePolicy": "redraw-every-character-occurrence-independently",
+    "fill": "solid-near-black",
+    "strokeWeight": "extra-bold-mostly-even",
+    "componentProportionVariation": [0.24, 0.5],
+    "strokeWidthRatioWithinStroke": [0.78, 1.05],
+    "normalAngleVariationDegrees": [2, 12],
+    "heroStrokeAngleMaxDegrees": 18,
+    "longStrokeExtension": [0.15, 0.45],
+    "shortStrokeReduction": [0.1, 0.3],
+    "postures": [
+      "towering-head-heavy",
+      "squat-heavy-foot",
+      "narrow-compressed",
+      "wide-sideways-blast",
+      "high-lift",
+      "low-drop",
+      "forward-impact",
+      "backward-rebound"
+    ],
+    "boldMoves": [
+      "giant-offset-dot",
+      "oversized-head-component",
+      "heavy-descending-foot",
+      "sudden-sideways-stretch",
+      "compressed-middle-release",
+      "radical-pop-out",
+      "neighbor-space-invasion",
+      "abrupt-diagonal-impact"
+    ],
+    "quietMoves": [
+      "compact-steady-block",
+      "small-readable-counter",
+      "short-flat-rest",
+      "contained-radical",
+      "stable-vertical-anchor"
+    ],
+    "gestureStarts": [
+      "flat-block-entry",
+      "angled-impact-entry",
+      "offset-component-entry",
+      "compressed-square-entry"
+    ],
+    "gestureEndings": [
+      "abrupt-flat-stop",
+      "wide-block-overshoot",
+      "heavy-downward-drop",
+      "short-diagonal-kick",
+      "neighbor-facing-stop"
+    ],
+    "requiredPaintStatesPerGlyph": 2,
+    "paintStates": [
+      "clean-solid-mass",
+      "subtle-hand-cut-edge",
+      "dense-overlap-mass"
+    ]
+  },
+  "rhythmSystem": {
+    "heroGlyphsPerLine": [3, 4],
+    "quietGlyphsPerLine": [1, 2],
+    "heroQuietAlternationRequired": true,
+    "scaleContrastRequired": true,
+    "minimumHeroToQuietScaleRatio": 1.28,
+    "allowComponentPopOut": true,
+    "allowControlledCollision": true,
+    "allowShortStructuralBridge": true,
+    "forbidUniformWaveBaseline": true
+  },
+  "layout": {
+    "recommendedCharactersPerLine": [4, 9],
+    "maximumLines": 2,
+    "heroGlyphsPerLine": [3, 4],
+    "allowLocalCollision": true,
+    "allowLongStrokeIntoAdjacentSpacing": true,
+    "allowRadicalBeyondNominalFrame": true,
+    "punctuationCanEnlargeLiftOrSink": true,
+    "keepQuietGlyphBetweenImpactClusters": true
+  },
+  "vitalityPresets": {
+    "playful": {
+      "baselineShiftPercent": [-3, 3],
+      "rotationDegrees": [-4, 4],
+      "glyphScale": [0.88, 1.18],
+      "trackingFactor": [0.76, 1.02],
+      "heroScale": [1.16, 1.28],
+      "gestureDensity": "medium"
+    },
+    "show": {
+      "baselineShiftPercent": [-6, 6],
+      "rotationDegrees": [-7, 7],
+      "glyphScale": [0.76, 1.32],
+      "trackingFactor": [0.62, 0.98],
+      "heroScale": [1.28, 1.42],
+      "gestureDensity": "high-selective"
+    },
+    "impact-max": {
+      "baselineShiftPercent": [-9, 9],
+      "rotationDegrees": [-10, 10],
+      "glyphScale": [0.62, 1.45],
+      "trackingFactor": [0.52, 0.94],
+      "heroScale": [1.38, 1.58],
+      "gestureDensity": "maximum-controlled"
+    }
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowMissingPunctuation": false,
+    "allowExtraText": false
+  },
+  "qa": {
+    "requiredChecks": [
+      "verbatim-text",
+      "standard-chinese-anatomy",
+      "extra-bold-heiti-foundation",
+      "strong-hero-quiet-scale-contrast",
+      "per-glyph-distinct-posture",
+      "visible-comic-impact-rhythm",
+      "fun-originates-inside-letterforms",
+      "clean-solid-surface",
+      "mobile-thumbnail-readable",
+      "approved-reference-match"
+    ],
+    "thumbnailWidthPx": 360,
+    "vitalityMinimumScore": 85,
+    "vitalityHardGates": [
+      "first-impression-is-extra-bold-heiti",
+      "three-or-four-hero-glyphs-per-line",
+      "hero-and-quiet-glyph-scale-ratio-at-least-1.28",
+      "adjacent-glyphs-do-not-repeat-proportion-and-posture",
+      "impact-rhythm-is-visible-without-decoration",
+      "no-brush-marker-kai-or-song-anatomy",
+      "title-remains-immediately-readable-at-360px",
+      "approved-reference-is-the-only-positive-reference"
+    ],
+    "rejectIfAnyRequiredCheckFails": true
+  },
+  "forbidden": [
+    "standard-bold-font-with-minor-rotation",
+    "uniform-glyph-scale-and-baseline",
+    "all-glyphs-equally-loud",
+    "cute-bubble-lettering",
+    "marker-or-brush-texture",
+    "kai-or-song-skeleton",
+    "ancient-literary-calligraphy",
+    "hollow-outline-lettering",
+    "decorative-stickers-or-faces",
+    "outline-shadow-gradient-or-3d",
+    "illegible-component-displacement",
+    "extra-background-copy"
+  ]
+}

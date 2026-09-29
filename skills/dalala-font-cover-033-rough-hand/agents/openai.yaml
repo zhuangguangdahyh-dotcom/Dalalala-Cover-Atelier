@@ -1,0 +1,3 @@
+interface:
+  display_name: "033 字体测试依赖"
+  short_description: "生成参考 033 的手写文字测试层"

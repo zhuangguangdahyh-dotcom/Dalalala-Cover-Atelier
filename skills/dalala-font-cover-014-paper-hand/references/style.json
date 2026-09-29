@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-014-paper-hand",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-014/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "integration": "integration.md",
+  "requiredInputs": ["text", "variant", "canvasWidth", "canvasHeight", "textBox", "colorRoles"],
+  "variants": {
+    "lead": {"roles": ["leadPossessive", "methodLine"], "bone": "thin irregular human-written Chinese, narrow-to-moderate proportions", "weight": "light-to-regular"},
+    "core": {"roles": ["coreTitle"], "bone": "oversized uneven hand-lettered Latin or short Chinese with irregular edge, lively stems and descender", "weight": "heavy but uneven"},
+    "promise": {"roles": ["rightTopic", "resultLine"], "bone": "large hand-drawn Chinese with open counters, small stroke-width variation, human alignment", "weight": "regular-to-bold"}
+  },
+  "surface": "opaque high-value warm-white fill, sparse local rubbed edge, short soft shadow added during composition",
+  "runtime": {"primaryRenderer": "imagegen-transparent-title-layer", "composeSeparatelyFromBackground": true, "ordinaryWebFontFallbackAllowed": false, "maximumGenerationAttempts": 3, "failurePolicy": "manual-review"},
+  "textAccuracy": {"mustMatchVerbatim": true, "allowCharacterSubstitution": false, "allowExtraText": false},
+  "forbidden": ["regular computer font with uniform noise", "identical tilt and stroke on every character", "closed or malformed Chinese character structure", "brush calligraphy", "hollow outlined title", "long shadow, bevel or neon", "background or phone baked into text layer"],
+  "productionApproved": false
+}

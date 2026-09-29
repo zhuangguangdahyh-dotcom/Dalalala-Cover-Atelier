@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "styleId": "dalala-cover-054-editorial-didone",
+  "status": "testing",
+  "script": "Latin",
+  "family": "high-contrast modern Roman serif",
+  "renderer": "imagegen-transparent-title-layer",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "approvedReference": null,
+  "variants": {
+    "mainTitle": { "weight": "light", "case": "title", "lines": 2, "boxPercent": [27, 65, 73, 77] },
+    "supportingSerif": { "weight": "regular", "case": "mixed", "lines": 2, "boxPercent": [31, 80, 70, 85] },
+    "footerDisplay": { "weight": "ultra-bold", "case": "uppercase", "lines": 1, "boxPercent": [6, 91, 94, 97] }
+  },
+  "forbidden": ["ordinary bold sans substitution", "uniform weight across all roles", "hard glow", "thick stroke", "unverified Han substitution"]
+}

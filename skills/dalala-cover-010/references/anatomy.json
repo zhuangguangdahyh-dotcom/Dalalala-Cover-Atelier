@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-010",
+  "status": "studied",
+  "source": "../../../参考封面图/dalala-cover-ref-010.jpg",
+  "sourcePixels": {"width": 1024, "height": 1366, "ratio": "3:4", "measuredAspectRatio": 0.7496},
+  "measurement": "目测近似坐标，box = [x,y,width,height]，单位为画布百分比；相交外框不可相加为像素面积。",
+  "firstLook": "上半幅近白双字锋利飞白压住灰绿天空，中下部背影与头饰、向右展开的束状道具形成真实摄影证据，暗红斜体英文只做小译注。",
+  "sourceText": {"mainTitle": "萨满", "latinNote": "Shaman", "textVerification": "正式生产逐字核对；原图笔画高度风格化"},
+  "contentRoles": {
+    "subject": "单一背向人物及仪式性装束，是标题概念的视觉证据",
+    "mainTitle": "两字主题/身份词，是第一眼钩子",
+    "secondaryTitle": "小号英文译注，语义确认而不争主视觉",
+    "auxiliary": "无品牌条、日期、说明段或标签",
+    "decoration": "主标题自身的飞白裂口、羽毛及横向束状物的天然动势；无独立贴纸",
+    "background": "连续户外摄影的云天、远山和草坡；天空同时承担文字底与留白"
+  },
+  "elements": [
+    {"role": "photographicBackground", "box": [0,0,100,100], "layer": 1, "constraints": ["低彩真实环境", "天空可提供高明度字的辨识底", "远山和地景保留深度"]},
+    {"role": "sky", "box": [0,0,100,76], "layer": 1, "constraints": ["云纹柔和", "标题周围保留天空缝隙", "不换成纯色板"]},
+    {"role": "distantHills", "box": [0,65,100,20], "layer": 1, "constraints": ["中远景低对比", "不与人物合并成平面轮廓"]},
+    {"role": "groundAndBokeh", "box": [0,75,100,25], "layer": 3, "constraints": ["底部约 9%–16% 自然失焦", "可局部挡住人物下缘以产生景深"]},
+    {"role": "personAndCostume", "box": [27,42,72,48], "layer": 2, "coreBodyBox": [36,66,42,22], "constraints": ["背向或侧背单主体", "人物非头像特写", "头肩附近有主题识别物"]},
+    {"role": "headpieceAndRoundObject", "box": [28,42,39,32], "layer": 2, "constraints": ["竖向羽毛/头饰进入标题下沿", "圆形装置留真实纹理", "不让主标题大面积盖掉识别轮廓"]},
+    {"role": "rightwardBundle", "box": [50,52,49,23], "layer": 2, "constraints": ["从人物附近向右扩展", "保持多束细线的透视与遮挡", "端点靠近但尽量不切出画布"]},
+    {"role": "mainTitle", "box": [8,5,86,40], "layer": 4, "fontStyleId": "dalala-cover-010-ritual-brush", "constraints": ["两字横向铺满", "字间笔锋允许局部插入", "真正透明字层", "近白高明度", "不能替换为普通书法字体加噪点"]},
+    {"role": "latinNote", "box": [45,43,20,4], "layer": 5, "fontStyleId": "dalala-cover-010-italic-note", "constraints": ["单行短译注", "细斜体高对比", "暗暖强调色", "不得扩成强势副标题"]}
+  ],
+  "visualCenter": {"upperTitle": [50,24], "lowerSubject": [55,67]},
+  "dominantAxis": "从天空双字向下落到人物头饰的纵轴；束状道具从中部斜向右侧形成次轴",
+  "readingPath": ["白色两字", "人物黑羽与圆形装置", "向右延伸的道具", "英文小译注", "远山与草坡"],
+  "protectedWhitespace": ["右上标题外的天空", "两字之间与字内天空裂隙", "人物左侧天空", "标题下沿和人物上缘之间的局部空气"],
+  "density": "上部字面大但内部透空；中部人物和道具细节集中；底部前景虚化回收细节。",
+  "layerOrder": ["skyHillsGroundPhoto", "personCostumeAndProps", "foregroundGrassBokeh", "transparentMainTitle", "transparentLatinNote"],
+  "assetGrammar": {
+    "crop": "以 3:4 保留天空约上方四分之三、人物中下部和底部失焦草地；人物不裁成头像",
+    "cutout": "原图未见可确认硬边抠图；优先连续实景，分层重组时细羽/枝条须精细蒙版并匹配光向",
+    "shotScale": "背向人物中远景，主题物位于头肩；地景仍可辨",
+    "perspective": "从身后观看，装束从人物附近向右散开；同一光向与景深",
+    "occlusion": "前景草局部遮身体下缘；字与头饰仅近接或极少交错",
+    "repetition": "束状道具存在多根自然分叉，不复制克隆同一根元素",
+    "planes": ["近景失焦草", "中景人物/道具", "远景山与天空"]
+  },
+  "typography": {
+    "mainTitleFontStyleId": "dalala-cover-010-ritual-brush",
+    "mainTitle": "厚重宽展的独立双字书写骨架，大块实面与细长尖锋交替，边缘局部飞白裂口；可读的标准汉字结构",
+    "mainTitleRows": 1,
+    "mainTitleRecommendedChineseCharacters": 2,
+    "mainTitleBoxWidthPercent": [82,90],
+    "mainTitleBoxHeightPercent": [36,43],
+    "mainTitleInterlock": "局部笔锋互入约一个笔画宽度，非均匀等距排字",
+    "latinNoteFontStyleId": "dalala-cover-010-italic-note",
+    "latinNote": "高对比细斜体或连写衬线气质，单行，约主标题字高的 1/8–1/10",
+    "effects": ["真正透明底", "不加厚描边", "无明显投影与立体挤出"]
+  },
+  "colorRoles": {
+    "photographicBase": "低饱和灰绿/灰蓝天空与暗绿地景为约 80%–89% 的面积基础，包含人物暗部",
+    "highLightnessTitle": "近白暖白实面约 10%–17%，与天空保持强明度差",
+    "darkSubjectAnchor": "暗棕黑人物与装束集中下部",
+    "smallWarmAccent": "暗暖红英文小于 1%",
+    "rule": "不锁 HEX；锁定大面积低彩中间调背景、高明度巨字、深主体和极小暖强调的面积及对比关系"
+  },
+  "materialEffects": ["柔和漫射自然光", "轻微雾化与细胶片颗粒", "前景真实失焦", "人物和器物真实材质", "主标题笔画内生飞白与裂口", "无可见厚描边、强投影、光晕或贴纸"],
+  "locked": ["3:4", "上部两字横展巨幅飞白", "中下部单一背向/侧背主体", "头肩附近主题物和向右的视觉延伸", "低彩摄影与底部景深", "小号暖色英文译注", "上下视觉重量及留白关系"],
+  "adaptive": ["人物身份与服装", "主题词和对应短译注", "有真实因果关系的道具", "地点与具体色值"],
+  "optional": ["英文可用行业通用短译名，但不得放大或另起解释段"],
+  "forbidden": ["普通书法字库叠噪点", "三行或常规小字标题", "正脸大特写", "无道具的通用 AI 人", "无内容关系的羽毛符号", "高频杂乱天空", "红字抢过主标题", "额外贴纸或信息堆叠", "未测试却标记 active"],
+  "fontDependencies": [
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-010-ritual-brush", "required": true, "status": "testing"},
+    {"role": "latinNote", "type": "font-style-id", "id": "dalala-cover-010-italic-note", "required": true, "status": "testing"}
+  ],
+  "analysisConfirmed": false,
+  "renderAllowed": false
+}

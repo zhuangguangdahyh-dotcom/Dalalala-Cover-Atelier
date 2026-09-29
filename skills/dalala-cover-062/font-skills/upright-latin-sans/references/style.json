@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-062-upright-latin-sans",
+  "version": "0.1.0",
+  "status": "testing",
+  "script": "Latin or short Han",
+  "role": "identityLine",
+  "canvasBoxPercent": [5, 4, 67, 10],
+  "construction": {
+    "skeleton": "upright neutral sans with broad sturdy strokes, open counters and square terminals",
+    "weight": "bold to extra-bold",
+    "case": "preserve verified brand spelling and case",
+    "tracking": "slightly tight without touching",
+    "lineCount": 1,
+    "fill": "solid near-black",
+    "effects": "none"
+  },
+  "textAccuracy": {"verbatim": true, "verifiedIdentityOnly": true},
+  "forbidden": ["invented brand or collaboration", "italic", "outline", "shadow", "handwritten letters", "horizontal stretching", "second line"]
+}

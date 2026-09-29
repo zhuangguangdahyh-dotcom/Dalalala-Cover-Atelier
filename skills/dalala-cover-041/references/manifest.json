@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-041",
+  "displayName": "参考封面 041",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceReference": "参考封面图/dalala-cover-041-reference.jpg",
+  "archivedReference": "skills/dalala-cover-041/assets/reference-original.jpg",
+  "annotatedReference": null,
+  "analysisReport": "skills/dalala-cover-041/references/adaptation-rules.md",
+  "anatomy": "skills/dalala-cover-041/references/anatomy.json",
+  "adaptationRules": "skills/dalala-cover-041/references/adaptation-rules.md",
+  "qa": "skills/dalala-cover-041/references/qa.md",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedRatios": [
+    "3:4"
+  ],
+  "canvas": {
+    "sourceWidth": 1263,
+    "sourceHeight": 1684,
+    "defaultWidth": 1080,
+    "defaultHeight": 1440
+  },
+  "titleLength": {
+    "structure": "三行：拉丁短词、中文行动句、中英混合场景短语及终止叹号",
+    "line1LatinCharacters": [
+      4,
+      7
+    ],
+    "line2HanCharacters": [
+      4,
+      6
+    ],
+    "line3LatinCharacters": [
+      5,
+      8
+    ],
+    "line3HanSuffixCharacters": [
+      1,
+      2
+    ],
+    "fallback": "改写语义，不增行、不缩点、不扩大字框"
+  },
+  "subjectTypes": [
+    "工作设备",
+    "可辨操作结果",
+    "商品或工具",
+    "真实场景中的手部或人物"
+  ],
+  "contentMood": [
+    "技术进入日常",
+    "移动工作",
+    "效率主张",
+    "可验证的新用法"
+  ],
+  "firstVisualFocus": "红色首行与黑色两行的离散圆点阵大标题",
+  "spatialSkeleton": "上部干净高明度浅底承托左齐三行标题；下部深色真实场景有远景、后景执行物和从底边进入的前景核心证据",
+  "readingPath": [
+    "红色首词",
+    "黑色主张与场景词",
+    "红色终止标点",
+    "一行利益句",
+    "前景结果",
+    "后景执行线索",
+    "手写语气注释"
+  ],
+  "imageTextRelationship": "标题留在浅底，与下方实景通过低对比远景自然接续；影像提供标题主张的实物证据，不充当标题花纹底图",
+  "locked": [
+    "3:4 三行左齐、宽度递增的点阵标题",
+    "高明度上半幅和深色下半幅的面积关系",
+    "前景核心证据压住后景执行线索",
+    "标题、利益句、影像证据的阅读顺序",
+    "首词/终止标点的小面积高纯色角色",
+    "细小编辑标记及手绘批注的低权重"
+  ],
+  "adaptive": [
+    "行业与账号身份",
+    "标题和利益句文字",
+    "真实场景及设备/产品",
+    "屏幕或操作内容",
+    "具体色值"
+  ],
+  "optional": [
+    "右侧微点数量微调",
+    "词列的具体英文",
+    "轻微自然景深与雾化"
+  ],
+  "forbidden": [
+    "用普通字体网点化冒充点阵字",
+    "增加第四行或挤占右侧辅助区",
+    "满铺复杂照片破坏浅底",
+    "前后器物没有内容因果",
+    "原品牌/商标/UI/文案照搬",
+    "未经测试和验收标记 active"
+  ],
+  "variableContract": {
+    "person": "可替换或省略；出现时只做真实场景锚点，不抢标题和前景核心证据",
+    "text": "内容可改，三行左齐、字框及主副层级不变",
+    "product": "可换成行业相关设备/工具/结果，前景与后景数量关系和遮挡逻辑不变",
+    "palette": "色值可变，明度、对比和颜色面积角色不变"
+  },
+  "invariantContract": {
+    "layout": "标题三行 x≈4% 左齐，y≈11–45%；副标题 y≈47–51%；深色实景主要在 y≈63–100%",
+    "area": "浅底 53–60%，深色场景 30–38%，高纯强调 2–4%，可见投影重叠不相加",
+    "specialEffects": "离散圆点拼字、细手划线、微型编辑符号、远中近景与前后遮挡必须保留"
+  },
+  "assetTransformation": {
+    "minimum": "T1",
+    "levels": {
+      "T0": "锁事实与身份",
+      "T1": "重裁与净场",
+      "T2": "扩图、分层、换景和透视统一",
+      "T3": "缺少入口到执行的双证据时重建真实场景"
+    },
+    "trigger": "素材上部无浅底或下部无可辨前后工作证据时至少 T2；无成立的场景逻辑时 T3"
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-041-dot-matrix",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "terminalPunctuation",
+      "type": "font-style-id",
+      "id": "dalala-cover-041-dot-matrix",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-041-editorial-support",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "editorialText",
+      "type": "font-style-id",
+      "id": "dalala-cover-041-editorial-support",
+      "required": false,
+      "status": "testing"
+    },
+    {
+      "role": "handNote",
+      "type": "font-style-id",
+      "id": "dalala-cover-022-casual-note",
+      "required": false,
+      "status": "testing-candidate"
+    }
+  ],
+  "fontRegistryEntries": "skills/dalala-cover-041/references/font-registry-entries.json",
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "userAcceptance": false
+  }
+}

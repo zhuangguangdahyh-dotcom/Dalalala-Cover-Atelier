@@ -1,0 +1,48 @@
+{
+  "fontId": "dalala-songchi-paint",
+  "familyName": "Dalala Songchi Paint",
+  "displayName": "Dalala 松弛油漆体",
+  "version": "0.2.0",
+  "sourceConcept": "../../output/cover-tests/chen-na-songchi-paint/title-art-v02.png",
+  "productionMasters": [
+    "sources/glyph-master-v01.png",
+    "sources/glyph-master-v02a.png",
+    "sources/glyph-master-v02b.png",
+    "sources/glyph-master-kan-v03.png"
+  ],
+  "coveragePolicy": "Only listed glyphs are approved. Missing Chinese characters must enter the expansion queue; do not silently mix a system font into a headline.",
+  "glyphs": [
+    {"char": "松", "unicode": "U+677E", "status": "master-v1"},
+    {"char": "弛", "unicode": "U+5F1B", "status": "master-v1"},
+    {"char": "感", "unicode": "U+611F", "status": "master-v1"},
+    {"char": "建", "unicode": "U+5EFA", "status": "master-v1"},
+    {"char": "立", "unicode": "U+7ACB", "status": "master-v1"},
+    {"char": "信", "unicode": "U+4FE1", "status": "master-v1"},
+    {"char": "任", "unicode": "U+4EFB", "status": "master-v1"},
+    {"char": "选", "unicode": "U+9009", "status": "master-v2"},
+    {"char": "准", "unicode": "U+51C6", "status": "master-v2"},
+    {"char": "心", "unicode": "U+5FC3", "status": "master-v2"},
+    {"char": "理", "unicode": "U+7406", "status": "master-v2"},
+    {"char": "咨", "unicode": "U+54A8", "status": "master-v2"},
+    {"char": "询", "unicode": "U+8BE2", "status": "master-v2"},
+    {"char": "师", "unicode": "U+5E08", "status": "master-v2"},
+    {"char": "先", "unicode": "U+5148", "status": "master-v2"},
+    {"char": "看", "unicode": "U+770B", "status": "master-v2", "alternates": ["uni770B.alt1"]},
+    {"char": "这", "unicode": "U+8FD9", "status": "master-v2"},
+    {"char": "点", "unicode": "U+70B9", "status": "master-v2"},
+    {"char": "4", "unicode": "U+0034", "status": "master-v2"},
+    {"char": "，", "unicode": "U+FF0C", "status": "master-v2"}
+  ],
+  "openTypeFeatures": {
+    "calt": "For consecutive 看看, substitute the second 看 with uni770B.alt1.",
+    "ss01": "Expose the alternate 看 for manual selection."
+  },
+  "alternateTarget": 3,
+  "layoutVariation": {
+    "baselineShiftEm": [-30, 30],
+    "rotationDegrees": [-2.5, 2.5],
+    "trackingFactor": [0.75, 1.25],
+    "scaleFactor": [0.95, 1.05],
+    "deterministicSeed": "coverId + text + fontVersion"
+  }
+}

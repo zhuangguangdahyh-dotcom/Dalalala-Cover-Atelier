@@ -1,0 +1,11 @@
+{
+  "id": "dalala-cover-034-dry-brush",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-034/assets/reference-original.jpg",
+  "roles": ["mainTitleLine1", "mainTitleLine2"],
+  "script": "Chinese",
+  "fill": "solid-dry-brush",
+  "exactColorLocked": false,
+  "effects": {"thickOutline": false, "dropShadow": false, "extrusion": false}
+}

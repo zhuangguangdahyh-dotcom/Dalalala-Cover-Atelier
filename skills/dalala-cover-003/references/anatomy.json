@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-003",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "assets/reference-original.jpg",
+    "registry": "cover-skills/registry.json",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "973e09337b3420c56edbdf4bd3a1eed990ca963b99bd1c5831a17548f252d3cd",
+    "visualReview": true,
+    "measurementMethod": "原图视觉估计，非像素分割",
+    "bboxTolerancePercentagePoints": 2,
+    "originalProductionMethod": "未知，工艺为复建推断"
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440
+  },
+  "contentRoles": [
+    {
+      "role": "mainTitle",
+      "bboxPercentXYXY": [
+        7,
+        11,
+        96,
+        28
+      ],
+      "observedContent": "0分贝房间",
+      "relationship": "第一命名层，单行"
+    },
+    {
+      "role": "leftSubject",
+      "bboxPercentXYXY": [
+        1,
+        33,
+        40,
+        85
+      ],
+      "observedContent": "左侧全身反应者",
+      "relationship": "朝中央动作"
+    },
+    {
+      "role": "rightSubject",
+      "bboxPercentXYXY": [
+        58,
+        33,
+        99,
+        86
+      ],
+      "observedContent": "右侧全身操作者",
+      "relationship": "伸手连接中央道具"
+    },
+    {
+      "role": "eventObject",
+      "bboxPercentXYXY": [
+        49,
+        42,
+        66,
+        55
+      ],
+      "observedContent": "气球",
+      "relationship": "唯一中央事件锚点"
+    },
+    {
+      "role": "hookLead",
+      "bboxPercentXYXY": [
+        29,
+        72,
+        72,
+        84
+      ],
+      "observedContent": "没人敢",
+      "relationship": "三字浅色首行"
+    },
+    {
+      "role": "hookPayoff",
+      "bboxPercentXYXY": [
+        45,
+        86,
+        97,
+        98
+      ],
+      "observedContent": "呆一晚？",
+      "relationship": "暖亮末行，右移16%W"
+    },
+    {
+      "role": "background",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "observedContent": "吸音墙与网格地面",
+      "relationship": "真实场景证据"
+    }
+  ],
+  "absentRoles": [
+    "brand",
+    "auxiliaryParagraph",
+    "independentDecoration"
+  ],
+  "primaryFocus": "顶部空间标题",
+  "dominantAxis": "上至下，再向右下",
+  "readingPath": [
+    "mainTitle",
+    "subjectsAndGesture",
+    "eventObject",
+    "hookLead",
+    "hookPayoff"
+  ],
+  "negativeSpace": {
+    "bboxPercentXYXY": [
+      27,
+      39,
+      49,
+      68
+    ],
+    "kind": "没有文字的动作通道，非纯色空白"
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-003-spatial-display",
+      "required": true
+    },
+    {
+      "role": "hookLead",
+      "type": "font-style-id",
+      "id": "dalala-cover-003-slanted-song",
+      "required": true
+    },
+    {
+      "role": "hookPayoff",
+      "type": "font-style-id",
+      "id": "dalala-cover-003-slanted-song",
+      "required": true
+    }
+  ],
+  "layoutContract": {
+    "locked": [
+      "3:4 满版现场影像",
+      "顶部单行巨大命名、左右双人全身、中间单一道具",
+      "底部两行短句向右阶梯",
+      "人物动作与道具接触的事件关系",
+      "上字空间厚度与下缘透底；下字倾斜衬线与紧投影",
+      "低彩度大底、暗主体、中央冷强调及右下暖强调"
+    ],
+    "adaptive": [
+      "身份、服装、事件、道具、文字内容、具体色值，均受空间合同约束"
+    ],
+    "optional": [
+      "不承载事实的局部杂物清理"
+    ],
+    "forbidden": [
+      "改变行数或把底句居中",
+      "用通用AI小人补角色",
+      "用普通字体静默替换依赖",
+      "遮脸或关键手势",
+      "背景无行业事实依据",
+      "多道具、贴纸、说明卡",
+      "未确认即active"
+    ]
+  },
+  "variableContract": {
+    "people": "两人，完整身体及互相关联动作，依照角色框",
+    "text": "单行5–7等效字；底部3字/3字加标点两行；超长先改写",
+    "product": "中央单一物件，占16–18%W和12–14%H",
+    "colors": "色值可变；明暗、冷暖角色及面积不变"
+  },
+  "invariantContract": {
+    "layout": "以contentRoles的百分比框和关系为准",
+    "subjectVisibleAreaPercent": [
+      20,
+      25
+    ],
+    "titleBoundingAreaPercentApprox": 27,
+    "accentVisibleAreaPercent": [
+      5,
+      9
+    ],
+    "effects": [
+      "主标题厚度投影和下缘透底",
+      "底部倾斜衬线与紧投影",
+      "照片真实透视、接触与高光"
+    ]
+  },
+  "paletteRoles": {
+    "areaBudgetPercent": {
+      "environment": 64,
+      "darkSubjectsAndShadows": 22,
+      "lightLetterFaces": 7,
+      "coolEventAccent": 3,
+      "warmPayoffAccent": 4
+    },
+    "exactHexLocked": false,
+    "measurement": "设计估计非像素统计",
+    "contrastCheck": "成图后检查灰度与360px，尚未执行"
+  },
+  "layerOrder": [
+    "environment",
+    "localTonalCorrection",
+    "subjectsAndObjectWithContact",
+    "mainTitleShadow",
+    "mainTitleFaceFade",
+    "hookShadows",
+    "hookFaces"
+  ],
+  "transformationGrammar": [
+    {
+      "when": "同场景双人完整素材",
+      "level": "T0",
+      "action": "裁切、局部调光，保留事实和动作"
+    },
+    {
+      "when": "空间余量不足且允许重构",
+      "level": "T2",
+      "action": "扩展非事实背景，人物全身和透视不变"
+    },
+    {
+      "when": "不同来源合成",
+      "level": "T1/T2",
+      "action": "抠图统一透视光向与接触阴影，不得伪装事实记录"
+    },
+    {
+      "when": "仅单人半身或缺关键互动",
+      "level": "reject",
+      "action": "换素材，不降级模板"
+    }
+  ],
+  "semanticFit": {
+    "suitable": [
+      "特殊场景体验",
+      "单一条件实验",
+      "有双人互动和一件道具的现场叙事"
+    ],
+    "unsuitable": [
+      "多点知识列表",
+      "单人证件照",
+      "长解释或多商品矩阵"
+    ]
+  },
+  "failureModes": [
+    "改变行数或把底句居中",
+    "用通用AI小人补角色",
+    "用普通字体静默替换依赖",
+    "遮脸或关键手势",
+    "背景无行业事实依据",
+    "多道具、贴纸、说明卡",
+    "未确认即active",
+    "两人无互动",
+    "中央道具失去接触",
+    "地面消失或双脚漂浮"
+  ],
+  "tests": [],
+  "userAcceptance": null
+}

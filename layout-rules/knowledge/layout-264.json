@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-264",
+  "name": "Hero 主视觉布局",
+  "category": "网页与 UI",
+  "subcategory": "布局原语、页面模式与响应重排",
+  "learningStatus": "studied",
+  "learningMethod": "pinned-original-reference + full-size-visual-review + cross-media-distillation",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/05-web-ui/264-底部导航布局.png",
+    "localReference": "../references/source-thumbnails/264.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "底部导航布局",
+      "category": "网页与 UI",
+      "subcategory": "页面框架与导航",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "借用界面模块、卡片和导航关系表达步骤、系统或选择",
+  "principle": {
+    "whyItWorks": "让一个人物、产品、数字或符号形成压倒性主视觉，再用一句价值主张和一个行动点完成首屏。",
+    "visualMechanism": "让一个人物、产品、数字或符号形成压倒性主视觉，再用一句价值主张和一个行动点完成首屏。",
+    "readingMotion": "先看主视觉，再读价值主张，最后到行动或结论。",
+    "emotionalEffect": "沉浸、直观、情绪先行",
+    "whenToUse": [
+      "广告首屏、PPT 标题页、产品发布、强主张封面",
+      "存在可被放大的强主体或符号"
+    ],
+    "avoidWhen": [
+      "没有明确核心利益",
+      "多个产品或观点都要求主视觉待遇"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "右中占据大半画面的蓝色闪电与黄色圆形主视觉"
+    },
+    "mainTitle": {
+      "role": "建立入口与核心判断",
+      "placement": "左上超大蓝色中英文标题",
+      "recommendedLines": "按语义和参考轮廓决定"
+    },
+    "subtitle": {
+      "role": "补充语境",
+      "placement": "左中一句主张与右下行动引导"
+    },
+    "supportingInfo": {
+      "role": "证据、解释或行动",
+      "placement": "三处引线说明、底部 H/M/A 解释与结论带"
+    },
+    "decoration": {
+      "role": "强化结构、方向或材质",
+      "placement": "引线、短横线、箭头和底部蓝色横带"
+    },
+    "protectedWhitespace": "主视觉轮廓外的浅色区、标题下方和行动入口周围",
+    "readingPath": "先看主视觉，再读价值主张，最后到行动或结论。"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "广告首屏、PPT 标题页、产品发布、强主张封面",
+      "存在可被放大的强主体或符号"
+    ],
+    "suitableAssets": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "没有明确核心利益",
+      "多个产品或观点都要求主视觉待遇"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据",
+      "图片的情绪氛围和边缘延展"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先锁定身份或事实锚点，再按该规则主动改变景别、裁切、位置、层间关系与可见范围。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化该规则的主骨架、阅读动作或主题隐喻时使用。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "标题与主视觉组成一个首屏句子；行动信息必须处在阅读路径终点",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "360 px 缩略图仍能识别标题、第一焦点与主阅读方向。"
+  },
+  "selectionSignals": [
+    "广告首屏、PPT 标题页、产品发布、强主张封面",
+    "存在可被放大的强主体或符号",
+    "第一眼能否同时看懂主角、主张和下一步，而不是只看到一块大图？"
+  ],
+  "rejectionSignals": [
+    "整图铺满但没有主视觉焦点",
+    "标题、按钮和主体三者同权",
+    "大色块与主题无关"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以 monumental-symbol 作为唯一主骨架。",
+      "保持阅读动作：先看主视觉，再读价值主张，最后到行动或结论。",
+      "保持参考中的主次重量、关键对齐、受保护留白和图文关系。"
+    ],
+    "adaptive": [
+      "当前标题、语义分组和信息数量",
+      "素材裁切、景别、位置、遮挡与背景",
+      "独立选择的字体风格",
+      "按当前内容重新建立的颜色角色与色值",
+      "目标媒介和画幅的独立重构"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“Hero 主视觉布局”？"
+  },
+  "deepStudyStatus": "deep-studied",
+  "transformationGrammar": {
+    "minimumTransformationLevel": "T3",
+    "identityAnchors": [
+      "人物脸与真实表情",
+      "产品关键结构",
+      "事实与数据证据"
+    ],
+    "compositionFreedoms": [
+      "把关键主体或符号放大至越界",
+      "让文字和主体产生穿插、切入或指向",
+      "弱化所有非核心信息"
+    ],
+    "imageRebuildActions": [
+      "把关键主体或符号放大至越界",
+      "让文字和主体产生穿插、切入或指向",
+      "弱化所有非核心信息"
+    ],
+    "titleInteraction": [
+      "标题与主视觉组成一个首屏句子",
+      "行动信息必须处在阅读路径终点"
+    ],
+    "topicMetaphorExample": "“头大”可把猫头放大成占画面一半的 Hero 圆形，耳朵越界，标题从侧面被挤压或切入。"
+  },
+  "semanticFit": {
+    "templateFamily": "monumental-symbol",
+    "bestFor": [
+      "广告首屏、PPT 标题页、产品发布、强主张封面",
+      "存在可被放大的强主体或符号"
+    ],
+    "avoidFor": [
+      "没有明确核心利益",
+      "多个产品或观点都要求主视觉待遇"
+    ],
+    "selectionQuestion": "第一眼能否同时看懂主角、主张和下一步，而不是只看到一块大图？"
+  },
+  "failureModes": [
+    "整图铺满但没有主视觉焦点",
+    "标题、按钮和主体三者同权",
+    "大色块与主题无关"
+  ]
+}

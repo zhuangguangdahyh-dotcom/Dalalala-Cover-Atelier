@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-059-paper-cut-block",
+    "displayName": "059 手裁纸块字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-059/font-skills/paper-cut-block/SKILL.md",
+    "config": "../skills/dalala-cover-059/font-skills/paper-cut-block/references/style.json",
+    "humanRules": "../skills/dalala-cover-059/font-skills/paper-cut-block/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-059/font-skills/paper-cut-block/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-059/font-skills/paper-cut-block/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-059/font-skills/paper-cut-block/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-059/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

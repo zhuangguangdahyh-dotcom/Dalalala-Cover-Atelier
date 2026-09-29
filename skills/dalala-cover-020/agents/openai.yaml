@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考020封面测试规则"
+  short_description: "四字大小交替干刷标题与主题相关人物小物证"
+  default_prompt: "读取最新报告与anatomy后按当前主题选择人物、服饰和小物；不默认矿工、头灯或蒙脸。当前仅studied，确认测试前不发布。"

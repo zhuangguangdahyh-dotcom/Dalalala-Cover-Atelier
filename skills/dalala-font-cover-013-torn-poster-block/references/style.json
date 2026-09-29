@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-013-torn-poster-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-013/assets/reference-original.jpg",
+  "humanRules": "style-rules.md",
+  "promptTemplate": "generation-prompt.md",
+  "qa": "vitality-qa.md",
+  "integration": "integration.md",
+  "requiredInputs": ["text", "canvasWidth", "canvasHeight", "textBox", "colorRoles"],
+  "structure": {
+    "script": "Chinese display lettering",
+    "lineCount": 1,
+    "idealCharacterCount": 6,
+    "allowedChineseEquivalentCharacters": [5, 7],
+    "bone": "extra-heavy square sans with broad flat cuts and robust enclosed spaces",
+    "weight": "black-to-extra-black",
+    "trackingMethod": "individual glyph instances centered on separate torn-paper tiles",
+    "glyphFillOfTilePercent": [68, 84],
+    "glyphRotationDegrees": [-2, 2],
+    "accentSegmentGlyphCount": [1, 2],
+    "surface": "locally distressed opaque screenprint ink, slight broken edges, no global noise",
+    "requiresSeparateTransparentGlyphs": true
+  },
+  "runtime": {
+    "primaryRenderer": "imagegen-transparent-title-layer",
+    "composeSeparatelyFromBackground": true,
+    "fixedFontFallbackAllowed": false,
+    "ordinaryWebFontFallbackAllowed": false,
+    "maximumGenerationAttempts": 3,
+    "failurePolicy": "manual-review"
+  },
+  "textAccuracy": {
+    "mustMatchVerbatim": true,
+    "allowCharacterSubstitution": false,
+    "allowExtraText": false
+  },
+  "forbidden": [
+    "single rectangular banner baked into glyph layer",
+    "ordinary system bold sans or dalala-hard-fold-heiti substitution",
+    "round bubble font, brush calligraphy or thin serif",
+    "uniform distress mask repeated on every character",
+    "full image sepia/noise filter",
+    "multi-line wrapping or added subtitle"
+  ],
+  "productionApproved": false
+}

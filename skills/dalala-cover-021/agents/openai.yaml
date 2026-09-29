@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 021 受控拆解"
+  short_description: "上下双景别与跨界中英手写字；待确认和测试"
+  default_prompt: "读取参考 021 原图及其 anatomy、adaptation-rules、manifest，先完成素材和主题诊断。当前仅供受控测试，不得自动推荐或正式生产。"

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "modelId": "dalala-cover-muse-005",
+  "displayName": "Dalala 角色候选 05",
+  "status": "candidate",
+  "createdAt": "2026-09-29",
+  "subject": {
+    "personCount": 1,
+    "adultAge": 20,
+    "appearance": "中国年轻成年女性，长深棕色自然披发，柔和脸型，正面五官清楚",
+    "presentation": "浅灰白墙前的冷灰自然光抓拍",
+    "baseSkin": "暖象牙白带自然粉调，半哑光真实微纹理"
+  },
+  "identityLock": {
+    "locked": [
+      "参考图中的脸型和五官组合",
+      "约 20 岁的成年人年龄感",
+      "基础肤色、发色与发际线"
+    ],
+    "adaptive": [
+      "动作、表情、服装与场景",
+      "机位、景别和封面构图"
+    ],
+    "forbidden": [
+      "沿用已弃用的 02 号人物面容",
+      "过度磨皮、油亮蜡感和棚拍硬光",
+      "未经用户确认标记为默认角色"
+    ]
+  },
+  "primaryReference": {
+    "path": "reference/cool-gray-wall-retry-candidate.png",
+    "width": 1086,
+    "height": 1448,
+    "aspectRatio": "3:4",
+    "sha256": "6f1b715cdb781aaaf76983ed3fe0327949acf23dfc2a2bf8485aaf3980795df6",
+    "role": "重试生成的待确认人物候选"
+  },
+  "approvedReferences": [],
+  "defaultGenerationPolicy": {
+    "referenceRequired": true,
+    "identityPriority": "high",
+    "defaultAspectRatio": "3:4",
+    "keepNaturalSkinTexture": true
+  }
+}

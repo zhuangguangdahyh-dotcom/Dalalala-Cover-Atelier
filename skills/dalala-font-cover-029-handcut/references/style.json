@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-029-handcut-white",
+  "status": "testing",
+  "role": "mainTitle",
+  "sourceReference": "../../dalala-cover-029/assets/reference-original.jpg",
+  "approvedReference": null,
+  "characterRules": {
+    "script": "Han",
+    "skeleton": "可识别的标准汉字结构上作手工切边、局部笔画弯折和字面宽窄差异；不得变形到错字",
+    "weight": "extra-heavy solid",
+    "fill": "近白色不透明实心，无镂空",
+    "edge": "略不齐的手工外沿，少量圆钝与平切端点混合；不可使用统一颗粒或明显飞白",
+    "spacing": "紧排而笔画不粘连，字缝约画宽 0.5–2%",
+    "rhythm": "四字单行，每字约18–24%画高，字高可有约10–25%的相对差异；总字块x4–96/y7–33，整行宽92%；基线与倾角独立变化",
+    "effects": "无显著描边、投影、发光或立体挤出",
+    "lineCount": 1
+  },
+  "renderer": "imagegen-transparent-title-layer"
+}

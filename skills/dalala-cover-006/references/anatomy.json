@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-006",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "../assets/reference-original.jpg",
+    "sourceRegistry": "../../../cover-skills/registry.json",
+    "sourceManifest": "../../../参考封面图/reference-manifest.json",
+    "pixelSize": [
+      1242,
+      1657
+    ],
+    "visuallyReviewed": true,
+    "measurementMethod": "1242×1657 原图逐区目视复核；位置、色彩面积为估算，未做像素分割",
+    "bboxConvention": "[x0,y0,x1,y1] in percent; boxes may overlap and are not additive areas",
+    "measurementTolerancePercentagePoints": 2,
+    "reviewedJobId": "0ad39149-5ae2-4d46-b83f-6f907d9fe8b3"
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "productionSize": [
+      1080,
+      1440
+    ],
+    "fullBleed": true,
+    "safeMarginPercent": {
+      "left": 6,
+      "right": 6,
+      "top": 4,
+      "bottom": 4
+    },
+    "safeMarginScope": "约 6%W 只约束可读正文；云团、左侧线描角色可越界，右侧辅助道具可贴近边缘；柜体关键轮廓保持完整"
+  },
+  "visualConclusion": "约上半幅以超细单线双语标题和边缘云团制造轻、空、数字化的第一印象；下半幅把个人能力和作品压缩进右下开放柜体，用左侧大线描角色与底部喷点纹理平衡重量。",
+  "primaryMechanism": "用极大留白和低线宽文字提出轻量主题，再以高细节、可打开的个人物件容器把抽象身份和能力变成可探索的实体档案。",
+  "contentRoles": [
+    {
+      "role": "nearWhiteCanvas",
+      "bboxPercent": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "主导画布与文字保护区",
+      "alignment": "full-bleed",
+      "tolerancePercentagePoints": 0
+    },
+    {
+      "role": "identityKicker",
+      "bboxPercent": [
+        8.5,
+        14.6,
+        36,
+        18.4
+      ],
+      "meaning": "作者、账号或系列短签",
+      "alignment": "left",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "englishTheme",
+      "bboxPercent": [
+        8,
+        20.8,
+        83.5,
+        27.7
+      ],
+      "meaning": "英文主题或方法名，建立编辑与数字感",
+      "alignment": "left",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitle",
+      "bboxPercent": [
+        6.2,
+        30.7,
+        94,
+        41.4
+      ],
+      "meaning": "中文核心承诺和第一信息焦点",
+      "alignment": "left-optical",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "audienceQualifier",
+      "bboxPercent": [
+        62,
+        46.7,
+        93.5,
+        50.5
+      ],
+      "meaning": "受众、身份或门槛说明",
+      "alignment": "right",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "edgeCloudTopLeft",
+      "bboxPercent": [
+        7,
+        0,
+        34,
+        7.5
+      ],
+      "meaning": "顶部裁切云团，软化空白",
+      "alignment": "top-edge-clipped",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "edgeCloudTopRight",
+      "bboxPercent": [
+        73,
+        4.5,
+        100,
+        17.2
+      ],
+      "meaning": "右上裁切云团，拉出对角线起点",
+      "alignment": "right-edge-clipped",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "edgeCloudMidLeft",
+      "bboxPercent": [
+        0,
+        33.5,
+        8.5,
+        47.3
+      ],
+      "meaning": "左侧裁切云团，补齐主标题左缘节奏",
+      "alignment": "left-edge-clipped",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "modularDisplayCabinet",
+      "bboxPercent": [
+        30,
+        51.8,
+        95.5,
+        85.5
+      ],
+      "meaning": "第二视觉焦点；盛放技能、作品、工具或收藏的开放式容器",
+      "alignment": "lower-right",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "openCenterBay",
+      "bboxPercent": [
+        46.5,
+        53.5,
+        81,
+        84.8
+      ],
+      "meaning": "柜体最高细节区，呈现 3–5 个层级的核心内容",
+      "alignment": "inside-cabinet",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "projectingDoor",
+      "bboxPercent": [
+        62,
+        51.8,
+        81,
+        84.5
+      ],
+      "meaning": "带贴纸的半开门板，制造遮挡和浅透视",
+      "alignment": "front-middle",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "leftMascotDoodle",
+      "bboxPercent": [
+        0,
+        61,
+        31,
+        86
+      ],
+      "meaning": "左边越界、右侧局部被柜体遮挡的超大幼稚线描猫；脚部融入喷点，平衡右侧主体",
+      "alignment": "left-edge-clipped",
+      "tolerancePercentagePoints": 4
+    },
+    {
+      "role": "rightSideProp",
+      "bboxPercent": [
+        87,
+        64,
+        98.5,
+        85.3
+      ],
+      "meaning": "一件竖向或斜置的行业道具，压住右下边缘",
+      "alignment": "right-bottom-touching",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "bottomStippleField",
+      "bboxPercent": [
+        0,
+        64,
+        100,
+        100
+      ],
+      "meaning": "从稀到密的单色喷点/孔版颗粒，承接物件并收住底部",
+      "alignment": "bottom-full-width",
+      "tolerancePercentagePoints": 5
+    }
+  ],
+  "absentRoles": [
+    "humanPortrait",
+    "photoBackground",
+    "ctaButton",
+    "badge",
+    "border",
+    "bottomInformationBar",
+    "heavyTitleFill",
+    "fullWidthColorBlock"
+  ],
+  "firstFocus": "大幅中文单线主标题",
+  "secondaryFocus": "右下开放柜体及其内部物件",
+  "tertiaryFocus": "英文主题、右对齐副标题和左侧线描角色",
+  "dominantAxis": "从左上文字栈下降到右下开放柜体的对角轴；中文主标题和柜体顶沿提供两条水平稳定线",
+  "opticalCenterPercent": [
+    56,
+    55
+  ],
+  "readingPath": [
+    "identityKicker",
+    "englishTheme",
+    "mainTitle",
+    "audienceQualifier",
+    "modularDisplayCabinet",
+    "openCenterBay details",
+    "leftMascotDoodle + rightSideProp"
+  ],
+  "densityMap": {
+    "top0To14Percent": "极低密度；只有两处边缘云团",
+    "upper14To51Percent": "低到中密度；四级单线文字各自独占一条水平带",
+    "middle51To64Percent": "中密度；柜体开始进入，左侧仍保留大面积空白",
+    "lower64To86Percent": "高密度；柜体、贴纸、道具、线描角色集中",
+    "bottom86To100Percent": "低信息、高纹理；无新文字，仅喷点增密"
+  },
+  "negativeSpace": [
+    "画布顶部中央约 34%W–71%W、0–14%H 的连续空白",
+    "英文主题右侧约 84%W–100%W、18%H–30%H 的连续空白",
+    "中文主标题与副标题之间约 4.5%H–5.5%H 的呼吸缝",
+    "副标题左侧约 0–61%W、42%H–52%H 的过渡空白",
+    "柜体左上方约 8%W–30%W、48%H–61%H 的空白，不得补标签"
+  ],
+  "imageTreatment": {
+    "cutout": "柜体、内部物件、线描角色和右侧道具均为独立透明或干净边缘层",
+    "crop": "顶部两处云团触顶、触右，中部左云和线描角色触左；猫的右部被柜体遮挡；柜体外轮廓与开放关系完整可辨",
+    "shotScale": "物件系统为全景展示，完整读出柜体外轮廓和开放关系",
+    "perspective": "柜壳接近正视、竖线稳定；半开门板向观者旋出，以边宽、遮挡和短接触阴影形成浅斜向透视；禁止整个柜体鱼眼或明显三点透视",
+    "occlusion": "开放门板遮住部分内部物件，柜体压住左侧线描猫的右部，前景小物遮住柜体下沿，右侧道具压在柜体前",
+    "repetition": "柜门、隔层、照片、贴纸和小物形成系列重复，但每件内容不同",
+    "depth": {
+      "background": [
+        "nearWhiteCanvas",
+        "bottomStippleField",
+        "edgeClouds",
+        "leftMascotDoodle"
+      ],
+      "middleGround": [
+        "cabinet shell",
+        "closed doors",
+        "inside shelves and objects"
+      ],
+      "foreground": [
+        "projectingDoor",
+        "typewriter-or-equivalent prop",
+        "rightSideProp",
+        "text layers in reserved whitespace"
+      ]
+    }
+  },
+  "typography": {
+    "sharedStyleId": "dalala-cover-006-monoline-tech",
+    "skeleton": "中英双语几何单线骨架；拉丁字母以圆角矩形字腔和连续管线感为主，中文保持标准部件关系并做窄细、现代化直曲线转换",
+    "weight": "hairline-to-extra-light; stroke about 1.2%–2.2% of glyph height",
+    "tracking": "identity 1%–4% glyph width; English theme 0%–2%; Chinese title -1%–1%; qualifier 1%–3%",
+    "lineSpacing": "四个独立单行块；identity 到 English 约 2.5%H–3.5%H，English 到中文约 3%H–4.5%H，中文到副标题约 5%H–6.5%H",
+    "blockShape": "左上两级英文形成阶梯，中文主标题横贯画面，副标题在右侧收尾",
+    "effect": "单色冷调主线配极浅暖色套印偏移；不是轮廓字、空心字、霓虹或厚描边",
+    "fontDependencies": [
+      {
+        "role": "identityKicker",
+        "type": "font-style-id",
+        "id": "dalala-cover-006-monoline-tech",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "englishTheme",
+        "type": "font-style-id",
+        "id": "dalala-cover-006-monoline-tech",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "mainTitle",
+        "type": "font-style-id",
+        "id": "dalala-cover-006-monoline-tech",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "audienceQualifier",
+        "type": "font-style-id",
+        "id": "dalala-cover-006-monoline-tech",
+        "required": true,
+        "status": "testing"
+      }
+    ]
+  },
+  "colorRoles": {
+    "exactColorsLocked": false,
+    "strategy": "restrained-cool-editorial-with-micro-multicolor-details",
+    "visibleAreaBudgetPercent": {
+      "nearWhiteCanvas": [
+        70,
+        77
+      ],
+      "paleCoolSupport": [
+        14,
+        20
+      ],
+      "mediumDarkCoolStructure": [
+        4,
+        8
+      ],
+      "multicolorPersonalObjects": [
+        3,
+        6
+      ],
+      "warmRegistrationAccent": [
+        0.3,
+        1.5
+      ]
+    },
+    "temperature": "大底近中性，结构线和主体支持色偏冷；柜内允许少量暖色和多彩小物，暖色只做微弱套印或内容强调",
+    "lightness": "高明度画布占绝对主导；柜内深部和结构缝提供少量中暗值，避免全图漂白",
+    "contrastLogic": "主标题靠大字号、连续细线和空白保护获得可读性；柜体靠浅色外壳与较深内腔形成层次；小物颜色不得与主标题竞争",
+    "visibleAreaBudgetMeasurement": "各角色为目视面积预算，遮挡处可能重叠；不将区间上限相加作为像素统计或验收值"
+  },
+  "effects": {
+    "required": [
+      "single-stroke monoline typography",
+      "micro warm-color registration offset under cool text line",
+      "matte pastel 3D cabinet with soft ambient occlusion",
+      "paper-like stickers and miniature object collage",
+      "rough chalk-or-crayon cloud and mascot outlines",
+      "bottom-up density-increasing monochrome stipple field",
+      "soft contact shadow under cabinet and foreground props"
+    ],
+    "forbidden": [
+      "heavy title fill",
+      "thick outline",
+      "neon glow",
+      "long drop shadow",
+      "metallic gloss",
+      "photoreal human portrait",
+      "full-canvas texture",
+      "dark background",
+      "uniform Gaussian noise",
+      "flat icon grid replacing the cabinet"
+    ]
+  },
+  "semanticFit": {
+    "identityKickerLatinCharacters": [
+      3,
+      9
+    ],
+    "englishThemeLatinCharactersIncludingSpaces": [
+      8,
+      16
+    ],
+    "mainTitleChineseEquivalentCharacters": [
+      5,
+      7
+    ],
+    "audienceQualifierChineseEquivalentCharacters": [
+      5,
+      8
+    ],
+    "coreContainerCount": 1,
+    "internalObjectCount": [
+      6,
+      14
+    ],
+    "sidePropCount": [
+      0,
+      2
+    ],
+    "fit": [
+      "个人网站、个人品牌和作品集",
+      "技能包、工具箱和工作流",
+      "阅读清单、知识库和学习路线",
+      "产品套装、创作装备和收藏展示",
+      "可被具体物件证明的轻教程或入门主题"
+    ],
+    "reject": [
+      "强促销和紧急成交信息",
+      "必须靠真人表情建立信任的主题",
+      "长句观点或多段知识清单",
+      "无法被容器和物件系统表达的抽象议题",
+      "严肃危机、法律警示或医疗风险告知",
+      "需要满版实景照片证明的空间案例"
+    ]
+  },
+  "layoutContract": {
+    "locked": [
+      "3:4 高明度近白满版画布",
+      "上约 51% 稀疏文字与边缘云团、下约 49% 物件和纹理",
+      "四级单行文字：左上身份短签、左上英文主题、横贯中文主标题、右对齐身份副标题",
+      "左上到右下的下降对角轴",
+      "右下偏置的单一开放模块柜体及中央门板遮挡",
+      "左侧超大裁切线描角色和三处裁切云团",
+      "底部由稀到密的单色喷点场",
+      "细线字体和轻微双色套印效果"
+    ],
+    "adaptive": [
+      "四级文字的具体内容",
+      "柜体、工具箱、书架或展示台的行业语义",
+      "柜内 6–14 件真实物件",
+      "左侧线描角色的具体形象",
+      "右侧 0–2 件辅助道具",
+      "具体色值，但不得改变明度、冷暖和面积角色"
+    ],
+    "optional": [
+      "右侧辅助道具可为 0–2 件",
+      "柜内局部照片或贴纸可减少，但开放层级必须保留",
+      "暖色套印偏移可因输出工艺减弱，不能变成明显故障效果"
+    ],
+    "forbidden": [
+      "把标题换成粗黑体、大字报或多行居中",
+      "把柜体移到画面中心或铺满全宽",
+      "把左侧角色缩成完整小图标",
+      "填满受保护留白",
+      "把柜内物件替换为无主题关系的随机贴纸",
+      "用一排平面图标代替有遮挡、开门和景深的容器",
+      "锁死参考图具体色值",
+      "未经测试和用户确认改为 active"
+    ]
+  },
+  "transformationGrammar": [
+    {
+      "when": "已有一个可展示内部结构的柜体、工具箱、书架或陈列装置",
+      "level": "T1",
+      "action": "抠出主体，将柜壳校正为近正视，保留门板浅斜向透视；重排到右下 30%W–95.5%W、51.8%H–85.5%H，并保持中央开放和前景遮挡",
+      "reason": "真实容器关系比平铺图标更能承载个人档案叙事"
+    },
+    {
+      "when": "只有零散产品、工具、书籍或作品图，没有容器",
+      "level": "T2",
+      "action": "建立一个统一材质和透视的模块化容器，把 6–14 件物件按核心、证明和装饰三级放入，并生成可信隔层、门板、接触阴影",
+      "reason": "模板需要一个集中且可探索的内容系统"
+    },
+    {
+      "when": "主题是抽象技能或流程，现有素材无法直接拍成物件",
+      "level": "T3",
+      "action": "把每个抽象概念转译为可识别的行业物件、文档、设备或作品，再构建容器；禁止用通用 AI 小人代替语义转换",
+      "reason": "物件必须证明主题而不是只填满柜子"
+    },
+    {
+      "when": "任一文字超出规定长度",
+      "level": "copy-edit",
+      "action": "保留原意改写到单行长度；无法改写则拒用模板",
+      "reason": "四级阶梯字块和大留白不可为文案让位"
+    }
+  ]
+}

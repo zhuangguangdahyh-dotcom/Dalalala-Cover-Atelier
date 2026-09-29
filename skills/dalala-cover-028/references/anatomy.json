@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-028",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "756x1008 原图目测；bboxPercentXYXY 按左上原点归一，误差约正负 2 个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "registryPath": "参考封面图/dalala-cover-ref-028.jpg",
+    "width": 756,
+    "height": 1008,
+    "ratio": "3:4",
+    "sha256": "e1557294dd661f6ea6c919854f08a62bd6a673cb5972c6e4052499ff033986a1",
+    "visibleText": {"mastheadHan": "巴西", "mastheadLatin": "vlog", "mainTitle": "圣保罗", "subtitle": "世界三大跨国瀑布"}
+  },
+  "primaryMechanism": "暖白轻做旧票根纸框托住顶部巨大黑色栏目字；浅虚线以下嵌一幅占约 67% 画布的硬矩形暮色实拍；左向右飞行主体在影像中段带动视线；白色右倾地名字与细字压在暗雾区",
+  "firstFocus": "顶部黑色巴西vlog及照片中下方白色圣保罗共同形成双锚点",
+  "dominantAxis": "x约50%的栏目题头—照片—地名字—细字纵轴，机身从左向右的次动线",
+  "readingPath": ["顶部黑色栏目字", "票根虚线和照片入口", "直升机与暖色天空", "影像内白色地名字", "细字看点", "深色瀑布和山崖"],
+  "composition": {
+    "ratio": "3:4",
+    "paperApproxAreaPercent": [29, 33],
+    "photoBoxPercentXYXY": [3, 26.5, 97, 97.5],
+    "photoApproxCanvasAreaPercent": [65, 69],
+    "mastheadBandYPercent": [3, 21],
+    "dividerYPercent": [22, 23],
+    "mainTitleCenterPercent": [50, 68],
+    "subtitleCenterPercent": [50, 78],
+    "visualWeight": "顶部重黑题头和照片内亮白地名双重心；左中飞行器与右上亮天空平衡",
+    "density": "顶栏高、分隔带低、照片中段中、照片下段低"
+  },
+  "elements": [
+    {"role": "paperBackground", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "visualRank": 5, "notes": "暖浅纸、纤维斑点，照片外形成窄框及顶部栏目带"},
+    {"role": "topPerforation", "bboxPercentXYXY": [0, 0, 100, 1.5], "layer": 1, "visualRank": 7, "notes": "顶部被裁黑半圆孔列"},
+    {"role": "mastheadHanLatin", "text": "巴西vlog", "bboxPercentXYXY": [5, 4, 91, 20], "layer": 2, "visualRank": 1, "notes": "中文几何块字接粗几何小写，单行黑字；与照片同中轴但左缘不同"},
+    {"role": "sideNotches", "bboxPercentXYXY": [0, 19, 100, 25], "layer": 2, "visualRank": 7, "notes": "左右画缘的黑色半圆切口"},
+    {"role": "perforationDivider", "bboxPercentXYXY": [3, 22, 97, 23], "layer": 2, "visualRank": 6, "notes": "低对比水平虚线"},
+    {"role": "photo", "bboxPercentXYXY": [3, 26.5, 97, 97.5], "layer": 3, "visualRank": 2, "notes": "完整连续实拍、直角硬边，暖天空/暗崖/水雾瀑布"},
+    {"role": "movingSubject", "bboxPercentXYXY": [3, 40, 65, 59], "layer": 4, "visualRank": 3, "notes": "直升机朝右，机尾于左边界裁切，机头/旋翼须清楚；留在照片空间内"},
+    {"role": "mainTitle", "text": "圣保罗", "bboxPercentXYXY": [32, 63, 69, 72], "layer": 6, "visualRank": 2, "notes": "白色宽扁右倾粗展示字，短灰侧面；暗雾区单行居中"},
+    {"role": "subtitle", "text": "世界三大跨国瀑布", "bboxPercentXYXY": [28, 75, 72, 81], "layer": 7, "visualRank": 4, "notes": "细宋体式白字，单行松字距，居中"}
+  ],
+  "protectedRegions": ["照片中 x20–65%、y39–60% 的机身和旋翼", "照片上方的天空透气区", "照片下方 y82–97% 的暗瀑布", "纸框上的孔与虚线"],
+  "imageTextRelationship": "地点字和细字仅压照片中央偏下的低信息暗雾区；飞行器和瀑布不穿出照片；字体保持在照片顶层",
+  "depthAndTransformation": {"foreground": "飞行器", "midground": "瀑布水雾和山崖", "background": "暖天空与远山", "crop": "机尾左裁，照片四边硬切", "cutout": "原参考无整机画外抠图；素材不分离时可在照片内部精修", "perspective": "实拍近远关系，主体基本水平朝右", "repeat": "无"},
+  "typography": {
+    "masthead": "几何重黑中英混排，近方端点和紧字距，单行总宽约86%画宽，约16%画高",
+    "mainTitle": "白色粗重宽展中文，约10–15度右倾、紧排，单行宽约37%画宽，高约9%画高，短灰侧面约4–8原图像素",
+    "subtitle": "高对比细宋体/编辑字骨、松字距约单字宽8–15%，宽约44%画宽、高约6%画高",
+    "lineCount": "题头1行、地名1行、说明1行"
+  },
+  "colorRoles": {
+    "paper": "暖浅中性高明度，约29–33%画布",
+    "photoDark": "冷黑及暖深褐暗景，约40–50%视觉面积",
+    "photoWarmLight": "暖天空与雾光，约15–25%视觉面积",
+    "mastheadInk": "纸上重黑，约7–10%视觉面积",
+    "photoText": "照片上高亮近白，约4–7%视觉面积",
+    "policy": "保留明纸/黑题头/暗景/亮白字的明度结构和面积关系，不锁具体HEX"
+  },
+  "materialAndEffects": ["细纸纤维和轻旧印刷斑点", "半圆裁孔与低对比虚线", "真实暮色、水雾、暗崖和瀑布细节", "主标题短灰侧面/硬阴影", "细字近乎无影"],
+  "semanticFit": ["短栏目身份", "有方向性的行动主体", "同一主题的中远景真实环境", "地点/事件短名", "与画面事实相符的单行看点"],
+  "failureModes": ["顶栏缩小或折两行", "照片变圆角或拼贴", "移动主体缩成图标或变近景大头", "照片内无暗雾可读区", "地名字改普通直立黑体或长投影", "细字抢标题、增加CTA", "地名、景观和说明事实不一致", "未做真实跨行业测试就上架"]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "020 粗刷身份字｜测试态"
+  short_description: "三字横幅干刷中文的独立透明标题层"
+  default_prompt: "先看 020 原图与字体规则，按准确汉字逐字生成透明标题层；测试态，未经人审不得正式生产。"

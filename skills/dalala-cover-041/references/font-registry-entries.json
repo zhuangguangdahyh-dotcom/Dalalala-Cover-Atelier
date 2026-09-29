@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dalala-cover-041-dot-matrix",
+    "displayName": "041 圆点阵列中英数标题测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/SKILL.md",
+    "config": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/references/style.json",
+    "humanRules": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-dot-matrix/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-041/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-041-editorial-support",
+    "displayName": "041 中文利益句与微型英文编辑字测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/SKILL.md",
+    "config": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/references/style.json",
+    "humanRules": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-041/fonts/dalala-font-cover-041-editorial-support/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-041/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "transparent-text-layer"
+  }
+]

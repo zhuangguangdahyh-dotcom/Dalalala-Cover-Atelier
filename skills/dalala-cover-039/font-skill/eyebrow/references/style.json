@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-039-thin-tech",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../assets/reference-original.jpg",
+  "identityCore": "single-line-lightweight-near-monoline-han-latin-tech-caption",
+  "script": "Han and Latin mixed",
+  "base": "clean-light-sans",
+  "strokeWeight": "light-near-monoline",
+  "fill": "high-lightness-neutral-solid",
+  "tracking": "slightly-loose",
+  "lineCount": 1,
+  "widthPercent": [75, 80],
+  "heightPercent": [7, 10],
+  "forbidden": ["bold-weight", "outlined-effect", "glow", "serif", "handwriting", "second-line"],
+  "renderer": "font-or-transparent-text-layer",
+  "qa": "vitality-qa.md"
+}

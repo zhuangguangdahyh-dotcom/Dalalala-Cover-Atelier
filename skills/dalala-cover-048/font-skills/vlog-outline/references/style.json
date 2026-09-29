@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-048-vlog-outline",
+  "version": "0.1.0",
+  "status": "testing",
+  "source": "skills/dalala-cover-048/assets/reference-original.jpg",
+  "usage": "one-line-short-category-title",
+  "letterform": "ultra-heavy rounded geometric sans, broad caps, compact counters, close tracking, stable baseline",
+  "fillRole": "high-value solid light neutral",
+  "outlineRole": "near-black hard outer contour, approximately 5–7% of glyph height",
+  "offset": "optional right-down hard rim, approximately 1–2% of glyph height",
+  "allowedLength": "3–6 compact Latin capitals or visually equivalent 2–4 Chinese characters after separate proof",
+  "canvasTitleBoxPercent": [5, 41, 52, 52],
+  "forbidden": ["thin font", "brush script", "hollow letters", "soft glow", "gradient fill", "neon", "multiple title lines", "independent random glyph rotations"]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-057",
+  "displayName": "参考封面 057（待确认）",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "analysis": "references/analysis.md",
+  "anatomy": "references/anatomy.json",
+  "adaptationRules": "references/adaptation-rules.md",
+  "sourceSha256": "28b18c14235efc2e2ca0b8f1c787a690352e7d2150c8d90f4d39a153e47139d0",
+  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedAspectRatios": ["3:4"],
+  "titleLength": {"lines": 2, "chineseCharactersPerLine": [3, 5], "preferredCharactersPerLine": 4},
+  "subjectTypes": ["real half-body person facing drawn guide and holding small evidence object", "large white-filled drawn guide", "small real object", "lower drawn scenario with some real details"],
+  "contentMoods": ["playful instruction", "cross-era conversation", "practical knowledge made visible"],
+  "firstVisualFocus": "upper-left two-line headline followed by large photo/drawing contrast",
+  "spatialSkeleton": "two-line thin black title over light wall; real learner bottom-left; oversized white drawn guide at right pointing to held object; line-drawn scenario across bottom foreground",
+  "readingPath": ["headline", "drawn guide face", "guide finger", "held evidence object and real person's face", "foreground scenario"],
+  "imageTextRelationship": "headline states who teaches what; the two characters enact the claim while the held object and drawn scenario make it concrete",
+  "locked": ["3:4 portrait", "two-line left-aligned upper-left title", "real half-body person at lower-left facing right", "large white-filled drawn guide occupying right side with directed finger", "small real object at the finger target", "bottom white-filled drawn scenario with interlaced real details", "light title field against darker right photo field", "photo-versus-drawing contrast and fixed reading path"],
+  "adaptive": ["real person's identity, expression and clothing within gaze/gesture limits", "drawn guide's identity and clothing within position and pointing limits", "theme-specific small object and lower scenario", "headline words within fixed two-line structure", "specific color values within luminance-area relationship", "room details retaining text field and drawn-figure contrast"],
+  "optional": ["small scene details inside the lower drawn container", "subtle natural photo texture"],
+  "forbidden": ["drawn guide as small sticker", "generic AI child or mascot by default", "finger disconnected from held object", "extra subtitle or information card in title field", "flat side-by-side split with no overlap", "ordinary font fallback", "all-cartoon rendering", "foreground house/scenario floating with no tabletop contact", "copying the original old-person/tree/house story into an unrelated industry"],
+  "variableContract": {
+    "person": "real identity may change but face stays roughly x18-47%, y34-58%; guide identity may change but remains white-filled oversized right-side figure, leaning and pointing to object",
+    "text": "wording may change but remains two left-aligned black lines, preferably four Han characters each, x1-44%, y6-24%, second line slightly larger",
+    "product": "held evidence object and lower scenario may change to industry-specific objects; preserve small object at finger target, foreground scenario scale, edge interlacing and causal relationship",
+    "color": "exact hues may change; preserve pale neutral title field, warmer/mid-dark photo backboard, brightest large white drawing and darkest title/outline"
+  },
+  "invariantContract": {
+    "layout": "headline x1-44%, y6-24%; real face x18-47%, y34-58%; guide x55-100%, y7-84%; held object x51-66%, y50-72%; drawn scenario x14-60%, y69-89%; quiet lower 9-12%",
+    "visualMass": "guide largest shape at right; real person about 30-38% perceived weight; visible title area 13-17%; drawing fill about 18-25%; bottom scenario bridges both halves",
+    "specialEffects": "solid white hand-drawn guide and lower scenario with variable near-black outlines; real held object and some real foreground details cross drawing boundaries; clean photo/drawing hard-edge collage without thick shadow"
+  },
+  "materialTransformation": [
+    {"level": "required", "action": "diagnose and position a real person with visible face, rightward gaze, hand and small object", "trigger": "every new theme"},
+    {"level": "required", "action": "create oversized white-filled hand-drawn guide pointing to the real object", "trigger": "every new theme"},
+    {"level": "required", "action": "create theme-specific lower perspective scenario with selected real details crossing its boundary", "trigger": "every new theme"},
+    {"level": "conditional", "action": "reshoot or identity-preserving pose reconstruction", "trigger": "person lacks gaze, intact hand or believable held object"},
+    {"level": "conditional", "action": "local background extension and repair", "trigger": "title field cluttered or right photo field too bright for white guide"}
+  ],
+  "fontDependencies": [
+    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-057-fine-angular-han", "required": true, "status": "testing"}
+  ],
+  "fontRegistryEntries": "references/font-registry-entries.json",
+  "testedCases": [],
+  "thumbnailChecks": [],
+  "userAcceptance": null,
+  "renderAllowed": false
+}

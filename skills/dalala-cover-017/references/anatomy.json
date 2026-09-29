@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-017",
+  "source": "../assets/reference-original.jpg",
+  "sourceDimensions": {"width": 1242, "height": 1657, "ratio": "3:4"},
+  "coordinateSystem": "left-top origin; bboxPercentXYXY measured against full width/height; visual estimate tolerance ±2–3 percentage points",
+  "sourceTitle": "故乡是远行的力量",
+  "firstFocus": "白色五级行写主句跨越雾天空与草坡；小行人验证远行尺度",
+  "primaryMechanism": "真实远景和小尺度行人 → 五段情绪结论 → 竖文／英文补义 → 小印与地点收束",
+  "dominantAxis": "vertical x≈49%; rising terrain from left y≈65% to right y≈43% supplies secondary diagonal",
+  "readingPath": ["故乡", "是", "远行", "的", "力量", "左侧三列竖文与英文", "右侧红印", "右下地点尾注"],
+  "imageTextRelationship": "标题写在同一张纪实风景上，环境与小人物证明标题语义；无框图拼贴和独立人物抠图",
+  "bandsPercentY": {"titleStart": [15, 30], "titleMiddle": [33, 69], "titleEnd": [69, 86], "landscapeTransition": [43, 65], "footer": [94, 99]},
+  "regions": [
+    {"role": "fullBleedLandscape", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "meaning": "低饱和薄雾天空、远山与斜坡草地，单幅纪实摄影"},
+    {"role": "smallTravelers", "bboxPercentXYXY": [12, 60, 76, 83], "layer": 0, "countEstimate": [3, 4], "meaning": "行进与空间尺度的事实主体，单人高度约画高 8–13%"},
+    {"role": "verticalProse", "bboxPercentXYXY": [6, 5, 18, 46], "layer": 1, "columns": 3, "direction": "right-to-left", "meaning": "迁徙、土地记忆、归路三列诗性说明"},
+    {"role": "mainTitle", "bboxPercentXYXY": [29, 15, 68, 86], "layer": 3, "groups": ["故乡", "是", "远行", "的", "力量"], "groupShape": "2-1-2-1-2", "meaning": "第一视觉焦点，宽窄交替的白色书写主句"},
+    {"role": "englishEcho", "bboxPercentXYXY": [33, 28, 52, 38], "layer": 2, "lines": 5, "meaning": "小号旧式衬线大写的概念回声"},
+    {"role": "singleSeal", "bboxPercentXYXY": [63, 39, 71, 45], "layer": 4, "count": 1, "meaning": "极小暖色线刻印记，中文书写旁的停顿"},
+    {"role": "footerLine", "bboxPercentXYXY": [71, 96, 82, 97], "layer": 2, "meaning": "右下尾注前的细横线"},
+    {"role": "footerPlace", "bboxPercentXYXY": [82, 94, 95, 99], "layer": 2, "meaning": "原图地点“梁州”，仅作为位置与文字角色证据"}
+  ],
+  "protectedWhitespace": ["right upper mist x≈72–96%, y≈5–39%", "gap between left prose and title x≈18–29%", "sky surrounding top title not filled by added badges"],
+  "textHierarchy": {"mainTitle": "five staggered Chinese groups, brush-like running script, near-solid high-lightness fill", "verticalProse": "three slender vertical Song-like columns", "englishEcho": "five left-aligned upper-case old-style serif lines", "footerPlace": "small literary Han place label with hairline lead-in"},
+  "colorRoles": {"landOrPathAreaPercent": [55, 60], "mistAndDistantAreaPercent": [40, 45], "primaryText": "single high-lightness neutral", "secondaryText": "same hue family at lower visual weight", "accent": "single tiny warm seal, less than 1% of canvas", "logic": "muted environment, high-lightness letters, one small warm point; exact HEX unlocked"},
+  "layerOrder": ["single photograph and local tonal adjustments", "vertical prose", "English echo", "transparent main brush title", "single seal", "footer line and place"],
+  "effects": ["real atmospheric haze and softened distance", "subtle local tonal adjustment under bright-sky letters if required", "intrinsic brush-edge irregularity", "small engraved-line seal", "hairline footer rule"],
+  "constraints": {"canvasRatio": "3:4", "mainTitleGroupCount": 5, "mainTitleCharacterShape": "2-1-2-1-2 or weight-equivalent", "mainTitleChineseCharactersRecommended": [7, 9], "mainTitleBboxPercentXYXY": [29, 15, 68, 86], "verticalProseColumns": 3, "englishLines": 5, "sealCount": 1, "smallSubjectHeightPercent": [8, 13], "mainTitleOutline": "none", "mainTitleShadow": "none"}
+}

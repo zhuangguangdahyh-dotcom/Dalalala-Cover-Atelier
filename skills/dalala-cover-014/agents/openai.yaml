@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 014"
+  short_description: "纸面手写字、横置手机与双层结果词的受控复刻"
+  default_prompt: "Use $dalala-cover-014 to prepare a structure-locked replication plan for the supplied topic."

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "ruleId": "layout-191",
+  "analysisStatus": "verified",
+  "reviewedReference": "../references/source-thumbnails/191.jpg",
+  "observedTitle": "蒙太奇版式",
+  "referenceContentMap": {
+    "primarySubject": "右半部相互遮叠的多张纸片、图像卡与引语纸",
+    "mainTitle": "左上超大标题",
+    "subtitle": "标题下方暗红英文名和短横线",
+    "supportingInformation": "左侧六条原理说明与底部总结",
+    "decorations": "撕纸边、胶带、网格、曲线、点阵和越界色块",
+    "protectedWhitespace": "左侧标题与条目区的浅色阅读场，以及右侧碎片之间的层间缝隙"
+  },
+  "coverTranslation": {
+    "templateFamily": "editorial-narrative",
+    "subjectRole": "把素材拆成主图、局部、文字证据与纹理层",
+    "mainTitleRole": "标题可压住一层纸片或被前景局部遮挡",
+    "subtitleRole": "只补充标题缺失的语境，并依附同一对齐系统。",
+    "decorationZones": [
+      "撕纸边、胶带、网格、曲线、点阵和越界色块"
+    ],
+    "decorationLimits": "拿掉装饰后，主骨架、主体与标题关系仍必须成立。",
+    "protectedRegions": [
+      "左侧标题与条目区的浅色阅读场，以及右侧碎片之间的层间缝隙",
+      "身份与事实锚点"
+    ],
+    "defaultReadingPath": "标题建立主题，视线进入最大碎片，再通过遮挡和方向跳转到证据与引语。",
+    "assetOperations": [
+      "把素材拆成主图、局部、文字证据与纹理层",
+      "用真实遮挡建立前中后景",
+      "让一个碎片明显最大并承担主题"
+    ]
+  }
+}

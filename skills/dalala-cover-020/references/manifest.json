@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-020",
+  "displayName": "参考 020",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "b82ef0bf-9792-430d-aca5-6fb3658f73a6",
+  "analysisReport": "skills/dalala-cover-020/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-020.jpg",
+  "referenceSha256": "8b0a5b5bb829c9b80820634531715f5a1cc5932b6d2f2d925d60fed5c796cc63",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainHanRecommended": 4,
+    "mainHanSourceCount": 4,
+    "seriesMicroHanSourceCount": 5,
+    "latinLines": 2,
+    "scaleRhythm": [
+      "large",
+      "small",
+      "large",
+      "small"
+    ]
+  },
+  "subjectTypes": [
+    "当前主题相关单人正视近景",
+    "真实手势夹持主题小物"
+  ],
+  "contentEmotions": [
+    "纪实",
+    "探索",
+    "职业现场",
+    "人物力量"
+  ],
+  "firstFocus": "上方横贯画布的四字大小交替干刷主题",
+  "spatialStructure": [
+    "3:4连续暗场摄影",
+    "四字大小交替巨幅横带与长锋",
+    "顶部五槽微文",
+    "字下右齐两行小衬线",
+    "下部主题相关正视近景",
+    "左侧手持小物证"
+  ],
+  "readingPath": [
+    "四字粗刷主题",
+    "下部头部与双眼",
+    "左侧手持小物证",
+    "两行英文短释",
+    "顶部系列微文"
+  ],
+  "imageTextRelationship": "字为独立平面透明层叠在完整纪实照片之前；主标题与头灯之间留空气，不靠人物蒙版穿字",
+  "locked": [
+    "四字大小交替横带",
+    "两行右齐小衬线",
+    "顶部五槽微文",
+    "居中正视近景与左侧小物",
+    "连续暗摄影与高明度字"
+  ],
+  "adaptive": [
+    "人物身份面貌服饰及完整露面",
+    "语义自洽文案",
+    "主题相关真实物件",
+    "具体环境与色值"
+  ],
+  "optional": [
+    "背景中自然存在的轻微失焦光斑",
+    "职业环境中真实存在的次要纹理"
+  ],
+  "forbidden": [
+    "主题无关仍出矿工",
+    "强制头灯或蒙脸",
+    "三字标题或四格等大",
+    "英文居中或移底",
+    "普通字体加统一噪声",
+    "眼睛或手物关系错误",
+    "物证变产品主图",
+    "亮背景吞字或锁死蓝金色值",
+    "未经测试确认发布active"
+  ],
+  "variableContract": {
+    "person": "当前用户主题决定身份、服饰和表情，保留居中直视近景及双眼可读；可完整露面，不继承矿工装备或黑巾。",
+    "text": "准确四字主题，大小交替单横带；英文两行右齐短释；顶部五槽微文。",
+    "product": "主题相关真实小物由左手夹持，宽4–6%W、高9–12%H，不强制金色或金块。",
+    "palette": "具体色值可变；大面积低明度冷／中性环境、高明度大字、小面积暖亮证据的关系固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "主字x3–96%,y3–35%",
+      "眼线65–70%H",
+      "物证x19–25%,y65–76%",
+      "大字主体比小字约1.5–2倍"
+    ],
+    "effects": [
+      "四字干刷大小交替与长锋",
+      "统一摄影透视、颗粒及接触光影",
+      "无人物穿字",
+      "无厚描边、发光、挤出"
+    ],
+    "sourceOnly": [
+      "矿工身份",
+      "头灯",
+      "金块",
+      "黑巾遮鼻口"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T0–T1 优先；T2 仅在接触和光影可保真时",
+    "triggers": [
+      "顶部无低细节暗背景时换角度或扩背景",
+      "人物不适合 3:4 时换素材",
+      "物证不清或接触错误时重拍／保真修复"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitleHan",
+      "type": "font-style-id",
+      "id": "dalala-cover-020-miner-brush",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "seriesMicrocopy",
+      "type": "font-class",
+      "id": "fine-song-serif-chinese",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitleLatin",
+      "type": "font-class",
+      "id": "old-style-contrast-serif-latin",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "previousJobId": "087c3bb3-a2fd-43e8-a8cf-a3d4d283984a",
+  "archivedAnnotatedReference": "../assets/reference-annotated.jpg",
+  "annotationNote": "旧标注存档，尚未按四字与行业语义修订，当前不作为执行依据"
+}

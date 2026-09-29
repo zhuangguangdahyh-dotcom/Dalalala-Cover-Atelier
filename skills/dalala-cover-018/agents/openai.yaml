@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 018 封面测试规则"
+  short_description: "上方巨字、中央动态近景和下方中英长条的受控拆解"
+  default_prompt: "先看参考原图与 anatomy.json，核对当前状态；仅在拆解确认和受控测试条件满足后按规则适配素材。"

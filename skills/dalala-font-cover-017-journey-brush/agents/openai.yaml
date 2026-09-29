@@ -1,0 +1,4 @@
+interface:
+  display_name: "017 远行行写字"
+  short_description: "五级行写中文标题测试依赖"
+  default_prompt: "先看 017 原参考并读字体规则；只生成独立透明字层，逐字校验。"

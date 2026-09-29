@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 007（待确认）"
+  short_description: "暗场异常现象、前景动作与越界圆形特写的 3:4 封面"
+  default_prompt: "先读参考 007 的 anatomy.json、adaptation-rules.md 和 manifest.json；当前仅拆解待确认，不得作为 active 生产模板。"

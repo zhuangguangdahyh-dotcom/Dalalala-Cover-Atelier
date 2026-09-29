@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-008-casual-hand",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-008/assets/reference-original.jpg",
+  "roles": ["topHook", "reactionAside", "mainTitle"],
+  "variants": {
+    "fine": {"construction": "round-tip casual handwriting, near monoline, slight stroke pressure variation", "strokeWidthRatioToGlyphWidth": [0.045, 0.095], "fill": "solid", "texture": "clean", "scripts": ["Han", "Latin", "Arabic numerals", "punctuation"]},
+    "display": {"construction": "same handwriting gesture enlarged with broad round-tip marker-like solid strokes", "strokeWidthRatioToGlyphWidth": [0.11, 0.19], "fill": "solid", "texture": "clean", "counter": "open", "scripts": ["Han", "Arabic numerals", "punctuation"]}
+  },
+  "requiredInputs": ["text", "variant", "canvasWidth", "canvasHeight", "glyphBoxes", "textColor"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "shadowBakedIntoGlyph": false,
+  "productionApproved": false,
+  "forbidden": ["regular rounded font substitution", "uniform computer baseline", "chalk grain", "brush dry holes", "hollow letters", "all-around outline", "blurred shadow", "wrong Chinese character", "pseudo-Latin glyph"]
+}

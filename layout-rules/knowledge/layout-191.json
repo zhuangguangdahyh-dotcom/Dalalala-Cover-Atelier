@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "ruleId": "layout-191",
+  "name": "蒙太奇版式",
+  "category": "平面、出版与广告",
+  "subcategory": "表现型版式与出版功能页",
+  "learningStatus": "studied",
+  "learningMethod": "pinned-original-reference + full-size-visual-review + cross-media-distillation",
+  "sourceEvidence": {
+    "repositoryCommit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "originalImagePath": "v2/images/04-type-grid-cjk/191-路径文字.png",
+    "localReference": "../references/source-thumbnails/191.jpg",
+    "mappingRequirement": "visible title is authoritative; the unreliable upstream filename claim is retained for audit only",
+    "upstreamCatalogClaim": {
+      "name": "路径文字",
+      "category": "字体、网格与东亚文字",
+      "subcategory": "对齐、缩进与文字造型",
+      "matchesVisibleTitle": false
+    }
+  },
+  "purpose": "把标题、图片、说明和品牌信息组织成稳定的编辑版面",
+  "principle": {
+    "whyItWorks": "用大小、方向、材质和遮挡不同的碎片形成有主次的叙事组，层间关系比碎片数量更重要。",
+    "visualMechanism": "用大小、方向、材质和遮挡不同的碎片形成有主次的叙事组，层间关系比碎片数量更重要。",
+    "readingMotion": "标题建立主题，视线进入最大碎片，再通过遮挡和方向跳转到证据与引语。",
+    "emotionalEffect": "清楚、稳定、有控制力",
+    "whenToUse": [
+      "人物故事、事件回顾、案例证据、文化情绪或多来源素材",
+      "需要手作、档案或记忆感"
+    ],
+    "avoidWhen": [
+      "只有一张素材且无法创造有效细节",
+      "严肃证据不能被装饰性撕裂或遮挡"
+    ]
+  },
+  "contentAnatomy": {
+    "primarySubject": {
+      "role": "第一视觉焦点和主题载体",
+      "placement": "右半部相互遮叠的多张纸片、图像卡与引语纸"
+    },
+    "mainTitle": {
+      "role": "建立入口与核心判断",
+      "placement": "左上超大标题",
+      "recommendedLines": "按语义和参考轮廓决定"
+    },
+    "subtitle": {
+      "role": "补充语境",
+      "placement": "标题下方暗红英文名和短横线"
+    },
+    "supportingInfo": {
+      "role": "证据、解释或行动",
+      "placement": "左侧六条原理说明与底部总结"
+    },
+    "decoration": {
+      "role": "强化结构、方向或材质",
+      "placement": "撕纸边、胶带、网格、曲线、点阵和越界色块"
+    },
+    "protectedWhitespace": "左侧标题与条目区的浅色阅读场，以及右侧碎片之间的层间缝隙",
+    "readingPath": "标题建立主题，视线进入最大碎片，再通过遮挡和方向跳转到证据与引语。"
+  },
+  "contentFit": {
+    "idealThemes": [
+      "人物故事、事件回顾、案例证据、文化情绪或多来源素材",
+      "需要手作、档案或记忆感"
+    ],
+    "suitableAssets": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "platformNotes": {
+      "3:4": "默认竖版；优先保留上下阅读推进和人物完整轮廓。",
+      "4:3": "横版重建左右关系，不得把竖版直接拉伸。",
+      "16:9": "横向留白增加，主体与标题可分居两端，但焦点仍只能有一个。"
+    },
+    "unsuitedContent": [
+      "只有一张素材且无法创造有效细节",
+      "严肃证据不能被装饰性撕裂或遮挡"
+    ]
+  },
+  "assetAdaptation": {
+    "mustPreserve": [
+      "人物脸、眼神、动作或产品关键结构",
+      "与主题直接相关的环境证据"
+    ],
+    "weakenOrRemove": [
+      "无关杂物、抢眼高光、背景文字、水印和重复信息"
+    ],
+    "cropAndReposition": "先锁定身份或事实锚点，再按该规则主动改变景别、裁切、位置、层间关系与可见范围。",
+    "cutoutWhen": "当原背景无法提供标题安全区、主体位置与规则冲突，或需要跨层遮挡时抠出主体。",
+    "changeBackgroundWhen": "当背景杂乱、方向错误、色彩抢夺主标题或无法建立规则所需空场时更换或重绘。",
+    "effectsWhen": "只有能强化该规则的主骨架、阅读动作或主题隐喻时使用。"
+  },
+  "textStrategy": {
+    "mainTitleScale": "主标题约为副标题的 2.2–3.5 倍，关键词可再放大 15%–35%",
+    "placement": "标题可压住一层纸片或被前景局部遮挡；字块需像素材的一部分，不能浮在拼贴上方",
+    "emphasisLogic": "只突出能改变点击判断的对象、冲突、数字或结果词。",
+    "subtitleRule": "副标题只解释主标题缺失的上下文，保持低对比并贴近所属信息组。",
+    "legibilityGate": "360 px 缩略图仍能识别标题、第一焦点与主阅读方向。"
+  },
+  "selectionSignals": [
+    "人物故事、事件回顾、案例证据、文化情绪或多来源素材",
+    "需要手作、档案或记忆感",
+    "拿掉胶带和纹理后，碎片的大小、遮挡和信息顺序是否仍然成立？"
+  ],
+  "rejectionSignals": [
+    "随机堆纸片和胶带",
+    "所有碎片同尺寸",
+    "只有复古纹理，没有叙事关系"
+  ],
+  "layoutContract": {
+    "locked": [
+      "以 editorial-narrative 作为唯一主骨架。",
+      "保持阅读动作：标题建立主题，视线进入最大碎片，再通过遮挡和方向跳转到证据与引语。",
+      "保持参考中的主次重量、关键对齐、受保护留白和图文关系。"
+    ],
+    "adaptive": [
+      "当前标题、语义分组和信息数量",
+      "素材裁切、景别、位置、遮挡与背景",
+      "独立选择的字体风格",
+      "按当前内容重新建立的颜色角色与色值",
+      "目标媒介和画幅的独立重构"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "qa": {
+    "hardGates": [
+      "来源编号、名称和画面标题一致",
+      "输出中可辨认该规则的空间骨架",
+      "主体、主标题、副标题和装饰层级明确",
+      "素材经过构图需要的裁切、抠图、弱化或重绘决策",
+      "平台比例通过独立重排获得，未拉伸旧画布",
+      "360 px 缩略图可读"
+    ],
+    "reviewQuestion": "遮住规则名称后，是否仍能从主体、标题和留白关系判断这是“蒙太奇版式”？"
+  },
+  "deepStudyStatus": "deep-studied",
+  "transformationGrammar": {
+    "minimumTransformationLevel": "T3",
+    "identityAnchors": [
+      "人物脸与真实表情",
+      "产品关键结构",
+      "事实与数据证据"
+    ],
+    "compositionFreedoms": [
+      "把素材拆成主图、局部、文字证据与纹理层",
+      "用真实遮挡建立前中后景",
+      "让一个碎片明显最大并承担主题"
+    ],
+    "imageRebuildActions": [
+      "把素材拆成主图、局部、文字证据与纹理层",
+      "用真实遮挡建立前中后景",
+      "让一个碎片明显最大并承担主题"
+    ],
+    "titleInteraction": [
+      "标题可压住一层纸片或被前景局部遮挡",
+      "字块需像素材的一部分，不能浮在拼贴上方"
+    ],
+    "topicMetaphorExample": "复杂心理或回忆主题可把同一人物拆成表情、手势、场景与一句原话，让碎片关系形成叙事。"
+  },
+  "semanticFit": {
+    "templateFamily": "editorial-narrative",
+    "bestFor": [
+      "人物故事、事件回顾、案例证据、文化情绪或多来源素材",
+      "需要手作、档案或记忆感"
+    ],
+    "avoidFor": [
+      "只有一张素材且无法创造有效细节",
+      "严肃证据不能被装饰性撕裂或遮挡"
+    ],
+    "selectionQuestion": "拿掉胶带和纹理后，碎片的大小、遮挡和信息顺序是否仍然成立？"
+  },
+  "failureModes": [
+    "随机堆纸片和胶带",
+    "所有碎片同尺寸",
+    "只有复古纹理，没有叙事关系"
+  ]
+}

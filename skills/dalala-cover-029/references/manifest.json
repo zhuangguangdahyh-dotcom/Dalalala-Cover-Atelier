@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-029",
+  "displayName": "参考 029",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "2670eb00-c7b7-4142-974c-c6d0f9669b19",
+  "analysisReport": "skills/dalala-cover-029/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-029.jpg",
+  "referenceSha256": "5d3224f059602458a0bc106d8e91e77c7b29137d5ca40be243ff975730e8b23e",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": "四字单行；3或5字仅为未验证试验，非已支持规格",
+  "subjectTypes": [
+    "腰部以上单一真人中景",
+    "与主题有关的小道具或明确手势",
+    "真实但压暗的场所"
+  ],
+  "contentEmotions": [
+    "人物观点",
+    "轻松口播",
+    "现场体验",
+    "鲜明情绪判断"
+  ],
+  "firstFocus": "顶部几乎满宽的白色手作字",
+  "spatialStructure": [
+    "3:4 满版暗场连续实拍",
+    "顶部单行超大手作白字",
+    "中央人脸、手和主题小物",
+    "两段开放手绘动线从两侧负空间围拢人物，路径按内容重画",
+    "右中与左下少量浅色点缀"
+  ],
+  "readingPath": [
+    "白色主标题",
+    "人物眼睛和表情",
+    "手持物",
+    "蓝色轨迹与两枚小点缀",
+    "回到人物"
+  ],
+  "imageTextRelationship": "白字为独立前景层，少量压帽顶但不盖眉眼；曲线位于更前方的中下区，与标题不相交，按新照片重画。",
+  "locked": [
+    "单幅满版暗场真人实拍",
+    "顶部单行巨型白色不规则手作字",
+    "中央脸—手—道具动作链",
+    "两段分离、开放、收尖、同色的手绘粗曲线及小面积浅色点缀的视觉职责",
+    "无副标题、CTA 或额外信息牌",
+    "暗场、亮字、人物、运动线的明度层级"
+  ],
+  "adaptive": [
+    "真人身份、服装与动作",
+    "主题相关的小道具或手势",
+    "四字标题内容",
+    "真实场所和具体色值",
+    "曲线的曲率、端点与局部遮挡：根据新主体和负空间重画，不描摹原图"
+  ],
+  "optional": [
+    "背景局部降噪和压暗",
+    "轻微实拍颗粒"
+  ],
+  "forbidden": [
+    "普通黑体静默替换",
+    "双行长标题或新增副标题",
+    "人物脸被遮挡",
+    "纯色海报背景",
+    "无关 AI 人物或道具",
+    "未经测试与用户验收上架",
+    "帽子或人物修复层反盖白色笔画",
+    "曲线描摹原图精确路径、闭合成规整椭圆或随意增加第三段",
+    "曲线穿脸、道具或标题",
+    "为复制原图而强造曲线与圆点相交"
+  ],
+  "variableContract": {
+    "person": "身份可变，中心中近景、脸部落点与面积不变",
+    "text": "语义可变，单行巨字、宽高与手工字形不变",
+    "product": "小道具可变，仍与手和主题有真实关联，处于嘴前至胸前",
+    "palette": "色值可变，暗底亮字、冷或对比轨迹与浅点缀的面积和明度结构不变"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "标题 x4–96/y7–33，四字单行",
+      "人物脸中心约 x48/y43、眼线 y38–40",
+      "曲线主要位于左右 y42–75 的中下负空间；两段间保留 10–22% 画宽开放缺口，路径可变",
+      "互斥着色面积参考：暗 60–68/人物中亮 17–24/字 11–15/曲线 2–4/点缀 0.5–1.5，归一化"
+    ],
+    "effects": [
+      "两段开放、粗细起伏、端部收尖的手绘运动线；每次按主体重画曲率和端点",
+      "右中小面积实心点与左下空心四角星",
+      "柔边暗场实拍",
+      "白字在照片与帽顶前，脸、道具和文字均为曲线避让区"
+    ]
+  },
+  "assetTransformation": {
+    "level": "优先 T0 实拍裁切和控光；不足时 T1 背景清理／同透视扩图",
+    "triggers": [
+      "顶部无标题暗区时扩图或换素材",
+      "背景杂物争夺注意时局部压暗",
+      "人物缺失清楚手部动作时换素材或重新拍摄"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-029-handcut-white",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "sourceLinePolicy": "原图曲线位置与形状仅作为解剖证据，不作为生产路径；保持样式、色彩角色、双段开放结构和视觉引导。"
+}

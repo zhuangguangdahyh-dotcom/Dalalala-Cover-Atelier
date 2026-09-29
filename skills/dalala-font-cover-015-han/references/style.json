@@ -1,0 +1,17 @@
+{
+  "id": "dalala-cover-015-han",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../../skills/dalala-cover-015/assets/reference-original.jpg",
+  "script": "Han",
+  "role": "mainChinese",
+  "stroke": "extra-heavy squared display skeleton with deliberate broad horizontal and vertical masses; open counters and sharply cut corners",
+  "width": "wide display; optical width is achieved through individual glyph drawing, not mechanical horizontal stretch",
+  "trackingEm": [-0.05, 0.02],
+  "baseline": "single near-level row; slight per-character hand-cut variation but no bouncing layout",
+  "texture": "irregular small-to-medium chipped ink voids inside the fill, uneven density, structural strokes remain intact",
+  "fillRole": "strong saturated accent chosen for current palette, not locked to source red",
+  "edges": "mostly hard planar edges with a few rough chips, no fuzzy paint brush perimeter",
+  "shadow": "none or very shallow local separation only if photo requires it",
+  "forbidden": ["ordinary bold sans with uniform speckles", "rounded cartoon terminals", "hollow outline", "script or calligraphy", "photocopier noise across the whole image", "mechanical squash", "new line to fit a long title", "unreadable broken Han structure"]
+}

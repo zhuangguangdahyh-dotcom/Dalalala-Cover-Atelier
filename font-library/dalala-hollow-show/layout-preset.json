@@ -1,0 +1,22 @@
+{
+  "presetId": "dalala-hollow-show-alive",
+  "fontId": "dalala-hollow-show",
+  "version": "0.2.0",
+  "description": "Recreates the approved sample through per-glyph scale, rotation, baseline and spacing changes.",
+  "defaults": {
+    "baselineShiftEm": [-55, 55],
+    "rotationDegrees": [-5, 5],
+    "scale": [0.86, 1.18],
+    "trackingFactor": [0.68, 0.96],
+    "allowSelectedOverlap": true,
+    "deterministicSeed": "coverId + text + fontVersion"
+  },
+  "rhythmRules": [
+    "Do not give adjacent glyphs the same scale and rotation direction.",
+    "Choose one or two hero glyphs per line and enlarge them by 12 to 25 percent.",
+    "Let one selected long stroke visually push into the next glyph's spacing.",
+    "Keep at least one quieter glyph between two high-energy glyphs.",
+    "Punctuation may shrink and sink below the baseline."
+  ]
+}
+

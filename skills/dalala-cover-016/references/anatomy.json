@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-016",
+  "source": "../assets/reference-original.jpg",
+  "sourceDimensions": {"width": 2022, "height": 2696, "ratio": "3:4"},
+  "coordinateSystem": "canvas upper-left 0,0; bboxPercentXYXY in percent of full width/height; estimated visually ±2–3 percentage points unless stated",
+  "firstFocus": "粉色超宽网页姓名、中央开脑洞的人脸和下方硬矩形编辑框构成双层成果叙事",
+  "primaryMechanism": "量化承诺→成果网页与创意脑洞→齐平四联证据→中文方法与结论",
+  "dominantAxis": "vertical center x≈50%; upper masthead and four cards extend horizontally",
+  "primaryFocus": "upper hero face and pink masthead; second focus is the Chinese selected keyword",
+  "readingPath": ["top three metrics", "large site masthead", "eye gaze→torn-open creative objects", "four aligned site evidence cards", "small Chinese method", "single-line Chinese result with selected center word", "weak English footer"],
+  "bandsPercentY": {"metricHeader": [7, 12], "heroSite": [15.2, 55.6], "fourEvidenceCards": [56.5, 65.5], "protectedBreathingRoom": [66, 72.5], "conclusion": [72.8, 87.2], "footer": [89.5, 94]},
+  "regions": [
+    {"role": "paperBackground", "bboxPercentXYXY": [0, 0, 100, 100], "layer": 0, "meaning": "浅色低对比褶皱纸承托所有分带"},
+    {"role": "topMetricTriptych", "bboxPercentXYXY": [7, 7, 93, 12], "layer": 1, "meaning": "三组门槛／时间／成果数据，左中右分散"},
+    {"role": "siteHeroPanel", "bboxPercentXYXY": [6.8, 15.2, 93.2, 55.6], "layer": 2, "meaning": "低明度圆角网站主屏，占上段主体面积"},
+    {"role": "heroName", "bboxPercentXYXY": [9, 17.2, 91, 29.4], "layer": 3, "meaning": "网站内姓名／品牌标志，粗重中高明度强调色"},
+    {"role": "creativeObjectCloud", "bboxPercentXYXY": [27, 20, 76, 39], "layer": 4, "meaning": "由撕口冒出的主题工具、作品和想法；局部可压姓名"},
+    {"role": "tornOpening", "bboxPercentXYXY": [26, 34.5, 77, 39], "layer": 6, "meaning": "头顶不规则白边、短接触影使脑洞可见"},
+    {"role": "faceCrop", "bboxPercentXYXY": [26, 35, 77, 55.7], "layer": 5, "meaning": "中央正脸向上看的眼睛，脸下方被网站边界截断"},
+    {"role": "evidenceFourCards", "bboxPercentXYXY": [6.8, 56.5, 93.2, 65.5], "layer": 7, "count": 4, "cardWidthPercent": [20, 21], "gapPercentOfCanvasWidth": [1.3, 1.6], "meaning": "同一成果的四个不同可信页面／视角"},
+    {"role": "supportingText", "bboxPercentXYXY": [35, 72.8, 65, 76.7], "layer": 8, "meaning": "时间＋工具＋方法一行，黑色中等粗度"},
+    {"role": "mainTitle", "bboxPercentXYXY": [18, 77.5, 83, 85.5], "layer": 10, "meaning": "黑色超重中文单行成果句"},
+    {"role": "selectionRectangle", "bboxPercentXYXY": [35.5, 77.5, 64.4, 87.2], "layer": 9, "meaning": "主标题中段 2–3 字粉色矩形背景、细框、四角黑色控制点；控制点盖于字层"},
+    {"role": "footerWord", "bboxPercentXYXY": [31, 89.5, 69, 94], "layer": 11, "meaning": "薄笔画英文尾注，不争结论"},
+    {"role": "leftToolIcon", "bboxPercentXYXY": [0, 89, 14, 100], "layer": 12, "meaning": "左下出画工具图标"},
+    {"role": "rightToolIcon", "bboxPercentXYXY": [83, 65, 100, 82], "layer": 12, "meaning": "右下角向画外切走的工具图标"}
+  ],
+  "textHierarchy": {"heroName": "one wide heavy geometric Latin line in dark panel", "mainTitle": "one black extra-bold modern Han line; highlighted 2–3 characters have external editing selection", "supportingText": "one centered Han line at 40–48% of main-title glyph height", "topMetrics": "numbers at 1.4–1.6× following Latin words", "footerWord": "thin all caps, subordinate"},
+  "occlusion": ["creative objects partly behind torn head opening and partly before name", "face crops at site panel lower edge", "selection fill behind central main-title letters, black handles in front", "tool icons clipped by canvas edges"],
+  "colorRoles": {"lightPaperAreaPercent": [50, 57], "darkSiteAndCardsAreaPercent": [37, 43], "accentAreaPercent": [7, 11], "logic": "lightest broad paper, cool dark top panel, medium-bright repeating accent, black conclusion"},
+  "constraints": {"paperToSiteHorizontalMarginPercent": [6, 8], "siteToCardsGapPercentOfHeight": [0.7, 1.2], "cardsToChineseBreathingPercentOfHeight": [7, 8], "selectionTargetHanCharacters": [2, 3], "mainTitleLines": 1, "supportingTextLines": 1, "cardCount": 4}
+}

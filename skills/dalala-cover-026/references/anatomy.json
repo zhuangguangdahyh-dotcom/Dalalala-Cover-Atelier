@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-026",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "2026-09-28 复核 2275×3033 注册表原图；bboxPercentXYXY 相对整张画布，目测误差约 ±2–3 个百分点；原图人物坐标是事实记录，不是固定人数模板",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "dalala-cover-ref-026.jpg",
+    "sourceFileName": "IMG_1952.JPG",
+    "width": 2275,
+    "height": 3033,
+    "ratio": "3:4",
+    "sha256": "bb29bcc75012ca13fe9b3221774148fc93e311f4e0ad6270a122af99cd0fc324",
+    "visibleText": {
+      "issue": "NO.17",
+      "coordinate": "46°52’N, 103°50’E",
+      "mainTitle": "打开书本里的世界",
+      "latinLeft": "OPEN BOOKS",
+      "latinRight": "SEE THE WORLD",
+      "destinationHan": "蒙古国",
+      "destinationLatin": "Mongolia",
+      "sectionHeads": [
+        "乌兰巴托城记",
+        "市井草原烟火",
+        "草原游牧生活"
+      ],
+      "brand": "PAGE STUDIO（仅作原图来源视觉证据，不可迁移使用）"
+    }
+  },
+  "primaryMechanism": "暖色页框包一张完整的书中世界现场；单行「打开书本里的世界」发出阅读邀请；人物承担进入／体验／讲述的代入动作；地点页签与三章目录说明本页具体世界。原图三人只是该页事实，后续人数可变。",
+  "primaryFocus": "上方八字白色中文与中下真实世界中的主行动并列；暖框固定外缘",
+  "dominantAxis": "主标题到中下行动者的竖轴；大标题与左右英文的横轴。主行动人数可变但总体重量不移轴。",
+  "readingPath": [
+    "真实期号与元数据建立书页记录感",
+    "固定单行主标题「打开书本里的世界」",
+    "左右英文连接阅读与见世界",
+    "行动者带观众进入有证据的现场",
+    "右侧本页世界标签",
+    "左下三个具体章节目录",
+    "右下授权署名"
+  ],
+  "elements": [
+    {
+      "role": "warmFrame",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 3,
+      "alignment": "四边连续平直外框，内照片左右留 3.5–4% 画宽，上下留 2.5–3% 画高"
+    },
+    {
+      "role": "singlePhoto",
+      "bboxPercentXYXY": [
+        4,
+        3,
+        96,
+        97
+      ],
+      "layer": 1,
+      "visualRank": 1,
+      "alignment": "一张与书籍／阅读主题相符的可辨真实世界现场，照片完整填框"
+    },
+    {
+      "role": "skyTextGround",
+      "bboxPercentXYXY": [
+        4,
+        3,
+        96,
+        45
+      ],
+      "layer": 1,
+      "visualRank": 4,
+      "alignment": "云天有自然渐变，主标题和地点块需要稳定对比"
+    },
+    {
+      "role": "issue",
+      "bboxPercentXYXY": [
+        9,
+        6,
+        29,
+        10
+      ],
+      "layer": 3,
+      "visualRank": 5,
+      "alignment": "左上近内照片边界，浅暖罗马衬线大编号"
+    },
+    {
+      "role": "coordinate",
+      "bboxPercentXYXY": [
+        61,
+        7,
+        92,
+        10
+      ],
+      "layer": 3,
+      "visualRank": 6,
+      "alignment": "右上单行、与期号拉开"
+    },
+    {
+      "role": "mainTitle",
+      "bboxPercentXYXY": [
+        8,
+        11,
+        92,
+        20
+      ],
+      "layer": 4,
+      "visualRank": 1,
+      "alignment": "一行宽展大中文，横贯照片内宽，不折行"
+    },
+    {
+      "role": "latinLeft",
+      "bboxPercentXYXY": [
+        9,
+        20,
+        32,
+        23
+      ],
+      "layer": 4,
+      "visualRank": 5,
+      "alignment": "主标题下左侧短英文"
+    },
+    {
+      "role": "latinRight",
+      "bboxPercentXYXY": [
+        63,
+        20,
+        91,
+        23
+      ],
+      "layer": 4,
+      "visualRank": 5,
+      "alignment": "主标题下右侧短英文，中间留手势及天空通道"
+    },
+    {
+      "role": "destinationHan",
+      "bboxPercentXYXY": [
+        70,
+        24,
+        91,
+        30
+      ],
+      "layer": 4,
+      "visualRank": 3,
+      "alignment": "照片右中上区域，端正中文地点"
+    },
+    {
+      "role": "destinationLatin",
+      "bboxPercentXYXY": [
+        70,
+        30,
+        91,
+        34
+      ],
+      "layer": 4,
+      "visualRank": 5,
+      "alignment": "目的地中文下方一行罗马衬线"
+    },
+    {
+      "role": "threePersonAction",
+      "bboxPercentXYXY": [
+        27,
+        20,
+        83,
+        91
+      ],
+      "layer": 2,
+      "visualRank": 1,
+      "alignment": "原图一成人两儿童与举手的事实坐标；迁移不锁人数、身份或相同动作",
+      "scope": "original-reference-only"
+    },
+    {
+      "role": "centerAdult",
+      "bboxPercentXYXY": [
+        32,
+        20,
+        64,
+        89
+      ],
+      "layer": 2,
+      "visualRank": 2,
+      "alignment": "帽脸位于 x41–57%、y27–37%，举手延伸至 y20%",
+      "scope": "original-reference-only"
+    },
+    {
+      "role": "leftChild",
+      "bboxPercentXYXY": [
+        27,
+        31,
+        49,
+        91
+      ],
+      "layer": 2,
+      "visualRank": 3,
+      "alignment": "左前景，衣服与木门局部交叠",
+      "scope": "original-reference-only"
+    },
+    {
+      "role": "rightChild",
+      "bboxPercentXYXY": [
+        54,
+        40,
+        82,
+        91
+      ],
+      "layer": 2,
+      "visualRank": 3,
+      "alignment": "右前景，和成人身体形成真实遮挡",
+      "scope": "original-reference-only"
+    },
+    {
+      "role": "leftEnvironment",
+      "bboxPercentXYXY": [
+        4,
+        34,
+        34,
+        73
+      ],
+      "layer": 1,
+      "visualRank": 4,
+      "alignment": "蒙古包及木门，真实地点证据"
+    },
+    {
+      "role": "rightEnvironment",
+      "bboxPercentXYXY": [
+        75,
+        48,
+        96,
+        97
+      ],
+      "layer": 1,
+      "visualRank": 4,
+      "alignment": "车、草地和远景；不与地点文字抢读"
+    },
+    {
+      "role": "threeChapterInfo",
+      "bboxPercentXYXY": [
+        9,
+        68,
+        50,
+        93
+      ],
+      "layer": 5,
+      "visualRank": 4,
+      "alignment": "左侧三章阅读目录，正文可延至人物腿部；每章指向本页世界的具体发现"
+    },
+    {
+      "role": "brandSignature",
+      "bboxPercentXYXY": [
+        71,
+        88,
+        91,
+        93
+      ],
+      "layer": 5,
+      "visualRank": 6,
+      "alignment": "右下小面积客户署名，原品牌不可复制"
+    },
+    {
+      "role": "adaptiveWorldAction",
+      "bboxPercentXYXY": [
+        28,
+        26,
+        82,
+        91
+      ],
+      "layer": 2,
+      "visualRank": 1,
+      "scope": "template-adaptive",
+      "alignment": "一人、两人或多人均可；总轮廓约 25–35% 可见面积，中下部为清晰主行动，有自然前后与现场关系，不固定三人举手"
+    }
+  ],
+  "spatialWeight": {
+    "photoVisibleAreaPercent": [
+      86,
+      88
+    ],
+    "warmFrameVisibleAreaPercent": [
+      12,
+      14
+    ],
+    "skyVisibleAreaPercent": [
+      35,
+      42
+    ],
+    "peopleVisibleAreaPercent": [
+      25,
+      35
+    ],
+    "mainTitleBoundingBoxAreaPercent": [
+      7,
+      9
+    ],
+    "topSkyChannelPercentHeight": [
+      3,
+      5
+    ],
+    "leftInfoPercentXYXY": [
+      9,
+      68,
+      50,
+      93
+    ],
+    "visualCenterPercentXY": [
+      50,
+      57
+    ],
+    "adaptiveActionPercentXYXY": [
+      28,
+      26,
+      82,
+      91
+    ],
+    "peopleCount": "variable: one, two, or more; original has three primary people and one incidental child"
+  },
+  "protectedAreas": [
+    "任意人数的主行动者的脸、眼、关键动作与身份特征；门洞局部小孩仅属原图次要现场细节",
+    "左右英文中间的天空空隙，英文与主要人物头部间局部 3–5% 高的空气",
+    "左右真实世界证据中的关键建筑／产品结构",
+    "三章目录各自可读的行距",
+    "右下授权署名与左下目录分离"
+  ],
+  "typography": {
+    "mainTitle": "固定八字「打开书本里的世界」；端正宽展高对比编辑宋体，单行紧排，不逐字旋转",
+    "mainTitleHeightPercent": [
+      7,
+      9
+    ],
+    "mainTitleWidthPercent": [
+      82,
+      86
+    ],
+    "mainTitleInterGlyphGapToGlyphWidth": [
+      0,
+      0.04
+    ],
+    "chapterHeadToMainTitleHeightRatio": [
+      0.25,
+      0.35
+    ],
+    "bodyToChapterHeadHeightRatio": [
+      0.45,
+      0.6
+    ],
+    "bodyLineHeightRatio": [
+      1.15,
+      1.3
+    ],
+    "latinSubtitleToHanTitleHeightRatio": [
+      0.33,
+      0.4
+    ],
+    "roman": "高对比罗马衬线，英文分左右两段，期号偏大，元数据偏小，地点英文首字母大写",
+    "fontDependencies": [
+      {
+        "role": "mainTitle/destinationHan/chapterHead/body",
+        "type": "font-style-id",
+        "id": "dalala-cover-026-editorial-song",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "issue/coordinate/latinSubtitle/destinationLatin",
+        "type": "font-style-id",
+        "id": "dalala-cover-026-roman-serif",
+        "required": true,
+        "status": "testing"
+      }
+    ]
+  },
+  "colorRoles": {
+    "frame": "高彩暖色连续外缘，约 12–14%；具体色值可变",
+    "sky": "较冷且中高明的连续照片文字底，原图可见约 35–42%；换主题时须保开阔文字区和足够对比",
+    "primaryText": "近白高明度，与天空保持显著对比",
+    "issueAccent": "浅暖高明度，小面积呼应框色",
+    "subject": "较深服装和真实肤色，人物与现场保持多色自然光关系",
+    "secondaryText": "近白；可用极轻短影和局部暗化保证复杂照片上的阅读",
+    "exactHexLocked": false
+  },
+  "layerOrder": [
+    "连续暖色平涂页框",
+    "框内一张与书中世界相符的现场照：远景天空／地理，左右生活／器物证据，任意人数的主行动者自然前后",
+    "必要时局部对比修复",
+    "固定主标题、双侧英文、真实期号／元数据、世界标签透明字层",
+    "左下三章目录与右下客户授权署名"
+  ],
+  "assetTreatment": {
+    "cutout": "原图无贴纸式整体抠图；任意人数的人物只在需要避字时局部抠图并保持自然边缘",
+    "crop": "保天空标题区、主行动、左右书中世界线索及脚下地面；人数变化时重排景别和占比",
+    "perspective": "原图平视略低、成人略后两童略前；迁移只锁可信同场透视，不锁人数与身份",
+    "occlusion": "原图两童遮挡成人下半身；迁移按实际人数形成自然前后，字不压脸或关键世界证据",
+    "repetition": "原图三人举手产生节奏；迁移动作须由本期书的内容决定，不复制、镜像或强制举手",
+    "textureAndLight": "自然日光、云层、织物、木门与草地实拍质感；白字极轻灰影；边框均匀平涂"
+  },
+  "semanticFit": [
+    "有明确书籍／阅读主题和能被画面打开的具体世界",
+    "人物行动与书中内容存在可说明的因果，人数可变",
+    "照片提供上方简净标题区、左右世界证据和可信现场",
+    "右侧世界标签与左下三章是本期具体内容，元数据真实"
+  ],
+  "transformationGrammar": [
+    "先确定书、世界、代入人物和三章；无阅读来源则停用",
+    "选同场景照片，保护身份和地理／行业事实，不要求固定三人",
+    "按 3:4 重裁或同视角扩图，形成上方文字区与中下行动区",
+    "以暖框包住完整世界照片，保留左右可辨证据",
+    "固定八字单行主标题，左右分置英文",
+    "右侧填本页世界，左下填三章具体发现，右下换授权署名",
+    "按字体角色出透明字层，校对文字、对比和 360 px 缩略图"
+  ],
+  "failureModes": [
+    "没有书籍／阅读主题，只做普通探访",
+    "把原图的一成人两儿童与举手强制复刻",
+    "缺真实世界证据却使用纯色背景",
+    "主标题改字、折行或盖脸",
+    "橙框变细线、圆角卡或消失",
+    "左右英文合并为满宽副题",
+    "三章目录改卡片、空泛或原尺寸不可读",
+    "编造地理坐标或纪实经历",
+    "云层过亮让白字消失",
+    "复用原品牌 PAGE STUDIO",
+    "把原图 HEX 锁死",
+    "未确认测试验收便标 active"
+  ],
+  "roleMeaning": {
+    "mainTitle": "固定阅读入口和系列命题",
+    "people": "进入、体验或讲述书中世界的代入者；人数可变",
+    "background": "书中世界的真实时空、生活和尺度证据；天空承载标题",
+    "destination": "本页打开的具体世界页签",
+    "chapters": "三个可阅读、可核实的具体发现",
+    "issueAndMetadata": "系列页次与真实纪录索引",
+    "frame": "将单张现场照片界定为一页可阅读的世界"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-045",
+  "displayName": "参考封面 045",
+  "version": "0.1.0",
+  "status": "studied",
+  "referenceOriginal": "../assets/reference-original.jpg",
+  "referenceAnnotated": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedRatios": [
+    "3:4"
+  ],
+  "headlineLength": "约 5 字；优先自然语义的 2+2+1 三段节奏",
+  "subjectTypes": [
+    "真实人物互动",
+    "城市或行业生活现场",
+    "可辨认的产品或道具"
+  ],
+  "contentMood": [
+    "热闹",
+    "纪实",
+    "地方感",
+    "可感知的生活经验"
+  ],
+  "firstVisualFocus": "三段巨型金色折面汉字及其内部实拍窗口",
+  "spatialSkeleton": "深色满版底；四角小型品牌/纪实符号；中央 2+2+1 巨字；前四张小照片嵌字；下横图嵌末字；右下产品前景",
+  "readingPath": [
+    "上部巨字",
+    "中部巨字和小照片",
+    "两行小字",
+    "下部横图与末字",
+    "右下实物",
+    "底部短句"
+  ],
+  "imageTextRelationship": "照片先作为字腔或字间窗口放置，金色折面笔画再局部压住照片；图文共同形成标题，非独立拼贴",
+  "locked": [
+    "3:4 竖版",
+    "中央三段 2+2+1 巨字节奏",
+    "五处实拍窗口的上下和左右关系",
+    "暗底亮字的明度架构",
+    "金色折面带的真实折痕与层叠",
+    "底部横图与右下实物的前后关系"
+  ],
+  "adaptive": [
+    "行业场景",
+    "人物身份和动作",
+    "标题内容",
+    "产品或道具",
+    "具体配色",
+    "底图地点和材质"
+  ],
+  "optional": [
+    "右上 REC 文字可换为等权重纪实标记",
+    "品牌字标可依据授权素材换置"
+  ],
+  "forbidden": [
+    "普通粗黑字贴金色纹理",
+    "五张规整照片网格",
+    "没有行业联系的通用人物",
+    "无实拍证据的假纪实拼贴",
+    "原品牌包装或原文案复用"
+  ],
+  "variableContract": {
+    "people": "可换身份、服饰和动作；维持五图叙事位置和画面内合理景别",
+    "text": "可改写但必须保留三段字块及说明层级；不因字数扩大文字区",
+    "products": "可换成同角色实物，维持右下 20%–27% 宽、前压横图",
+    "color": "重选具体色值，维持暗底、亮字、局部彩照和浅色小字的对比与面积关系"
+  },
+  "invariantContract": {
+    "layout": "主字 x≈18%–82%、y≈12%–89%；四张小图 y≈14%–56%，下横图 y≈66%–85%",
+    "area": "暗底视觉主面积约 68%–75%；亮折面字约 16%–22%；照片高彩局部约 8%–14%",
+    "specialEffects": "宽扁折面带字、真实折痕高光和局部投影，照片硬边嵌字与笔画压边，底图网点暗化"
+  },
+  "assetTransformation": {
+    "defaultLevel": "T2",
+    "triggers": [
+      "需要将五张不同景别素材裁入字形窗口",
+      "需要主题相关的暗底环境重构",
+      "可辨实物需压入右下前景"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-045-folded-tape",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "supportText",
+      "type": "font-style-id",
+      "id": "dalala-cover-045-neutral-caption",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomText",
+      "type": "font-style-id",
+      "id": "dalala-cover-045-neutral-caption",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testCasesPassed": [],
+  "thumbnailCheck": {
+    "status": "pending",
+    "size": 360
+  },
+  "userAcceptance": {
+    "status": "pending"
+  }
+}

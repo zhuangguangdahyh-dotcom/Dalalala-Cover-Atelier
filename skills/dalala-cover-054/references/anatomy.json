@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-054",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "../assets/reference-original.jpg",
+    "registryReference": "参考封面图/dalala-cover-054-reference.jpg",
+    "width": 1080,
+    "height": 1440,
+    "ratio": "3:4",
+    "sha256": "ac0accf73ee8159c64acddb94d1b7eda49120c99d3139b3540e58ac8f21e1c21",
+    "reviewedOriginal": true,
+    "measurementMethod": "visual bounding-box estimates, not pixel segmentation",
+    "tolerancePercentagePoints": 3
+  },
+  "coordinateSystem": "boxPercent=[left,top,right,bottom], origin top-left",
+  "contentRoles": [
+    {"role":"background","description":"deep brown low-contrast horizontal textile texture","boxPercent":[0,0,100,100]},
+    {"role":"headerLeft","description":"thin diamond source emblem","boxPercent":[5,3,19,9]},
+    {"role":"headerCenter","description":"place and year, two centered serif lines","boxPercent":[43,3,58,8]},
+    {"role":"headerRight","description":"two-line uppercase sans collaborator mark","boxPercent":[80,3,95,9]},
+    {"role":"lightWindowOuter","description":"thick warm luminous rectangular border","boxPercent":[5.5,14,94.5,53]},
+    {"role":"lightWindowInner","description":"dark display recess","boxPercent":[8.2,16,91.8,51.5]},
+    {"role":"sceneGroup","description":"coherent staged sofa, rug, tables, plant, cabinet, shelf","boxPercent":[26,18,72,50]},
+    {"role":"mainObject","description":"light sofa","boxPercent":[26,37,57,49]},
+    {"role":"rearVertical","description":"blue vertical cabinet and open shelving","boxPercent":[35,18,68,43]},
+    {"role":"frontProps","description":"rug, tables, books and textiles with contact shadows","boxPercent":[29,42,72,50]},
+    {"role":"arcLight","description":"soft semicircular warm projection with diagonal shadow","boxPercent":[8,60,94,82]},
+    {"role":"mainTitle","description":"Home Beyond / Home, two-line light high-contrast Roman serif","boxPercent":[27,65,73,77]},
+    {"role":"subtitle","description":"two-line centered supporting serif","boxPercent":[31,80,70,85]},
+    {"role":"sideNotes","description":"two short Chinese phrases flanking subtitle","boxPercent":[17,81,84,85]},
+    {"role":"footerBrand","description":"FRETTE & STILL YOUNG, wide heavy high-contrast uppercase serif","boxPercent":[6,91,94,97]}
+  ],
+  "absentRoles": ["price","CTA","longBodyCopy","promotionBadge"],
+  "firstVisualFocus": "wide luminous display window and central staged furniture group",
+  "primaryMechanism": "a bright wide display window on dark textile; a soft lower arc of light carries a delicate two-line theme; heavy uppercase endorsement anchors the foot",
+  "dominantAxis": "vertical center x≈50%; opposing header corners balance it",
+  "visualCenterPercent": [50,45],
+  "readingPath": ["lit window and staged scene","theme in arc light","supporting copy","large footer endorsement","header provenance"],
+  "negativeSpace": ["about 18–25% canvas width of quiet darkness on either side of the window scene","dark horizontal band y53–60","dark band y85–91"],
+  "layerOrder": ["dark textured ground","projected arc light and diagonal shadow","window recess","tall rear objects and plant","sofa/main object","rug, tables, props and contact shadows","luminous thick frame","all type and marks"],
+  "imageTextRelationship": "the scene establishes the concrete object before the arc-lit title states the theme; the footer names the real publisher",
+  "layoutContract": {
+    "locked": ["3:4 three-stage vertical composition","three-point header","thick bright wide display frame with smaller centered scene","dark breathing bands","soft semicircular projection","two-line centered light serif theme","one-line extra-heavy serif footer"],
+    "adaptive": ["real products and people","coherent scene props","accurate wording and marks","specific hues"],
+    "optional": ["muted cool accent on one rear object","brief italic word in supporting copy"],
+    "forbidden": ["full-bleed photo inside window","single-stroke frame","floating mismatched objects","hard-edged circle sticker","small ordinary footer","copied original brands","active before acceptance"]
+  },
+  "variableContract": {
+    "person": "may change only as a staged scene participant, not a window-filling headshot",
+    "text": "semantic content may change while lines, boxes, rank and block silhouettes remain; rewrite overflow",
+    "product": "replace with industry-relevant hero plus vertical rear support and grounded foreground props",
+    "palette": "exact hues may change while dark majority, brightest border/type and local projection contrast remain"
+  },
+  "invariantContract": {
+    "windowOuterBoxPercent": [5.5,14,94.5,53],
+    "windowInnerBoxPercent": [8.2,16,91.8,51.5],
+    "borderThicknessCanvasWidthPercent": [2.3,2.8],
+    "sceneGroupBoxPercent": [26,18,72,50],
+    "arcLightBoxPercent": [8,60,94,82],
+    "mainTitleBoxPercent": [27,65,73,77],
+    "footerBoxPercent": [6,91,94,97],
+    "gapBandsYPercent": [[53,60],[85,91]],
+    "effects": ["luminous thick border","fine textile grain","soft arc projection with directional shadow","credible object contact shadows"]
+  },
+  "transformationGrammar": [
+    {"trigger":"existing scene is too full","level":"T1","action":"recrop or extend ground, reduce scene inside window and restore dark side margins"},
+    {"trigger":"hero and props come from separate assets","level":"T2","action":"cut out and assemble in common perspective: tall rear, middle hero, grounded front props"},
+    {"trigger":"missing floor contact or inconsistent lighting","level":"T2","action":"add coherent platform/rug, soft contact shadows and common light direction"},
+    {"trigger":"key product, space or brand evidence is missing","level":"T3","action":"collect credible assets and accurate publisher information before testing"}
+  ],
+  "semanticFit": {"preferred":["interior concept","product vignette","restaurant setting","design exhibition","real collaboration launch"],"reject":["long tutorial","price list","unsupported collaboration","no physical display object"]},
+  "palette": {"exactColorsLocked":false,"darkTexturedBaseVisiblePercent":[65,75],"lightWindowVisiblePercent":[5,8],"sceneGroupVisiblePercent":[13,20],"overlaidArcLightPercent":[15,22],"lightnessOrder":["frame and type","projected arc","light product faces","textured base"],"areaCaveat":"overlapping roles are not additive pixel shares"},
+  "typography": {"mainTitle":"light high-contrast Roman serif; two lines, first wider, baseline interval about 0.82–0.92 single line height","supporting":"smaller regular serif and brief italic accent; Chinese side notes require separate verification","footer":"ultra-bold high-contrast uppercase Roman serif; thinner ampersand","header":"small serif left/center, clean bold sans at right"},
+  "fontDependencies": [
+    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"mainTitle","required":true,"status":"testing","script":"Latin"},
+    {"role":"subtitle","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"supportingSerif","required":true,"status":"testing","script":"Latin"},
+    {"role":"footerBrand","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"footerDisplay","required":true,"status":"testing","script":"Latin"},
+    {"role":"headerSerif","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"supportingSerif","required":false,"status":"testing","script":"Latin"}
+  ],
+  "failureModes": ["frame collapses to outline","scene fills the window","implausible float or perspective","hard disc light","theme and footer same weight","long headline invades breathing bands","footer too small","unverified Han font substitution","three-stage mechanism unreadable at 360 px","active before test and acceptance"],
+  "tests": [],
+  "userApproved": false
+}

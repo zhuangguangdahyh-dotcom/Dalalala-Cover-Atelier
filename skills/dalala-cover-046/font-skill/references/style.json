@@ -1,0 +1,12 @@
+{
+  "id": "dalala-cover-046-industrial-headline",
+  "status": "testing",
+  "version": "0.1.0",
+  "script": "Latin + Chinese-Han",
+  "structure": "厚重紧排无衬线英文与方硬粗黑中文，数字更高更窄，字腔清晰",
+  "arrangement": "双行近全宽，第二行中段亮框内黑色数字量词",
+  "fill": "白色标题/黑色数字，具体色值服从封面色彩角色",
+  "effects": "克制短投影；不使用立体、飞白、霓虹或夸张描边",
+  "output": "separate-transparent-title-layers",
+  "reference": "../../assets/reference-original.jpg"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 038｜拆解测试态"
+  short_description: "横版粗白磨损标题、真人近景和层叠工具证据"
+  default_prompt: "先查看参考原图、analysis.md、anatomy.json 与 manifest.json；只做拆解审阅和规则修正，用户确认及真实测试前不渲染或上架。"

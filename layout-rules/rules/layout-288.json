@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "layout-288",
+  "displayName": "288 · 古腾堡图式",
+  "status": "active",
+  "kind": "independent-cover-layout-rule",
+  "source": {
+    "repository": "https://github.com/nevertoday/350-layout-compositions",
+    "commit": "34dc39cb5128776b594754624fa2202d5942a35b",
+    "catalogId": "288",
+    "catalogName": "古腾堡图式",
+    "category": "网页与 UI",
+    "subcategory": "阅读模式与产品页面",
+    "originalImagePath": "v2/images/05-web-ui/288-媒体对象布局.png",
+    "originalImageUrl": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/34dc39cb5128776b594754624fa2202d5942a35b/v2/images/05-web-ui/288-媒体对象布局.png",
+    "originalImageSha256": "85d7d75a9f9ed67626741625953a9dadf2126b16efc36c0d30b66cfd06fac730",
+    "localThumbnail": "../references/source-thumbnails/288.jpg",
+    "localThumbnailSha256": "bf448038420a0179933cf3c058cff1055ce6923fc712ecd60fa44235557306cd",
+    "visualAudit": {
+      "status": "verified-match",
+      "observedTitle": "古腾堡图式",
+      "sourceMappingVerified": true
+    },
+    "useThumbnailAsConceptProof": true,
+    "upstreamCatalogClaim": {
+      "name": "媒体对象布局",
+      "category": "网页与 UI",
+      "subcategory": "内容与产品模式",
+      "matchesVisibleTitle": false
+    }
+  },
+  "selection": {
+    "autoSelectable": false,
+    "coverSuitability": "adaptable",
+    "tags": [
+      "网页与 UI",
+      "阅读模式与产品页面",
+      "古腾堡图式"
+    ],
+    "assetTypes": [
+      "mixed"
+    ],
+    "titleLengths": [
+      "short",
+      "medium"
+    ],
+    "subjectCounts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supportedRatios": [
+      "3:4",
+      "4:3",
+      "16:9"
+    ]
+  },
+  "layoutContract": {
+    "primaryMechanism": "把阅读路径锁为左上、右上、左下、右下的 Z 形推进。",
+    "dominantAxis": "z-path",
+    "primaryFocus": "terminal-emphasis",
+    "readingPath": "top-left-to-bottom-right",
+    "locked": [
+      "以“古腾堡图式”作为唯一主构图机制，不与其他编号的骨架混用。",
+      "保持 z-path 主轴、terminal-emphasis 焦点和 top-left-to-bottom-right 阅读顺序。",
+      "保持主标题、主体、辅助信息的视觉等级，不允许三个层级平均抢眼。",
+      "先保护参考中的留白与主体识别区，再适配文字长度。"
+    ],
+    "adaptive": [
+      "标题原文、逐字字形与合理换行。",
+      "素材在既定主体区域内的裁切和缩放。",
+      "已选字体风格与已批准配色方案。",
+      "跨平台比例对应的独立布局变体。"
+    ],
+    "optional": [
+      "副标题、标签、角标和署名仅在不改变阅读顺序时出现。"
+    ],
+    "forbidden": [
+      "自由混合多个布局规则",
+      "为容纳长标题改变主轴或主体左右关系",
+      "拉伸整张参考图适配其他比例",
+      "用装饰元素填满受保护留白",
+      "让 AI 同时重新设计构图、字体和配色"
+    ]
+  },
+  "runtime": {
+    "input": [
+      "title",
+      "assets",
+      "canvasRatio",
+      "fontStyleId",
+      "paletteId"
+    ],
+    "output": [
+      "layoutPlan",
+      "renderedCover",
+      "thumbnailPreview",
+      "qaResult"
+    ],
+    "referencePolicy": "load-this-rule-only",
+    "crossRatioPolicy": "use-explicit-variant-never-stretch",
+    "titleOverflowPolicy": "rewrite-without-changing-facts-then-limited-size-adjustment",
+    "renderReady": false
+  },
+  "qa": {
+    "hardGates": [
+      "selected-rule-id-preserved",
+      "single-primary-focus",
+      "declared-reading-path-preserved",
+      "subject-critical-region-visible",
+      "title-readable-at-360px",
+      "no-text-or-subject-collision",
+      "no-unapproved-layout-mixing"
+    ],
+    "humanReview": [
+      "第一眼焦点与内容重点一致",
+      "缩略图仍能看出该编号的构图身份",
+      "文字、人物和留白之间有明确呼吸"
+    ]
+  },
+  "compositionKnowledge": {
+    "status": "studied",
+    "ref": "../knowledge/layout-288.json"
+  }
+}

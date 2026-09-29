@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-018",
+  "displayName": "参考 018",
+  "version": "0.2.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "a408755f-3aaa-4089-b320-f5821353d123",
+  "analysisReport": "skills/dalala-cover-018/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-018.jpg",
+  "referenceSha256": "808bf322900e88836a4c6bee8d470749ef46e2bd798398a1374f3e626540a9e7",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "upperChineseCharactersRecommended": [
+      4,
+      4
+    ],
+    "upperSourceCount": 4,
+    "bottomChineseCharactersRecommended": [
+      4,
+      6
+    ],
+    "bottomLatinCharactersRecommended": [
+      3,
+      7
+    ],
+    "untestedUpperRange": [
+      3,
+      5
+    ]
+  },
+  "subjectTypes": [
+    "真实动态近景人物",
+    "待受控验证的动物或产品近景"
+  ],
+  "contentEmotions": [
+    "爆发",
+    "速度",
+    "惊讶",
+    "强现场感",
+    "趋势体验"
+  ],
+  "firstFocus": "上端暖色出血巨字及从其前方冲出的中央人物",
+  "spatialStructure": [
+    "全幅有纵深的现场照片",
+    "上方单行出血钩子",
+    "中央近景主角与两侧切入道具",
+    "下方同色中英主题长条"
+  ],
+  "readingPath": [
+    "上方钩子",
+    "中央脸与动作",
+    "下方具体主题"
+  ],
+  "imageTextRelationship": "上标题置于头发后，下标题压在主体衣服和前景之上，两侧物件有真实空间关系",
+  "locked": [
+    "3:4 全幅动态近景",
+    "上方单行巨字的大小、出血和局部被遮挡",
+    "中央面部焦点与向外放射的肢体／主体方向",
+    "两侧切入物的次级重量",
+    "下方同色中英长条",
+    "上—人—下的阅读路径"
+  ],
+  "adaptive": [
+    "真实人物或主体身份",
+    "同一事件中的道具和街景／行业场景",
+    "主题文案与有意义的英文",
+    "具体色值与照片局部明度"
+  ],
+  "optional": [
+    "背景行人",
+    "饮品的液体高光",
+    "轻微中后景运动模糊"
+  ],
+  "forbidden": [
+    "普通窄黑体静默替代专属字",
+    "大字变小字或两行",
+    "标题覆盖脸",
+    "左右道具变产品陈列",
+    "添加贴纸、CTA 或第三标题",
+    "仅换字不重构照片",
+    "未经测试和确认标 active"
+  ],
+  "variableContract": {
+    "person": "身份可变，保持近景前倾；脸含下巴x38–71%,y27–58%，中心x52–56%,y41–45%。",
+    "text": "上方四字一行原型；下方x3–98%,y83–97%同色中英连续字块。长度变体需测试，先改写而非改变骨架。",
+    "product": "左对象约20–24%W可完整入画，右对象约13–17%W被右框裁断；均为同事件次级证据。",
+    "palette": "具体色值可变，统一高识别文字色、低饱和较暗环境和较亮主体的明暗与面积关系固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "上字在头发后、下字在衣服前",
+      "真实近距离透视及非对称侧物",
+      "干净实心高瘦字配弱右下分离影，禁止厚挤出"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T1–T2 after factual anchor check",
+    "triggers": [
+      "静态素材需重建向镜头推进的景别",
+      "背景招牌与标题竞争时弱化或换景",
+      "头发／主体与上标题不分层时精细抠图"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "upperHook",
+      "type": "font-style-id",
+      "id": "dalala-cover-018-kinetic-condensed",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "bottomTopic",
+      "type": "font-style-id",
+      "id": "dalala-cover-018-kinetic-condensed",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null,
+  "secondaryReadingBranches": [
+    "左右现场道具",
+    "街景纵深"
+  ]
+}

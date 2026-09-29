@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-005",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "sourceManifest": "参考封面图/reference-manifest.json",
+    "reference": "参考封面图/dalala-cover-ref-005.jpg",
+    "archivedReference": "skills/dalala-cover-005/assets/reference-original.jpg",
+    "sha256": "e8c90f9d2f7650b10cd707cfd77674ce10b7684590e61357da9dcff81cc90bbc",
+    "dimensions": [2160, 2881],
+    "visuallyReviewed": true,
+    "measurementMethod": "2160×2881 原图逐区目视测量；未做像素分割",
+    "bboxConvention": "[x0,y0,x1,y1] in percent; overlapping boxes are not summed areas"
+  },
+  "canvas": {
+    "ratio": "3:4",
+    "productionSize": [1080, 1440],
+    "fullBleed": true
+  },
+  "visualConclusion": "上约 39% 为居中三段标题栈，下约 61% 为正面人物与眼线工具演示；大尺寸模块主标题和眼线道具形成两个互相支撑的焦点。",
+  "primaryMechanism": "上简下繁的连续照片内，以短粗结果词提出承诺，再用真人直视、眼线持物和行业证据墙完成事实证明。",
+  "contentRoles": [
+    {
+      "role": "plainBackgroundProtection",
+      "bboxPercent": [0, 0, 100, 40],
+      "meaning": "连续室内墙面的低细节文字保护区，不是独立色块",
+      "alignment": "full-width-behind-type",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "hookLine",
+      "bboxPercent": [7, 8, 93, 13],
+      "meaning": "一行问题/教程承诺，补全主标题的内容价值",
+      "alignment": "horizontal-center",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitleGroup",
+      "bboxPercent": [13, 17, 88, 28.5],
+      "meaning": "第一视觉焦点；书名号式双尖括号包裹三字效果词",
+      "alignment": "horizontal-center",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "mainTitleText",
+      "bboxPercent": [26, 17, 75, 28.5],
+      "meaning": "粗重模块式中文主题",
+      "alignment": "optical-center",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "titleBrackets",
+      "bboxPercent": [13, 17, 88, 28.5],
+      "meaning": "两侧《》形的双折线引号，限定主标题容器",
+      "alignment": "mirrored-pair",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "methodLine",
+      "bboxPercent": [24, 32, 76, 37],
+      "meaning": "窄体大写英文的软件、工具或方法标签",
+      "alignment": "horizontal-center",
+      "tolerancePercentagePoints": 2
+    },
+    {
+      "role": "evidenceWall",
+      "bboxPercent": [0, 40, 93, 81],
+      "meaning": "与人物身份/兴趣相关的海报、作品或场景证据",
+      "alignment": "behind-subject",
+      "tolerancePercentagePoints": 5
+    },
+    {
+      "role": "head",
+      "bboxPercent": [29, 41, 73, 73],
+      "meaning": "中心正面人物身份锚点",
+      "alignment": "near-center",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "face",
+      "bboxPercent": [38, 49, 66, 72],
+      "meaning": "与镜头建立直视关系的识别区",
+      "alignment": "near-center",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "demonstrationObject",
+      "bboxPercent": [52, 52, 85, 63],
+      "meaning": "贴近眼线的水平工具/产品，与主题建立事实连接",
+      "alignment": "horizontal-at-eye-line",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "raisedHand",
+      "bboxPercent": [74, 45, 100, 87],
+      "meaning": "举持工具并以指尖形成向上动势",
+      "alignment": "right-edge-touching",
+      "tolerancePercentagePoints": 3
+    },
+    {
+      "role": "torso",
+      "bboxPercent": [0, 66, 94, 100],
+      "meaning": "大面积服装承接人物、压住底部视觉重量",
+      "alignment": "bottom-edge-cropped",
+      "tolerancePercentagePoints": 4
+    }
+  ],
+  "absentRoles": [
+    "logo",
+    "brandSignature",
+    "badge",
+    "sticker",
+    "border",
+    "bottomCaption",
+    "multiPersonGroup"
+  ],
+  "firstFocus": "引号中的模块主标题",
+  "secondaryFocus": "正面人脸与贴眼线的真实工具",
+  "dominantAxis": "中心竖轴串联三段文字和人脸，眼线水平持物形成次轴并把视线引向右侧举手",
+  "readingPath": [
+    "mainTitleGroup",
+    "face + demonstrationObject",
+    "hookLine",
+    "methodLine",
+    "evidenceWall"
+  ],
+  "densityMap": {
+    "upper0To40Percent": "中高密度；三段文字集中但行间留白清楚",
+    "lower40To100Percent": "高密度；人物、手、工具和背景证据构成连续照片区",
+    "sideMargins": "上部文字左右保护 6%W–13%W；不另建侧边信息栏"
+  },
+  "negativeSpace": [
+    "顶部钩子行上方约 7%H–8%H 的暖色墙面",
+    "主标题与英文方法行间约 3%H–4%H 的分离缝",
+    "英文方法行与头顶间约 1.5%H–3%H 的呼吸缝"
+  ],
+  "layerOrder": [
+    "continuous warm indoor wall",
+    "identity/evidence wall in photographic background",
+    "person head and torso in middle ground",
+    "raised hand and demonstration object in foreground",
+    "hookLine, mainTitleGroup and methodLine on the upper clear wall"
+  ],
+  "fontDependencies": [
+    {
+      "role": "hookLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-005-hook-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-005-modular-outline",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "methodLine",
+      "type": "font-class",
+      "id": "condensed-uppercase-sans",
+      "required": true,
+      "registrationRequired": false
+    }
+  ],
+  "colorRoles": {
+    "exactColorsLocked": false,
+    "visibleAreaBudgetPercent": {
+      "warmLightBackground": 37,
+      "skinAndWarmMidtones": 19,
+      "lightClothingAndTitle": 27,
+      "darkHairOutlinesAndAnchors": 12,
+      "controlledEvidenceAccents": 5
+    },
+    "tolerancePercentagePoints": 5,
+    "measurementStatus": "estimate-not-sampled",
+    "temperature": "上部中明度暖中性背景；人脸保真；高明度文字由深色细边或阴影支撑",
+    "contrastLogic": "主标题与背景局部对比至少 4.5:1；钩子行至少 3:1；英文行至少 3:1"
+  },
+  "effects": {
+    "required": [
+      "main title solid light fill with dark thin outline",
+      "main title modular breaks, squared-rounded counters and 3%–5% title-height dark outline",
+      "mirrored book-title chevrons",
+      "hook line shallow 0.25%W–0.45%W offset shadow/extrusion",
+      "method line condensed uppercase with 8%–14% cap-height tracking",
+      "natural indoor light and slight photographic softness",
+      "eye-line tool demonstration"
+    ],
+    "absent": [
+      "subject cutout halo",
+      "title-behind-subject masking",
+      "deep 3D extrusion",
+      "neon glow",
+      "paper grain overlay",
+      "decorative stickers",
+      "background blur wall"
+    ]
+  },
+  "transformationGrammar": [
+    {
+      "when": "原照已有正面人物、眼线持物、上方纯净墙面与身份背景",
+      "level": "T1",
+      "action": "按 3:4 重裁，局部压低上部背景细节，保持人物、手和工具在同一真实景深中",
+      "reason": "原生反射、遮挡和肢体关系是可信度来源"
+    },
+    {
+      "when": "有人物但工具不在眼线或动作不成立",
+      "level": "T3",
+      "action": "重拍或受身份约束重建正面持物动作，审核手指、握持、工具尺度与投影",
+      "reason": "平面贴道具会直接破坏模板的真实演示机制"
+    },
+    {
+      "when": "原背景杂乱或缺少身份证据",
+      "level": "T2",
+      "action": "清理上方文字区，在下半背景放置 3–5 组与当前行业相关的作品/工具/场景证据，并统一室内光照",
+      "reason": "背景需表明这个人为什么有资格讲该主题"
+    },
+    {
+      "when": "上方钩子超过 13 个中文等效字或主标题超过 4 个中文等效字",
+      "level": "copy-edit",
+      "action": "在不改意的前提下改写为 9–13 字单行钩子和 2–4 字结果词；无法改写则拒用本模板",
+      "reason": "不为容纳长文扩张文字区或改变三段栈格"
+    }
+  ],
+  "semanticFit": {
+    "hookLineChineseEquivalentCharacters": [9, 13],
+    "mainTitleChineseEquivalentCharacters": [2, 4],
+    "methodLineLatinCharactersIncludingSpaces": [8, 22],
+    "subjectCount": 1,
+    "demonstrationObjectCount": 1,
+    "environmentEvidenceGroupCount": [3, 5],
+    "fit": [
+      "教程或效果复现",
+      "工具使用",
+      "创作方法",
+      "产品实测",
+      "具有具体视觉结果的专业演示"
+    ],
+    "reject": [
+      "三人以上群像",
+      "无法以单件道具证明的纯观点",
+      "长标题知识清单",
+      "产品目录",
+      "没有可信人物或真实持物动作的素材"
+    ]
+  },
+  "layoutContract": {
+    "locked": [
+      "3:4 满版单张暖光室内照片",
+      "上 39% 三段居中文字栈，下 61% 人物演示区",
+      "钩子行—引号主标题—窄体方法行的层级",
+      "主标题 2–4 个中文等效字且由对称《》包裹",
+      "单人正面、直视镜头、头部居中、眼线水平工具",
+      "一只手从右侧持物并触边，工具横向跨过部分脸部",
+      "人物后方保留行业/作品证据墙",
+      "人物不遮挡文字，英文行与头顶之间有呼吸缝"
+    ],
+    "adaptive": [
+      "人物身份、外貌、服装与具体持物动作",
+      "行业相关的工具/产品",
+      "钩子句、主标题结果词与方法标签",
+      "背景证据内容",
+      "具体色值"
+    ],
+    "optional": [
+      "方法行可在当前主题确实没有软件/场景标签时隐藏，但不回收为第四行广告位，且需单独测试",
+      "背景证据数可在 3–5 组之间调整"
+    ],
+    "forbidden": [
+      "用证件照加浮空产品贴片代替真实持物",
+      "把标题改成左对齐、多列或四段文字",
+      "取消主标题两侧对称引号",
+      "人物遮挡主标题或英文行",
+      "用普通黑体替换模块主标题",
+      "厚重长投影、霓虹发光或金属 3D 代替细描边",
+      "背景全虚化或换成纯色，消除身份证据",
+      "通用 AI 小人、错字、手指错误、工具结构失真",
+      "未经用户确认标记 active"
+    ]
+  },
+  "failureModes": [
+    "主标题与人脸同时抢到第一层，没有主次",
+    "上部文字过长导致贴边、压行或改为多行",
+    "主标题退化为普通圆体或黑体描边",
+    "引号太小、不对称或与主标题间距失衡",
+    "英文方法行太粗或字距太紧，失去窄高节奏",
+    "工具不在眼线、尺寸失真或像浮空贴片",
+    "手指数量、握持、反射或投影错误",
+    "头顶与英文行相撞，或人物被裁到不能识别",
+    "背景证据太多、饱和度过高或存在无关品牌抢焦点",
+    "上下分层变成两张独立图片，失去同一室内照片的连续性",
+    "360 px 下钩子句不可读或主标题字腔糊住"
+  ],
+  "qaStatus": {
+    "referenceReviewed": true,
+    "replication": "not-run",
+    "crossIndustry": "not-run",
+    "thumbnailOfGeneratedOutput": "not-run",
+    "fontDependencies": "testing-not-approved",
+    "userApproval": false
+  }
+}

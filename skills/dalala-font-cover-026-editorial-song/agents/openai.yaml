@@ -1,0 +1,4 @@
+interface:
+  display_name: "026 中文编辑宋体测试"
+  short_description: "宽展高对比、端正字骨与四级排版；待验证。"
+  default_prompt: "按参考 026 中文字骨生成准确透明字层，检查字形与缩略图。"

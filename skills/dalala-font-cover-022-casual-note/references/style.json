@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-022-casual-note",
+  "version": "0.1.0",
+  "status": "testing",
+  "sourceReference": "../../dalala-cover-022/assets/reference-original.jpg",
+  "approvedReference": null,
+  "roles": ["subtitle"],
+  "scripts": ["Han", "punctuation"],
+  "construction": "细至中细的轻右倾随手写中文，近单线、局部笔压变化、干净实心线条，不规则但可读",
+  "placement": "单行 x55–94%, y22–27%，字高为主字约 25–35%",
+  "fillRole": "高明度近白细字，合成时可加轻暗影",
+  "requiredInputs": ["exactText", "canvasWidth", "canvasHeight", "textBox", "colorRole"],
+  "primaryRenderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "productionApproved": false,
+  "forbidden": ["普通规整细黑体替代", "和主字一样粗", "双行或长句挤到人脸", "油漆飞白、书法长锋、描边", "错字及标点遗漏"]
+}

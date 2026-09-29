@@ -1,0 +1,12 @@
+.DS_Store
+.font-venv/
+.release-staging/
+output/
+workbench/build/
+workbench/data/
+node_modules/
+*.log
+.env
+.env.*
+__pycache__/
+*.pyc

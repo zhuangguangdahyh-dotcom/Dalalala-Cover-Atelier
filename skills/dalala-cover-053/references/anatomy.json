@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-053",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "../assets/reference-original.jpg",
+    "width": 2880,
+    "height": 3839,
+    "ratio": "near 3:4; 1 px shorter than exact",
+    "sha256": "0993cab747c3c1bef564973deff2ca5ef9b9b7cd12ed9767707c80ff0006b2c1",
+    "reviewedOriginal": true,
+    "measurementMethod": "visual bounding-box estimates on original, not pixel segmentation",
+    "tolerancePercentagePoints": 3
+  },
+  "canvas": { "sourceWidth": 2880, "sourceHeight": 3839, "ratio": "3:4", "targetWidth": 1080, "targetHeight": 1440 },
+  "coordinateSystem": "boxPercent=[left,top,right,bottom], origin top-left, 0-100",
+  "contentRoles": [
+    { "role": "backgroundGrid", "description": "six distinct photographs of one place or event, 2 columns x 3 rows", "boxPercent": [0, 0, 100, 100], "verticalSeamPercent": 50, "horizontalSeamsPercent": [32, 64], "visualWeight": "environmental", "zRelationship": "bottom" },
+    { "role": "mainLandmarkTornPaper", "sourceContent": "Eiffel Tower with its blue sky", "boxPercent": [34, 0, 73, 67], "visualWeight": "highest", "zRelationship": "above grid, behind person" },
+    { "role": "secondaryLandmarkTornPaper", "sourceContent": "Arc de Triomphe and trees", "boxPercent": [0, 37, 40, 67], "visualWeight": "medium", "zRelationship": "above grid, behind main paper and person" },
+    { "role": "person", "sourceContent": "one woman, arms folded, dark outfit", "boxPercent": [55, 40, 92, 100], "visualWeight": "highest-subject", "zRelationship": "front paper layer, lower body cropped at canvas edge" },
+    { "role": "personHead", "boxPercent": [60, 40, 78, 57], "visualWeight": "high", "zRelationship": "face clear inside front paper layer" },
+    { "role": "mainTitle", "sourceContent": "Paris", "boxPercent": [13, 72, 45, 85], "visualWeight": "medium", "zRelationship": "over lower-left grid image" },
+    { "role": "tornEdges", "boxPercent": [0, 0, 92, 100], "visualWeight": "high-contrast-accent", "zRelationship": "belongs to three torn photo layers; irregular white inner band, gray-beige fiber outer band" }
+  ],
+  "absentRoles": ["subtitle", "bodyCopy", "brandLogo", "date", "badge", "productCard"],
+  "firstVisualFocus": "slanted vertical tower photograph with thick irregular white torn edge, followed by foreground face",
+  "primaryMechanism": "strict six-cell documentary photo grid disrupted by a tall diagonal torn landmark photo and balanced by a large right foreground person; one quiet lower-left location word closes the reading loop",
+  "dominantAxis": "diagonal from upper x65 to middle-lower x43; secondary right person vertical mass",
+  "visualCenterPercent": [64, 48],
+  "readingPath": ["upper landmark tip and torn edge", "landmark body and left-middle secondary evidence", "foreground person's face", "lower-left location word", "surrounding documentary grid"],
+  "imageTextRelationship": "text names the pictured place after the layered visual evidence; it does not carry the first visual hit",
+  "negativeSpace": ["sky inside main torn strip", "lower-detail sky around left-middle paper", "quiet patch behind lower-left title", "white paper ring around face"],
+  "layerOrder": ["six-photo grid", "left-middle wide torn landmark fragment", "diagonal main landmark fragment", "right foreground person fragment", "lower-left title"],
+  "layoutContract": {
+    "locked": ["3:4 two-column three-row documentary grid", "slanted tall central landmark paper strip", "left-middle wide secondary landmark paper", "large right front person with matching torn border", "single lower-left place word", "front-back contact and right-heavy balance"],
+    "adaptive": ["person identity and pose within near-frontal silhouette", "real place or event imagery", "landmark/object", "short place word", "exact palette and source light"],
+    "optional": ["small authentic color accent already present in a photograph"],
+    "forbidden": ["unrelated images in six cells", "rectangular main strip", "uniform digital glow instead of torn paper", "tiny person", "stretched landmark", "multi-line benefit headline", "copying Paris or original woman for transfer test", "active before testing and acceptance"]
+  },
+  "variableContract": {
+    "person": "identity, clothing, and action may change; right x55-92/y40-100 near-frontal subject with clear face and frontmost torn-paper layer remains",
+    "text": "place/theme word may change; one line, x13-45/y72-85, optical high-contrast Roman serif appearance and medium visual rank remain; rewrite overlong text",
+    "product": "landmark may become real flagship product, work, device, or space; preserve a tall identifiable hero object inside the main paper strip and a secondary evidence fragment at left",
+    "color": "exact colors may change; documentary low-to-medium saturation grid, high-lightness paper and title, deep right foreground mass remain"
+  },
+  "invariantContract": {
+    "grid": { "columns": 2, "rows": 3, "verticalSeamPercent": [48, 52], "horizontalSeamsPercent": [[30, 34], [62, 66]] },
+    "mainStripMaxWidthPercent": [35, 45],
+    "mainStripVerticalSpanPercent": [60, 70],
+    "personVisibleAreaPercent": [25, 32],
+    "tornBandThicknessCanvasWidthPercent": [1.5, 3],
+    "titleBoxPercent": [13, 72, 45, 85],
+    "effects": ["white torn inner paper", "irregular fibrous outer edge", "short subtle contact shadow", "person paper overlaps landmark paper", "real photographic texture"]
+  },
+  "transformationGrammar": [
+    { "trigger": "six images exist but key structures sit at wrong positions", "level": "T1", "action": "crop and reorder individual cells", "reason": "restore grid rhythm while retaining factual evidence" },
+    { "trigger": "hero object or person does not separate cleanly", "level": "T2", "action": "cut a hero photo strip including environment and a separate person paper layer; extend background only where needed", "reason": "restore torn collage depth without damaging identities or geometry" },
+    { "trigger": "title falls on bright background", "level": "T1", "action": "reposition lower-left photo crop or locally darken it", "reason": "keep clean white serif word without new box or stroke" },
+    { "trigger": "real scene, person, or object evidence is missing", "level": "T3", "action": "reshoot or collect valid assets before use", "reason": "documentary collage requires connected real evidence" }
+  ],
+  "semanticFit": {
+    "preferred": ["city visit", "site inspection", "travel diary", "exhibition visit", "restaurant or campus walk-through with real narrator"],
+    "reject": ["single-photo topic", "price and parameter headline", "long educational claim", "unrelated mood-image collage", "topic with no identifiable hero object"]
+  },
+  "palette": {
+    "exactColorsLocked": false,
+    "documentaryGridVisibleAreaPercent": [55, 65],
+    "coolSkyAndLightStoneVisibleAreaPercent": [20, 30],
+    "deepClothesAndArchitectureVisibleAreaPercent": [25, 35],
+    "whitePaperAndTitleVisibleAreaPercent": [5, 10],
+    "lightnessOrder": ["paper and title", "sky and light architecture", "dark clothing and architecture"],
+    "areaCaveat": "overlapping visual role estimates are not additive pixel shares"
+  },
+  "fontDependencies": [
+    { "role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-026-roman-serif", "variant": "destinationLatin", "required": true, "status": "testing", "script": "Latin" }
+  ],
+  "failureModes": ["hero paper becomes rectangular", "uniform glow outline", "hero object bent or truncated", "person too small or face obscured", "paper bands merge into an unreadable white blob", "six images lack shared story", "white title loses contrast", "long or multiline title", "untested Chinese substitution", "listed active before acceptance"],
+  "tests": [],
+  "userApproved": false
+}

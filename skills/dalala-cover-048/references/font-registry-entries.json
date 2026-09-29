@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-048-vlog-outline",
+    "displayName": "048 厚圆白字黑边测试依赖",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-048/font-skills/vlog-outline/SKILL.md",
+    "config": "../skills/dalala-cover-048/font-skills/vlog-outline/references/style.json",
+    "humanRules": "../skills/dalala-cover-048/font-skills/vlog-outline/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-048/font-skills/vlog-outline/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-048/font-skills/vlog-outline/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-048/font-skills/vlog-outline/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-048/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

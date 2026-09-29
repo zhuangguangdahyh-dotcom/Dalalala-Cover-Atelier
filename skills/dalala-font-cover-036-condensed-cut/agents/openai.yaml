@@ -1,0 +1,6 @@
+interface:
+  display_name: "036 双语极窄刀切展示字（测试态）"
+  short_description: "高耸压缩、字骨清楚的拉丁与中文透明标题层"
+policy:
+  allow_automatic_invocation: false
+  status: testing

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-056",
+  "status": "studied",
+  "analysisStatus": "pending-user-confirmation",
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "reference": "../assets/reference-original.jpg",
+    "registryReference": "参考封面图/dalala-cover-056-reference.jpg",
+    "width": 1263,
+    "height": 1684,
+    "ratio": "3:4",
+    "sha256": "e2e93f993d89019aee3709a4d9c3073e6420b55457013c1eeba18bdd961b2173",
+    "reviewedOriginal": true,
+    "measurementMethod": "visual bounding-box estimates, not pixel segmentation",
+    "tolerancePercentagePoints": 3
+  },
+  "coordinateSystem": "boxPercent=[left,top,right,bottom], origin top-left",
+  "contentRoles": [
+    {"role":"background","description":"full-bleed darkened real streetside shopfront with gridded glass, paving and stools","boxPercent":[0,0,100,100]},
+    {"role":"upperTranslucentBand","description":"full-width semitransparent warm neutral support strip","boxPercent":[0,5,100,25]},
+    {"role":"mainTitle","description":"single-line high-contrast Song; light lead plus warm pale highlighted name","boxPercent":[1,8,63,23]},
+    {"role":"lowerTranslucentBand","description":"short rightward semitransparent support strip behind person edge","boxPercent":[59,30,100,43]},
+    {"role":"subtitle","description":"single-line action/outcome in smaller matching Song family","boxPercent":[63,33,98,39]},
+    {"role":"person","description":"one centered frontal woman from head to bottom-bleeding trouser legs","boxPercent":[26,21,75,100]},
+    {"role":"face","description":"identity and eye-contact anchor","boxPercent":[44,24,61,39]},
+    {"role":"footerSource","description":"small widely spaced real place or publisher","boxPercent":[38,92,63,95]}
+  ],
+  "absentRoles": ["price","CTA","badge","border","longBodyCopy","productGrid"],
+  "firstVisualFocus": "oversized upper-left two-tone Song headline, then central face",
+  "primaryMechanism": "full-bleed believable environment plus centered guide figure; long upper translucent band and short right mid band stage a left-to-right headline staircase",
+  "dominantAxis": "human center near x52%; typography advances upper-left to mid-right",
+  "visualCenterPercent": [51,38],
+  "readingPath": ["large upper-left guide/name title","central face","smaller right-side action/result title","clothing and real setting","small bottom source"],
+  "negativeSpace": ["shopfront above upper band y0–5","gap between bands y25–30","relatively quiet sides of person below y43","unfilled clothing and environment zone y43–90"],
+  "layerOrder": ["full-bleed real photo","local darkening","two semitransparent horizontal bands","title and subtitle lettering plus short soft shadow","restored front hair and shoulder occlusion","small bottom source"],
+  "imageTextRelationship": "guide/name text points to the visible person; action/outcome text is set beside them; real place or publisher anchors the scene",
+  "layoutContract": {
+    "locked": ["3:4 full-bleed real scene","one centered frontal guide","wide upper and shorter right-mid translucent band","single-line left-upper hero and single-line right-mid support with 2.1–2.4 height ratio","front hair/shoulder occlusion","bottom spaced source","clothing/scene display area below y43"],
+    "adaptive": ["guide identity and industry-specific wardrobe","truthful real setting","headline and support wording within one-line boxes","exact palette and band opacity preserving luminance structure","real publisher/source"],
+    "optional": ["small local environmental cleanup","minor soft shadow tuning for changing photo contrast"],
+    "forbidden": ["solid-color studio backdrop","equal-size title strips","off-center person","text over face","second title line","generic AI mascot by default","price sticker or CTA","copied source person or place","ordinary font fallback","active before acceptance"]
+  },
+  "variableContract": {
+    "person": "identity, clothes, pose details may change while a single centered identifiable guide stays around x26–75%, y21–100%, with face near x53%, y32%",
+    "text": "words may change; preserve semantic two-color single-line upper title, smaller single-line right result, small spaced bottom source",
+    "product": "clothes, bag, tool or visible item may change but remain naturally part of person or truthful scene; no floating sticker product",
+    "palette": "specific hues may change while dark real-scene majority, medium-light neutral translucent bands, pale lettering, and localized garment color remain"
+  },
+  "invariantContract": {
+    "upperBandBoxPercent": [0,5,100,25],
+    "mainTitleBoxPercent": [1,8,63,23],
+    "personBoxPercent": [26,21,75,100],
+    "lowerBandBoxPercent": [59,30,100,43],
+    "subtitleBoxPercent": [63,33,98,39],
+    "footerBoxPercent": [38,92,63,95],
+    "titleHeightRatio": [2.1,2.4],
+    "effects": ["thin translucent bands with visible scene","short soft lettering shadow","hair and shoulder foreground overlap"]
+  },
+  "transformationGrammar": [
+    {"trigger":"photo framing displaces face or cuts clothing too early","level":"T1","action":"recrop or extend real environment while preserving person and bottom bleed"},
+    {"trigger":"busy windows prevent contrast","level":"T1","action":"locally darken or lower background contrast; retain truthful scene detail"},
+    {"trigger":"hair or shoulder cannot overlap strips from flat image","level":"T2","action":"isolate same-source foreground contour and restore above strips with edge repair"},
+    {"trigger":"person and setting are unrelated or identity cues absent","level":"T3","action":"obtain suitable truthful human-in-setting asset before test"}
+  ],
+  "semanticFit": {
+    "preferred": ["real person guide in a retail or working setting","styling or scene visit","expert or founder viewpoint anchored in real place"],
+    "reject": ["anonymous product catalogue","long how-to list","no identifiable protagonist","fake place attribution"]
+  },
+  "palette": {
+    "exactColorsLocked": false,
+    "visibleScenePercent": [70,80],
+    "personGarmentVisiblePercent": [20,28],
+    "overlaidBandFootprintPercent": [25,30],
+    "titleInkPercent": [7,10],
+    "areaCaveat": "photograph, strips and lettering overlap; areas are not additive",
+    "lightnessOrder": ["pale title ink","face and garment highlights","translucent bands","street glass and ground"]
+  },
+  "typography": {
+    "hero": "4–6 Han characters in one line; thick vertical/thin horizontal Song skeleton, pointed serif termini, stable baseline, tight non-touching spacing",
+    "support": "5–7 Han characters in one line; same family at roughly 42–48% hero character height, slightly more tracking",
+    "source": "small clean Han, spaced roughly 1–1.5 glyph widths; no decorative serif treatment",
+    "effect": "semantically split neighboring pale colors and short soft lower-right shadow; no thick outline or extrusion"
+  },
+  "fontDependencies": [
+    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-056-street-song","variant":"hero","required":true,"status":"testing"},
+    {"role":"subtitle","type":"font-style-id","id":"dalala-cover-056-street-song","variant":"support","required":true,"status":"testing"}
+  ],
+  "failureModes": ["headline wraps","bands become opaque cards","strips become equal-width","person no longer central","eyes covered","setting becomes synthetic flat field","font skeleton drifts to generic Song or blackface","bottom source competes as third title","360px staircase disappears"],
+  "tests": [],
+  "userApproved": false
+}

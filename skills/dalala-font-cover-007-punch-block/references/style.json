@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-007-punch-block",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-007/assets/reference-original.jpg",
+  "requiredInputs": ["text", "role", "canvasWidth", "canvasHeight", "textBox", "fillRole", "outlineRole", "haloRole"],
+  "roles": {"hook": "upper near-light row", "main": "lower high-light accent row"},
+  "characterConstruction": {"base": "very-heavy wide irregular Chinese block display", "fill": "solid", "strokeWeight": "ultra-black", "width": "wide; slight per-character variation", "terminals": "flat with selective short angled cuts and extensions", "counterShapes": "open enough for 360px legibility", "tracking": "tight with optical collision prevention", "perGlyphTiltDegrees": [-3, 3], "outlineRatioToGlyphHeight": [0.025, 0.055], "halo": "short neutral soft glow outside dark perimeter", "estimateOnly": true},
+  "runtime": {"primaryRenderer": "imagegen-transparent-title-layer", "oneRolePerLayer": true, "singleLineRequired": true, "fixedFontFallbackAllowed": false},
+  "forbidden": ["regular web heiti with outline only", "rounded bubble glyphs", "hollow fill", "brush texture", "long hard shadow", "metallic 3d extrusion", "neon glow", "multi-line wrapping"],
+  "productionApproved": false
+}

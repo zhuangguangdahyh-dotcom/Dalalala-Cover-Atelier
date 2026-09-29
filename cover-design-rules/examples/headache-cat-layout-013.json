@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "renderAllowed": true,
+  "canvas": {
+    "platformId": "unspecified",
+    "displayName": "未指定平台",
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "orientation": "portrait",
+    "usedProjectDefault": true
+  },
+  "templateAnalysis": {
+    "complete": true,
+    "ruleId": "layout-013",
+    "displayName": "013 · 负空间构图",
+    "referenceReviewed": "../layout-rules/references/source-thumbnails/013.jpg",
+    "referenceContentMap": {
+      "primarySubject": "右侧由猫头轮廓切出的绿色形状",
+      "mainTitle": "左上大标题",
+      "subtitle": "主标题下方英文副标题",
+      "supportingInformation": "左侧中部短说明与底部四个标签",
+      "decorations": "绿色圆形、猫形负空间、水平分隔线和胶囊标签",
+      "protectedWhitespace": "画面中央至右侧主体周围的大面积米白空场"
+    },
+    "coverTranslation": {
+      "subjectRole": "主体置于画面边缘，并通过轮廓、裁切或色块与大面积空场形成清楚的正负形关系。",
+      "mainTitleRole": "放在空场的一角，只占留白的一小部分；不得用超大字填满负空间。",
+      "subtitleRole": "主标题下方的小型补充信息；没有新增信息时隐藏并保留空白。",
+      "decorationZones": ["主体轮廓边缘", "标题附近的小范围"],
+      "protectedRegions": ["主体与标题之间的中央空场", "猫脸与双眼"]
+    }
+  },
+  "assetAnalysis": {
+    "complete": true,
+    "assetPaths": [
+      "[本机路径已省略] Library.photoslibrary/resources/derivatives/3/39773C3F-8976-4A68-83C2-8C826CE4156A_1_102_o.jpeg"
+    ],
+    "primarySubject": "正面坐姿、睁大眼睛的白色幼猫",
+    "mustPreserve": ["双眼", "双耳", "完整脸型", "白色毛发", "坐姿", "呆愣神态"],
+    "mayWeakenOrRemove": ["灰垫英文", "红黄圆垫", "木地板高饱和橙色", "无关背景细节"],
+    "backgroundDecision": {
+      "action": "remove-and-rebuild",
+      "reason": "原背景信息较杂，无法形成参考要求的大面积安静负空间。"
+    },
+    "cutoutDecision": {
+      "required": true,
+      "reason": "需要用猫的真实轮廓建立正负形，而不是把整张照片缩成矩形图片区。"
+    },
+    "effects": ["猫轮廓外侧极轻投影", "重点字附近少量发懵线"],
+    "qualityRisks": ["白色毛发抠图边缘", "不得改变眼睛和耳朵比例"]
+  },
+  "themeAnalysis": {
+    "complete": true,
+    "topic": "真让人头大",
+    "mainTitle": "真让人头大",
+    "subtitle": "",
+    "firstEmotion": "发懵、无语但可爱的轻喜剧",
+    "titleSemanticGroups": ["真让人", "头大"],
+    "emphasisWords": ["头大", "大"],
+    "subjectThemeRelationship": "猫的大头近景和无辜表情直接证明标题情绪。"
+  },
+  "designDecision": {
+    "complete": true,
+    "visualStyle": "克制的轻综艺负空间封面",
+    "subjectTreatment": "抠出完整猫主体置于右侧边缘，让头部成为正形焦点并保护双眼。",
+    "mainTitleLayout": "左上两行排布，真让人较小，头大较大，大为重点字；标题只占左侧留白的小部分。",
+    "subtitleLayout": "不使用副标题，空出的区域继续作为受保护留白。",
+    "decorationPlan": ["猫头外侧两到三条短发懵弧线", "大字附近一处短停顿线"],
+    "backgroundAndEffects": ["低饱和纯色背景", "猫主体边缘极轻投影", "中央负空间不添加纹理和图标"],
+    "paletteRoles": {
+      "background": "低饱和米白",
+      "primaryText": "近黑色",
+      "accent": "从原图红色圆垫提取的低面积红橙色"
+    },
+    "layerOrder": ["背景", "局部色块", "猫主体抠图", "主标题", "少量情绪装饰"]
+  },
+  "qa": {
+    "templateAnatomyPreserved": false,
+    "mustPreserveItemsVisible": false,
+    "titleHierarchyClear": false,
+    "subjectTitleRelationshipClear": false,
+    "decorationsServeComposition": false,
+    "thumbnailReadable": false
+  }
+}

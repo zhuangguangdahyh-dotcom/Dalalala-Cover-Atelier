@@ -1,0 +1,6 @@
+interface:
+  display_name: "005 顶部方块钩子字（测试态）"
+  short_description: "方正粗重、切角、浅位移的透明中文钩子层"
+policy:
+  allow_automatic_invocation: false
+  status: testing

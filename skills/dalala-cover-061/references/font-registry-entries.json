@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dalala-cover-061-outlined-poster-block",
+    "displayName": "061 白色描边硬块巨字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-061/font-skills/outlined-poster-block/SKILL.md",
+    "config": "../skills/dalala-cover-061/font-skills/outlined-poster-block/references/style.json",
+    "humanRules": "../skills/dalala-cover-061/font-skills/outlined-poster-block/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-061/font-skills/outlined-poster-block/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-061/font-skills/outlined-poster-block/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-061/font-skills/outlined-poster-block/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-061/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-061-archive-roman",
+    "displayName": "061 上栏旧印罗马衬线（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-061/font-skills/archive-roman/SKILL.md",
+    "config": "../skills/dalala-cover-061/font-skills/archive-roman/references/style.json",
+    "humanRules": "../skills/dalala-cover-061/font-skills/archive-roman/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-061/font-skills/archive-roman/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-061/font-skills/archive-roman/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-061/font-skills/archive-roman/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-061/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  },
+  {
+    "id": "dalala-cover-061-verdict-han",
+    "displayName": "061 底部浅暖观点黑体（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-061/font-skills/verdict-han/SKILL.md",
+    "config": "../skills/dalala-cover-061/font-skills/verdict-han/references/style.json",
+    "humanRules": "../skills/dalala-cover-061/font-skills/verdict-han/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-061/font-skills/verdict-han/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-061/font-skills/verdict-han/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-061/font-skills/verdict-han/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-061/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

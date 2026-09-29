@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考 050"
+  short_description: "四角巨字围绕中心暖光肖像（拆解待确认）"
+  default_prompt: "请先读取本 Skill 的 manifest、anatomy、adaptation-rules 与原图；当前仅 studied，先审阅拆解，不直接用于生产。"

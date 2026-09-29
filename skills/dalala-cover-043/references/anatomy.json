@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-043",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-043-reference.jpg",
+    "archivedReference": "skills/dalala-cover-043/assets/reference-original.jpg",
+    "sha256": "0e306f536bb193758fe282f79f26e3158e45b50f91ed65a18bad0aa520ba4366",
+    "dimensions": [1440, 1920],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视估算，百分比为测试初值，正式复刻时按像素复核",
+    "bboxConvention": "[x0,y0,x1,y1]，均为画布百分比；区域相互覆盖，面积不相加"
+  },
+  "visualConclusion": "深色实拍建筑街景占满画幅，三行奶油浅色大衬线标题在拱门前形成安定中心，近处模糊骑行者与远处骑行者让静态标题有时间流动。",
+  "primaryMechanism": "真实地点证据与私人选择式大标题叠加；宽窄宽字块压在中央暗场，现场运动只在中下部掠过，形成安定文字和流动街景的张力。",
+  "dominantAxis": "画布中央竖轴 x约50%；建筑窗柱竖线与拱门提供稳定框架，底部街道及骑行方向形成横向动势",
+  "primaryFocus": "中部三行浅色高反差罗马衬线标题",
+  "visualWeightCenterPercent": [50, 53],
+  "readingPath": ["三行标题第一行", "第二行短词", "第三行地点或判断", "标题后方拱门与建筑", "左下最近骑行者", "右中远骑行者与街道", "顶部微字", "底部微标"],
+  "contentRoles": [
+    {"role":"backgroundPhoto","bboxPercent":[0,0,100,100],"meaning":"一张连续纪实街景，提供真实地点与氛围","alignment":"full-bleed","z":0},
+    {"role":"architecture","bboxPercent":[0,0,100,66],"meaning":"红砖立面、窗柱、拱门和门洞，提供稳定秩序与承字暗场","alignment":"建筑主拱靠左中，标题中轴仍在画布中心","z":1},
+    {"role":"road","bboxPercent":[0,65,100,100],"meaning":"路面、黄线、白色地面反光，建立深度和真实现场","alignment":"横向贯穿底部","z":1},
+    {"role":"distantRider","bboxPercent":[62,49,88,72],"meaning":"右中景小骑行者及黄色车，补充尺度与运动方向","alignment":"右侧","z":2},
+    {"role":"nearRider","bboxPercent":[0,52,58,100],"meaning":"左下近景模糊人物和黄色车，提供前景遮挡与纵深","alignment":"左侧和底部越界裁切","z":3},
+    {"role":"topEyebrow","bboxPercent":[44,2,57,5],"meaning":"小斜体生活记录引句，远弱于标题","alignment":"center","z":4},
+    {"role":"mainTitleLine1","bboxPercent":[25,37,75,46],"meaning":"宽行主标题，第一眼入口","alignment":"center","z":5},
+    {"role":"mainTitleLine2","bboxPercent":[39,45,63,54],"meaning":"窄行转折和呼吸","alignment":"center","z":5},
+    {"role":"mainTitleLine3","bboxPercent":[25,54,76,64],"meaning":"宽行收束主题和地点","alignment":"center","z":5},
+    {"role":"bottomMicroMark","bboxPercent":[48,95,53,98],"meaning":"极小日期或系列符号","alignment":"center","z":5}
+  ],
+  "protectedZones": [
+    {"bboxPercent":[25,37,76,64],"reason":"标题词形完整、背景须有足够暗度"},
+    {"bboxPercent":[0,53,25,77],"reason":"近景人物脸和肩部应保持纪实完整，不因排字任意抹除"},
+    {"bboxPercent":[63,51,83,70],"reason":"右侧远处骑行者仍可辨认成自然现场事件"}
+  ],
+  "composition": {
+    "imageTextRelationship":"大标题直接压在连续照片中部，建筑拱门天然成为衬底；无色块、贴纸或独立信息框。",
+    "textBlock":"三行宽窄宽，字面总高约 27% 画高，宽度约 50–55% 画宽，块中心约 (50%,50%)；顶部微字与底标上下呼应。",
+    "sceneWeight":"建筑约上 65%，街道约下 35%；近景人物/车辆可见投影约 18–25%，远处人车约 5–9%；文字浅色投影约 9–13%。",
+    "negativeSpace":"顶部窗间和建筑暗面保留安静区；标题各行之间有清晰暗底；街道中部大块暗灰承接运动。",
+    "density":"上部建筑纹理中密但低对比，中部标题高密度，底部人车动势中高密度；不是纯色大留白。",
+    "occlusion":"原图为单次曝光现场，近景骑行者从左边与底边裁断；标题覆盖背景建筑，不明显覆盖前景人脸。"
+  },
+  "typography": {
+    "mainTitle":{"fontStyleId":"dalala-cover-043-editorial-serif","script":"Latin","lineCount":3,"lineWidthPercent":[[48,55],[22,31],[48,55]],"lineHeightPercent":[8,10],"effect":"高对比罗马衬线，柔和楔形/托脚细节，浅暖实色；无厚描边、发光或投影"},
+    "topEyebrow":{"fontStyleId":"dalala-cover-043-editorial-serif","variant":"delicate-italic","lineCount":1,"heightPercent":[2,3],"effect":"小号轻斜体，微手写韵律，但仍为衬线体系"},
+    "bottomMicroMark":{"fontStyleId":"dalala-cover-043-editorial-serif","variant":"delicate-italic","lineCount":1,"heightPercent":[1,2],"effect":"低权重极小浅色标记"}
+  },
+  "paletteStructure": {
+    "darkPhotoAreaPercent":[75,88],
+    "lightTitleAreaPercent":[9,13],
+    "warmAccentAreaPercent":[1,5],
+    "roles":"深低饱和建筑与沥青为大底；浅暖标题最高明度；人物真实肤色、砖墙棕红与车身暖黄为现场局部色。色值可变，明度层级与面积关系不变。"
+  },
+  "effects":["低照度真实摄影及局部暗部层次", "前景人物与车辆自然运动模糊", "透视正确的建筑与道路纵深", "细微暖光点", "浅暖实色衬线标题", "无明显外描边、厚阴影、贴纸或三维字"],
+  "layerOrder":["连续现场照片", "局部曝光/低饱和调色与必要暗部遮罩", "顶部微字", "主标题透明层", "底部微标"],
+  "locked":["3:4 满版纪实场景", "上部稳定空间与下部自然活动", "中央宽窄宽三行大标题", "上下两处极弱微字", "浅标题对深现场的对比结构", "近远主体的真实景深与裁切"],
+  "adaptive":["地点及行业现场", "人物/物件身份", "主标题具体文字", "微字内容", "具体色相与现场时间"],
+  "optional":["很轻的局部暗化", "真实相机颗粒", "现场既有暖光点"],
+  "forbidden":["三行等宽或增加第四行", "无关棚拍人物抠图", "将建筑照片抹成纯黑底", "黑色粗描边或霓虹发光字", "直接复用原句与上海街景做跨行业测试", "未经测试与用户确认转 active"],
+  "renderReadiness":{"nearSourceRecreation":false,"crossIndustryTest":false,"fontQa":false,"userAcceptance":false}
+}

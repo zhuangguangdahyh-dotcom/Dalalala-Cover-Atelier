@@ -1,0 +1,4 @@
+interface:
+  display_name: "032 粗实心冰纹标题字（测试）"
+  short_description: "按参考 032 生成两种角色的透明标题文字层"
+  default_prompt: "读取本 Skill 的字骨、生成和质检规则，保留参考 032 的粗实心斜切字形；当前仅测试态。"

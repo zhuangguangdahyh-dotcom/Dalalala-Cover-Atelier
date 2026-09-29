@@ -1,0 +1,14 @@
+{
+  "id": "dalala-cover-042-heart-hand",
+  "status": "testing",
+  "sourceCover": "dalala-cover-042",
+  "script": "Han",
+  "roles": ["emotionSubtitle"],
+  "glyphStructure": "准确可辨的自由手写汉字，字高、倾角、连势逐字变化",
+  "stroke": "中等至偏粗的柔软笔触，显著提按变化，少量干笔和短飞白",
+  "composition": {"preferredCharacters": 4, "bboxCanvasPercent": [4, 45, 47, 60], "direction": "整体向右舒展，局部笔画向下探出"},
+  "effect": "少量暖色实笔；无描边、无投影、无荧光发光",
+  "output": "真实透明 RGBA 手写字层",
+  "approvedReference": null,
+  "renderAllowed": false
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考封面 054（待测试）"
+  short_description: "深纹理舞台、发光橱窗与弧光衬线主题"
+  default_prompt: "先查看本 Skill 原图并读取 anatomy、adaptation-rules、manifest、analysis；保持 studied 状态，拆解获确认后才做跨主题复刻测试。"

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-057-fine-angular-han",
+    "displayName": "057 细线锐角人文汉字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-057/font-skills/fine-angular-han/SKILL.md",
+    "config": "../skills/dalala-cover-057/font-skills/fine-angular-han/references/style.json",
+    "humanRules": "../skills/dalala-cover-057/font-skills/fine-angular-han/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-057/font-skills/fine-angular-han/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-057/font-skills/fine-angular-han/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-057/font-skills/fine-angular-han/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-057/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

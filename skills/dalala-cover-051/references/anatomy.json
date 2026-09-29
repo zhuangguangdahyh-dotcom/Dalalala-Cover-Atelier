@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-051",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-051-reference.jpg",
+    "archivedReference": "skills/dalala-cover-051/assets/reference-original.jpg",
+    "sha256": "1121299f39cdb5b799046f228d9b4f89e7fd691e3627cb2210f0d1320db8581c",
+    "dimensions": [
+      2160,
+      2880
+    ],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视归一化估计，待复刻量测验证",
+    "bboxConvention": "[x0,y0,x1,y1]，百分比，允许摄影主体和字层有意重叠"
+  },
+  "visualConclusion": "单张自然光人物环境近景，上方巨大薄荷色连写英文与下方同色自由中文横跨照片；中央人物低头看纸张形成故事和安静区。",
+  "primaryMechanism": "两条宽幅同色自由笔迹与真实人物低头阅读动作的尺度和节奏反差",
+  "dominantAxis": "上部左至右的笔势横轴；人物眼睛至右下纸张的动作斜轴；下部中文再横向收束",
+  "primaryFocus": "上部大英文笔势及中央人物黑发与侧脸",
+  "visualWeightCenterPercent": [
+    52,
+    48
+  ],
+  "readingPath": [
+    "上部英文大回环和连笔",
+    "中部头发与侧脸",
+    "右下视线、手、笔与纸张",
+    "下部中文",
+    "回到人物动作"
+  ],
+  "contentRoles": [
+    {
+      "role": "fullBleedPhoto",
+      "bboxPercent": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "meaning": "一张连续的户外自然光环境照",
+      "z": 0
+    },
+    {
+      "role": "environmentLeaves",
+      "bboxPercent": [
+        0,
+        5,
+        100,
+        74
+      ],
+      "meaning": "左侧大叶、右侧浅叶及远景散景形成前后层次和字的承托",
+      "z": 1
+    },
+    {
+      "role": "person",
+      "bboxPercent": [
+        4,
+        11,
+        91,
+        100
+      ],
+      "headBBoxPercent": [
+        30,
+        11,
+        76,
+        48
+      ],
+      "meaning": "中下部低头专注的行动主角",
+      "z": 2
+    },
+    {
+      "role": "actionObject",
+      "bboxPercent": [
+        43,
+        49,
+        100,
+        75
+      ],
+      "meaning": "手、笔、纸张及向右下的观看目标",
+      "z": 3
+    },
+    {
+      "role": "latinDisplayTitle",
+      "bboxPercent": [
+        10,
+        2,
+        89,
+        39
+      ],
+      "meaning": "上部一行巨大情绪标题，首字母回环和长尾笔",
+      "z": 4
+    },
+    {
+      "role": "chineseDisplayTitle",
+      "bboxPercent": [
+        5,
+        64,
+        97,
+        86
+      ],
+      "meaning": "下部一行中文篇章/主题大字",
+      "z": 5
+    }
+  ],
+  "absentRoles": [
+    "smallSubtitle",
+    "accountName",
+    "date",
+    "badge",
+    "frame",
+    "independentSticker"
+  ],
+  "protectedZones": [
+    {
+      "bboxPercent": [
+        53,
+        34,
+        70,
+        49
+      ],
+      "reason": "眼、鼻、口和脸轮廓必须可辨"
+    },
+    {
+      "bboxPercent": [
+        43,
+        49,
+        100,
+        75
+      ],
+      "reason": "手和纸张真实接触与视线终点"
+    },
+    {
+      "bboxPercent": [
+        10,
+        2,
+        89,
+        39
+      ],
+      "reason": "英文主笔势完整"
+    },
+    {
+      "bboxPercent": [
+        5,
+        64,
+        97,
+        86
+      ],
+      "reason": "中文笔画与可读结构完整"
+    }
+  ],
+  "composition": {
+    "subjectRelation": "人物占宽约70–85%、高约82–95%，头部中央偏左；纸张向右展开",
+    "titleRelation": "上英文跨叶片和发顶，下中文跨衣裤；二者同色同笔势但结构不机械一致",
+    "quietZone": "y40–64% 保留脸与动作，不加大字",
+    "density": "上字强—中人物静—下字强；自然环境纹理不做拼贴",
+    "imageTextRelationship": "手写字作为透明层直接覆盖连续照片，不用底板和厚边"
+  },
+  "typography": {
+    "latinTitle": {
+      "fontStyleId": "dalala-cover-051-mint-freehand",
+      "lines": 1,
+      "preferredCharacters": [
+        7,
+        10
+      ],
+      "bboxPercent": [
+        10,
+        2,
+        89,
+        39
+      ],
+      "features": [
+        "夸张首字母回环",
+        "连写小写中段",
+        "长尾笔",
+        "不规则基线"
+      ]
+    },
+    "chineseTitle": {
+      "fontStyleId": "dalala-cover-051-mint-freehand",
+      "lines": 1,
+      "preferredCharacters": [
+        4,
+        6
+      ],
+      "bboxPercent": [
+        5,
+        64,
+        97,
+        86
+      ],
+      "features": [
+        "近等粗自由手写",
+        "字高和字宽不等",
+        "局部尖收笔与长伸展",
+        "不规则字距"
+      ]
+    },
+    "subtitle": null
+  },
+  "paletteStructure": {
+    "photoDominantAreaPercent": [
+      92,
+      96
+    ],
+    "midLowValuePhotoAreaPercent": [
+      55,
+      70
+    ],
+    "highValueLeavesBokehPaperPercent": [
+      15,
+      25
+    ],
+    "brightCoolLetteringPixelAreaPercent": [
+      4,
+      8
+    ],
+    "rule": "照片以有深浅的自然/行业环境、暖或中性人物为主；上下字共享单一偏冷鲜亮强调色，具体色值可改"
+  },
+  "effects": [
+    "单张真实环境摄影",
+    "自然光、前景叶与远景散景",
+    "透明层叠加的实心自由手写字",
+    "轻微手绘边缘与不规则长笔势"
+  ],
+  "layerOrder": [
+    "连续环境照片及自然前后景",
+    "人物、手、纸张照片内容",
+    "英文透明手写层",
+    "中文透明手写层",
+    "如有明确证据才局部让发丝前置"
+  ],
+  "locked": [
+    "3:4 满幅连续摄影",
+    "中央偏左人物与右下视线对象",
+    "上英文下中文两条宽幅同色自由字带",
+    "中部安静区",
+    "无底板描边贴纸"
+  ],
+  "adaptive": [
+    "人物身份和服装",
+    "行业动作对象",
+    "真实环境",
+    "双语标题内容",
+    "具体高亮冷色值"
+  ],
+  "optional": [
+    "有证据的少量发丝与字局部穿插"
+  ],
+  "forbidden": [
+    "多宫格或棚拍贴纸人像",
+    "正视镜头使动作关系消失",
+    "字缩为普通页眉或规则印刷体",
+    "中文压眼口",
+    "为了长字增行或扩区",
+    "两组字分色",
+    "厚描边、霓虹、色块底板",
+    "无真实接触的纸张或多手指",
+    "未验收 active"
+  ],
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "thumbnailQa": false,
+    "userAcceptance": false
+  }
+}

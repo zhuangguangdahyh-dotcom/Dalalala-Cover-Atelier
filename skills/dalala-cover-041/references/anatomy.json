@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-041",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "sourceEvidence": {
+    "registry": "cover-skills/registry.json",
+    "reference": "参考封面图/dalala-cover-041-reference.jpg",
+    "archivedReference": "skills/dalala-cover-041/assets/reference-original.jpg",
+    "sha256": "01be480d71b2ad1cf689b499572281bd5efca44d94f71fdf1a0d6482b79af5be",
+    "dimensions": [
+      1263,
+      1684
+    ],
+    "ratio": "3:4",
+    "visuallyReviewed": true,
+    "measurementMethod": "原图目视估算；百分比是复刻起点，测试时允许约 2–3 个百分点微调",
+    "bboxConvention": "[x0,y0,x1,y1] 为整画布百分比；重叠层面积不能相加"
+  },
+  "canvas": {
+    "sourceRatio": "3:4",
+    "sourceSize": [
+      1263,
+      1684
+    ],
+    "requestedRatio": "3:4",
+    "verifiedRatios": []
+  },
+  "visualConclusion": "上半幅红黑三行巨大圆点阵标题，下半幅深色车内双屏和道路；细小编辑标记与手写批注让技术话题兼具秩序和人味。",
+  "primaryMechanism": "点阵材质先把技术感和标题钩子压进浅底，车机前景与笔记本后景随后提供场景中的执行证据；红色仅点亮首词、标点和手划线。",
+  "dominantAxis": "左侧三行宽度递增的标题轴；视觉由左上向右下的双屏场景移动",
+  "primaryFocus": "红色第一行圆点字及其下方黑色两行标题",
+  "visualWeightCenterPercent": [
+    50,
+    54
+  ],
+  "readingPath": [
+    "红色首行点阵词",
+    "黑色中文第二行",
+    "黑色场景词与红色终止标点",
+    "一行中文利益句",
+    "车机前景核心内容",
+    "后景笔记本执行内容",
+    "右中手写语气注释"
+  ],
+  "contentRoles": [
+    {
+      "role": "lightBackground",
+      "bboxPercent": [
+        0,
+        0,
+        100,
+        58
+      ],
+      "meaning": "干净浅底和远景过渡，保护大标题可读",
+      "alignment": "full-width",
+      "z": 0
+    },
+    {
+      "role": "topLeftEyebrow",
+      "bboxPercent": [
+        4,
+        3,
+        20,
+        8
+      ],
+      "meaning": "三行小英文栏目眉题和短横线",
+      "alignment": "left",
+      "z": 4
+    },
+    {
+      "role": "topRightFolio",
+      "bboxPercent": [
+        86,
+        3,
+        96,
+        8
+      ],
+      "meaning": "页码、强调圆点、栏目词和短横线",
+      "alignment": "right",
+      "z": 4
+    },
+    {
+      "role": "mainTitleLine1",
+      "bboxPercent": [
+        4,
+        11,
+        54,
+        22
+      ],
+      "meaning": "高纯色首词，第一视觉焦点",
+      "alignment": "left",
+      "z": 5
+    },
+    {
+      "role": "mainTitleLine2",
+      "bboxPercent": [
+        4,
+        23,
+        61,
+        33
+      ],
+      "meaning": "深色中文行动承诺",
+      "alignment": "left",
+      "z": 5
+    },
+    {
+      "role": "mainTitleLine3",
+      "bboxPercent": [
+        4,
+        34,
+        75,
+        45
+      ],
+      "meaning": "深色 CarPlay了，场景词与短语气尾字，最长标题行",
+      "alignment": "left",
+      "z": 5
+    },
+    {
+      "role": "terminalPunctuation",
+      "bboxPercent": [
+        77,
+        34,
+        81,
+        44
+      ],
+      "meaning": "与首行同色的醒目终止标点",
+      "alignment": "after-line3",
+      "z": 5
+    },
+    {
+      "role": "rightWordList",
+      "bboxPercent": [
+        69,
+        11,
+        75,
+        19
+      ],
+      "meaning": "浅灰五词清单，轻量技术语境",
+      "alignment": "left",
+      "z": 3
+    },
+    {
+      "role": "rightVerticalMark",
+      "bboxPercent": [
+        79,
+        10,
+        81,
+        20
+      ],
+      "meaning": "细竖线加空心小圆",
+      "alignment": "vertical",
+      "z": 4
+    },
+    {
+      "role": "rightMicroDots",
+      "bboxPercent": [
+        84,
+        10,
+        100,
+        27
+      ],
+      "meaning": "极细渐疏点阵配重",
+      "alignment": "right-edge",
+      "z": 3
+    },
+    {
+      "role": "underTitleRule",
+      "bboxPercent": [
+        4,
+        45,
+        42,
+        46
+      ],
+      "meaning": "细横线和强调色端点",
+      "alignment": "left",
+      "z": 4
+    },
+    {
+      "role": "subtitle",
+      "bboxPercent": [
+        4,
+        47,
+        50,
+        51
+      ],
+      "meaning": "一行清晰的利益或动作解释",
+      "alignment": "left",
+      "z": 4
+    },
+    {
+      "role": "subtitleStroke",
+      "bboxPercent": [
+        6,
+        51,
+        36,
+        52
+      ],
+      "meaning": "一笔细强调色手划线",
+      "alignment": "slight-oblique",
+      "z": 5
+    },
+    {
+      "role": "handNote",
+      "bboxPercent": [
+        77,
+        47,
+        97,
+        55
+      ],
+      "meaning": "轻倾斜手写语气句及下方弧线",
+      "alignment": "right",
+      "z": 5
+    },
+    {
+      "role": "lowerLeftFolio",
+      "bboxPercent": [
+        4,
+        55,
+        17,
+        62
+      ],
+      "meaning": "四行英文栏目回声和短线",
+      "alignment": "left",
+      "z": 4
+    },
+    {
+      "role": "distantEnvironment",
+      "bboxPercent": [
+        0,
+        53,
+        100,
+        70
+      ],
+      "meaning": "低对比道路与城市天际线，连接浅底和场景",
+      "alignment": "horizon",
+      "z": 1
+    },
+    {
+      "role": "rearWorkSurface",
+      "bboxPercent": [
+        54,
+        56,
+        100,
+        78
+      ],
+      "meaning": "后景执行证据，参考中为笔记本屏幕",
+      "alignment": "right-cropped",
+      "z": 2
+    },
+    {
+      "role": "foregroundEvidence",
+      "bboxPercent": [
+        20,
+        71,
+        97,
+        100
+      ],
+      "meaning": "前景核心入口或结果，参考中为车机屏幕",
+      "alignment": "bottom-cropped",
+      "z": 3
+    },
+    {
+      "role": "leftHandAndWheel",
+      "bboxPercent": [
+        0,
+        64,
+        28,
+        100
+      ],
+      "meaning": "左下操作/环境锚点，不能抢主标题",
+      "alignment": "left-bottom-cropped",
+      "z": 3
+    }
+  ],
+  "protectedZones": [
+    {
+      "bboxPercent": [
+        4,
+        11,
+        81,
+        45
+      ],
+      "reason": "主标题点阵需在干净浅底上独立可读"
+    },
+    {
+      "bboxPercent": [
+        4,
+        47,
+        50,
+        52
+      ],
+      "reason": "利益句与红线不可被照片细节侵蚀"
+    },
+    {
+      "bboxPercent": [
+        26,
+        74,
+        92,
+        97
+      ],
+      "reason": "前景核心证据必须可辨，界面内容不能被无关字盖住"
+    }
+  ],
+  "composition": {
+    "textToScene": "上部浅底约 53–60%，下部深色实景可见重量约 39–45%；红色强调仅约 2–4% 可见面积，以上层重叠估计",
+    "leftRightWeight": "左上大字偏重，右侧微点/手写轻配重；右下双屏深色照片将整体拉回平衡",
+    "density": "页眉疏、标题密、过渡疏、实景密，避免平均铺满",
+    "negativeSpace": "页眉和标题之间、首行右侧、右词列周围、标题与副标题之间均保留浅底呼吸",
+    "occlusion": "前景屏幕遮住后景笔记本下缘，方向盘与手从左下越界；大标题不压在影像之上"
+  },
+  "typography": {
+    "mainTitle": {
+      "fontStyleId": "dalala-cover-041-dot-matrix",
+      "script": "Latin-Han-digit",
+      "lineCount": 3,
+      "lineWidthPercent": [
+        [
+          48,
+          53
+        ],
+        [
+          54,
+          59
+        ],
+        [
+          69,
+          76
+        ]
+      ],
+      "dotDiameterCanvasWidthPercent": [
+        1.1,
+        1.5
+      ],
+      "dotPitchToDiameter": [
+        1.05,
+        1.25
+      ],
+      "effect": "独立近圆实点拼字骨，微小印墨不齐；首行和终止叹号为强调色，下两行深色；末尾汉字了必须与数字7区别开"
+    },
+    "subtitle": {
+      "fontStyleId": "dalala-cover-041-editorial-support",
+      "script": "Han",
+      "lineCount": 1,
+      "effect": "干净中等字重现代无衬线，疏字距，无底板，细手划线另层",
+      "trackingEm": [
+        0.08,
+        0.18
+      ]
+    },
+    "handNote": {
+      "fontStyleId": "dalala-cover-022-casual-note",
+      "script": "Han",
+      "lineCount": 1,
+      "effect": "轻右倾、细至中细的圆笔手写，另加独立强调色弧线；测试态候选"
+    },
+    "editorialText": {
+      "fontStyleId": "dalala-cover-041-editorial-support",
+      "script": "Latin",
+      "effect": "窄身或中性大写无衬线，疏字距，远低于标题权重",
+      "trackingEm": [
+        0.12,
+        0.25
+      ]
+    }
+  },
+  "paletteStructure": {
+    "lightGroundPercent": [
+      53,
+      60
+    ],
+    "darkScenePercent": [
+      30,
+      38
+    ],
+    "darkTextPercent": [
+      5,
+      8
+    ],
+    "accentPercent": [
+      2,
+      4
+    ],
+    "rule": "具体 HEX 可变；维持大面积高明度浅底、深色场景与文字、小面积高纯首词/标点/划线，面积重叠不相加"
+  },
+  "effects": [
+    "离散近圆点拼中英数字骨",
+    "点墨轻微不匀但不粘连",
+    "右上低权重渐疏微点",
+    "细线/空心圆编辑符号",
+    "一笔强调色手划线和弧线",
+    "远景轻雾化自然景深",
+    "前后工作屏幕的真实透视与遮挡"
+  ],
+  "layerOrder": [
+    "浅底与远景",
+    "车舱场景底图",
+    "后景执行物",
+    "前景设备及手/环境锚点",
+    "页眉与辅助标记",
+    "点阵主标题透明层",
+    "副标题/手写句与划线"
+  ],
+  "variableContract": {
+    "person": "可无可换；如有人或手，身份与真实动作须符合场景，不能抢标题",
+    "text": "具体文字可变，三行左齐、宽度递增、主副层级和字框面积不变",
+    "product": "设备或结果可换，前景核心证据与后景执行线索的数量关系及遮挡逻辑不变",
+    "palette": "具体色值可变，高明度浅底、深色主信息和小面积高纯强调不变"
+  },
+  "locked": [
+    "3:4",
+    "三行点阵主标题左齐且行宽递增",
+    "首行和末标点高纯强调",
+    "上部浅底与下部深色真实场景",
+    "前景核心证据遮挡后景执行线索",
+    "微型编辑标记和一笔手写批注",
+    "标题到利益句再到场景证据的阅读路径"
+  ],
+  "adaptive": [
+    "行业、账号与主题",
+    "标题与副标题原文",
+    "场景和设备/产品",
+    "屏幕真实内容",
+    "人物或手的身份",
+    "具体配色"
+  ],
+  "optional": [
+    "右侧微点密度小幅变化",
+    "词列文案",
+    "远景轻雾化"
+  ],
+  "forbidden": [
+    "普通黑体套半调蒙版",
+    "点阵粘连导致错字",
+    "第四行标题",
+    "暗照片侵入大标题底",
+    "前后证据平铺无深度",
+    "原品牌和 UI 原样迁移",
+    "未测试转 active"
+  ],
+  "renderReadiness": {
+    "nearSourceRecreation": false,
+    "crossIndustryTest": false,
+    "fontQa": false,
+    "userAcceptance": false
+  }
+}

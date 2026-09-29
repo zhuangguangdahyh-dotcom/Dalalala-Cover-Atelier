@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dalala-cover-063-deco-cut-song",
+    "displayName": "063 切角宋骨展示字（测试态）",
+    "version": "0.1.0",
+    "status": "testing",
+    "kind": "generative-lettering-style",
+    "skill": "../skills/dalala-cover-063/font-skills/deco-cut-song/SKILL.md",
+    "config": "../skills/dalala-cover-063/font-skills/deco-cut-song/references/style.json",
+    "humanRules": "../skills/dalala-cover-063/font-skills/deco-cut-song/references/style-rules.md",
+    "promptTemplate": "../skills/dalala-cover-063/font-skills/deco-cut-song/references/generation-prompt.md",
+    "vitalityQA": "../skills/dalala-cover-063/font-skills/deco-cut-song/references/vitality-qa.md",
+    "integration": "../skills/dalala-cover-063/font-skills/deco-cut-song/references/integration.md",
+    "sourceReference": "../skills/dalala-cover-063/assets/reference-original.jpg",
+    "approvedReference": null,
+    "primaryRenderer": "imagegen-transparent-title-layer"
+  }
+]

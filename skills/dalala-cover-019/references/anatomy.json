@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "coverSkillId": "dalala-cover-019",
+  "analysisJobId": "9962c1b1-fa37-49c2-8dab-e53b592db827",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "measurementBasis": "原图人工目测；坐标为左上原点的 [x0,y0,x1,y1] 百分比；制作微调约 1–3 个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "IMG_1945.JPG",
+    "width": 2861,
+    "height": 3815,
+    "ratio": "3:4",
+    "sha256": "633cc23889064eec09b5ebeed8f87aceba65ac32e57c1d1172d0449d392ce459",
+    "visibleText": [
+      "MONTENEGRO",
+      "黑山"
+    ]
+  },
+  "observedSourceObjects": [
+    "天空与云",
+    "远山",
+    "右侧海水",
+    "左侧红屋顶聚落",
+    "钟楼",
+    "海岸/栈桥",
+    "小船"
+  ],
+  "sourceObjectsAreRequired": false,
+  "primaryMechanism": "上部横贯的高瘦前倾拉丁大字与右上暖亮厚块中文形成双锚点；下部由可辨主题证据、连续开放面和真实方向线支撑内容",
+  "primaryFocus": "上方 x10–93%, y6–19% 拉丁大字",
+  "dominantAxis": "横向英文主轴；由右上中文转向中下主体，再经透视/边界线向下的次轴",
+  "readingPath": [
+    "拉丁主标题",
+    "右上中文短标题",
+    "中下部可识别主题主体",
+    "场景细节和方向线",
+    "连续低细节展开面"
+  ],
+  "elements": [
+    {
+      "role": "mainTitleLatin",
+      "sourceText": "MONTENEGRO",
+      "bboxPercentXYXY": [
+        10,
+        6,
+        93,
+        19
+      ],
+      "visualRank": 1,
+      "layer": 3,
+      "locked": "单行全大写、高瘦前倾、约 83% 画宽、水平基线"
+    },
+    {
+      "role": "secondaryTitleHan",
+      "sourceText": "黑山",
+      "bboxPercentXYXY": [
+        59,
+        22,
+        90,
+        35
+      ],
+      "visualRank": 2,
+      "layer": 4,
+      "locked": "独立单行、直立方硬厚块、约 31% 画宽、右上"
+    },
+    {
+      "role": "topTextSupport",
+      "sourceExample": "天空/远山",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        38
+      ],
+      "visualRank": 5,
+      "layer": 1,
+      "semanticReplacement": "相对低纹理的上部亮面，中文位置另有较暗静面"
+    },
+    {
+      "role": "subjectEvidence",
+      "sourceExample": "钟楼与红屋顶聚落",
+      "preferredBBoxPercentXYXY": [
+        0,
+        40,
+        62,
+        100
+      ],
+      "sourceLandmarkBBoxPercentXYXY": [
+        31,
+        32,
+        35,
+        49
+      ],
+      "visualRank": 3,
+      "layer": 1,
+      "semanticReplacement": "当前行业可辨的现场、对象群、人物与产品组合；身份/事实锚点受保护"
+    },
+    {
+      "role": "openField",
+      "sourceExample": "右侧海面",
+      "preferredBBoxPercentXYXY": [
+        55,
+        40,
+        100,
+        85
+      ],
+      "visualRank": 4,
+      "layer": 1,
+      "semanticReplacement": "连续低细节环境面，约占 y40–85% 横向带 35–50% 画宽"
+    },
+    {
+      "role": "leadingLine",
+      "sourceExample": "海岸/栈桥",
+      "approxBBoxPercentXYXY": [
+        45,
+        55,
+        92,
+        100
+      ],
+      "visualRank": 4,
+      "layer": 1,
+      "semanticReplacement": "实际场景的边界、通道、柜台边、桌沿或排列透视，方向引入下方"
+    }
+  ],
+  "absentRoles": [
+    "人物特写压字",
+    "独立长副标题",
+    "日期与 CTA",
+    "贴纸与箭头",
+    "边框"
+  ],
+  "spatialWeight": {
+    "textHeightBandPercent": [
+      6,
+      35
+    ],
+    "latinWidthPercent": 83,
+    "hanWidthPercent": 31,
+    "denseEvidence": "一侧中下方高密",
+    "openField": "另一侧中下方连续低密，约 35–50% 带宽",
+    "axis": "上横向，下方透视/边界斜向"
+  },
+  "typography": {
+    "latinFontStyleId": "dalala-cover-019-latin",
+    "hanFontStyleId": "dalala-cover-019-han",
+    "latin": "高瘦极粗右倾、狭长字腔、楔形端部和局部阶梯切口；独立透明层及轻微暗分离",
+    "han": "直立近等粗方硬厚块，开口清楚；独立透明层，暖亮小面积实填",
+    "lineCount": {
+      "latin": 1,
+      "han": 1
+    },
+    "betweenBlocksGapHeightPercent": 3
+  },
+  "colorRoles": {
+    "environment": "大面积较安静的环境色，来源图偏冷；约 50–65% 观察性视觉面积",
+    "subject": "中下部较暖/高密度主体细节，约 20–30% 观察性视觉面积",
+    "mainText": "近白或高明度中性，大尺度第一标题",
+    "secondaryText": "小面积暖向且高明度，落在更暗承接面",
+    "contrast": "须在真实新素材中验证局部文字分离",
+    "exactValuesLocked": false
+  },
+  "layerOrder": [
+    "有近中远关系的完整主题场景",
+    "不改事实的局部裁切/修复/影调",
+    "英文独立透明层与低强度暗分离",
+    "中文独立透明层"
+  ],
+  "transformationGrammar": [
+    "先判断行业、账号、主题和展示对象",
+    "选具有上静、主题主体、开放面和真实方向线的素材",
+    "按 3:4 重裁并保留身份/事实锚点",
+    "必要时局部扩图/修复/影调，不默认抠图",
+    "两种测试态字体各自生透明层并逐字验收",
+    "按当前素材重配颜色角色，不复制原图具体背景或 HEX"
+  ],
+  "semanticFit": [
+    "短准确拉丁名称或主题词与 2–3 字中文短名",
+    "一眼可辨的现场或对象群",
+    "能形成上部承字面与中下密疏对照的素材"
+  ],
+  "failureModes": [
+    "只换字仍用海湾背景",
+    "把钟楼/水面当成跨行业必需品",
+    "两种字静默退回普通字体",
+    "英文分行或中文移到正中",
+    "背景无法托字或主体无内容证据",
+    "右侧展开面被无关文字占满",
+    "透视/光向不一致或伪造真实案例",
+    "未经测试验收标 active"
+  ]
+}

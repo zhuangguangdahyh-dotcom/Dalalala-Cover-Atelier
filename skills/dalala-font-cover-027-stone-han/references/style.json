@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dalala-cover-027-stone-han",
+  "version": "0.1.0",
+  "status": "testing",
+  "approvedReference": null,
+  "sourceReference": "../../dalala-cover-027/assets/reference-original.jpg",
+  "roles": ["mainTitleHan"],
+  "script": "Han",
+  "construction": "粗重近方的展示汉字骨架，直立、紧排、内部字腔清楚；横竖与连接处有受控粗细和切口，轮廓略具雕刻感；浅暖实心内填与稀疏矿物斑驳",
+  "variants": {"mainTitleHan": "优先2字单行，整体盒约x33–69%、y34–54%；字高约18–21%画高，不横向拉伸"},
+  "requiredInputs": ["exactText", "canvasWidth", "canvasHeight", "targetBox", "colorRole"],
+  "renderer": "imagegen-transparent-title-layer",
+  "composeSeparatelyFromBackground": true,
+  "fixedFontFallbackAllowed": false,
+  "productionApproved": false,
+  "forbidden": ["错误汉字或畸形部件", "普通粗黑体加颗粒", "外部大片污渍", "厚黑描边或三维挤出", "连续灰泥块遮住字腔", "不透明照片背景"]
+}

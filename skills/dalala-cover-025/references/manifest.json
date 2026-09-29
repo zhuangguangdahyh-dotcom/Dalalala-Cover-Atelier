@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-025",
+  "displayName": "参考 025",
+  "version": "0.1.0",
+  "status": "studied",
+  "analysisConfirmed": false,
+  "renderAllowed": false,
+  "analysisJobId": "78ec9df7-804f-43e0-b75c-362e8bd9c691",
+  "analysisReport": "skills/dalala-cover-025/references/adaptation-rules.md",
+  "originalReference": "../assets/reference-original.jpg",
+  "originalRegistryReference": "参考封面图/dalala-cover-ref-025.jpg",
+  "referenceSha256": "cb0444cc2b042ea5ccc2d94ea5b0f13f98a905024ebad13f42482d2c61907711",
+  "annotatedReference": null,
+  "approvedTest": null,
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "arcHan": "约 10–14 字，以弧长和准确字稿校验",
+    "reaction": "1 字加独立圆点",
+    "hat": "2 字",
+    "searchTopic": "约 8–12 个汉字，单行"
+  },
+  "subjectTypes": [
+    "正面近景真人或可信角色",
+    "具备眼区与帽面或等效承载表面的主体"
+  ],
+  "contentEmotions": [
+    "惊讶",
+    "反转",
+    "顿悟",
+    "克制吐槽"
+  ],
+  "firstFocus": "镜片内两枚蓝白图形眼与暖色近脸",
+  "spatialStructure": [
+    "上弧 x7–73%,y13–46%",
+    "暖色近脸与衣服 x0–100%,y23–100%",
+    "右单字 x70–90%,y42–61%",
+    "搜索栏 x16–83%,y91–97%"
+  ],
+  "readingPath": [
+    "上弧话题",
+    "帽面短字",
+    "镜片双眼和脸",
+    "右单字与圆点",
+    "下方搜索词"
+  ],
+  "imageTextRelationship": "弧字和右字在冷暗背景上；帽字贴附帽面；搜索栏在衣服前面；镜内眼在镜框后面",
+  "locked": [
+    "3:4 四区骨架",
+    "暖近脸越框并与深冷背景分离",
+    "双镜内图形眼",
+    "帽面贴字",
+    "上弧高反差细字与右高窄单字",
+    "独立高彩圆点",
+    "下方胶囊搜索栏",
+    "分层复古印刷颗粒"
+  ],
+  "adaptive": [
+    "人物或可信角色身份",
+    "准确话题文案和搜索词",
+    "帽／等效物件与衣服",
+    "具体色值、品牌和图标"
+  ],
+  "optional": [
+    "不改变结构的轻微边缘亮线",
+    "局部色阶修复",
+    "不影响阅读的末端涂鸦"
+  ],
+  "forbidden": [
+    "通用 AI 小人",
+    "镜外漂浮眼或镜像复制",
+    "机械半圆或直线标题",
+    "帽面悬浮字",
+    "搜索框变两行 CTA",
+    "厚白贴纸描边或强影",
+    "未测试验收即 active"
+  ],
+  "variableContract": {
+    "person": "身份、服装和动作可变，但脸与眼镜／眼区保留模板的近景位置、面积及正面反应。",
+    "text": "字稿可变，弧字、单字、帽字、单行搜索词各守其文字块形态与层级。",
+    "product": "帽或同等承载物可变，但需可贴合短字且与主体结构真实相连。",
+    "palette": "具体色值可变，冷暗大底／暖亮主体／近白字与搜索栏／极小高彩点的面积与对比关系固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "人物可见面积约 55–65%",
+      "背景可见约 30–40%",
+      "白字与底栏可见约 8–13%",
+      "高彩点每个不超过约 2%"
+    ],
+    "effects": [
+      "镜片内图形眼",
+      "帽面贴布字",
+      "逐字沿弧转角",
+      "分层复古印刷颗粒"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T1 重裁换底；T2 镜内眼与织物贴字局部合成；T3 仅在身份和结构可锁定时",
+    "triggers": [
+      "脸和眼区不足则换素材",
+      "帽面无法贴附则换素材或不适用",
+      "背景不够冷暗则换景",
+      "搜索词太长则改写"
+    ]
+  },
+  "fontDependencies": [
+    {
+      "role": "arcTitle/reactionGlyph",
+      "type": "font-style-id",
+      "id": "dalala-cover-025-arc-song",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "fabricLettering",
+      "type": "font-style-id",
+      "id": "dalala-cover-025-fabric-brush",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "searchTopic",
+      "type": "font-class",
+      "id": "heavy-neutral-sans",
+      "required": true
+    },
+    {
+      "role": "searchHint",
+      "type": "font-class",
+      "id": "neutral-ui-sans",
+      "required": true
+    }
+  ],
+  "testedCases": [],
+  "thumbnailQA": null,
+  "userAcceptance": null
+}

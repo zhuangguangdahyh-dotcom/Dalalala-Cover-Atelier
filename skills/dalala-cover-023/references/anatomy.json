@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-023",
+  "analysisStatus": "studied-awaiting-user-confirmation",
+  "measurementBasis": "1242x1657 原图目测；bboxPercentXYXY 分别按画宽和画高归一，左上为原点，边缘误差约 ±2–3 个百分点",
+  "reference": {
+    "path": "../assets/reference-original.jpg",
+    "originalFileName": "dalala-cover-ref-023.jpg",
+    "width": 1242,
+    "height": 1657,
+    "ratio": "3:4",
+    "visibleText": {
+      "mainTitle": "语言是磨损的诗歌",
+      "englishEcho": [
+        "LANGUAGE",
+        "IS A",
+        "WORN-OUT",
+        "POEM"
+      ],
+      "verticalProse": "逐渐消失的，是我们辨认经验、理解他人，仍然由你决定。细小标点待复核",
+      "footer": "暂辨梁州，需人工确认，不认定作者身份"
+    }
+  },
+  "primaryMechanism": "连续暗调手持斜书页与中央五组错落宽笔亮字交叉；左竖文、英文和右下署名提供次级阅读，小标记可有可无",
+  "primaryFocus": "中央宽笔亮字优先，其次书页与手的接触；可选小标记不参与身份判断",
+  "dominantAxis": "标题纵轴 x47–53%；书页斜轴从左上向右中并落向左下；竖文沿左边缘平行标题轴",
+  "readingPath": [
+    "语言",
+    "是",
+    "磨损",
+    "的",
+    "诗歌",
+    "回读竖文和英文",
+    "右下署名"
+  ],
+  "elements": [
+    {
+      "role": "backgroundPhoto",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 3,
+      "alignment": "连续低照度照片；暗环境、书页、手和衣袖同属一个空间"
+    },
+    {
+      "role": "diagonalReadingObject",
+      "bboxPercentXYXY": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 2,
+      "alignment": "书页斜穿画面；左上起、右中展开、向左下收，保持真实透视与纸边"
+    },
+    {
+      "role": "hand",
+      "bboxPercentXYXY": [
+        0,
+        51,
+        34,
+        73
+      ],
+      "layer": 0,
+      "visualRank": 3,
+      "alignment": "左中手指自然托页或翻页，有接触阴影；与右侧书页构成尺度关系"
+    },
+    {
+      "role": "sleeve",
+      "bboxPercentXYXY": [
+        0,
+        70,
+        39,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 5,
+      "alignment": "左下衣袖入画，保留真实穿着和前景深度"
+    },
+    {
+      "role": "verticalProse",
+      "bboxPercentXYXY": [
+        6,
+        4,
+        18,
+        41
+      ],
+      "layer": 2,
+      "visualRank": 4,
+      "alignment": "左上约三列，由右往左列读，细白字，列间约 3–4% 画宽"
+    },
+    {
+      "role": "titleGroup1",
+      "text": "语言",
+      "bboxPercentXYXY": [
+        33,
+        15,
+        67,
+        33
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "上部双字，右字略低；非齐底横排",
+      "characterBoxes": [
+        {
+          "text": "语",
+          "bboxPercentXYXY": [
+            33,
+            15,
+            54,
+            27
+          ]
+        },
+        {
+          "text": "言",
+          "bboxPercentXYXY": [
+            53,
+            22,
+            67,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "role": "titleGroup2",
+      "text": "是",
+      "bboxPercentXYXY": [
+        50,
+        35,
+        61,
+        44
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "右偏窄组，接上组右字向下"
+    },
+    {
+      "role": "titleGroup3",
+      "text": "磨损",
+      "bboxPercentXYXY": [
+        30,
+        40,
+        64,
+        56
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "中段双字向左回摆，跨书面深浅交界"
+    },
+    {
+      "role": "titleGroup4",
+      "text": "的",
+      "bboxPercentXYXY": [
+        41,
+        57,
+        56,
+        67
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "窄组，右下呼吸空档不被扩字占据"
+    },
+    {
+      "role": "titleGroup5",
+      "text": "诗歌",
+      "bboxPercentXYXY": [
+        31,
+        68,
+        68,
+        85
+      ],
+      "layer": 3,
+      "visualRank": 1,
+      "alignment": "下段双字再放宽，完成宽窄节奏",
+      "characterBoxes": [
+        {
+          "text": "诗",
+          "bboxPercentXYXY": [
+            31,
+            68,
+            47,
+            79
+          ]
+        },
+        {
+          "text": "歌",
+          "bboxPercentXYXY": [
+            47,
+            73,
+            68,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "role": "englishEcho",
+      "text": "LANGUAGE / IS A / WORN-OUT / POEM",
+      "bboxPercentXYXY": [
+        36,
+        30,
+        50,
+        39
+      ],
+      "layer": 2,
+      "visualRank": 4,
+      "alignment": "四行全大写衬线字，左对齐，压在暗书页"
+    },
+    {
+      "role": "optionalAuthorMark",
+      "bboxPercentXYXY": [
+        56,
+        65,
+        64,
+        71
+      ],
+      "layer": 4,
+      "visualRank": 4,
+      "alignment": "可替换可省略；存在时仅在该空档轻量出现；缺省不回收空间",
+      "required": false,
+      "sourceAppearance": "原图红色线刻方章，仅观察证据",
+      "contentLocked": false,
+      "shapeLocked": false,
+      "colorLocked": false,
+      "omissionAllowed": true
+    },
+    {
+      "role": "footerRule",
+      "bboxPercentXYXY": [
+        71,
+        96,
+        82,
+        97
+      ],
+      "layer": 4,
+      "visualRank": 5,
+      "alignment": "右下薄横线接向署名"
+    },
+    {
+      "role": "footerSignature",
+      "bboxPercentXYXY": [
+        82,
+        94,
+        94,
+        98
+      ],
+      "layer": 4,
+      "visualRank": 4,
+      "alignment": "右下深色背景上的小型高明度两字署名"
+    },
+    {
+      "role": "cta",
+      "present": false
+    },
+    {
+      "role": "separateColorCard",
+      "present": false
+    },
+    {
+      "role": "lowerSupportingHand",
+      "bboxPercentXYXY": [
+        50,
+        81,
+        76,
+        100
+      ],
+      "layer": 0,
+      "visualRank": 5,
+      "alignment": "底部另一处托书手，部分出框，保留接触与自然透视"
+    }
+  ],
+  "spatialWeight": {
+    "titleEnvelopePercentXYXY": [
+      30,
+      15,
+      68,
+      85
+    ],
+    "titleGroupShape": "2-1-2-1-2",
+    "titleWideGroupWidthPercent": [
+      34,
+      38
+    ],
+    "titleNarrowGroupWidthPercent": [
+      11,
+      19
+    ],
+    "upperRightQuietZonePercentXYXY": [
+      68,
+      0,
+      100,
+      29
+    ],
+    "rightMiddleQuietZonePercentXYXY": [
+      68,
+      30,
+      98,
+      61
+    ],
+    "photoNeutralAreaPercent": [
+      88,
+      93
+    ],
+    "brightLetteringAreaPercent": [
+      7,
+      11
+    ],
+    "warmAccentAreaPercent": [
+      0,
+      0.5
+    ],
+    "titleEnvelopeAreaPercent": 26.6,
+    "optionalMarkEnvelopeAreaMaxPercent": 0.6,
+    "areaMethod": "包络与实际像素分开；色彩比例为目测预算，实际各比例需归一总和100%，非分割测量"
+  },
+  "protectedAreas": [
+    "手与书页接触位置",
+    "书页边缘和斜向透视",
+    "右上暗空间",
+    "字腔及可选标记空档，省略不回收",
+    "右下署名周围暗部"
+  ],
+  "typography": {
+    "mainTitle": "近实心宽笔现代行写，2-1-2-1-2 五组；双字组内部上下错落，不齐底",
+    "verticalProse": "细至中细文学宋体或衬线骨架，约三列竖排，行列密而不挤",
+    "englishEcho": "旧式全大写罗马衬线体，四行左对齐，约 1.1–1.25 字高行距",
+    "footer": "小型中粗中文行写，与竖文宋体分别定义",
+    "mainGlyphHeightPercent": [
+      9,
+      13
+    ],
+    "mainGroupGapYPercent": [
+      0,
+      3
+    ],
+    "mainPairGapXPercent": [
+      0,
+      4
+    ],
+    "fontDependencies": [
+      {
+        "role": "mainTitle",
+        "type": "font-style-id",
+        "id": "dalala-cover-017-journey-brush",
+        "required": true,
+        "status": "testing",
+        "reuseRequiresVisualProof": true
+      },
+      {
+        "role": "verticalProse",
+        "type": "font-style-id",
+        "id": "dalala-cover-023-editorial-support",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "englishEcho",
+        "type": "font-style-id",
+        "id": "dalala-cover-023-editorial-support",
+        "required": true,
+        "status": "testing"
+      },
+      {
+        "role": "footerSignature",
+        "type": "font-style-id",
+        "id": "dalala-cover-023-editorial-support",
+        "required": true,
+        "status": "testing"
+      }
+    ]
+  },
+  "colorRoles": {
+    "environmentAndPaper": "低饱和暗中性环境与中明度灰白纸面主导画幅",
+    "heroText": "近白高明度，在深浅底上以宽笔和必要的局部压暗维持对比",
+    "supportingText": "高明度细字，低于主句的视觉重量",
+    "seal": "可选小标记颜色依主题选取，可无强调色，不锁红色或暖色",
+    "exactHexLocked": false
+  },
+  "layerOrder": [
+    "连续摄影底图",
+    "必要的局部明度调整",
+    "左上竖文和英文",
+    "五组透明主字",
+    "可选小标记（可省略）",
+    "右下署名与短线"
+  ],
+  "assetTreatment": {
+    "cutout": "原图无独立主体抠图；保持手与书连续摄影关系",
+    "crop": "3:4，左中手部与右下书页终点同时保留",
+    "perspective": "书页斜边约35–45°投影角，非相机角度测量",
+    "occlusion": "后加白字覆盖照片中的部分印刷信息；不得遮断手指或书页接触事实",
+    "repetition": "无重复人手、书或分屏",
+    "textureAndLight": "纸纹、暗部层次、软光与轻景深；无厚字效；可选小标记保持轻量"
+  },
+  "semanticFit": [
+    "有真实阅读或审视物件的情境",
+    "主句可压缩为五组且句意完整",
+    "书页或替代物能够支撑行业主题",
+    "右下可放真实署名或栏目身份"
+  ],
+  "failureModes": [
+    "统一居中五行",
+    "普通字体替代宽笔行写",
+    "书页悬浮或拉平",
+    "手与书接触错误",
+    "辅助字抢主标题",
+    "强制原章文字、红色或章式",
+    "删章后扩字或填CTA",
+    "错字或虚假署名",
+    "未经测试验收标active"
+  ],
+  "revision": {
+    "version": "0.2.0",
+    "jobId": "f528f45b-0a70-4a40-bc06-6b98f6eb81df",
+    "previousJobId": "4a19c4b4-a883-4325-aa7f-322b5c1defa3",
+    "feedback": "小红印章不是固定的内容",
+    "changes": [
+      "印章可替换可省略，不锁内容、颜色或形状；省略不回收空间",
+      "主句末两字纠正为诗歌",
+      "补充底部托书手与逐字错落",
+      "落实辅助字体测试态依赖"
+    ]
+  },
+  "transformationGrammar": {
+    "sequence": [
+      "行业主题与实物角色匹配",
+      "保护手和纸页锚点",
+      "重取景或裁切锁定斜轴",
+      "局部压暗而保留纸纹",
+      "生成五组错位独立字层",
+      "安放辅助文字",
+      "小标记按主题保留替换或省略",
+      "原尺寸及360px检查"
+    ],
+    "markOmission": "保留x56–64%,y65–71%空档，不扩字不填CTA",
+    "prohibited": [
+      "主体悬浮抠图",
+      "复制手与书",
+      "拉平物件",
+      "把可选装饰锁定成内容"
+    ]
+  }
+}

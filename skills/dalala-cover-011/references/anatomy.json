@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "coverSkillId": "dalala-cover-011",
+  "status": "studied",
+  "source": "../../../参考封面图/dalala-cover-ref-011.jpg",
+  "sourcePixels": {
+    "width": 1518,
+    "height": 2022,
+    "ratio": "3:4",
+    "measuredAspectRatio": 0.7507
+  },
+  "measurement": "看图估算；box 为 [x,y,width,height]，百分比，外接框彼此重叠；需在复刻时叠图校准。",
+  "firstLook": "黑色拉链开口内，蓝色长绒头饰人物双手向镜头撑住边缘；左侧两组巨大红色阶梯字同时抢眼。",
+  "contentRoles": {
+    "subject": "单一有辨识造型的人物及向镜头伸出的双手，提供开口动作与情绪",
+    "mainTitle": "左侧两组红色阶梯重字；上组清晰为 TVC，下组为拉丁与汉字混排的短语，生产时需逐字对照原图核字。",
+    "secondaryTitle": "无独立的解释型副标题",
+    "auxiliary": "右中完整的 PROMPT 栏目词与更细小的约两行英文注脚；原图注脚第一行伸出右边界。",
+    "decoration": "蓝色长绒造型、单眼、黑墨镜、拉链齿与织物边缘，均属于主体/实物，不另设贴纸",
+    "background": "亮色简净内景被不规则黑色织物及拉链边从四角包围"
+  },
+  "elements": [
+    {
+      "role": "brightInterior",
+      "box": [
+        2,
+        5,
+        98,
+        95
+      ],
+      "visibleAreaApproxPercent": [
+        25,
+        35
+      ],
+      "layer": 1,
+      "constraints": [
+        "不规则菱形开口而非规则几何色块",
+        "低纹理、高明度",
+        "提供红字和人物轮廓对比"
+      ]
+    },
+    {
+      "role": "darkFabricAndZipper",
+      "box": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "visibleAreaApproxPercent": [
+        35,
+        45
+      ],
+      "layer": 6,
+      "apertureVerticesPercent": [
+        [
+          54,
+          6
+        ],
+        [
+          99,
+          41
+        ],
+        [
+          53,
+          100
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "constraints": [
+        "黑布保留褶皱",
+        "边缘有连续细密拉链齿",
+        "不做等宽矢量描边",
+        "压住局部手/衣物"
+      ]
+    },
+    {
+      "role": "mainTitleTop",
+      "box": [
+        22,
+        10,
+        43,
+        28
+      ],
+      "layer": 2,
+      "fontStyleId": "dalala-cover-011-diagonal-block",
+      "constraints": [
+        "拉丁短词",
+        "厚重红色实心",
+        "沿左下至右上约 20–30 度斜排",
+        "避开人物眼睛"
+      ]
+    },
+    {
+      "role": "mainTitleLower",
+      "box": [
+        9,
+        39,
+        39,
+        19
+      ],
+      "layer": 2,
+      "fontStyleId": "dalala-cover-011-diagonal-block",
+      "constraints": [
+        "混排短语",
+        "沿同一斜轴错阶",
+        "不能扩成第三组长标题"
+      ]
+    },
+    {
+      "role": "headwear",
+      "box": [
+        50,
+        26,
+        34,
+        22
+      ],
+      "layer": 4,
+      "constraints": [
+        "高辨识长绒与单眼",
+        "毛丝边缘自然",
+        "独立高饱和焦点"
+      ]
+    },
+    {
+      "role": "faceAndGlasses",
+      "box": [
+        53,
+        40,
+        25,
+        17
+      ],
+      "layer": 4,
+      "constraints": [
+        "墨镜和嘴脸可辨",
+        "不被文字或边框盖住"
+      ]
+    },
+    {
+      "role": "body",
+      "box": [
+        29,
+        49,
+        51,
+        51
+      ],
+      "layer": 3,
+      "constraints": [
+        "中下部近景",
+        "躯干下缘出画",
+        "与双臂连续"
+      ]
+    },
+    {
+      "role": "leftNearHand",
+      "box": [
+        5,
+        58,
+        26,
+        18
+      ],
+      "layer": 5,
+      "constraints": [
+        "向镜头伸出",
+        "接触拉链边缘",
+        "部分可被黑布边遮挡"
+      ]
+    },
+    {
+      "role": "rightNearHand",
+      "box": [
+        78,
+        59,
+        22,
+        18
+      ],
+      "layer": 5,
+      "constraints": [
+        "向镜头伸出",
+        "合理手指数量和透视",
+        "部分切出画布"
+      ]
+    },
+    {
+      "role": "promptLabel",
+      "box": [
+        81,
+        48,
+        11,
+        5
+      ],
+      "layer": 2,
+      "fontStyleId": "dalala-cover-011-editorial-condensed",
+      "constraints": [
+        "黑色窄身大写",
+        "保持右边缘感但完整显示",
+        "小于主标题字高 1/5"
+      ]
+    },
+    {
+      "role": "fineEnglishNote",
+      "box": [
+        82,
+        52,
+        18,
+        5
+      ],
+      "layer": 2,
+      "fontStyleId": "dalala-cover-011-editorial-condensed",
+      "constraints": [
+        "约 1–2 行细英文",
+        "沿右上斜向排开，非关键信息末端可越过右边界",
+        "主信息不得被裁掉",
+        "不放入色块"
+      ]
+    }
+  ],
+  "visualCenter": {
+    "headwear": [
+      67,
+      38
+    ],
+    "face": [
+      66,
+      49
+    ],
+    "redTitle": [
+      39,
+      32
+    ],
+    "nearHands": [
+      [
+        19,
+        68
+      ],
+      [
+        89,
+        69
+      ]
+    ]
+  },
+  "dominantAxis": "拉链菱形斜边由四角指向中部人像；红字沿左下至右上斜轴进入；两轴在头脸附近汇合。",
+  "readingPath": [
+    "蓝色头饰/脸与红色上组并列的双入口",
+    "红字下组",
+    "双手撑开边缘的动作与拉链齿",
+    "右侧 PROMPT 小注"
+  ],
+  "protectedWhitespace": [
+    "开口上半部主标题字间",
+    "蓝头饰右侧到小注的亮底间隔",
+    "人物脸和双手的关键识别区"
+  ],
+  "density": "四角暗布低细节；中部头饰、脸、双手与拉链齿高细节；亮色内景回收视觉噪声。",
+  "layerOrderBackToFront": [
+    "brightInterior",
+    "titleAndRightNote",
+    "body",
+    "headFaceArms",
+    "nearHands",
+    "zipperTeethAndDarkFabricForeground"
+  ],
+  "assetGrammar": {
+    "crop": "3:4 中下近景；保留头、脸、两手和左右开口接触点；躯干下端允许出画",
+    "cutout": "优先同机位实拍；合成时精抠手指、长绒和拉链齿，匹配锐度、颗粒、光向与接触阴影",
+    "shotScale": "广角近距的人物中近景到近景；手比脸更靠近镜头、更大",
+    "perspective": "从开口外向内看，人物俯身向外探，双手拉开边缘",
+    "occlusion": "黑布与拉链齿和双手局部交错遮挡；蓝绒轻压上组红字末端但不能毁掉整词；标题不能盖住眼嘴或手物接触点。",
+    "repetition": "拉链齿沿开口边缘连续重复；不克隆人物或手，也不机械复制等距装饰点。",
+    "planes": [
+      "后景高明度内景",
+      "中景人物与文字",
+      "近景手指",
+      "最前景黑布和拉链齿"
+    ]
+  },
+  "typography": {
+    "mainTitleFontStyleId": "dalala-cover-011-diagonal-block",
+    "mainTitleRows": 2,
+    "mainTitleLength": {
+      "topLatinLetters": [
+        2,
+        4
+      ],
+      "lowerVisualUnits": [
+        3,
+        5
+      ]
+    },
+    "mainTitle": "高字重实心几何厚块字；短词成两组，同一斜轴错阶，字距紧而字腔开放，无可见厚描边或投影",
+    "mainTitleTiltDegreesApprox": [
+      20,
+      30
+    ],
+    "auxFontStyleId": "dalala-cover-011-editorial-condensed",
+    "aux": "PROMPT 为窄身直立大写无衬线；下方为更细小、斜向右上的英文两行，可发生非关键信息的边缘溢出。",
+    "effects": [
+      "透明文字层",
+      "不做笔刷飞白",
+      "不加霓虹、浮雕、厚投影"
+    ]
+  },
+  "colorRoles": {
+    "darkForegroundFrame": "低明度中性暗约 35–45%",
+    "brightInterior": "高明度浅中性约 25–35%",
+    "darkSubject": "服装和墨镜中暗约 15–25%，与暗框区分边缘",
+    "headwearAccent": "一处高饱和冷色约 6–10%",
+    "headlineAccent": "另一处高饱和强对比色约 7–11%",
+    "auxiliaryInk": "低明度小字不足 1%",
+    "rule": "只锁明暗、冷暖/对位、面积与对比角色；不锁参考 HEX"
+  },
+  "materialEffects": [
+    "软黑织物褶皱",
+    "间断金属拉链齿高光",
+    "长绒毛丝",
+    "暗反射墨镜",
+    "自然皮肤与运动服材质",
+    "柔和亮内景",
+    "合理接触阴影和统一实拍锐度"
+  ],
+  "locked": [
+    "近 3:4",
+    "不规则暗色开口/边缘细节",
+    "中下人物前探与双手近大远小",
+    "手物接触和遮挡",
+    "高明度内景",
+    "左侧两组斜排厚块主标题",
+    "右侧极小两级注脚：栏目词完整、细注脚有边缘溢出感",
+    "暗框与两处强调色的面积及明暗结构"
+  ],
+  "adaptive": [
+    "人物身份与造型",
+    "有行业因果关系的开口材料",
+    "主题短词与右侧注脚",
+    "具体颜色与服装",
+    "不伤身份/事实的内景重构"
+  ],
+  "optional": [
+    "第二组中英文混排可按实际主题重写，但仍保持视觉单位数和块形"
+  ],
+  "forbidden": [
+    "规则黑菱形贴纸",
+    "断裂或无接触拉链齿",
+    "手指数量错误/穿帮",
+    "人物小头像",
+    "普通黑体斜转",
+    "第三条长标题",
+    "标题盖眼嘴",
+    "过花内景",
+    "价格/按钮/贴纸",
+    "无真实行业语义的通用人物",
+    "未经确认进入 active",
+    "把右侧关键信息裁出画面"
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-011-diagonal-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "rightAuxiliary",
+      "type": "font-style-id",
+      "id": "dalala-cover-011-editorial-condensed",
+      "required": true,
+      "status": "testing"
+    }
+  ],
+  "analysisConfirmed": false,
+  "renderAllowed": false
+}
