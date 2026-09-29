@@ -1,7 +1,7 @@
 {
   "coverSkillId": "dalala-cover-001",
   "version": "0.2.0",
-  "status": "testing",
+  "status": "active",
   "fontDependencies": [
     {
       "role": "mainTitle",
@@ -153,5 +153,7 @@
   "passedTests": [],
   "thumbnailCheck": "pending",
   "userApproval": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

@@ -2,6 +2,8 @@
 name: dalala-cover-061
 description: 3:4 旧纸建筑招牌与黑白行业纪实照上下拼接，两行描边白色硬块巨字跨介质覆盖，底部单行行业判断。参考拆解测试态。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 061 Cover Skill
 

@@ -2,6 +2,8 @@
 name: dalala-cover-062
 description: 3:4 双行硬切巨字、右侧真人双手展示、左下低模成果世界与前景交互物的封面参考。仅供拆解确认和后续复刻测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 062 Cover Skill（studied）
 

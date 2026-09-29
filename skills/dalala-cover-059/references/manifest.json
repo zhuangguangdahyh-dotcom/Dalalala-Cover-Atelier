@@ -3,26 +3,89 @@
   "coverSkillId": "dalala-cover-059",
   "displayName": "参考封面 059（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "69b247fece9e139aab56aac104c51a90a69f08729c26d411cee58a7fd9c204ef",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"chineseEquivalentCharacters": [11, 15], "line1Characters": [5, 8], "line2Characters": [5, 8], "lines": 2},
-  "subjectTypes": ["single rear-view or rear-three-quarter person with broad identifiable silhouette", "single topic-relevant object preserving broad upper anchor and bottom bleed"],
-  "contentMoods": ["direct question", "how-to explanation", "documentary observation", "practical expertise"],
+  "sourceSha256": "eca5b373d997e603ac73962fce296fcf03b04e5fd6ba54c76e447af47378f841",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "chineseEquivalentCharacters": [
+      11,
+      15
+    ],
+    "line1Characters": [
+      5,
+      8
+    ],
+    "line2Characters": [
+      5,
+      8
+    ],
+    "lines": 2
+  },
+  "subjectTypes": [
+    "single rear-view or rear-three-quarter person with broad identifiable silhouette",
+    "single topic-relevant object preserving broad upper anchor and bottom bleed"
+  ],
+  "contentMoods": [
+    "direct question",
+    "how-to explanation",
+    "documentary observation",
+    "practical expertise"
+  ],
   "firstVisualFocus": "two-line giant high-lightness hand-cut question title",
   "spatialSkeleton": "near-black full field; two dense white title lines in upper 44%; red paper accents around title; black breathing band; rear-view broad silhouette and shoulders in lower half",
-  "readingPath": ["upper-left red cue", "first title line", "second title line and terminal punctuation", "red underline strip", "wide lower anchor", "rear shoulders"],
+  "readingPath": [
+    "upper-left red cue",
+    "first title line",
+    "second title line and terminal punctuation",
+    "red underline strip",
+    "wide lower anchor",
+    "rear shoulders"
+  ],
   "imageTextRelationship": "the title asks one coherent question; the broad rear-view subject anchors it visually without touching glyphs",
-  "locked": ["3:4 portrait", "two large white hand-cut title lines at y9-44%", "near-black breathing band near y44-51%", "one broad rear-view anchor at y51-80% and lower shoulders bleeding out", "four peripheral red-paper accent groups", "headline-subject separation", "title-first reading path"],
-  "adaptive": ["person or product identity with rear-view or matching broad silhouette", "topic-specific two-line question wording within width and line count", "exact colors preserving lightness and area hierarchy", "slight paper-angle adjustments avoiding glyphs"],
-  "optional": ["natural garment or product lettering already present in authentic source material", "small subject-native surface texture"],
-  "forbidden": ["third headline line", "subtitle or information card added to blank field", "ordinary bold sans fallback", "front-facing face taking primary focus", "tiny disconnected product", "paper accents covering glyphs", "text touching hat or replacement anchor", "multiple repeated people", "neon glow, thick outline or plastic bevel", "generic AI mascot by default", "claiming active before replication and acceptance"],
+  "locked": [
+    "3:4 portrait",
+    "two large white hand-cut title lines at y9-44%",
+    "near-black breathing band near y44-51%",
+    "one broad rear-view anchor at y51-80% and lower shoulders bleeding out",
+    "four peripheral red-paper accent groups",
+    "headline-subject separation",
+    "title-first reading path"
+  ],
+  "adaptive": [
+    "person or product identity with rear-view or matching broad silhouette",
+    "topic-specific two-line question wording within width and line count",
+    "exact colors preserving lightness and area hierarchy",
+    "slight paper-angle adjustments avoiding glyphs"
+  ],
+  "optional": [
+    "natural garment or product lettering already present in authentic source material",
+    "small subject-native surface texture"
+  ],
+  "forbidden": [
+    "third headline line",
+    "subtitle or information card added to blank field",
+    "ordinary bold sans fallback",
+    "front-facing face taking primary focus",
+    "tiny disconnected product",
+    "paper accents covering glyphs",
+    "text touching hat or replacement anchor",
+    "multiple repeated people",
+    "neon glow, thick outline or plastic bevel",
+    "generic AI mascot by default",
+    "claiming active before replication and acceptance"
+  ],
   "variableContract": {
     "person": "identity, outfit and occupation may change; single rear-view or rear-three-quarter lower subject, broad anchor x19-85% y51-80%, shoulders/bottom bleed remain",
     "text": "exact wording may change; one coherent two-line title remains within x4-96% y9-44%, with first line at least as wide as second and no new subtitle",
@@ -35,19 +98,55 @@
     "specialEffects": "per-glyph irregular hand-cut paper lettering with slight fiber edges; tapered and rough-edged paper accents; precise real-subject cutout with lower crop; no glyph-subject occlusion"
   },
   "materialTransformation": [
-    {"level": "required", "action": "precise subject cutout, broad-anchor crop, and bottom bleed", "trigger": "every new subject"},
-    {"level": "required", "action": "independently generate and proofread two transparent paper-cut title lines", "trigger": "every title change"},
-    {"level": "conditional", "action": "reshoot or identity-preserving pose reconstruction", "trigger": "source has front-facing pose or no legible rear-view silhouette"},
-    {"level": "conditional", "action": "extend dark field and repair silhouette edge", "trigger": "source aspect ratio or background contaminates title/gap zone"}
+    {
+      "level": "required",
+      "action": "precise subject cutout, broad-anchor crop, and bottom bleed",
+      "trigger": "every new subject"
+    },
+    {
+      "level": "required",
+      "action": "independently generate and proofread two transparent paper-cut title lines",
+      "trigger": "every title change"
+    },
+    {
+      "level": "conditional",
+      "action": "reshoot or identity-preserving pose reconstruction",
+      "trigger": "source has front-facing pose or no legible rear-view silhouette"
+    },
+    {
+      "level": "conditional",
+      "action": "extend dark field and repair silhouette edge",
+      "trigger": "source aspect ratio or background contaminates title/gap zone"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitleLine1", "type": "font-style-id", "id": "dalala-cover-059-paper-cut-block", "required": true, "status": "testing"},
-    {"role": "mainTitleLine2", "type": "font-style-id", "id": "dalala-cover-059-paper-cut-block", "required": true, "status": "testing"},
-    {"role": "questionMark", "type": "font-style-id", "id": "dalala-cover-059-paper-cut-block", "required": true, "status": "testing"}
+    {
+      "role": "mainTitleLine1",
+      "type": "font-style-id",
+      "id": "dalala-cover-059-paper-cut-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitleLine2",
+      "type": "font-style-id",
+      "id": "dalala-cover-059-paper-cut-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "questionMark",
+      "type": "font-style-id",
+      "id": "dalala-cover-059-paper-cut-block",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "references/font-registry-entries.json",
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

@@ -3,45 +3,142 @@
   "coverSkillId": "dalala-cover-035",
   "displayName": "参考 035",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "a7eb4455-a137-474c-9814-1a3c55bd8127",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-035/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"quantityChinese": [2,3], "latinCategoryLetters": [3,6], "verticalChinese": 4},
-  "subjectTypes": ["one expressive real person in a close high-angle selfie with connected hands and occupation-specific object"],
-  "contentEmotions": ["亲近", "第一人称", "现场感", "经验分享"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "quantityChinese": [
+      2,
+      3
+    ],
+    "latinCategoryLetters": [
+      3,
+      6
+    ],
+    "verticalChinese": 4
+  },
+  "subjectTypes": [
+    "one expressive real person in a close high-angle selfie with connected hands and occupation-specific object"
+  ],
+  "contentEmotions": [
+    "亲近",
+    "第一人称",
+    "现场感",
+    "经验分享"
+  ],
   "firstFocus": "large smiling direct-gaze face",
-  "spatialStructure": ["full-bleed high-angle portrait", "large face in upper center", "white quantity and cyan lowercase category at left", "four white handwritten characters vertically at right", "hands and ground texture below"],
-  "readingPath": ["face", "left quantity", "cyan Latin category", "right vertical conclusion", "hands and site"],
+  "spatialStructure": [
+    "full-bleed high-angle portrait",
+    "large face in upper center",
+    "white quantity and cyan lowercase category at left",
+    "four white handwritten characters vertically at right",
+    "hands and ground texture below"
+  ],
+  "readingPath": [
+    "face",
+    "left quantity",
+    "cyan Latin category",
+    "right vertical conclusion",
+    "hands and site"
+  ],
   "imageTextRelationship": "asymmetric handwritten text brackets around an unobstructed central selfie face",
-  "locked": ["3:4 single full photograph", "high-angle close expressive face", "lower physically connected action", "left quantity above small lowercase category", "right four-character vertical text", "two side brackets without face occlusion", "site texture and lightness roles"],
-  "adaptive": ["person identity", "truthful occupation and tool", "semantically matching short title", "exact palette values"],
-  "optional": ["small warm real-world prop accent"],
-  "forbidden": ["eye-level ID photo", "right horizontal text", "extra CTA or subtitle", "floating person cutout", "plain solid background", "thick neon text", "face occlusion", "disconnected hand or device", "ordinary font substitution"],
+  "locked": [
+    "3:4 single full photograph",
+    "high-angle close expressive face",
+    "lower physically connected action",
+    "left quantity above small lowercase category",
+    "right four-character vertical text",
+    "two side brackets without face occlusion",
+    "site texture and lightness roles"
+  ],
+  "adaptive": [
+    "person identity",
+    "truthful occupation and tool",
+    "semantically matching short title",
+    "exact palette values"
+  ],
+  "optional": [
+    "small warm real-world prop accent"
+  ],
+  "forbidden": [
+    "eye-level ID photo",
+    "right horizontal text",
+    "extra CTA or subtitle",
+    "floating person cutout",
+    "plain solid background",
+    "thick neon text",
+    "face occlusion",
+    "disconnected hand or device",
+    "ordinary font substitution"
+  ],
   "variableContract": {
     "person": "identity and clothing may change; close high-angle face, direct gaze, position and area remain",
     "text": "words may change; three role slots, lengths, hierarchy and left/right placement remain",
     "product": "tool may change; true hand contact and lower-scene role remain",
     "palette": "exact values may change; cool environment, neutral ground, light face/white title and tiny cool accent retain relative lightness and area"
   },
-  "invariantContract": {"anatomy": "anatomy.json", "effects": ["close high-angle photographic perspective", "real site and paving texture", "distinct irregular white handwriting", "small cyan lowercase lettering", "no detached cutout or hard shadow"]},
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "close high-angle photographic perspective",
+      "real site and paving texture",
+      "distinct irregular white handwriting",
+      "small cyan lowercase lettering",
+      "no detached cutout or hard shadow"
+    ]
+  },
   "assetTransformations": [
-    {"when": "true selfie with side space exists", "level": "T0", "action": "crop and local tone"},
-    {"when": "side text space is insufficient", "level": "T1", "action": "controlled same-scene extension or recrop"},
-    {"when": "real person and tool exist but angle/action is wrong", "level": "T2", "action": "constrained perspective and action reconstruction preserving identity and fact"},
-    {"when": "only portrait/product isolated photo exists", "level": "T3", "action": "reshoot or rebuild entire coherent scene"}
+    {
+      "when": "true selfie with side space exists",
+      "level": "T0",
+      "action": "crop and local tone"
+    },
+    {
+      "when": "side text space is insufficient",
+      "level": "T1",
+      "action": "controlled same-scene extension or recrop"
+    },
+    {
+      "when": "real person and tool exist but angle/action is wrong",
+      "level": "T2",
+      "action": "constrained perspective and action reconstruction preserving identity and fact"
+    },
+    {
+      "when": "only portrait/product isolated photo exists",
+      "level": "T3",
+      "action": "reshoot or rebuild entire coherent scene"
+    }
   ],
   "fontDependencies": [
-    {"role": "leftQuantity/rightContinuation", "type": "font-style-id", "id": "dalala-cover-035-white-hand", "required": true, "status": "testing"},
-    {"role": "leftCategory", "type": "font-style-id", "id": "dalala-cover-035-cyan-latin", "required": true, "status": "testing"}
+    {
+      "role": "leftQuantity/rightContinuation",
+      "type": "font-style-id",
+      "id": "dalala-cover-035-white-hand",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "leftCategory",
+      "type": "font-style-id",
+      "id": "dalala-cover-035-cyan-latin",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

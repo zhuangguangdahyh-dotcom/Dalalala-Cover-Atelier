@@ -3,9 +3,8 @@
   "coverSkillId": "dalala-cover-036",
   "displayName": "参考 036",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "ff4a4c6e-d6f1-49cd-87df-7c0234fdb956",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-036/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
@@ -159,5 +158,6 @@
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

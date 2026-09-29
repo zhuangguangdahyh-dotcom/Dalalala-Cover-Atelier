@@ -3,26 +3,84 @@
   "coverSkillId": "dalala-cover-056",
   "displayName": "参考封面 056（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "e2e93f993d89019aee3709a4d9c3073e6420b55457013c1eeba18bdd961b2173",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"heroChineseCharacters": [4,6], "supportChineseCharacters": [5,7], "heroLines": 1, "supportLines": 1},
-  "subjectTypes": ["one identifiable centered real person in a truthful relevant setting", "single industry-specific guide with similar vertical mass"],
-  "contentMoods": ["real street-style recommendation", "guided visit", "person-led expert viewpoint", "brand or place discovery"],
+  "sourceSha256": "dce0dc68b905fd69cb7e3bcffee843fa41297ff3879386a51a939e55562833e6",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "heroChineseCharacters": [
+      4,
+      6
+    ],
+    "supportChineseCharacters": [
+      5,
+      7
+    ],
+    "heroLines": 1,
+    "supportLines": 1
+  },
+  "subjectTypes": [
+    "one identifiable centered real person in a truthful relevant setting",
+    "single industry-specific guide with similar vertical mass"
+  ],
+  "contentMoods": [
+    "real street-style recommendation",
+    "guided visit",
+    "person-led expert viewpoint",
+    "brand or place discovery"
+  ],
   "firstVisualFocus": "large upper-left high-contrast two-tone Song title, followed by central face",
   "spatialSkeleton": "full-bleed real photo; centered person; wide upper translucent strip; short right-mid translucent strip; small spaced bottom source",
-  "readingPath": ["upper-left guide/name title", "central face", "right-mid action/result", "clothing and real setting", "bottom source"],
+  "readingPath": [
+    "upper-left guide/name title",
+    "central face",
+    "right-mid action/result",
+    "clothing and real setting",
+    "bottom source"
+  ],
   "imageTextRelationship": "the large title identifies the visible guide; smaller title states an action or outcome; real setting and small source ground the claim",
-  "locked": ["3:4 full photo", "one centered subject", "long upper strip and shorter right-mid strip", "hero and support single-line 2.1–2.4 height ratio", "person overlaps strips without covering face", "bottom low-weight spaced source", "open lower clothing/setting zone"],
-  "adaptive": ["person identity, garment and expression within central framing", "industry-related truthful setting", "semantically coherent words within line-width limits", "real attribution", "exact hues and strip transparency within luminance structure"],
-  "optional": ["minor environment cleanup", "small short-shadow strength adjustment"],
-  "forbidden": ["generic AI mascot without industry reason", "plain-color backdrop", "equal-width strips", "title wrapping", "covering face", "ordinary font fallback", "price or CTA badge", "copied original person or place", "active before test and acceptance"],
+  "locked": [
+    "3:4 full photo",
+    "one centered subject",
+    "long upper strip and shorter right-mid strip",
+    "hero and support single-line 2.1–2.4 height ratio",
+    "person overlaps strips without covering face",
+    "bottom low-weight spaced source",
+    "open lower clothing/setting zone"
+  ],
+  "adaptive": [
+    "person identity, garment and expression within central framing",
+    "industry-related truthful setting",
+    "semantically coherent words within line-width limits",
+    "real attribution",
+    "exact hues and strip transparency within luminance structure"
+  ],
+  "optional": [
+    "minor environment cleanup",
+    "small short-shadow strength adjustment"
+  ],
+  "forbidden": [
+    "generic AI mascot without industry reason",
+    "plain-color backdrop",
+    "equal-width strips",
+    "title wrapping",
+    "covering face",
+    "ordinary font fallback",
+    "price or CTA badge",
+    "copied original person or place",
+    "active before test and acceptance"
+  ],
   "variableContract": {
     "person": "identity/clothes may vary, but one recognizable centered guide stays around x26–75%, y21–100% with face near x53%, y32%",
     "text": "content may vary while role, one-line silhouette, size ratio, semantic two-color split and low-weight source stay",
@@ -35,18 +93,45 @@
     "specialEffects": "two translucent strips with scene penetration, short soft lettering shadow, same-photo hair and shoulder foreground overlap"
   },
   "materialTransformation": [
-    {"level":"T1","action":"recrop or extend real photo and locally lower background competition","trigger":"every new asset needing central framing or text contrast"},
-    {"level":"T2","action":"isolate same-source hair and shoulder edge for correct strip occlusion","trigger":"flat image leaves strip painted over person"},
-    {"level":"T3","action":"obtain a relevant truthful person-in-place asset","trigger":"no identifiable guide or credible setting exists"}
+    {
+      "level": "T1",
+      "action": "recrop or extend real photo and locally lower background competition",
+      "trigger": "every new asset needing central framing or text contrast"
+    },
+    {
+      "level": "T2",
+      "action": "isolate same-source hair and shoulder edge for correct strip occlusion",
+      "trigger": "flat image leaves strip painted over person"
+    },
+    {
+      "level": "T3",
+      "action": "obtain a relevant truthful person-in-place asset",
+      "trigger": "no identifiable guide or credible setting exists"
+    }
   ],
   "fontDependencies": [
-    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-056-street-song","variant":"hero","required":true,"status":"testing"},
-    {"role":"subtitle","type":"font-style-id","id":"dalala-cover-056-street-song","variant":"support","required":true,"status":"testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-056-street-song",
+      "variant": "hero",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-056-street-song",
+      "variant": "support",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "references/font-registry-entries.json",
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "analysisConfirmed": false,
-  "renderAllowed": false
+  "analysisConfirmed": true,
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

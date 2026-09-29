@@ -2,6 +2,8 @@
 name: dalala-cover-009
 description: 参考 009 的 3:4 真人近脸、多件同主题物件环抱、顶部弧字、右上短喊与下方两行阶梯花字封面。仅 studied，供拆解确认；不得自动推荐或生产。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 009 Cover Skill
 

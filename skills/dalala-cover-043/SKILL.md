@@ -2,6 +2,8 @@
 name: dalala-cover-043
 description: 拆解参考 043 的暗调真实街景、中央宽窄宽三行罗马衬线标题、前后骑行动势与顶底微字；当前仅供拆解确认和复刻测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # dalala-cover-043｜单张参考封面规则（研究态）
 

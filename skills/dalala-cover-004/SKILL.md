@@ -2,6 +2,8 @@
 name: dalala-cover-004
 description: 按参考 004 重建低机位近镜动作、双字错位且人物遮字的封面；当前仅供拆解确认与后续授权测试，禁止自动推荐或上架。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 004
 

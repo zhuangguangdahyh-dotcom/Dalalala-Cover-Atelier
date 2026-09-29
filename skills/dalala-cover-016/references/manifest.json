@@ -3,37 +3,145 @@
   "coverSkillId": "dalala-cover-016",
   "displayName": "参考 016",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "12c0fa02-14d9-4463-a3d8-485a97425b21",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-016/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-016.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"mainChineseCharacters": [6, 9], "selectedChineseCharacters": [2, 3], "supportChineseCharacters": [6, 9], "heroLatinCharactersIncludingSpaces": [9, 13]},
-  "subjectTypes": ["可信正面近景人物", "可建立顶缘脑洞关系的动物或产品"],
-  "contentEmotions": ["创作灵感", "短期成果", "展示证明", "轻巧科技"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainChineseCharacters": [
+      6,
+      9
+    ],
+    "selectedChineseCharacters": [
+      2,
+      3
+    ],
+    "supportChineseCharacters": [
+      6,
+      9
+    ],
+    "heroLatinCharactersIncludingSpaces": [
+      9,
+      13
+    ]
+  },
+  "subjectTypes": [
+    "可信正面近景人物",
+    "可建立顶缘脑洞关系的动物或产品"
+  ],
+  "contentEmotions": [
+    "创作灵感",
+    "短期成果",
+    "展示证明",
+    "轻巧科技"
+  ],
   "firstFocus": "深色网站里的粉色大字与向上看的撕口人脸；下方编辑框结果词为第二焦点",
-  "spatialStructure": ["白色纸张顶部三段量化事实", "大型深色作品网页", "四联成果证据", "呼吸留白", "居中方法与编辑选框结论", "英文尾注与两角出画工具"],
-  "readingPath": ["顶部三组事实", "网页大字和撕口主体", "四联成果证据", "中文方法", "重点词选框的大结论", "英文尾注"],
+  "spatialStructure": [
+    "白色纸张顶部三段量化事实",
+    "大型深色作品网页",
+    "四联成果证据",
+    "呼吸留白",
+    "居中方法与编辑选框结论",
+    "英文尾注与两角出画工具"
+  ],
+  "readingPath": [
+    "顶部三组事实",
+    "网页大字和撕口主体",
+    "四联成果证据",
+    "中文方法",
+    "重点词选框的大结论",
+    "英文尾注"
+  ],
   "imageTextRelationship": "大字属于被展示的网站身份，四卡证明成果，脸部脑洞提示制作过程，下方中文给成果命题。",
-  "locked": ["3:4 纵向分带及边界", "上深屏＋四联成果卡的面积和等高关系", "中轴正脸顶缘撕口和道具的前后遮挡", "中文一小一大且大行单行", "中间 2–3 字直角选框及四角控制点", "上下深浅结构、强调色三处呼应"],
-  "adaptive": ["账号身份和主体", "姓名或品牌文字及内容", "真实三组数字与四张同源证据", "行业脑洞工具", "符合色彩角色的具体色值"],
-  "optional": ["网页内细小 UI 标签", "轻柔纸皱强度", "两角主题工具图标的具体样式"],
-  "forbidden": ["无真实证据时杜撰成果", "四张无关图库", "把撕口换普通贴纸头像", "选框换圆角按钮", "中文换行扩张或遮住眼睛", "繁重脏纸和霓虹长阴影", "照搬参考原人物、姓名及网页", "未经确认变成 active"],
-  "variableContract": {"person": "身份可变；主体需中央近景、上方可打开脑洞、双眼或识别点完整。", "text": "文案可变；顶部三项、网页一行大字、下方小行和单行大标题以及重点词框固定。", "product": "工具、网页和案例可替换为本行业同一成果的真实证据；上屏＋四联的位置与遮挡固定。", "palette": "色值可变；大面积浅底／集中深屏／少量统一强调色／高对比黑字的面积与明度结构固定。"},
-  "invariantContract": {"anatomy": "anatomy.json", "effects": ["主体顶缘白色不规则撕边和窄接触影", "道具从撕口交错冒出", "四张正面齐平成果卡", "重点词硬边编辑选框、黑色四角控制点"]},
+  "locked": [
+    "3:4 纵向分带及边界",
+    "上深屏＋四联成果卡的面积和等高关系",
+    "中轴正脸顶缘撕口和道具的前后遮挡",
+    "中文一小一大且大行单行",
+    "中间 2–3 字直角选框及四角控制点",
+    "上下深浅结构、强调色三处呼应"
+  ],
+  "adaptive": [
+    "账号身份和主体",
+    "姓名或品牌文字及内容",
+    "真实三组数字与四张同源证据",
+    "行业脑洞工具",
+    "符合色彩角色的具体色值"
+  ],
+  "optional": [
+    "网页内细小 UI 标签",
+    "轻柔纸皱强度",
+    "两角主题工具图标的具体样式"
+  ],
+  "forbidden": [
+    "无真实证据时杜撰成果",
+    "四张无关图库",
+    "把撕口换普通贴纸头像",
+    "选框换圆角按钮",
+    "中文换行扩张或遮住眼睛",
+    "繁重脏纸和霓虹长阴影",
+    "照搬参考原人物、姓名及网页",
+    "未经确认变成 active"
+  ],
+  "variableContract": {
+    "person": "身份可变；主体需中央近景、上方可打开脑洞、双眼或识别点完整。",
+    "text": "文案可变；顶部三项、网页一行大字、下方小行和单行大标题以及重点词框固定。",
+    "product": "工具、网页和案例可替换为本行业同一成果的真实证据；上屏＋四联的位置与遮挡固定。",
+    "palette": "色值可变；大面积浅底／集中深屏／少量统一强调色／高对比黑字的面积与明度结构固定。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "主体顶缘白色不规则撕边和窄接触影",
+      "道具从撕口交错冒出",
+      "四张正面齐平成果卡",
+      "重点词硬边编辑选框、黑色四角控制点"
+    ]
+  },
   "fontDependencies": [
-    {"role": "heroName", "type": "font-style-id", "id": "dalala-cover-016-portfolio-sans", "variant": "heroName", "required": true},
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-016-portfolio-sans", "variant": "mainTitle", "required": true},
-    {"role": "supportingText", "type": "font-style-id", "id": "dalala-cover-016-portfolio-sans", "variant": "supportingText", "required": true},
-    {"role": "footerWord", "type": "font-style-id", "id": "dalala-cover-016-portfolio-sans", "variant": "footerWord", "required": true}
+    {
+      "role": "heroName",
+      "type": "font-style-id",
+      "id": "dalala-cover-016-portfolio-sans",
+      "variant": "heroName",
+      "required": true
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-016-portfolio-sans",
+      "variant": "mainTitle",
+      "required": true
+    },
+    {
+      "role": "supportingText",
+      "type": "font-style-id",
+      "id": "dalala-cover-016-portfolio-sans",
+      "variant": "supportingText",
+      "required": true
+    },
+    {
+      "role": "footerWord",
+      "type": "font-style-id",
+      "id": "dalala-cover-016-portfolio-sans",
+      "variant": "footerWord",
+      "required": true
+    }
   ],
   "testedCases": [],
   "thumbnailQA": null,
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

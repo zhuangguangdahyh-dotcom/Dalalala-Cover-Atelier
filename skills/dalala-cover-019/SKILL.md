@@ -2,6 +2,8 @@
 name: dalala-cover-019
 description: 参考 019 的竖版双语巨字与主题场景封面规则。拆解修订待确认，仅供受控测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 019｜调用协议
 

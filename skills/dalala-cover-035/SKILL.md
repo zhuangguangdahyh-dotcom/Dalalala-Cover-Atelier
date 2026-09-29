@@ -2,6 +2,8 @@
 name: dalala-cover-035
 description: 参考 035 的 3:4 高机位近脸自拍、左右手写文字包围结构。当前仅供拆解审阅与受控复刻测试，未获生产上架资格。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 035 调用规则
 

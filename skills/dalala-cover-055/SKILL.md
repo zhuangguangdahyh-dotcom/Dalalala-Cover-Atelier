@@ -2,6 +2,8 @@
 name: dalala-cover-055
 description: 3:4 深色手写双层标题、四张案例卡拱形展示、底部真人双手托举的封面构图；当前为 studied，须完成复刻和用户验收后才能生产调用。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 055 Cover Skill（待测试）
 

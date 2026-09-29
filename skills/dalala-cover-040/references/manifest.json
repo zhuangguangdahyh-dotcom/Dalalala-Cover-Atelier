@@ -3,28 +3,90 @@
   "coverSkillId": "dalala-cover-040",
   "displayName": "参考封面 040",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "59e4e732-c182-45a1-82d8-12b0274eaec7",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-040/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "video_account"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "video_account"
+  ],
   "sourceRatio": "3:4",
   "verifiedRatios": [],
   "plannedRatioVariants": [],
-  "titleLength": {"mainHanPreferred": [4, 6], "mainHanTestRange": [4, 6], "centralShortSentencePerLine": [3, 5], "centralLines": 2},
-  "subjectTypes": ["一位真实人物极近景上视", "经过独立测试的有眼神动物或角色"],
-  "contentEmotions": ["脑内活动", "灵感", "日常惊讶", "轻微荒诞", "发现"],
+  "titleLength": {
+    "mainHanPreferred": [
+      4,
+      6
+    ],
+    "mainHanTestRange": [
+      4,
+      6
+    ],
+    "centralShortSentencePerLine": [
+      3,
+      5
+    ],
+    "centralLines": 2
+  },
+  "subjectTypes": [
+    "一位真实人物极近景上视",
+    "经过独立测试的有眼神动物或角色"
+  ],
+  "contentEmotions": [
+    "脑内活动",
+    "灵感",
+    "日常惊讶",
+    "轻微荒诞",
+    "发现"
+  ],
   "firstFocus": "黑框白场中分散环绕的高纯色刀锋汉字",
-  "spatialStructure": ["3:4 黑色柔糊取景框围白场", "上部两枚斜置相纸", "左右高纯大字与下沿散字", "中央亮色信息卡", "底部上视近景人像与两侧小物"],
-  "readingPath": ["左右高纯色巨字", "下沿散字", "中央卡两行短句", "底部人物上视眼睛", "上方两枚相纸", "左右小物"],
+  "spatialStructure": [
+    "3:4 黑色柔糊取景框围白场",
+    "上部两枚斜置相纸",
+    "左右高纯大字与下沿散字",
+    "中央亮色信息卡",
+    "底部上视近景人像与两侧小物"
+  ],
+  "readingPath": [
+    "左右高纯色巨字",
+    "下沿散字",
+    "中央卡两行短句",
+    "底部人物上视眼睛",
+    "上方两枚相纸",
+    "左右小物"
+  ],
   "imageTextRelationship": "主标题像人物头顶的想法在白场里分字漂浮，中央卡给出次级解释；人物上视将读者重新送往顶部线索卡。",
-  "locked": ["黑框白场比例", "底部极近景上视人像", "主字分散环绕中央卡", "中央两行信息卡", "上两卡与侧边两小物的数量、尺度和层级", "高纯色字与大白场的对比"],
-  "adaptive": ["人物身份", "主标题及中心短句", "相纸内容", "产品/工具种类", "具体色值"],
-  "optional": ["白场微弱投影纹理", "相纸与实物的克制软影"],
-  "forbidden": ["复制参考原文或产品品牌", "人物退成完整半身", "普通宋体整行套排", "将中心卡扩张为横幅", "无关产品贴图", "未经测试或用户确认转 active"],
+  "locked": [
+    "黑框白场比例",
+    "底部极近景上视人像",
+    "主字分散环绕中央卡",
+    "中央两行信息卡",
+    "上两卡与侧边两小物的数量、尺度和层级",
+    "高纯色字与大白场的对比"
+  ],
+  "adaptive": [
+    "人物身份",
+    "主标题及中心短句",
+    "相纸内容",
+    "产品/工具种类",
+    "具体色值"
+  ],
+  "optional": [
+    "白场微弱投影纹理",
+    "相纸与实物的克制软影"
+  ],
+  "forbidden": [
+    "复制参考原文或产品品牌",
+    "人物退成完整半身",
+    "普通宋体整行套排",
+    "将中心卡扩张为横幅",
+    "无关产品贴图",
+    "未经测试或用户确认转 active"
+  ],
   "variableContract": {
     "person": "身份、发型、肤色和衣物可变；头部约 x19–82%/y58–100% 和双眼向上不变",
     "text": "内容可变；上部左右大字、下部散字及中心卡两行短句不变，过长先改写",
@@ -35,19 +97,52 @@
     "anatomy": "anatomy.json",
     "layout": "3:4；内场 x9–91%/y6–94%；主字左右上大下散；中央卡 x39–61%/y31–56%；人物 x19–82%/y58–100%",
     "contentArea": "人物头部可见面积约20–26%，中心卡约5–7%，高纯主字约12–18%；按 anatomy 框校对",
-    "effects": ["黑色柔糊取景框", "白亮内场", "刀锋式分字标题", "斜置相纸白边和柔影", "中央实体卡厚度", "两侧斜向悬浮物", "人物上视与底边裁切"]
+    "effects": [
+      "黑色柔糊取景框",
+      "白亮内场",
+      "刀锋式分字标题",
+      "斜置相纸白边和柔影",
+      "中央实体卡厚度",
+      "两侧斜向悬浮物",
+      "人物上视与底边裁切"
+    ]
   },
   "assetTransformations": [
-    {"when": "已有身份与上视近景", "level": "T1", "action": "重裁、扩白场、净化背景且保留真实发丝"},
-    {"when": "人物可用但卡/产品结构缺失", "level": "T2", "action": "建立两张有主题含义的相纸与两件可辨小物，统一光影和透视"},
-    {"when": "没有可用上视眼神或极近景", "level": "T3", "action": "补拍或在身份锁定下重建头脸，不以简单放大代替"}
+    {
+      "when": "已有身份与上视近景",
+      "level": "T1",
+      "action": "重裁、扩白场、净化背景且保留真实发丝"
+    },
+    {
+      "when": "人物可用但卡/产品结构缺失",
+      "level": "T2",
+      "action": "建立两张有主题含义的相纸与两件可辨小物，统一光影和透视"
+    },
+    {
+      "when": "没有可用上视眼神或极近景",
+      "level": "T3",
+      "action": "补拍或在身份锁定下重建头脸，不以简单放大代替"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-040-blade-song", "required": true, "status": "testing"},
-    {"role": "centralCardText", "type": "font-style-id", "id": "dalala-breath-cut-song", "required": true, "status": "active"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-040-blade-song",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "centralCardText",
+      "type": "font-style-id",
+      "id": "dalala-breath-cut-song",
+      "required": true,
+      "status": "active"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

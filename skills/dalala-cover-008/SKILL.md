@@ -2,6 +2,8 @@
 name: dalala-cover-008
 description: 参考 008 的 3:4 贴脸自拍与手持证据封面；左大脸、右斜举手机、右上三段细字、右中即时旁白、底部两行粗手写结果承诺。仅 studied，供拆解确认，不能正式生产或推荐。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 008 Cover Skill
 

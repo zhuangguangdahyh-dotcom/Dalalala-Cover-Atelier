@@ -3,22 +3,43 @@
   "coverSkillId": "dalala-cover-005",
   "displayName": "参考 005",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "d1908766-5d27-4bfe-9e10-f61b87551a50",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-005/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
   "titleLength": {
-    "hookLineChineseEquivalentCharacters": [9, 13],
-    "mainTitleChineseEquivalentCharacters": [2, 4],
-    "methodLineLatinCharactersIncludingSpaces": [8, 22]
+    "hookLineChineseEquivalentCharacters": [
+      9,
+      13
+    ],
+    "mainTitleChineseEquivalentCharacters": [
+      2,
+      4
+    ],
+    "methodLineLatinCharactersIncludingSpaces": [
+      8,
+      22
+    ]
   },
-  "subjectTypes": ["single human demonstration portrait"],
-  "contentEmotions": ["可信", "好奇", "教程感", "可复现"],
+  "subjectTypes": [
+    "single human demonstration portrait"
+  ],
+  "contentEmotions": [
+    "可信",
+    "好奇",
+    "教程感",
+    "可复现"
+  ],
   "firstFocus": "对称双尖括号内的模块主标题",
   "spatialStructure": [
     "3:4 连续满版室内照片",
@@ -84,18 +105,57 @@
     ]
   },
   "assetTransformations": [
-    {"when": "原照动作和背景齐全", "level": "T1", "action": "重裁、清理字区、控制背景证据", "reason": "保留真实握持和同一室内景深"},
-    {"when": "动作齐全但环境无证据", "level": "T2", "action": "补 3–5 组行业证据并统一光色透视", "reason": "让人物有资格讲主题"},
-    {"when": "没有眼线持物或握持失真", "level": "T3", "action": "补拍或受约束重建", "reason": "二维贴片不能建立可信动作"},
-    {"when": "文字超长", "level": "copy-edit", "action": "改写到既定长度；做不到则换模板", "reason": "不改变三级文字栈"}
+    {
+      "when": "原照动作和背景齐全",
+      "level": "T1",
+      "action": "重裁、清理字区、控制背景证据",
+      "reason": "保留真实握持和同一室内景深"
+    },
+    {
+      "when": "动作齐全但环境无证据",
+      "level": "T2",
+      "action": "补 3–5 组行业证据并统一光色透视",
+      "reason": "让人物有资格讲主题"
+    },
+    {
+      "when": "没有眼线持物或握持失真",
+      "level": "T3",
+      "action": "补拍或受约束重建",
+      "reason": "二维贴片不能建立可信动作"
+    },
+    {
+      "when": "文字超长",
+      "level": "copy-edit",
+      "action": "改写到既定长度；做不到则换模板",
+      "reason": "不改变三级文字栈"
+    }
   ],
   "fontDependencies": [
-    {"role": "hookLine", "type": "font-style-id", "id": "dalala-cover-005-hook-block", "required": true, "status": "testing"},
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-005-modular-outline", "required": true, "status": "testing"},
-    {"role": "methodLine", "type": "font-class", "id": "condensed-uppercase-sans", "required": true, "registrationRequired": false}
+    {
+      "role": "hookLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-005-hook-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-005-modular-outline",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "methodLine",
+      "type": "font-class",
+      "id": "condensed-uppercase-sans",
+      "required": true,
+      "registrationRequired": false
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

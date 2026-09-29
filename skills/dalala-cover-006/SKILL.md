@@ -2,6 +2,8 @@
 name: dalala-cover-006
 description: 复刻参考 006 的 3:4 大留白双语细线标题与右下开放式个人物件柜结构。适合用一个模块化容器呈现个人技能、工具、作品或收藏；当前仅为 studied，未经复刻测试和用户验收不得用于正式生产或标记 active。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 006 Cover Skill
 

@@ -2,6 +2,8 @@
 name: dalala-cover-054
 description: 参考封面 054 的深纹理底、发光橱窗、独立陈列场景、拱形投光与双层衬线主题；当前 studied，待拆解确认和复刻测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 054｜调用规则
 

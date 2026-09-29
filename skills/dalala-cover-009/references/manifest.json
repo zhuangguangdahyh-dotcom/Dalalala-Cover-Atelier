@@ -3,32 +3,141 @@
   "coverSkillId": "dalala-cover-009",
   "displayName": "参考 009",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "928dc8f9-9cd6-48d6-a8d7-f3440e570000",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-009/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"cornerChineseEquivalent": [1,2], "cornerPunctuation": "short exclamation", "mainRowCount": 2, "mainRowChineseEquivalentEach": [3,6], "arcLatinLetters": [6,10]},
-  "subjectTypes": ["close selfie portrait holding one large object with 3-5 distinct related objects around it"],
-  "contentEmotions": ["即时发现", "开箱兴奋", "收藏展示", "数量惊喜"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "cornerChineseEquivalent": [
+      1,
+      2
+    ],
+    "cornerPunctuation": "short exclamation",
+    "mainRowCount": 2,
+    "mainRowChineseEquivalentEach": [
+      3,
+      6
+    ],
+    "arcLatinLetters": [
+      6,
+      10
+    ]
+  },
+  "subjectTypes": [
+    "close selfie portrait holding one large object with 3-5 distinct related objects around it"
+  ],
+  "contentEmotions": [
+    "即时发现",
+    "开箱兴奋",
+    "收藏展示",
+    "数量惊喜"
+  ],
   "firstFocus": "左真人双眼与中央手举大物；随后右上短喊及底部两行花字",
   "spatialStructure": "左近脸、中央大物、四周不同小物、顶部拱弧、右上喊字和下方两行右下递进巨字",
-  "readingPath": ["真人双眼", "中央主物", "右上短喊", "底部两行", "周边子物", "顶部弧字"],
+  "readingPath": [
+    "真人双眼",
+    "中央主物",
+    "右上短喊",
+    "底部两行",
+    "周边子物",
+    "顶部弧字"
+  ],
   "imageTextRelationship": "真人与物件提供亲历和数量证据，短喊触发情绪，底部巨字给出数量和对象。",
-  "locked": ["3:4", "左近脸和中上手举大物", "3-5个不同子物环绕", "顶部弧字/右上短喊/底部两行阶梯字", "双眼和主物表情保护区", "白芯窄边右下硬影"],
-  "adaptive": ["人物身份与衣服", "具体文字", "真实主物及子物", "具体色值与室内环境"],
-  "optional": ["子物按辨识度在3-5个间调整", "小型真实道具亮点"],
-  "forbidden": ["通用AI小人", "同物克隆充数", "等大网格", "三行标题", "静默回退普通圆体", "模糊花字影", "未验收上架"],
-  "variableContract": {"person": "身份可换，左近脸景别、面积及直视关系不变", "text": "具体文案可换，顶部弧字、右上短喊和底部两行阶梯结构不变", "product": "品类可换，中央手举主物比3-5个不同子物大1.5-2.5倍", "palette": "色值可换，暖/中性照片底、高明度字芯、窄高彩轮廓和小面积同温硬影不变"},
-  "invariantContract": {"anatomy": "anatomy.json", "effects": ["natural close selfie", "distinct related objects around large held hero", "arched outline context lettering", "solid irregular round lettering with narrow outline and hard offset"]},
-  "assetTransformations": [{"when": "可信同框和系列物件齐全", "level": "T0", "action": "裁切、局部压暗、叠字"}, {"when": "子物分散或背景过乱", "level": "T1", "action": "子物抠图重排，补接触影"}, {"when": "真人与物件分图", "level": "T2", "action": "重建同一镜头手持透视和光向"}, {"when": "无人或无可见系列证据", "level": "T3", "action": "拒用并补拍或换模板"}],
-  "fontDependencies": [{"role": "mainTitle/cornerExclamation", "type": "font-style-id", "id": "dalala-cover-009-puffy-pop", "variant": "solid-display", "required": true, "status": "testing"}, {"role": "arcContext", "type": "font-style-id", "id": "dalala-cover-009-puffy-pop", "variant": "arc-outline", "required": true, "status": "testing"}],
+  "locked": [
+    "3:4",
+    "左近脸和中上手举大物",
+    "3-5个不同子物环绕",
+    "顶部弧字/右上短喊/底部两行阶梯字",
+    "双眼和主物表情保护区",
+    "白芯窄边右下硬影"
+  ],
+  "adaptive": [
+    "人物身份与衣服",
+    "具体文字",
+    "真实主物及子物",
+    "具体色值与室内环境"
+  ],
+  "optional": [
+    "子物按辨识度在3-5个间调整",
+    "小型真实道具亮点"
+  ],
+  "forbidden": [
+    "通用AI小人",
+    "同物克隆充数",
+    "等大网格",
+    "三行标题",
+    "静默回退普通圆体",
+    "模糊花字影",
+    "未验收上架"
+  ],
+  "variableContract": {
+    "person": "身份可换，左近脸景别、面积及直视关系不变",
+    "text": "具体文案可换，顶部弧字、右上短喊和底部两行阶梯结构不变",
+    "product": "品类可换，中央手举主物比3-5个不同子物大1.5-2.5倍",
+    "palette": "色值可换，暖/中性照片底、高明度字芯、窄高彩轮廓和小面积同温硬影不变"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "natural close selfie",
+      "distinct related objects around large held hero",
+      "arched outline context lettering",
+      "solid irregular round lettering with narrow outline and hard offset"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "可信同框和系列物件齐全",
+      "level": "T0",
+      "action": "裁切、局部压暗、叠字"
+    },
+    {
+      "when": "子物分散或背景过乱",
+      "level": "T1",
+      "action": "子物抠图重排，补接触影"
+    },
+    {
+      "when": "真人与物件分图",
+      "level": "T2",
+      "action": "重建同一镜头手持透视和光向"
+    },
+    {
+      "when": "无人或无可见系列证据",
+      "level": "T3",
+      "action": "拒用并补拍或换模板"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "mainTitle/cornerExclamation",
+      "type": "font-style-id",
+      "id": "dalala-cover-009-puffy-pop",
+      "variant": "solid-display",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "arcContext",
+      "type": "font-style-id",
+      "id": "dalala-cover-009-puffy-pop",
+      "variant": "arc-outline",
+      "required": true,
+      "status": "testing"
+    }
+  ],
   "passedTests": [],
   "thumbnailChecks": [],
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

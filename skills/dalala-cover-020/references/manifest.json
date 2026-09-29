@@ -3,14 +3,13 @@
   "coverSkillId": "dalala-cover-020",
   "displayName": "参考 020",
   "version": "0.2.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "b82ef0bf-9792-430d-aca5-6fb3658f73a6",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-020/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-020.jpg",
-  "referenceSha256": "8b0a5b5bb829c9b80820634531715f5a1cc5932b6d2f2d925d60fed5c796cc63",
+  "referenceSha256": "1618c35532bed7997cf0a6a288811a77882fcf2dc9bd7a61515e59b6cd782d20",
   "annotatedReference": null,
   "approvedTest": null,
   "supportedPlatforms": [
@@ -151,5 +150,6 @@
   "userAcceptance": null,
   "previousJobId": "087c3bb3-a2fd-43e8-a8cf-a3d4d283984a",
   "archivedAnnotatedReference": "../assets/reference-annotated.jpg",
-  "annotationNote": "旧标注存档，尚未按四字与行业语义修订，当前不作为执行依据"
+  "annotationNote": "旧标注存档，尚未按四字与行业语义修订，当前不作为执行依据",
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

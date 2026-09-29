@@ -2,6 +2,8 @@
 name: dalala-cover-050
 description: 参考 050 的四角单字、中心暖调肖像封面拆解与受控复刻。当前仅 studied，待用户确认拆解和跨内容测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 050｜调用顺序
 

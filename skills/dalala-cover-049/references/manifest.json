@@ -3,9 +3,9 @@
   "coverSkillId": "dalala-cover-049",
   "displayName": "参考封面 049",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "sourceReference": "参考封面图/dalala-cover-049-reference.jpg",
   "archivedReference": "skills/dalala-cover-049/assets/reference-original.jpg",
   "annotatedReference": null,
@@ -136,5 +136,6 @@
     "crossIndustryTest": false,
     "fontQa": false,
     "userAcceptance": false
-  }
+  },
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

@@ -2,6 +2,8 @@
 name: dalala-cover-049
 description: "研究 049 单张城市纪实封面参考，按竖向地点锚、中段横向连接和下部真实活动的结构进行待确认复刻规划。仅供拆解和测试，不可用于正式生产。"
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # dalala-cover-049｜单张参考封面 Skill（拆解待确认）
 

@@ -3,26 +3,90 @@
   "coverSkillId": "dalala-cover-062",
   "displayName": "参考封面 062（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "05b4eb87b940d4c2e65153355da9d61b1f0648b76a94a9a45cf8026fb7c4e76d",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"mainLines": 2, "upperLineChineseCharacters": [3, 5], "lowerLineChineseCharacters": [3, 5], "preferredPattern": "4+4", "identityLine": "one short truthful brand/tool/account line"},
-  "subjectTypes": ["real creator or expert with presenting hands", "recognizable low-poly outcome world", "grounded foreground interaction object"],
-  "contentMoods": ["hands-on creation", "playable transformation", "accessible technical reveal", "optimistic demonstration"],
+  "sourceSha256": "b8591feeaf99d273d0dd607d4158943af79291624fa0e9f7459d4570efa5f819",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainLines": 2,
+    "upperLineChineseCharacters": [
+      3,
+      5
+    ],
+    "lowerLineChineseCharacters": [
+      3,
+      5
+    ],
+    "preferredPattern": "4+4",
+    "identityLine": "one short truthful brand/tool/account line"
+  },
+  "subjectTypes": [
+    "real creator or expert with presenting hands",
+    "recognizable low-poly outcome world",
+    "grounded foreground interaction object"
+  ],
+  "contentMoods": [
+    "hands-on creation",
+    "playable transformation",
+    "accessible technical reveal",
+    "optimistic demonstration"
+  ],
   "firstVisualFocus": "two huge irregular hard-cut Chinese lines at upper left, black action above deep-color result",
   "spatialSkeleton": "white breathing field, left two-line headline, right presenting person, lower irregular-edged low-poly world, grounded front object",
-  "readingPath": ["identity line", "black upper title", "colored lower title", "creator face", "presenting hands", "landmark/world", "front interaction object"],
+  "readingPath": [
+    "identity line",
+    "black upper title",
+    "colored lower title",
+    "creator face",
+    "presenting hands",
+    "landmark/world",
+    "front interaction object"
+  ],
   "imageTextRelationship": "large two-step claim is directly demonstrated by the miniature world; human gesture links creator and result",
-  "locked": ["3:4 vertical composition", "upper-left two-line dense heavyweight title x4-69/y11-40", "right face and presenting hands x30-100/y16-79", "miniature landmark rising through white field and low-poly world occupying irregular lower field", "grounded front object", "clean white upper breathing field", "hard-cut heavy Chinese glyph motion without effects", "read path from title to face/hands to world"],
-  "adaptive": ["creator identity and clothing with face preserved", "industry-specific outcome landmark, world and front object", "exact title and truthful identity line within fixed text blocks", "hues and scene details while preserving lightness and contrast roles", "local person/world masking and crop"],
-  "optional": ["hat or other role-appropriate headwear", "water feature if meaningful for result world", "small number of repeating trees or industry-specific depth markers"],
-  "forbidden": ["active use before test and user acceptance", "ordinary bold sans replacement for Chinese lettering", "third main title line or text over face", "generic mascot in place of identified presenter", "unrelated landscape below title", "flat sticker-like floating front object", "photographic and low-poly perspective mismatch", "busy upper background or extra stickers", "fixed reference color values"],
+  "locked": [
+    "3:4 vertical composition",
+    "upper-left two-line dense heavyweight title x4-69/y11-40",
+    "right face and presenting hands x30-100/y16-79",
+    "miniature landmark rising through white field and low-poly world occupying irregular lower field",
+    "grounded front object",
+    "clean white upper breathing field",
+    "hard-cut heavy Chinese glyph motion without effects",
+    "read path from title to face/hands to world"
+  ],
+  "adaptive": [
+    "creator identity and clothing with face preserved",
+    "industry-specific outcome landmark, world and front object",
+    "exact title and truthful identity line within fixed text blocks",
+    "hues and scene details while preserving lightness and contrast roles",
+    "local person/world masking and crop"
+  ],
+  "optional": [
+    "hat or other role-appropriate headwear",
+    "water feature if meaningful for result world",
+    "small number of repeating trees or industry-specific depth markers"
+  ],
+  "forbidden": [
+    "active use before test and user acceptance",
+    "ordinary bold sans replacement for Chinese lettering",
+    "third main title line or text over face",
+    "generic mascot in place of identified presenter",
+    "unrelated landscape below title",
+    "flat sticker-like floating front object",
+    "photographic and low-poly perspective mismatch",
+    "busy upper background or extra stickers",
+    "fixed reference color values"
+  ],
   "variableContract": {
     "person": "identity and clothing change; new person must be right-anchored, medium-close and present the lower-left result with two readable hands",
     "text": "content changes inside two 3-5-character heavyweight lines plus one short truthful top line; boxes, line count and hierarchy stay fixed",
@@ -35,18 +99,48 @@
     "specialEffects": "precise person cutout, localized hand/world occlusion, coherent low-poly perspective and lighting, front object contact shadow, per-glyph angular cut rhythm; no title stroke/shadow/extrusion"
   },
   "materialTransformation": [
-    {"level": "required", "action": "cut out and crop presenter, retain face and two-hand presenting gesture", "trigger": "each new portrait"},
-    {"level": "required", "action": "rebuild result as coherent low-poly world with identifiable landmark and near/mid/far depth", "trigger": "each new industry topic"},
-    {"level": "required", "action": "ground foreground interaction object with perspective and contact shadow", "trigger": "each new result world"},
-    {"level": "conditional", "action": "rewrite two title lines without changing block geometry", "trigger": "headline exceeds 3-5 characters per line or intrudes on face"}
+    {
+      "level": "required",
+      "action": "cut out and crop presenter, retain face and two-hand presenting gesture",
+      "trigger": "each new portrait"
+    },
+    {
+      "level": "required",
+      "action": "rebuild result as coherent low-poly world with identifiable landmark and near/mid/far depth",
+      "trigger": "each new industry topic"
+    },
+    {
+      "level": "required",
+      "action": "ground foreground interaction object with perspective and contact shadow",
+      "trigger": "each new result world"
+    },
+    {
+      "level": "conditional",
+      "action": "rewrite two title lines without changing block geometry",
+      "trigger": "headline exceeds 3-5 characters per line or intrudes on face"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitleUpper/mainTitleLower", "type": "font-style-id", "id": "dalala-cover-062-jagged-block", "required": true, "status": "testing"},
-    {"role": "identityLine", "type": "font-style-id", "id": "dalala-cover-062-upright-latin-sans", "required": true, "status": "testing"}
+    {
+      "role": "mainTitleUpper/mainTitleLower",
+      "type": "font-style-id",
+      "id": "dalala-cover-062-jagged-block",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "identityLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-062-upright-latin-sans",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "references/font-registry-entries.json",
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

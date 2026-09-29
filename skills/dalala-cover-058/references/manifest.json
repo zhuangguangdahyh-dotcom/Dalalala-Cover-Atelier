@@ -3,13 +3,13 @@
   "coverSkillId": "dalala-cover-058",
   "displayName": "参考封面 058（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "09bc199e352ba6c508c86d2be5d8c6bf460456abe6e5fd2ce62d0357c9a9e059",
+  "sourceSha256": "f9a5d729b0b6a946cbf53f39a3c8177d2345683a3a1d05ec49bc99f904281388",
   "supportedPlatforms": [
     "xiaohongshu",
     "douyin",
@@ -148,5 +148,7 @@
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

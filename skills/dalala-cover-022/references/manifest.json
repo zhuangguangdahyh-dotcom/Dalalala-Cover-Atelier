@@ -3,14 +3,13 @@
   "coverSkillId": "dalala-cover-022",
   "displayName": "参考 022",
   "version": "0.1.1",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "1a41af25-0260-48ce-a261-91efb253f276",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-022/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-022.jpg",
-  "referenceSha256": "14d7f14e5da814d353525d0cb4051bd325a97e0d18357113c88091b94c11ad8e",
+  "referenceSha256": "d3292f5f979b58969df73591ab89af236298d7c63c224b5979d4de01621cd669",
   "annotatedReference": null,
   "approvedTest": null,
   "supportedPlatforms": [
@@ -150,7 +149,6 @@
   "testedCases": [],
   "thumbnailQA": null,
   "userAcceptance": null,
-  "previousAnalysisJobId": "0d6fe0b6-bb35-4a5d-88e6-6488e915a08c",
   "revisionNote": "按用户反馈修订文字层级：分别渲染字影与实体字；底字为人物下部前景，掌心主体留在字框上方，顶字和副标题避开脸。",
   "layerOrder": [
     "0 全幅灰暗室内照片",
@@ -168,5 +166,6 @@
     "bottomPayoff": "实体字和软影都在人物下部之前，压下段袖子、前臂、胸腹、沙发；两只掌心及手指主体位于字框上方，不抽取手部蒙版盖住底字",
     "shadow": "每组软影位于对应实体字之下、照片和人物之上；柔亮人物边仍属人物层，不盖实体字",
     "collisionResolution": "先改取景或手势，使手掌与字框回到参考的相邻位置；不翻转层级、不移动底字到独立横条"
-  }
+  },
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

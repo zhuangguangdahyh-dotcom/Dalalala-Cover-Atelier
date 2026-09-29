@@ -2,6 +2,8 @@
 name: dalala-cover-041
 description: 拆解并复刻参考 041 的三行红黑圆点阵标题、上浅下深的场景照片、前后两层工作证据及微型编辑标记。当前仅为 studied，等待拆解确认和真实主题测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 041 调用规则
 

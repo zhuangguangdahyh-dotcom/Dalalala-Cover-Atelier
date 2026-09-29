@@ -3,45 +3,149 @@
   "coverSkillId": "dalala-cover-032",
   "displayName": "参考 032",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "f08c5a97-6d75-452e-a552-5a4082d7cd1d",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-032/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"leadHan": [3,4], "line2Han": [4,5], "line3Han": [4,5], "line3EndsWithQuestionMark": true},
-  "subjectTypes": ["one real on-site person at lower-right with a physically connected foreground evidence object"],
-  "contentEmotions": ["反常识疑问", "现场亲测", "冷感或主题等价的真实体感", "解释欲"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "leadHan": [
+      3,
+      4
+    ],
+    "line2Han": [
+      4,
+      5
+    ],
+    "line3Han": [
+      4,
+      5
+    ],
+    "line3EndsWithQuestionMark": true
+  },
+  "subjectTypes": [
+    "one real on-site person at lower-right with a physically connected foreground evidence object"
+  ],
+  "contentEmotions": [
+    "反常识疑问",
+    "现场亲测",
+    "冷感或主题等价的真实体感",
+    "解释欲"
+  ],
   "firstFocus": "three oversized upper question lines, then expressive witness and readable evidence",
-  "spatialStructure": ["full-bleed 3:4 dark scene", "upper narrow-wide-widest three-line question", "small upper-left and upper-right semantic cues", "lower-right close person", "forward-held evidence near center", "foreground site material at lower-left"],
-  "readingPath": ["short question lead", "two-line proposition", "person's face", "held evidence reading", "site"],
+  "spatialStructure": [
+    "full-bleed 3:4 dark scene",
+    "upper narrow-wide-widest three-line question",
+    "small upper-left and upper-right semantic cues",
+    "lower-right close person",
+    "forward-held evidence near center",
+    "foreground site material at lower-left"
+  ],
+  "readingPath": [
+    "short question lead",
+    "two-line proposition",
+    "person's face",
+    "held evidence reading",
+    "site"
+  ],
   "imageTextRelationship": "oversized type raises a cause question; one continuous photograph supplies an expressive witness and measurable proof",
-  "locked": ["three-line question inside upper 42% with 45/74/79% approximate widths", "right-biased person and center-forward evidence object", "physical hand-object connection", "dark field and bright title/person value order", "two small topic cues and question-person-evidence reading loop"],
-  "adaptive": ["person identity and clothing", "title wording within line lengths", "true occupation-specific proof object", "coherent scene", "semantic cue motifs", "exact palette values"],
-  "optional": ["small natural cap/head mask in front of title tail"],
-  "forbidden": ["fourth title line", "invented reading", "detached prop", "generic mascot", "subtitle or CTA", "title over face or screen", "plain font fallback", "oversized graphic stickers", "changing all title lines to flat uniform fill"],
+  "locked": [
+    "three-line question inside upper 42% with 45/74/79% approximate widths",
+    "right-biased person and center-forward evidence object",
+    "physical hand-object connection",
+    "dark field and bright title/person value order",
+    "two small topic cues and question-person-evidence reading loop"
+  ],
+  "adaptive": [
+    "person identity and clothing",
+    "title wording within line lengths",
+    "true occupation-specific proof object",
+    "coherent scene",
+    "semantic cue motifs",
+    "exact palette values"
+  ],
+  "optional": [
+    "small natural cap/head mask in front of title tail"
+  ],
+  "forbidden": [
+    "fourth title line",
+    "invented reading",
+    "detached prop",
+    "generic mascot",
+    "subtitle or CTA",
+    "title over face or screen",
+    "plain font fallback",
+    "oversized graphic stickers",
+    "changing all title lines to flat uniform fill"
+  ],
   "variableContract": {
     "person": "identity may change; position, close shot, expressive on-site role and relative area remain",
     "text": "wording may change; three semantic lines, widths, hierarchy, role-specific texture and punctuation relationship remain",
     "product": "proof object may change; foreground held scale, position, readable evidence and hand connection remain",
     "palette": "exact values may change; dark background, bright main text, slightly quieter bright subject, tiny topic cues and cold/warm role contrast remain"
   },
-  "invariantContract": {"anatomy": "anatomy.json", "effects": ["hand-cut solid display glyphs", "clean lead and restrained textured lower lines", "thin dark title contour and short hard shadow", "real photographic foreground evidence perspective", "two small opposing semantic graphics"]},
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "hand-cut solid display glyphs",
+      "clean lead and restrained textured lower lines",
+      "thin dark title contour and short hard shadow",
+      "real photographic foreground evidence perspective",
+      "two small opposing semantic graphics"
+    ]
+  },
   "assetTransformations": [
-    {"when": "connected action and title space already exist", "level": "T0", "action": "crop and local tone"},
-    {"when": "same scene has insufficient upper or left space", "level": "T1", "action": "controlled scene extension and cutout/reposition preserving identity and evidence"},
-    {"when": "real identity and proof exist but shot size or gesture is wrong", "level": "T2", "action": "constrained near-shot/action reconstruction with geometry and number verification"},
-    {"when": "no truthful proof or connected action exists", "level": "reject", "action": "choose another asset, reshoot or choose another template"}
+    {
+      "when": "connected action and title space already exist",
+      "level": "T0",
+      "action": "crop and local tone"
+    },
+    {
+      "when": "same scene has insufficient upper or left space",
+      "level": "T1",
+      "action": "controlled scene extension and cutout/reposition preserving identity and evidence"
+    },
+    {
+      "when": "real identity and proof exist but shot size or gesture is wrong",
+      "level": "T2",
+      "action": "constrained near-shot/action reconstruction with geometry and number verification"
+    },
+    {
+      "when": "no truthful proof or connected action exists",
+      "level": "reject",
+      "action": "choose another asset, reshoot or choose another template"
+    }
   ],
   "fontDependencies": [
-    {"role": "questionLead", "type": "font-style-id", "id": "dalala-cover-032-ice-block", "variant": "questionLead", "required": true, "status": "testing"},
-    {"role": "icyPayoff", "type": "font-style-id", "id": "dalala-cover-032-ice-block", "variant": "icyPayoff", "required": true, "status": "testing"}
+    {
+      "role": "questionLead",
+      "type": "font-style-id",
+      "id": "dalala-cover-032-ice-block",
+      "variant": "questionLead",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "icyPayoff",
+      "type": "font-style-id",
+      "id": "dalala-cover-032-ice-block",
+      "variant": "icyPayoff",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

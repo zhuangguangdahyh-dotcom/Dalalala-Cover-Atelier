@@ -2,6 +2,8 @@
 name: dalala-cover-052
 description: 参考封面 052 的双结果卡、中央人物、左右错位手写大字拼贴结构。仅供拆解确认与复刻测试；未获用户验收，不可自动推荐或发布。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 052｜测试态 Cover Skill
 

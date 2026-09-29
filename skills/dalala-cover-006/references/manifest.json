@@ -3,23 +3,50 @@
   "coverSkillId": "dalala-cover-006",
   "displayName": "参考 006",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "0ad39149-5ae2-4d46-b83f-6f907d9fe8b3",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-006/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
   "titleLength": {
-    "identityKickerLatinCharacters": [3, 9],
-    "englishThemeLatinCharactersIncludingSpaces": [8, 16],
-    "mainTitleChineseEquivalentCharacters": [5, 7],
-    "audienceQualifierChineseEquivalentCharacters": [5, 8]
+    "identityKickerLatinCharacters": [
+      3,
+      9
+    ],
+    "englishThemeLatinCharactersIncludingSpaces": [
+      8,
+      16
+    ],
+    "mainTitleChineseEquivalentCharacters": [
+      5,
+      7
+    ],
+    "audienceQualifierChineseEquivalentCharacters": [
+      5,
+      8
+    ]
   },
-  "subjectTypes": ["modular open display container", "personal object archive", "tool or collection cabinet"],
-  "contentEmotions": ["轻盈", "年轻", "有探索感", "个人化", "数字编辑感"],
+  "subjectTypes": [
+    "modular open display container",
+    "personal object archive",
+    "tool or collection cabinet"
+  ],
+  "contentEmotions": [
+    "轻盈",
+    "年轻",
+    "有探索感",
+    "个人化",
+    "数字编辑感"
+  ],
   "firstFocus": "横贯上半部的中文单线主标题",
   "spatialStructure": [
     "3:4 近白满版画布",
@@ -88,19 +115,64 @@
     ]
   },
   "assetTransformations": [
-    {"when": "已有开放容器", "level": "T1", "action": "抠图、透视校正并放入右下固定外接框", "reason": "保留真实结构和物件关系"},
-    {"when": "只有零散物件", "level": "T2", "action": "建立统一容器、隔层、门板、接触阴影和前后景", "reason": "形成可探索的内容系统"},
-    {"when": "主题只有抽象概念", "level": "T3", "action": "先转成行业真实物件再构建容器", "reason": "避免通用 AI 形象和无意义填充"},
-    {"when": "文字超长", "level": "copy-edit", "action": "改写到规定单行长度；做不到则换模板", "reason": "不改变四级文字骨架"}
+    {
+      "when": "已有开放容器",
+      "level": "T1",
+      "action": "抠图、透视校正并放入右下固定外接框",
+      "reason": "保留真实结构和物件关系"
+    },
+    {
+      "when": "只有零散物件",
+      "level": "T2",
+      "action": "建立统一容器、隔层、门板、接触阴影和前后景",
+      "reason": "形成可探索的内容系统"
+    },
+    {
+      "when": "主题只有抽象概念",
+      "level": "T3",
+      "action": "先转成行业真实物件再构建容器",
+      "reason": "避免通用 AI 形象和无意义填充"
+    },
+    {
+      "when": "文字超长",
+      "level": "copy-edit",
+      "action": "改写到规定单行长度；做不到则换模板",
+      "reason": "不改变四级文字骨架"
+    }
   ],
   "fontDependencies": [
-    {"role": "identityKicker", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
-    {"role": "englishTheme", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"},
-    {"role": "audienceQualifier", "type": "font-style-id", "id": "dalala-cover-006-monoline-tech", "required": true, "status": "testing"}
+    {
+      "role": "identityKicker",
+      "type": "font-style-id",
+      "id": "dalala-cover-006-monoline-tech",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "englishTheme",
+      "type": "font-style-id",
+      "id": "dalala-cover-006-monoline-tech",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-006-monoline-tech",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "audienceQualifier",
+      "type": "font-style-id",
+      "id": "dalala-cover-006-monoline-tech",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

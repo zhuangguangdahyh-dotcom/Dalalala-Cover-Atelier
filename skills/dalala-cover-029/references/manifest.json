@@ -3,14 +3,13 @@
   "coverSkillId": "dalala-cover-029",
   "displayName": "参考 029",
   "version": "0.2.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "2670eb00-c7b7-4142-974c-c6d0f9669b19",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-029/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-029.jpg",
-  "referenceSha256": "5d3224f059602458a0bc106d8e91e77c7b29137d5ca40be243ff975730e8b23e",
+  "referenceSha256": "d6ab4198657404ee0484c86907801a6a72bdaed9857a4e4e356b1e195af23d1f",
   "annotatedReference": null,
   "approvedTest": null,
   "supportedPlatforms": [
@@ -121,5 +120,6 @@
   "testedCases": [],
   "thumbnailQA": null,
   "userAcceptance": null,
-  "sourceLinePolicy": "原图曲线位置与形状仅作为解剖证据，不作为生产路径；保持样式、色彩角色、双段开放结构和视觉引导。"
+  "sourceLinePolicy": "原图曲线位置与形状仅作为解剖证据，不作为生产路径；保持样式、色彩角色、双段开放结构和视觉引导。",
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

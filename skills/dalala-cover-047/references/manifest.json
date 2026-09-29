@@ -3,7 +3,7 @@
   "coverSkillId": "dalala-cover-047",
   "displayName": "参考封面 047",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "../assets/reference-original.jpg",
   "referenceAnnotated": null,
   "supportedPlatforms": [
@@ -101,5 +101,8 @@
   "userAcceptance": {
     "status": "pending"
   },
-  "readingOrderRisk": "原图字位左上梦、右中现、左下造、右下场；可能意为造梦现场，空间顺读不通。新文案必须经 360 px 实测可读。"
+  "readingOrderRisk": "原图字位左上梦、右中现、左下造、右下场；可能意为造梦现场，空间顺读不通。新文案必须经 360 px 实测可读。",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

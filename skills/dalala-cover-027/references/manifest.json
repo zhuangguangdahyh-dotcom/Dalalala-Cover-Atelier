@@ -3,14 +3,13 @@
   "coverSkillId": "dalala-cover-027",
   "displayName": "参考 027",
   "version": "0.3.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "a5f90128-8172-4597-96d8-8a961f656b57",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-027/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-027.jpg",
-  "referenceSha256": "8be9343b05c412841f128dfd83cf6b35805448a0283b47f84479893995f5ca89",
+  "referenceSha256": "a2c6c883575c26a7bc059df709007a9e2078874fd07df87222ce11c7a94624b6",
   "annotatedReference": null,
   "approvedTest": null,
   "supportedPlatforms": [
@@ -148,5 +147,6 @@
       "底部必有小人"
     ],
     "gate": "两镜头无信息增量、无具体主题联系，或靠无关大物填充时不可测试或渲染"
-  }
+  },
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

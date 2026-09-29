@@ -3,28 +3,84 @@
   "coverSkillId": "dalala-cover-031",
   "displayName": "参考 031",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "f0537c50-bd48-4134-8c35-74f734b3f972",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-031/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-031.jpg",
-  "referenceSha256": "cf257cc0cae99a5bdd785df83d6058b4f1402bd845979647ddc7b2ce065d6297",
+  "referenceSha256": "832fec0579611eab51ca7bda4fa2141f96dcf90b047f2a9f9acde0a17b1df03c",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"mainTitle": "一行，约5-7个汉字当量，可含一个1-3字母强调词", "lowerLead": "一行约5-7个汉字当量和一个数字", "lowerPayoff": "一行4-6个汉字"},
-  "subjectTypes": ["可核验身份的近景真人", "真实工作或生活桌面", "同主题的实际工具/内容卡片"],
-  "contentEmotions": ["纠偏", "困惑", "拆繁为简", "日常可用"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainTitle": "一行，约5-7个汉字当量，可含一个1-3字母强调词",
+    "lowerLead": "一行约5-7个汉字当量和一个数字",
+    "lowerPayoff": "一行4-6个汉字"
+  },
+  "subjectTypes": [
+    "可核验身份的近景真人",
+    "真实工作或生活桌面",
+    "同主题的实际工具/内容卡片"
+  ],
+  "contentEmotions": [
+    "纠偏",
+    "困惑",
+    "拆繁为简",
+    "日常可用"
+  ],
   "firstFocus": "顶部近满宽黄亮字与深色硬影",
-  "spatialStructure": ["真实室内桌面铺满画幅", "顶部单行巨字", "右侧大近景真人", "围绕头部的非网格漂浮卡", "左下两级结果文字"],
-  "readingPath": ["顶部纠偏标题", "右侧人物表情", "主题卡片", "左下数量提示", "白条结果"],
-  "locked": ["3:4", "顶部标题x3-98/y4-18单行", "人物x35-100/y25-100且脸x56-91/y34-59", "卡片围绕人物且不挡脸", "左下上行x5-48/y60-68与白条x5-48/y69-76", "顶部亮字深硬影及下方白条描边的不同效果", "阅读路径和图文面积关系"],
-  "adaptive": ["人物身份、衣着和具体思考动作", "行业工作桌内容与可证实的卡片素材", "标题/数字/结果类别的准确文字", "符合角色关系的具体色值"],
-  "optional": ["左侧小人偶可换行业相关小道具", "卡片数量在4-8张内按真实素材调节", "轻度运动虚化"],
-  "forbidden": ["把主标题改两行或普通黑体", "脸被卡片挡住", "通用AI小人代替真人", "整齐九宫格或无关logo雨", "无真实桌面的纯色科技背景", "多余肢体或伪造UI", "把白条改成大CTA", "彩色卡片压过主标题"],
+  "spatialStructure": [
+    "真实室内桌面铺满画幅",
+    "顶部单行巨字",
+    "右侧大近景真人",
+    "围绕头部的非网格漂浮卡",
+    "左下两级结果文字"
+  ],
+  "readingPath": [
+    "顶部纠偏标题",
+    "右侧人物表情",
+    "主题卡片",
+    "左下数量提示",
+    "白条结果"
+  ],
+  "locked": [
+    "3:4",
+    "顶部标题x3-98/y4-18单行",
+    "人物x35-100/y25-100且脸x56-91/y34-59",
+    "卡片围绕人物且不挡脸",
+    "左下上行x5-48/y60-68与白条x5-48/y69-76",
+    "顶部亮字深硬影及下方白条描边的不同效果",
+    "阅读路径和图文面积关系"
+  ],
+  "adaptive": [
+    "人物身份、衣着和具体思考动作",
+    "行业工作桌内容与可证实的卡片素材",
+    "标题/数字/结果类别的准确文字",
+    "符合角色关系的具体色值"
+  ],
+  "optional": [
+    "左侧小人偶可换行业相关小道具",
+    "卡片数量在4-8张内按真实素材调节",
+    "轻度运动虚化"
+  ],
+  "forbidden": [
+    "把主标题改两行或普通黑体",
+    "脸被卡片挡住",
+    "通用AI小人代替真人",
+    "整齐九宫格或无关logo雨",
+    "无真实桌面的纯色科技背景",
+    "多余肢体或伪造UI",
+    "把白条改成大CTA",
+    "彩色卡片压过主标题"
+  ],
   "variableContract": {
     "person": "身份可变，右侧近景、脸部净区、面积和疑问/思考姿态不变",
     "text": "文字内容可变，三块单行、语义顺序、文字盒及重点词比例不变；过长先改写",
@@ -36,9 +92,26 @@
     "area": "标题宽92-96%画宽；人物视觉面积约43-50%；卡片总体视觉面积约10-16%；结果白条约3-5%画面",
     "signatureEffects": "主字深色硬投影、UI空间卡片柔影与景深、白条黄字黑描边，三者不可合并成同一效果"
   },
-  "assetTransformation": {"levels": ["T0身份和事实锁定", "T1空间重排", "T2景别/卡片结构改造", "T3主题场景重建"], "trigger": "缺少右侧真人近景、真实桌面或有依据的卡片时须重构；身份和事实无法保持时停用"},
-  "fontDependencies": [{"role": "topHan/topLatin/lowerLead/lowerPayoff", "type": "font-style-id", "id": "dalala-cover-031-punch-display", "required": true, "status": "testing"}],
+  "assetTransformation": {
+    "levels": [
+      "T0身份和事实锁定",
+      "T1空间重排",
+      "T2景别/卡片结构改造",
+      "T3主题场景重建"
+    ],
+    "trigger": "缺少右侧真人近景、真实桌面或有依据的卡片时须重构；身份和事实无法保持时停用"
+  },
+  "fontDependencies": [
+    {
+      "role": "topHan/topLatin/lowerLead/lowerPayoff",
+      "type": "font-style-id",
+      "id": "dalala-cover-031-punch-display",
+      "required": true,
+      "status": "testing"
+    }
+  ],
   "testsPassed": [],
   "thumbnailCheck": "pending",
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

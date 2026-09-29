@@ -3,32 +3,139 @@
   "coverSkillId": "dalala-cover-008",
   "displayName": "参考 008",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "a1300c72-e589-45f7-96db-5fef556046f4",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-008/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"topHookLines": 3, "topHookChineseEquivalentPerLine": [2, 3], "mainLine1ChineseEquivalent": [4, 6], "mainLine2ChineseEquivalent": [4, 5], "mainLineCount": 2, "aside": "one short handwritten reaction"},
-  "subjectTypes": ["single close selfie portrait holding visible evidence object"],
-  "contentEmotions": ["亲历分享", "省力", "轻快", "有具体结果的发现"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "topHookLines": 3,
+    "topHookChineseEquivalentPerLine": [
+      2,
+      3
+    ],
+    "mainLine1ChineseEquivalent": [
+      4,
+      6
+    ],
+    "mainLine2ChineseEquivalent": [
+      4,
+      5
+    ],
+    "mainLineCount": 2,
+    "aside": "one short handwritten reaction"
+  },
+  "subjectTypes": [
+    "single close selfie portrait holding visible evidence object"
+  ],
+  "contentEmotions": [
+    "亲历分享",
+    "省力",
+    "轻快",
+    "有具体结果的发现"
+  ],
   "firstFocus": "左侧眼睛与底部两行大字",
   "spatialStructure": "左大脸、右斜举近景证据、右上窄区三行、右中单行旁白、底部两行一短一长",
-  "readingPath": ["眼神", "底部结果承诺", "右上人群利益", "手持证据", "即时旁白"],
+  "readingPath": [
+    "眼神",
+    "底部结果承诺",
+    "右上人群利益",
+    "手持证据",
+    "即时旁白"
+  ],
   "imageTextRelationship": "真人亲历与手持物提供具体证据，右上定义受众和利益，底部承诺结果。",
-  "locked": ["3:4及近脸景别", "左脸右证据物的面积/透视", "右上三行与右中旁白位置", "底部两行且第二行近满宽", "眼睛与展示面保护区", "主字右下硬错位影"],
-  "adaptive": ["人物身份", "文字内容", "手持物与真实展示内容", "具体色值"],
-  "optional": ["右中旁白文字可缩短，视觉角色不可升格"],
-  "forbidden": ["伪造屏幕事实", "通用AI小人", "普通圆体静默替换", "标题改三行", "错位影做全周描边", "未经验收上架"],
-  "variableContract": {"person": "身份与穿着可换，左侧贴脸自拍位置、景别和视觉重量不变", "text": "可换原文，三行小钩子、一行旁白、底部两行一短一长的字级与面积不变", "product": "可换手机/书/工具等，必须右前景手持、面积相近且能证明标题", "palette": "色值可换，暖/中性照片大底、冷亮证据、高明度主字和小面积强调/硬影关系不变"},
-  "invariantContract": {"anatomy": "anatomy.json", "effects": ["natural selfie perspective", "credible hand-held evidence", "smooth irregular hand lettering", "hard cool-color right-down title offset"]},
-  "assetTransformations": [{"when": "同框自拍与证据已就位", "level": "T0", "action": "裁切、曝光和叠字"}, {"when": "需要腾右上干净区", "level": "T1", "action": "扩图或局部清理，保护脸和证据"}, {"when": "人物和证据分图", "level": "T2", "action": "重建同一自拍透视、握持、光线和屏幕反射"}, {"when": "无可见证据或多人合照", "level": "T3", "action": "拒用模板或补拍"}],
-  "fontDependencies": [{"role": "topHook/reactionAside", "type": "font-style-id", "id": "dalala-cover-008-casual-hand", "variant": "fine", "required": true, "status": "testing"}, {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-008-casual-hand", "variant": "display", "required": true, "status": "testing"}],
+  "locked": [
+    "3:4及近脸景别",
+    "左脸右证据物的面积/透视",
+    "右上三行与右中旁白位置",
+    "底部两行且第二行近满宽",
+    "眼睛与展示面保护区",
+    "主字右下硬错位影"
+  ],
+  "adaptive": [
+    "人物身份",
+    "文字内容",
+    "手持物与真实展示内容",
+    "具体色值"
+  ],
+  "optional": [
+    "右中旁白文字可缩短，视觉角色不可升格"
+  ],
+  "forbidden": [
+    "伪造屏幕事实",
+    "通用AI小人",
+    "普通圆体静默替换",
+    "标题改三行",
+    "错位影做全周描边",
+    "未经验收上架"
+  ],
+  "variableContract": {
+    "person": "身份与穿着可换，左侧贴脸自拍位置、景别和视觉重量不变",
+    "text": "可换原文，三行小钩子、一行旁白、底部两行一短一长的字级与面积不变",
+    "product": "可换手机/书/工具等，必须右前景手持、面积相近且能证明标题",
+    "palette": "色值可换，暖/中性照片大底、冷亮证据、高明度主字和小面积强调/硬影关系不变"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "effects": [
+      "natural selfie perspective",
+      "credible hand-held evidence",
+      "smooth irregular hand lettering",
+      "hard cool-color right-down title offset"
+    ]
+  },
+  "assetTransformations": [
+    {
+      "when": "同框自拍与证据已就位",
+      "level": "T0",
+      "action": "裁切、曝光和叠字"
+    },
+    {
+      "when": "需要腾右上干净区",
+      "level": "T1",
+      "action": "扩图或局部清理，保护脸和证据"
+    },
+    {
+      "when": "人物和证据分图",
+      "level": "T2",
+      "action": "重建同一自拍透视、握持、光线和屏幕反射"
+    },
+    {
+      "when": "无可见证据或多人合照",
+      "level": "T3",
+      "action": "拒用模板或补拍"
+    }
+  ],
+  "fontDependencies": [
+    {
+      "role": "topHook/reactionAside",
+      "type": "font-style-id",
+      "id": "dalala-cover-008-casual-hand",
+      "variant": "fine",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-008-casual-hand",
+      "variant": "display",
+      "required": true,
+      "status": "testing"
+    }
+  ],
   "passedTests": [],
   "thumbnailChecks": [],
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

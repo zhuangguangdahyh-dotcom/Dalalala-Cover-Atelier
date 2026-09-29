@@ -3,38 +3,141 @@
   "coverSkillId": "dalala-cover-028",
   "displayName": "参考 028",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "ad78c86e-b5e1-4c16-8497-548089ba7aa4",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-028/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-028.jpg",
-  "referenceSha256": "e1557294dd661f6ea6c919854f08a62bd6a673cb5972c6e4052499ff033986a1",
+  "referenceSha256": "21a0f9e394c05253fefdcb41e2c843bd1cd7e4cf9a6e8d713302860a799f45ab",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"masthead": "推荐2字中文+3–5字母；单行", "mainTitle": "推荐2–4个汉字；单行", "subtitle": "推荐8–11个汉字；单行"},
-  "subjectTypes": ["照片内向右行动的可辨主体", "同一真实主题的中远景环境", "局部深色低信息文字区"],
-  "contentEmotions": ["实地见闻", "移动中的抵达", "目的地记录", "现场探索"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "masthead": "推荐2字中文+3–5字母；单行",
+    "mainTitle": "推荐2–4个汉字；单行",
+    "subtitle": "推荐8–11个汉字；单行"
+  },
+  "subjectTypes": [
+    "照片内向右行动的可辨主体",
+    "同一真实主题的中远景环境",
+    "局部深色低信息文字区"
+  ],
+  "contentEmotions": [
+    "实地见闻",
+    "移动中的抵达",
+    "目的地记录",
+    "现场探索"
+  ],
   "firstFocus": "顶部巨大黑色栏目字与照片中央偏下白色右倾主题字",
-  "spatialStructure": ["窄纸框与孔/虚线", "上部单行大黑题头", "下部占约67%画布的硬矩形实拍", "照片内行动主体在上、主题字及细说明在下"],
-  "readingPath": ["顶部题头", "虚线", "照片内行动主体", "白色主题字", "细白说明", "下方暗景"],
+  "spatialStructure": [
+    "窄纸框与孔/虚线",
+    "上部单行大黑题头",
+    "下部占约67%画布的硬矩形实拍",
+    "照片内行动主体在上、主题字及细说明在下"
+  ],
+  "readingPath": [
+    "顶部题头",
+    "虚线",
+    "照片内行动主体",
+    "白色主题字",
+    "细白说明",
+    "下方暗景"
+  ],
   "imageTextRelationship": "照片内文字压在中央偏下暗雾区，不挡行动主体和场景事实；题头留在纸框上",
-  "locked": ["3:4 票根纸框与窄边", "顶部黑色单行巨大题头", "顶部裁孔、左右切口与浅虚线", "x3–97%、y26.5–97.5%硬矩形单幅照片", "照片内行动主体与中远景关系", "中央偏下白色斜粗主题字和其下细字", "明纸/黑题头/暗景/亮字明度关系"],
-  "adaptive": ["行业、账号身份和主题", "行动主体身份、动作细节、真实场所", "文字内容及可核实事实", "具体色值和局部真实光线", "约2%范围内同透视裁切和控光"],
-  "optional": ["轻胶片颗粒", "极轻照片暗角", "场景中真实存在的雾气/蒸汽"],
-  "forbidden": ["两行顶栏或扩张文字区", "圆角/倾斜相框/多图拼贴", "主体出照片越框或缩成图标", "无关AI小人", "大面积黑蒙版和长投影", "未经核实的地点与事实说明", "新增价格/二维码/强CTA", "未验收即active"],
-  "variableContract": {"person": "人物/动物/行动主体可换身份，但保留照片内中上位置、向右动线和中远景比例。", "text": "语义内容可换，三处仍各单行并服从原盒、字重和层级。", "product": "交通物/工具/产品可换为行业行动主体，保留约同景别、方向及与环境的因果。", "palette": "具体色值可变，明纸/重黑题头/暗景/亮字的面积与明度结构不变。"},
-  "invariantContract": {"anatomy": "anatomy.json", "ratios": ["照片约65–69%画布面积", "顶栏约86%画宽及16%画高", "主题字约37%画宽及9%画高", "副标题约44%画宽及6%画高"], "effects": ["低对比纸纹与孔/虚线", "单幅实拍的近中远景", "白色右倾粗字短灰侧面", "细白字无显著阴影"]},
-  "assetTransformation": {"level": "T0真实裁切优先；T1同场景裁切/扩图/重排；T2仅照片内部局部分离和修复", "triggers": ["行动主体位置偏移时同透视重排", "字区过亮时局部柔和压暗", "主体轮廓不清时照片内部局部分离", "主题或事实不连贯时停用"]},
+  "locked": [
+    "3:4 票根纸框与窄边",
+    "顶部黑色单行巨大题头",
+    "顶部裁孔、左右切口与浅虚线",
+    "x3–97%、y26.5–97.5%硬矩形单幅照片",
+    "照片内行动主体与中远景关系",
+    "中央偏下白色斜粗主题字和其下细字",
+    "明纸/黑题头/暗景/亮字明度关系"
+  ],
+  "adaptive": [
+    "行业、账号身份和主题",
+    "行动主体身份、动作细节、真实场所",
+    "文字内容及可核实事实",
+    "具体色值和局部真实光线",
+    "约2%范围内同透视裁切和控光"
+  ],
+  "optional": [
+    "轻胶片颗粒",
+    "极轻照片暗角",
+    "场景中真实存在的雾气/蒸汽"
+  ],
+  "forbidden": [
+    "两行顶栏或扩张文字区",
+    "圆角/倾斜相框/多图拼贴",
+    "主体出照片越框或缩成图标",
+    "无关AI小人",
+    "大面积黑蒙版和长投影",
+    "未经核实的地点与事实说明",
+    "新增价格/二维码/强CTA",
+    "未验收即active"
+  ],
+  "variableContract": {
+    "person": "人物/动物/行动主体可换身份，但保留照片内中上位置、向右动线和中远景比例。",
+    "text": "语义内容可换，三处仍各单行并服从原盒、字重和层级。",
+    "product": "交通物/工具/产品可换为行业行动主体，保留约同景别、方向及与环境的因果。",
+    "palette": "具体色值可变，明纸/重黑题头/暗景/亮字的面积与明度结构不变。"
+  },
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "ratios": [
+      "照片约65–69%画布面积",
+      "顶栏约86%画宽及16%画高",
+      "主题字约37%画宽及9%画高",
+      "副标题约44%画宽及6%画高"
+    ],
+    "effects": [
+      "低对比纸纹与孔/虚线",
+      "单幅实拍的近中远景",
+      "白色右倾粗字短灰侧面",
+      "细白字无显著阴影"
+    ]
+  },
+  "assetTransformation": {
+    "level": "T0真实裁切优先；T1同场景裁切/扩图/重排；T2仅照片内部局部分离和修复",
+    "triggers": [
+      "行动主体位置偏移时同透视重排",
+      "字区过亮时局部柔和压暗",
+      "主体轮廓不清时照片内部局部分离",
+      "主题或事实不连贯时停用"
+    ]
+  },
   "fontDependencies": [
-    {"role": "mastheadHanLatin", "type": "font-style-id", "id": "dalala-cover-028-ticket-masthead", "required": true, "status": "testing"},
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-028-oblique-place", "required": true, "status": "testing"},
-    {"role": "subtitle", "type": "font-style-id", "id": "dalala-cover-028-fine-caption", "required": true, "status": "testing"}
+    {
+      "role": "mastheadHanLatin",
+      "type": "font-style-id",
+      "id": "dalala-cover-028-ticket-masthead",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-028-oblique-place",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-028-fine-caption",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "testedCases": [],
   "thumbnailQA": null,
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

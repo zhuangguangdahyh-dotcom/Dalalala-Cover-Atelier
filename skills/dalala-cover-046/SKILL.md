@@ -2,6 +2,8 @@
 name: dalala-cover-046
 description: 将单张参考 046 的双行巨字、嵌入数字亮框和人物操作现场转译到有数量成果的真实内容。当前为 studied，测试与用户验收前不得生产上架。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 046｜调用规则
 

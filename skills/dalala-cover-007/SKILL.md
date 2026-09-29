@@ -2,6 +2,8 @@
 name: dalala-cover-007
 description: 参考 007 的 3:4 暗场异常现象封面：左上双行厚重标题、右中反应主体、左前景操作与右下越界圆形证据特写。当前仅 studied，供拆解确认及后续复刻测试，不得正式生产或推荐。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 007 Cover Skill
 

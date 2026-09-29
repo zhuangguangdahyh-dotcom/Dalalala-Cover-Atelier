@@ -3,27 +3,70 @@
   "coverSkillId": "dalala-cover-048",
   "displayName": "参考封面 048",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "373a74dc-e641-4206-9d37-df95117f52f8",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-048/references/adaptation-rules.md",
   "referenceOriginal": "../assets/reference-original.jpg",
   "referenceAnnotated": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
   "sourceRatio": "3:4",
   "verifiedRatios": [],
   "headlineLength": "单行 3–6 个短大写拉丁字符，或视觉宽度相当的 2–4 个汉字；超过先改写",
-  "subjectTypes": ["同一人物多场景生活记录", "有明确行动与地点的体验过程", "可辨表情的宠物或人物记录"],
-  "contentMoods": ["兴奋", "亲历", "轻松", "多事件回顾"],
+  "subjectTypes": [
+    "同一人物多场景生活记录",
+    "有明确行动与地点的体验过程",
+    "可辨表情的宠物或人物记录"
+  ],
+  "contentMoods": [
+    "兴奋",
+    "亲历",
+    "轻松",
+    "多事件回顾"
+  ],
   "firstVisualFocus": "右侧大近景张口笑脸和餐盘，随后左中巨大白字黑边类型词",
   "spatialSkeleton": "左上行动、左下第二时刻、上中环境、右上小场景；右侧大近景盖过拼贴；一行标题跨左侧横向换景线",
-  "readingPath": ["右侧大脸与食物", "左中类型词", "左上动作", "上中环境与右上小场景", "左下另一个时刻", "折回大主角"],
+  "readingPath": [
+    "右侧大脸与食物",
+    "左中类型词",
+    "左上动作",
+    "上中环境与右上小场景",
+    "左下另一个时刻",
+    "折回大主角"
+  ],
   "imageTextRelationship": "标题以粗黑边跨越左侧上下照片明暗边界，类型词串联多个真实经历；字不进入大主角脸区",
-  "locked": ["3:4 非均分拼贴", "左侧上下两个故事片段及上中、右上小场景", "右侧巨大近景情绪主角", "跨左侧换景线的一行厚白字黑边", "主角周围少量白色放射短线", "多时刻真实证据"],
-  "adaptive": ["主角身份及服装", "行业动作、地点与道具", "短标题词", "具体色值", "小图标语义"],
-  "optional": ["一枚贴标题上缘的小图标"],
-  "forbidden": ["平均四宫格", "同图重复裁切冒充多时刻", "右侧主角降成小远景", "标题移到顶端或加第二行", "普通无轮廓字体替代", "白线遮脸或食物", "无事实关系的图片拼凑", "未验收标记 active"],
+  "locked": [
+    "3:4 非均分拼贴",
+    "左侧上下两个故事片段及上中、右上小场景",
+    "右侧巨大近景情绪主角",
+    "跨左侧换景线的一行厚白字黑边",
+    "主角周围少量白色放射短线",
+    "多时刻真实证据"
+  ],
+  "adaptive": [
+    "主角身份及服装",
+    "行业动作、地点与道具",
+    "短标题词",
+    "具体色值",
+    "小图标语义"
+  ],
+  "optional": [
+    "一枚贴标题上缘的小图标"
+  ],
+  "forbidden": [
+    "平均四宫格",
+    "同图重复裁切冒充多时刻",
+    "右侧主角降成小远景",
+    "标题移到顶端或加第二行",
+    "普通无轮廓字体替代",
+    "白线遮脸或食物",
+    "无事实关系的图片拼凑",
+    "未验收标记 active"
+  ],
   "variableContract": {
     "people": "身份可变；右侧近景约 x39–100/y32–100，左下较小人物或成果约 x0–50/y50–100，景别体量差保持",
     "text": "内容可变；一行短词约 x5–52/y41–52，跨左侧照片边界，过长先改写",
@@ -34,15 +77,34 @@
     "anatomy": "anatomy.json",
     "layout": "x≈50% 竖接缝，左半 y≈50% 横接缝；右侧大人物盖过中下结构；单行标题跨左侧横接缝",
     "contentArea": "冷或低饱和场景约 55–70%；亮照片区约 15–25%；暖肤色道具约 8–15%；黑白字线约 5–9%；各可见角色框按 anatomy 复核",
-    "specialEffects": ["直边照片拼接", "大近景干净抠图及自然光影", "白实字黑厚硬边", "围绕主角约 8–16 段白色不规则短线"]
+    "specialEffects": [
+      "直边照片拼接",
+      "大近景干净抠图及自然光影",
+      "白实字黑厚硬边",
+      "围绕主角约 8–16 段白色不规则短线"
+    ]
   },
-  "assetTransformation": {"defaultLevel": "T1/T2", "triggers": ["多图需重裁并统一观看色温时 T1", "主角需从照片中分离并跨接缝占右半时 T2", "缺少真实多场景、明确行动或可用近景时停止"]},
+  "assetTransformation": {
+    "defaultLevel": "T1/T2",
+    "triggers": [
+      "多图需重裁并统一观看色温时 T1",
+      "主角需从照片中分离并跨接缝占右半时 T2",
+      "缺少真实多场景、明确行动或可用近景时停止"
+    ]
+  },
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-048-vlog-outline", "required": true, "status": "testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-048-vlog-outline",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "font-registry-entries.json",
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

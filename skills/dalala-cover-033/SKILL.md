@@ -2,6 +2,8 @@
 name: dalala-cover-033
 description: 拆解和受控复刻参考 033；两字横块、右侧竖句、人物承托超尺度发光长物。当前 studied，待拆解确认，不用于自动推荐。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 033
 先读取 references/manifest.json、references/anatomy.json、references/adaptation-rules.md、references/qa.md 和 analysis.md，查看 assets/reference-original.jpg。依据 manifest 的字体依赖读取独立 Font Skill。不要把 033 映射为 layout-033。

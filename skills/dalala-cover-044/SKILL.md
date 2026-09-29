@@ -2,6 +2,8 @@
 name: dalala-cover-044
 description: Rebuilds reference 044's two-step display title over a full-bleed city lifestyle photograph, with a standing narrator in front of a wide horizontal subject.
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # dalala-cover-044（拆解完成，待复刻测试）
 

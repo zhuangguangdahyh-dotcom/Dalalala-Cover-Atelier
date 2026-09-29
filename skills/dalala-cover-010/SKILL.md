@@ -2,6 +2,8 @@
 name: dalala-cover-010
 description: 参考 010 的 3:4 低彩户外摄影、上半幅双字锋利飞白、下半幅背向单主体与右伸主题物、极小暖色英文译注的独立 Cover Skill。当前 studied，仅供拆解确认与受控测试，不得自动推荐或生产。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 010 Cover Skill
 

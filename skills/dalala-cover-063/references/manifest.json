@@ -3,26 +3,92 @@
   "coverSkillId": "dalala-cover-063",
   "displayName": "参考封面 063（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "6b2a7790524f1bd3456958b1200639f8aae6f569448f3fe611c635ee001b040b",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"topicChineseEquivalent": [2, 4], "questionChineseEquivalent": [9, 12], "questionLines": 2, "perLineChineseEquivalent": [5, 6]},
-  "subjectTypes": ["one right-edge upward-facing illustrated person interacting with a top-entering subject object", "lower ensemble of 3-5 topic-related people or recognizable object clusters sharing a setting"],
-  "contentMoods": ["provocative inquiry", "cultural or social observation", "desire and choice", "collective behavior", "editorial illustration"],
+  "sourceSha256": "9da9d49f562821f47536a98182a815fd601bda9075775db26289bba32fe44f4f",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "topicChineseEquivalent": [
+      2,
+      4
+    ],
+    "questionChineseEquivalent": [
+      9,
+      12
+    ],
+    "questionLines": 2,
+    "perLineChineseEquivalent": [
+      5,
+      6
+    ]
+  },
+  "subjectTypes": [
+    "one right-edge upward-facing illustrated person interacting with a top-entering subject object",
+    "lower ensemble of 3-5 topic-related people or recognizable object clusters sharing a setting"
+  ],
+  "contentMoods": [
+    "provocative inquiry",
+    "cultural or social observation",
+    "desire and choice",
+    "collective behavior",
+    "editorial illustration"
+  ],
   "firstVisualFocus": "large cream high-contrast deco-cut Chinese topic and two-line question on middle-dark warm ground",
   "spatialSkeleton": "upper-left two-scale title, upper-right hand/object and tilted face, lower full-width ensemble, textured middle-dark ground, near-black silhouettes and muted pale disk",
-  "readingPath": ["upper-left topic", "two-line question", "upper-right hand and object", "tilted main face", "small source line", "lower horizontal ensemble"],
+  "readingPath": [
+    "upper-left topic",
+    "two-line question",
+    "upper-right hand and object",
+    "tilted main face",
+    "small source line",
+    "lower horizontal ensemble"
+  ],
   "imageTextRelationship": "the title poses an abstract question, the object-person action visualizes it, and the lower ensemble broadens it into a shared scene",
-  "locked": ["3:4 vertical layout", "topic x3-69 y3-19 and question x4-62 y21-39", "right-bleeding upward-facing figure x44-100 y2-79", "top-entering object visually linked to face", "lower ensemble y64-100 and bottom bleed", "two title tiers plus small source line", "vintage illustration and near-black/middle-dark/light area hierarchy", "title-first then action then ensemble reading path"],
-  "adaptive": ["topic wording and source line", "subject identity and clothing while preserving posture and spatial mass", "object semantics and ensemble roles", "specific hues preserving lightness and area hierarchy", "circle and environmental motifs matched to the new context"],
-  "optional": ["one falling or moving micro-object along the action line", "thin editorial rule above source line", "edge architecture when it clarifies depth"],
-  "forbidden": ["third question line", "ordinary Song or bold sans fallback", "front-facing static head", "unrelated floating object", "disconnected thumbnails or repeated heads at bottom", "copying recognizable source animation characters", "photorealistic person pasted into flat illustration", "large explanatory body copy in the breathing area", "glow, bevel or thick headline outline", "marking active without testing and acceptance"],
+  "locked": [
+    "3:4 vertical layout",
+    "topic x3-69 y3-19 and question x4-62 y21-39",
+    "right-bleeding upward-facing figure x44-100 y2-79",
+    "top-entering object visually linked to face",
+    "lower ensemble y64-100 and bottom bleed",
+    "two title tiers plus small source line",
+    "vintage illustration and near-black/middle-dark/light area hierarchy",
+    "title-first then action then ensemble reading path"
+  ],
+  "adaptive": [
+    "topic wording and source line",
+    "subject identity and clothing while preserving posture and spatial mass",
+    "object semantics and ensemble roles",
+    "specific hues preserving lightness and area hierarchy",
+    "circle and environmental motifs matched to the new context"
+  ],
+  "optional": [
+    "one falling or moving micro-object along the action line",
+    "thin editorial rule above source line",
+    "edge architecture when it clarifies depth"
+  ],
+  "forbidden": [
+    "third question line",
+    "ordinary Song or bold sans fallback",
+    "front-facing static head",
+    "unrelated floating object",
+    "disconnected thumbnails or repeated heads at bottom",
+    "copying recognizable source animation characters",
+    "photorealistic person pasted into flat illustration",
+    "large explanatory body copy in the breathing area",
+    "glow, bevel or thick headline outline",
+    "marking active without testing and acceptance"
+  ],
   "variableContract": {
     "person": "identity, costume and industry may change; preserve right bleed, upward-facing head, near-black framing and interaction with top object",
     "text": "replace topic, two-line question and short source text; preserve hierarchy, line count, compact tracking and locked zones; rewrite overlong copy",
@@ -35,19 +101,55 @@
     "specialEffects": "high-contrast deco-cut Song lettering with paired diagonal bracket marks and dot colon; limited-color vintage illustration, black linework, subtly distressed ground and light disk, bottom bleed"
   },
   "materialTransformation": [
-    {"level": "required", "action": "compose or redraw a unified right-side upward-facing figure, top-entering object, and lower shared scene", "trigger": "every new subject set"},
-    {"level": "required", "action": "generate and proofread separate transparent title and source layers using the bound test font skill", "trigger": "every wording change"},
-    {"level": "conditional", "action": "identity-preserving re-pose or reshoot", "trigger": "source is front-facing, downward-facing or cannot visually interact with the object"},
-    {"level": "conditional", "action": "rebuild background and illustration texture", "trigger": "source is photoreal, crowded behind headline or lacks consistent foreground/midground/background"}
+    {
+      "level": "required",
+      "action": "compose or redraw a unified right-side upward-facing figure, top-entering object, and lower shared scene",
+      "trigger": "every new subject set"
+    },
+    {
+      "level": "required",
+      "action": "generate and proofread separate transparent title and source layers using the bound test font skill",
+      "trigger": "every wording change"
+    },
+    {
+      "level": "conditional",
+      "action": "identity-preserving re-pose or reshoot",
+      "trigger": "source is front-facing, downward-facing or cannot visually interact with the object"
+    },
+    {
+      "level": "conditional",
+      "action": "rebuild background and illustration texture",
+      "trigger": "source is photoreal, crowded behind headline or lacks consistent foreground/midground/background"
+    }
   ],
   "fontDependencies": [
-    {"role": "topic", "type": "font-style-id", "id": "dalala-cover-063-deco-cut-song", "required": true, "status": "testing"},
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-063-deco-cut-song", "required": true, "status": "testing"},
-    {"role": "sourceLine", "type": "font-style-id", "id": "dalala-cover-063-deco-cut-song", "required": true, "status": "testing"}
+    {
+      "role": "topic",
+      "type": "font-style-id",
+      "id": "dalala-cover-063-deco-cut-song",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-063-deco-cut-song",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "sourceLine",
+      "type": "font-style-id",
+      "id": "dalala-cover-063-deco-cut-song",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "references/font-registry-entries.json",
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

@@ -3,28 +3,72 @@
   "coverSkillId": "dalala-cover-050",
   "displayName": "参考封面 050",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "c9047ca2-67c6-43a7-aedb-4e7444c9b842",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-050/references/adaptation-rules.md",
   "referenceOriginal": "../assets/reference-original.jpg",
   "referenceAnnotated": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
   "sourceRatio": "3:4",
   "verifiedRatios": [],
   "plannedRatioVariants": [],
-  "titleLength": { "hanCharacters": 4, "structure": "two top corner glyphs plus two bottom corner glyphs", "overflowAction": "rewrite" },
-  "subjectTypes": ["单人坐姿或近中景肖像", "具有可辨表情和真实身份的专家或主理人"],
-  "contentEmotions": ["追问", "克制", "温暖", "人物观点"],
+  "titleLength": {
+    "hanCharacters": 4,
+    "structure": "two top corner glyphs plus two bottom corner glyphs",
+    "overflowAction": "rewrite"
+  },
+  "subjectTypes": [
+    "单人坐姿或近中景肖像",
+    "具有可辨表情和真实身份的专家或主理人"
+  ],
+  "contentEmotions": [
+    "追问",
+    "克制",
+    "温暖",
+    "人物观点"
+  ],
   "firstVisualFocus": "四角超大浅色四字命题与中心暖光人脸",
   "spatialSkeleton": "3:4 暖暗单人肖像；四角各一字围住中央脸；下排贴底并置于下部人物/座椅之前；中央底部微型自有署名可选",
-  "readingPath": ["左上字", "右上字", "左下字", "右下字", "中心人物脸与目光", "可选底部署名"],
+  "readingPath": [
+    "左上字",
+    "右上字",
+    "左下字",
+    "右下字",
+    "中心人物脸与目光",
+    "可选底部署名"
+  ],
   "imageTextRelationship": "四字围绕但不遮面，肖像是命题的发言者；下排文字近边裁切并与人物下部形成前景叠压",
-  "locked": ["四字四角及其面积", "中央近景单人和露脸范围", "下排贴底与前景叠压", "暗大底/亮字/暖肤/深衣的明度面积关系", "无描边高反差宋骨字"],
-  "adaptive": ["人物身份与衣服", "完整四字主题", "具体暖暗背景与配色", "低权重行业小物"],
-  "optional": ["当前账号自有细线署名", "小面积真实胸针或行业线索"],
-  "forbidden": ["超长标题扩张字区", "移除四角字框", "遮盖眼鼻口", "独立大商品卡片", "普通宋体或毛笔字替换测试字体", "复制原人/原题/原署名", "未经测试和验收设 active"],
+  "locked": [
+    "四字四角及其面积",
+    "中央近景单人和露脸范围",
+    "下排贴底与前景叠压",
+    "暗大底/亮字/暖肤/深衣的明度面积关系",
+    "无描边高反差宋骨字"
+  ],
+  "adaptive": [
+    "人物身份与衣服",
+    "完整四字主题",
+    "具体暖暗背景与配色",
+    "低权重行业小物"
+  ],
+  "optional": [
+    "当前账号自有细线署名",
+    "小面积真实胸针或行业线索"
+  ],
+  "forbidden": [
+    "超长标题扩张字区",
+    "移除四角字框",
+    "遮盖眼鼻口",
+    "独立大商品卡片",
+    "普通宋体或毛笔字替换测试字体",
+    "复制原人/原题/原署名",
+    "未经测试和验收设 active"
+  ],
   "variableContract": {
     "person": "人物可变，保持中心单人近中景、头部和肩胸相对面积、自然目光与无遮挡表情",
     "text": "四字内容可变，保持每角一字、上下各两字、单字尺寸与外缘阅读顺序；长题先改写",
@@ -35,20 +79,44 @@
     "anatomy": "anatomy.json",
     "layout": "四角单字框各约宽 22–26%/高 22–25%；头部约 x29–72/y10–46；肩胸约 x6–91/y45–100；脸无字遮挡",
     "contentArea": "可见环境约 55–70%；深衣约 20–35%；肤色约 10–18%；亮字笔画约 8–13%；微亮物约 1–3%，区域互有遮挡",
-    "specialEffects": ["四角超尺度独立字", "下排字贴底轻裁与人物/座椅前景关系", "暖光真实人像", "无描边阴影的浅色宋骨字"]
+    "specialEffects": [
+      "四角超尺度独立字",
+      "下排字贴底轻裁与人物/座椅前景关系",
+      "暖光真实人像",
+      "无描边阴影的浅色宋骨字"
+    ]
   },
   "assetTransformation": [
-    { "when": "肖像清晰但景别和位置不符", "level": "T1", "action": "重裁并净场" },
-    { "when": "四角背景不够或有杂物", "level": "T2", "action": "保持身份锚点，扩背景与必要人物分层" },
-    { "when": "多人、遮脸、姿态或光线不适配", "level": "T3", "action": "补拍或锁定身份重建" }
+    {
+      "when": "肖像清晰但景别和位置不符",
+      "level": "T1",
+      "action": "重裁并净场"
+    },
+    {
+      "when": "四角背景不够或有杂物",
+      "level": "T2",
+      "action": "保持身份锚点，扩背景与必要人物分层"
+    },
+    {
+      "when": "多人、遮脸、姿态或光线不适配",
+      "level": "T3",
+      "action": "补拍或锁定身份重建"
+    }
   ],
   "fontDependencies": [
-    { "role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-050-four-corner-song", "required": true, "status": "testing" }
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-050-four-corner-song",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "bottomSignatureTreatment": "可选自有图形/文字标记；目前无统一字体依赖，缺可靠标记时省略；严禁复制源图标记",
   "fontRegistryEntries": "font-registry-entries.json",
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

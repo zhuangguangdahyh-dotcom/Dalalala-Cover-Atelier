@@ -2,6 +2,8 @@
 name: dalala-cover-011
 description: 参考 011 的拉链近景开口、人物双手前探、双组斜排厚块红字与右侧小注的 3:4 独立 Cover Skill。当前 studied，供拆解确认与后续受控复刻测试，不供前台自动推荐。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 011 Cover Skill
 

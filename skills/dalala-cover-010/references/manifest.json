@@ -3,45 +3,145 @@
   "coverSkillId": "dalala-cover-010",
   "displayName": "参考 010",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "fb1f3ff1-b039-41cb-937e-5f0d7cb7b592",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-010/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"mainChinesePreferred": 2, "mainRows": 1, "latinNote": "1 short word or compact transliteration"},
-  "subjectTypes": ["single back or three-quarter back person with identifiable theme object and rightward extension in real environment"],
-  "contentEmotions": ["史诗感", "人物身份", "文化悬念", "户外纪实"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainChinesePreferred": 2,
+    "mainRows": 1,
+    "latinNote": "1 short word or compact transliteration"
+  },
+  "subjectTypes": [
+    "single back or three-quarter back person with identifiable theme object and rightward extension in real environment"
+  ],
+  "contentEmotions": [
+    "史诗感",
+    "人物身份",
+    "文化悬念",
+    "户外纪实"
+  ],
   "firstFocus": "天空中近白色巨幅两字",
   "spatialStructure": "上部宽展飞白双字、中下部背向人物及向右物件、底部失焦地景",
-  "readingPath": ["白色两字", "人物头肩与圆形物件", "右伸束状道具", "小号英文译注", "远山和草坡"],
+  "readingPath": [
+    "白色两字",
+    "人物头肩与圆形物件",
+    "右伸束状道具",
+    "小号英文译注",
+    "远山和草坡"
+  ],
   "imageTextRelationship": "标题给身份，真实人物与道具给证据，宽阔低彩天空给予标题尺度和呼吸。",
-  "locked": ["3:4", "上半幅横展两字锋利飞白", "中下部单一背/侧背主体", "头肩主题物与右向视觉延伸", "低彩实景及底部失焦", "极小暖色英文译注", "上浅下深的明度结构"],
-  "adaptive": ["人物身份服装", "两个汉字的主题词及对应短译注", "道具品类", "真实地点", "具体配色"],
-  "optional": ["英文译注可用简短罗马字主题词，仍保持极小面积"],
-  "forbidden": ["与主题无关的神秘道具", "通用 AI 小人", "普通书法字体叠统一噪点", "人物正脸大特写", "主标题多行", "高彩促销色", "额外贴纸", "未确认上架"],
+  "locked": [
+    "3:4",
+    "上半幅横展两字锋利飞白",
+    "中下部单一背/侧背主体",
+    "头肩主题物与右向视觉延伸",
+    "低彩实景及底部失焦",
+    "极小暖色英文译注",
+    "上浅下深的明度结构"
+  ],
+  "adaptive": [
+    "人物身份服装",
+    "两个汉字的主题词及对应短译注",
+    "道具品类",
+    "真实地点",
+    "具体配色"
+  ],
+  "optional": [
+    "英文译注可用简短罗马字主题词，仍保持极小面积"
+  ],
+  "forbidden": [
+    "与主题无关的神秘道具",
+    "通用 AI 小人",
+    "普通书法字体叠统一噪点",
+    "人物正脸大特写",
+    "主标题多行",
+    "高彩促销色",
+    "额外贴纸",
+    "未确认上架"
+  ],
   "variableContract": {
     "person": "身份和服装可变，单主体背/侧背中远景、位置、面积与物件关系不变",
     "text": "字面可变，主标题双字巨幅横展与极小单行英文译注不变；过长先改写",
     "product": "品类可变，需在头肩附近被识别并形成向右延展的次轴，不伪造产品结构",
     "palette": "色值可变，低彩中间调照片、高明度字、深色主体和极小暖色强调的面积及对比不变"
   },
-  "invariantContract": {"anatomy": "anatomy.json", "mainTitleBoxWidthPercent": [82,90], "mainTitleBoxHeightPercent": [36,43], "subjectAndPropBoxWidthPercent": [65,75], "subjectAndPropBoxHeightPercent": [44,50], "effects": ["intrinsic sharp dry-brush edges", "real landscape depth", "natural foreground blur", "rightward object extension"]},
+  "invariantContract": {
+    "anatomy": "anatomy.json",
+    "mainTitleBoxWidthPercent": [
+      82,
+      90
+    ],
+    "mainTitleBoxHeightPercent": [
+      36,
+      43
+    ],
+    "subjectAndPropBoxWidthPercent": [
+      65,
+      75
+    ],
+    "subjectAndPropBoxHeightPercent": [
+      44,
+      50
+    ],
+    "effects": [
+      "intrinsic sharp dry-brush edges",
+      "real landscape depth",
+      "natural foreground blur",
+      "rightward object extension"
+    ]
+  },
   "assetTransformations": [
-    {"when": "连续实景符合留白和人物关系", "level": "T0", "action": "裁切、调色、透明字层"},
-    {"when": "天空太杂或位置略偏", "level": "T1", "action": "局部清理或扩充天空，保留实景和光向"},
-    {"when": "人物道具环境分图但能统一透视", "level": "T2", "action": "精细蒙版重组，补接触影、光向和景深"},
-    {"when": "缺单一主体、主题物或低杂讯上部空间", "level": "T3", "action": "补拍或拒用本模板"}
+    {
+      "when": "连续实景符合留白和人物关系",
+      "level": "T0",
+      "action": "裁切、调色、透明字层"
+    },
+    {
+      "when": "天空太杂或位置略偏",
+      "level": "T1",
+      "action": "局部清理或扩充天空，保留实景和光向"
+    },
+    {
+      "when": "人物道具环境分图但能统一透视",
+      "level": "T2",
+      "action": "精细蒙版重组，补接触影、光向和景深"
+    },
+    {
+      "when": "缺单一主体、主题物或低杂讯上部空间",
+      "level": "T3",
+      "action": "补拍或拒用本模板"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-010-ritual-brush", "required": true, "status": "testing"},
-    {"role": "latinNote", "type": "font-style-id", "id": "dalala-cover-010-italic-note", "required": true, "status": "testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-010-ritual-brush",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "latinNote",
+      "type": "font-style-id",
+      "id": "dalala-cover-010-italic-note",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

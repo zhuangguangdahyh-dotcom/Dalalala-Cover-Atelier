@@ -3,14 +3,13 @@
   "coverSkillId": "dalala-cover-018",
   "displayName": "参考 018",
   "version": "0.2.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "a408755f-3aaa-4089-b320-f5821353d123",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-018/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-018.jpg",
-  "referenceSha256": "808bf322900e88836a4c6bee8d470749ef46e2bd798398a1374f3e626540a9e7",
+  "referenceSha256": "d988cefb165d76e294974147e5f697e9052c99faae841d53c2c0305155283757",
   "annotatedReference": null,
   "approvedTest": null,
   "supportedPlatforms": [
@@ -136,5 +135,6 @@
   "secondaryReadingBranches": [
     "左右现场道具",
     "街景纵深"
-  ]
+  ],
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

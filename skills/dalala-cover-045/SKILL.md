@@ -2,6 +2,8 @@
 name: dalala-cover-045
 description: 复刻参考 045 的深色市井影像底、巨幅金色折面字与多张实拍照片嵌字结构。仅供拆解确认和测试，不可自动上架。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 045｜测试态 Cover Skill
 

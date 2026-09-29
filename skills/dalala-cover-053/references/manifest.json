@@ -3,28 +3,82 @@
   "coverSkillId": "dalala-cover-053",
   "displayName": "参考封面 053",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "b4be7857-8ca9-4df6-81da-c9b992433598",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-053/references/adaptation-rules.md",
   "referenceOriginal": "../assets/reference-original.jpg",
   "referenceAnnotated": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
   "sourceRatio": "3:4",
   "verifiedRatios": [],
   "plannedRatioVariants": [],
-  "titleLength": { "latinLetters": [4, 10], "hanCharactersUnverified": [2, 4], "structure": "one short lower-left place word", "overflowAction": "rewrite" },
-  "subjectTypes": ["real narrator or site visitor", "recognizable landmark or flagship object", "six real images from one place or event"],
-  "contentEmotions": ["travel memory", "documentary visit", "place discovery", "personal presence"],
+  "titleLength": {
+    "latinLetters": [
+      4,
+      10
+    ],
+    "hanCharactersUnverified": [
+      2,
+      4
+    ],
+    "structure": "one short lower-left place word",
+    "overflowAction": "rewrite"
+  },
+  "subjectTypes": [
+    "real narrator or site visitor",
+    "recognizable landmark or flagship object",
+    "six real images from one place or event"
+  ],
+  "contentEmotions": [
+    "travel memory",
+    "documentary visit",
+    "place discovery",
+    "personal presence"
+  ],
   "firstVisualFocus": "slanted tall torn landmark photograph with conspicuous paper edge, then the foreground face",
   "spatialSkeleton": "3:4 six-cell photo grid; diagonal tower-like paper strip crosses cells; wide evidence paper at left-middle; large person paper at right; one serif place word at lower-left",
-  "readingPath": ["hero landmark tip", "landmark and secondary evidence", "person face", "lower-left place word", "surrounding six photos"],
+  "readingPath": [
+    "hero landmark tip",
+    "landmark and secondary evidence",
+    "person face",
+    "lower-left place word",
+    "surrounding six photos"
+  ],
   "imageTextRelationship": "photographs prove a place or event; the one-word title identifies it after the image hook",
-  "locked": ["2x3 photo grid", "diagonal full-height hero paper strip", "left-middle wider secondary paper", "large right foreground person", "paper-edge layering", "single lower-left serif word", "right-heavy image balance"],
-  "adaptive": ["real person", "coherent site imagery", "hero landmark or product", "secondary evidence", "short theme word", "exact colors"],
-  "optional": ["small real accent already inside source photos"],
-  "forbidden": ["unrelated gallery images", "flat rectangular hero insert", "uniform digital glow outline", "person or hero object too small", "extra subtitle or long headline", "ordinary font substituted silently", "active before test and user acceptance"],
+  "locked": [
+    "2x3 photo grid",
+    "diagonal full-height hero paper strip",
+    "left-middle wider secondary paper",
+    "large right foreground person",
+    "paper-edge layering",
+    "single lower-left serif word",
+    "right-heavy image balance"
+  ],
+  "adaptive": [
+    "real person",
+    "coherent site imagery",
+    "hero landmark or product",
+    "secondary evidence",
+    "short theme word",
+    "exact colors"
+  ],
+  "optional": [
+    "small real accent already inside source photos"
+  ],
+  "forbidden": [
+    "unrelated gallery images",
+    "flat rectangular hero insert",
+    "uniform digital glow outline",
+    "person or hero object too small",
+    "extra subtitle or long headline",
+    "ordinary font substituted silently",
+    "active before test and user acceptance"
+  ],
   "variableContract": {
     "person": "replace identity while keeping the right foreground paper silhouette, clear face and comparable visible area",
     "text": "replace exact short word while preserving lower-left single-line Roman serif role, box and weight; rewrite long text",
@@ -35,19 +89,46 @@
     "anatomy": "anatomy.json",
     "layout": "2x3 grid at x50/y32/y64; hero strip roughly x34-73/y0-67; secondary strip x0-40/y37-67; person x55-92/y40-100; title x13-45/y72-85",
     "contentArea": "grid visible about 55-65%; person about 25-32%; main paper width 35-45% and vertical span 60-70%; paper band 1.5-3% of width",
-    "specialEffects": ["white torn inner band", "irregular fibrous gray-beige edge", "short subtle contact shadow", "frontmost person paper", "photographic grain and soft documentary tone"]
+    "specialEffects": [
+      "white torn inner band",
+      "irregular fibrous gray-beige edge",
+      "short subtle contact shadow",
+      "frontmost person paper",
+      "photographic grain and soft documentary tone"
+    ]
   },
   "assetTransformation": [
-    { "when": "individual grid crops miss important facts", "level": "T1", "action": "reorder and recrop cells" },
-    { "when": "hero and person need the torn collage hierarchy", "level": "T2", "action": "separate hero-with-context and person paper layers, preserving identity and geometry" },
-    { "when": "key authentic assets are absent", "level": "T3", "action": "collect or capture real assets before production" }
+    {
+      "when": "individual grid crops miss important facts",
+      "level": "T1",
+      "action": "reorder and recrop cells"
+    },
+    {
+      "when": "hero and person need the torn collage hierarchy",
+      "level": "T2",
+      "action": "separate hero-with-context and person paper layers, preserving identity and geometry"
+    },
+    {
+      "when": "key authentic assets are absent",
+      "level": "T3",
+      "action": "collect or capture real assets before production"
+    }
   ],
   "fontDependencies": [
-    { "role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-026-roman-serif", "variant": "destinationLatin", "required": true, "status": "testing", "scope": "Latin place word only" }
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-026-roman-serif",
+      "variant": "destinationLatin",
+      "required": true,
+      "status": "testing",
+      "scope": "Latin place word only"
+    }
   ],
   "fontRegistryEntries": null,
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

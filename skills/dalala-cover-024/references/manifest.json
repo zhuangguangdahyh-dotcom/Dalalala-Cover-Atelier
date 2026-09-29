@@ -3,29 +3,82 @@
   "coverSkillId": "dalala-cover-024",
   "displayName": "参考 024",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "26d6eb20-743c-4345-a0ad-1874dfc54ecd",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "analysisReport": "skills/dalala-cover-024/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "originalRegistryReference": "参考封面图/dalala-cover-ref-024.jpg",
-  "referenceSha256": "5a0198f621b6bc4e7f8e0354eea5133af585397218065044afa97d582c93f351",
+  "referenceSha256": "e641ffc9517302c26def8de4499a1eb2d6b3bd0c34cc57bc998e1ac7c7a9dcf2",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
-  "ratios": ["3:4"],
-  "titleLength": {"mainHan": "10 字优先，2／1／2／2／1／2 语义组", "englishEcho": "三行，约每行 2–4 个短英文词"},
-  "subjectTypes": ["与环境相连的深色横向大型生命或行业实物", "有两个真实小尺度参照的连续摄影"],
-  "contentEmotions": ["自然纪实", "宏观判断", "克制的命题感"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
+  "ratios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainHan": "10 字优先，2／1／2／2／1／2 语义组",
+    "englishEcho": "三行，约每行 2–4 个短英文词"
+  },
+  "subjectTypes": [
+    "与环境相连的深色横向大型生命或行业实物",
+    "有两个真实小尺度参照的连续摄影"
+  ],
+  "contentEmotions": [
+    "自然纪实",
+    "宏观判断",
+    "克制的命题感"
+  ],
   "firstFocus": "左侧纵向错落的圆厚近白10 字句",
-  "spatialStructure": ["中文 x12–57%,y13–78%", "英文 x53–88%,y35–46%", "深主体 x17–100%,y51–100%", "顶部与右上环境空场"],
-  "readingPath": ["地理", "是", "人类", "命运", "的", "初稿", "右中英文", "动物与背上两个小尺度点"],
+  "spatialStructure": [
+    "中文 x12–57%,y13–78%",
+    "英文 x53–88%,y35–46%",
+    "深主体 x17–100%,y51–100%",
+    "顶部与右上环境空场"
+  ],
+  "readingPath": [
+    "地理",
+    "是",
+    "人类",
+    "命运",
+    "的",
+    "初稿",
+    "右中英文",
+    "动物与背上两个小尺度点"
+  ],
   "imageTextRelationship": "中文字与英文均作为平面透明字层压在全幅连续野外照片上；主字下段跨中明草场与深动物体块，不靠主体抠图遮字",
-  "locked": ["3:4 连续环境摄影", "左侧约10 字的圆厚近白纵向错落", "右中三行细衬线英文", "下半深色横向主体及两个真实小尺度点", "中明环境／深主体／高明文字的面积和对比关系", "无额外卡片、贴纸、CTA 的克制照片叠字"],
-  "adaptive": ["真实人物、动物、行业主体或产品身份", "与主体有因果关系的环境", "逐字准确的主句与英文回声", "具体色值、自然光与少量环境活点"],
-  "optional": ["照片局部轻微压暗", "自然景深和颗粒微调", "不改变事实的局部背景清理"],
-  "forbidden": ["普通圆体或 017 行书静默代替主字", "标题扩张至右中或等距居中", "孤立主体悬浮贴图", "复制镜像小鸟或凭空增加手脚", "英文独立亮色条幅", "厚描边阴影与促销 CTA", "未验收即 active"],
+  "locked": [
+    "3:4 连续环境摄影",
+    "左侧约10 字的圆厚近白纵向错落",
+    "右中三行细衬线英文",
+    "下半深色横向主体及两个真实小尺度点",
+    "中明环境／深主体／高明文字的面积和对比关系",
+    "无额外卡片、贴纸、CTA 的克制照片叠字"
+  ],
+  "adaptive": [
+    "真实人物、动物、行业主体或产品身份",
+    "与主体有因果关系的环境",
+    "逐字准确的主句与英文回声",
+    "具体色值、自然光与少量环境活点"
+  ],
+  "optional": [
+    "照片局部轻微压暗",
+    "自然景深和颗粒微调",
+    "不改变事实的局部背景清理"
+  ],
+  "forbidden": [
+    "普通圆体或 017 行书静默代替主字",
+    "标题扩张至右中或等距居中",
+    "孤立主体悬浮贴图",
+    "复制镜像小鸟或凭空增加手脚",
+    "英文独立亮色条幅",
+    "厚描边阴影与促销 CTA",
+    "未验收即 active"
+  ],
   "variableContract": {
     "person": "身份与动作可变，必须保留下半深色横向主体重量、真实环境和两个小尺度参照的接触或空间关系。",
     "text": "主句和英文可变；主句优先10 字 2／1／2／2／1／2 分组，保留左侧字形面积、上下瀑布形态与右中三行英文等级。",
@@ -34,18 +87,47 @@
   },
   "invariantContract": {
     "anatomy": "anatomy.json",
-    "ratios": ["主字 x12–57%,y13–78%", "英文 x53–88%,y35–46%", "深主体面积约 25–35%", "中明环境约 55–65%", "主字可见像素约 8–12%"],
-    "effects": ["连续摄影与自然景深", "圆厚手作字的透明实色叠加", "真实深主体与两个小尺度点", "只允许克制的局部明度控制"]
+    "ratios": [
+      "主字 x12–57%,y13–78%",
+      "英文 x53–88%,y35–46%",
+      "深主体面积约 25–35%",
+      "中明环境约 55–65%",
+      "主字可见像素约 8–12%"
+    ],
+    "effects": [
+      "连续摄影与自然景深",
+      "圆厚手作字的透明实色叠加",
+      "真实深主体与两个小尺度点",
+      "只允许克制的局部明度控制"
+    ]
   },
   "assetTransformation": {
     "level": "T0 原片裁切调光优先；T1 合理扩展环境；T2 仅局部修复或可信合成；不为套版伪造事实性 T3",
-    "triggers": ["下半深色主体不足时重取景或换素材", "左侧字后过亮时局部压暗", "右中英文区拥挤时换裁切", "小尺度点不真实时重拍或换素材"]
+    "triggers": [
+      "下半深色主体不足时重取景或换素材",
+      "左侧字后过亮时局部压暗",
+      "右中英文区拥挤时换裁切",
+      "小尺度点不真实时重拍或换素材"
+    ]
   },
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-024-organic-letter", "required": true, "status": "testing"},
-    {"role": "englishEcho", "type": "font-class", "id": "high-contrast-editorial-serif", "required": true, "status": "testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-024-organic-letter",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "englishEcho",
+      "type": "font-class",
+      "id": "high-contrast-editorial-serif",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "testedCases": [],
   "thumbnailQA": null,
-  "userAcceptance": null
+  "userAcceptance": null,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

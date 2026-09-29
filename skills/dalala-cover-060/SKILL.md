@@ -2,6 +2,8 @@
 name: dalala-cover-060
 description: 按参考封面 060 的纸面蜡笔大字、左侧主题物、右侧真人和底部手稿工作台关系，规划一张 3:4 封面；当前仅供复刻测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 060｜测试态 Cover Skill
 

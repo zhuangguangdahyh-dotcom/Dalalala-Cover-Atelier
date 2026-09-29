@@ -3,28 +3,90 @@
   "coverSkillId": "dalala-cover-038",
   "displayName": "参考 038",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "20bcb27a-e30e-434e-87e1-f0031d58b24f",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-038/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
   "annotatedReference": null,
   "approvedTest": null,
-  "supportedPlatforms": ["douyin", "bilibili"],
+  "supportedPlatforms": [
+    "douyin",
+    "bilibili"
+  ],
   "sourceRatio": "4:3",
   "verifiedRatios": [],
-  "plannedRatioVariants": [{"ratio": "3:4", "status": "untested", "reason": "请求比例与横版原图不同，需重排左窗/右脸/单行标题"}],
-  "titleLength": {"mainHanPreferred": 4, "mainHanTestRange": [3, 5], "leftKeywordLatin": [3, 5], "rightKeywordLatin": [5, 8]},
-  "subjectTypes": ["一位真人近景讲述者", "2–4 层可视化工具或流程证据"],
-  "contentEmotions": ["真实操作", "效率", "亲近", "清晰判断"],
+  "plannedRatioVariants": [
+    {
+      "ratio": "3:4",
+      "status": "untested",
+      "reason": "请求比例与横版原图不同，需重排左窗/右脸/单行标题"
+    }
+  ],
+  "titleLength": {
+    "mainHanPreferred": 4,
+    "mainHanTestRange": [
+      3,
+      5
+    ],
+    "leftKeywordLatin": [
+      3,
+      5
+    ],
+    "rightKeywordLatin": [
+      5,
+      8
+    ]
+  },
+  "subjectTypes": [
+    "一位真人近景讲述者",
+    "2–4 层可视化工具或流程证据"
+  ],
+  "contentEmotions": [
+    "真实操作",
+    "效率",
+    "亲近",
+    "清晰判断"
+  ],
   "firstFocus": "顶部近全宽的单行白色磨损中文命题",
-  "spatialStructure": ["4:3 横版暗色实拍底", "顶部横向大字", "右侧人物近景与左侧层叠工具窗构成三角配重", "底部左右两个短词"],
-  "readingPath": ["中文主标题", "右侧脸", "左侧前景工具窗口", "左下短词", "右下短词"],
+  "spatialStructure": [
+    "4:3 横版暗色实拍底",
+    "顶部横向大字",
+    "右侧人物近景与左侧层叠工具窗构成三角配重",
+    "底部左右两个短词"
+  ],
+  "readingPath": [
+    "中文主标题",
+    "右侧脸",
+    "左侧前景工具窗口",
+    "左下短词",
+    "右下短词"
+  ],
   "imageTextRelationship": "标题在暗背景上先说明主题，并被人物发丝局部遮挡；左窗给出操作证据；两短词分别落在左右主体下方。",
-  "locked": ["顶部单行大字的面积与位置", "右侧近景真人和左侧 2–4 层工具窗的相对面积", "发丝压字与窗口前后错层", "底部两个分置短词", "暗底/亮主字/单处小面积强调的对比结构"],
-  "adaptive": ["人物身份、服装与表情", "工具界面和内容证据", "主标题及短词文案", "背景现场与具体色值"],
-  "optional": ["真实少量屏幕反光", "低对比的可验证界面细节"],
-  "forbidden": ["横版机械裁切为 3:4", "添加不存在的副标题", "随机图标或贴纸代替工具证据", "普通字体加全局噪声冒充缺墨", "复制原图人物/软件品牌", "未验收标 active"],
+  "locked": [
+    "顶部单行大字的面积与位置",
+    "右侧近景真人和左侧 2–4 层工具窗的相对面积",
+    "发丝压字与窗口前后错层",
+    "底部两个分置短词",
+    "暗底/亮主字/单处小面积强调的对比结构"
+  ],
+  "adaptive": [
+    "人物身份、服装与表情",
+    "工具界面和内容证据",
+    "主标题及短词文案",
+    "背景现场与具体色值"
+  ],
+  "optional": [
+    "真实少量屏幕反光",
+    "低对比的可验证界面细节"
+  ],
+  "forbidden": [
+    "横版机械裁切为 3:4",
+    "添加不存在的副标题",
+    "随机图标或贴纸代替工具证据",
+    "普通字体加全局噪声冒充缺墨",
+    "复制原图人物/软件品牌",
+    "未验收标 active"
+  ],
   "variableContract": {
     "person": "身份可变；右侧近景、脸部比例和局部出画关系不变",
     "text": "内容可变；主标题单行块形和双词分置关系不变",
@@ -33,21 +95,65 @@
   },
   "invariantContract": {
     "anatomy": "anatomy.json",
-    "effects": ["局部缺墨中文大字", "极浅字暗边", "人物发丝局部压字", "前大后小悬浮工具卡", "冷亮细边和柔影", "虚化室内背景"]
+    "effects": [
+      "局部缺墨中文大字",
+      "极浅字暗边",
+      "人物发丝局部压字",
+      "前大后小悬浮工具卡",
+      "冷亮细边和柔影",
+      "虚化室内背景"
+    ]
   },
   "assetTransformations": [
-    {"when": "人物和左侧暗底均已具备", "level": "T1", "action": "重裁与净场，保留发丝和脸部事实"},
-    {"when": "工具证据不足但人物可信", "level": "T2", "action": "用真实/脱敏界面补齐 2–4 层窗口"},
-    {"when": "人物近景或场景关系不成立", "level": "T3", "action": "补拍或锁定身份重建人物和空间"},
-    {"when": "请求 3:4", "level": "separate-variant", "action": "另行重排并测试，不裁切原横图"}
+    {
+      "when": "人物和左侧暗底均已具备",
+      "level": "T1",
+      "action": "重裁与净场，保留发丝和脸部事实"
+    },
+    {
+      "when": "工具证据不足但人物可信",
+      "level": "T2",
+      "action": "用真实/脱敏界面补齐 2–4 层窗口"
+    },
+    {
+      "when": "人物近景或场景关系不成立",
+      "level": "T3",
+      "action": "补拍或锁定身份重建人物和空间"
+    },
+    {
+      "when": "请求 3:4",
+      "level": "separate-variant",
+      "action": "另行重排并测试，不裁切原横图"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-038-distressed-han", "required": true, "status": "testing"},
-    {"role": "leftKeyword", "type": "font-style-id", "id": "dalala-cover-038-clean-latin", "variant": "shortAccent", "required": true, "status": "testing"},
-    {"role": "rightKeyword", "type": "font-style-id", "id": "dalala-cover-038-clean-latin", "variant": "wideKeyword", "required": true, "status": "testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-038-distressed-han",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "leftKeyword",
+      "type": "font-style-id",
+      "id": "dalala-cover-038-clean-latin",
+      "variant": "shortAccent",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "rightKeyword",
+      "type": "font-style-id",
+      "id": "dalala-cover-038-clean-latin",
+      "variant": "wideKeyword",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

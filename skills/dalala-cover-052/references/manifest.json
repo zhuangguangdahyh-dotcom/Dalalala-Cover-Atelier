@@ -3,25 +3,90 @@
   "coverSkillId": "dalala-cover-052",
   "displayName": "参考封面 052（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"prefixCharacters": [2, 4], "mainCharactersTotal": [4, 6], "mainColumns": 2, "charactersPerColumn": [2, 3]},
-  "subjectTypes": ["single human with upward-pointing gesture", "person with a pet or product and upward visual/action cue", "recognizable anthropomorphic subject with upward visual/action cue"],
-  "contentMoods": ["energetic", "playful", "hands-on creator demonstration", "before-to-after explanation"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "prefixCharacters": [
+      2,
+      4
+    ],
+    "mainCharactersTotal": [
+      4,
+      6
+    ],
+    "mainColumns": 2,
+    "charactersPerColumn": [
+      2,
+      3
+    ]
+  },
+  "subjectTypes": [
+    "single human with upward-pointing gesture",
+    "person with a pet or product and upward visual/action cue",
+    "recognizable anthropomorphic subject with upward visual/action cue"
+  ],
+  "contentMoods": [
+    "energetic",
+    "playful",
+    "hands-on creator demonstration",
+    "before-to-after explanation"
+  ],
   "firstVisualFocus": "central person's colorful head, dark eyewear, and high-chroma outline",
   "spatialSkeleton": "upper-left slanted light evidence card plus upper-center dark evidence card; central bottom-bleeding person; high right and low left oversized hand-lettered title",
-  "readingPath": ["central person", "right title", "left title", "thin handwritten prefix", "two evidence cards", "small marks"],
+  "readingPath": [
+    "central person",
+    "right title",
+    "left title",
+    "thin handwritten prefix",
+    "two evidence cards",
+    "small marks"
+  ],
   "imageTextRelationship": "the person points toward two result cards while split large words surround the silhouette and force the eye across the subject",
-  "locked": ["3:4 vertical skeleton", "center subject bleeding from bottom", "two overlapping cards with contrasting angle and lightness", "high-right/low-left title columns", "thin handwritten prefix above cards", "irregular bright outline around subject", "white halftone behind subject", "card edges partially hidden by subject"],
-  "adaptive": ["subject identity, clothes and pose content while keeping upward cue", "content of the two evidence cards", "title wording within fixed blocks", "brand and color values under fixed color roles", "minor prop identity"],
-  "optional": ["two white doodle stars", "small upper-right mark", "bottom-right paper corner", "small object in subject's lap"],
-  "forbidden": ["single horizontal headline", "equal flat screenshot pair", "text across face", "generic AI mascot as default", "uniform computer glow replacing hand-drawn outline", "all-over halftone wallpaper", "copying original identity or interface for another industry", "silent font substitution"],
+  "locked": [
+    "3:4 vertical skeleton",
+    "center subject bleeding from bottom",
+    "two overlapping cards with contrasting angle and lightness",
+    "high-right/low-left title columns",
+    "thin handwritten prefix above cards",
+    "irregular bright outline around subject",
+    "white halftone behind subject",
+    "card edges partially hidden by subject"
+  ],
+  "adaptive": [
+    "subject identity, clothes and pose content while keeping upward cue",
+    "content of the two evidence cards",
+    "title wording within fixed blocks",
+    "brand and color values under fixed color roles",
+    "minor prop identity"
+  ],
+  "optional": [
+    "two white doodle stars",
+    "small upper-right mark",
+    "bottom-right paper corner",
+    "small object in subject's lap"
+  ],
+  "forbidden": [
+    "single horizontal headline",
+    "equal flat screenshot pair",
+    "text across face",
+    "generic AI mascot as default",
+    "uniform computer glow replacing hand-drawn outline",
+    "all-over halftone wallpaper",
+    "copying original identity or interface for another industry",
+    "silent font substitution"
+  ],
   "variableContract": {
     "person": "identity and clothing may change; new subject returns to central near-half-body scale, bottom bleed, and upward gesture/attention cue",
     "text": "copy may change; prefix remains small and light, main words remain two large opposing vertical blocks with 2-3 glyphs each",
@@ -34,17 +99,47 @@
     "specialEffects": "fine subject cutout, hand-uneven outline thickness 1.5-2.5% of canvas width, irregular white halftone denser next to subject, mild card perspective and shadow, restrained distressed paper background"
   },
   "materialTransformation": [
-    {"level": "required", "action": "cutout and edge repair", "trigger": "every real-person or pet input"},
-    {"level": "required", "action": "crop, rotate and perspective on two evidence cards", "trigger": "every two-card input"},
-    {"level": "conditional", "action": "pose or view reconstruction", "trigger": "subject lacks upward action cue"},
-    {"level": "conditional", "action": "background extension or replacement", "trigger": "source photo cannot support central bottom bleed"}
+    {
+      "level": "required",
+      "action": "cutout and edge repair",
+      "trigger": "every real-person or pet input"
+    },
+    {
+      "level": "required",
+      "action": "crop, rotate and perspective on two evidence cards",
+      "trigger": "every two-card input"
+    },
+    {
+      "level": "conditional",
+      "action": "pose or view reconstruction",
+      "trigger": "subject lacks upward action cue"
+    },
+    {
+      "level": "conditional",
+      "action": "background extension or replacement",
+      "trigger": "source photo cannot support central bottom bleed"
+    }
   ],
   "fontDependencies": [
-    {"role": "mainTitle", "type": "font-style-id", "id": "dalala-cover-052-rough-white", "required": true, "status": "testing"},
-    {"role": "prefix", "type": "font-style-id", "id": "dalala-cover-052-thin-black", "required": true, "status": "testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-052-rough-white",
+      "required": true,
+      "status": "testing"
+    },
+    {
+      "role": "prefix",
+      "type": "font-style-id",
+      "id": "dalala-cover-052-thin-black",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

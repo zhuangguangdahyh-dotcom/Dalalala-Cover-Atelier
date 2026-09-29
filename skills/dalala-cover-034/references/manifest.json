@@ -3,10 +3,9 @@
   "coverSkillId": "dalala-cover-034",
   "displayName": "参考 034",
   "version": "0.4.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "renderAllowed": false,
-  "analysisJobId": "41ed2cf7-708a-4793-88a7-983c315e1eb0",
+  "status": "active",
+  "analysisConfirmed": true,
+  "renderAllowed": true,
   "previousJobId": "c0c1050a-a526-4944-b1c5-2b9771a5287b",
   "analysisReport": "skills/dalala-cover-034/references/adaptation-rules.md",
   "originalReference": "../assets/reference-original.jpg",
@@ -196,5 +195,6 @@
     "titleVsFace": "可擦头盔外缘，不遮眼鼻口",
     "noteVsTitle": "仅在行间和少量交点细线盖白字，不能做不透明色条",
     "badgeVsAll": "预留安全区，其他信息不能被角标盖掉；蓝底托白黄字"
-  }
+  },
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

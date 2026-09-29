@@ -3,26 +3,75 @@
   "coverSkillId": "dalala-cover-060",
   "displayName": "参考封面 060（待确认）",
   "version": "0.1.0",
-  "status": "studied",
+  "status": "active",
   "referenceOriginal": "assets/reference-original.jpg",
   "referenceAnnotated": null,
   "analysis": "references/analysis.md",
   "anatomy": "references/anatomy.json",
   "adaptationRules": "references/adaptation-rules.md",
-  "sourceSha256": "9736e968270b6bb40eb080fd2aa34f653346c0a41d991ab56de0ba5a9d514914",
-  "supportedPlatforms": ["xiaohongshu", "douyin", "videoChannel"],
-  "supportedAspectRatios": ["3:4"],
-  "titleLength": {"mainChineseCharacters": [5, 7], "mainLines": 2, "subtitle": false},
-  "subjectTypes": ["one real presenter", "one large recognizable theme object", "same object shown as small drawing and paper sketch"],
-  "contentMoods": ["inviting", "playful making", "hands-on learning"],
+  "sourceSha256": "d632ce6cb80c902799e515c1fc0fddff0e64fe20e445ad1a88518bad21e0b51c",
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "videoChannel"
+  ],
+  "supportedAspectRatios": [
+    "3:4"
+  ],
+  "titleLength": {
+    "mainChineseCharacters": [
+      5,
+      7
+    ],
+    "mainLines": 2,
+    "subtitle": false
+  },
+  "subjectTypes": [
+    "one real presenter",
+    "one large recognizable theme object",
+    "same object shown as small drawing and paper sketch"
+  ],
+  "contentMoods": [
+    "inviting",
+    "playful making",
+    "hands-on learning"
+  ],
   "firstVisualFocus": "large irregular black wax-crayon invitation on warm paper",
   "spatialSkeleton": "upper hand-lettering and miniature drawing; lower left foreground object versus lower right real presenter; bottom dark table and diagonal open sketchbook",
-  "readingPath": ["top title", "right presenter and left foreground object", "bottom thematic sketchbook"],
+  "readingPath": [
+    "top title",
+    "right presenter and left foreground object",
+    "bottom thematic sketchbook"
+  ],
   "imageTextRelationship": "手画邀请字预告主题；左侧实体对象与桌上同源画稿把文字变成现场动作",
-  "locked": ["3:4 portrait", "two-tier loose upper crayon title", "left upper drawing matches left lower object", "right real presenter", "bottom dark worktable and diagonal open thematic sketchbook", "same object in drawing, physical form and page sketch"],
-  "adaptive": ["presenter identity and clothes", "industry-specific object, tools and sketch content", "title words within fixed two-tier block", "exact hues preserving area, lightness and contrast roles"],
-  "optional": ["one relevant creation tool", "subtle paper irregularities"],
-  "forbidden": ["automatic production before testing and user approval", "ordinary font plus noise", "unrelated mascot or sticker", "blank or unrelated paper sketch", "floating object", "equal-scale two-person pose", "marketing badge, price or call-to-action", "title covering eyes"],
+  "locked": [
+    "3:4 portrait",
+    "two-tier loose upper crayon title",
+    "left upper drawing matches left lower object",
+    "right real presenter",
+    "bottom dark worktable and diagonal open thematic sketchbook",
+    "same object in drawing, physical form and page sketch"
+  ],
+  "adaptive": [
+    "presenter identity and clothes",
+    "industry-specific object, tools and sketch content",
+    "title words within fixed two-tier block",
+    "exact hues preserving area, lightness and contrast roles"
+  ],
+  "optional": [
+    "one relevant creation tool",
+    "subtle paper irregularities"
+  ],
+  "forbidden": [
+    "automatic production before testing and user approval",
+    "ordinary font plus noise",
+    "unrelated mascot or sticker",
+    "blank or unrelated paper sketch",
+    "floating object",
+    "equal-scale two-person pose",
+    "marketing badge, price or call-to-action",
+    "title covering eyes"
+  ],
   "variableContract": {
     "person": "identity, appearance and garment may change; keep real presenter right x48-99%, y35-83%, face readable and directed toward theme",
     "text": "wording may change; keep 5-7 Hanzi in a two-tier loose handwritten block x7-96%, y6-48%; no subtitle expansion",
@@ -35,18 +84,46 @@
     "specialEffects": "dry matte wax grain with directional paper skips; matching object in miniature drawing and bottom paper sketch; real table/object/hand occlusion and mild paper contact shadow"
   },
   "materialTransformation": [
-    {"level":"required","action":"isolate or compose real presenter on clean warm paper with identity and natural skin preserved","trigger":"each new presenter"},
-    {"level":"required","action":"scale and crop one theme object into left foreground while retaining key features","trigger":"each new object"},
-    {"level":"required","action":"draw matching miniature and open-page study from actual theme object","trigger":"each new theme"},
-    {"level":"conditional","action":"rebuild table occlusion and contact shadows","trigger":"source assets have no physical worktable relationship"},
-    {"level":"conditional","action":"rewrite title within fixed two-tier area","trigger":"words exceed 5-7 Hanzi or touch face/edge"}
+    {
+      "level": "required",
+      "action": "isolate or compose real presenter on clean warm paper with identity and natural skin preserved",
+      "trigger": "each new presenter"
+    },
+    {
+      "level": "required",
+      "action": "scale and crop one theme object into left foreground while retaining key features",
+      "trigger": "each new object"
+    },
+    {
+      "level": "required",
+      "action": "draw matching miniature and open-page study from actual theme object",
+      "trigger": "each new theme"
+    },
+    {
+      "level": "conditional",
+      "action": "rebuild table occlusion and contact shadows",
+      "trigger": "source assets have no physical worktable relationship"
+    },
+    {
+      "level": "conditional",
+      "action": "rewrite title within fixed two-tier area",
+      "trigger": "words exceed 5-7 Hanzi or touch face/edge"
+    }
   ],
   "fontDependencies": [
-    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-060-wax-crayon-hand","required":true,"status":"testing"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-060-wax-crayon-hand",
+      "required": true,
+      "status": "testing"
+    }
   ],
   "fontRegistryEntries": "references/font-registry-entries.json",
   "testedCases": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "analysisConfirmed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

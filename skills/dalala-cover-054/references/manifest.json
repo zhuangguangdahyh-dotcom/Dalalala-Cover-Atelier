@@ -3,28 +3,85 @@
   "coverSkillId": "dalala-cover-054",
   "displayName": "参考封面 054",
   "version": "0.1.0",
-  "status": "studied",
-  "analysisConfirmed": false,
-  "analysisJobId": "bfbb9653-5e8f-4a48-acee-267164b8453e",
+  "status": "active",
+  "analysisConfirmed": true,
   "analysisReport": "skills/dalala-cover-054/references/adaptation-rules.md",
   "referenceOriginal": "../assets/reference-original.jpg",
   "referenceAnnotated": null,
   "approvedTest": null,
-  "supportedPlatforms": ["xiaohongshu", "douyin", "wechat-channels"],
+  "supportedPlatforms": [
+    "xiaohongshu",
+    "douyin",
+    "wechat-channels"
+  ],
   "sourceRatio": "3:4",
   "verifiedRatios": [],
   "plannedRatioVariants": [],
-  "titleLength": {"latinFirstLineCharacters":[11,17],"latinSecondLineCharacters":[4,8],"hanCharactersPerLineUnverified":[3,6],"structure":"two centered lines, first wider than second","overflowAction":"rewrite"},
-  "subjectTypes": ["coherent staged product group", "spatial vignette with ground contact", "brand exhibition grouping"],
-  "contentEmotions": ["warmth", "elegance", "aspirational living", "staged launch"],
+  "titleLength": {
+    "latinFirstLineCharacters": [
+      11,
+      17
+    ],
+    "latinSecondLineCharacters": [
+      4,
+      8
+    ],
+    "hanCharactersPerLineUnverified": [
+      3,
+      6
+    ],
+    "structure": "two centered lines, first wider than second",
+    "overflowAction": "rewrite"
+  },
+  "subjectTypes": [
+    "coherent staged product group",
+    "spatial vignette with ground contact",
+    "brand exhibition grouping"
+  ],
+  "contentEmotions": [
+    "warmth",
+    "elegance",
+    "aspirational living",
+    "staged launch"
+  ],
   "firstVisualFocus": "wide luminous display window and central staged scene",
   "spatialSkeleton": "dark textile base, luminous wide display window, smaller staged scene, dark band, projected arc with two-line title, dark band, extra-heavy footer endorsement",
-  "readingPath": ["lit window and staged scene", "theme in arc light", "supporting copy", "large footer endorsement", "header provenance"],
+  "readingPath": [
+    "lit window and staged scene",
+    "theme in arc light",
+    "supporting copy",
+    "large footer endorsement",
+    "header provenance"
+  ],
   "imageTextRelationship": "scene establishes the object; arc-lit text gives it a theme; large footer names the publisher",
-  "locked": ["3:4 three-stage vertical composition", "three-point header", "thick bright display frame and smaller scene", "two dark breathing bands", "soft arc projection", "two-line centered light serif title", "one-line extra-heavy serif footer"],
-  "adaptive": ["real products and people", "coherent scene props", "accurate copy and marks", "specific hues"],
-  "optional": ["muted cool rear accent", "brief italic supporting word"],
-  "forbidden": ["full-bleed window photo", "single-stroke border", "floating objects", "hard-edged disc light", "ordinary small footer", "copied original brands", "active before acceptance"],
+  "locked": [
+    "3:4 three-stage vertical composition",
+    "three-point header",
+    "thick bright display frame and smaller scene",
+    "two dark breathing bands",
+    "soft arc projection",
+    "two-line centered light serif title",
+    "one-line extra-heavy serif footer"
+  ],
+  "adaptive": [
+    "real products and people",
+    "coherent scene props",
+    "accurate copy and marks",
+    "specific hues"
+  ],
+  "optional": [
+    "muted cool rear accent",
+    "brief italic supporting word"
+  ],
+  "forbidden": [
+    "full-bleed window photo",
+    "single-stroke border",
+    "floating objects",
+    "hard-edged disc light",
+    "ordinary small footer",
+    "copied original brands",
+    "active before acceptance"
+  ],
   "variableContract": {
     "person": "may change only as staged scene participant, not window-filling headshot",
     "text": "content may change while line count, boxes, rank and block silhouettes remain; rewrite overflow",
@@ -35,22 +92,72 @@
     "anatomy": "anatomy.json",
     "layout": "window x5.5–94.5/y14–53; scene x26–72/y18–50; arc x8–94/y60–82; title x27–73/y65–77; footer x6–94/y91–97",
     "contentArea": "scene smaller than window with about 18–25% canvas-width quiet space on each side; thick frame 2.3–2.8% of width",
-    "specialEffects": ["thick luminous frame", "fine dark textile", "soft projected arc with diagonal shadow", "credible scene contact shadows"]
+    "specialEffects": [
+      "thick luminous frame",
+      "fine dark textile",
+      "soft projected arc with diagonal shadow",
+      "credible scene contact shadows"
+    ]
   },
   "assetTransformation": [
-    {"when":"scene too full","level":"T1","action":"recrop or expand scene to restore dark inner margins"},
-    {"when":"separate objects need one stage","level":"T2","action":"cut out and assemble in common perspective and light"},
-    {"when":"contact or brand facts absent","level":"T3","action":"collect credible assets and true attribution"}
+    {
+      "when": "scene too full",
+      "level": "T1",
+      "action": "recrop or expand scene to restore dark inner margins"
+    },
+    {
+      "when": "separate objects need one stage",
+      "level": "T2",
+      "action": "cut out and assemble in common perspective and light"
+    },
+    {
+      "when": "contact or brand facts absent",
+      "level": "T3",
+      "action": "collect credible assets and true attribution"
+    }
   ],
   "fontDependencies": [
-    {"role":"mainTitle","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"mainTitle","required":true,"status":"testing","script":"Latin"},
-    {"role":"subtitle","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"supportingSerif","required":true,"status":"testing","script":"Latin"},
-    {"role":"footerBrand","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"footerDisplay","required":true,"status":"testing","script":"Latin"},
-    {"role":"headerSerif","type":"font-style-id","id":"dalala-cover-054-editorial-didone","variant":"supportingSerif","required":false,"status":"testing","script":"Latin"}
+    {
+      "role": "mainTitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-054-editorial-didone",
+      "variant": "mainTitle",
+      "required": true,
+      "status": "testing",
+      "script": "Latin"
+    },
+    {
+      "role": "subtitle",
+      "type": "font-style-id",
+      "id": "dalala-cover-054-editorial-didone",
+      "variant": "supportingSerif",
+      "required": true,
+      "status": "testing",
+      "script": "Latin"
+    },
+    {
+      "role": "footerBrand",
+      "type": "font-style-id",
+      "id": "dalala-cover-054-editorial-didone",
+      "variant": "footerDisplay",
+      "required": true,
+      "status": "testing",
+      "script": "Latin"
+    },
+    {
+      "role": "headerSerif",
+      "type": "font-style-id",
+      "id": "dalala-cover-054-editorial-didone",
+      "variant": "supportingSerif",
+      "required": false,
+      "status": "testing",
+      "script": "Latin"
+    }
   ],
   "fontRegistryEntries": "font-registry-entries.json",
   "passedTests": [],
   "thumbnailChecks": [],
   "userAcceptance": null,
-  "renderAllowed": false
+  "renderAllowed": true,
+  "publicReferenceSubstitution": "原始封面未获公开再分发授权；本安装版使用已验收展示样张作为视觉参考。"
 }

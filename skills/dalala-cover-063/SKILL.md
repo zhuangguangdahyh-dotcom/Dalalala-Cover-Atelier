@@ -2,6 +2,8 @@
 name: dalala-cover-063
 description: 3:4 复古插画封面；左上切角宋骨大问题、右侧仰头人物与上方物件互动、底部宴席式群像。当前仅 studied，供复刻测试，不供正式生产。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考封面 063（待测试）
 

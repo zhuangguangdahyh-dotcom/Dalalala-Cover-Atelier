@@ -2,6 +2,8 @@
 name: dalala-cover-057
 description: 将左下实拍人物、右侧白色线描指导者、手中证据物与底部线描场景组合成跨媒介讲解封面；仅供参考 057 拆解确认和后续复刻测试。
 ---
+> 公开安装版当前状态：此模板已验收上架，可以制作。以 `cover-skills/registry.json` 与本机模板目录为准；下文历史拆解阶段的 `studied`、`testing`、未验收或 `renderAllowed=false` 字样不构成当前调用禁令。视觉参考已替换为已验收展示样张，仍须执行质量检查。
+
 
 # 参考 057 Cover Skill｜测试前规则
 
