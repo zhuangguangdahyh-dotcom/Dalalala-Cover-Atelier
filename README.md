@@ -11,6 +11,8 @@
 3. **Codex CLI，已在本机登录。** 在终端执行 `codex --version` 检查。封面制作、拆解与最终验收由本机 `codex exec` 执行。只安装工作台而没有可用的 Codex，仍能浏览模板，但制作任务会失败。Codex 运行环境还必须能实际调用图像生成工具；检测到 CLI 不等于已经验证生图可用。
 4. **网络连接。** 下载仓库、Codex 执行及图像生成需要网络；可用性取决于安装者的账号与服务地区。
 
+工作台的封面制作、参考拆解、复刻测试和最终验收默认调用 `gpt-6.1-sol`，推理强度为 `high`（高），由工作台显式传给本机 Codex。
+
 ## 下载和启动
 
 在 [GitHub 仓库](https://github.com/zhuangguangdahyh-dotcom/Dalalala-Cover-Atelier) 点击 **Code → Download ZIP**，解压到一个以后不随意移动的文件夹；也可以用 Git：

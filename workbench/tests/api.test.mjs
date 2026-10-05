@@ -54,15 +54,15 @@ test('batch decomposition queues once and supports promote, pause, resume, cance
  assert.equal((await req('/api/jobs/batch-study',{templateIds:['dalala-cover-004']},clientA.cookie)).status,400);
 });
 
-test('workbench launches Codex with GPT-6 Sol and medium reasoning',async()=>{
+test('workbench launches Codex with GPT-6.1 Sol and high reasoning',async()=>{
  const submitted=await req('/api/jobs/batch-study',{templateIds:['dalala-cover-002']},admin.cookie);
  assert.equal(submitted.d.jobs.length,1);
  let args;
  for(let i=0;i<80;i++){args=await fs.readFile(path.join(tmp,'codex-args.txt'),'utf8').catch(()=>null);if(args)break;await new Promise(resolve=>setTimeout(resolve,25))}
  assert.ok(args,'the fake executor should capture the workbench Codex arguments');
  const parts=args.trim().split('\n');
- assert.deepEqual(parts.slice(parts.indexOf('--model'),parts.indexOf('--model')+2),['--model','gpt-6-sol']);
- assert.deepEqual(parts.slice(parts.indexOf('--config'),parts.indexOf('--config')+2),['--config','model_reasoning_effort=medium']);
+ assert.deepEqual(parts.slice(parts.indexOf('--model'),parts.indexOf('--model')+2),['--model','gpt-6.1-sol']);
+ assert.deepEqual(parts.slice(parts.indexOf('--config'),parts.indexOf('--config')+2),['--config','model_reasoning_effort=high']);
  await req('/api/jobs/'+submitted.d.jobs[0].id+'/cancel',{},admin.cookie);
 });
 

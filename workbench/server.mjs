@@ -14,7 +14,7 @@ const registryPath=process.env.DALALA_REGISTRY||path.join(root,'cover-skills/reg
 const registryBase=path.join(root,'cover-skills');
 const modelRegistryPath=path.join(root,'model-assets/registry.json');
 // Keep the workbench executor independent from the user's global Codex default.
-const workbenchCodexModel='gpt-6-sol',workbenchReasoningEffort='medium';
+const workbenchCodexModel='gpt-6.1-sol',workbenchReasoningEffort='high';
 const read=async(p,fallback)=>{try{return JSON.parse(await fs.readFile(p,'utf8'))}catch(e){if(e.code==='ENOENT'&&fallback!==undefined)return fallback;throw e}};
 const save=async(p,v)=>{await fs.mkdir(path.dirname(p),{recursive:true});const temp=p+'.'+randomUUID()+'.tmp';await fs.writeFile(temp,JSON.stringify(v,null,2));await fs.rename(temp,p)};
 // Public install packages carry approved template metadata and demonstration

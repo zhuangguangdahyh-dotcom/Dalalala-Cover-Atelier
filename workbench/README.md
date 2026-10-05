@@ -14,7 +14,7 @@
 
 ## 制作执行器
 
-服务器以 `codex exec --model gpt-6-sol --config model_reasoning_effort=medium --sandbox workspace-write` 调用本机已登录 Codex；模型与推理强度由工作台固定，不受本机 Codex 全局默认值变化影响。任务先写 `request.json`，执行器加载所选 Skill 与用户数据，再生成分析和成品。仅在 `result.json` 声明成功且实际 PNG 存在时进入交付。后端拆解任务要求实际 Skill 文件存在才算完成。
+服务器以 `codex exec --model gpt-6.1-sol --config model_reasoning_effort=high --sandbox workspace-write` 调用本机已登录 Codex；模型与推理强度由工作台固定，不受本机 Codex 全局默认值变化影响。任务先写 `request.json`，执行器加载所选 Skill 与用户数据，再生成分析和成品。仅在 `result.json` 声明成功且实际 PNG 存在时进入交付。后端拆解任务要求实际 Skill 文件存在才算完成。
 
 真实图像生成仍需在运行时验证。本机检测到 Codex 不代表非交互环境一定拥有图像工具或有效授权；不可用时任务显示失败，不会把参考图或旧输出当成新作品。
 
